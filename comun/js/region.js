@@ -54,9 +54,9 @@
       ["poblacion_manual", "Población 2015 (M, manual)", 1, true],
       ["poblacion", "Población 2025 (M)", 1, true],
       ["densidad_manual", "Densidad 2015 (manual)", 0, true],
-      ["densidad", "Densidad actual", 0, true],
+      ["densidad", "Densidad 2024-25", 0, true],
       ["pct65_manual", "65 y más, 2015 (%)", 0, true],
-      ["pct65", "65 y más, actual (%)", 1, true],
+      ["pct65", "65 y más, 2025 (%)", 1, true],
     ];
     let orden = ["poblacion", -1];
     const pinta = () => {

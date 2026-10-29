@@ -123,7 +123,7 @@
         };
         capa.leyenda = () => "<ul>" + rangos(c.clases, c.unidad).map((r, i) => "<li>" + caja(c.colores[i]) + RM.esc(r) + "</li>").join("") +
           '<li><span class="caja sin" style="background:#eef0ec"></span>Sin datos</li></ul>' +
-          (D[c.datos].nota ? '<p class="nota">' + RM.esc(D[c.datos].nota) + "</p>" : "");
+          '<p class="nota">Medias por país. Fuentes y notas en la pestaña Capas y en la presentación de la región.</p>';
       } else if (c.tipo === "categorias") {
         const datos = D[c.datos];
         const cat = (iso) => datos.paises[iso];
