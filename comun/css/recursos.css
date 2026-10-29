@@ -1,0 +1,65 @@
+.selector-productos { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; font-family: var(--sans); margin-bottom: 1rem; }
+.selector-productos .grupo { display: flex; flex-wrap: wrap; gap: .3rem; align-items: center; }
+.selector-productos .grupo > span { font-size: .78rem; color: var(--tinta-2); margin-right: .2rem; }
+.selector-productos button { font-size: .82rem; padding: .3rem .55rem; }
+.selector-productos button[aria-pressed="true"] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+
+.cab-producto { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1.5rem; border-bottom: 1px solid var(--tinta); padding-bottom: .4rem; margin-bottom: 1rem; }
+.cab-producto h2 { margin: 0; }
+.cab-producto h2 small { font-size: .9rem; font-weight: 400; color: var(--tinta-2); margin-left: .5rem; font-family: var(--sans); }
+.anios { display: flex; gap: 0; border: 1px solid var(--linea); border-radius: var(--radio); overflow: hidden; font-family: var(--sans); }
+.anios button { border: 0; border-radius: 0; border-right: 1px solid var(--linea); font-size: .84rem; padding: .3rem .6rem; }
+.anios button:last-child { border-right: 0; }
+.anios button[aria-pressed="true"] { background: var(--tinta); color: var(--papel); }
+
+.rejilla-produccion { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 1.5rem 2rem; }
+@media (max-width: 960px) { .rejilla-produccion { grid-template-columns: 1fr; } }
+figure { margin: 0; }
+figure figcaption { font-family: var(--sans); font-size: .86rem; font-weight: 600; color: var(--tinta-2); margin-bottom: .3rem; }
+.fig-mapa svg { width: 100%; height: auto; display: block; background: var(--mar); border: 1px solid var(--linea); }
+.fig-ranking svg, .fig-evolucion svg { width: 100%; height: auto; display: block; }
+svg .pais-p { stroke: var(--papel); stroke-width: .35; }
+svg .pais-p.region { stroke: var(--tinta); stroke-width: .8; }
+svg .barra-r { fill: #8fa9b2; }
+svg .barra-r.region { fill: var(--magenta); }
+svg .barra-r.agregado { fill: none; stroke: var(--magenta); stroke-width: 1.5; stroke-dasharray: 3 2; }
+svg .rot { font-family: var(--sans); font-size: 12px; fill: var(--tinta); }
+svg .rot.valor { fill: var(--tinta-2); font-variant-numeric: tabular-nums; }
+svg .rot.region { font-weight: 600; }
+svg .eje text { font-family: var(--sans); fill: var(--tinta-2); font-size: 11px; }
+svg .eje path, svg .eje line { stroke: var(--tinta-3); }
+svg .rejilla-l { stroke: #dfe4e2; }
+svg .linea-e { fill: none; stroke-width: 2; }
+svg .linea-e.agregado { stroke-dasharray: 5 3; stroke-width: 2.4; }
+
+.leyenda-linea { display: flex; flex-wrap: wrap; gap: .25rem .9rem; font-family: var(--sans); font-size: .78rem; color: var(--tinta-2); margin-top: .4rem; font-weight: 400; }
+.leyenda-linea span { display: inline-flex; align-items: center; gap: .3rem; }
+.leyenda-linea i { display: inline-block; width: .9rem; height: .6rem; border: 1px solid rgba(29, 42, 48, .2); }
+.leyenda-linea i.l { height: 0; border: 0; border-top: 2.5px solid; }
+.leyenda-linea i.l.d { border-top-style: dashed; }
+
+.fig-manual h3 { font-size: 1.05rem; margin-bottom: .6rem; }
+.afirmacion { border-left: 3px solid var(--magenta); padding: .1rem 0 .1rem .8rem; margin: 0 0 1rem; font-family: var(--sans); font-size: .9rem; }
+.afirmacion .que { font-family: var(--serif); font-size: 1rem; color: var(--tinta-2); margin: 0 0 .35rem; }
+.afirmacion .hoy { font-weight: 600; margin: 0; }
+.afirmacion .ap { font-size: .76rem; color: var(--tinta-3); margin: .25rem 0 0; }
+.fig-manual .vacio { font-family: var(--sans); font-size: .88rem; color: var(--tinta-2); }
+
+.controles-energia { display: flex; flex-wrap: wrap; gap: .5rem .8rem; align-items: center; font-family: var(--sans); font-size: .9rem; margin-bottom: 1rem; }
+.controles-energia select { font-family: var(--sans); font-size: .9rem; padding: .35rem; border: 1px solid var(--linea); border-radius: var(--radio); background: var(--tierra); min-width: 12rem; }
+.rejilla-energia { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 1.5rem 2rem; margin-bottom: 1.5rem; }
+@media (max-width: 960px) { .rejilla-energia { grid-template-columns: 1fr; } }
+.rejilla-energia svg { width: 100%; height: auto; display: block; }
+.pequenos { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem 1.5rem; }
+.pequenos figure svg { width: 100%; height: auto; display: block; }
+svg .prod { fill: none; stroke: #2f6c8f; stroke-width: 2.2; }
+svg .cons { fill: none; stroke: #9c3a1f; stroke-width: 2.2; }
+svg .hueco { fill: #f1d2c3; opacity: .8; }
+svg .excedente { fill: #cfe0e8; opacity: .8; }
+
+#pesas { width: 100%; height: auto; display: block; max-width: 900px; }
+svg .pesa-l { stroke: #b9c4c6; stroke-width: 2; }
+svg .pesa-a { fill: var(--tierra); stroke: var(--tinta-2); stroke-width: 1.5; }
+svg .pesa-b { fill: var(--tinta); }
+svg .pesa-b.comp { fill: var(--magenta); }
+svg .sep { stroke: var(--tinta-3); stroke-dasharray: 3 3; }

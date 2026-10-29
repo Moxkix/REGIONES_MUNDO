@@ -39,6 +39,7 @@ def main(entrada, salida):
     nombres["XKX"] = "Kosovo"
     nombres["MKD"] = "Macedonia del Norte"
     nombres["CZE"] = "Chequia"
+    nombres["ROU"] = "Rumanía"
     nombres["CYN"] = "Chipre del Norte"
     nombres["SOL"] = "Somalilandia"
     feats = []

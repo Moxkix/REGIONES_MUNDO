@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Producciones y recursos</title>
+  <link rel="icon" href="comun/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="comun/css/base.css">
+  <link rel="stylesheet" href="comun/css/mapa.css">
+  <link rel="stylesheet" href="comun/css/climas.css">
+  <link rel="stylesheet" href="comun/css/recursos.css">
+</head>
+<body>
+  <header class="barra" id="barra"></header>
+  <main id="recursos">
+    <div class="pestanas-pagina" role="tablist" aria-label="Secciones">
+      <button type="button" role="tab" aria-selected="true" aria-controls="s-produccion" id="t-produccion">Producción mundial</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-energia" id="t-energia">Balance energético</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-agrario" id="t-agrario">Sector agrario</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-preguntas" id="t-preguntas">Preguntas</button>
+    </div>
+
+    <section id="s-produccion" role="tabpanel" aria-labelledby="t-produccion" class="seccion">
+      <div class="selector-productos" id="productos" aria-label="Productos"></div>
+      <div class="cab-producto">
+        <h2 id="titulo-producto"></h2>
+        <div class="anios" id="anios" role="group" aria-label="Año"></div>
+      </div>
+      <div class="rejilla-produccion">
+        <figure class="fig-mapa">
+          <svg id="mapa-produccion" role="img" aria-label="Mapa de cuotas de producción"></svg>
+          <figcaption id="leyenda-produccion" class="leyenda-linea"></figcaption>
+        </figure>
+        <figure class="fig-ranking">
+          <figcaption>Principales productores</figcaption>
+          <svg id="ranking" role="img" aria-label="Principales productores"></svg>
+        </figure>
+        <figure class="fig-evolucion">
+          <figcaption>Evolución de la cuota mundial (%)</figcaption>
+          <svg id="evolucion" role="img" aria-label="Evolución de la cuota mundial"></svg>
+          <div class="leyenda-linea" id="leyenda-evolucion"></div>
+        </figure>
+        <aside class="fig-manual" id="manual-producto"></aside>
+      </div>
+      <p class="nota" id="fuente-producto"></p>
+    </section>
+
+    <section id="s-energia" role="tabpanel" aria-labelledby="t-energia" class="seccion" hidden>
+      <div class="controles-energia">
+        <label for="pais-a">País</label><select id="pais-a"></select>
+        <label for="pais-b">Comparar con</label><select id="pais-b"></select>
+      </div>
+      <div id="indicadores-energia"></div>
+      <div class="rejilla-energia">
+        <figure>
+          <figcaption id="tit-consumo">Consumo de energía primaria por fuente (TWh)</figcaption>
+          <svg id="consumo" role="img" aria-label="Consumo de energía primaria por fuente"></svg>
+          <div class="leyenda-linea" id="leyenda-consumo"></div>
+        </figure>
+        <figure>
+          <figcaption id="tit-electricidad">Generación eléctrica por fuente</figcaption>
+          <svg id="electricidad" role="img" aria-label="Generación eléctrica por fuente"></svg>
+        </figure>
+      </div>
+      <h3>Producción frente a consumo de combustibles fósiles (TWh)</h3>
+      <p class="guia">Cuando la línea de consumo queda por encima de la de producción, la diferencia sombreada es lo que el país tiene que importar.</p>
+      <div class="pequenos" id="fosiles"></div>
+      <p class="nota" id="fuente-energia"></p>
+    </section>
+
+    <section id="s-agrario" role="tabpanel" aria-labelledby="t-agrario" class="seccion" hidden>
+      <div class="controles-energia">
+        <label for="indicador">Indicador</label><select id="indicador"></select>
+      </div>
+      <p class="guia" id="explica-indicador"></p>
+      <svg id="pesas" role="img" aria-label="Indicador agrario en 2000 y en el último año"></svg>
+      <p class="nota" id="fuente-agrario"></p>
+    </section>
+
+    <section id="s-preguntas" role="tabpanel" aria-labelledby="t-preguntas" class="seccion" hidden>
+      <div class="contenido-estrecho">
+        <p class="guia">Cada pregunta abre la vista que necesitáis. Volved a esta pestaña para seguir.</p>
+        <div id="cuestionario"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie" id="pie"></footer>
+  <script src="comun/vendor/d3.min.js"></script>
+  <script src="comun/vendor/topojson-client.min.js"></script>
+  <script src="comun/js/nucleo.js"></script>
+  <script src="comun/js/pie.js"></script>
+  <script src="comun/js/cuestionario.js"></script>
+  <script src="comun/js/recursos.js"></script>
+</body>
+</html>

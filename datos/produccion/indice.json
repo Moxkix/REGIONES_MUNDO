@@ -1,0 +1,76 @@
+{
+ "productos": [
+  {
+   "id": "carbon",
+   "nombre": "Carbón",
+   "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "eolica_solar",
+   "nombre": "Electricidad eólica y solar",
+   "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2025
+   ]
+  },
+  {
+   "id": "gas",
+   "nombre": "Gas natural",
+   "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "hidraulica",
+   "nombre": "Electricidad hidráulica",
+   "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2025
+   ]
+  },
+  {
+   "id": "nuclear",
+   "nombre": "Electricidad nuclear",
+   "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2025
+   ]
+  },
+  {
+   "id": "petroleo",
+   "nombre": "Petróleo",
+   "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  }
+ ]
+}
