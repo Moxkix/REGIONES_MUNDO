@@ -274,16 +274,20 @@
 
     function escala(k, dominio, rango) {
       const log = IND[k].escala === "log";
-      return (log ? d3.scaleLog().domain([Math.max(dominio[0], 1e-3), dominio[1]]) : d3.scaleLinear().domain(dominio)).nice().range(rango);
+      if (log) return d3.scaleLog().domain([Math.max(dominio[0], 1e-3) / 1.15, dominio[1] * 1.15]).range(rango);
+      const e = (dominio[1] - dominio[0]) * 0.04, pct = /%/.test(IND[k].nombre);
+      let d = d3.scaleLinear().domain([dominio[0] - e, dominio[1] + e]).nice().domain();
+      if (dominio[0] >= 0) d[0] = Math.max(d[0], 0);
+      if (pct && dominio[1] <= 100) d[1] = Math.min(d[1], 100);
+      return d3.scaleLinear().domain(d).range(rango);
     }
     function pintarExplorador(animar) {
       const W = anchoDe("#dispersion", 340, 1100), H = Math.round(Math.min(560, Math.max(320, W * 0.55))), m = { t: 16, r: 18, b: 46, l: 58 };
       const ids = Object.keys(IND[X.x].valores).filter((id) => !AGR[id] && NOMBRE.has(id));
       const todos = ids.flatMap((id) => aniosEx.map((a) => [valor(X.x, id, a), valor(X.y, id, a)])).filter((p) => p[0] && p[1]);
       const dx = d3.extent(todos, (p) => p[0][0]), dy = d3.extent(todos, (p) => p[1][0]);
-      const holgura = (d) => { const e = (d[1] - d[0]) * 0.04; return [d[0] - e, d[1] + e]; };
-      const x = escala(X.x, IND[X.x].escala === "log" ? dx : holgura(dx), [m.l, W - m.r]);
-      const y = escala(X.y, IND[X.y].escala === "log" ? dy : holgura(dy), [H - m.b, m.t]);
+      const x = escala(X.x, dx, [m.l, W - m.r]);
+      const y = escala(X.y, dy, [H - m.b, m.t]);
       const r = d3.scaleSqrt().domain([0, 1.45e6]).range([0, W < 500 ? 26 : 42]);
       svgD.attr("viewBox", [0, 0, W, H]);
       if (svgD.select("g.ejes").empty()) {
