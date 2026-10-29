@@ -1,6 +1,15 @@
 {
  "productos": [
   {
+   "id": "bauxita",
+   "nombre": "Bauxita",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
+   ]
+  },
+  {
    "id": "carbon",
    "nombre": "Carbón",
    "grupo": "energia",
@@ -10,6 +19,24 @@
     2010,
     2020,
     2024
+   ]
+  },
+  {
+   "id": "cobalto",
+   "nombre": "Cobalto",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
+   ]
+  },
+  {
+   "id": "cobre",
+   "nombre": "Cobre (minería)",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
    ]
   },
   {
@@ -49,6 +76,24 @@
    ]
   },
   {
+   "id": "hierro",
+   "nombre": "Mineral de hierro",
+   "grupo": "mineria",
+   "anios": [
+    2024,
+    2025
+   ]
+  },
+  {
+   "id": "litio",
+   "nombre": "Litio",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
+   ]
+  },
+  {
    "id": "nuclear",
    "nombre": "Electricidad nuclear",
    "grupo": "energia",
@@ -70,6 +115,24 @@
     2010,
     2020,
     2024
+   ]
+  },
+  {
+   "id": "tierras_raras",
+   "nombre": "Tierras raras",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
+   ]
+  },
+  {
+   "id": "wolframio",
+   "nombre": "Wolframio",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
    ]
   }
  ]
