@@ -46,6 +46,7 @@
     { id: "climas", pagina: "climas.html", nombre: "Climogramas" },
     { id: "recursos", pagina: "recursos.html", nombre: "Producciones y recursos" },
     { id: "poblacion", pagina: "poblacion.html", nombre: "Población y desarrollo" },
+    { id: "paisajes", pagina: "paisajes.html", nombre: "Paisajes" },
   ];
 
   function cabecera(contenedor, ficha, actual, motores) {

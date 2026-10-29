@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lectura de paisajes</title>
+  <link rel="icon" href="comun/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="comun/css/base.css">
+  <link rel="stylesheet" href="comun/css/mapa.css">
+  <link rel="stylesheet" href="comun/css/climas.css">
+  <link rel="stylesheet" href="comun/css/recursos.css">
+  <link rel="stylesheet" href="comun/css/paisajes.css">
+</head>
+<body>
+  <header class="barra" id="barra"></header>
+  <main id="paisajes">
+    <div class="pestanas-pagina" role="tablist" aria-label="Secciones">
+      <button type="button" role="tab" aria-selected="true" aria-controls="s-lectura" id="t-lectura">Lectura de paisajes</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-mapa" id="t-mapa">Mapa de los paisajes</button>
+    </div>
+
+    <section id="s-lectura" role="tabpanel" aria-labelledby="t-lectura" class="seccion">
+      <div id="galeria">
+        <div class="cab-galeria">
+          <p class="guia" id="guia-galeria">Cada fotografía se trabaja como en la PEC: localizar el paisaje, explicar su clima y describir la vegetación y la actividad económica. Elegid una.</p>
+          <label class="conmutador"><input type="checkbox" id="reto"> Modo reto: ocultar el nombre de los paisajes</label>
+        </div>
+        <ol class="rejilla-paisajes" id="rejilla-paisajes"></ol>
+      </div>
+      <article id="ejercicio" hidden></article>
+    </section>
+
+    <section id="s-mapa" role="tabpanel" aria-labelledby="t-mapa" class="seccion" hidden>
+      <p class="guia">Este mapa desvela dónde está cada paisaje. Pulsad un número para abrir su ejercicio.</p>
+      <div class="marco-mapa">
+        <svg id="mapa-paisajes" role="img" aria-label="Mapa de los paisajes sobre los climas de Köppen"></svg>
+      </div>
+      <div class="leyenda-linea" id="leyenda-mapa-paisajes"></div>
+    </section>
+  </main>
+
+  <dialog id="visor" aria-label="Fotografía ampliada">
+    <figure><img id="visor-img" alt=""><figcaption id="visor-pie"></figcaption></figure>
+    <button type="button" id="visor-cerrar" class="principal">Cerrar</button>
+  </dialog>
+
+  <footer class="pie" id="pie"></footer>
+  <script src="comun/vendor/d3.min.js"></script>
+  <script src="comun/vendor/topojson-client.min.js"></script>
+  <script src="comun/js/nucleo.js"></script>
+  <script src="comun/js/pie.js"></script>
+  <script src="comun/js/mapa.js"></script>
+  <script src="comun/js/koppen.js"></script>
+  <script src="comun/js/climograma.js"></script>
+  <script src="comun/js/cuestionario.js"></script>
+  <script src="comun/js/paisajes.js"></script>
+</body>
+</html>

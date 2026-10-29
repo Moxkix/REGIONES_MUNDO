@@ -14,6 +14,7 @@ Sitio publicado: <https://moxkix.github.io/REGIONES_MUNDO/>
 | `climas.html?r=<id>` | Climogramas, clasificación de Köppen paso a paso, centros de acción y ejercicio de clasificación |
 | `recursos.html?r=<id>` | Producciones y recursos: cuotas de producción mundial (agricultura, energía y minería), balance energético por país, indicadores agrarios y afirmaciones del manual comprobadas |
 | `poblacion.html?r=<id>` | Población y desarrollo: pirámides animadas (1950-2100) con comparación, transición demográfica y explorador de indicadores en dispersión, con trayectorias y mapa mundial |
+| `paisajes.html?r=<id>` | Lectura de paisajes como en la PEC: localizar la fotografía en el mapa, identificar el clima (con climograma de referencia) y explicar la vegetación y la actividad económica, con respuesta modelo |
 
 Todo es HTML, CSS y JavaScript sin compilación. D3 y TopoJSON están en `comun/vendor/` y las fuentes tipográficas en `comun/fuentes/`, de modo que el sitio no depende de servicios externos.
 
@@ -21,7 +22,7 @@ Todo es HTML, CSS y JavaScript sin compilación. D3 y TopoJSON están en `comun/
 
 ```
 index.html, region.html, atlas.html, climas.html,
-recursos.html, poblacion.html                      páginas genéricas
+recursos.html, poblacion.html, paisajes.html      páginas genéricas
 comun/
   css/        estilos comunes y de cada motor
   js/         nucleo.js (carga y utilidades), mapa.js, cuestionario.js,
@@ -46,7 +47,7 @@ herramientas/     scripts para preparar las capas (ver herramientas/README.md)
 
 ## Cómo añadir una región
 
-1. En `datos/regiones.json`, cambiad `"disponible"` a `true` y añadid los motores en `"motores"` (`"atlas"`, `"climas"`, `"recursos"`, `"poblacion"`).
+1. En `datos/regiones.json`, cambiad `"disponible"` a `true` y añadid los motores en `"motores"` (`"atlas"`, `"climas"`, `"recursos"`, `"poblacion"`, `"paisajes"`).
 2. Cread la carpeta `regiones/<id>/` copiando la estructura de `regiones/europa/`.
 3. En `config.json` definid la proyección (`laea`, `conica` o `equalEarth`, con `rotar`) y la ventana geográfica `[oeste, sur, este, norte]`.
 4. Generad el clima de Köppen para la ventana con `herramientas/koppen_region.py` y las demás capas que necesitéis.
@@ -90,6 +91,18 @@ Los datos demográficos son mundiales (Naciones Unidas, *World Population Prospe
 ```
 
 En el explorador los países de la región se dibujan resaltados y los demás atenuados, con el color de la región del temario a la que pertenecen. Los datos se regeneran con `herramientas/poblacion_wpp.py`.
+
+### Lectura de paisajes
+
+La sección `paisajes` de `config.json` apunta al archivo de paisajes y, si hace falta, a estaciones de referencia propias (las de los climogramas se usan también):
+
+```json
+"paisajes": { "archivo": "datos/paisajes.json", "estacionesExtra": "datos/estaciones_paisajes.json" }
+```
+
+Cada paisaje lleva el punto y la tolerancia de la localización (`lat`, `lon`, `tolerancia` en km), el tipo de Köppen correcto y tres distractores, la estación de referencia, el texto del clima, «qué mirar en la foto», las preguntas de vegetación y actividad, la respuesta modelo (`modelo.a`, `.b`, `.c`) y enlaces a otros motores.
+
+Para la fotografía basta con el nombre del archivo de Wikimedia Commons: `"foto": {"archivo": "File:Nombre.jpg"}`. La página la carga desde Commons. `herramientas/descargar_fotos.py <region>` completa autor y licencia desde la API de Commons, avisa si las coordenadas de la foto no cuadran con el paisaje y, con `--descargar`, guarda una copia en `regiones/<id>/fotos/`. También se pueden usar fotos propias con `"local": "fotos/archivo.jpg"`, indicando autor y licencia.
 
 ### Preguntas
 

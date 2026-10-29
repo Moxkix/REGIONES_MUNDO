@@ -1,0 +1,1169 @@
+{
+  "titulo": "Paisajes de Europa",
+  "nota": "Las fotografías proceden de Wikimedia Commons y se cargan desde allí con su autor y su licencia. Las estaciones de referencia son las más próximas con normales publicadas; no siempre coinciden con el lugar de la foto.",
+  "paisajes": [
+    {
+      "id": "tundra-finnmark",
+      "titulo": "Tundra ártica de Finnmark",
+      "lugar": "Península de Nordkinn (Finnmark)",
+      "pais": "Noruega",
+      "lat": 70.95,
+      "lon": 27.9,
+      "tolerancia": 350,
+      "foto": {
+        "archivo": null,
+        "buscar": "tundra Finnmark Nordkinn OR Varanger landscape"
+      },
+      "mirar": [
+        "La ausencia total de árboles y la vegetación rasa, pegada al suelo.",
+        "Los tonos de musgos, líquenes y arbustos enanos; en otoño, rojizos y ocres.",
+        "Las rocas pulidas y los pequeños lagos: el relieve heredado de los glaciares cuaternarios.",
+        "Los asentamientos, si aparecen: pequeños puertos pesqueros en la costa."
+      ],
+      "koppen": "ET",
+      "distractores": [
+        "Dfc",
+        "EF",
+        "Cfc"
+      ],
+      "estacion": "slettnes",
+      "clima": "Clima de tundra (ET): ningún mes alcanza 10 °C de media. En Slettnes el mes más cálido, agosto, se queda en 9,9 °C y el más frío ronda −4 °C. Los inviernos son suaves para estar a 71° N porque la corriente del Atlántico Norte mantiene el mar de Barents sin hielo. Llueve y nieva poco, unos 600 mm repartidos por todo el año. Hay noche polar en invierno y sol de medianoche en verano.",
+      "notaKoppen": "Esta costa está en el límite: en Vardø, a unos 130 km, julio y agosto ya llegan a 10 °C, y el mapa de Köppen de 1986-2010, con celdas de unos 11 km, clasifica casi todo el litoral como Dfc. La tundra está retrocediendo a medida que se calientan los veranos.",
+      "localizacion": "Extremo septentrional de la Europa continental, junto al mar de Barents, a 71° N, muy por encima del círculo polar ártico.",
+      "preguntas": [
+        {
+          "id": "tundra-arboles",
+          "enunciado": "¿Por qué no hay árboles en este paisaje?",
+          "opciones": [
+            {
+              "t": "Porque el verano es demasiado frío y corto: con menos de 10 °C de media en el mes más cálido los árboles no completan su ciclo",
+              "r": "Es el criterio que separa la tundra (E) del bosque boreal (D): la isoterma de 10 °C del mes más cálido coincide grosso modo con el límite del bosque.",
+              "ok": true
+            },
+            {
+              "t": "Porque la precipitación es demasiado escasa",
+              "r": "Unos 600 mm al año bastan, con tan poca evaporación, para mantener un bosque; el factor limitante es la temperatura del verano."
+            },
+            {
+              "t": "Porque se talaron para obtener madera",
+              "r": "No es una deforestación: el límite del bosque es climático. Más al sur y en los valles abrigados crece el abedul."
+            },
+            {
+              "t": "Porque el suelo está siempre helado en superficie",
+              "r": "En verano la capa superficial se deshiela. Además, en esta costa oceánica el permafrost es escaso; abunda en la tundra continental rusa."
+            }
+          ],
+          "explicacion": [
+            "La tundra es un bioma de musgos, líquenes, juncias y arbustos enanos (abedul enano, sauces rastreros, camarina). Las plantas crecen pegadas al suelo, donde se protegen del viento y aprovechan el calor que este acumula."
+          ]
+        },
+        {
+          "id": "tundra-actividad",
+          "enunciado": "¿Qué actividades económicas son propias de este espacio?",
+          "opciones": [
+            {
+              "t": "El pastoreo de renos de los sami, que suben a la costa en verano, y la pesca en el mar de Barents",
+              "r": "Son las actividades tradicionales. Hoy se suman el turismo (cabo Norte, Hurtigruten) y, mar adentro, la explotación de gas.",
+              "ok": true
+            },
+            {
+              "t": "La agricultura cerealista mecanizada",
+              "r": "Con un verano tan corto y fresco no madura el cereal."
+            },
+            {
+              "t": "La silvicultura y la industria papelera",
+              "r": "Eso corresponde a la taiga, más al sur; aquí no hay bosque."
+            },
+            {
+              "t": "La ganadería bovina intensiva en establos",
+              "r": "No hay forraje suficiente; la ganadería propia de la tundra es el reno, en régimen trashumante."
+            }
+          ],
+          "explicacion": [
+            "Los renos invernan en el interior, en los bosques claros de Finnmarksvidda, y migran en primavera a las penínsulas costeras. La densidad de población es de las más bajas de Europa."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Tundra ártica del norte de Noruega (Finnmark), en la costa del mar de Barents, a unos 71° N. La tundra se extiende por todo el borde ártico de Europa y Asia: Laponia, la península de Kola y el norte de Rusia.",
+        "b": "Clima polar de tundra (ET): el mes más cálido no llega a 10 °C (unos 9-10 °C en agosto) y el invierno es largo, aunque aquí relativamente suave (−3 o −4 °C) por la influencia de la corriente del Atlántico Norte. Precipitación escasa, unos 600 mm, en parte en forma de nieve. Noche polar en invierno y sol de medianoche en verano.",
+        "c": "Vegetación sin árboles: musgos, líquenes, juncias y arbustos enanos. Las actividades tradicionales son el pastoreo trashumante de renos de los sami y la pesca en pequeños puertos; hoy se suman el turismo y la explotación de hidrocarburos del mar de Barents. Población muy escasa."
+      },
+      "manual": "Apartados 1.2.2.2 y 2.1.3",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Comparad con el climograma de Kiruna (Dfc), en el límite del bosque"
+        }
+      ]
+    },
+    {
+      "id": "taiga-finlandia",
+      "titulo": "Taiga y lagos de Finlandia",
+      "lugar": "Koli y el lago Pielinen (Carelia del Norte)",
+      "pais": "Finlandia",
+      "lat": 63.1,
+      "lon": 29.8,
+      "tolerancia": 300,
+      "foto": {
+        "archivo": null,
+        "buscar": "Koli national park Pielinen view"
+      },
+      "mirar": [
+        "El bosque continuo de coníferas: pinos y abetos, con abedules intercalados.",
+        "La cantidad de lagos, islas y penínsulas alargadas.",
+        "El relieve suave, sin grandes montañas: colinas redondeadas por el hielo.",
+        "La escasez de campos de cultivo y de asentamientos."
+      ],
+      "koppen": "Dfc",
+      "distractores": [
+        "Dfb",
+        "ET",
+        "Cfb"
+      ],
+      "estacion": "jyvaskyla",
+      "clima": "Clima subártico (Dfc): inviernos largos y fríos, con cinco meses bajo cero (−7 a −8 °C en enero y febrero), y veranos cortos y templados (unos 17 °C en julio). Solo los meses de junio a agosto superan los 10 °C, y por eso la tercera letra es c. Precipitación moderada, unos 620 mm, con máximo en verano; en invierno cae en forma de nieve y el suelo permanece cubierto varios meses.",
+      "localizacion": "Este de Finlandia, cerca de la frontera rusa, sobre el escudo Báltico (Fenoscandia).",
+      "preguntas": [
+        {
+          "id": "taiga-lagos",
+          "enunciado": "¿Por qué hay tantos lagos en este paisaje?",
+          "opciones": [
+            {
+              "t": "Porque el relieve fue modelado por los glaciares cuaternarios sobre un escudo antiguo: el hielo excavó cubetas y dejó depósitos que cierran el drenaje",
+              "r": "Finlandia tiene unos 188.000 lagos. Las colinas alargadas (eskers) y las cubetas son formas glaciares.",
+              "ok": true
+            },
+            {
+              "t": "Porque llueve mucho, como en la costa atlántica",
+              "r": "Llueve poco, unos 600 mm. Los lagos se deben al relieve glaciar y a la escasa evaporación."
+            },
+            {
+              "t": "Porque son embalses construidos para la producción hidroeléctrica",
+              "r": "Algunos están regulados, pero su origen es natural y glaciar."
+            },
+            {
+              "t": "Porque es una zona volcánica",
+              "r": "El escudo Báltico es una de las zonas más antiguas y estables de Europa; no hay vulcanismo."
+            }
+          ],
+          "explicacion": [
+            "El manual describe el escudo Báltico como un zócalo precámbrico arrasado por la erosión y retocado por los glaciares. Tras la retirada del hielo el terreno sigue elevándose (rebote isostático)."
+          ]
+        },
+        {
+          "id": "taiga-economia",
+          "enunciado": "¿Qué actividad económica aprovecha este paisaje?",
+          "opciones": [
+            {
+              "t": "La explotación forestal y la industria de la madera, la celulosa y el papel",
+              "r": "El bosque cubre en torno a las tres cuartas partes de Finlandia y la industria forestal es uno de sus grandes sectores exportadores.",
+              "ok": true
+            },
+            {
+              "t": "El cultivo de cereales en grandes explotaciones",
+              "r": "El verano es demasiado corto y los suelos (podsoles) son pobres: la agricultura se limita a los claros del sur del país."
+            },
+            {
+              "t": "La minería del carbón",
+              "r": "No hay carbón en el escudo Báltico; sí minerales metálicos en Laponia."
+            },
+            {
+              "t": "El turismo de sol y playa",
+              "r": "El turismo existe (cabañas junto a los lagos, deportes de invierno), pero no es de sol y playa."
+            }
+          ],
+          "explicacion": [
+            "Los suelos de la taiga son podsoles ácidos y lavados, poco aptos para la agricultura. La gestión forestal es intensiva y certificada: se tala y se replanta."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Bosque boreal o taiga del este de Finlandia (Carelia del Norte), hacia los 63° N, sobre el escudo Báltico. La taiga ocupa el norte de Escandinavia y de Rusia y se prolonga por Siberia y Canadá.",
+        "b": "Clima subártico (Dfc): inviernos largos y muy fríos, con varios meses bajo cero y nieve persistente, y veranos cortos y templados (en torno a 16-17 °C en julio). Precipitación moderada, unos 600 mm, más abundante en verano.",
+        "c": "Bosque de coníferas (pino silvestre y abeto rojo) con abedules, sobre podsoles; abundan los lagos y turberas de origen glaciar. Actividad dominante: explotación forestal y la industria de la madera, la celulosa y el papel. Turismo de naturaleza y segundas residencias junto a los lagos. Densidad de población muy baja."
+      },
+      "manual": "Apartados 1.1.1 y 1.2.2.2",
+      "enlaces": [
+        {
+          "pagina": "atlas.html",
+          "texto": "En el atlas, comparad el relieve y el clima de Fenoscandia"
+        }
+      ]
+    },
+    {
+      "id": "fiordo-hardanger",
+      "titulo": "Fiordo noruego",
+      "lugar": "Hardangerfjord (Vestland)",
+      "pais": "Noruega",
+      "lat": 60.2,
+      "lon": 6.2,
+      "tolerancia": 250,
+      "foto": {
+        "archivo": null,
+        "buscar": "Hardangerfjord landscape"
+      },
+      "mirar": [
+        "El valle en forma de U, con laderas muy empinadas, invadido por el mar.",
+        "Las cascadas que caen desde valles colgados laterales.",
+        "Los pueblos y los cultivos en las pequeñas superficies llanas de la orilla.",
+        "La nieve o los glaciares en las cumbres, si se ven."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "Dfc",
+        "ET",
+        "Csb"
+      ],
+      "estacion": "bergen",
+      "clima": "Clima oceánico (Cfb): inviernos suaves para la latitud (el mes más frío supera los 0 °C en la costa) y veranos frescos (unos 15-16 °C). Llueve muchísimo, todo el año: Bergen, a la entrada de los fiordos, recibe unos 2.500 mm. Los vientos del oeste, cargados de humedad, chocan con las montañas escandinavas y descargan en la vertiente atlántica (lluvias orográficas).",
+      "notaKoppen": "Al fondo de los fiordos y en las montañas que los rodean el clima se vuelve más frío (Dfc y, en las cumbres, ET): en pocos kilómetros se pasa del clima oceánico al de tundra.",
+      "localizacion": "Costa occidental de Noruega, al sureste de Bergen. Los fiordos recortan todo el litoral noruego entre Stavanger y el cabo Norte.",
+      "preguntas": [
+        {
+          "id": "fiordo-origen",
+          "enunciado": "¿Cómo se ha formado un fiordo?",
+          "opciones": [
+            {
+              "t": "Es un valle excavado por un glaciar, con forma de U, que el mar invadió al fundirse el hielo y subir su nivel",
+              "r": "El glaciar profundizó el valle por debajo del nivel del mar actual; algunos fiordos superan los 1.000 m de profundidad.",
+              "ok": true
+            },
+            {
+              "t": "Es un valle fluvial en forma de V invadido por el mar",
+              "r": "Eso es una ría, como las gallegas. El fiordo tiene perfil en U y suele ser mucho más profundo."
+            },
+            {
+              "t": "Es una falla tectónica reciente",
+              "r": "Las montañas escandinavas son antiguas (caledonianas); el modelado de los fiordos es glaciar."
+            },
+            {
+              "t": "Es un cráter volcánico inundado",
+              "r": "No hay vulcanismo en Escandinavia (salvo en Islandia)."
+            }
+          ],
+          "explicacion": [
+            "Las laderas verticales, los valles colgados con cascadas y la gran profundidad son rasgos típicos del modelado glaciar."
+          ]
+        },
+        {
+          "id": "fiordo-economia",
+          "enunciado": "¿Qué actividades se apoyan en el relieve y el clima de este paisaje?",
+          "opciones": [
+            {
+              "t": "La hidroelectricidad, la acuicultura de salmón y, en las laderas abrigadas, los frutales",
+              "r": "El Hardangerfjord es conocido por sus manzanos y cerezos; el agua abundante y el desnivel hacen de Noruega una potencia hidroeléctrica.",
+              "ok": true
+            },
+            {
+              "t": "La agricultura cerealista extensiva",
+              "r": "Apenas hay tierras llanas: los cultivos ocupan pequeñas terrazas en la orilla."
+            },
+            {
+              "t": "La minería del carbón",
+              "r": "Noruega no tiene carbón en el continente; su riqueza energética es el agua y los hidrocarburos del mar del Norte."
+            },
+            {
+              "t": "Los invernaderos de hortalizas para exportación",
+              "r": "Eso es propio de Almería, no de un clima fresco y nuboso."
+            }
+          ],
+          "explicacion": [
+            "Noruega genera alrededor del 90 % de su electricidad con centrales hidráulicas. Los fiordos son también un gran destino turístico, con cruceros que llegan hasta su fondo."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Fiordo de Hardanger, en la costa occidental de Noruega (60° N), al sureste de Bergen. Los fiordos recortan todo el litoral noruego, en la vertiente atlántica de las montañas escandinavas.",
+        "b": "Clima oceánico (Cfb) en la costa y el fondo de los fiordos: inviernos suaves para la latitud por la corriente del Atlántico Norte, veranos frescos y precipitaciones muy abundantes todo el año (más de 2.000 mm en Bergen) por el efecto orográfico de las montañas. Las cumbres tienen clima de montaña frío, con glaciares.",
+        "c": "Valle glaciar en U invadido por el mar, con laderas de bosque (pino, abedul) y prados en las orillas. Actividades: hidroelectricidad, piscicultura de salmón, frutales en las laderas soleadas (manzanos y cerezos del Hardanger), pesca y turismo de cruceros y naturaleza."
+      },
+      "manual": "Apartados 1.1.1, 1.2.1 y 1.2.2.1",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Bergen en los climogramas"
+        },
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=hidraulica",
+          "texto": "Producción hidroeléctrica en Europa y el mundo"
+        }
+      ]
+    },
+    {
+      "id": "valle-alpino",
+      "titulo": "Valle alpino",
+      "lugar": "Valle de Davos (Grisones)",
+      "pais": "Suiza",
+      "lat": 46.8,
+      "lon": 9.83,
+      "tolerancia": 200,
+      "foto": {
+        "archivo": null,
+        "buscar": "Davos valley summer meadows OR Alpine valley Graubünden"
+      },
+      "mirar": [
+        "La sucesión de pisos de vegetación: prados en el fondo, bosque de coníferas en las laderas, pastos y roca en las cumbres.",
+        "El límite superior del bosque, una línea bastante nítida.",
+        "Los prados de siega y los pastos de altura (alpes o alpages).",
+        "Los pueblos en el fondo del valle y las infraestructuras turísticas (remontes, hoteles)."
+      ],
+      "koppen": "Dfc",
+      "distractores": [
+        "Cfb",
+        "ET",
+        "Dfa"
+      ],
+      "estacion": "davos",
+      "clima": "Clima de montaña: la temperatura baja unos 0,6 °C cada 100 m. A 1.600 m, Davos tiene inviernos fríos (−4 a −5 °C) y veranos frescos (unos 13 °C), por lo que Köppen la clasifica como Dfc, como la taiga escandinava. Las precipitaciones son abundantes, unos 1.000 mm, con máximo en verano por las tormentas, y en invierno caen como nieve.",
+      "notaKoppen": "En los Alpes el tipo de Köppen cambia con la altitud: Cfb o Dfb en los valles bajos, Dfc en los altos y ET en las cumbres, como en la estación de Säntis (2.500 m) de los climogramas.",
+      "localizacion": "Alpes orientales suizos, en el cantón de los Grisones, a unos 1.500 m de altitud.",
+      "preguntas": [
+        {
+          "id": "alpes-pisos",
+          "enunciado": "¿Qué explica la sucesión de vegetación desde el fondo del valle hasta las cumbres?",
+          "opciones": [
+            {
+              "t": "El descenso de la temperatura con la altitud, que reproduce en pocos kilómetros la zonación que en latitud ocupa miles",
+              "r": "Prados y bosque de coníferas (abeto, alerce, pino cembro) hasta unos 2.000-2.300 m; por encima, pastos alpinos, roca y nieve: una tundra de altura.",
+              "ok": true
+            },
+            {
+              "t": "La diferente naturaleza de las rocas",
+              "r": "Influye en los suelos, pero el factor dominante en la zonación es la temperatura."
+            },
+            {
+              "t": "La tala del bosque por encima de cierta altura",
+              "r": "El hombre ha rebajado algo el límite del bosque para ganar pastos, pero ese límite es sobre todo climático."
+            },
+            {
+              "t": "La mayor lluvia en el fondo del valle",
+              "r": "En general llueve más en las laderas y cumbres que en el fondo de los valles."
+            }
+          ],
+          "explicacion": [
+            "Es la zonación altitudinal que el manual describe para los climas de montaña."
+          ]
+        },
+        {
+          "id": "alpes-economia",
+          "enunciado": "¿Qué actividad tradicional explica los pastos de altura?",
+          "opciones": [
+            {
+              "t": "La ganadería trashumante de verano: el ganado sube a los pastos alpinos y en el valle se siega el heno para el invierno",
+              "r": "Es la economía alpina tradicional (Alpwirtschaft), hoy muy subvencionada porque mantiene el paisaje. El turismo es ahora la principal fuente de ingresos.",
+              "ok": true
+            },
+            {
+              "t": "El cultivo de cereales de secano",
+              "r": "El clima frío y las pendientes impiden el cereal en altura."
+            },
+            {
+              "t": "La explotación forestal para la industria papelera",
+              "r": "El bosque alpino se protege sobre todo frente a los aludes; su papel productor es secundario."
+            },
+            {
+              "t": "La minería de carbón",
+              "r": "No hay carbón en los Alpes; el gran recurso energético es la hidroelectricidad."
+            }
+          ],
+          "explicacion": [
+            "Davos y otros valles alpinos viven hoy del turismo de invierno y de verano. Los embalses alpinos producen buena parte de la electricidad de Suiza y Austria."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Valle alpino de Davos, en los Alpes suizos (Grisones), a unos 1.500 m de altitud y 47° N. Los Alpes forman un arco desde el sur de Francia hasta Austria y Eslovenia.",
+        "b": "Clima de montaña: inviernos fríos con nieve abundante (unos −5 °C de media en enero a 1.600 m) y veranos frescos (unos 13 °C). Precipitación abundante, en torno a 1.000 mm, con máximo estival. La temperatura desciende con la altitud y en las cumbres el clima es de tundra o de hielo.",
+        "c": "Zonación altitudinal de la vegetación: prados de siega en el fondo, bosque de coníferas en las laderas, pastos alpinos por encima del límite del bosque y roquedo y glaciares en las cumbres. Actividades: ganadería bovina con trashumancia estival, turismo de invierno y de verano e hidroelectricidad."
+      },
+      "manual": "Apartados 1.1.2 y 1.2.2.4",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Säntis (2.500 m) en los climogramas"
+        }
+      ]
+    },
+    {
+      "id": "bocage-normandia",
+      "titulo": "Bocage normando",
+      "lugar": "Bocage de la Baja Normandía",
+      "pais": "Francia",
+      "lat": 48.9,
+      "lon": -0.9,
+      "tolerancia": 250,
+      "foto": {
+        "archivo": null,
+        "buscar": "bocage Normandie aerial"
+      },
+      "mirar": [
+        "Las parcelas pequeñas e irregulares cerradas por setos vivos y arbolado.",
+        "El predominio de los prados sobre los campos de labor.",
+        "Las casas dispersas, cada una en su explotación.",
+        "Los manzanos, si aparecen, para la sidra y el calvados."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "Csb",
+        "Dfb",
+        "Cfa"
+      ],
+      "estacion": "caen",
+      "clima": "Clima oceánico (Cfb): inviernos suaves (unos 6 °C en enero) y veranos frescos (18 °C), con una amplitud térmica pequeña, de unos 13 °C. Llueve todo el año, unos 740 mm, sin estación seca y con un ligero máximo en otoño e invierno. Cielos nubosos y humedad alta, ideales para la hierba.",
+      "localizacion": "Oeste de Francia, entre la península de Cotentin y el macizo Armoricano.",
+      "preguntas": [
+        {
+          "id": "bocage-uso",
+          "enunciado": "¿Qué uso del suelo favorecen el clima y este tipo de paisaje?",
+          "opciones": [
+            {
+              "t": "Los prados permanentes para el ganado bovino de leche",
+              "r": "La hierba crece casi todo el año. Normandía es una gran región lechera: mantequilla, nata y quesos como el camembert.",
+              "ok": true
+            },
+            {
+              "t": "El olivar y el viñedo",
+              "r": "Necesitan veranos cálidos y secos; aquí la vid apenas madura y el olivo no se da."
+            },
+            {
+              "t": "Los cereales en grandes parcelas abiertas",
+              "r": "Eso es el openfield de la cuenca de París; el bocage, con sus parcelas cerradas, es un paisaje ganadero."
+            },
+            {
+              "t": "El arroz de regadío",
+              "r": "No tiene sentido con estas temperaturas."
+            }
+          ],
+          "explicacion": [
+            "Los setos servían para cerrar el ganado, marcar la propiedad y dar leña; también frenan el viento y la erosión."
+          ]
+        },
+        {
+          "id": "bocage-cambio",
+          "enunciado": "Desde los años sesenta muchos setos han desaparecido. ¿Por qué?",
+          "opciones": [
+            {
+              "t": "Por la concentración parcelaria (remembrement), que agrandó las parcelas para mecanizar el trabajo",
+              "r": "La política agraria impulsó la modernización; hoy se protegen y replantan setos por su valor ecológico y frente a la erosión.",
+              "ok": true
+            },
+            {
+              "t": "Por los incendios forestales",
+              "r": "No es un fenómeno propio de este clima húmedo."
+            },
+            {
+              "t": "Porque el clima se volvió más seco",
+              "r": "La causa es económica y técnica, no climática."
+            },
+            {
+              "t": "Por la urbanización de todo el campo",
+              "r": "La urbanización afecta a las periferias, pero la pérdida de setos se debe sobre todo a la concentración parcelaria."
+            }
+          ],
+          "explicacion": [
+            "El contraste entre el bocage del oeste y el openfield del centro y el este de Francia es un clásico de la geografía agraria europea."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Bocage de la Baja Normandía, en el oeste de Francia, hacia los 49° N. Paisajes de bocage se extienden por Bretaña, el oeste de Francia, Irlanda, el suroeste de Gran Bretaña y la cornisa cantábrica.",
+        "b": "Clima oceánico (Cfb): temperaturas suaves todo el año (6 °C en invierno y 18 °C en verano), escasa amplitud térmica y lluvias repartidas a lo largo del año (unos 750 mm), sin estación seca, por la llegada constante de borrascas atlánticas.",
+        "c": "Campos cerrados por setos vivos con árboles, parcelas pequeñas e irregulares y poblamiento disperso. Predominan los prados para el ganado vacuno de leche (mantequilla, quesos) y los manzanos de sidra. La concentración parcelaria ha eliminado muchos setos desde los años sesenta."
+      },
+      "manual": "Apartados 1.2.2.1 y 5.3",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=leche",
+          "texto": "Producción de leche: la UE en el mundo"
+        },
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Brest, en la misma fachada atlántica"
+        }
+      ]
+    },
+    {
+      "id": "openfield-beauce",
+      "titulo": "Campos abiertos de la Beauce",
+      "lugar": "Beauce, entre Chartres y Orleans",
+      "pais": "Francia",
+      "lat": 48.3,
+      "lon": 1.6,
+      "tolerancia": 200,
+      "foto": {
+        "archivo": null,
+        "buscar": "Beauce champs blé paysage"
+      },
+      "mirar": [
+        "Las parcelas enormes y regulares, sin setos ni cercas.",
+        "La llanura casi perfecta y la escasez de árboles.",
+        "Los cultivos de cereal, colza o remolacha y los silos.",
+        "Los pueblos agrupados y separados por grandes distancias."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "Dfb",
+        "Csb",
+        "BSk"
+      ],
+      "estacion": "chartres",
+      "clima": "Clima oceánico de transición (Cfb), algo más continental que el de la costa: enero en torno a 4 °C y julio a 19 °C. Precipitación modesta, unos 600 mm, repartida a lo largo del año; la Beauce es de las zonas menos lluviosas del norte de Francia porque queda a sotavento de las colinas del Perche y del macizo Armoricano.",
+      "localizacion": "Centro de la cuenca de París, al suroeste de la capital.",
+      "preguntas": [
+        {
+          "id": "openfield-que",
+          "enunciado": "¿Qué tipo de paisaje agrario es este?",
+          "opciones": [
+            {
+              "t": "Un openfield: campos abiertos, sin cercas, dedicados a cultivos herbáceos muy mecanizados",
+              "r": "Es el «granero de Francia»: trigo, cebada, maíz, colza y remolacha en grandes explotaciones.",
+              "ok": true
+            },
+            {
+              "t": "Un bocage",
+              "r": "El bocage tiene setos y parcelas pequeñas; aquí no hay cierres."
+            },
+            {
+              "t": "Una dehesa",
+              "r": "La dehesa tiene arbolado disperso y es ganadera; aquí apenas hay árboles."
+            },
+            {
+              "t": "Un paisaje de huerta de regadío",
+              "r": "La huerta tiene parcelas pequeñas y cultivos hortícolas intensivos."
+            }
+          ],
+          "explicacion": [
+            "El openfield tiene origen medieval (rotaciones colectivas, campos abiertos alrededor de pueblos agrupados) y hoy es el paisaje de la gran agricultura cerealista de la UE."
+          ]
+        },
+        {
+          "id": "openfield-suelo",
+          "enunciado": "¿Qué factor natural explica la gran fertilidad de esta llanura?",
+          "opciones": [
+            {
+              "t": "Los suelos profundos de limo eólico (loess) sobre calizas, en un relieve llano",
+              "r": "El mismo cinturón de loess se prolonga por el norte de Alemania hasta Polonia y Ucrania.",
+              "ok": true
+            },
+            {
+              "t": "Los aportes de un gran delta fluvial",
+              "r": "La Beauce es una meseta caliza, no una llanura aluvial."
+            },
+            {
+              "t": "Los suelos volcánicos",
+              "r": "No hay volcanes en la cuenca de París."
+            },
+            {
+              "t": "La abundante lluvia",
+              "r": "Llueve poco; la fertilidad se debe al suelo."
+            }
+          ],
+          "explicacion": [
+            "El reverso del modelo intensivo es la contaminación por nitratos del acuífero de la Beauce, uno de los mayores de Francia."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "La Beauce, en el centro de la cuenca de París (48° N), entre Chartres y Orleans. Paisajes de openfield similares ocupan la Gran Llanura Europea desde el norte de Francia hasta Polonia.",
+        "b": "Clima oceánico degradado o de transición (Cfb): inviernos frescos (4 °C), veranos templados (19 °C) y precipitación moderada y regular, en torno a 600 mm, sin estación seca.",
+        "c": "Openfield: grandes parcelas abiertas sin setos, casi sin árboles, con poblamiento concentrado. Cultivos herbáceos muy mecanizados: trigo, cebada, maíz, colza y remolacha azucarera, en grandes explotaciones con altos rendimientos. Problemas de contaminación de acuíferos por fertilizantes."
+      },
+      "manual": "Apartados 1.1.2.3, 1.2.2.1 y 5.3.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=trigo",
+          "texto": "Producción de trigo: la UE en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "polder-beemster",
+      "titulo": "Pólder neerlandés",
+      "lugar": "Pólder de Beemster (Holanda Septentrional)",
+      "pais": "Países Bajos",
+      "lat": 52.55,
+      "lon": 4.92,
+      "tolerancia": 150,
+      "foto": {
+        "archivo": null,
+        "buscar": "Beemster polder landscape"
+      },
+      "mirar": [
+        "La geometría perfecta de la parcelación, en cuadrícula.",
+        "Las acequias y canales que separan las parcelas.",
+        "El relieve completamente plano y los diques que lo rodean.",
+        "Los molinos o las estaciones de bombeo, si aparecen."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "Dfb",
+        "Cfc",
+        "Csb"
+      ],
+      "estacion": "de-bilt",
+      "clima": "Clima oceánico (Cfb): inviernos suaves (unos 4 °C en enero) y veranos frescos (18 °C), con lluvias regulares durante todo el año, unos 850 mm, algo más abundantes de julio a diciembre.",
+      "localizacion": "Al norte de Ámsterdam, en la provincia de Holanda Septentrional.",
+      "preguntas": [
+        {
+          "id": "polder-que",
+          "enunciado": "¿Qué es un pólder?",
+          "opciones": [
+            {
+              "t": "Una tierra ganada al mar o a un lago, cerrada por diques y drenada por bombeo, que queda por debajo del nivel del agua",
+              "r": "El pólder de Beemster se desecó en 1612 y es Patrimonio Mundial. Cerca de una cuarta parte de los Países Bajos está por debajo del nivel del mar.",
+              "ok": true
+            },
+            {
+              "t": "Una llanura de inundación natural de un río",
+              "r": "El pólder es artificial: hay que bombear el agua continuamente."
+            },
+            {
+              "t": "Un lago de origen glaciar",
+              "r": "Al contrario: muchos pólderes ocupan antiguos lagos que se han desecado."
+            },
+            {
+              "t": "Una marisma salina para obtener sal",
+              "r": "Eso son salinas; el pólder se dedica a la agricultura y al poblamiento."
+            }
+          ],
+          "explicacion": [
+            "Los molinos de viento bombeaban el agua; hoy lo hacen estaciones eléctricas. La subida del nivel del mar convierte la gestión del agua en una cuestión estratégica para el país."
+          ]
+        },
+        {
+          "id": "polder-uso",
+          "enunciado": "¿A qué se dedican hoy sobre todo los pólderes?",
+          "opciones": [
+            {
+              "t": "A una agricultura muy intensiva: prados para vacuno de leche, horticultura, flores y bulbos",
+              "r": "Los Países Bajos son el segundo exportador agrario del mundo en valor, pese a su pequeño tamaño.",
+              "ok": true
+            },
+            {
+              "t": "Al cultivo de olivos y viñedos",
+              "r": "No con este clima."
+            },
+            {
+              "t": "A la explotación forestal",
+              "r": "El suelo es demasiado valioso; apenas hay bosque."
+            },
+            {
+              "t": "A la ganadería extensiva de ovino en grandes fincas",
+              "r": "La tierra es escasa y cara; la agricultura es intensiva."
+            }
+          ],
+          "explicacion": [
+            "Los pólderes más recientes, como Flevoland (años 1950-1960), acogen también ciudades nuevas como Almere y Lelystad."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Pólder de Beemster, al norte de Ámsterdam (52,5° N), en los Países Bajos. Los pólderes ocupan buena parte del oeste y el norte del país, junto al mar del Norte y el IJsselmeer.",
+        "b": "Clima oceánico (Cfb): inviernos suaves, veranos frescos, amplitud térmica pequeña (unos 15 °C) y precipitaciones regulares todo el año, en torno a 850 mm.",
+        "c": "Paisaje agrario artificial, completamente llano y por debajo del nivel del mar, con parcelación regular separada por acequias y protegido por diques; el drenaje se hace por bombeo. Dominan los prados para el vacuno de leche, la horticultura y la floricultura, muy intensivas y orientadas a la exportación."
+      },
+      "manual": "Apartados 1.1.2.3 y 5.3",
+      "enlaces": [
+        {
+          "pagina": "poblacion.html",
+          "ancla": "piramides",
+          "texto": "Población de los Países Bajos en las pirámides"
+        }
+      ]
+    },
+    {
+      "id": "estepa-ucrania",
+      "titulo": "Campos de cereal de la estepa ucraniana",
+      "lugar": "Llanura de Poltava",
+      "pais": "Ucrania",
+      "lat": 49.6,
+      "lon": 34.5,
+      "tolerancia": 350,
+      "foto": {
+        "archivo": null,
+        "buscar": "Ukraine wheat field steppe Poltava OR sunflower field Ukraine"
+      },
+      "mirar": [
+        "La llanura inmensa, sin relieve, hasta el horizonte.",
+        "Los cultivos de cereal o girasol en parcelas gigantescas.",
+        "Las franjas de árboles que cortan los campos: cortavientos.",
+        "El color oscuro del suelo cuando está labrado."
+      ],
+      "koppen": "Dfb",
+      "distractores": [
+        "BSk",
+        "Cfb",
+        "Dfc"
+      ],
+      "estacion": "poltava",
+      "clima": "Clima continental húmedo de verano templado (Dfb): inviernos fríos (unos −4 °C en enero, con tres meses bajo cero) y veranos cálidos (22 °C en julio). La amplitud térmica supera los 25 °C. La precipitación es escasa, unos 570 mm, con máximo en junio y julio por las tormentas de verano; hacia el sur y el este la aridez aumenta y se pasa a la estepa seca.",
+      "localizacion": "Centro de Ucrania, en la margen izquierda del Dniéper.",
+      "preguntas": [
+        {
+          "id": "estepa-suelo",
+          "enunciado": "¿Qué suelo explica que esta región sea uno de los graneros del mundo?",
+          "opciones": [
+            {
+              "t": "El chernozem o tierra negra, un suelo profundo y muy rico en materia orgánica formado bajo la vegetación de estepa",
+              "r": "La hierba de la estepa, al morir cada año, aportaba humus que el frío invernal y la sequía de finales de verano conservaban.",
+              "ok": true
+            },
+            {
+              "t": "Los podsoles",
+              "r": "Son suelos ácidos y pobres, propios de la taiga."
+            },
+            {
+              "t": "Los suelos rojos mediterráneos (terra rossa)",
+              "r": "Son suelos de climas mediterráneos sobre calizas."
+            },
+            {
+              "t": "Los suelos volcánicos",
+              "r": "No hay volcanes en la llanura ucraniana."
+            }
+          ],
+          "explicacion": [
+            "La vegetación natural, la estepa de gramíneas (stipa o hierba pluma), ha desaparecido casi por completo, sustituida por los cultivos."
+          ]
+        },
+        {
+          "id": "estepa-cultivos",
+          "enunciado": "¿Qué producciones dominan hoy en este paisaje?",
+          "opciones": [
+            {
+              "t": "El trigo, el maíz, la cebada y el girasol en grandes explotaciones mecanizadas",
+              "r": "Ucrania es el primer exportador mundial de aceite de girasol y uno de los grandes de trigo y maíz. La guerra ha alterado gravemente la producción y las exportaciones por el mar Negro.",
+              "ok": true
+            },
+            {
+              "t": "El olivo y la vid",
+              "r": "Los inviernos son demasiado fríos."
+            },
+            {
+              "t": "Los prados para el vacuno de leche, como en el bocage",
+              "r": "Llueve poco para mantener prados todo el año."
+            },
+            {
+              "t": "El arroz de regadío",
+              "r": "Hay algo de arroz en el sur, en el delta del Danubio y Crimea, pero no domina el paisaje."
+            }
+          ],
+          "explicacion": [
+            "Las franjas de árboles cortavientos se plantaron desde la época soviética para frenar la erosión eólica y retener la nieve."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Llanura de Poltava, en el centro de Ucrania (49,5° N), en la parte oriental de la Gran Llanura Europea. El cinturón de tierras negras se extiende desde Moldavia y Ucrania hasta el sur de Rusia y Kazajistán.",
+        "b": "Clima continental (Dfb): inviernos fríos con temperaturas bajo cero durante tres meses, veranos cálidos (unos 22 °C), gran amplitud térmica y precipitaciones escasas (unos 570 mm) con máximo en el comienzo del verano.",
+        "c": "Vegetación natural de estepa herbácea, hoy sustituida casi por completo por cultivos sobre chernozem, uno de los suelos más fértiles del mundo. Grandes explotaciones mecanizadas de trigo, maíz, cebada y girasol orientadas a la exportación, con franjas forestales cortavientos."
+      },
+      "manual": "Apartados 1.1.2.3, 1.2.2.2 y 5.3.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=trigo",
+          "texto": "Producción de trigo: el peso de Ucrania y Rusia"
+        },
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=maiz",
+          "texto": "Producción de maíz"
+        }
+      ]
+    },
+    {
+      "id": "olivar-jaen",
+      "titulo": "Olivar de Jaén",
+      "lugar": "Campiña de Jaén",
+      "pais": "España",
+      "lat": 37.85,
+      "lon": -3.7,
+      "tolerancia": 200,
+      "foto": {
+        "archivo": null,
+        "buscar": "olivar Jaén mar de olivos"
+      },
+      "mirar": [
+        "Los olivos en hileras regulares que cubren colinas enteras: un monocultivo.",
+        "El suelo desnudo o con poca hierba entre los árboles.",
+        "Los colores pardos y ocres del suelo y el verde grisáceo del olivo.",
+        "Las sierras al fondo y los pueblos blancos en lo alto."
+      ],
+      "koppen": "Csa",
+      "distractores": [
+        "BSk",
+        "Csb",
+        "Cfa"
+      ],
+      "estacion": "jaen",
+      "clima": "Clima mediterráneo de verano caluroso (Csa): veranos muy cálidos y secos (unos 28 °C de media en julio, con máximas de 40 °C) e inviernos suaves (9 °C en enero). Llueve poco, unos 490 mm, sobre todo de octubre a abril; julio y agosto son prácticamente secos. Es el ritmo de la sequía estival propio del Mediterráneo.",
+      "localizacion": "Alto Guadalquivir, en el norte de Andalucía.",
+      "preguntas": [
+        {
+          "id": "olivar-adaptacion",
+          "enunciado": "¿Qué hace del olivo un árbol adaptado a este clima?",
+          "opciones": [
+            {
+              "t": "Es una especie esclerófila, de hojas pequeñas, duras y perennes, que resiste la sequía del verano",
+              "r": "La vegetación natural de estos espacios es el bosque esclerófilo de encinas y alcornoques, y su degradación da los matorrales mediterráneos.",
+              "ok": true
+            },
+            {
+              "t": "Necesita mucha agua y crece solo en regadío",
+              "r": "Es tradicionalmente un cultivo de secano, aunque hoy se riega una parte creciente del olivar."
+            },
+            {
+              "t": "Pierde las hojas en verano para protegerse del calor",
+              "r": "El olivo es de hoja perenne."
+            },
+            {
+              "t": "Necesita inviernos muy fríos para florecer",
+              "r": "Necesita algo de frío invernal, pero las heladas fuertes lo dañan."
+            }
+          ],
+          "explicacion": [
+            "El olivo, la vid y el trigo forman la trilogía mediterránea clásica."
+          ]
+        },
+        {
+          "id": "olivar-problema",
+          "enunciado": "¿Qué problema ambiental tiene el olivar intensivo en pendiente con el suelo desnudo?",
+          "opciones": [
+            {
+              "t": "La erosión del suelo por las lluvias torrenciales de otoño",
+              "r": "Por eso se promueven las cubiertas vegetales entre los olivos. El monocultivo plantea también problemas de dependencia económica de un solo producto.",
+              "ok": true
+            },
+            {
+              "t": "La salinización por el agua del mar",
+              "r": "Jaén está a más de 100 km de la costa."
+            },
+            {
+              "t": "Las inundaciones permanentes",
+              "r": "No es un problema propio de estas campiñas."
+            },
+            {
+              "t": "El exceso de frío",
+              "r": "Las heladas fuertes son raras en la campiña."
+            }
+          ],
+          "explicacion": [
+            "España es el primer productor mundial de aceite de oliva, y Jaén su primera provincia. Las cifras varían mucho de un año a otro según la lluvia: comparad 2020 y 2023 en Producciones y recursos."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Campiña de Jaén, en el Alto Guadalquivir (38° N), en el sur de España. El olivar se extiende por todo el Mediterráneo: Andalucía, Italia meridional, Grecia, Túnez y Turquía.",
+        "b": "Clima mediterráneo de verano caluroso (Csa): veranos largos, muy cálidos y secos (28 °C de media en julio), inviernos suaves (9 °C) y precipitaciones escasas (unos 500 mm) concentradas en otoño, invierno y primavera, a menudo de forma torrencial.",
+        "c": "Monocultivo de olivar, en buena parte de secano, que sustituyó a la vegetación natural de bosque esclerófilo (encinar). Producción de aceite de oliva, con almazaras y cooperativas, para el mercado nacional y la exportación. Problemas de erosión, de dependencia de un monocultivo y de variabilidad de las cosechas con la sequía."
+      },
+      "manual": "Apartados 1.2.2.3 y 5.3.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=aceite_oliva",
+          "texto": "Producción de aceite de oliva: España y el mundo"
+        },
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Sevilla en los climogramas"
+        }
+      ]
+    },
+    {
+      "id": "dehesa-extremadura",
+      "titulo": "Dehesa extremeña",
+      "lugar": "Dehesa de Extremadura",
+      "pais": "España",
+      "lat": 39.2,
+      "lon": -6.4,
+      "tolerancia": 200,
+      "foto": {
+        "archivo": null,
+        "buscar": "dehesa Extremadura encinas"
+      },
+      "mirar": [
+        "Los árboles dispersos, separados entre sí, sobre un pastizal.",
+        "La forma de las copas, podadas y redondeadas.",
+        "El ganado: cerdos ibéricos, ovejas o vacas.",
+        "El color del pasto: verde en primavera, amarillo en verano."
+      ],
+      "koppen": "Csa",
+      "distractores": [
+        "BSk",
+        "Csb",
+        "Cfb"
+      ],
+      "estacion": "badajoz",
+      "clima": "Clima mediterráneo de verano caluroso (Csa): veranos muy cálidos y secos (27 °C de media en julio y agosto) e inviernos suaves (unos 10 °C). Precipitación escasa, unos 430 mm, concentrada de octubre a mayo; de junio a agosto apenas llueve. Es un clima mediterráneo con rasgos continentales por la distancia al mar.",
+      "localizacion": "Suroeste de la península ibérica, entre los ríos Tajo y Guadiana.",
+      "preguntas": [
+        {
+          "id": "dehesa-que",
+          "enunciado": "¿Qué es una dehesa?",
+          "opciones": [
+            {
+              "t": "Un sistema agrosilvopastoral: un encinar o alcornocal aclarado por el hombre que combina arbolado, pastos y ganado",
+              "r": "Es un ecosistema creado por el hombre a lo largo de siglos y de gran valor ecológico.",
+              "ok": true
+            },
+            {
+              "t": "Un bosque natural sin intervención humana",
+              "r": "Al contrario: la densidad del arbolado y la poda son obra humana."
+            },
+            {
+              "t": "Un regadío de frutales",
+              "r": "Es un aprovechamiento de secano."
+            },
+            {
+              "t": "Una estepa sin árboles",
+              "r": "El arbolado disperso es precisamente su rasgo esencial."
+            }
+          ],
+          "explicacion": [
+            "Las raíces de las encinas aprovechan el agua profunda y su sombra conserva la humedad del pasto."
+          ]
+        },
+        {
+          "id": "dehesa-productos",
+          "enunciado": "¿Qué producciones son típicas de la dehesa?",
+          "opciones": [
+            {
+              "t": "El cerdo ibérico en montanera, el cordero y el vacuno, el corcho y la leña",
+              "r": "En la montanera (otoño-invierno) los cerdos ibéricos se alimentan de bellotas; de ahí los jamones de bellota.",
+              "ok": true
+            },
+            {
+              "t": "El trigo de regadío y la remolacha",
+              "r": "La dehesa es un aprovechamiento ganadero y forestal; el cereal solo aparece en rotaciones largas."
+            },
+            {
+              "t": "Los cítricos para la exportación",
+              "r": "Necesitan regadío y zonas más cálidas en invierno."
+            },
+            {
+              "t": "La leche de vaca de establo",
+              "r": "La ganadería de la dehesa es extensiva, en libertad."
+            }
+          ],
+          "explicacion": [
+            "Suele asociarse a grandes propiedades (latifundios). Sus amenazas son el envejecimiento del arbolado, la falta de regeneración y la enfermedad de la seca."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Dehesa del oeste de la península ibérica (Extremadura, 39° N). Se extiende también por Salamanca, Sierra Morena y el Alentejo portugués (montado).",
+        "b": "Clima mediterráneo de verano caluroso (Csa) con rasgos continentales: veranos muy cálidos y secos (unos 27 °C de media), inviernos suaves y precipitación escasa (unos 450 mm) concentrada en otoño, invierno y primavera.",
+        "c": "Encinar o alcornocal aclarado, con árboles dispersos sobre un pastizal: sistema agrosilvopastoral de origen humano. Ganadería extensiva (cerdo ibérico en montanera, ovino merino, vacuno), corcho, leña y caza. Grandes propiedades. Alto valor ecológico y paisajístico."
+      },
+      "manual": "Apartados 1.2.2.3 y 5.3.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=porcino",
+          "texto": "Producción de carne de porcino"
+        }
+      ]
+    },
+    {
+      "id": "invernaderos-almeria",
+      "titulo": "Invernaderos de Almería",
+      "lugar": "Campo de Dalías (El Ejido)",
+      "pais": "España",
+      "lat": 36.75,
+      "lon": -2.8,
+      "tolerancia": 150,
+      "foto": {
+        "archivo": null,
+        "buscar": "invernaderos Almería El Ejido mar de plástico"
+      },
+      "mirar": [
+        "La superficie continua de cubiertas de plástico: el «mar de plástico».",
+        "La llanura litoral entre la sierra y el mar.",
+        "Las balsas de agua para el riego.",
+        "Las montañas desnudas, casi sin vegetación, al fondo."
+      ],
+      "koppen": "BSh",
+      "distractores": [
+        "Csa",
+        "BWh",
+        "BSk"
+      ],
+      "estacion": "almeria",
+      "clima": "Clima semiárido cálido (BSh): llueve menos de 200 mm al año, con once meses secos, y las temperaturas son suaves todo el año (13 °C en enero y 27 °C en agosto). Mucha insolación, más de 3.000 horas de sol al año. Es la zona más seca de Europa: queda a sotavento de las cordilleras Béticas frente a los frentes atlánticos.",
+      "notaKoppen": "El mapa de Köppen, con celdas de unos 11 km, mezcla en esta costa los tipos BSh y Csa; la estación de Almería, en la misma llanura litoral, es BSh.",
+      "localizacion": "Costa de Almería, al pie de la sierra de Gádor, en el sureste de España.",
+      "preguntas": [
+        {
+          "id": "invernaderos-por-que",
+          "enunciado": "¿Qué ventajas naturales aprovechan estos invernaderos?",
+          "opciones": [
+            {
+              "t": "Los inviernos suaves y la gran insolación, que permiten producir hortalizas fuera de temporada para los mercados europeos",
+              "r": "Tomate, pimiento, pepino, calabacín y sandía llegan en invierno al norte de Europa. Más de 30.000 hectáreas de invernaderos cubren el poniente y el levante almerienses.",
+              "ok": true
+            },
+            {
+              "t": "La abundancia de agua de lluvia",
+              "r": "Es la zona más seca de Europa; el agua sale de los acuíferos y, cada vez más, de desaladoras."
+            },
+            {
+              "t": "Los suelos fértiles de origen volcánico",
+              "r": "Se cultiva sobre «enarenado»: capas de arena y estiércol sobre el suelo original, que era pobre."
+            },
+            {
+              "t": "El frío invernal, que mata las plagas",
+              "r": "Es precisamente la suavidad del invierno lo que se aprovecha."
+            }
+          ],
+          "explicacion": [
+            "Es un caso de agricultura intensiva, de alta tecnología y muy orientada a la exportación, que transformó una de las zonas más pobres de España desde los años sesenta."
+          ]
+        },
+        {
+          "id": "invernaderos-problemas",
+          "enunciado": "¿Qué problemas plantea este modelo?",
+          "opciones": [
+            {
+              "t": "La sobreexplotación y salinización de los acuíferos, los residuos plásticos y la dependencia de mano de obra inmigrante en condiciones a menudo precarias",
+              "r": "Son los problemas ambientales y sociales que más se citan. La desalación y la reutilización de aguas intentan reducir la presión sobre los acuíferos.",
+              "ok": true
+            },
+            {
+              "t": "Las heladas que destruyen las cosechas cada invierno",
+              "r": "Las heladas son muy raras en esta costa."
+            },
+            {
+              "t": "La falta de mercado para las hortalizas",
+              "r": "Al contrario: su éxito exportador es la base del modelo."
+            },
+            {
+              "t": "Las inundaciones permanentes",
+              "r": "Hay lluvias torrenciales esporádicas, pero el problema de fondo es la escasez de agua."
+            }
+          ],
+          "explicacion": [
+            "La vegetación natural de la zona es un matorral de estepa semiárida (esparto, azufaifo, palmito), visible aún en el cabo de Gata."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Campo de Dalías (El Ejido), en la costa de Almería, en el sureste de la península ibérica (36,7° N).",
+        "b": "Clima semiárido cálido (BSh): precipitación muy escasa (unos 200 mm) e irregular, con once meses secos; temperaturas suaves todo el año (13 °C en invierno, 27 °C en verano) e insolación muy elevada. Es la zona más árida de Europa, a sotavento de las cordilleras Béticas.",
+        "c": "Vegetación natural de matorral semiárido (esparto, azufaifo), sustituida en la llanura por un «mar de plástico»: invernaderos sobre enarenado con riego por goteo. Agricultura muy intensiva de hortalizas fuera de temporada (tomate, pimiento, pepino, sandía) para la exportación a Europa. Problemas: sobreexplotación de acuíferos, residuos plásticos y condiciones laborales de los trabajadores inmigrantes."
+      },
+      "manual": "Apartados 1.2.2.3 y 5.3.2",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Almería en los climogramas"
+        }
+      ]
+    },
+    {
+      "id": "vinedo-douro",
+      "titulo": "Viñedos en bancales del Duero",
+      "lugar": "Alto Douro Vinhateiro, en torno a Pinhão",
+      "pais": "Portugal",
+      "lat": 41.18,
+      "lon": -7.55,
+      "tolerancia": 200,
+      "foto": {
+        "archivo": null,
+        "buscar": "Douro valley vineyards terraces Pinhão"
+      },
+      "mirar": [
+        "Las terrazas o bancales escalonados que cubren laderas muy empinadas.",
+        "Los muros de piedra (pizarra) que sostienen las terrazas.",
+        "El río encajado en el fondo del valle.",
+        "Las quintas (casas de las explotaciones vinícolas) entre los viñedos."
+      ],
+      "koppen": "Csa",
+      "distractores": [
+        "Cfb",
+        "BSk",
+        "Cfa"
+      ],
+      "estacion": "regua",
+      "clima": "Clima mediterráneo (Cs). En el fondo del valle el verano es muy caluroso (más de 24 °C de media en julio, con máximas que superan los 40 °C) y seco: es Csa. Las montañas del Marão, al oeste, frenan las lluvias atlánticas, por lo que el valle es mucho más seco y cálido que la costa de Oporto.",
+      "localizacion": "Norte de Portugal, en el valle del Duero, unos 100 km al este de Oporto.",
+      "preguntas": [
+        {
+          "id": "douro-bancales",
+          "enunciado": "¿Por qué se construyeron los bancales?",
+          "opciones": [
+            {
+              "t": "Para cultivar laderas muy empinadas, retener el escaso suelo y frenar la erosión",
+              "r": "Sobre la pizarra apenas había suelo: se rompió la roca para crear las terrazas. Es un paisaje cultural declarado Patrimonio Mundial en 2001.",
+              "ok": true
+            },
+            {
+              "t": "Para regar por inundación, como en los arrozales",
+              "r": "El viñedo del Duero es de secano."
+            },
+            {
+              "t": "Para proteger las viñas de las heladas",
+              "r": "El problema no es el frío sino la pendiente y la escasez de suelo."
+            },
+            {
+              "t": "Para separar las propiedades",
+              "r": "Esa función la cumplen los setos del bocage; aquí la razón es la pendiente."
+            }
+          ],
+          "explicacion": [
+            "Los bancales en pendiente son un recurso clásico de las agriculturas mediterráneas, como los arrozales en terraza lo son en Asia monzónica."
+          ]
+        },
+        {
+          "id": "douro-vino",
+          "enunciado": "¿Qué producción ha modelado este paisaje?",
+          "opciones": [
+            {
+              "t": "El vino de Oporto, en una de las regiones vinícolas demarcadas más antiguas del mundo (1756)",
+              "r": "El vino se bajaba por el río en barcos rabelos hasta Vila Nova de Gaia, frente a Oporto, donde envejece en bodegas.",
+              "ok": true
+            },
+            {
+              "t": "El aceite de oliva para la exportación",
+              "r": "Hay olivos en el valle, pero el paisaje lo define la vid."
+            },
+            {
+              "t": "El cultivo de cereales",
+              "r": "Las pendientes impiden el cereal."
+            },
+            {
+              "t": "La producción de corcho",
+              "r": "El corcho es propio del montado del sur de Portugal, en el Alentejo."
+            }
+          ],
+          "explicacion": [
+            "El enoturismo y los cruceros fluviales son hoy una fuente de ingresos tan importante como el propio vino."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Valle del Duero (Douro) en el norte de Portugal (41° N), en torno a Pinhão, unos 100 km río arriba de Oporto.",
+        "b": "Clima mediterráneo: en el fondo del valle, encajado y protegido de los vientos atlánticos por las sierras del Marão y Alvão, los veranos son muy calurosos y secos (Csa); en la meseta circundante son más frescos (Csb). Los inviernos son suaves y lluviosos.",
+        "c": "Viñedos en bancales sostenidos por muros de pizarra sobre laderas muy empinadas, con olivos y almendros en los bordes. Producción de vino de Oporto y del Duero, organizada en quintas, y enoturismo. Paisaje cultural Patrimonio Mundial."
+      },
+      "manual": "Apartados 1.2.2.3 y 5.3.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=vino",
+          "texto": "Producción de vino: Europa en el mundo"
+        }
+      ]
+    }
+  ]
+}

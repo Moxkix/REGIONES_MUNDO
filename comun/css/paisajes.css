@@ -1,0 +1,76 @@
+/* Motor «Lectura de paisajes» */
+.cab-galeria { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .5rem 2rem; }
+.rejilla-paisajes { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+.tarjeta-paisaje { display: block; width: 100%; padding: 0; border: 1px solid var(--linea); border-radius: var(--radio); background: var(--tierra); overflow: hidden; text-align: left; }
+.tarjeta-paisaje:hover { border-color: var(--tinta-2); background: var(--tierra); }
+.tarjeta-paisaje:focus-visible { outline: 2px solid var(--magenta); outline-offset: 2px; }
+.tarjeta-paisaje img, .tarjeta-paisaje .sin-foto { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; background: var(--papel-2); }
+.pie-tarjeta { display: flex; align-items: center; gap: .55rem; padding: .55rem .7rem; font-family: var(--sans); font-size: .92rem; }
+.pie-tarjeta .num { flex: none; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--tinta); color: var(--papel); display: grid; place-items: center; font-size: .8rem; font-weight: 600; }
+.pie-tarjeta .tit { flex: 1; line-height: 1.25; }
+.pie-tarjeta .avance { flex: none; font-size: .78rem; color: var(--tinta-3); }
+.pie-tarjeta .avance.completo { color: var(--verde); font-weight: 600; font-size: 1rem; }
+.sin-foto { display: grid; place-items: center; padding: 1rem; font-family: var(--sans); font-size: .85rem; color: var(--tinta-2); text-align: center; background: var(--papel-2); min-height: 8rem; }
+
+.nav-ejercicio { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: .6rem; font-family: var(--sans); }
+.nav-ejercicio > span { display: inline-flex; align-items: center; gap: .4rem; }
+.nav-ejercicio .cuenta { font-size: .85rem; color: var(--tinta-2); min-width: 4.5rem; text-align: center; }
+#tit-paisaje { margin: .2rem 0 1rem; }
+
+.rejilla-ejercicio { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.5rem 2rem; align-items: start; }
+@media (max-width: 980px) { .rejilla-ejercicio { grid-template-columns: 1fr; } }
+.col-foto { position: sticky; top: .75rem; }
+@media (max-width: 980px) { .col-foto { position: static; } }
+.foto { margin: 0; }
+.foto .ampliar { display: block; width: 100%; padding: 0; border: 0; background: var(--papel-2); cursor: zoom-in; }
+.foto img { display: block; width: 100%; height: auto; max-height: 72vh; object-fit: contain; }
+.foto figcaption { margin-top: .35rem; }
+.mirar { margin-top: .8rem; border: 1px solid var(--linea); border-radius: var(--radio); background: var(--tierra); padding: .5rem .8rem; }
+.mirar summary, .modelo summary { cursor: pointer; font-family: var(--sans); font-weight: 600; font-size: .95rem; }
+.mirar ul { margin: .5rem 0 .2rem; padding-left: 1.2rem; }
+.mirar li { margin: .25rem 0; }
+
+.paso { border-top: 1px solid var(--linea); padding: .9rem 0 1.1rem; }
+.paso:first-child { border-top: 0; padding-top: 0; }
+.paso h3 { display: flex; align-items: center; gap: .55rem; margin: 0 0 .4rem; font-size: 1.12rem; }
+.paso h3 .n { flex: none; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--magenta); color: #fff; display: grid; place-items: center; font-family: var(--sans); font-size: .85rem; }
+.consigna { margin: 0 0 .6rem; }
+.marco-mapa { position: relative; }
+#mapa-loc, #mapa-paisajes { width: 100%; height: auto; display: block; border: 1px solid var(--linea); cursor: crosshair; touch-action: none; }
+#mapa-paisajes { cursor: grab; }
+.fila-botones { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .4rem 1rem; margin-top: .3rem; }
+.respuesta p { margin: .45rem 0; }
+.veredicto { font-family: var(--sans); font-weight: 600; }
+.veredicto.bien { color: var(--verde); }
+.veredicto.mal { color: var(--rojo); }
+svg .marca-alumno { fill: var(--magenta); stroke: #fff; stroke-width: 2; vector-effect: non-scaling-stroke; }
+svg .marca-real circle { fill: none; stroke: var(--verde); stroke-width: 3; vector-effect: non-scaling-stroke; }
+svg .distancia { stroke: var(--magenta); stroke-width: 1.5; stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
+
+.opciones-k { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: .45rem; }
+.opciones-k button { display: flex; align-items: center; gap: .5rem; text-align: left; background: var(--tierra); font-size: .9rem; }
+.opciones-k button .muestra { flex: none; width: 1.1rem; height: 1.1rem; border: 1px solid rgba(29, 42, 48, .25); border-radius: 2px; }
+.opciones-k button.correcta { background: var(--verde-claro); border-color: var(--verde); }
+.opciones-k button.incorrecta { background: var(--rojo-claro); border-color: var(--rojo); }
+.opciones-k button[disabled] { opacity: 1; cursor: default; }
+.ver-k { margin-top: .5rem; }
+.climograma-ref { margin: .6rem 0 0; max-width: 480px; }
+
+#cuestionario-paisaje .cuestionario { margin-top: 0; }
+.modelo { margin-top: 1rem; border-left: 3px solid var(--magenta); background: var(--tierra); padding: .6rem .9rem; }
+.modelo p { margin: .55rem 0; }
+.enlaces h3 { font-size: 1rem; margin: 1.2rem 0 .3rem; }
+.enlaces ul { margin: 0; padding-left: 1.2rem; font-family: var(--sans); font-size: .92rem; }
+
+svg .punto-paisaje { cursor: pointer; }
+svg .punto-paisaje circle { fill: var(--tinta); stroke: #fff; stroke-width: 2; vector-effect: non-scaling-stroke; }
+svg .punto-paisaje .num { fill: #fff; font-family: var(--sans); font-size: 13px; font-weight: 600; pointer-events: none; }
+svg .punto-paisaje:hover circle { fill: var(--magenta); }
+
+#visor { max-width: 96vw; max-height: 96vh; padding: .6rem; border: 0; background: var(--tinta); color: var(--papel); }
+#visor::backdrop { background: rgba(10, 16, 20, .82); }
+#visor figure { margin: 0; }
+#visor img { display: block; max-width: calc(96vw - 1.2rem); max-height: calc(96vh - 5rem); object-fit: contain; }
+#visor figcaption { font-family: var(--sans); font-size: .8rem; margin: .4rem 0; }
+#visor figcaption a { color: #f0c6d7; }
+#visor button { background: var(--papel); color: var(--tinta); }

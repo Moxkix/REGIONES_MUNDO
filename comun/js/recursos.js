@@ -424,7 +424,9 @@
     } else document.getElementById("t-preguntas").hidden = true;
 
     const h = location.hash.slice(1);
-    if (tabs.includes(h) && !document.getElementById("t-" + h).hidden) abrir(h);
+    const enlace = h.match(/^produccion=([\w-]+)$/);  // p. ej. #produccion=aceite_oliva
+    if (enlace && prods.some((p) => p.id === enlace[1])) { estadoP.producto = enlace[1]; abrir("produccion"); pintarProduccion(); }
+    else if (tabs.includes(h) && !document.getElementById("t-" + h).hidden) abrir(h);
   } catch (e) {
     RM.error(main, e);
   }

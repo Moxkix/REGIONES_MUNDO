@@ -763,5 +763,9 @@
       "y": "esperanza_vida",
       "anio": 2024
     }
+  },
+  "paisajes": {
+    "archivo": "datos/paisajes.json",
+    "estacionesExtra": "datos/estaciones_paisajes.json"
   }
 }
