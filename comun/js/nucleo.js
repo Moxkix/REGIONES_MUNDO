@@ -45,6 +45,7 @@
     { id: "atlas", pagina: "atlas.html", nombre: "Atlas de lectura cruzada" },
     { id: "climas", pagina: "climas.html", nombre: "Climogramas" },
     { id: "recursos", pagina: "recursos.html", nombre: "Producciones y recursos" },
+    { id: "poblacion", pagina: "poblacion.html", nombre: "Población y desarrollo" },
   ];
 
   function cabecera(contenedor, ficha, actual, motores) {

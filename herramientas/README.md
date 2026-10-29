@@ -69,3 +69,14 @@ Los archivos de `datos/produccion/` de origen FAOSTAT y USGS se prepararon a par
 ```
 
 Se incluyen los países con al menos el 0,5 % de la producción mundial en alguno de los años. Tras añadir o actualizar un producto, ejecutad `python3 herramientas/indice_produccion.py`.
+
+## Población (Naciones Unidas, WPP 2024)
+
+Los archivos `.rda` están en la carpeta `data/` del repositorio [PPgp/wpp2024](https://github.com/PPgp/wpp2024):
+
+```
+pip install pyreadr pandas
+python3 herramientas/poblacion_wpp.py carpeta_wpp ne_50m_admin_0_countries.geojson
+```
+
+Genera `datos/poblacion/<ID>.json` (pirámides quinquenales cada cinco años y series anuales de 1950 a 2100), `datos/poblacion/indice.json` y `datos/indicadores/wpp.json`.

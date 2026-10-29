@@ -11,9 +11,10 @@
       "motores": [
         "atlas",
         "climas",
-        "recursos"
+        "recursos",
+        "poblacion"
       ],
-      "color": "#4f7cac",
+      "color": "#3d6fa8",
       "paises": [
         "ALB",
         "AND",
@@ -67,7 +68,7 @@
       "subtitulo": "Potencial económico, contrastes regionales y reorganización del espacio euroasiático",
       "disponible": false,
       "motores": [],
-      "color": "#8a6aa8",
+      "color": "#8a5fb0",
       "paises": [
         "RUS",
         "UKR",
@@ -90,7 +91,7 @@
       "subtitulo": "Primera potencia económica mundial: Estados Unidos",
       "disponible": false,
       "motores": [],
-      "color": "#3f8f86",
+      "color": "#2f8f83",
       "paises": [
         "USA",
         "CAN"
@@ -103,7 +104,7 @@
       "subtitulo": "Dos modelos de organización del espacio en el Pacífico",
       "disponible": false,
       "motores": [],
-      "color": "#c06c84",
+      "color": "#d16d8a",
       "paises": [
         "JPN",
         "AUS"
@@ -116,7 +117,7 @@
       "subtitulo": "Un gran espacio en desarrollo y con países emergentes",
       "disponible": false,
       "motores": [],
-      "color": "#c9973f",
+      "color": "#e3a52a",
       "paises": [
         "TUR",
         "SYR",
@@ -167,7 +168,7 @@
       "subtitulo": "Contrastes naturales y sociales",
       "disponible": false,
       "motores": [],
-      "color": "#a8743f",
+      "color": "#8f5530",
       "paises": [
         "DZA",
         "AGO",
@@ -234,7 +235,7 @@
       "subtitulo": "Diversidad natural, humana y económica",
       "disponible": false,
       "motores": [],
-      "color": "#6f9a4a",
+      "color": "#5f9a3a",
       "paises": [
         "MEX",
         "GTM",

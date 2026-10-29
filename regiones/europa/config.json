@@ -739,5 +739,29 @@
         "WLD"
       ]
     }
+  },
+  "poblacion": {
+    "cuestionario": "cuestionarios/poblacion.json",
+    "porDefecto": "ESP",
+    "comparar": "",
+    "transicionComparar": "NER",
+    "comparadores": [
+      "RUS",
+      "UKR",
+      "TUR",
+      "MAR",
+      "NGA",
+      "NER",
+      "IND",
+      "CHN",
+      "JPN",
+      "USA",
+      "BRA"
+    ],
+    "explorador": {
+      "x": "fecundidad",
+      "y": "esperanza_vida",
+      "anio": 2024
+    }
   }
 }

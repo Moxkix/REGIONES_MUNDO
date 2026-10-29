@@ -13,13 +13,15 @@ Sitio publicado: <https://moxkix.github.io/REGIONES_MUNDO/>
 | `atlas.html?r=<id>` | Atlas de lectura cruzada: capas superpuestas o enfrentadas con cortinilla y preguntas guiadas |
 | `climas.html?r=<id>` | Climogramas, clasificación de Köppen paso a paso, centros de acción y ejercicio de clasificación |
 | `recursos.html?r=<id>` | Producciones y recursos: cuotas de producción mundial (agricultura, energía y minería), balance energético por país, indicadores agrarios y afirmaciones del manual comprobadas |
+| `poblacion.html?r=<id>` | Población y desarrollo: pirámides animadas (1950-2100) con comparación, transición demográfica y explorador de indicadores en dispersión, con trayectorias y mapa mundial |
 
 Todo es HTML, CSS y JavaScript sin compilación. D3 y TopoJSON están en `comun/vendor/` y las fuentes tipográficas en `comun/fuentes/`, de modo que el sitio no depende de servicios externos.
 
 ## Estructura
 
 ```
-index.html, region.html, atlas.html, climas.html   páginas genéricas
+index.html, region.html, atlas.html, climas.html,
+recursos.html, poblacion.html                      páginas genéricas
 comun/
   css/        estilos comunes y de cada motor
   js/         nucleo.js (carga y utilidades), mapa.js, cuestionario.js,
@@ -31,6 +33,8 @@ datos/
   koppen.json     colores y nombres de los tipos de Köppen
   produccion/     producción mundial por país de 25 productos (compartida por todas las regiones)
                   e indice.json con los disponibles
+  poblacion/      pirámides y series demográficas de Naciones Unidas por país y agregado
+  indicadores/    wpp.json (demografía) y wdi.json (economía, Banco Mundial) para el explorador
   mundo/          países de Natural Earth a 1:50 m y 1:110 m (TopoJSON)
 regiones/<id>/
   config.json     proyección, ventana, capas del atlas, estaciones y centros de acción
@@ -42,7 +46,7 @@ herramientas/     scripts para preparar las capas (ver herramientas/README.md)
 
 ## Cómo añadir una región
 
-1. En `datos/regiones.json`, cambiad `"disponible"` a `true` y añadid los motores en `"motores"` (`"atlas"`, `"climas"`, `"recursos"`).
+1. En `datos/regiones.json`, cambiad `"disponible"` a `true` y añadid los motores en `"motores"` (`"atlas"`, `"climas"`, `"recursos"`, `"poblacion"`).
 2. Cread la carpeta `regiones/<id>/` copiando la estructura de `regiones/europa/`.
 3. En `config.json` definid la proyección (`laea`, `conica` o `equalEarth`, con `rotar`) y la ventana geográfica `[oeste, sur, este, norte]`.
 4. Generad el clima de Köppen para la ventana con `herramientas/koppen_region.py` y las demás capas que necesitéis.
@@ -75,9 +79,21 @@ Cada afirmación del manual se comprueba automáticamente con los datos más rec
 
 Los datos de producción son mundiales: al añadir una región nueva normalmente basta con elegir productos ya disponibles. Para añadir un producto, se crea `datos/produccion/<id>.json` con el mismo formato y se ejecuta `herramientas/indice_produccion.py`.
 
+### Población y desarrollo
+
+Los datos demográficos son mundiales (Naciones Unidas, *World Population Prospects 2024*: estimaciones hasta 2023 y variante media de la proyección desde 2024), así que una región nueva solo necesita la sección `poblacion` de su `config.json`:
+
+```json
+"poblacion": { "cuestionario": "cuestionarios/poblacion.json", "porDefecto": "ESP",
+  "transicionComparar": "NER", "comparadores": ["NGA", "IND", "CHN", "JPN", "USA"],
+  "explorador": { "x": "fecundidad", "y": "esperanza_vida", "anio": 2024 } }
+```
+
+En el explorador los países de la región se dibujan resaltados y los demás atenuados, con el color de la región del temario a la que pertenecen. Los datos se regeneran con `herramientas/poblacion_wpp.py`.
+
 ### Preguntas
 
-Cada pregunta lleva un bloque `mapa` que activa las capas que necesita:
+Cada pregunta lleva un bloque que abre la vista que necesita: `mapa` en el atlas y `vista` en los demás motores (por ejemplo `{"pestana": "transicion", "pais": "ESP", "comparar": "NER"}`):
 
 ```json
 { "id": "relieve-clima", "mapa": { "modo": "comparar", "izq": "relieve", "der": "clima" },
@@ -103,6 +119,7 @@ En *Settings → Pages* del repositorio, elegid *Deploy from a branch*, rama `ma
 - Clima: clasificación de Köppen-Geiger 1986-2010 de Rubel, F., Brugger, K., Haslinger, K. y Auer, I. (2017), *Meteorologische Zeitschrift* 26, 115-125, en la versión ráster del paquete [kgcpy](https://github.com/cwru-sdle/kgcpy) (BSD-3).
 - Datos estadísticos: Eurostat, Naciones Unidas y servicios meteorológicos nacionales; cada archivo indica su fuente y año.
 - Producción agraria: FAOSTAT (QCL), a través de Our World in Data. Minería: U.S. Geological Survey, *Mineral Commodity Summaries* 2016 y 2026. Energía: Energy Institute (*Statistical Review of World Energy*) y Ember, a través del repositorio [owid/energy-data](https://github.com/owid/energy-data) (CC BY 4.0). Indicadores agrarios: Banco Mundial (WDI).
+- Población: Naciones Unidas, [World Population Prospects 2024](https://population.un.org/wpp/), a partir del paquete de datos [wpp2024](https://github.com/PPgp/wpp2024). Indicadores económicos del explorador: Banco Mundial, *World Development Indicators*.
 - Código: licencia MIT. Contenidos: licencia CC BY 4.0. Fuentes tipográficas: SIL Open Font License 1.1.
 
 Preparado por Iñaki Moro Deordal como apoyo a la tutoría. No sustituye al manual ni a las indicaciones del equipo docente.

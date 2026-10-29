@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Población y desarrollo</title>
+  <link rel="icon" href="comun/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="comun/css/base.css">
+  <link rel="stylesheet" href="comun/css/mapa.css">
+  <link rel="stylesheet" href="comun/css/climas.css">
+  <link rel="stylesheet" href="comun/css/recursos.css">
+  <link rel="stylesheet" href="comun/css/poblacion.css">
+</head>
+<body>
+  <header class="barra" id="barra"></header>
+  <main id="poblacion">
+    <div class="pestanas-pagina" role="tablist" aria-label="Secciones">
+      <button type="button" role="tab" aria-selected="true" aria-controls="s-piramides" id="t-piramides">Pirámides de población</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-transicion" id="t-transicion">Transición demográfica</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-explorador" id="t-explorador">Explorador de indicadores</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-preguntas" id="t-preguntas">Preguntas</button>
+    </div>
+
+    <section id="s-piramides" role="tabpanel" aria-labelledby="t-piramides" class="seccion">
+      <div class="controles-energia">
+        <label for="pir-a">País</label><select id="pir-a"></select>
+        <label for="pir-b">Comparar con</label><select id="pir-b"></select>
+        <fieldset class="modo modo-corto"><legend class="oculto">Escala</legend>
+          <label><input type="radio" name="escala-pir" value="pct" checked>Porcentaje</label>
+          <label><input type="radio" name="escala-pir" value="abs">Miles de personas</label>
+        </fieldset>
+      </div>
+      <div class="control-anio">
+        <button type="button" id="pir-play" class="principal" aria-label="Reproducir la evolución">Reproducir</button>
+        <label for="pir-anio" class="oculto">Año</label>
+        <input type="range" id="pir-anio" min="1950" max="2100" step="5" value="2025">
+        <output id="pir-anio-txt" for="pir-anio"></output>
+      </div>
+      <div class="rejilla-piramide">
+        <figure>
+          <svg id="piramide" role="img" aria-label="Pirámide de población"></svg>
+          <div class="leyenda-linea" id="leyenda-piramide"></div>
+        </figure>
+        <div>
+          <dl class="indicadores indicadores-col" id="ind-piramide"></dl>
+          <p class="nota" id="nota-piramide"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-transicion" role="tabpanel" aria-labelledby="t-transicion" class="seccion" hidden>
+      <div class="controles-energia">
+        <label for="tr-a">País</label><select id="tr-a"></select>
+        <label for="tr-b">Comparar con</label><select id="tr-b"></select>
+      </div>
+      <div class="rejilla-energia">
+        <figure>
+          <figcaption id="tit-transicion">Tasas brutas de natalidad y mortalidad (‰)</figcaption>
+          <svg id="transicion" role="img" aria-label="Tasas de natalidad y mortalidad"></svg>
+          <div class="leyenda-linea" id="leyenda-transicion"></div>
+        </figure>
+        <div class="explica-transicion">
+          <h3>Las fases de la transición</h3>
+          <ol>
+            <li><b>Régimen antiguo.</b> Natalidad y mortalidad altas; crecimiento lento e irregular.</li>
+            <li><b>Primera fase de transición.</b> La mortalidad cae (alimentación, higiene, medicina) y la natalidad se mantiene: crecimiento rápido.</li>
+            <li><b>Segunda fase.</b> La natalidad también desciende; el crecimiento se frena.</li>
+            <li><b>Régimen moderno.</b> Natalidad y mortalidad bajas y próximas.</li>
+            <li><b>Fase postransicional.</b> Las defunciones superan a los nacimientos: crecimiento natural negativo.</li>
+          </ol>
+          <p class="nota">La zona sombreada es el crecimiento natural (natalidad menos mortalidad). La línea vertical separa las estimaciones de la proyección.</p>
+        </div>
+      </div>
+      <div class="pequenos" id="tr-pequenos"></div>
+      <p class="nota" id="fuente-transicion"></p>
+    </section>
+
+    <section id="s-explorador" role="tabpanel" aria-labelledby="t-explorador" class="seccion" hidden>
+      <div class="controles-energia">
+        <label for="ex-x">Eje horizontal</label><select id="ex-x"></select>
+        <label for="ex-y">Eje vertical</label><select id="ex-y"></select>
+      </div>
+      <div class="control-anio">
+        <button type="button" id="ex-play" class="principal">Reproducir</button>
+        <div class="anios" id="ex-anios" role="group" aria-label="Año"></div>
+        <label class="conmutador"><input type="checkbox" id="ex-rastro"> Mostrar la trayectoria del país seleccionado</label>
+      </div>
+      <figure>
+        <svg id="dispersion" role="img" aria-label="Gráfico de dispersión de los países"></svg>
+        <div class="leyenda-linea" id="leyenda-dispersion"></div>
+      </figure>
+      <p class="guia" id="ex-guia">Pasad el cursor sobre un círculo para ver el país; pulsadlo para seguirlo. El tamaño es proporcional a la población.</p>
+      <figure class="fig-mapa">
+        <figcaption id="tit-mapa-ex"></figcaption>
+        <svg id="mapa-ex" role="img" aria-label="Mapa del indicador del eje vertical"></svg>
+        <div class="leyenda-linea" id="leyenda-mapa-ex"></div>
+      </figure>
+      <p class="nota" id="fuente-ex"></p>
+    </section>
+
+    <section id="s-preguntas" role="tabpanel" aria-labelledby="t-preguntas" class="seccion" hidden>
+      <div class="contenido-estrecho">
+        <p class="guia">Cada pregunta abre la vista que necesitáis. Volved a esta pestaña para seguir.</p>
+        <div id="cuestionario"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie" id="pie"></footer>
+  <script src="comun/vendor/d3.min.js"></script>
+  <script src="comun/vendor/topojson-client.min.js"></script>
+  <script src="comun/js/nucleo.js"></script>
+  <script src="comun/js/pie.js"></script>
+  <script src="comun/js/cuestionario.js"></script>
+  <script src="comun/js/poblacion.js"></script>
+</body>
+</html>

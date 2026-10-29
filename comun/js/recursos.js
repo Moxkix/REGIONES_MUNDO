@@ -119,7 +119,7 @@
       document.querySelectorAll("#anios button").forEach((b) => b.addEventListener("click", () => { estadoP.anio = b.dataset.a; pintarProduccion(); }));
 
       // Mapa
-      gPaises.selectAll("path").data(paisesGeo).join("path").attr("d", rutaP)
+      gPaises.selectAll("path").data(paisesGeo.filter((f) => f.properties.id !== "ATA")).join("path").attr("d", rutaP)
         .attr("class", (f) => "pais-p" + (regionPaises.has(f.properties.id) ? " region" : ""))
         .attr("fill", (f) => colorCuota(cuota(p, f.properties.id, a) ?? (p.mundo[a] ? 0 : null)))
         .on("mousemove", (ev, f) => {

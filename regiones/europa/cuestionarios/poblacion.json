@@ -1,0 +1,134 @@
+{
+  "titulo": "Preguntas sobre población y desarrollo en Europa",
+  "preguntas": [
+    {
+      "id": "piramide-espana-2025",
+      "vista": { "pestana": "piramides", "pais": "ESP", "anio": 2025 },
+      "enunciado": "Observad la pirámide de España en 2025. ¿Qué rasgo la describe mejor?",
+      "opciones": [
+        { "t": "Base estrecha y ensanchamiento máximo entre los 45 y los 54 años: es una pirámide regresiva o de bulbo", "ok": true, "r": "Los grupos más numerosos son los nacidos en los años setenta, los últimos años del baby boom español, engrosados además por la inmigración de adultos jóvenes en las últimas décadas." },
+        { "t": "Base ancha y cima estrecha: es una pirámide progresiva", "r": "Ese es el perfil de España en 1950 o de Níger hoy. Mirad cuánto más estrecha es la base que el centro." },
+        { "t": "Todos los grupos de edad tienen un tamaño parecido hasta los 70 años", "r": "El grupo de 0 a 4 años (1,7 millones) es menos de la mitad que el de 45 a 49 (3,9 millones)." },
+        { "t": "El grupo más numeroso es el de 25 a 29 años", "r": "Ese grupo tiene unos 2,5 millones; los de 45 a 54 superan los 3,9 millones cada uno." }
+      ],
+      "explicacion": [
+        "La forma de una pirámide guarda la memoria de la natalidad pasada. El abultamiento central corresponde al baby boom, que en España fue más tardío que en el norte de Europa; la base estrecha refleja la caída de la fecundidad desde finales de los setenta.",
+        "Pulsad «Reproducir» desde 1950: veréis cómo el abultamiento asciende década a década. Hacia 2050 llegará a la cúspide y la pirámide tomará forma de urna invertida."
+      ],
+      "manual": "Apartado 2.1.1"
+    },
+    {
+      "id": "envejecimiento-espana",
+      "vista": { "pestana": "piramides", "pais": "ESP", "anio": 1960 },
+      "enunciado": "Moved el año de la pirámide de España de 1960 a 2025 y luego a 2050, y mirad los indicadores de la derecha. ¿Cómo evoluciona la proporción de mayores de 65 años?",
+      "opciones": [
+        { "t": "Pasa del 8 % en 1960 al 22 % en 2025, y la proyección la lleva al 36 % en 2050", "ok": true, "r": "En 1960 había casi ocho personas de 15 a 64 años por cada mayor de 65; en 2025 hay tres, y en 2050 serán menos de una y media." },
+        { "t": "Se mantiene estable en torno al 15 % durante todo el periodo", "r": "Ha casi triplicado en sesenta años y la proyección prevé que siga creciendo." },
+        { "t": "Alcanza su máximo hoy y la proyección prevé que baje", "r": "Lo peor está por llegar: las generaciones del baby boom cumplirán 65 años entre 2025 y 2040." },
+        { "t": "Pasa del 2 % al 10 %", "r": "Esas cifras se parecen a las de Níger o a la media mundial, no a las de España." }
+      ],
+      "explicacion": [
+        "El envejecimiento tiene dos motores: la caída de la natalidad (envejecimiento por la base) y el aumento de la esperanza de vida (envejecimiento por la cúspide). En España actúan ambos con fuerza: la esperanza de vida ha pasado de 62 años en 1950 a casi 84 hoy.",
+        "La relación de dependencia de los mayores (mayores de 65 por cada 100 personas de 15 a 64) pasa de 13 en 1960 a 33 en 2025 y a 69 en 2050. Es el dato que preocupa a los sistemas de pensiones y de salud.",
+        "Diferencia con las fuentes nacionales: Naciones Unidas estima 47,9 millones de habitantes para España en 2025, algo menos que el INE (más de 49 millones), porque recoge con retraso la fuerte inmigración reciente."
+      ],
+      "manual": "Apartados 2.1.1 y 2.1.2"
+    },
+    {
+      "id": "transicion-espana-niger",
+      "vista": { "pestana": "transicion", "pais": "ESP", "comparar": "NER" },
+      "enunciado": "Comparad la transición demográfica de España con la de Níger. ¿En qué situación está cada país hoy?",
+      "opciones": [
+        { "t": "España ha cerrado la transición y tiene crecimiento natural negativo; en Níger la mortalidad ha bajado mucho pero la natalidad sigue cerca del 42 ‰", "ok": true, "r": "Níger crece de forma natural más de un 3 % al año: su población, 28 millones, casi se duplicará hasta 2050." },
+        { "t": "Ambos países están en la misma fase, con natalidad y mortalidad bajas", "r": "La natalidad de Níger es seis veces la de España (41,9 ‰ frente a 7,0 ‰ en 2023)." },
+        { "t": "Níger está en el régimen antiguo, con mortalidad tan alta como la natalidad", "r": "La mortalidad de Níger ya ha caído del 28 ‰ de 1950 a menos del 9 ‰: la transición ha empezado." },
+        { "t": "España sigue en la segunda fase, con crecimiento natural rápido", "r": "Desde 2015 en España hay más defunciones que nacimientos." }
+      ],
+      "explicacion": [
+        "El modelo de transición demográfica se formuló a partir de la experiencia europea, que tardó más de un siglo en recorrer las fases. España la completó tarde y deprisa: en 1960 su natalidad era aún del 22 ‰.",
+        "Níger es hoy el país con mayor fecundidad del mundo (unos 6 hijos por mujer). La comparación muestra por qué Europa pierde peso en la población mundial: crece poco o nada mientras África subsahariana está en plena fase de crecimiento rápido."
+      ],
+      "manual": "Apartado 2.1.1"
+    },
+    {
+      "id": "crecimiento-negativo",
+      "vista": { "pestana": "transicion", "pais": "DEU", "comparar": "FRA" },
+      "enunciado": "Abrid la transición de Alemania y comparadla con Francia; probad después con Italia y España. Según las estimaciones de Naciones Unidas, ¿cuál de estos países fue el primero en registrar más defunciones que nacimientos?",
+      "opciones": [
+        { "t": "Alemania, a comienzos de los años setenta", "ok": true, "r": "El crecimiento natural alemán es negativo desde 1972. Italia lo siguió en 1993 y España en 2015." },
+        { "t": "Italia, en los años sesenta", "r": "Italia entró en crecimiento natural negativo en 1993." },
+        { "t": "España, en los años ochenta", "r": "España tuvo crecimiento natural positivo hasta 2014: fue de los últimos en cruzar la línea." },
+        { "t": "Francia, en los años noventa", "r": "Francia ha sido una excepción en Europa occidental, con una fecundidad más alta que la de sus vecinos durante décadas." }
+      ],
+      "explicacion": [
+        "Francia es el caso que mejor muestra la diferencia entre proyección y realidad: Naciones Unidas proyectaba su primer saldo negativo hacia 2028, pero el INSEE registró en 2025 más defunciones que nacimientos por primera vez desde 1945. La caída reciente de la natalidad ha sido más rápida de lo previsto.",
+        "En casi toda Europa la población solo crece, o deja de caer, gracias a la inmigración. El crecimiento total es la suma del crecimiento natural y del saldo migratorio."
+      ],
+      "manual": "Apartados 2.1.1 y 2.1.3"
+    },
+    {
+      "id": "fecundidad-reemplazo",
+      "vista": { "pestana": "explorador", "x": "fecundidad", "y": "esperanza_vida", "anio": 2024 },
+      "enunciado": "En el explorador, con la fecundidad en el eje horizontal, buscad los países europeos (en azul) en 2024. ¿Cuántos alcanzan el nivel de reemplazo de 2,1 hijos por mujer?",
+      "opciones": [
+        { "t": "Ninguno: todos están por debajo, entre 1 y 1,8 hijos por mujer", "ok": true, "r": "Los valores más bajos son los de Ucrania (0,99), Malta (1,11), Italia y Lituania (1,21); los más altos, Montenegro, Bulgaria, Moldavia y Rumanía, entre 1,7 y 1,8." },
+        { "t": "Los países nórdicos y Francia, que superan los 2,1", "r": "Francia (1,64) y los países nórdicos estuvieron cerca del reemplazo hace quince años, pero hoy también están lejos." },
+        { "t": "Aproximadamente la mitad", "r": "Mirad el eje: ningún círculo azul pasa de 1,8." },
+        { "t": "Solo los países del este, gracias a su tradición de familias numerosas", "r": "Los países del este tienen valores algo más altos que los del sur, pero siguen muy por debajo de 2,1." }
+      ],
+      "explicacion": [
+        "Para que una generación se sustituya a sí misma hacen falta unos 2,1 hijos por mujer. Toda Europa está por debajo desde hace décadas, y la Europa mediterránea y Ucrania están entre los valores más bajos del mundo.",
+        "Pulsad «Reproducir» y observad cómo el conjunto de los países se desplaza hacia la esquina superior izquierda: menos hijos y vidas más largas."
+      ],
+      "manual": "Apartado 2.1.2"
+    },
+    {
+      "id": "edad-mediana",
+      "vista": { "pestana": "explorador", "x": "edad_mediana", "y": "mayores65", "anio": 2024 },
+      "enunciado": "Comparad la edad mediana de los países. ¿Qué país europeo tiene la población más envejecida según este indicador?",
+      "opciones": [
+        { "t": "Italia, con una edad mediana de 49 años", "ok": true, "r": "La mitad de los italianos tiene más de 49 años. La siguen Portugal, Grecia y España, todos por encima de 46." },
+        { "t": "Suecia, por su alta esperanza de vida", "r": "Suecia está por debajo de la media europea: su fecundidad ha sido más alta y ha recibido mucha inmigración joven." },
+        { "t": "Turquía", "r": "Turquía es de los más jóvenes del continente, con una edad mediana de 34 años." },
+        { "t": "Irlanda", "r": "Irlanda es uno de los países más jóvenes de la UE." }
+      ],
+      "explicacion": [
+        "La edad mediana resume en un número la forma de la pirámide: es la edad que divide a la población en dos mitades. Europa en conjunto está en 44 años, el mundo en 32 y África en 20.",
+        "La Europa mediterránea combina dos factores: una de las esperanzas de vida más altas del mundo y una fecundidad muy baja desde los años ochenta."
+      ],
+      "manual": "Apartado 2.1.2"
+    },
+    {
+      "id": "despoblacion-este",
+      "vista": { "pestana": "transicion", "pais": "BGR", "comparar": "IRL" },
+      "enunciado": "Mirad el gráfico pequeño de población de Bulgaria y comparadlo con el de Irlanda. ¿Qué ha ocurrido en muchos países del este desde 1990?",
+      "opciones": [
+        { "t": "Han perdido entre una sexta parte y un tercio de su población, por la baja natalidad y, sobre todo, por la emigración", "ok": true, "r": "Bulgaria, Lituania y Ucrania han perdido alrededor de un 24 %; Letonia, Bosnia y Herzegovina y Moldavia, cerca de un 30 %. Irlanda, en cambio, ha ganado un 50 %." },
+        { "t": "Han crecido rápidamente gracias a la entrada en la UE", "r": "La entrada en la UE facilitó la emigración de jóvenes hacia el oeste." },
+        { "t": "Su población se ha mantenido estable", "r": "Mirad la curva de población: cae de forma continua desde finales de los ochenta." },
+        { "t": "Han perdido población solo por la guerra de Ucrania", "r": "La caída empezó en 1990, mucho antes de la guerra, aunque en Ucrania la guerra la ha agravado." }
+      ],
+      "explicacion": [
+        "Tras el fin de los regímenes comunistas, la crisis económica hundió la natalidad y abrió la puerta a la emigración. La pérdida de jóvenes reduce a su vez los nacimientos futuros: es un círculo difícil de romper.",
+        "España e Irlanda muestran el caso contrario: países de emigración hasta los años setenta que se convirtieron en destinos de inmigración."
+      ],
+      "manual": "Apartados 2.1.3 y 2.1.4"
+    },
+    {
+      "id": "convergencia-mundial",
+      "vista": { "pestana": "explorador", "x": "fecundidad", "y": "esperanza_vida", "anio": 1990, "pais": "KOR", "rastro": true },
+      "enunciado": "Seguid la trayectoria de Corea del Sur desde 1990 y probad después con la India, China o Bangladés. ¿Qué conclusión sacáis sobre el régimen demográfico europeo?",
+      "opciones": [
+        { "t": "Ya no es una excepción: buena parte de Asia tiene hoy una fecundidad igual o inferior a la europea", "ok": true, "r": "Corea del Sur tiene la fecundidad más baja del mundo (0,73) y China está en 1,0. La India ha bajado de 4 a menos de 2 hijos por mujer." },
+        { "t": "Europa sigue siendo la única región con fecundidad por debajo del reemplazo", "r": "China, Corea, Japón, Tailandia o la India están también por debajo de 2,1." },
+        { "t": "Los países asiáticos han aumentado su fecundidad desde 1990", "r": "Todas las trayectorias se mueven hacia la izquierda: la fecundidad ha bajado." },
+        { "t": "La esperanza de vida asiática ha bajado desde 1990", "r": "Ha subido mucho: Corea del Sur ha pasado de 71 a 84 años." }
+      ],
+      "explicacion": [
+        "Europa fue la primera región en completar la transición demográfica, pero hoy la siguen la mayoría de los países de Asia oriental y meridional, y a mayor velocidad. Japón y Corea del Sur envejecen más deprisa que cualquier país europeo.",
+        "La gran excepción es África subsahariana, que concentrará buena parte del crecimiento de la población mundial durante este siglo."
+      ],
+      "manual": "Apartado 2.1.1"
+    }
+  ]
+}
