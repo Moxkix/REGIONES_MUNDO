@@ -19,7 +19,7 @@
     "Central America": "América Central", "Oceania": "Oceanía", "Eastern Asia": "Asia oriental", "Southern Asia": "Asia meridional",
     "South-eastern Asia": "Sudeste asiático", "Western Asia": "Asia occidental",
   };
-  const ANTIGUOS = { SUN: "URSS", YUG: "Yugoslavia", CSK: "Checoslovaquia", UE27: "Unión Europea (27)", MUNDO: "Mundo", EUU: "Unión Europea", WLD: "Mundo" };
+  const ANTIGUOS = { SUN: "URSS", YUG: "Yugoslavia", CSK: "Checoslovaquia", ETP: "Etiopía (con Eritrea)", BLX: "Bélgica-Luxemburgo", UE27: "Unión Europea (27)", MUNDO: "Mundo", EUU: "Unión Europea", WLD: "Mundo" };
   const PALETA = ["#2f5d8a", "#c9973f", "#3f8f86", "#8a6aa8", "#b5533c", "#6f9a4a"];
   const f1 = (n) => RM.formato(n, 1), f0 = (n) => RM.formato(n, 0);
 

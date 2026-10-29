@@ -1,6 +1,18 @@
 {
  "productos": [
   {
+   "id": "arroz",
+   "nombre": "Arroz (con cáscara)",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
    "id": "bauxita",
    "nombre": "Bauxita",
    "grupo": "mineria",
@@ -13,6 +25,18 @@
    "id": "carbon",
    "nombre": "Carbón",
    "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "cebada",
+   "nombre": "Cebada",
+   "grupo": "agricultura",
    "anios": [
     1990,
     2000,
@@ -94,6 +118,18 @@
    ]
   },
   {
+   "id": "maiz",
+   "nombre": "Maíz",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
    "id": "nuclear",
    "nombre": "Electricidad nuclear",
    "grupo": "energia",
@@ -118,12 +154,48 @@
    ]
   },
   {
+   "id": "remolacha",
+   "nombre": "Remolacha azucarera",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "soja",
+   "nombre": "Soja",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
    "id": "tierras_raras",
    "nombre": "Tierras raras",
    "grupo": "mineria",
    "anios": [
     2015,
     2025
+   ]
+  },
+  {
+   "id": "trigo",
+   "nombre": "Trigo",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
    ]
   },
   {
