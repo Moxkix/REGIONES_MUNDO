@@ -1,100 +1,329 @@
 {
-  "titulo": "Preguntas sobre producciones y recursos de Europa",
-  "preguntas": [
+ "titulo": "Preguntas sobre producciones y recursos de Europa",
+ "preguntas": [
+  {
+   "id": "carbon-mundo",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "carbon",
+    "anio": 1990
+   },
+   "enunciado": "Abrid la producción de carbón y comparad 1990 con el último año. Europa fue la cuna de la minería del carbón. ¿Qué ha ocurrido desde entonces?",
+   "opciones": [
     {
-      "id": "carbon-mundo",
-      "vista": { "pestana": "produccion", "producto": "carbon", "anio": 1990 },
-      "enunciado": "Abrid la producción de carbón y comparad 1990 con el último año. Europa fue la cuna de la minería del carbón. ¿Qué ha ocurrido desde entonces?",
-      "opciones": [
-        { "t": "La UE ha pasado del 14 % al 2 % de la producción mundial, mientras China produce ya más de la mitad", "ok": true, "r": "El centro de gravedad del carbón se ha desplazado a Asia: China, India e Indonesia suman cerca del 70 %." },
-        { "t": "La UE sigue siendo el primer productor mundial", "r": "Hoy produce menos del 2 % del carbón del mundo." },
-        { "t": "La producción mundial de carbón ha caído a la mitad", "r": "Al contrario: casi se ha duplicado desde 1990, impulsada por Asia." },
-        { "t": "Estados Unidos ha sustituido a Europa como primer productor", "r": "Estados Unidos también ha perdido peso, del 24 % a menos del 6 %." }
-      ],
-      "explicacion": [
-        "El manual explica el declive del carbón europeo desde los años sesenta: agotamiento de los filones más accesibles, costes altos frente al carbón importado y competencia del petróleo. Después se sumaron la política climática y el cierre de las últimas minas británicas.",
-        "Mirad el balance energético de Polonia: sigue generando la mitad de su electricidad con carbón, y es hoy el principal productor de la UE."
-      ],
-      "manual": "Apartados 5.1 y 5.2.1"
+     "t": "La UE ha pasado del 14 % al 2 % de la producción mundial, mientras China produce ya más de la mitad",
+     "ok": true,
+     "r": "El centro de gravedad del carbón se ha desplazado a Asia: China, India e Indonesia suman cerca del 70 %."
     },
     {
-      "id": "gas-groninga",
-      "vista": { "pestana": "produccion", "producto": "gas" },
-      "enunciado": "El manual sitúa a Holanda como principal productor de gas de la UE. ¿Qué dicen los datos actuales?",
-      "opciones": [
-        { "t": "Su producción se ha desplomado con el cierre de Groninga, y Rumanía la ha superado dentro de la UE", "ok": true, "r": "Los Países Bajos producían unos 750 TWh en 2010 y apenas 81 en 2024; Rumanía, unos 90." },
-        { "t": "Los Países Bajos han duplicado su producción", "r": "Es al revés: los terremotos inducidos por la extracción obligaron a reducirla hasta el cierre del yacimiento." },
-        { "t": "Alemania es hoy el principal productor de gas de la UE", "r": "Alemania produce menos de la mitad que Rumanía o los Países Bajos." },
-        { "t": "La UE se ha hecho autosuficiente en gas", "r": "La UE produce menos del 1 % del gas mundial y depende de las importaciones de Noruega, Estados Unidos y otros." }
-      ],
-      "explicacion": [
-        "Los seísmos causados por la extracción en Groninga llevaron al Gobierno neerlandés a reducir la producción desde 2014 y a cerrar el yacimiento en 2024. El Reino Unido sigue produciendo, pero ya no forma parte de la UE.",
-        "Con el fin de la mayor parte del gas ruso tras 2022, la dependencia exterior de la UE se apoya hoy en Noruega y en el gas natural licuado."
-      ],
-      "manual": "Apartado 5.1"
+     "t": "La UE sigue siendo el primer productor mundial",
+     "r": "Hoy produce menos del 2 % del carbón del mundo."
     },
     {
-      "id": "espana-dependencia",
-      "vista": { "pestana": "energia", "paisA": "ESP", "paisB": "NOR" },
-      "enunciado": "Abrid el balance energético de España. ¿Qué parte de los combustibles fósiles que consume produce ella misma?",
-      "opciones": [
-        { "t": "Prácticamente nada: importa casi todo el petróleo, el gas y el carbón que consume", "ok": true, "r": "Las áreas sombreadas de importación ocupan todo el gráfico de los tres combustibles." },
-        { "t": "Alrededor de la mitad, gracias al carbón asturiano", "r": "La minería del carbón asturiano y leonés cerró en 2018-2019." },
-        { "t": "Es exportadora neta de gas", "r": "Esa es la situación de Noruega, que podéis ver en el país de comparación." },
-        { "t": "Produce todo el petróleo que consume", "r": "España apenas tiene producción de petróleo." }
-      ],
-      "explicacion": [
-        "Por eso España tenía en 2015 una dependencia energética del 70,5 %, según el manual, y en 2024 seguía cerca del 69 %. Su vía para reducirla es la electricidad renovable: en 2025, eólica y solar ya suman más del 40 % de su generación.",
-        "Comparad con Noruega: produce mucho más gas y petróleo del que consume y exporta el excedente."
-      ],
-      "manual": "Apartado 5.1"
+     "t": "La producción mundial de carbón ha caído a la mitad",
+     "r": "Al contrario: casi se ha duplicado desde 1990, impulsada por Asia."
     },
     {
-      "id": "francia-nuclear",
-      "vista": { "pestana": "energia", "paisA": "FRA", "paisB": "DEU" },
-      "enunciado": "Comparad la electricidad de Francia y la de Alemania. ¿Qué diferencia destaca?",
-      "opciones": [
-        { "t": "Francia genera más de dos tercios de su electricidad con energía nuclear; Alemania ya no produce electricidad nuclear", "ok": true, "r": "Alemania cerró sus últimos reactores en abril de 2023; Francia mantiene el mayor parque nuclear de Europa." },
-        { "t": "Las dos dependen sobre todo del carbón", "r": "En Francia el carbón es testimonial; en Alemania aún supone en torno a un 20 %." },
-        { "t": "Francia produce casi toda su electricidad con energía solar", "r": "La solar no llega al 6 % en Francia." },
-        { "t": "Alemania es la que tiene más energía nuclear", "r": "Alemania abandonó la nuclear tras el accidente de Fukushima (2011)." }
-      ],
-      "explicacion": [
-        "El manual preveía en 2016 que varios países, Alemania incluida, retomarían la construcción de centrales nucleares. Alemania hizo lo contrario: completó el abandono decidido en 2011 y apostó por la eólica y la solar, manteniendo el carbón como respaldo.",
-        "Francia produce cerca del 14 % de la electricidad nuclear del mundo; podéis comprobarlo en la producción mundial de electricidad nuclear."
-      ],
-      "manual": "Apartado 5.1"
-    },
-    {
-      "id": "noruega-hidraulica",
-      "vista": { "pestana": "energia", "paisA": "NOR", "paisB": "POL" },
-      "enunciado": "Noruega genera el 90 % de su electricidad con un solo tipo de fuente. ¿Cuál y por qué?",
-      "opciones": [
-        { "t": "Hidráulica, gracias a un relieve montañoso y a precipitaciones muy abundantes", "ok": true, "r": "Los montes Escandinavos y la lluvia orográfica, como la de Bergen, dan un enorme potencial hidroeléctrico." },
-        { "t": "Gas natural, porque es un gran productor", "r": "Noruega exporta casi todo su gas; apenas lo usa para producir electricidad." },
-        { "t": "Nuclear", "r": "Noruega no tiene centrales nucleares." },
-        { "t": "Carbón", "r": "Ese es el caso de Polonia, el país de comparación." }
-      ],
-      "explicacion": [
-        "Relacionadlo con el climograma de Bergen (más de 2.400 mm al año) y con el relieve caledoniano del atlas. El manual menciona el aprovechamiento hidroeléctrico de los ríos de montaña."
-      ],
-      "manual": "Apartados 1.2.2.1 y 5.1"
-    },
-    {
-      "id": "rumania-empleo",
-      "vista": { "pestana": "agrario", "indicador": "empleo_agrario" },
-      "enunciado": "En el sector agrario, observad Rumanía: en 2000 un tercio de su empleo era agrario y hoy es alrededor del 11 %. ¿Qué proceso refleja?",
-      "opciones": [
-        { "t": "La modernización y terciarización de la economía tras la transición y la entrada en la UE, junto con la emigración de jóvenes del medio rural", "ok": true, "r": "Es el mismo proceso que vivieron antes los países de Europa occidental." },
-        { "t": "Una caída de la producción agraria rumana", "r": "La producción no ha caído: la reducción del empleo va acompañada de un aumento del rendimiento de los cereales." },
-        { "t": "La aplicación de cuotas lecheras de la PAC", "r": "Las cuotas lecheras se suprimieron en 2015 y no explican este cambio." },
-        { "t": "Un error estadístico", "r": "Los datos siguen una tendencia común a todo el este de la UE." }
-      ],
-      "explicacion": [
-        "El manual describe una agricultura del sur y del este con más mano de obra, más envejecida y menos formada. Las ampliaciones de 2004 y 2007 y los fondos de la PAC han acelerado la convergencia, aunque Rumanía sigue teniendo el porcentaje más alto de la UE.",
-        "Cambiad al rendimiento de los cereales para ver la otra cara: más producción por hectárea con menos trabajadores."
-      ],
-      "manual": "Apartados 3.4.3 y 5.3.1"
+     "t": "Estados Unidos ha sustituido a Europa como primer productor",
+     "r": "Estados Unidos también ha perdido peso, del 24 % a menos del 6 %."
     }
-  ]
+   ],
+   "explicacion": [
+    "El manual explica el declive del carbón europeo desde los años sesenta: agotamiento de los filones más accesibles, costes altos frente al carbón importado y competencia del petróleo. Después se sumaron la política climática y el cierre de las últimas minas británicas.",
+    "Mirad el balance energético de Polonia: sigue generando la mitad de su electricidad con carbón, y es hoy el principal productor de la UE."
+   ],
+   "manual": "Apartados 5.1 y 5.2.1"
+  },
+  {
+   "id": "gas-groninga",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "gas"
+   },
+   "enunciado": "El manual sitúa a Holanda como principal productor de gas de la UE. ¿Qué dicen los datos actuales?",
+   "opciones": [
+    {
+     "t": "Su producción se ha desplomado con el cierre de Groninga, y Rumanía la ha superado dentro de la UE",
+     "ok": true,
+     "r": "Los Países Bajos producían unos 750 TWh en 2010 y apenas 81 en 2024; Rumanía, unos 90."
+    },
+    {
+     "t": "Los Países Bajos han duplicado su producción",
+     "r": "Es al revés: los terremotos inducidos por la extracción obligaron a reducirla hasta el cierre del yacimiento."
+    },
+    {
+     "t": "Alemania es hoy el principal productor de gas de la UE",
+     "r": "Alemania produce menos de la mitad que Rumanía o los Países Bajos."
+    },
+    {
+     "t": "La UE se ha hecho autosuficiente en gas",
+     "r": "La UE produce menos del 1 % del gas mundial y depende de las importaciones de Noruega, Estados Unidos y otros."
+    }
+   ],
+   "explicacion": [
+    "Los seísmos causados por la extracción en Groninga llevaron al Gobierno neerlandés a reducir la producción desde 2014 y a cerrar el yacimiento en 2024. El Reino Unido sigue produciendo, pero ya no forma parte de la UE.",
+    "Con el fin de la mayor parte del gas ruso tras 2022, la dependencia exterior de la UE se apoya hoy en Noruega y en el gas natural licuado."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "trigo-figura",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "trigo"
+   },
+   "enunciado": "La figura 1.12 del manual presentaba a la UE como primer productor mundial de trigo con datos de 2012 (UE-27, 136 Mt; China, 115 Mt). ¿Qué muestran los datos de 2024?",
+   "opciones": [
+    {
+     "t": "China ha pasado a ser la primera (unos 140 Mt) y la UE es segunda (unos 119 Mt), muy cerca de India",
+     "ok": true,
+     "r": "La UE sigue produciendo alrededor del 15 % del trigo mundial, la cifra que da el manual, pero China la ha adelantado."
+    },
+    {
+     "t": "La UE sigue siendo la primera con mucha diferencia",
+     "r": "En 2024 China supera a la UE en unos 20 millones de toneladas."
+    },
+    {
+     "t": "Rusia es hoy el primer productor mundial de trigo",
+     "r": "Rusia es el primer exportador, pero no el primer productor: está por detrás de China, la UE e India."
+    },
+    {
+     "t": "Estados Unidos es el primer productor",
+     "r": "Estados Unidos produce menos de la mitad que China."
+    }
+   ],
+   "explicacion": [
+    "Comparar cifras de un solo año exige cautela: la cosecha depende mucho de la meteorología, y 2024 fue un mal año en Francia. Aun así, la tendencia es clara: la cuota de la UE baja lentamente (del 20 % en 2000 al 15 % en 2024) mientras crecen China, India y Rusia.",
+    "Fijaos también en la diferencia entre producir y exportar: Rusia y Ucrania exportan buena parte de su cosecha porque su consumo interior es menor."
+   ],
+   "manual": "Apartado 5.3.2 y figura 1.12"
+  },
+  {
+   "id": "aceite-oliva",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "aceite_oliva"
+   },
+   "enunciado": "El manual atribuye a la UE el 80 % del aceite de oliva del mundo. ¿Qué dicen los datos de FAOSTAT?",
+   "opciones": [
+    {
+     "t": "Alrededor del 62 % en 2020 y 2023: la UE sigue dominando, pero Turquía y Túnez han ganado peso",
+     "ok": true,
+     "r": "España produce por sí sola alrededor de un tercio del aceite mundial."
+    },
+    {
+     "t": "Más del 90 %",
+     "r": "La cuota de la UE ha bajado desde un máximo del 75 % en 2000."
+    },
+    {
+     "t": "Menos del 20 %, porque ahora produce sobre todo Asia",
+     "r": "Los grandes productores siguen siendo mediterráneos: España, Italia, Grecia, Turquía y Túnez."
+    },
+    {
+     "t": "Igual que en el manual: el 80 %",
+     "r": "Revisad la línea discontinua de la UE en la evolución de la cuota."
+    }
+   ],
+   "explicacion": [
+    "Dos cautelas al comparar: FAOSTAT usa años naturales y el Consejo Oleícola Internacional, campañas de octubre a septiembre; y 2023 fue un año de sequía que redujo la producción española a unas 850.000 t, frente a más de 1,3 millones en 2020.",
+    "La olivicultura es un buen ejemplo de especialización regional mediterránea, como explica el manual al tratar la «trilogía» de trigo, vid y olivo."
+   ],
+   "manual": "Apartado 5.3.2"
+  },
+  {
+   "id": "vino",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "vino"
+   },
+   "enunciado": "¿Se mantiene la afirmación del manual de que Francia, Italia y España encabezan la producción mundial de vino?",
+   "opciones": [
+    {
+     "t": "Sí: Francia, Italia y España son los tres primeros, y la UE produce cerca del 60 % del vino mundial",
+     "ok": true,
+     "r": "Tras ellos aparecen Estados Unidos y China."
+    },
+    {
+     "t": "No: China es hoy el primer productor",
+     "r": "China produce alrededor del 7 % del vino mundial."
+    },
+    {
+     "t": "No: Estados Unidos ha superado a Francia",
+     "r": "Estados Unidos produce menos de la mitad que Francia."
+    },
+    {
+     "t": "No: la UE ya produce menos del 20 %",
+     "r": "Su cuota baja lentamente, pero sigue por encima de la mitad."
+    }
+   ],
+   "explicacion": [
+    "El manual habla de «casi la mitad»; los datos de FAOSTAT dan algo más (59 % en 2023). La cuota europea baja desde el 70 % de 1990 porque crecen los viñedos del Nuevo Mundo (Estados Unidos, Chile, Argentina, Australia) y de China.",
+    "La producción de vino oscila mucho con la meteorología: en 2023 la sequía redujo la cosecha española."
+   ],
+   "manual": "Apartado 5.3.2"
+  },
+  {
+   "id": "tierras-raras",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "tierras_raras",
+    "anio": 2015
+   },
+   "enunciado": "Comparad 2015 y 2025 en las tierras raras, minerales clave para imanes de motores eléctricos y aerogeneradores. ¿Qué ha cambiado?",
+   "opciones": [
+    {
+     "t": "La producción mundial se ha triplicado y China, aunque sigue dominando, ha pasado del 85 % al 69 % por el crecimiento de Estados Unidos y Australia",
+     "ok": true,
+     "r": "Estados Unidos ha reabierto la mina de Mountain Pass y produce hoy alrededor del 13 %."
+    },
+    {
+     "t": "China ha dejado de producir tierras raras",
+     "r": "China sigue produciendo más de dos tercios del total mundial."
+    },
+    {
+     "t": "Europa se ha convertido en un gran productor",
+     "r": "Ningún país europeo figura entre los productores; la UE depende de las importaciones."
+    },
+    {
+     "t": "La producción mundial ha caído a la mitad",
+     "r": "Al contrario: ha pasado de unas 124.000 t a unas 390.000 t."
+    }
+   ],
+   "explicacion": [
+    "Es el tipo de recurso que el manual no podía prever en 2016: la transición energética ha disparado la demanda de tierras raras, litio y cobalto, y su concentración geográfica plantea una nueva dependencia europea.",
+    "Probad también con el cobalto (la República Democrática del Congo produce cerca de tres cuartas partes) y con el litio (la producción mundial se ha multiplicado por nueve)."
+   ],
+   "manual": "Apartado 5.1 (dependencia y vulnerabilidad energética europea)"
+  },
+  {
+   "id": "espana-dependencia",
+   "vista": {
+    "pestana": "energia",
+    "paisA": "ESP",
+    "paisB": "NOR"
+   },
+   "enunciado": "Abrid el balance energético de España. ¿Qué parte de los combustibles fósiles que consume produce ella misma?",
+   "opciones": [
+    {
+     "t": "Prácticamente nada: importa casi todo el petróleo, el gas y el carbón que consume",
+     "ok": true,
+     "r": "Las áreas sombreadas de importación ocupan todo el gráfico de los tres combustibles."
+    },
+    {
+     "t": "Alrededor de la mitad, gracias al carbón asturiano",
+     "r": "La minería del carbón asturiano y leonés cerró en 2018-2019."
+    },
+    {
+     "t": "Es exportadora neta de gas",
+     "r": "Esa es la situación de Noruega, que podéis ver en el país de comparación."
+    },
+    {
+     "t": "Produce todo el petróleo que consume",
+     "r": "España apenas tiene producción de petróleo."
+    }
+   ],
+   "explicacion": [
+    "Por eso España tenía en 2015 una dependencia energética del 70,5 %, según el manual, y en 2024 seguía cerca del 69 %. Su vía para reducirla es la electricidad renovable: en 2025, eólica y solar ya suman más del 40 % de su generación.",
+    "Comparad con Noruega: produce mucho más gas y petróleo del que consume y exporta el excedente."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "francia-nuclear",
+   "vista": {
+    "pestana": "energia",
+    "paisA": "FRA",
+    "paisB": "DEU"
+   },
+   "enunciado": "Comparad la electricidad de Francia y la de Alemania. ¿Qué diferencia destaca?",
+   "opciones": [
+    {
+     "t": "Francia genera más de dos tercios de su electricidad con energía nuclear; Alemania ya no produce electricidad nuclear",
+     "ok": true,
+     "r": "Alemania cerró sus últimos reactores en abril de 2023; Francia mantiene el mayor parque nuclear de Europa."
+    },
+    {
+     "t": "Las dos dependen sobre todo del carbón",
+     "r": "En Francia el carbón es testimonial; en Alemania aún supone en torno a un 20 %."
+    },
+    {
+     "t": "Francia produce casi toda su electricidad con energía solar",
+     "r": "La solar no llega al 6 % en Francia."
+    },
+    {
+     "t": "Alemania es la que tiene más energía nuclear",
+     "r": "Alemania abandonó la nuclear tras el accidente de Fukushima (2011)."
+    }
+   ],
+   "explicacion": [
+    "El manual preveía en 2016 que varios países, Alemania incluida, retomarían la construcción de centrales nucleares. Alemania hizo lo contrario: completó el abandono decidido en 2011 y apostó por la eólica y la solar, manteniendo el carbón como respaldo.",
+    "Francia produce cerca del 14 % de la electricidad nuclear del mundo; podéis comprobarlo en la producción mundial de electricidad nuclear."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "noruega-hidraulica",
+   "vista": {
+    "pestana": "energia",
+    "paisA": "NOR",
+    "paisB": "POL"
+   },
+   "enunciado": "Noruega genera el 90 % de su electricidad con un solo tipo de fuente. ¿Cuál y por qué?",
+   "opciones": [
+    {
+     "t": "Hidráulica, gracias a un relieve montañoso y a precipitaciones muy abundantes",
+     "ok": true,
+     "r": "Los montes Escandinavos y la lluvia orográfica, como la de Bergen, dan un enorme potencial hidroeléctrico."
+    },
+    {
+     "t": "Gas natural, porque es un gran productor",
+     "r": "Noruega exporta casi todo su gas; apenas lo usa para producir electricidad."
+    },
+    {
+     "t": "Nuclear",
+     "r": "Noruega no tiene centrales nucleares."
+    },
+    {
+     "t": "Carbón",
+     "r": "Ese es el caso de Polonia, el país de comparación."
+    }
+   ],
+   "explicacion": [
+    "Relacionadlo con el climograma de Bergen (más de 2.400 mm al año) y con el relieve caledoniano del atlas. El manual menciona el aprovechamiento hidroeléctrico de los ríos de montaña."
+   ],
+   "manual": "Apartados 1.2.2.1 y 5.1"
+  },
+  {
+   "id": "rumania-empleo",
+   "vista": {
+    "pestana": "agrario",
+    "indicador": "empleo_agrario"
+   },
+   "enunciado": "En el sector agrario, observad Rumanía: en 2000 un tercio de su empleo era agrario y hoy es alrededor del 11 %. ¿Qué proceso refleja?",
+   "opciones": [
+    {
+     "t": "La modernización y terciarización de la economía tras la transición y la entrada en la UE, junto con la emigración de jóvenes del medio rural",
+     "ok": true,
+     "r": "Es el mismo proceso que vivieron antes los países de Europa occidental."
+    },
+    {
+     "t": "Una caída de la producción agraria rumana",
+     "r": "La producción no ha caído: la reducción del empleo va acompañada de un aumento del rendimiento de los cereales."
+    },
+    {
+     "t": "La aplicación de cuotas lecheras de la PAC",
+     "r": "Las cuotas lecheras se suprimieron en 2015 y no explican este cambio."
+    },
+    {
+     "t": "Un error estadístico",
+     "r": "Los datos siguen una tendencia común a todo el este de la UE."
+    }
+   ],
+   "explicacion": [
+    "El manual describe una agricultura del sur y del este con más mano de obra, más envejecida y menos formada. Las ampliaciones de 2004 y 2007 y los fondos de la PAC han acelerado la convergencia, aunque Rumanía sigue teniendo el porcentaje más alto de la UE.",
+    "Cambiad al rendimiento de los cereales para ver la otra cara: más producción por hectárea con menos trabajadores."
+   ],
+   "manual": "Apartados 3.4.3 y 5.3.1"
+  }
+ ]
 }

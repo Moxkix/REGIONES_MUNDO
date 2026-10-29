@@ -45,3 +45,27 @@ mapshaper ne_50m_lakes.geojson -clip bbox=-32,28,70,76 -filter-fields name \
 ```
 
 `europa_capas.py` contiene la clasificación de las unidades de relieve por orogenia y las listas de ciudades, picos, cuencas sedimentarias y regiones industriales. Para otra región, copiadlo y cambiad las listas.
+
+## Energía
+
+Descargad `owid-energy-data.csv` de <https://github.com/owid/energy-data> y ejecutad:
+
+```
+python3 herramientas/energia_owid.py owid-energy-data.csv
+python3 herramientas/indice_produccion.py
+```
+
+Genera la producción mundial de carbón, petróleo, gas y electricidad nuclear, hidráulica, eólica y solar en `datos/produccion/`, y las series de consumo y producción de cada región que tenga `recursos.energia` en su configuración (`regiones/<id>/datos/energia.json`).
+
+## Producción agraria y minera
+
+Los archivos de `datos/produccion/` de origen FAOSTAT y USGS se prepararon a partir de las tablas publicadas (años 1990, 2000, 2010, 2020 y último disponible para FAOSTAT; 2015 y 2025 para el USGS). Formato:
+
+```json
+{ "id": "trigo", "nombre": "Trigo", "grupo": "agricultura", "unidad": "t", "unidadCorta": "t",
+  "anios": [1990, 2000, 2010, 2020, 2024], "mundo": { "1990": 592000000 },
+  "agregados": { "European Union (27)": { "1990": 0 } },
+  "paises": { "CHN": { "1990": 0 } }, "estimado": [], "fuente": "", "url": "", "nota": "" }
+```
+
+Se incluyen los países con al menos el 0,5 % de la producción mundial en alguno de los años. Tras añadir o actualizar un producto, ejecutad `python3 herramientas/indice_produccion.py`.

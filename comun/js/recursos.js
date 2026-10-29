@@ -19,7 +19,7 @@
     "Central America": "América Central", "Oceania": "Oceanía", "Eastern Asia": "Asia oriental", "Southern Asia": "Asia meridional",
     "South-eastern Asia": "Sudeste asiático", "Western Asia": "Asia occidental",
   };
-  const ANTIGUOS = { SUN: "URSS", YUG: "Yugoslavia", CSK: "Checoslovaquia", ETP: "Etiopía (con Eritrea)", BLX: "Bélgica-Luxemburgo", UE27: "Unión Europea (27)", MUNDO: "Mundo", EUU: "Unión Europea", WLD: "Mundo" };
+  const ANTIGUOS = { SUN: "URSS", YUG: "Yugoslavia", CSK: "Checoslovaquia", ETP: "Etiopía (con Eritrea)", ETH_PDR: "Etiopía (con Eritrea)", BLX: "Bélgica-Luxemburgo", SCG: "Serbia y Montenegro", SDN_ANTIGUO: "Sudán (antes de 2011)", UE27: "Unión Europea (27)", MUNDO: "Mundo", EUU: "Unión Europea", WLD: "Mundo" };
   const PALETA = ["#2f5d8a", "#c9973f", "#3f8f86", "#8a6aa8", "#b5533c", "#6f9a4a"];
   const f1 = (n) => RM.formato(n, 1), f0 = (n) => RM.formato(n, 0);
 
@@ -42,6 +42,9 @@
         document.getElementById("s-" + t).hidden = t !== id;
       });
       history.replaceState(null, "", "#" + id);
+      // los gráficos se dibujan con el ancho disponible: se repintan al hacerse visibles
+      if (id === "energia" && window.__pintarEnergia) window.__pintarEnergia();
+      if (id === "produccion" && window.__pintarProduccion) window.__pintarProduccion();
     }
     tabs.forEach((t) => document.getElementById("t-" + t).addEventListener("click", () => abrir(t)));
 
@@ -65,7 +68,13 @@
     const COLORES = ["#e8eee9", "#c6dccf", "#8fbfa8", "#4f9a84", "#2a6f63", "#123f3c"];
     const colorCuota = (c) => c == null ? "#f1f2ee" : COLORES[d3.bisectRight(CORTES, c)];
 
-    function formatoValor(v, unidad, corta) {
+    // Ancho del dibujo según el espacio disponible, para que el texto no se encoja en el móvil
+    function anchoDe(sel, min, max) {
+      const el = document.querySelector(sel);
+      const w = el && el.parentNode ? el.parentNode.clientWidth : max;
+      return Math.max(min, Math.min(max, w || max));
+    }
+        function formatoValor(v, unidad, corta) {
       if (v == null) return "—";
       if (unidad === "t") {
         if (v >= 1e6) return f1(v / 1e6) + " Mt";
@@ -127,7 +136,7 @@
 
       // Ranking
       const filas = Object.keys(p.paises).map((id) => ({ id, v: p.paises[id][a], c: cuota(p, id, a) }))
-        .filter((d) => d.c != null && d.c > 0).sort((x, y) => y.c - x.c).slice(0, 12);
+        .filter((d) => d.c != null && d.c >= 0.05).sort((x, y) => y.c - x.c).slice(0, 12);
       const ag = valorAgregado(p, a);
       if (ag) filas.push({ id: "AGR", v: ag.v, c: (ag.v / p.mundo[a]) * 100, agregado: true, aprox: ag.aprox });
       const W = 420, fila = 24, H = filas.length * fila + 10, izq = 150;
@@ -150,7 +159,7 @@
         const vs = anios.map((y) => { const q = valorAgregado(p, y); return q && p.mundo[y] ? (q.v / p.mundo[y]) * 100 : null; });
         if (vs.some((v) => v != null)) series.push({ id: "AGR", nombre: agr.nombre, color: "#a3245c", v: vs, agregado: true });
       }
-      const WE = 520, HE = 250, m = { t: 10, r: 14, b: 26, l: 36 };
+      const WE = anchoDe("#evolucion", 340, 520), HE = 250, m = { t: 10, r: 14, b: 26, l: 36 };
       const xe = d3.scalePoint().domain(anios).range([m.l, WE - m.r]).padding(0.2);
       const ye = d3.scaleLinear().domain([0, Math.max(5, d3.max(series.flatMap((s) => s.v)) || 5)]).nice().range([HE - m.b, m.t]);
       const svgE = d3.select("#evolucion").attr("viewBox", [0, 0, WE, HE]);
@@ -194,7 +203,8 @@
         const otros = Object.keys(p.paises).filter((id) => !miembros.has(id) && p.paises[id][a] != null)
           .map((id) => ({ n: nombre(id), v: p.paises[id][a] })).concat([{ n: agr.nombre, v: q.v, yo: true }]).sort((u, w) => w.v - u.v);
         const i = otros.findIndex((o) => o.yo);
-        return "Hoy (" + a + "): " + agr.nombre + " es " + (i + 1) + ".º productor" + (i > 0 ? ", tras " + otros.slice(0, i).map((o) => o.n + " (" + f0((o.v / W) * 100) + " %)").join(", ") : "") +
+        const ORD = ["Primera", "Segunda", "Tercera", "Cuarta", "Quinta", "Sexta", "Séptima", "Octava", "Novena", "Décima"];
+        return "Hoy (" + a + "): " + (ORD[i] || (i + 1) + ".ª").toLowerCase() + " posición" + (i > 0 ? ", tras " + otros.slice(0, i).map((o) => o.n + " (" + f0((o.v / W) * 100) + " %)").join(", ") : "") +
           ", con el " + f0((q.v / W) * 100) + " % del total mundial.";
       }
       if (m2.tipo === "ranking") {
@@ -209,7 +219,7 @@
       }
       return "";
     }
-    if (prods.length) pintarProduccion(); else document.getElementById("t-produccion").hidden = true;
+    if (prods.length) { pintarProduccion(); window.__pintarProduccion = pintarProduccion; } else document.getElementById("t-produccion").hidden = true;
 
     // =====================================================================
     // Balance energético
@@ -270,7 +280,7 @@
         const anios = d3.range(d.anios[0], d.anios[1] + 1);
         const filas = anios.map((y, i) => Object.fromEntries([["anio", y]].concat(FUENTES.map((f) => [f[0], d.consumo[f[0]][i] || 0]))));
         const pila = d3.stack().keys(FUENTES.map((f) => f[0]))(filas);
-        const W = 640, H = 300, m = { t: 10, r: 12, b: 26, l: 52 };
+        const W = anchoDe("#consumo", 340, 640), H = 300, m = { t: 10, r: 12, b: 26, l: 52 };
         const x = d3.scaleLinear().domain(d3.extent(anios)).range([m.l, W - m.r]);
         const y = d3.scaleLinear().domain([0, d3.max(pila[pila.length - 1], (p) => p[1])]).nice().range([H - m.b, m.t]);
         const svg = d3.select("#consumo").attr("viewBox", [0, 0, W, H]); svg.selectAll("*").remove();

@@ -23,6 +23,20 @@
 
     guardar() { RM.memoria.guardar(this.clave, this.resp); }
 
+    /* Orden de las opciones barajado de forma estable a partir del id de la pregunta,
+       para que la correcta no aparezca siempre en el mismo lugar */
+    orden(q) {
+      let h = 2166136261;
+      for (const c of q.id) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; }
+      const idx = q.opciones.map((o, j) => j);
+      for (let i = idx.length - 1; i > 0; i--) {
+        h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0;
+        const k = h % (i + 1);
+        [idx[i], idx[k]] = [idx[k], idx[i]];
+      }
+      return idx;
+    }
+
     mostrar(i) {
       this.i = i;
       const q = this.p[i];
@@ -32,9 +46,11 @@
         '<div class="progreso"><span>Pregunta ' + (i + 1) + " de " + this.p.length + "</span>" +
         "<span>" + respondidas + " respondidas</span></div>" +
         '<p class="enunciado">' + RM.esc(q.enunciado) + "</p>" +
-        '<ol class="opciones">' + q.opciones.map((o, j) =>
-          '<li><button type="button" class="opcion" data-j="' + j + '"><span class="letra">' + LETRAS[j] + ")</span><span>" +
-          RM.esc(o.t) + "</span></button></li>").join("") + "</ol>" +
+        '<ol class="opciones">' + this.orden(q).map((j, k) => {
+          const o = q.opciones[j];
+          return '<li><button type="button" class="opcion" data-j="' + j + '"><span class="letra">' + LETRAS[k] + ")</span><span>" +
+            RM.esc(o.t) + "</span></button></li>";
+        }).join("") + "</ol>" +
         '<div class="resultado" aria-live="polite"></div>' +
         '<div class="navegacion">' +
         '<button type="button" data-accion="anterior"' + (i === 0 ? " disabled" : "") + ">Anterior</button>" +
@@ -65,7 +81,8 @@
       const q = this.p[this.i];
       if (soloSolucion && !this.resp[q.id]) { this.resp[q.id] = { elegida: null, ok: false }; this.guardar(); }
       const botones = this.el.querySelectorAll(".opcion");
-      botones.forEach((b, k) => {
+      botones.forEach((b) => {
+        const k = +b.dataset.j;
         const o = q.opciones[k];
         b.classList.toggle("correcta", !!o.ok);
         b.classList.toggle("incorrecta", k === j && !o.ok);

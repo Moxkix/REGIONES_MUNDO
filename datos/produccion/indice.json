@@ -1,6 +1,18 @@
 {
  "productos": [
   {
+   "id": "aceite_oliva",
+   "nombre": "Aceite de oliva",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2023
+   ]
+  },
+  {
    "id": "arroz",
    "nombre": "Arroz (con cáscara)",
    "grupo": "agricultura",
@@ -19,6 +31,30 @@
    "anios": [
     2015,
     2025
+   ]
+  },
+  {
+   "id": "cacao",
+   "nombre": "Cacao en grano",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "cafe",
+   "nombre": "Café verde",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
    ]
   },
   {
@@ -109,6 +145,18 @@
    ]
   },
   {
+   "id": "leche",
+   "nombre": "Leche (todas las especies)",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
    "id": "litio",
    "nombre": "Litio",
    "grupo": "mineria",
@@ -145,6 +193,18 @@
    "id": "petroleo",
    "nombre": "Petróleo",
    "grupo": "energia",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "porcino",
+   "nombre": "Carne de porcino",
+   "grupo": "agricultura",
    "anios": [
     1990,
     2000,
@@ -196,6 +256,18 @@
     2010,
     2020,
     2024
+   ]
+  },
+  {
+   "id": "vino",
+   "nombre": "Vino",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2023
    ]
   },
   {
