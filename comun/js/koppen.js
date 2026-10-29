@@ -46,13 +46,13 @@
     // B: secos
     const fv = I.Pverano / I.Pann;
     let extra, motivo;
-    if (fv >= 2 / 3) { extra = 28; motivo = "al menos dos tercios de la lluvia caen en el semestre cálido (" + semestre + "), se suma 28"; }
-    else if (fv <= 1 / 3) { extra = 0; motivo = "al menos dos tercios caen en el semestre frío, no se suma nada"; }
-    else { extra = 14; motivo = "la lluvia está repartida entre los dos semestres (" + f0(fv * 100) + " % en el cálido), se suma 14"; }
+    if (fv >= 2 / 3) { extra = 28; motivo = "más 28 porque al menos dos tercios de la lluvia caen en el semestre cálido (" + semestre + ")"; }
+    else if (fv <= 1 / 3) { extra = 0; motivo = "sin sumar nada porque al menos dos tercios de la lluvia caen en el semestre frío (" + f0((1 - fv) * 100) + " %)"; }
+    else { extra = 14; motivo = "más 14 porque la lluvia se reparte entre los dos semestres (" + f0(fv * 100) + " % en el cálido)"; }
     const Pth = 2 * I.Tann + extra;
     const umbral = 10 * Pth;
-    pasos.push({ texto: "Umbral de aridez: 2 × temperatura media anual (" + f1(I.Tann) + " °C) y, como " + motivo + ": " + f1(Pth) +
-      ". Es seco (B) si la lluvia anual es menor que 10 × umbral = " + f0(umbral) + " mm.", resultado: "" });
+    pasos.push({ texto: "Umbral de aridez: el doble de la temperatura media anual (" + f1(I.Tann) + " °C), " + motivo + " = " + f1(Pth) +
+      ". El clima es seco (B) si llueve menos de 10 × umbral = " + f0(umbral) + " mm.", resultado: "" });
     if (I.Pann < umbral) {
       const W = I.Pann < 5 * Pth;
       const c = "B" + (W ? "W" : "S") + (I.Tann >= 18 ? "h" : "k");

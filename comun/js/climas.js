@@ -55,7 +55,7 @@
     const puntos = gE.selectAll("g").data(est).join("g").attr("transform", (d) => "translate(" + mapa.proy([d.lon, d.lat]) + ")");
     puntos.append("circle").attr("class", "estacion").attr("r", 7).attr("fill", (d) => colorK(d.k.codigo))
       .on("click", (ev, d) => seleccionar(d.id));
-    puntos.append("text").attr("class", "etiqueta").attr("x", 10).attr("y", 4).attr("font-size", 13).text((d) => d.nombreCorto || d.nombre);
+    puntos.append("text").attr("class", "etiqueta").attr("x", 10).attr("y", 5).attr("font-size", 15).text((d) => d.nombreCorto || d.nombre);
     puntos.append("title").text((d) => d.nombre + " (" + d.k.codigo + ")");
     document.getElementById("ver-koppen").addEventListener("change", (ev) => gK.style("display", ev.target.checked ? null : "none"));
 

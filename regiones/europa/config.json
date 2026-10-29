@@ -154,7 +154,7 @@
           ],
           "centros": [
             { "tipo": "B", "nombre": "Depresión de Islandia", "lon": -17, "lat": 65 },
-            { "tipo": "A", "nombre": "Anticiclón de las Azores", "lon": -17, "lat": 41 },
+            { "tipo": "A", "nombre": "Anticiclón de las Azores", "lon": -13, "lat": 43 },
             { "tipo": "B", "nombre": "Baja térmica continental", "lon": 36, "lat": 48 }
           ],
           "flujos": [

@@ -1,0 +1,147 @@
+{
+  "titulo": "Preguntas sobre los climas de Europa",
+  "preguntas": [
+    {
+      "id": "amplitud-continentalidad",
+      "enunciado": "En la pestaña Explorar, comparad Brest con Moscú. La amplitud térmica pasa de 10 °C a 26 °C. ¿Qué la explica?",
+      "opciones": [
+        { "t": "La continentalidad: el océano suaviza las temperaturas en la costa y su influencia se pierde hacia el interior", "ok": true, "r": "El agua se calienta y se enfría más despacio que la tierra; lejos del mar, el invierno es mucho más frío y el verano algo más cálido." },
+        { "t": "La altitud: Moscú está mucho más alta que Brest", "r": "Las dos estaciones están por debajo de 150 m; la altitud no explica la diferencia." },
+        { "t": "La latitud: Moscú está mucho más cerca del polo", "r": "Moscú está solo unos 7° más al norte; esa diferencia no basta para duplicar la amplitud." },
+        { "t": "Que en Moscú llueve mucho menos", "r": "Moscú recibe más de 700 mm al año; la lluvia no es la causa de la amplitud." }
+      ],
+      "explicacion": [
+        "El manual describe cómo, hacia el interior, «se van degradando» los rasgos oceánicos: la oscilación térmica sube hasta los 40 °C en el este y las lluvias pasan a caer en verano.",
+        "La deriva noratlántica añade un plus de suavidad a toda la fachada atlántica, sobre todo en invierno."
+      ],
+      "manual": "Apartados 1.2.1 y 1.2.2.2"
+    },
+    {
+      "id": "bergen-orografico",
+      "enunciado": "Bergen recibe unos 2.500 mm al año, cuatro veces más que Londres. ¿Por qué?",
+      "opciones": [
+        { "t": "Las borrascas del oeste chocan con los montes Escandinavos y el aire, al ascender, descarga su humedad", "ok": true, "r": "Es la lluvia orográfica de las vertientes expuestas al oeste, que el manual señala como las más lluviosas." },
+        { "t": "Porque en Bergen hace más calor y se evapora más agua", "r": "Bergen es más fría que Londres; más calor no explica más lluvia aquí." },
+        { "t": "Por las tormentas de verano provocadas por la baja térmica continental", "r": "El máximo de Bergen es de otoño e invierno, no de verano." },
+        { "t": "Porque está en el centro de la Gran Llanura Europea", "r": "Está en la costa noruega, sobre la cordillera caledoniana." }
+      ],
+      "explicacion": [
+        "La disposición del relieve frente a los vientos húmedos es decisiva: el manual subraya que las vertientes expuestas al norte y al oeste son más lluviosas que las orientadas al sur y al este. Londres, en cambio, está a sotavento de los relieves del oeste de Gran Bretaña."
+      ],
+      "manual": "Apartado 1.2.1"
+    },
+    {
+      "id": "maximo-estival",
+      "enunciado": "En Varsovia y en Moscú el mes más lluvioso es julio. ¿Qué lo explica?",
+      "opciones": [
+        { "t": "En verano el continente se recalienta, se forma una baja térmica que atrae aire húmedo atlántico y se producen tormentas", "ok": true, "r": "Además, en invierno el anticiclón térmico bloquea las borrascas y el aire es frío y seco." },
+        { "t": "En verano el anticiclón de las Azores trae lluvia", "r": "El anticiclón de las Azores da tiempo seco y estable: es la causa de la sequía estival mediterránea." },
+        { "t": "En julio se funden las nieves", "r": "El deshielo da el máximo de caudal de los ríos en primavera, no el máximo de lluvias." },
+        { "t": "En verano las borrascas atlánticas alcanzan su posición más meridional", "r": "Es al revés: en verano todo el sistema se desplaza hacia el norte." }
+      ],
+      "explicacion": [
+        "Es el rasgo que distingue el clima continental del oceánico: el oceánico tiene su máximo en otoño e invierno y el continental en verano. Mirad la pestaña Dinámica atmosférica para ver los centros de acción de cada estación."
+      ],
+      "manual": "Apartado 1.2.2.2"
+    },
+    {
+      "id": "sevilla-sequia",
+      "enunciado": "Sevilla tiene cinco meses secos (en el climograma, la curva de temperatura queda por encima de las barras). ¿Qué los causa?",
+      "opciones": [
+        { "t": "El anticiclón de las Azores, que en verano asciende en latitud e impide el paso de las borrascas", "ok": true, "r": "Al bajar de latitud en otoño, el anticiclón deja pasar de nuevo las perturbaciones del oeste." },
+        { "t": "La depresión de Islandia, que en verano se sitúa sobre la península ibérica", "r": "En verano la depresión de Islandia está muy al norte, y una borrasca traería lluvia, no sequía." },
+        { "t": "El anticiclón térmico euroasiático", "r": "Ese anticiclón es invernal y afecta sobre todo a Europa oriental." },
+        { "t": "La gran distancia al mar", "r": "Sevilla está a unos 80 km del Atlántico; la sequía es estival y se debe a la dinámica atmosférica." }
+      ],
+      "explicacion": [
+        "Un mes es seco, según el criterio de Gaussen que sigue el climograma, cuando la precipitación en mm es inferior al doble de la temperatura en °C (P < 2T). La escala del eje de lluvias es el doble de la de temperaturas para poder leerlo directamente."
+      ],
+      "manual": "Apartado 1.2.2.3"
+    },
+    {
+      "id": "madrid-bsk",
+      "enunciado": "Abrid Madrid. ¿Por qué Köppen la clasifica como BSk (estepa fría) si el manual la incluye en el dominio mediterráneo?",
+      "opciones": [
+        { "t": "Porque sus 417 mm no alcanzan el umbral de aridez que Köppen calcula con la temperatura media y el reparto de la lluvia", "ok": true, "r": "Con 15,5 °C de media y la lluvia repartida, el umbral es de unos 450 mm: Madrid queda justo por debajo." },
+        { "t": "Porque en Madrid no hay verano seco", "r": "Sí lo hay: julio y agosto reciben unos 10 mm. El ritmo es mediterráneo." },
+        { "t": "Porque en invierno Madrid tiene medias bajo cero", "r": "El mes más frío de Madrid Retiro ronda los 6,6 °C." },
+        { "t": "Porque Köppen no distingue ningún clima mediterráneo", "r": "Sí lo distingue: son los tipos Csa, Csb y Csc." }
+      ],
+      "explicacion": [
+        "La clasificación de Köppen comprueba primero si un clima es seco (B) y solo después aplica los criterios de temperatura. El manual, en cambio, agrupa por dominios bioclimáticos y trata la Meseta como una transición del mediterráneo por la altitud y la continentalidad.",
+        "Las dos visiones son compatibles: Madrid es un mediterráneo continentalizado en el límite de la aridez. Seguid los pasos de la clasificación en la ficha de la estación."
+      ],
+      "manual": "Apartado 1.2.2.3"
+    },
+    {
+      "id": "santis-montana",
+      "enunciado": "Säntis (Suiza) está a 47° N, más al sur que París, y su clima es ET, como la tundra. ¿Por qué?",
+      "opciones": [
+        { "t": "Por la altitud: a unos 2.500 m la temperatura media del mes más cálido no llega a 10 °C", "ok": true, "r": "El manual cita un descenso de 1 °C por cada 180 m de altitud." },
+        { "t": "Porque recibe aire polar todo el año", "r": "Recibe sobre todo el flujo del oeste, como el resto de Europa central." },
+        { "t": "Porque llueve casi 3.000 mm al año", "r": "La lluvia no define el tipo E: lo define la temperatura del mes más cálido." },
+        { "t": "Porque está en un valle de inversión térmica", "r": "Es una cumbre aislada, no un fondo de valle." }
+      ],
+      "explicacion": [
+        "En los macizos montañosos los climas se escalonan con la altitud, y con ellos la vegetación: bosques de caducifolias, coníferas, prados y, finalmente, musgos y líquenes. Por eso el manual trata la montaña como un dominio propio, aunque Köppen use las mismas letras que para las latitudes altas."
+      ],
+      "manual": "Apartado 1.2.2.4"
+    },
+    {
+      "id": "kiruna-subartico",
+      "enunciado": "¿Qué rasgo del climograma de Kiruna lleva a clasificarla como Dfc?",
+      "opciones": [
+        { "t": "El mes más frío está por debajo de −3 °C (D), no hay estación seca (f) y solo dos meses superan los 10 °C (c)", "ok": true, "r": "Cada letra responde a un criterio. Seguid los pasos en la ficha de la estación." },
+        { "t": "Que llueve más en invierno que en verano", "r": "Ocurre lo contrario: el máximo es de julio." },
+        { "t": "Que el mes más cálido no llega a 10 °C", "r": "Julio supera los 13 °C; si no llegara a 10 °C sería un clima polar (E)." },
+        { "t": "Que tiene más de 2.000 mm de precipitación", "r": "Kiruna recibe unos 560 mm al año." }
+      ],
+      "explicacion": [
+        "Es el dominio de la taiga, que el manual sitúa entre la tundra y el bosque mixto en la sucesión de bandas de vegetación dispuestas según los paralelos."
+      ],
+      "manual": "Apartado 1.2.2.2"
+    },
+    {
+      "id": "danubiano",
+      "enunciado": "Budapest y Bucarest son Cfa. ¿Qué indica la tercera letra, la a?",
+      "opciones": [
+        { "t": "Un verano caluroso, con el mes más cálido a 22 °C o más", "ok": true, "r": "Julio supera los 23 °C en las dos ciudades." },
+        { "t": "Que la precipitación anual es alta", "r": "La tercera letra se refiere solo a la temperatura del verano." },
+        { "t": "Que hay un verano seco", "r": "Eso lo indicaría una s en segunda posición; aquí es una f (sin estación seca)." },
+        { "t": "Que son climas áridos", "r": "Los climas áridos empiezan por B." }
+      ],
+      "explicacion": [
+        "El manual habla de un clima continental de tipo danubiano: inviernos fríos y veranos calurosos en las llanuras de Panonia y Valaquia. Con el límite de −3 °C de Köppen-Geiger ambas quedan en el grupo C, pero su amplitud (22-25 °C) es plenamente continental."
+      ],
+      "manual": "Apartado 1.2.2.2"
+    },
+    {
+      "id": "invierno-este",
+      "enunciado": "En la pestaña Dinámica atmosférica, elegid el invierno. ¿Qué explica el tiempo frío, seco y estable de Europa oriental?",
+      "opciones": [
+        { "t": "El anticiclón térmico que se forma por el enfriamiento del continente y bloquea las borrascas atlánticas", "ok": true, "r": "Las altas presiones de origen térmico impiden la llegada de las perturbaciones del frente polar." },
+        { "t": "La depresión de Islandia, que se instala sobre Rusia", "r": "La depresión de Islandia actúa sobre la Europa atlántica." },
+        { "t": "El anticiclón de las Azores", "r": "En invierno se retira hacia el sur y afecta, como mucho, al Mediterráneo." },
+        { "t": "La baja térmica continental", "r": "La baja térmica es estival y atrae lluvias, no las bloquea." }
+      ],
+      "explicacion": [
+        "Los centros térmicos euroasiáticos (anticiclón invernal y depresiones estivales) regulan sobre todo el régimen de la Europa oriental; los centros dinámicos oceánicos (Islandia y Azores), el de la occidental."
+      ],
+      "manual": "Apartado 1.2.1 y figura 1.2"
+    },
+    {
+      "id": "almeria-arido",
+      "enunciado": "Almería tiene once meses secos y menos de 200 mm. ¿Cómo la clasifica Köppen?",
+      "opciones": [
+        { "t": "Como BSh, estepa cálida: la lluvia está por debajo del umbral de aridez y la temperatura media supera los 18 °C", "ok": true, "r": "No llega a desierto (BW) porque supera la mitad del umbral." },
+        { "t": "Como Csa, mediterráneo típico", "r": "La comprobación de aridez va antes que la de temperatura, y Almería no la supera." },
+        { "t": "Como BWk, desierto frío", "r": "Su media anual es de 19 °C: es cálida (h), no fría (k)." },
+        { "t": "Como Cfa, sin estación seca", "r": "Tiene once meses secos." }
+      ],
+      "explicacion": [
+        "El manual menciona la tendencia árida subtropical del sureste español entre las variantes del dominio mediterráneo. Comparadla con Sevilla en la pestaña Explorar: el ritmo es el mismo, pero la cantidad de lluvia es menos de la mitad."
+      ],
+      "manual": "Apartado 1.2.2.3"
+    }
+  ]
+}

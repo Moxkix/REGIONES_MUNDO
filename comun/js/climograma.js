@@ -64,7 +64,7 @@
     });
 
     // ejes
-    const fs = mini ? 9 : 11;
+    const fs = mini ? 10 : 13;
     svg.append("g").attr("class", "eje").attr("transform", "translate(" + m.l + ",0)")
       .call(d3.axisLeft(y).tickValues(ticksT).tickSize(3).tickFormat((d) => d)).attr("font-size", fs);
     const ticksP = [0, 20, 40, 60, 80, 100, 200, 300, 400, 500, 600].filter((p) => pEq(p) <= arriba && (!mini || [0, 50, 100, 200, 300, 400].includes(p) || p === 0));
