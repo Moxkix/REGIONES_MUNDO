@@ -1,0 +1,165 @@
+{
+  "titulo": "Preguntas guiadas del atlas de Europa",
+  "preguntas": [
+    {
+      "id": "relieve-escudo",
+      "mapa": { "modo": "superponer", "capas": ["relieve"] },
+      "enunciado": "Con la capa de relieve activa, fijaos en Finlandia, Carelia y la península de Kola. ¿Qué unidad estructural forman y de qué edad son sus rocas?",
+      "opciones": [
+        { "t": "Un escudo de rocas precámbricas, el núcleo más antiguo y rígido del continente", "ok": true, "r": "Es el escudo fenoescandinavo o báltico, que aflora en Suecia y Finlandia y continúa bajo la Gran Llanura." },
+        { "t": "Una cordillera caledoniana plegada en el Paleozoico inferior", "r": "Lo caledoniano está más al oeste: los montes Escandinavos y las Highlands escocesas, al borde del escudo." },
+        { "t": "Un macizo herciniano rejuvenecido por la orogenia alpina", "r": "Los macizos hercinianos (Macizo Central, Bohemia, Ardenas) forman una orla más al sur." },
+        { "t": "Una cuenca sedimentaria cenozoica rellena por los glaciares", "r": "Los glaciares cuaternarios modelaron la superficie, pero no crearon la estructura, que es mucho más antigua." }
+      ],
+      "explicacion": [
+        "El manual distingue una Europa septentrional antigua y rígida y una Europa meridional joven y sísmica. El escudo fenoescandinavo es la pieza más antigua; a su alrededor se añadieron sucesivamente las orlas caledoniana, herciniana y alpina.",
+        "Las formas actuales (lagos, rocas pulidas, morrenas) se deben al casquete de hielo del Pleistoceno, que cubrió toda Escandinavia."
+      ],
+      "manual": "Apartado 1.1.1 y figura 1.1"
+    },
+    {
+      "id": "relieve-orlas",
+      "mapa": { "modo": "superponer", "capas": ["relieve"] },
+      "enunciado": "Recorred el mapa de norte a sur. ¿En qué orden aparecen las grandes unidades estructurales?",
+      "opciones": [
+        { "t": "Escudo precámbrico, cordilleras caledonianas, macizos hercinianos y cordilleras alpinas", "ok": true, "r": "Cada ciclo orogénico añadió una orla más joven al sur de la anterior." },
+        { "t": "Cordilleras alpinas, macizos hercinianos, escudo y cordilleras caledonianas", "r": "Las alpinas son las más jóvenes y están en el sur, junto al Mediterráneo." },
+        { "t": "Macizos hercinianos, escudo, cordilleras alpinas y caledonianas", "r": "Revisad la leyenda: el escudo ocupa el norte y los hercinianos el centro." },
+        { "t": "No hay un orden: las unidades se mezclan sin patrón", "r": "Sí hay un patrón muy claro, y es la base de la explicación del relieve europeo." }
+      ],
+      "explicacion": [
+        "La disposición en orlas cada vez más jóvenes hacia el sur se explica por la acreción sucesiva de orógenos al núcleo báltico y, al final, por el choque de la placa africana con la euroasiática, que plegó los sedimentos del mar de Tetis y levantó el sistema alpino.",
+        "Entre los macizos hercinianos quedaron cuencas sedimentarias (Londres, París, Aquitania, Duero, Tajo) y, al pie de las cordilleras alpinas, cuencas de antepaís (Guadalquivir, Ebro, Po, Panonia)."
+      ],
+      "manual": "Apartado 1.1.2"
+    },
+    {
+      "id": "relieve-clima-oceanico",
+      "mapa": { "modo": "comparar", "izq": "relieve", "der": "clima", "corte": 0.4 },
+      "enunciado": "Desplazad la cortinilla entre el relieve y el clima. El clima templado oceánico (Cfb) penetra hasta Polonia, pero en la península ibérica apenas pasa de la franja cantábrica y gallega. ¿Por qué?",
+      "opciones": [
+        { "t": "Porque la Gran Llanura, abierta al oeste y sin montañas transversales, deja entrar los vientos atlánticos, mientras que la Meseta está rodeada de cordilleras", "ok": true, "r": "La orientación oeste-este del relieve centroeuropeo facilita el flujo del oeste; en Iberia las montañas periféricas lo frenan." },
+        { "t": "Porque la corriente del Golfo no llega a las costas ibéricas", "r": "La deriva noratlántica templa sobre todo las costas del norte; no explica por sí sola el contraste interior." },
+        { "t": "Porque en la península ibérica no llueve nunca en invierno", "r": "La Meseta recibe lluvias de las borrascas atlánticas en otoño, invierno y primavera, aunque menos." },
+        { "t": "Porque Polonia está más cerca del océano Atlántico que el centro de España", "r": "No es así: la distancia al Atlántico es mucho mayor desde Polonia." }
+      ],
+      "explicacion": [
+        "El manual subraya que la disposición del relieve repercute directamente en el clima: las amplias llanuras de la fachada occidental y el relieve bajo del centro de Europa dejan que las borrascas atlánticas penetren hasta los Urales.",
+        "En la península ibérica la Meseta, aislada por montañas, y la posición más meridional (bajo el anticiclón de las Azores en verano) dan climas mediterráneos continentalizados."
+      ],
+      "manual": "Apartado 1.2.1"
+    },
+    {
+      "id": "clima-mediterraneo",
+      "mapa": { "modo": "superponer", "capas": ["clima"] },
+      "enunciado": "En la capa de clima, los tipos Csa y Csb ocupan el sur de Europa. ¿Qué tienen en común?",
+      "opciones": [
+        { "t": "Un verano seco, porque el anticiclón de las Azores asciende en latitud e impide el paso de las borrascas", "ok": true, "r": "La s de Csa y Csb significa verano seco; la tercera letra distingue un verano caluroso (a) de uno templado (b)." },
+        { "t": "Inviernos con temperaturas medias bajo cero", "r": "En la C el mes más frío está por encima de −3 °C; en el Mediterráneo, los inviernos son suaves." },
+        { "t": "Lluvias abundantes todo el año, sin estación seca", "r": "Eso corresponde a la f (Cfa, Cfb). El rasgo mediterráneo es justo la sequía estival." },
+        { "t": "Que solo aparecen en las islas", "r": "Ocupan también la mayor parte de las penínsulas ibérica, italiana y balcánica." }
+      ],
+      "explicacion": [
+        "En verano el anticiclón de las Azores, parte del cinturón subtropical de altas presiones, invade el sur de Europa: tiempo seco, soleado y caluroso. Al bajar en otoño deja pasar las perturbaciones del oeste, que traen lluvias a menudo torrenciales, también por gotas frías.",
+        "Fijaos en que Köppen marca como BSk o BSh (estepa) parte del interior y del sureste ibérico: es la tendencia árida subtropical que el manual cita para el sureste español."
+      ],
+      "manual": "Apartado 1.2.2.3"
+    },
+    {
+      "id": "densidad-vacios",
+      "mapa": { "modo": "comparar", "izq": "clima", "der": "densidad" },
+      "enunciado": "Comparad el clima con la densidad de población. ¿Qué climas coinciden con los países menos poblados por km²?",
+      "opciones": [
+        { "t": "Los climas subárticos y de tundra (Dfc y ET) del norte de Escandinavia, Finlandia, Islandia y Rusia", "ok": true, "r": "El frío impone un límite claro: menos de 25 hab./km² en Noruega, Suecia, Finlandia e Islandia." },
+        { "t": "El clima oceánico Cfb", "r": "El Cfb incluye algunos de los países más densos: Países Bajos, Bélgica, Reino Unido o Alemania." },
+        { "t": "Los climas mediterráneos de Italia y Grecia", "r": "Italia está por encima de 190 hab./km². En el Mediterráneo los vacíos son interiores y montañosos, no nacionales." },
+        { "t": "No hay ninguna relación entre clima y densidad", "r": "Hay relación con los vacíos, aunque el clima no explica por sí solo las concentraciones." }
+      ],
+      "explicacion": [
+        "El manual explica que el medio natural actúa sobre todo como limitación: las regiones menos pobladas son las nórdicas de clima frío, las montañosas y las de aridez. Las altas densidades responden a factores económicos: agricultura intensiva, industria, turismo y servicios.",
+        "Recordad que aquí la densidad es una media nacional: España aparece con densidad media, pero esconde los vacíos de la Meseta y las concentraciones del litoral y de Madrid, que sí muestra la figura 1.3 del manual."
+      ],
+      "manual": "Apartado 2.1.3"
+    },
+    {
+      "id": "relieve-loess",
+      "mapa": { "modo": "comparar", "izq": "relieve", "der": "densidad", "corte": 0.55 },
+      "enunciado": "La franja meridional de la Gran Llanura Europea, desde el norte de Francia hasta Ucrania, concentra población desde hace milenios. ¿Qué rasgo físico citado por el manual lo explica?",
+      "opciones": [
+        { "t": "Los depósitos de loess, finas partículas arrastradas por el viento desde los frentes glaciares, que forman suelos muy fértiles", "ok": true, "r": "Esas tierras ricas en materia orgánica se cultivan desde la Prehistoria y fijaron poblaciones densas." },
+        { "t": "Los fiordos, que dan buenos puertos naturales", "r": "Los fiordos están en la costa noruega, modelados por los glaciares sobre las cordilleras caledonianas." },
+        { "t": "La sismicidad, que renueva los suelos", "r": "La Gran Llanura es una región estable; la sismicidad es propia de la Europa alpina." },
+        { "t": "Los suelos de permafrost", "r": "El permafrost es propio de la tundra rusa, no de la llanura centroeuropea." }
+      ],
+      "explicacion": [
+        "En el sector norte de la llanura, el casquete glaciar dejó morrenas y suelos más pobres; los antiguos valles de los frentes glaciares (urstromtäler) se aprovecharon para una densa red de canales.",
+        "En el sur, el loess acumulado en los periodos interglaciares explica la oposición entre una franja densamente poblada y el mayor vacío demográfico del norte."
+      ],
+      "manual": "Apartado 1.1.2.3"
+    },
+    {
+      "id": "industria-dorsal",
+      "mapa": { "modo": "superponer", "capas": ["densidad", "industria"] },
+      "enunciado": "Activad la densidad y la industria. La banda magenta es la dorsal europea. ¿Qué regiones enlaza?",
+      "opciones": [
+        { "t": "La cuenca de Londres, el Randstad, el eje del Rin y el valle del Po", "ok": true, "r": "Es el arco de altas densidades, a veces por encima de 300 hab./km², que el manual llama dorsal europea." },
+        { "t": "Lisboa, Madrid y Barcelona", "r": "Las capitales ibéricas son polos metropolitanos aislados, fuera de la dorsal." },
+        { "t": "Escandinavia y los países bálticos", "r": "Es una de las periferias poco densas del continente." },
+        { "t": "Las islas del Mediterráneo", "r": "El Mediterráneo forma un espacio urbano discontinuo, no un eje continuo." }
+      ],
+      "explicacion": [
+        "La dorsal es herencia histórica: el centro económico europeo basculó de Venecia (siglo XVI) a Amberes y Ámsterdam (XVII) y a Londres (XVIII). Coincide en buena parte con la antigua Lotaringia, la franja fragmentada entre Francia y Alemania que el manual presenta como corazón económico de la UE.",
+        "En la ficha de cada país veréis la densidad actual y la del cuadro 1.3 del manual: los Países Bajos y Bélgica siguen encabezando la lista."
+      ],
+      "manual": "Apartados 2.1.3, 2.3.1 y 4.1"
+    },
+    {
+      "id": "industria-carbon",
+      "mapa": { "modo": "superponer", "capas": ["relieve", "industria"] },
+      "enunciado": "Las regiones industriales tradicionales (Midlands, pasillo franco-belga, Ruhr, Sajonia, Alta Silesia) forman un eje de oeste a este. ¿Qué tienen debajo?",
+      "opciones": [
+        { "t": "El surco hullero que sigue el contacto entre la Gran Llanura y los macizos hercinianos", "ok": true, "r": "Los yacimientos de carbón del Carbonífero se formaron en ese contacto y fueron el motor de la Revolución Industrial." },
+        { "t": "Los yacimientos de petróleo del mar del Norte", "r": "El petróleo del mar del Norte se explota desde los años setenta y favoreció a Escocia, Aberdeen o Groninga, no a los «países negros»." },
+        { "t": "Los macizos alpinos, ricos en hierro", "r": "Las regiones citadas están al norte de los Alpes, sobre la orla herciniana." },
+        { "t": "Los suelos de loess, aptos para la agricultura", "r": "El loess explica densidades agrarias antiguas, no la industria pesada." }
+      ],
+      "explicacion": [
+        "El carbón formó auténticos «países negros». Desde los años sesenta su producción cayó por el agotamiento de los filones, la competencia del carbón americano y del petróleo, y estas regiones entraron en reconversión con ayudas del FEDER y del FSE.",
+        "El Ruhr resistió mejor gracias a su posición junto al eje del Rin y a una industria más diversificada."
+      ],
+      "manual": "Apartados 5.1 y 5.2.1"
+    },
+    {
+      "id": "ue-brexit",
+      "mapa": { "modo": "superponer", "capas": ["ue"] },
+      "enunciado": "Comparad la capa de la UE en 2026 con la figura 1.7 del manual (2016). ¿Qué Estado ha dejado de ser miembro y cuándo?",
+      "opciones": [
+        { "t": "El Reino Unido, el 31 de enero de 2020", "ok": true, "r": "El referéndum que recoge el manual (23 de junio de 2016) desembocó en la salida efectiva casi cuatro años después." },
+        { "t": "Noruega, en 1994", "r": "Noruega nunca ha sido miembro: rechazó la adhesión en los referendos de 1972 y 1994." },
+        { "t": "Suiza, en 2016", "r": "Suiza no es miembro de la UE; está vinculada por acuerdos bilaterales y pertenece a Schengen." },
+        { "t": "Grecia, en 2015", "r": "Grecia sigue en la UE y en la zona euro pese a la crisis de deuda de 2015." }
+      ],
+      "explicacion": [
+        "Con la salida del Reino Unido la Unión pasó de 28 a 27 miembros, la primera reducción de su historia, y perdió unos 66 millones de habitantes. Por eso la población de la UE es hoy de unos 451 millones, frente a los 510 que da el manual.",
+        "Pasad el cursor por cada país para ver su situación: miembro, euro, Schengen o candidatura."
+      ],
+      "manual": "Apartado 3 y conclusión"
+    },
+    {
+      "id": "ue-bulgaria",
+      "mapa": { "modo": "superponer", "capas": ["ue"] },
+      "enunciado": "Bulgaria y Rumanía entraron en la UE en 2007. ¿Qué ha cambiado para ellas desde la edición del manual?",
+      "opciones": [
+        { "t": "Ambas son miembros plenos de Schengen desde el 1 de enero de 2025, y Bulgaria adoptó además el euro el 1 de enero de 2026", "ok": true, "r": "Bulgaria es el miembro número 21 de la zona euro." },
+        { "t": "Ambas han abandonado la UE", "r": "Las dos siguen siendo Estados miembros." },
+        { "t": "Las dos usan el euro desde 2020", "r": "Rumanía todavía no ha adoptado el euro." },
+        { "t": "Nada: siguen igual que en 2016", "r": "Ha habido dos pasos de integración importantes. Revisad la leyenda de la capa." }
+      ],
+      "explicacion": [
+        "La zona euro ha pasado de 19 países en 2016 a 21: Croacia (2023) y Bulgaria (2026). Schengen tiene hoy 29 países: 25 de la UE más Noruega, Islandia, Suiza y Liechtenstein; Chipre e Irlanda siguen fuera.",
+        "Cuando el manual se escribió, la ampliación hacia el este estaba frenada. Desde 2022 la guerra de Ucrania la ha reactivado: Ucrania, Moldavia, Georgia y Bosnia y Herzegovina son candidatas, y Montenegro y Albania son las más avanzadas."
+      ],
+      "manual": "Apartados 3.3.3 y 3.4.3"
+    }
+  ]
+}

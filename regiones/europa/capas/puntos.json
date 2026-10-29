@@ -1,0 +1,1352 @@
+{
+"cuencas": [
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca de Londres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-1.6,
+51.15
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca de París"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+2.0,
+47.75
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca de Aquitania"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-0.4,
+44.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca del Duero"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-4.6,
+41.7
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca del Tajo"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-3.4,
+40.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Depresión del Ebro"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-0.6,
+41.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Depresión del Guadalquivir"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-5.6,
+37.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura del Po"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+10.3,
+45.1
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Macizo Ibérico (Meseta)"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-5.6,
+39.1
+]
+}
+}
+],
+"picos": [
+{
+"type": "Feature",
+"properties": {
+"n": "Mont Blanc",
+"h": 4806
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+6.865,
+45.833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Elbrus",
+"h": 5642
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+42.439,
+43.355
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Mulhacén",
+"h": 3479
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-3.311,
+37.053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Aneto",
+"h": 3404
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+0.657,
+42.631
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Olimpo",
+"h": 2918
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+22.358,
+40.086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Musala",
+"h": 2925
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+23.585,
+42.18
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gerlach",
+"h": 2655
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+20.134,
+49.164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Galdhøpiggen",
+"h": 2469
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+8.312,
+61.636
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ben Nevis",
+"h": 1345
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-5.004,
+56.797
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Puy de Sancy",
+"h": 1885
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+2.814,
+45.528
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Corno Grande",
+"h": 2912
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+13.566,
+42.469
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Triglav",
+"h": 2864
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+13.837,
+46.378
+]
+}
+}
+],
+"ciudades": [
+{
+"type": "Feature",
+"properties": {
+"n": "Londres",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-0.13,
+51.51
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "París",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+2.35,
+48.86
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Madrid",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-3.7,
+40.42
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Lisboa",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-9.14,
+38.72
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Roma",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.5,
+41.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Berlín",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+13.4,
+52.52
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Viena",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+16.37,
+48.21
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Varsovia",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+21.01,
+52.23
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Praga",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+14.42,
+50.08
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Budapest",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+19.04,
+47.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bucarest",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+26.1,
+44.43
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sofía",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+23.32,
+42.7
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Atenas",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+23.73,
+37.98
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Belgrado",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+20.46,
+44.79
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bruselas",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+4.35,
+50.85
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ámsterdam",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+4.9,
+52.37
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Copenhague",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.57,
+55.68
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Estocolmo",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+18.07,
+59.33
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Oslo",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+10.75,
+59.91
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Helsinki",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+24.94,
+60.17
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Dublín",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-6.26,
+53.35
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kiev",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+30.52,
+50.45
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Moscú",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+37.62,
+55.76
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Minsk",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+27.56,
+53.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Zagreb",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.98,
+45.81
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Riga",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+24.11,
+56.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Vilna",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+25.28,
+54.69
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Tallin",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+24.75,
+59.44
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bratislava",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.11,
+48.15
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Liubliana",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+14.51,
+46.06
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Berna",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+7.45,
+46.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Chisinau",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+28.86,
+47.01
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Milán",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+9.19,
+45.46
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Barcelona",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+2.17,
+41.39
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hamburgo",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+9.99,
+53.55
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Múnich",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+11.58,
+48.14
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Fráncfort",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+8.68,
+50.11
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Colonia",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+6.96,
+50.94
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Róterdam",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+4.48,
+51.92
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Lyon",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+4.84,
+45.76
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Marsella",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+5.37,
+43.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Mánchester",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-2.24,
+53.48
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Birmingham",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-1.9,
+52.49
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Glasgow",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-4.25,
+55.86
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Nápoles",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+14.27,
+40.85
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Turín",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+7.69,
+45.07
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Oporto",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-8.61,
+41.15
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bilbao",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-2.93,
+43.26
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cracovia",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+19.94,
+50.06
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Estambul",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+28.98,
+41.01
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "San Petersburgo",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+30.32,
+59.94
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Odesa",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+30.73,
+46.48
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Járkov",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+36.23,
+49.99
+]
+}
+}
+],
+"industria": [
+{
+"type": "Feature",
+"properties": {
+"n": "Midlands y Yorkshire",
+"tipo": "tradicional",
+"nota": "Antiguo «país negro» sobre carbón; reconversión con ayudas del FEDER y el FSE."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-1.6,
+53.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gran Londres",
+"tipo": "metropolitana",
+"nota": "Industria de transformación diversificada ligada al mercado y a los centros de decisión."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-0.1,
+51.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ruhr",
+"tipo": "tradicional",
+"nota": "Cuenca hullera y siderúrgica; resistió mejor la crisis por su posición junto al eje del Rin y su diversificación."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+7.2,
+51.45
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Lorena-Sarre",
+"tipo": "tradicional",
+"nota": "Siderurgia sobre hierro y carbón; fuerte hundimiento con la crisis del acero."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+6.6,
+49.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Pasillo franco-belga",
+"tipo": "tradicional",
+"nota": "Cuencas hulleras de Nord-Pas-de-Calais y Charleroi-Lieja."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+3.6,
+50.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Región de París (Île-de-France)",
+"tipo": "metropolitana",
+"nota": "Gran polo industrial y terciario de un modelo macrocéfalo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+2.35,
+48.85
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Randstad y Róterdam",
+"tipo": "portuaria",
+"nota": "Primer centro de refino de Europa; industria litoral y portuaria."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+4.5,
+52.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Fosa del Rin (Rin-Main)",
+"tipo": "reciente",
+"nota": "Eje de intensa actividad industrial y de comunicaciones."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+8.4,
+49.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Valle del Po (Piamonte-Lombardía)",
+"tipo": "reciente",
+"nota": "Industrialización reciente y diversificada en torno a Milán y Turín."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+9.0,
+45.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ródano-Alpes",
+"tipo": "reciente",
+"nota": "Industria de transformación en torno a Lyon."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+4.9,
+45.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sajonia",
+"tipo": "tradicional",
+"nota": "Región industrial histórica de Alemania oriental."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+13.0,
+51.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bohemia",
+"tipo": "tradicional",
+"nota": "Metalurgia fomentada por el CAME; reconversión tras 1990."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+14.5,
+50.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Alta Silesia",
+"tipo": "tradicional",
+"nota": "Cuenca hullera durante años primera productora de carbón de Europa."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+18.9,
+50.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hamburgo",
+"tipo": "portuaria",
+"nota": "Puerto del mar del Norte con industria litoral."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+10.0,
+53.55
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Marsella-Fos",
+"tipo": "portuaria",
+"nota": "Refino, petroquímica y siderurgia portuaria."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+5.0,
+43.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Barcelona",
+"tipo": "reciente",
+"nota": "Textil histórico y diversificación en el «arco latino»."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+2.1,
+41.45
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Madrid",
+"tipo": "metropolitana",
+"nota": "Concentración industrial metropolitana."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-3.7,
+40.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ría de Bilbao",
+"tipo": "tradicional",
+"nota": "Siderurgia y construcción naval en reconversión."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-2.98,
+43.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Asturias",
+"tipo": "tradicional",
+"nota": "Cuenca hullera y siderurgia en reconversión."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-5.85,
+43.35
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bergslagen y Gotemburgo",
+"tipo": "tradicional",
+"nota": "Minería de hierro y metalurgia sueca; automóvil en Gotemburgo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+13.5,
+59.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca del Donets (Donbás)",
+"tipo": "tradicional",
+"nota": "Carbón y siderurgia de Ucrania oriental."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+38.0,
+48.2
+]
+}
+}
+]
+}

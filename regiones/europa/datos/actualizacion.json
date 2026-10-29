@@ -1,0 +1,200 @@
+{
+ "revisado": "octubre de 2026",
+ "nota": "Cifras del manual (edición de 2016, datos de 2015) frente a los datos más recientes publicados. Las cifras del manual son de la UE-28; las actuales, de la UE-27.",
+ "items": [
+  {
+   "id": "miembros",
+   "manual": "28 Estados miembros (2016); referéndum del Brexit el 23-06-2016",
+   "actual": "27 Estados miembros. El Reino Unido abandonó la UE el 31-01-2020, tras un periodo transitorio que terminó el 31-12-2020.",
+   "nota": "Tras el referéndum de 2016, el Reino Unido salió de la UE el 31-01-2020 y la Unión pasó a tener 27 miembros, la primera reducción de su historia.",
+   "fuente": "Comisión Europea – Acuerdo de Retirada UE-Reino Unido",
+   "url": "https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-withdrawal-agreement_en",
+   "apartado": "3.4 y conclusión",
+   "tema": "Integración europea",
+   "fecha": "octubre de 2026"
+  },
+  {
+   "id": "euro",
+   "manual": "El euro se introdujo en 1999 en 11 países; monedas y billetes en 2002",
+   "actual": "21 países de la zona euro (de 27 Estados miembros). Incorporaciones más recientes: Croacia (1-01-2023) y Bulgaria (1-01-2026, 21.º miembro). Antes: Grecia 2001, Eslovenia 2007, Chipre y Malta 2008, Eslovaquia 2009, Estonia 2011, Letonia 2014, Lituania 2015.",
+   "nota": "La zona euro ha pasado de 11 a 21 países; Bulgaria adoptó el euro el 1-01-2026 (1 € = 1,95583 leva).",
+   "fuente": "Banco Central Europeo (comunicado de 1-01-2026 y página 'Our currency')",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260101~c830245e42.en.html",
+   "apartado": "3.3.3",
+   "tema": "Integración europea",
+   "fecha": "1-01-2026"
+  },
+  {
+   "id": "schengen",
+   "manual": "La UE ha suprimido las fronteras interiores y creado un espacio de libre circulación",
+   "actual": "29 países: 25 Estados de la UE más Islandia, Noruega, Suiza y Liechtenstein. Croacia entró en 2023; Bulgaria y Rumanía, por aire y mar el 31-03-2024 y plenamente el 1-01-2025. Fuera quedan Chipre (en proceso de integración) e Irlanda (cláusula de exclusión).",
+   "nota": "Schengen se amplió con Croacia (2023) y con Bulgaria y Rumanía (plenamente en 2025); solo Chipre e Irlanda siguen fuera entre los Estados de la UE.",
+   "fuente": "Comisión Europea, DG Migración y Asuntos de Interior; eucrim",
+   "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+   "apartado": "3.3.2",
+   "tema": "Integración europea",
+   "fecha": "1-01-2025"
+  },
+  {
+   "id": "candidatos",
+   "manual": "Candidatos: Macedonia, Montenegro, Serbia, Albania y Turquía",
+   "actual": "Nueve candidatos: Montenegro, Albania, Serbia, Macedonia del Norte, Turquía, Ucrania, Moldavia, Bosnia y Herzegovina y Georgia. Kosovo es candidato potencial (solicitud de diciembre de 2022). Montenegro (21 capítulos cerrados provisionalmente) y Albania son los más avanzados; Ucrania y Moldavia abrieron sus primeros grupos de capítulos en 2026; las negociaciones con Turquía están congeladas desde 2018 y el proceso de Georgia está detenido de hecho.",
+   "nota": "La ampliación ha virado hacia el este (Ucrania, Moldavia, Georgia) y Montenegro y Albania son los más avanzados, mientras que Turquía está congelada y Macedonia cambió de nombre en 2019.",
+   "fuente": "Consejo de la UE (comunicados del 14-07-2026 y del 13-10-2026); Comisión Europea, DG ENEST; European Western Balkans",
+   "url": "https://www.consilium.europa.eu/en/press/news/20261013-4-accession-conferences-more-progress-for-montenegro-albania-ukraine-and-moldova/",
+   "observaciones": "La situación de Serbia corresponde a julio de 2026.",
+   "apartado": "3.4.3",
+   "tema": "Integración europea",
+   "fecha": "13-10-2026"
+  },
+  {
+   "id": "poblacion",
+   "manual": "510 millones de habitantes en 2015 (UE-28)",
+   "actual": "451 284 558 habitantes en la UE-27 a 1-01-2025 (provisional). Dato más reciente: 451 990 314 a 1-01-2026 (provisional).",
+   "nota": "La caída respecto a los 510 millones del manual se debe sobre todo a la salida del Reino Unido (unos 66 millones); la UE-27 sigue creciendo ligeramente gracias a la inmigración.",
+   "fuente": "Eurostat, tabla tps00001 (actualizada el 21-07-2026)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/tps00001/default/table",
+   "apartado": "2.1.1",
+   "tema": "Población y ciudades",
+   "fecha": "1-01-2025 (y 1-01-2026)"
+  },
+  {
+   "id": "envejecimiento",
+   "manual": "19 % de población de 65 años o más en 2015; proyección del 25,7 % para 2040",
+   "actual": "22,0 % de la población de la UE-27 tenía 65 años o más a 1-01-2025 (20,6 % en 2020).",
+   "nota": "El envejecimiento continúa: la proporción de mayores de 65 años ha subido unos tres puntos desde 2015 y crece unas tres o cuatro décimas al año.",
+   "fuente": "Eurostat, tabla tps00028 (actualizada el 25-09-2026)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/tps00028/default/table",
+   "observaciones": "No se ha verificado una proyección actualizada de Eurostat (EUROPOP2023) para 2040; la cifra del 25,7 % del manual no se ha contrastado.",
+   "apartado": "2.1.4",
+   "tema": "Población y ciudades",
+   "fecha": "1-01-2025"
+  },
+  {
+   "id": "desempleo",
+   "manual": "Tasa de paro en 2015: UE-28 9,3 %; Alemania 4,8 %; Austria 5,3 %; Grecia 24,6 %; España 21,6 %",
+   "actual": "Tasa de paro en 2025 (15-74 años): UE-27 6,0 %; Alemania 3,8 %; Austria 5,7 %; Grecia 8,9 %; España 10,5 %.",
+   "nota": "El paro se ha reducido mucho, sobre todo en Grecia y España, aunque España sigue teniendo la tasa más alta de la UE; en cambio, en Alemania y Austria ha repuntado ligeramente desde 2023.",
+   "fuente": "Eurostat, tabla une_rt_a (actualizada el 26-10-2026)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/une_rt_a/default/table",
+   "observaciones": "Eurostat marca la serie de España con la indicación 'd' (definición diferente; véanse los metadatos). Las cifras de 2015 del manual son de la UE-28 y no son estrictamente comparables con la UE-27.",
+   "apartado": "2.1.4",
+   "tema": "Población y ciudades",
+   "fecha": "2025 (media anual)"
+  },
+  {
+   "id": "refugiados",
+   "manual": "Más de un millón de refugiados llegaron en 2015 desde Siria, Irak, Pakistán y otros países",
+   "actual": "4 431 845 personas que huyeron de Ucrania tenían protección temporal en la UE a finales de agosto de 2026 (más del 98,5 % de nacionalidad ucraniana; los principales países de acogida son Alemania, Polonia y Chequia).",
+   "nota": "La guerra de Ucrania (2022) ha generado el mayor desplazamiento hacia la UE desde 1945; su volumen es varias veces el de 2015 y se gestiona con la Directiva de protección temporal, no con el asilo ordinario.",
+   "fuente": "Eurostat, tabla migr_asytpsm (actualizada el 26-10-2026)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/migr_asytpsm/default/table",
+   "apartado": "Conclusión",
+   "tema": "Población y ciudades",
+   "fecha": "31-08-2026"
+  },
+  {
+   "id": "urbanizacion",
+   "manual": "Tasa de urbanización del 73 % en 2015",
+   "actual": "Según el grado de urbanización (DEGURBA), en la UE-27 en 2025 el 38,5 % vive en ciudades, el 37,0 % en ciudades pequeñas y suburbios y el 24,5 % en zonas rurales (urbano en sentido amplio: 75,5 %). La ONU (World Urbanization Prospects 2025) adopta por primera vez el DEGURBA y no da cifras solo para Europa: para el agregado Europa, Norteamérica, Australia y Nueva Zelanda en 2025, 40 % en ciudades, 34 % en ciudades pequeñas y 26 % en zonas rurales.",
+   "nota": "La cifra del 73 % se basaba en definiciones nacionales; desde 2025 la ONU usa el grado de urbanización (rejilla de 1 km²; ciudades de 50 000 habitantes o más), así que las cifras no son directamente comparables, aunque unas tres cuartas partes de los europeos siguen viviendo en ciudades o zonas intermedias.",
+   "fuente": "Eurostat, tabla ilc_lvho01 (EU-SILC, actualizada el 6-07-2026); ONU DESA, World Urbanization Prospects 2025 (informe y FAQ)",
+   "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2025_faq_wup25.pdf",
+   "observaciones": "El 75,5 % es una suma propia (ciudades más ciudades pequeñas y suburbios). La ONU no publica en el WUP 2025 un dato solo para Europa, por lo que no se ofrece un sustituto directo del 73 %.",
+   "apartado": "4.1",
+   "tema": "Población y ciudades",
+   "fecha": "2025"
+  },
+  {
+   "id": "dependencia_energetica",
+   "manual": "Dependencia energética de la UE: 53,2 % en 2015; España 70,5 %, Italia 76,9 %, Alemania 62,7 %, Francia 47,9 %",
+   "actual": "Dependencia de las importaciones de energía en 2024: UE-27 57,3 %; España 68,9 %; Italia 73,9 %; Alemania 66,8 %; Francia 41,7 %. (Pico de la UE en 2022: 62,5 %.)",
+   "nota": "La UE es hoy más dependiente que en 2015 (57 %, con un pico del 62,5 % en 2022 por la crisis del gas). Alemania ha empeorado tras cerrar sus nucleares; Francia, España e Italia han mejorado ligeramente.",
+   "fuente": "Eurostat, tabla nrg_ind_id (actualizada el 16-07-2026)",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/nrg_ind_id/default/table",
+   "apartado": "5.1",
+   "tema": "Energía",
+   "fecha": "2024"
+  },
+  {
+   "id": "produccion_primaria",
+   "manual": "Producción primaria en 2015: nuclear 28,7 %, combustibles sólidos 19 %, gas natural 16,7 %, petróleo 9 %, renovables 24,3 %",
+   "actual": "Producción primaria de la UE-27 en 2024 (549,4 Mtep): renovables y biocombustibles 48 %, nuclear 28 %, combustibles sólidos 15 %, gas natural 5 %, petróleo crudo 3 % (redondeo de Eurostat, 'Energy in Europe – 2026 edition'). Cálculo propio a partir del balance nrg_bal_c: renovables 48,1 %; nuclear 28,2 %; combustibles fósiles sólidos 12,3 %; gas natural 5,1 %; petróleo 3,3 %; residuos no renovables 2,5 %; esquisto bituminoso 0,4 %; turba 0,1 %.",
+   "nota": "Las renovables se han duplicado hasta casi la mitad de la producción propia, mientras que el gas, el petróleo y el carbón propios se han hundido (cierre de Groningen, minería en declive); la nuclear mantiene su peso.",
+   "fuente": "Eurostat, 'Energy in Europe – 2026 edition' y tabla nrg_bal_c (actualizada el 27-08-2026)",
+   "url": "https://ec.europa.eu/eurostat/web/interactive-publications/energy-2026",
+   "observaciones": "El 15 % de 'combustibles sólidos' de la publicación parece incluir los residuos no renovables, la turba y el esquisto bituminoso; los combustibles fósiles sólidos en sentido estricto son el 12,3 %.",
+   "apartado": "5.1",
+   "tema": "Energía",
+   "fecha": "2024"
+  },
+  {
+   "id": "renovables_consumo",
+   "manual": "Las renovables pasan del 5,3 % de la demanda en 1996 al 24,3 % de la producción energética en 2015; se prevé superar el 50 % en 2040",
+   "actual": "25,2 % en 2024 (dato definitivo; +0,7 puntos respecto a 2023). Dato provisional de 2025: 26,2 %. Objetivo para 2030: 42,5 % (Directiva (UE) 2023/2413).",
+   "nota": "Las renovables ya cubren una cuarta parte del consumo final de energía, pero la UE está a unos 16-17 puntos del objetivo del 42,5 % para 2030.",
+   "fuente": "Eurostat, noticia del 18-12-2025 y tabla nrg_ind_ren (actualizada el 15-09-2026)",
+   "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251218-2",
+   "observaciones": "El 26,2 % de 2025 está marcado como provisional ('p') por Eurostat.",
+   "apartado": "5.1",
+   "tema": "Energía",
+   "fecha": "2024 (2025 provisional)"
+  },
+  {
+   "id": "gasoducto_nabucco",
+   "manual": "Nabucco aparece como gasoducto en proyecto",
+   "actual": "Abandonado: el 28-06-2013 el consorcio Shah Deniz II (Azerbaiyán) eligió el Gasoducto Transadriático (TAP) en lugar de Nabucco West. El gas del Caspio llega a Europa por el Corredor Meridional de Gas (SCP, TANAP y TAP).",
+   "nota": "Nabucco nunca se construyó; su función la cumple hoy el eje TANAP-TAP, que lleva gas azerí hasta Italia.",
+   "fuente": "Wikipedia (Nabucco pipeline), con referencias de prensa de junio de 2013 (World Pipelines, OSW)",
+   "url": "https://en.wikipedia.org/wiki/Nabucco_pipeline",
+   "apartado": "5.1, figura 1.10",
+   "tema": "Energía",
+   "fecha": "2013"
+  },
+  {
+   "id": "gasoducto_south_stream",
+   "manual": "South Stream aparece como gasoducto en proyecto",
+   "actual": "Cancelado por Rusia en diciembre de 2014 y sustituido por TurkStream (Rusia-Turquía por el mar Negro), que empezó a transportar gas el 1-01-2020 y se inauguró el 8-01-2020.",
+   "nota": "South Stream fue sustituido por TurkStream, operativo desde enero de 2020.",
+   "fuente": "Wikipedia (TurkStream), con referencia a la BBC del 1-12-2014",
+   "url": "https://en.wikipedia.org/wiki/TurkStream",
+   "apartado": "5.1, figura 1.10",
+   "tema": "Energía",
+   "fecha": "2014 / 2020"
+  },
+  {
+   "id": "gasoducto_nord_stream",
+   "manual": "Nord Stream terminado en 2012",
+   "actual": "Nord Stream 2 se terminó en septiembre de 2021, pero nunca entró en servicio: Alemania suspendió su certificación el 22-02-2022. El 26-09-2022 varias explosiones submarinas dañaron las dos líneas de Nord Stream 1 y la línea A de Nord Stream 2; la línea B de Nord Stream 2 quedó intacta. Ninguno de los dos gasoductos funciona.",
+   "nota": "Los gasoductos Nord Stream, símbolo de la dependencia germano-rusa, están inutilizados desde el sabotaje de septiembre de 2022.",
+   "fuente": "Wikipedia (Nord Stream 2; Nord Stream pipelines sabotage)",
+   "url": "https://en.wikipedia.org/wiki/Nord_Stream_2",
+   "apartado": "5.1, figura 1.10",
+   "tema": "Energía",
+   "fecha": "26-09-2022"
+  },
+  {
+   "id": "gas_ruso_cuota",
+   "manual": "Para reducir la «excesiva dependencia del gas ruso» se impulsan Nabucco, North Stream y South Stream",
+   "actual": "Peso de Rusia en las importaciones de gas de la UE: alrededor del 45 % antes de REPowerEU (2021) frente a alrededor del 12 % en 2025 (gasoducto y GNL). En gasoducto, Rusia pasó de alrededor del 40 % en 2021 a alrededor del 6 % en 2025; en volumen, de más de 150 bcm en 2021 a 36 bcm en 2025.",
+   "nota": "Desde la invasión de Ucrania (2022), la UE ha sustituido la mayor parte del gas ruso por gas natural licuado, en buena parte de Estados Unidos, y por gas noruego.",
+   "fuente": "Consejo de la UE, infografía 'EU gas supply'; Comisión Europea, hoja de ruta REPowerEU (6-05-2025)",
+   "url": "https://www.consilium.europa.eu/en/infographics/eu-gas-supply/",
+   "observaciones": "La Comisión da el 45 % como cuota previa a REPowerEU sin asociarlo de forma explícita a 2021; el Consejo da el 40 % de 2021 solo para el gas por gasoducto.",
+   "apartado": "5.1",
+   "tema": "Energía",
+   "fecha": "2025"
+  },
+  {
+   "id": "gas_ruso_eliminacion",
+   "manual": "(No contemplado en el manual)",
+   "actual": "El Reglamento (UE) 2026/261, adoptado por el Consejo el 26-01-2026 y en vigor desde el 3-02-2026, prohíbe las importaciones de gas ruso con un calendario transitorio para los contratos anteriores al 17-06-2025: GNL de contratos a corto plazo hasta el 25-04-2026; gasoducto de contratos a corto plazo hasta el 17-06-2026; GNL de contratos a largo plazo hasta el 1-01-2027; gasoducto de contratos a largo plazo hasta el 30-09-2027 (como muy tarde el 1-11-2027 si no se cumplen los objetivos de almacenamiento).",
+   "nota": "La UE ha convertido en ley el abandono total del gas ruso, que debe completarse a finales de 2027.",
+   "fuente": "Parlamento Europeo, Observatorio Legislativo (OEIL); Arendt & Medernach",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1885505",
+   "apartado": "5.1",
+   "tema": "Energía",
+   "fecha": "3-02-2026"
+  }
+ ]
+}

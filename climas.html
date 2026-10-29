@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Climogramas</title>
+  <link rel="icon" href="comun/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="comun/css/base.css">
+  <link rel="stylesheet" href="comun/css/mapa.css">
+  <link rel="stylesheet" href="comun/css/climas.css">
+</head>
+<body>
+  <header class="barra" id="barra"></header>
+  <main id="climas">
+    <div class="pestanas-pagina" role="tablist" aria-label="Secciones">
+      <button type="button" role="tab" aria-selected="true" aria-controls="s-explorar" id="t-explorar">Explorar estaciones</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-dinamica" id="t-dinamica">Dinámica atmosférica</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-clasificar" id="t-clasificar">Clasificar estaciones</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-preguntas" id="t-preguntas">Preguntas</button>
+    </div>
+
+    <section id="s-explorar" role="tabpanel" aria-labelledby="t-explorar" class="seccion explorar">
+      <div class="col-mapa">
+        <svg id="mapa-estaciones" role="img" aria-label="Mapa de las estaciones"></svg>
+        <label class="conmutador"><input type="checkbox" id="ver-koppen" checked> Mapa de Köppen de fondo</label>
+        <div class="lista-estaciones" id="lista-estaciones" role="listbox" aria-label="Estaciones"></div>
+      </div>
+      <div class="col-ficha" id="ficha-estacion" aria-live="polite"></div>
+    </section>
+
+    <section id="s-dinamica" role="tabpanel" aria-labelledby="t-dinamica" class="seccion dinamica" hidden>
+      <div class="col-mapa">
+        <svg id="mapa-centros" role="img" aria-label="Centros de acción atmosférica"></svg>
+      </div>
+      <div class="col-texto">
+        <fieldset class="modo" id="estacion-anio"><legend class="oculto">Estación del año</legend></fieldset>
+        <div id="texto-centros"></div>
+      </div>
+    </section>
+
+    <section id="s-clasificar" role="tabpanel" aria-labelledby="t-clasificar" class="seccion clasificar" hidden>
+      <div class="contenido-ancho">
+        <p class="guia">Observad cada climograma y elegid su dominio climático. Fijaos en la amplitud térmica, en los meses secos (sombreados) y en la estación de máximas lluvias. Algunas estaciones admiten dos respuestas porque son de transición.</p>
+        <div class="tarjetas" id="tarjetas"></div>
+        <div class="acciones">
+          <button type="button" class="principal" id="comprobar">Comprobar</button>
+          <button type="button" id="soluciones">Mostrar las soluciones</button>
+          <button type="button" id="reiniciar">Empezar de nuevo</button>
+          <span id="marcador" class="sans" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-preguntas" role="tabpanel" aria-labelledby="t-preguntas" class="seccion preguntas" hidden>
+      <div class="contenido-estrecho"><div id="cuestionario"></div></div>
+    </section>
+  </main>
+  <footer class="pie" id="pie"></footer>
+  <script src="comun/vendor/d3.min.js"></script>
+  <script src="comun/vendor/topojson-client.min.js"></script>
+  <script src="comun/js/nucleo.js"></script>
+  <script src="comun/js/pie.js"></script>
+  <script src="comun/js/mapa.js"></script>
+  <script src="comun/js/koppen.js"></script>
+  <script src="comun/js/climograma.js"></script>
+  <script src="comun/js/cuestionario.js"></script>
+  <script src="comun/js/climas.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas de lectura cruzada</title>
+  <link rel="icon" href="comun/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="comun/css/base.css">
+  <link rel="stylesheet" href="comun/css/mapa.css">
+  <link rel="stylesheet" href="comun/css/atlas.css">
+</head>
+<body class="pagina-app">
+  <header class="barra" id="barra"></header>
+  <main class="atlas" id="atlas">
+    <div class="atlas-mapa">
+      <svg id="mapa" role="img" aria-label="Mapa de la región con las capas seleccionadas"></svg>
+      <div class="mapa-controles" role="group" aria-label="Zoom">
+        <button type="button" data-zoom="mas" aria-label="Acercar">+</button>
+        <button type="button" data-zoom="menos" aria-label="Alejar">−</button>
+        <button type="button" data-zoom="inicio" aria-label="Volver a la vista inicial">Inicio</button>
+      </div>
+      <div class="leyenda-mapa" id="leyenda" aria-live="polite"></div>
+    </div>
+    <aside class="atlas-panel">
+      <div class="pestanas" role="tablist">
+        <button type="button" role="tab" id="tab-capas" aria-controls="panel-capas" aria-selected="true">Capas</button>
+        <button type="button" role="tab" id="tab-preguntas" aria-controls="panel-preguntas" aria-selected="false">Preguntas guiadas</button>
+      </div>
+      <section id="panel-capas" role="tabpanel" aria-labelledby="tab-capas"></section>
+      <section id="panel-preguntas" role="tabpanel" aria-labelledby="tab-preguntas" hidden>
+        <p class="nota guia">Cada pregunta activa las capas que necesitáis. Podéis cambiarlas después en la pestaña Capas.</p>
+        <div id="cuestionario"></div>
+      </section>
+    </aside>
+  </main>
+  <script src="comun/vendor/d3.min.js"></script>
+  <script src="comun/vendor/topojson-client.min.js"></script>
+  <script src="comun/js/nucleo.js"></script>
+  <script src="comun/js/mapa.js"></script>
+  <script src="comun/js/cuestionario.js"></script>
+  <script src="comun/js/atlas.js"></script>
+</body>
+</html>

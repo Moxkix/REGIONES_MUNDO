@@ -1,0 +1,51 @@
+{
+  "fecha": "octubre de 2026",
+  "categorias": {
+    "ue-euro-schengen": { "color": "#2f5d8a", "nombre": "UE, zona euro y Schengen" },
+    "ue-euro": { "color": "#7ea6cc", "nombre": "UE y zona euro, fuera de Schengen" },
+    "ue-schengen": { "color": "#9fc6a3", "nombre": "UE y Schengen, sin euro" },
+    "schengen": { "color": "#d8c690", "nombre": "Schengen sin ser de la UE" },
+    "candidato": { "color": "#e3a68c", "nombre": "Candidato a la adhesión" },
+    "potencial": { "color": "#f1d2c3", "nombre": "Candidato potencial" },
+    "otro": { "color": "#e2e4df", "nombre": "Otros Estados" }
+  },
+  "paises": {
+    "AUT": "ue-euro-schengen", "BEL": "ue-euro-schengen", "BGR": "ue-euro-schengen", "HRV": "ue-euro-schengen",
+    "EST": "ue-euro-schengen", "FIN": "ue-euro-schengen", "FRA": "ue-euro-schengen", "DEU": "ue-euro-schengen",
+    "GRC": "ue-euro-schengen", "ITA": "ue-euro-schengen", "LVA": "ue-euro-schengen", "LTU": "ue-euro-schengen",
+    "LUX": "ue-euro-schengen", "MLT": "ue-euro-schengen", "NLD": "ue-euro-schengen", "PRT": "ue-euro-schengen",
+    "SVK": "ue-euro-schengen", "SVN": "ue-euro-schengen", "ESP": "ue-euro-schengen",
+    "CYP": "ue-euro", "IRL": "ue-euro",
+    "CZE": "ue-schengen", "DNK": "ue-schengen", "HUN": "ue-schengen", "POL": "ue-schengen", "ROU": "ue-schengen", "SWE": "ue-schengen",
+    "NOR": "schengen", "ISL": "schengen", "CHE": "schengen", "LIE": "schengen",
+    "ALB": "candidato", "BIH": "candidato", "MNE": "candidato", "MKD": "candidato", "SRB": "candidato",
+    "TUR": "candidato", "UKR": "candidato", "MDA": "candidato", "GEO": "candidato",
+    "XKX": "potencial",
+    "GBR": "otro", "RUS": "otro", "BLR": "otro", "AND": "otro", "MCO": "otro", "SMR": "otro", "VAT": "otro", "CYN": "otro",
+    "ARM": "otro", "AZE": "otro", "KAZ": "otro"
+  },
+  "notas": {
+    "GBR": "Salió de la UE el 31-01-2020 (en el mapa del manual aún es Estado miembro).",
+    "BGR": "Schengen pleno desde el 1-01-2025 y euro desde el 1-01-2026.",
+    "ROU": "Schengen pleno desde el 1-01-2025.",
+    "HRV": "Miembro n.º 28 en 2013; euro y Schengen desde 2023.",
+    "CYP": "En proceso de integración en Schengen.",
+    "IRL": "Mantiene una cláusula de exclusión de Schengen.",
+    "UKR": "Candidata desde junio de 2022; negociaciones abiertas en 2024.",
+    "MDA": "Candidata desde junio de 2022; negociaciones abiertas en 2024.",
+    "GEO": "Candidata desde diciembre de 2023; proceso detenido de hecho según el Consejo.",
+    "BIH": "Candidata desde diciembre de 2022.",
+    "MNE": "La más avanzada en las negociaciones (21 capítulos cerrados provisionalmente en octubre de 2026).",
+    "ALB": "Negociaciones desde 2022.",
+    "MKD": "Macedonia del Norte desde 2019 (Acuerdo de Prespa).",
+    "SRB": "En negociación desde 2014, con avances bloqueados desde 2021.",
+    "TUR": "Negociaciones congeladas desde 2018.",
+    "XKX": "Solicitó la adhesión en diciembre de 2022.",
+    "NOR": "Rechazó el ingreso en la UE en los referendos de 1972 y 1994.",
+    "CHE": "Socio de la UE mediante acuerdos bilaterales.",
+    "AND": "Usa el euro por acuerdo monetario con la UE.",
+    "MCO": "Usa el euro por acuerdo monetario con la UE.",
+    "SMR": "Usa el euro por acuerdo monetario con la UE.",
+    "VAT": "Usa el euro por acuerdo monetario con la UE."
+  }
+}

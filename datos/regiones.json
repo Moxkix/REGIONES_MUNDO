@@ -1,0 +1,76 @@
+{
+  "porDefecto": "europa",
+  "manual": "Grandes regiones de la Tierra (UNED). Temario de Geografía de los grandes espacios mundiales, Grado en Geografía e Historia.",
+  "regiones": [
+    {
+      "id": "europa",
+      "capitulo": 1,
+      "titulo": "Europa y la Unión Europea",
+      "subtitulo": "De la diversidad a la integración económica y política",
+      "disponible": true,
+      "motores": ["atlas", "climas"],
+      "color": "#4f7cac",
+      "paises": ["ALB","AND","AUT","BEL","BGR","BIH","CHE","CYP","CYN","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HRV","HUN","IRL","ISL","ITA","LIE","LTU","LUX","LVA","MCO","MKD","MLT","MNE","NLD","NOR","POL","PRT","ROU","SMR","SRB","SVK","SVN","SWE","VAT","XKX"]
+    },
+    {
+      "id": "rusia-postsovietica",
+      "capitulo": 2,
+      "titulo": "Rusia y los Estados postsoviéticos",
+      "subtitulo": "Potencial económico, contrastes regionales y reorganización del espacio euroasiático",
+      "disponible": false,
+      "motores": [],
+      "color": "#8a6aa8",
+      "paises": ["RUS","UKR","BLR","MDA","GEO","ARM","AZE","KAZ","TKM","UZB","KGZ","TJK"]
+    },
+    {
+      "id": "norteamerica",
+      "capitulo": 3,
+      "titulo": "Norteamérica",
+      "subtitulo": "Primera potencia económica mundial: Estados Unidos",
+      "disponible": false,
+      "motores": [],
+      "color": "#3f8f86",
+      "paises": ["USA","CAN"]
+    },
+    {
+      "id": "japon-australia",
+      "capitulo": 4,
+      "titulo": "Japón y Australia",
+      "subtitulo": "Dos modelos de organización del espacio en el Pacífico",
+      "disponible": false,
+      "motores": [],
+      "color": "#c06c84",
+      "paises": ["JPN","AUS"]
+    },
+    {
+      "id": "asia-meridional-oriental",
+      "capitulo": 5,
+      "titulo": "Asia meridional y oriental",
+      "subtitulo": "Un gran espacio en desarrollo y con países emergentes",
+      "disponible": false,
+      "motores": [],
+      "color": "#c9973f",
+      "paises": ["TUR","SYR","LBN","ISR","PSE","JOR","IRQ","IRN","SAU","KWT","BHR","QAT","ARE","OMN","YEM","AFG","PAK","IND","NPL","BTN","BGD","LKA","MDV","MMR","THA","LAO","KHM","VNM","MYS","SGP","IDN","PHL","BRN","TLS","CHN","MNG","PRK","KOR","TWN","KAS"]
+    },
+    {
+      "id": "africa",
+      "capitulo": 6,
+      "titulo": "África",
+      "subtitulo": "Contrastes naturales y sociales",
+      "disponible": false,
+      "motores": [],
+      "color": "#a8743f",
+      "paises": ["DZA","AGO","BEN","BWA","BFA","BDI","CMR","CPV","CAF","TCD","COM","COD","COG","CIV","DJI","EGY","GNQ","ERI","SWZ","ETH","GAB","GMB","GHA","GIN","GNB","KEN","LSO","LBR","LBY","MDG","MWI","MLI","MRT","MUS","MAR","MOZ","NAM","NER","NGA","RWA","STP","SEN","SYC","SLE","SOM","SOL","ZAF","SSD","SDN","TZA","TGO","TUN","UGA","ESH","ZMB","ZWE"]
+    },
+    {
+      "id": "america-latina",
+      "capitulo": 7,
+      "titulo": "América Latina",
+      "subtitulo": "Diversidad natural, humana y económica",
+      "disponible": false,
+      "motores": [],
+      "color": "#6f9a4a",
+      "paises": ["MEX","GTM","BLZ","SLV","HND","NIC","CRI","PAN","CUB","HTI","DOM","JAM","PRI","BHS","TTO","BRB","COL","VEN","GUY","SUR","ECU","PER","BOL","BRA","PRY","URY","ARG","CHL"]
+    }
+  ]
+}

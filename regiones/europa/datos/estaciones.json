@@ -1,0 +1,6 @@
+{"estaciones":[
+{"id":"brest","nombre":"Brest","pais":"Francia","lat":48.44,"lon":-4.41,"altitud":94,"periodo":"prueba","t":[7.1,7.1,8.6,10.0,12.9,15.4,17.3,17.6,15.9,13.0,10.0,7.7],"p":[135,107,94,80,77,60,62,70,82,125,135,145],"fuente":"prueba","dominio":["atlantico"],"comentario":"prueba"},
+{"id":"moscu","nombre":"Moscú","pais":"Rusia","lat":55.83,"lon":37.62,"altitud":147,"periodo":"prueba","t":[-6.2,-5.9,-0.7,6.9,13.6,17.3,19.7,17.6,11.9,5.8,-0.5,-4.4],"p":[53,44,39,37,61,78,84,82,68,71,55,52],"fuente":"prueba","dominio":["continental"]},
+{"id":"sevilla","nombre":"Sevilla","pais":"España","lat":37.42,"lon":-5.88,"altitud":34,"periodo":"prueba","t":[11.0,12.5,15.3,17.5,21.2,25.3,28.2,28.0,24.8,20.3,15.0,12.0],"p":[57,44,40,46,25,5,0,4,23,62,77,79],"fuente":"prueba","dominio":["mediterraneo"]},
+{"id":"santis","nombre":"Säntis","pais":"Suiza","lat":47.25,"lon":9.34,"altitud":2502,"periodo":"prueba","t":[-7.9,-8.4,-6.3,-3.6,0.6,4.1,6.3,6.3,3.1,0.4,-4.3,-6.9],"p":[200,180,200,190,230,260,270,250,190,180,190,220],"fuente":"prueba","dominio":["montana"]}
+]}

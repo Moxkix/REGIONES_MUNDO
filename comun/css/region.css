@@ -1,0 +1,39 @@
+.cab-region { display: grid; grid-template-columns: auto 1fr; gap: 0 1.5rem; align-items: start; margin-bottom: 2rem; }
+.cab-region .numero { font-size: clamp(4rem, 12vw, 8rem); line-height: .85; font-weight: 600; color: var(--magenta); }
+.cab-region h1 { margin-top: .3rem; }
+.cab-region .subtitulo { font-size: 1.2rem; color: var(--tinta-2); margin: 0; }
+@media (max-width: 600px) { .cab-region { grid-template-columns: 1fr; } }
+
+.bloque { margin: 2.5rem 0; }
+.bloque > h2 { border-bottom: 1px solid var(--tinta); padding-bottom: .35rem; }
+.resumen p { font-size: 1.1rem; }
+
+.herramientas-region { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+.herramientas-region a { display: block; text-decoration: none; color: var(--tinta); border-top: 3px solid var(--tinta); padding: .8rem 0 0; }
+.herramientas-region a:hover { border-top-color: var(--magenta); }
+.herramientas-region a:hover strong { color: var(--magenta); }
+.herramientas-region strong { font-size: 1.2rem; display: block; margin-bottom: .2rem; }
+.herramientas-region span { color: var(--tinta-2); font-size: 1rem; }
+
+.actualizacion td:nth-child(2) { color: var(--tinta-2); width: 26%; }
+.actualizacion td:nth-child(3) { width: 34%; font-weight: 500; }
+.actualizacion td .fuente { display: block; margin-top: .35rem; font-size: .78rem; color: var(--tinta-3); }
+.actualizacion td .obs { display: block; margin-top: .3rem; font-size: .78rem; color: var(--tinta-2); font-style: italic; }
+.actualizacion tr.tema th { background: var(--papel-2); color: var(--tinta); border-bottom: 0; font-size: .85rem; padding-top: .7rem; }
+.actualizacion .ap { white-space: nowrap; color: var(--tinta-3); font-size: .8rem; }
+@media (max-width: 760px) {
+  .actualizacion thead { display: none; }
+  .actualizacion tr:not(.tema) { display: grid; grid-template-columns: 1fr; border-bottom: 1px solid var(--linea); padding: .5rem 0; }
+  .actualizacion td { border: 0; padding: .2rem .4rem; width: auto !important; }
+  .actualizacion td::before { content: attr(data-t); display: block; font-size: .72rem; color: var(--tinta-3); font-weight: 600; }
+}
+
+.tabla-paises td.dif { font-size: .8rem; color: var(--tinta-2); }
+.tabla-paises td.sube { color: var(--rojo); }
+.tabla-paises td.baja { color: var(--verde); }
+.tabla-paises th button { all: unset; cursor: pointer; }
+.tabla-paises th button:focus-visible { outline: 2px solid var(--magenta); }
+.tabla-paises th button[aria-sort]::after { content: " ▾"; font-size: .7rem; }
+
+ol.indice { padding-left: 0; list-style: none; columns: 2 320px; column-gap: 2rem; }
+ol.indice li { break-inside: avoid; padding: .3rem 0; border-bottom: 1px solid var(--linea); }

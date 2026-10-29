@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas de los grandes espacios mundiales</title>
+  <meta name="description" content="Mapas interactivos, climogramas y cuestionarios para la asignatura Geografía de los grandes espacios mundiales (UNED).">
+  <link rel="icon" href="comun/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="comun/css/base.css">
+  <link rel="stylesheet" href="comun/css/portada.css">
+</head>
+<body>
+  <header class="barra" id="barra"></header>
+  <main>
+    <section class="portada-intro contenido">
+      <h1>Atlas de los grandes espacios mundiales</h1>
+      <p class="entradilla">Mapas que se superponen, climogramas que se clasifican solos y cuestionarios con la solución explicada. Cada región sigue un capítulo del manual <em>Grandes regiones de la Tierra</em> y pone al día sus datos.</p>
+    </section>
+    <section class="portada-mapa" aria-label="Mapa de las regiones del temario">
+      <svg id="mapamundi" role="img" aria-labelledby="mapamundi-titulo"><title id="mapamundi-titulo">Mapamundi con las siete regiones del temario</title></svg>
+    </section>
+    <div class="contenido portada-cuerpo">
+      <section aria-labelledby="t-capitulos">
+        <h2 id="t-capitulos">Regiones del temario</h2>
+        <ol class="capitulos" id="capitulos"></ol>
+      </section>
+      <section aria-labelledby="t-herramientas" class="portada-herramientas">
+        <h2 id="t-herramientas">Herramientas</h2>
+        <dl>
+          <dt>Atlas de lectura cruzada</dt>
+          <dd>Superponed o comparad con una cortinilla el relieve, el clima, la población, la industria o la situación política, y responded preguntas que os obligan a relacionar los mapas.</dd>
+          <dt>Climogramas</dt>
+          <dd>Climogramas con datos de 1991-2020, la clasificación de Köppen aplicada paso a paso y un ejercicio para situar cada estación en su dominio climático.</dd>
+          <dt>El manual y la actualidad</dt>
+          <dd>En la presentación de cada región, una tabla compara las cifras del manual con los datos más recientes y explica qué ha cambiado.</dd>
+        </dl>
+      </section>
+    </div>
+  </main>
+  <footer class="pie" id="pie"></footer>
+  <script src="comun/vendor/d3.min.js"></script>
+  <script src="comun/vendor/topojson-client.min.js"></script>
+  <script src="comun/js/nucleo.js"></script>
+  <script src="comun/js/pie.js"></script>
+  <script src="comun/js/portada.js"></script>
+</body>
+</html>
