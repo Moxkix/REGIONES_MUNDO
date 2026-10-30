@@ -1,0 +1,230 @@
+{
+ "nota": "Población de 2025 según Naciones Unidas (World Population Prospects 2024); densidad calculada con la superficie del cuadro 2.2 del manual. Las columnas «manual» proceden del cuadro 2.2 (2015). Ucrania: la estimación de la ONU descuenta a los refugiados que han salido del país desde 2022. Rusia: sin Crimea ni los territorios ocupados de Ucrania.",
+ "fuentes": "Naciones Unidas, World Population Prospects 2024; Banco Mundial, World Development Indicators (consulta de octubre de 2026); manual, cuadro 2.2.",
+ "columnas": [
+  [
+   "nombre",
+   "País",
+   0,
+   false
+  ],
+  [
+   "superficie",
+   "Superficie (km²)",
+   0,
+   true
+  ],
+  [
+   "poblacion_manual",
+   "Población 2015 (M, manual)",
+   1,
+   true
+  ],
+  [
+   "poblacion",
+   "Población 2025 (M)",
+   1,
+   true
+  ],
+  [
+   "var_pob",
+   "Variación 2000-2025 (%)",
+   1,
+   true
+  ],
+  [
+   "densidad_manual",
+   "Densidad 2015 (manual)",
+   0,
+   true
+  ],
+  [
+   "densidad",
+   "Densidad 2025",
+   0,
+   true
+  ],
+  [
+   "fecundidad",
+   "Hijos por mujer (2024)",
+   2,
+   true
+  ],
+  [
+   "pib_pc",
+   "PIB por hab. PPA 2024 ($)",
+   0,
+   true
+  ]
+ ],
+ "paises": {
+  "RUS": {
+   "nombre": "Rusia",
+   "capital": "Moscú",
+   "superficie": 17075400,
+   "poblacion": 143560000,
+   "poblacion_manual": 142.1,
+   "densidad": 8.4,
+   "densidad_manual": 8,
+   "var_pob": -2.0,
+   "fecundidad": 1.46,
+   "pct65": 17.5,
+   "pib_pc": 41891.0,
+   "urbana": 75.1
+  },
+  "BLR": {
+   "nombre": "Bielorrusia",
+   "capital": "Minsk",
+   "superficie": 207600,
+   "poblacion": 8968000,
+   "poblacion_manual": 9.3,
+   "densidad": 43.2,
+   "densidad_manual": 46,
+   "var_pob": -10.0,
+   "fecundidad": 1.22,
+   "pct65": 18.0,
+   "pib_pc": 29136.0,
+   "urbana": 79.2
+  },
+  "UKR": {
+   "nombre": "Ucrania",
+   "capital": "Kiev",
+   "superficie": 603700,
+   "poblacion": 39682000,
+   "poblacion_manual": 42.9,
+   "densidad": 65.7,
+   "densidad_manual": 74,
+   "var_pob": -19.6,
+   "fecundidad": 0.99,
+   "pct65": 19.1,
+   "pib_pc": 16371.0,
+   "urbana": 69.5
+  },
+  "MDA": {
+   "nombre": "Moldavia",
+   "capital": "Chisinau",
+   "superficie": 33850,
+   "poblacion": 2976000,
+   "poblacion_manual": 3.4,
+   "densidad": 87.9,
+   "densidad_manual": 102,
+   "var_pob": -29.4,
+   "fecundidad": 1.73,
+   "pct65": 16.5,
+   "pib_pc": 16394.0,
+   "urbana": 43.5
+  },
+  "GEO": {
+   "nombre": "Georgia",
+   "capital": "Tiflis",
+   "superficie": 69700,
+   "poblacion": 3806000,
+   "poblacion_manual": 4.3,
+   "densidad": 54.6,
+   "densidad_manual": 62,
+   "var_pob": -10.7,
+   "fecundidad": 1.8,
+   "pct65": 15.8,
+   "pib_pc": 24147.0,
+   "urbana": 61.1
+  },
+  "ARM": {
+   "nombre": "Armenia",
+   "capital": "Ereván",
+   "superficie": 29800,
+   "poblacion": 2941000,
+   "poblacion_manual": 3.0,
+   "densidad": 98.7,
+   "densidad_manual": 101,
+   "var_pob": -5.3,
+   "fecundidad": 1.72,
+   "pct65": 14.1,
+   "pib_pc": 20079.0,
+   "urbana": 65.8
+  },
+  "AZE": {
+   "nombre": "Azerbaiyán",
+   "capital": "Bakú",
+   "superficie": 86600,
+   "poblacion": 10427000,
+   "poblacion_manual": 9.6,
+   "densidad": 120.4,
+   "densidad_manual": 110,
+   "var_pob": 26.9,
+   "fecundidad": 1.67,
+   "pct65": 8.8,
+   "pib_pc": 22091.0,
+   "urbana": 58.6
+  },
+  "KAZ": {
+   "nombre": "Kazajistán",
+   "capital": "Astaná",
+   "superficie": 2724900,
+   "poblacion": 20967000,
+   "poblacion_manual": 16.8,
+   "densidad": 7.7,
+   "densidad_manual": 6,
+   "var_pob": 34.9,
+   "fecundidad": 2.98,
+   "pct65": 8.8,
+   "pib_pc": 35974.0,
+   "urbana": 62.1
+  },
+  "UZB": {
+   "nombre": "Uzbekistán",
+   "capital": "Taskent",
+   "superficie": 447400,
+   "poblacion": 37394000,
+   "poblacion_manual": 29.7,
+   "densidad": 83.6,
+   "densidad_manual": 69,
+   "var_pob": 50.0,
+   "fecundidad": 3.49,
+   "pct65": 6.0,
+   "pib_pc": 10997.0,
+   "urbana": 51.0
+  },
+  "TKM": {
+   "nombre": "Turkmenistán",
+   "capital": "Asjabad",
+   "superficie": 488100,
+   "poblacion": 7679000,
+   "poblacion_manual": 5.4,
+   "densidad": 15.7,
+   "densidad_manual": 11,
+   "var_pob": 65.9,
+   "fecundidad": 2.66,
+   "pct65": 4.7,
+   "pib_pc": 18471.0,
+   "urbana": 47.1
+  },
+  "KGZ": {
+   "nombre": "Kirguistán",
+   "capital": "Biskek",
+   "superficie": 199900,
+   "poblacion": 7349000,
+   "poblacion_manual": 5.7,
+   "densidad": 36.8,
+   "densidad_manual": 29,
+   "var_pob": 45.6,
+   "fecundidad": 2.78,
+   "pct65": 5.8,
+   "pib_pc": 7211.0,
+   "urbana": 34.7
+  },
+  "TJK": {
+   "nombre": "Tayikistán",
+   "capital": "Dusambé",
+   "superficie": 143100,
+   "poblacion": 10883000,
+   "poblacion_manual": 8.6,
+   "densidad": 76.1,
+   "densidad_manual": 60,
+   "var_pob": 71.5,
+   "fecundidad": 3.04,
+   "pct65": 4.0,
+   "pib_pc": 4756.0,
+   "urbana": 26.2
+  }
+ }
+}

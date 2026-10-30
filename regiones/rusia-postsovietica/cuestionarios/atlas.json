@@ -1,0 +1,163 @@
+{
+  "titulo": "Preguntas guiadas del atlas de Rusia y los Estados postsoviéticos",
+  "preguntas": [
+    {
+      "id": "anfiteatro",
+      "mapa": { "modo": "superponer", "capas": ["relieve"] },
+      "enunciado": "Con la capa de relieve activa, localizad la orla de montañas periféricas (en rojo). ¿Cómo se disponen respecto a las grandes llanuras?",
+      "opciones": [
+        { "t": "Forman un anfiteatro por el sur y el este, del mar Negro al estrecho de Bering, y dejan las llanuras abiertas al Ártico", "ok": true, "r": "Es la disposición que el manual describe como un gran anfiteatro: aísla el territorio de las influencias del sur y del Pacífico y lo abre a las masas de aire polar." },
+        { "t": "Rodean por completo las llanuras, también por el norte", "r": "Por el norte no hay montañas: las llanuras llegan hasta el océano Glacial Ártico." },
+        { "t": "Ocupan el centro del territorio y separan Europa de Asia", "r": "En el centro solo están los Urales, que son una barrera baja (1.895 m) con pasos de menos de 500 m." },
+        { "t": "Se concentran en la parte europea", "r": "En la parte europea solo aparecen los Cárpatos, Crimea y el Cáucaso; la mayor parte de la orla está en Asia." }
+      ],
+      "explicacion": [
+        "Las llanuras ocupan dos tercios del territorio. El cinturón montañoso del sur y del este, que el manual estima en un 30 % de la superficie, funciona como frontera, refugio de pueblos y depósito de agua.",
+        "Esa disposición explica buena parte del clima: nada frena el aire ártico, mientras las montañas cierran el paso a las influencias del océano Índico y del Pacífico."
+      ],
+      "manual": "Apartados 3.1 y 3.1.3, figura 2.3"
+    },
+    {
+      "id": "urales",
+      "mapa": { "modo": "superponer", "capas": ["relieve"] },
+      "enunciado": "Fijaos en los Urales, que separan la Llanura rusa de la de Siberia Occidental. ¿Qué tipo de relieve son?",
+      "opciones": [
+        { "t": "Un viejo macizo herciniano, arrasado y rejuvenecido, de poca altura y fácil de atravesar", "ok": true, "r": "Culminan a 1.895 m y tienen amplios pasos a menos de 500 m. Por eso el manual dice que su valor como frontera entre Europa y Asia es hoy histórico y simbólico." },
+        { "t": "Una cordillera alpina joven y muy elevada, como el Cáucaso", "r": "El Cáucaso supera los 5.600 m (Elbrús); los Urales son mucho más bajos y antiguos." },
+        { "t": "Un escudo precámbrico, como las mesetas de Siberia Central", "r": "Los escudos están al este del Yeniséi y en Carelia; los Urales son un plegamiento herciniano." },
+        { "t": "Una cadena volcánica activa", "r": "El vulcanismo activo está en Kamchatka, en el cinturón de fuego del Pacífico." }
+      ],
+      "explicacion": [
+        "Sus macizos cristalinos están muy mineralizados: hierro, cobre, bauxita, platino. Por eso los Urales fueron, desde los años treinta, una de las grandes regiones industriales soviéticas.",
+        "Activad la capa de energía y minerales y la de regiones industriales para comprobar la relación."
+      ],
+      "manual": "Apartados 3.1.2 y 6.2.2"
+    },
+    {
+      "id": "siberia-occidental",
+      "mapa": { "modo": "superponer", "capas": ["relieve"] },
+      "enunciado": "La llanura de Siberia Occidental, recorrida por el Obi, es extremadamente plana: en 2.000 km no supera los 200 m. ¿Qué problema provoca esa horizontalidad, unida a que los ríos corren hacia el norte?",
+      "opciones": [
+        { "t": "Grandes inundaciones en primavera: el deshielo empieza en el curso alto, al sur, mientras la desembocadura sigue helada", "ok": true, "r": "El agua no encuentra salida y se extiende por inmensas zonas pantanosas. Es la rasputitsa que el manual describe." },
+        { "t": "Una fuerte erosión de los ríos, que excavan cañones profundos", "r": "Con tan poca pendiente los ríos apenas erosionan: divagan y encharcan." },
+        { "t": "La falta de agua en verano", "r": "Al contrario: es una de las mayores regiones pantanosas del mundo." },
+        { "t": "Deslizamientos de laderas", "r": "No hay laderas: es una llanura casi perfecta." }
+      ],
+      "explicacion": [
+        "Bajo esa llanura están los grandes yacimientos de petróleo (Tercer Bakú) y de gas (Urengói, Yamal). Construir pozos, oleoductos y ciudades sobre suelos encharcados en verano y helados en invierno encarece mucho su explotación."
+      ],
+      "manual": "Apartados 3.1.1 y 3.2.1"
+    },
+    {
+      "id": "continentalidad-koppen",
+      "mapa": { "modo": "superponer", "capas": ["clima"] },
+      "enunciado": "Recorred el mapa de Köppen de Moscú hacia el este. En Siberia Oriental y el Extremo Oriente aparecen tipos con la letra w (Dwb, Dwc, Dwd). ¿Qué significa?",
+      "opciones": [
+        { "t": "Que el invierno es seco, porque lo domina el anticiclón siberiano", "ok": true, "r": "La w indica que la estación seca es el invierno. El potente anticiclón térmico de aire frío y seco impide la llegada de borrascas." },
+        { "t": "Que llueve mucho en invierno", "r": "Es al revés: w significa invierno seco." },
+        { "t": "Que el verano es muy caluroso", "r": "El calor del verano lo indica la tercera letra (a); la w se refiere al régimen de lluvias." },
+        { "t": "Que es un clima marítimo", "r": "Es justo lo contrario: el máximo de continentalidad." }
+      ],
+      "explicacion": [
+        "En el valle del Yana, en torno a Verjoyansk, aparece incluso la tercera letra d: el mes más frío baja de −38 °C. El manual cita allí una mínima absoluta de −69,8 °C.",
+        "En el Extremo Oriente el régimen es monzónico: invierno seco por el anticiclón y verano lluvioso por los vientos húmedos del Pacífico. Es el clima «manchú» del manual."
+      ],
+      "manual": "Apartados 3.2.1 y 3.2.3"
+    },
+    {
+      "id": "climas-perifericos",
+      "mapa": { "modo": "superponer", "capas": ["clima"] },
+      "enunciado": "Buscad el tipo Cfa (subtropical húmedo) en el mapa de Köppen. ¿Dónde aparece dentro del espacio postsoviético?",
+      "opciones": [
+        { "t": "En el oeste de Georgia, en la llanura de la Cólquida junto al mar Negro", "ok": true, "r": "Es la Georgia de clima subtropical húmedo del manual, protegida del aire polar por el Gran Cáucaso y con más de 2.000 mm de lluvia: tierra de té y cítricos." },
+        { "t": "En toda la costa ártica", "r": "La costa ártica tiene climas polares (ET)." },
+        { "t": "En el centro de Kazajistán", "r": "Allí dominan los climas esteparios y continentales (BSk, Dfb)." },
+        { "t": "En los alrededores de Moscú", "r": "Moscú es Dfb, continental húmedo de verano templado." }
+      ],
+      "explicacion": [
+        "Junto a ese clima, el manual señala otras áreas periféricas con climas distintos del continental: los polares del norte, el pequeño enclave mediterráneo de la costa sur de Crimea y el clima monzónico del Extremo Oriente.",
+        "Abrid la estación de Batumi en los climogramas para comprobarlo."
+      ],
+      "manual": "Apartado 3.2.3"
+    },
+    {
+      "id": "vacios-demograficos",
+      "mapa": { "modo": "comparar", "izq": "clima", "der": "densidad", "corte": 0.5 },
+      "enunciado": "Comparad el clima con la densidad de población. Rusia y Kazajistán tienen menos de 10 hab./km², mientras Azerbaiyán supera los 120. ¿Qué factor natural destaca el manual para explicar los grandes vacíos?",
+      "opciones": [
+        { "t": "El frío y la aridez, factores de gran capacidad repulsiva", "ok": true, "r": "El manual calcula que el exceso de frío o de calor inutiliza más de la mitad del territorio. Por eso los sectores poblados aparecen como islas de un archipiélago." },
+        { "t": "La altitud de las montañas, que cubren la mayor parte del territorio", "r": "Las llanuras ocupan dos tercios del territorio; el problema es su clima, no su altitud." },
+        { "t": "La escasez de ríos", "r": "Hay grandes ríos (Obi, Yeniséi, Lena), pero corren por regiones heladas." },
+        { "t": "Los terremotos", "r": "Solo son frecuentes en Kamchatka y en las montañas del sur." }
+      ],
+      "explicacion": [
+        "Estas medias nacionales esconden contrastes enormes: la Rusia europea tiene unos 40 hab./km² y la asiática unos 5. En los oasis y valles regados de Asia Central se superan los 100 hab./km².",
+        "Junto a los factores naturales, el manual cita los históricos (poblamiento eslavo antiguo), los humanos (urbanización) y los económicos y políticos (ferrocarriles, tierras vírgenes, regiones industriales)."
+      ],
+      "manual": "Apartado 2.3"
+    },
+    {
+      "id": "variacion-poblacion",
+      "mapa": { "modo": "superponer", "capas": ["variacion"] },
+      "enunciado": "Activad la variación de la población entre 2000 y 2025. ¿Qué contraste aparece?",
+      "opciones": [
+        { "t": "Los Estados de Europa oriental pierden población (Moldavia casi un 30 %, Ucrania un 20 %) y los de Asia Central crecen entre un 35 % y un 72 %", "ok": true, "r": "Tayikistán ha crecido un 71 % y Uzbekistán un 50 %. Rusia ha perdido un 2 %." },
+        { "t": "Todos los Estados han perdido población desde la desaparición de la URSS", "r": "Solo pierden los de Europa oriental y el Cáucaso, salvo Azerbaiyán." },
+        { "t": "Rusia es el Estado que más crece", "r": "Rusia pierde población: su crecimiento natural es negativo." },
+        { "t": "Las diferencias son pequeñas, todos están en torno al 0 %", "r": "Van de −29 % en Moldavia a +72 % en Tayikistán." }
+      ],
+      "explicacion": [
+        "El manual ya señalaba que la pérdida de población de 2000-2015 se concentraba en Europa oriental (15 millones), por la crisis económica, el crecimiento natural negativo y la emigración. La guerra de Ucrania lo ha agravado.",
+        "Seguid esta cuestión en el motor de población y desarrollo, con las pirámides y la transición demográfica."
+      ],
+      "manual": "Apartados 2.1 y 7"
+    },
+    {
+      "id": "renta",
+      "mapa": { "modo": "superponer", "capas": ["pib"] },
+      "enunciado": "Con la capa del PIB por habitante, ¿qué grupo de países tiene la renta más baja del espacio postsoviético?",
+      "opciones": [
+        { "t": "Tayikistán y Kirguistán, seguidos de Uzbekistán", "ok": true, "r": "Tayikistán no llega a 5.000 dólares por habitante (en paridad de poder adquisitivo) y Kirguistán apenas supera los 7.000, frente a más de 40.000 en Rusia." },
+        { "t": "Rusia y Kazajistán", "r": "Son los más ricos, gracias a los hidrocarburos." },
+        { "t": "Bielorrusia y Ucrania", "r": "Ucrania tiene una renta baja por la guerra, pero Tayikistán y Kirguistán están aún más abajo." },
+        { "t": "Azerbaiyán y Turkmenistán", "r": "El petróleo y el gas los sitúan en un nivel intermedio." }
+      ],
+      "explicacion": [
+        "El manual describe a Uzbekistán, Kirguistán y Tayikistán como los Estados más pobres y con menos posibilidades del espacio postsoviético, muy dependientes de las remesas de los emigrantes que trabajan en Rusia.",
+        "Kazajistán, con unos 36.000 dólares, se ha acercado a Rusia: es el «nuevo país emergente» del manual."
+      ],
+      "manual": "Apartados 7.3.1 y 7.3.2"
+    },
+    {
+      "id": "transiberiano",
+      "mapa": { "modo": "superponer", "capas": ["relieve", "industria"] },
+      "enunciado": "Activad las regiones industriales. ¿Cómo se distribuyen las regiones industriales de la Rusia asiática?",
+      "opciones": [
+        { "t": "Como islotes alineados a lo largo del Transiberiano, en el sur de Siberia", "ok": true, "r": "Kuzbass, Novosibirsk, Angara-Baikal y el Extremo Oriente siguen el ferrocarril; el BAM, más al norte, intentó abrir nuevos polos mineros." },
+        { "t": "Repartidas de forma homogénea por toda Siberia", "r": "El norte de Siberia es un inmenso vacío salvo enclaves extractivos como Norilsk." },
+        { "t": "Concentradas en la costa ártica", "r": "Solo hay enclaves aislados; la franja industrial está en el sur." },
+        { "t": "Junto a la frontera con China, lejos del ferrocarril", "r": "El ferrocarril corre precisamente cerca de esa frontera: industria y transporte coinciden." }
+      ],
+      "explicacion": [
+        "El Transiberiano, terminado en 1905, fue el eje de la colonización. Las regiones industriales aprovechan recursos locales: el carbón del Kuzbass y la hidroelectricidad del Yeniséi y el Angará, que atrajo la metalurgia del aluminio (Krasnoyarsk, Bratsk, Irkutsk)."
+      ],
+      "manual": "Apartados 2.1 y 6.2.3, figuras 2.6 y 2.7"
+    },
+    {
+      "id": "distancia-energia",
+      "mapa": { "modo": "superponer", "capas": ["densidad", "recursos"] },
+      "enunciado": "Superponed la densidad de población y los yacimientos de energía. ¿Qué problema plantea su localización?",
+      "opciones": [
+        { "t": "Los grandes yacimientos de petróleo y gas están en Siberia Occidental y el Gran Norte, a 2.000 o 3.000 km de los centros de consumo europeos", "ok": true, "r": "El manual calcula que la parte europea consume el 80 % de la energía y produce solo el 20 %: el transporte encarece mucho la energía." },
+        { "t": "Los yacimientos están en el centro de las grandes ciudades", "r": "Los centros de consumo y los de producción están muy alejados." },
+        { "t": "Los yacimientos se concentran en la parte europea, donde ya se han agotado", "r": "Los yacimientos europeos están en declive; los grandes están en Asia." },
+        { "t": "No hay ningún problema: la energía se produce donde se consume", "r": "Es precisamente el gran problema energético que señala el manual." }
+      ],
+      "explicacion": [
+        "El petróleo y el gas se transportan por miles de kilómetros de oleoductos y gasoductos hacia el oeste, y ahora cada vez más hacia China.",
+        "La localización excéntrica de los yacimientos explica también la política soviética de descentralización industrial hacia los Urales y Siberia."
+      ],
+      "manual": "Apartados 5.1 y 5.2"
+    }
+  ]
+}

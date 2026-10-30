@@ -1,0 +1,1102 @@
+{
+"picos": [
+{
+"type": "Feature",
+"properties": {
+"n": "Elbrús",
+"h": 5642
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+42.439,
+43.355
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kazbek",
+"h": 5054
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+44.518,
+42.697
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Pico Ismail Samani (antiguo pico Comunismo)",
+"h": 7495
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+72.02,
+38.94
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Pico Pobeda (Jengish Chokusu)",
+"h": 7439
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+80.13,
+42.04
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Beluja (Altái)",
+"h": 4506
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+86.59,
+49.81
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Narodnaya (Urales)",
+"h": 1895
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+59.65,
+65.03
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kliuchevskaya Sopka (Kamchatka)",
+"h": 4754
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+160.64,
+56.06
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Aragats",
+"h": 4090
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+44.2,
+40.53
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hoverla (Cárpatos)",
+"h": 2061
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+24.5,
+48.16
+]
+}
+}
+],
+"ciudades": [
+{
+"type": "Feature",
+"properties": {
+"n": "Moscú",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+37.62,
+55.76
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kiev",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+30.52,
+50.45
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Minsk",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+27.56,
+53.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Chisinau",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+28.86,
+47.01
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Tiflis",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+44.79,
+41.72
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ereván",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+44.51,
+40.18
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bakú",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+49.87,
+40.41
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Astaná",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+71.43,
+51.13
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Taskent",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+69.28,
+41.31
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Asjabad",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+58.38,
+37.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Biskek",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+74.59,
+42.87
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Dusambé",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+68.78,
+38.56
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "San Petersburgo",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+30.32,
+59.94
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Nizhni Nóvgorod",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+44.0,
+56.33
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kazán",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+49.11,
+55.79
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Samara",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+50.1,
+53.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Volgogrado",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+44.52,
+48.71
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Rostov del Don",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+39.72,
+47.24
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ekaterimburgo",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+60.6,
+56.84
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cheliábinsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+61.4,
+55.16
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Perm",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+56.25,
+58.01
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ufá",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+55.96,
+54.74
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Omsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+73.37,
+54.99
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Novosibirsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+82.92,
+55.03
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Krasnoyarsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+92.87,
+56.01
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Irkutsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+104.28,
+52.29
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Norilsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+88.2,
+69.35
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Yakutsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+129.73,
+62.03
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Jabárovsk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+135.07,
+48.48
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Vladivostok",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.89,
+43.12
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Múrmansk",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+33.08,
+68.97
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Arcángel",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+40.52,
+64.54
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Járkov",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+36.23,
+49.99
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Odesa",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+30.73,
+46.48
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Dnipró",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+35.05,
+48.46
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Almaty",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+76.89,
+43.24
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Samarcanda",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+66.96,
+39.65
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Karagandá",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+73.1,
+49.8
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Tiumén",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+65.53,
+57.15
+]
+}
+}
+],
+"industria": [
+{
+"type": "Feature",
+"properties": {
+"n": "Región industrial central (Moscú)",
+"tipo": "centro",
+"nota": "Corazón económico de Rusia: industria diversificada, ciencia y servicios; unas 30 ciudades de más de 100.000 habitantes en 400 km."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+37.6,
+55.7
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "San Petersburgo",
+"tipo": "centro",
+"nota": "Gran puerto hacia el Báltico; industria apoyada en los recursos del Gran Norte y la taiga."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+30.3,
+59.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Región del Volga",
+"tipo": "europea",
+"nota": "Eje urbano e industrial (Kazán, Samara, Sarátov, Volgogrado), automóvil en Togliatti y energía hidroeléctrica."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+49.5,
+53.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Urales",
+"tipo": "europea",
+"nota": "Principal región minera de Rusia y gran productora de acero (Magnitogorsk, Ekaterimburgo, Cheliábinsk)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+60.6,
+56.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kuzbass",
+"tipo": "siberiana",
+"nota": "Carbón abundante y de fácil extracción; siderurgia, química y mecánica (Novokuznetsk, Kémerovo)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+86.5,
+54.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Angara-Baikal",
+"tipo": "siberiana",
+"nota": "Aluminio y celulosa junto a las grandes presas del Yeniséi y el Angará (Krasnoyarsk, Bratsk, Irkutsk)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+101.0,
+55.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Extremo Oriente",
+"tipo": "siberiana",
+"nota": "Siderurgia en Komsomolsk, bienes de equipo en Jabárovsk, pesca y puerto en Vladivostok."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.0,
+49.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Donbás",
+"tipo": "ucraniana",
+"nota": "Carbón y siderurgia de Ucrania oriental; zona de guerra desde 2014."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+38.0,
+48.1
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Dniéper (Zaporiyia-Dnipró)",
+"tipo": "ucraniana",
+"nota": "Ferroaleaciones, aluminio y acero sobre la energía del Dniéper y el hierro de Krivói Rog."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+35.1,
+47.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Karagandá",
+"tipo": "asiatica",
+"nota": "Carbón, metalurgia y cobre en el norte de Kazajistán."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+73.1,
+49.8
+]
+}
+}
+],
+"recursos": [
+{
+"type": "Feature",
+"properties": {
+"n": "Bakú (Absherón)",
+"tipo": "petroleo",
+"nota": "Primer Bakú: explotado desde 1873; hoy la producción avanza bajo el Caspio."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+49.9,
+40.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Volga-Urales (Segundo Bakú)",
+"tipo": "petroleo",
+"nota": "Yacimientos entre el Volga y los Urales, en explotación desde los años treinta."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+52.5,
+54.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Siberia Occidental (Tercer Bakú)",
+"tipo": "petroleo",
+"nota": "Cuenca del Obi (Surgut, Samotlor): principal región petrolera de Rusia."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+73.4,
+61.25
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Tengiz y Kashagán (Cuarto Bakú)",
+"tipo": "petroleo",
+"nota": "Grandes yacimientos del Caspio kazajo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+53.3,
+46.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Urengói y Yamal",
+"tipo": "gas",
+"nota": "Primeros yacimientos de gas del mundo en el Gran Norte de Siberia Occidental."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+76.6,
+66.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Turkmenistán (Galkynysh)",
+"tipo": "gas",
+"nota": "Cuartas reservas de gas del mundo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+62.5,
+37.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sajalín",
+"tipo": "gas",
+"nota": "Petróleo y gas en la plataforma marina del Pacífico."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+143.0,
+52.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Donbás",
+"tipo": "carbon",
+"nota": "Carbón de Ucrania oriental, casi paralizado por la guerra."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+38.5,
+48.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kuzbass",
+"tipo": "carbon",
+"nota": "Primera cuenca hullera de Rusia."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+87.0,
+54.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Karagandá",
+"tipo": "carbon",
+"nota": "Carbón de las estepas kazajas."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+73.0,
+49.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Pechora (Vorkutá)",
+"tipo": "carbon",
+"nota": "Carbón del Ártico europeo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+64.0,
+67.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kansk-Achinsk",
+"tipo": "carbon",
+"nota": "Gran yacimiento de lignito de Siberia Central."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+91.0,
+56.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Krivói Rog",
+"tipo": "metales",
+"nota": "Hierro de Ucrania."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+33.4,
+47.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Anomalía magnética de Kursk",
+"tipo": "metales",
+"nota": "Hierro entre Rusia y Ucrania."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+37.5,
+51.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Norilsk",
+"tipo": "metales",
+"nota": "Níquel, paladio, platino y cobre."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+88.2,
+69.35
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kolimá",
+"tipo": "metales",
+"nota": "Oro del Extremo Oriente."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+151.0,
+62.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Muruntau",
+"tipo": "metales",
+"nota": "Una de las mayores minas de oro del mundo (Uzbekistán)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+64.6,
+41.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Uranio de Kazajistán",
+"tipo": "metales",
+"nota": "Kazajistán es el primer productor mundial de uranio."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+68.0,
+44.5
+]
+}
+}
+]
+}

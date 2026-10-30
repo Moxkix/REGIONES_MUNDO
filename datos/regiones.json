@@ -67,8 +67,14 @@
       "capitulo": 2,
       "titulo": "Rusia y los Estados postsoviéticos",
       "subtitulo": "Potencial económico, contrastes regionales y reorganización del espacio euroasiático",
-      "disponible": false,
-      "motores": [],
+      "disponible": true,
+      "motores": [
+        "atlas",
+        "climas",
+        "recursos",
+        "poblacion",
+        "paisajes"
+      ],
       "color": "#8a5fb0",
       "paises": [
         "RUS",

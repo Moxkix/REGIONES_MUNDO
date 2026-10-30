@@ -1,0 +1,132 @@
+{
+  "titulo": "Preguntas sobre población y desarrollo en Rusia y los Estados postsoviéticos",
+  "preguntas": [
+    {
+      "id": "piramide-rusia",
+      "vista": { "pestana": "piramides", "pais": "RUS", "anio": 2025 },
+      "enunciado": "Observad la pirámide de Rusia en 2025. Tiene entrantes y salientes muy marcados. ¿Qué explica el grupo de 20 a 29 años, mucho más estrecho que el de 35 a 39?",
+      "opciones": [
+        { "t": "El hundimiento de la natalidad en los años noventa, tras la desaparición de la URSS", "ok": true, "r": "Los nacidos entre 1996 y 2005 son pocos: la fecundidad cayó de 1,9 hijos por mujer en 1990 a 1,2 en 2000. Los de 35 a 39 años nacieron a finales de los ochenta, cuando la natalidad aún era alta." },
+        { "t": "Las bajas de la Segunda Guerra Mundial", "r": "Las huellas de la guerra están más arriba: el grupo de 80 a 84 años, nacidos entre 1941 y 1945, es más pequeño que el de 85 a 89." },
+        { "t": "La emigración masiva de jóvenes al extranjero", "r": "Ha habido emigración, pero no explica un hueco de esta magnitud; el factor principal es la caída de los nacimientos." },
+        { "t": "Una epidemia que afectó sobre todo a los jóvenes", "r": "No hubo tal epidemia. La forma de la pirámide refleja la historia de la natalidad." }
+      ],
+      "explicacion": [
+        "La pirámide rusa es un registro de la historia del país: el déficit de nacimientos de la Segunda Guerra Mundial (80-84 años), el «eco» de ese déficit en sus hijos y nietos, y el desplome de la natalidad de la crisis de los noventa (20-29 años).",
+        "Estos huecos se transmiten: las generaciones poco numerosas tienen a su vez pocos hijos. Por eso la base de la pirámide vuelve a estrecharse hoy (0-4 años)."
+      ],
+      "manual": "Apartado 6.1 (crisis demográfica de Rusia)"
+    },
+    {
+      "id": "sobremortalidad-masculina",
+      "vista": { "pestana": "piramides", "pais": "RUS", "anio": 2025, "comparar": "ESP" },
+      "enunciado": "En la pirámide de Rusia, comparad la cúspide de hombres y mujeres. ¿Qué rasgo destaca?",
+      "opciones": [
+        { "t": "Hay casi el doble de mujeres que de hombres de 65 años y más", "ok": true, "r": "Unos 17 millones de mujeres frente a 9 millones de hombres. La sobremortalidad masculina en Rusia es de las más altas del mundo." },
+        { "t": "Hay más hombres que mujeres en las edades avanzadas", "r": "Es al contrario, como en todos los países, pero en Rusia la diferencia es extrema." },
+        { "t": "La cúspide es igual para ambos sexos", "r": "Mirad la escala: a partir de los 60 años la barra de las mujeres es mucho más larga." },
+        { "t": "La diferencia se debe solo a la Segunda Guerra Mundial", "r": "La guerra explica parte del déficit de hombres de más de 80 años, pero el desequilibrio aparece ya a los 50-60 años, en generaciones nacidas mucho después." }
+      ],
+      "explicacion": [
+        "La esperanza de vida de los hombres rusos es más de diez años inferior a la de las mujeres. Las causas que suelen citarse son el consumo de alcohol, el tabaco, los accidentes y las enfermedades cardiovasculares.",
+        "Comparad con España: la cúspide española también tiene más mujeres, pero la diferencia es mucho menor."
+      ],
+      "manual": "Apartado 6.1"
+    },
+    {
+      "id": "transicion-rusia-uzbekistan",
+      "vista": { "pestana": "transicion", "pais": "RUS", "comparar": "UZB" },
+      "enunciado": "Comparad la transición demográfica de Rusia con la de Uzbekistán. ¿Qué diferencia hay desde 1990?",
+      "opciones": [
+        { "t": "En Rusia mueren más personas de las que nacen casi todos los años desde 1992; en Uzbekistán el crecimiento natural sigue siendo muy alto", "ok": true, "r": "Rusia solo tuvo crecimiento natural positivo entre 2012 y 2015. Uzbekistán mantiene una natalidad muy superior a su mortalidad y ha pasado de 21 a 37 millones de habitantes desde 1990." },
+        { "t": "Ambos países tienen crecimiento natural negativo", "r": "Mirad Uzbekistán: la curva de natalidad está muy por encima de la de mortalidad." },
+        { "t": "Uzbekistán tiene más mortalidad que natalidad", "r": "Es al revés: su mortalidad es baja porque su población es joven." },
+        { "t": "Rusia tiene hoy una natalidad más alta que Uzbekistán", "r": "La natalidad rusa ronda el 9 ‰; la uzbeka es más del doble." }
+      ],
+      "explicacion": [
+        "El manual explica que en el siglo XX crecieron más las repúblicas meridionales, caucásicas y de Asia Central, por su mayor fecundidad. La tendencia continúa: el espacio postsoviético se divide entre un norte eslavo que pierde población y un sur musulmán que crece.",
+        "Fijaos también en el pico de mortalidad rusa de 2020-2021: la pandemia de covid-19."
+      ],
+      "manual": "Apartados 2.1 y 7.3.1"
+    },
+    {
+      "id": "esperanza-vida-rusia",
+      "vista": { "pestana": "transicion", "pais": "RUS", "comparar": "" },
+      "enunciado": "Mirad el gráfico pequeño de esperanza de vida de Rusia. ¿Qué ocurrió en los años noventa?",
+      "opciones": [
+        { "t": "Cayó varios años, hasta un mínimo de unos 65 años a comienzos de la década de 2000, por la crisis económica y social", "ok": true, "r": "Pasó de 69 años en 1990 a menos de 65 en 2003. Después se recuperó hasta 73 años en 2019, volvió a caer con la pandemia y hoy ronda los 73." },
+        { "t": "Siguió subiendo de forma regular, como en Europa occidental", "r": "Mirad la curva: tiene un hundimiento muy marcado." },
+        { "t": "Se mantuvo estable en torno a 70 años", "r": "La caída fue de más de cuatro años, algo excepcional en un país industrializado en tiempos de paz." },
+        { "t": "Bajó por la Segunda Guerra Mundial", "r": "Hablamos de los años noventa; la guerra acabó en 1945." }
+      ],
+      "explicacion": [
+        "El aumento de la mortalidad adulta, sobre todo masculina, en los años noventa es uno de los rasgos más estudiados de la transición postsoviética: empobrecimiento, deterioro de la sanidad, estrés social y alcoholismo.",
+        "Comparad con Ucrania o Bielorrusia: siguieron una evolución parecida."
+      ],
+      "manual": "Apartado 6.1"
+    },
+    {
+      "id": "este-pierde-sur-gana",
+      "vista": { "pestana": "transicion", "pais": "UKR", "comparar": "TJK" },
+      "enunciado": "Mirad el gráfico pequeño de población de Ucrania y de Tayikistán. ¿Cómo ha cambiado su población entre 2000 y 2025?",
+      "opciones": [
+        { "t": "Ucrania ha perdido una quinta parte y Tayikistán ha crecido más de un 70 %", "ok": true, "r": "Ucrania ha pasado de 49 a 40 millones (sin contar a los refugiados en el extranjero); Tayikistán, de 6,3 a 10,9 millones." },
+        { "t": "Ambos han crecido de forma parecida", "r": "Las curvas van en sentido contrario." },
+        { "t": "Ucrania ha crecido por la llegada de refugiados", "r": "Al contrario: desde 2022 millones de ucranianos han salido del país." },
+        { "t": "Tayikistán ha perdido población por la emigración a Rusia", "r": "Hay mucha emigración temporal a Rusia, pero la natalidad es tan alta que la población sigue creciendo deprisa." }
+      ],
+      "explicacion": [
+        "En Europa oriental, la baja fecundidad, la emigración y, desde 2022, la guerra explican el retroceso. Moldavia ha perdido casi un 30 % y Bielorrusia un 10 %.",
+        "En Asia Central ocurre lo contrario: Uzbekistán ha crecido un 50 % y Kirguistán un 46 %. Las remesas de los emigrantes en Rusia son una parte esencial de la economía tayika y kirguisa."
+      ],
+      "manual": "Apartados 2.1, 7.1 y 7.3.1"
+    },
+    {
+      "id": "kazajistan-fecundidad",
+      "vista": { "pestana": "explorador", "x": "fecundidad", "y": "esperanza_vida", "anio": 2000, "pais": "KAZ", "rastro": true },
+      "enunciado": "Seguid la trayectoria de Kazajistán en el explorador desde 2000. ¿Qué tiene de excepcional su fecundidad?",
+      "opciones": [
+        { "t": "Ha aumentado: de 1,9 hijos por mujer en 2000 a unos 3 hoy, a contracorriente de casi todo el mundo", "ok": true, "r": "La recuperación económica, el peso creciente de la población kazaja (más joven y con más hijos) y la salida de población eslava explican el cambio." },
+        { "t": "Ha caído por debajo de 1,5, como en Rusia", "r": "La trayectoria se mueve hacia la derecha: la fecundidad sube." },
+        { "t": "Se ha mantenido constante desde 1990", "r": "En los noventa cayó mucho y después se recuperó." },
+        { "t": "Es la más alta del mundo", "r": "Es alta para su nivel de renta, pero muy lejos de la de los países del Sahel." }
+      ],
+      "explicacion": [
+        "El manual señala que Kazajistán perdió 1,5 millones de habitantes entre 1990 y 2010 por la emigración de los eslavos y que en los últimos años volvía a crecer. Hoy supera los 20 millones.",
+        "Probad también con Uzbekistán, Tayikistán o Kirguistán: todos han frenado su descenso de la fecundidad."
+      ],
+      "manual": "Apartado 7.3.2"
+    },
+    {
+      "id": "edad-mediana-postsovietica",
+      "vista": { "pestana": "explorador", "x": "edad_mediana", "y": "mayores65", "anio": 2024 },
+      "enunciado": "Con la edad mediana en el eje horizontal, comparad los países de la región en 2024. ¿Qué contraste aparece?",
+      "opciones": [
+        { "t": "Rusia (41 años) y Ucrania (43) son poblaciones envejecidas; Uzbekistán (28) y Tayikistán (23) son muy jóvenes", "ok": true, "r": "En Tayikistán más de un tercio de la población tiene menos de 15 años; en Ucrania, solo el 14 %." },
+        { "t": "Todos los países de la antigua URSS tienen una edad mediana parecida", "r": "Hay casi veinte años de diferencia entre Ucrania y Tayikistán." },
+        { "t": "Asia Central está más envejecida que la Europa postsoviética", "r": "Es al revés." },
+        { "t": "Rusia es más joven que Uzbekistán", "r": "La edad mediana de Rusia supera en 13 años a la de Uzbekistán." }
+      ],
+      "explicacion": [
+        "La herencia común soviética no ha borrado los contrastes demográficos. El norte eslavo se parece demográficamente a Europa; el sur centroasiático, a sus vecinos de Asia meridional y Oriente Próximo."
+      ],
+      "manual": "Apartados 2.1 y 7.3.1"
+    },
+    {
+      "id": "asia-central-2100",
+      "vista": { "pestana": "transicion", "pais": "RUS", "comparar": "UZB" },
+      "enunciado": "Hoy los cinco Estados de Asia Central suman unos 84 millones de habitantes y Rusia 144. Según la proyección de Naciones Unidas, ¿qué ocurrirá hacia 2100?",
+      "opciones": [
+        { "t": "Asia Central superará a Rusia: unos 150 millones frente a 126", "ok": true, "r": "Uzbekistán por sí solo pasaría de 37 a 74 millones. Rusia, en cambio, seguiría perdiendo población." },
+        { "t": "Rusia duplicará la población de Asia Central", "r": "Mirad la proyección de los gráficos pequeños: Rusia baja y Uzbekistán sube." },
+        { "t": "Ambos conjuntos se estabilizarán en las cifras actuales", "r": "Las proyecciones indican cambios en sentidos opuestos." },
+        { "t": "Asia Central perderá población por la emigración", "r": "La emigración no compensa un crecimiento natural tan alto." }
+      ],
+      "explicacion": [
+        "Las proyecciones a tan largo plazo son inciertas, pero señalan una tendencia de fondo: el peso demográfico del espacio postsoviético se desplaza hacia el sur.",
+        "Podéis consultar la pirámide de Uzbekistán en 2100 y compararla con la de Rusia."
+      ],
+      "manual": "Apartados 2.1, 6.1 y 7.3"
+    }
+  ]
+}

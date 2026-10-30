@@ -1,0 +1,581 @@
+{
+  "id": "rusia-postsovietica",
+  "proyeccion": {
+    "tipo": "laea",
+    "rotar": [
+      -95,
+      -58
+    ]
+  },
+  "ventana": [
+    28,
+    35,
+    175,
+    80
+  ],
+  "presentacion": {
+    "resumen": [
+      "La antigua Unión Soviética ocupaba 22 millones de km², la sexta parte de las tierras emergidas. Al desintegrarse en 1991 dio lugar a quince Estados; doce de ellos formaron la Comunidad de Estados Independientes (CEI) y son los que estudia este capítulo. Rusia, el Estado más extenso del mundo, sigue siendo la potencia que organiza ese espacio.",
+      "Usad el atlas para relacionar la inmensidad del territorio, la continentalidad del clima y los grandes vacíos demográficos; los climogramas para medir la continentalidad de oeste a este; y los motores de recursos y población para comprobar qué ha cambiado desde 2016: la guerra de Ucrania, el fin del gas ruso en Europa y el crecimiento demográfico de Asia Central frente al declive eslavo."
+    ],
+    "indice": [
+      "Introducción. La difícil reorganización del espacio ex soviético",
+      "1. El mosaico de nacionalidades y los Estados actuales",
+      "2. Desigual ocupación del territorio. Ciudades y densidades demográficas",
+      "3. Variedad y contrastes del medio natural",
+      "4. Regiones agrarias y grandes producciones",
+      "5. Abundancia de recursos naturales y formación de las grandes industrias",
+      "6. Rusia, la gran potencia emergente regional",
+      "7. Peculiaridades de los otros Estados",
+      "Conclusión: Hacia una Eurasia postsoviética liderada por Rusia"
+    ],
+    "actualizacion": "datos/actualizacion.json"
+  },
+  "atlas": {
+    "cuestionario": "cuestionarios/atlas.json",
+    "referencia": {
+      "rios": {
+        "archivo": "capas/rios.json",
+        "objeto": "rios"
+      },
+      "lagos": {
+        "archivo": "capas/lagos.json",
+        "objeto": "lagos"
+      },
+      "puntos": "capas/puntos.json"
+    },
+    "capas": [
+      {
+        "id": "relieve",
+        "nombre": "Relieve: grandes unidades morfoestructurales",
+        "tipo": "poligonos",
+        "archivo": "capas/relieve.json",
+        "objeto": "relieve",
+        "campo": "u",
+        "etiqueta": "n",
+        "puntos": [
+          "picos"
+        ],
+        "categorias": {
+          "plataforma": {
+            "color": "#a9c98f",
+            "nombre": "Llanura rusa (plataforma)"
+          },
+          "siberia": {
+            "color": "#c9dca0",
+            "nombre": "Llanura de Siberia Occidental y tierras bajas del norte"
+          },
+          "aralocaspiana": {
+            "color": "#e6d49a",
+            "nombre": "Depresión aralo-caspiana y estepas kazajas"
+          },
+          "escudo": {
+            "color": "#b9a7c9",
+            "nombre": "Escudos y mesetas del zócalo (báltico, ucraniano, siberiano)"
+          },
+          "herciniano": {
+            "color": "#c9a46a",
+            "nombre": "Zócalo herciniano levantado (Urales, umbral kazajo, Altái)"
+          },
+          "montanas": {
+            "color": "#b5533c",
+            "nombre": "Orla de montañas periféricas"
+          }
+        },
+        "fuente": "Unidades de Natural Earth 1:10 m (geography regions) clasificadas según el apartado 3.1 y la figura 2.3 del manual. La clasificación es nuestra.",
+        "manual": "Apartado 3.1 y figura 2.3"
+      },
+      {
+        "id": "clima",
+        "nombre": "Clima: tipos de Köppen-Geiger",
+        "tipo": "koppen",
+        "archivo": "capas/clima.json",
+        "objeto": "clima",
+        "campo": "k",
+        "fuente": "Köppen-Geiger 1986-2010 (Rubel et al., 2017), ráster de 100\" agregado a unos 16 km.",
+        "manual": "Apartados 3.2 y 3.3. El manual distingue un clima continental dominante con variantes (medio, centroeuropeo, hipercontinental, semiárido y árido) y climas periféricos (polares, mediterráneo de Crimea, subtropical de Georgia y manchú del Extremo Oriente)."
+      },
+      {
+        "id": "densidad",
+        "nombre": "Densidad de población (2025)",
+        "tipo": "coropleta",
+        "datos": "datos/paises.json",
+        "campo": "densidad",
+        "anio": "2025",
+        "unidad": "hab./km²",
+        "decimales": 0,
+        "clases": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "colores": [
+          "#f4ead2",
+          "#e6c492",
+          "#d4955c",
+          "#b0603a",
+          "#6f3524"
+        ],
+        "comparar": {
+          "campo": "densidad_manual",
+          "texto": "Manual (2015)"
+        },
+        "fuente": "Naciones Unidas, World Population Prospects 2024 (población de 2025) sobre la superficie del cuadro 2.2 del manual.",
+        "manual": "Apartado 2.3 y cuadro 2.2. Son medias nacionales: ocultan el contraste entre la Rusia europea (40 hab./km²) y la asiática (5 hab./km²)."
+      },
+      {
+        "id": "variacion",
+        "nombre": "Variación de la población 2000-2025 (%)",
+        "tipo": "coropleta",
+        "datos": "datos/paises.json",
+        "campo": "var_pob",
+        "anio": "2000-2025",
+        "unidad": "%",
+        "decimales": 1,
+        "clases": [
+          -10,
+          0,
+          25,
+          50
+        ],
+        "colores": [
+          "#b0603a",
+          "#e6c492",
+          "#cfe0e8",
+          "#7ea6cc",
+          "#2f5d8a"
+        ],
+        "fuente": "Naciones Unidas, World Population Prospects 2024.",
+        "manual": "Apartados 2.1 y 7: pérdida de población en la Europa oriental postsoviética y fuerte crecimiento en Asia Central."
+      },
+      {
+        "id": "pib",
+        "nombre": "PIB por habitante (PPA, 2024)",
+        "tipo": "coropleta",
+        "datos": "datos/paises.json",
+        "campo": "pib_pc",
+        "anio": "2024",
+        "unidad": "$ int.",
+        "decimales": 0,
+        "clases": [
+          10000,
+          20000,
+          30000,
+          40000
+        ],
+        "colores": [
+          "#f1e9f4",
+          "#d4c2df",
+          "#a98bc3",
+          "#7b5aa5",
+          "#4f3478"
+        ],
+        "fuente": "Banco Mundial, World Development Indicators (PIB por habitante en paridad de poder adquisitivo, dólares internacionales constantes de 2021).",
+        "manual": "Apartados 6.1 y 7."
+      },
+      {
+        "id": "industria",
+        "nombre": "Regiones industriales y ejes de colonización",
+        "tipo": "puntos",
+        "archivo": "capas/puntos.json",
+        "clave": "industria",
+        "campo": "tipo",
+        "categorias": {
+          "centro": {
+            "color": "#4b5a60",
+            "nombre": "Centro económico de Rusia"
+          },
+          "europea": {
+            "color": "#b5533c",
+            "nombre": "Otras regiones industriales europeas de Rusia"
+          },
+          "siberiana": {
+            "color": "#2f6c8f",
+            "nombre": "Regiones industriales de la Rusia asiática"
+          },
+          "ucraniana": {
+            "color": "#5b3a29",
+            "nombre": "Ucrania (Donbás y Dniéper)"
+          },
+          "asiatica": {
+            "color": "#c99a1f",
+            "nombre": "Asia Central"
+          }
+        },
+        "lineas": [
+          {
+            "nombre": "Transiberiano",
+            "nota": "Moscú-Vladivostok, terminado en 1905: eje de la colonización de Siberia.",
+            "coords": [
+              [
+                37.6,
+                55.8
+              ],
+              [
+                44.0,
+                56.3
+              ],
+              [
+                56.2,
+                58.0
+              ],
+              [
+                60.6,
+                56.8
+              ],
+              [
+                65.5,
+                57.2
+              ],
+              [
+                73.4,
+                55.0
+              ],
+              [
+                82.9,
+                55.0
+              ],
+              [
+                92.9,
+                56.0
+              ],
+              [
+                104.3,
+                52.3
+              ],
+              [
+                107.6,
+                51.8
+              ],
+              [
+                113.5,
+                52.0
+              ],
+              [
+                127.5,
+                50.3
+              ],
+              [
+                135.1,
+                48.5
+              ],
+              [
+                131.9,
+                43.1
+              ]
+            ]
+          },
+          {
+            "nombre": "BAM (Baikal-Amur)",
+            "nota": "Ferrocarril abierto en los años ochenta al norte del Transiberiano para explotar nuevos yacimientos.",
+            "coords": [
+              [
+                101.6,
+                56.3
+              ],
+              [
+                109.3,
+                55.7
+              ],
+              [
+                114.0,
+                56.8
+              ],
+              [
+                124.7,
+                55.2
+              ],
+              [
+                131.0,
+                54.0
+              ],
+              [
+                137.0,
+                50.6
+              ],
+              [
+                140.3,
+                49.0
+              ]
+            ]
+          }
+        ],
+        "fuente": "Elaboración propia a partir de los apartados 5.3 y 6.2 y de las figuras 2.6 y 2.7 del manual. Posición aproximada.",
+        "manual": "Apartados 5.3, 6.2 y 7."
+      },
+      {
+        "id": "recursos",
+        "nombre": "Energía y minerales",
+        "tipo": "puntos",
+        "archivo": "capas/puntos.json",
+        "clave": "recursos",
+        "campo": "tipo",
+        "categorias": {
+          "petroleo": {
+            "color": "#1d2a30",
+            "nombre": "Petróleo"
+          },
+          "gas": {
+            "color": "#2f6c8f",
+            "nombre": "Gas natural"
+          },
+          "carbon": {
+            "color": "#5b3a29",
+            "nombre": "Carbón y lignito"
+          },
+          "metales": {
+            "color": "#a3245c",
+            "nombre": "Hierro, metales no férreos, oro y uranio"
+          }
+        },
+        "fuente": "Elaboración propia a partir de los apartados 5.1 y 5.2 del manual. Posición aproximada.",
+        "manual": "Apartados 5.1 y 5.2."
+      }
+    ]
+  },
+  "climas": {
+    "estaciones": "datos/estaciones.json",
+    "cuestionario": "cuestionarios/climas.json",
+    "dominios": [
+      {
+        "id": "continental",
+        "nombre": "Continental medio",
+        "color": "#3f7fae"
+      },
+      {
+        "id": "centroeuropeo",
+        "nombre": "Continental centroeuropeo",
+        "color": "#3f8f5a"
+      },
+      {
+        "id": "hipercontinental",
+        "nombre": "Hipercontinental",
+        "color": "#2b4f7a"
+      },
+      {
+        "id": "arido",
+        "nombre": "Continental semiárido y árido",
+        "color": "#c0573e"
+      },
+      {
+        "id": "frio",
+        "nombre": "Polar (ártico y subártico)",
+        "color": "#4d6670"
+      },
+      {
+        "id": "manchu",
+        "nombre": "Continental de fachada oriental (manchú)",
+        "color": "#5f9a3a"
+      },
+      {
+        "id": "subtropical",
+        "nombre": "Subtropical húmedo y mediterráneo",
+        "color": "#c99a1f"
+      },
+      {
+        "id": "montana",
+        "nombre": "De montaña",
+        "color": "#7d6aa0"
+      }
+    ],
+    "centros": {
+      "fuente": "Esquema según el apartado 3.2.1 del manual. Posiciones medias aproximadas.",
+      "estaciones": {
+        "invierno": {
+          "nombre": "Invierno",
+          "texto": [
+            "Un potente anticiclón térmico de aire polar se instala en el centro de Asia: aire frío, seco y estable. Dos tercios del territorio están al norte del paralelo 60°.",
+            "El anticiclón bloquea las borrascas atlánticas, que apenas rozan el noroeste (frente polar) y el sur (frente mediterráneo). Las precipitaciones son escasas y caen en forma de nieve.",
+            "Del anticiclón salen vientos fríos y secos hacia la periferia: el monzón de invierno del Extremo Oriente. En Siberia Oriental se alcanzan las temperaturas más bajas del hemisferio norte (Verjoyansk, −69,8 °C)."
+          ],
+          "centros": [
+            {
+              "tipo": "A",
+              "nombre": "Anticiclón siberiano",
+              "lon": 100,
+              "lat": 50
+            },
+            {
+              "tipo": "B",
+              "nombre": "Depresión de las Aleutianas",
+              "lon": 172,
+              "lat": 52
+            },
+            {
+              "tipo": "B",
+              "nombre": "Borrascas atlánticas (frente polar)",
+              "lon": 33,
+              "lat": 66
+            }
+          ],
+          "flujos": [
+            {
+              "nombre": "Vientos fríos y secos hacia el Pacífico",
+              "coords": [
+                [
+                  105,
+                  50
+                ],
+                [
+                  118,
+                  47
+                ],
+                [
+                  130,
+                  44
+                ],
+                [
+                  140,
+                  42
+                ]
+              ]
+            },
+            {
+              "nombre": "Borrascas atlánticas desviadas al norte",
+              "coords": [
+                [
+                  28,
+                  60
+                ],
+                [
+                  40,
+                  65
+                ],
+                [
+                  55,
+                  69
+                ],
+                [
+                  70,
+                  72
+                ]
+              ]
+            }
+          ]
+        },
+        "verano": {
+          "nombre": "Verano",
+          "texto": [
+            "El continente se calienta y el anticiclón desaparece: se forma una depresión térmica de aire cálido centrada en Asia Central y el norte de Irán.",
+            "La baja térmica atrae los vientos del oeste, que aportan algo de humedad: las lluvias, de origen tormentoso e irregulares, tienen su máximo en verano.",
+            "En la fachada del Pacífico llegan masas de aire húmedo (monzón de verano) que riegan el valle del Amur y la costa de Vladivostok. En Crimea se deja sentir el anticiclón de las Azores."
+          ],
+          "centros": [
+            {
+              "tipo": "B",
+              "nombre": "Depresión térmica de Asia",
+              "lon": 65,
+              "lat": 40
+            },
+            {
+              "tipo": "A",
+              "nombre": "Anticiclón del Pacífico",
+              "lon": 165,
+              "lat": 40
+            }
+          ],
+          "flujos": [
+            {
+              "nombre": "Vientos del oeste con humedad atlántica",
+              "coords": [
+                [
+                  28,
+                  55
+                ],
+                [
+                  40,
+                  54
+                ],
+                [
+                  55,
+                  53
+                ],
+                [
+                  70,
+                  52
+                ]
+              ]
+            },
+            {
+              "nombre": "Monzón de verano del Pacífico",
+              "coords": [
+                [
+                  160,
+                  40
+                ],
+                [
+                  148,
+                  42
+                ],
+                [
+                  138,
+                  45
+                ],
+                [
+                  130,
+                  48
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recursos": {
+    "cuestionario": "cuestionarios/recursos.json",
+    "energia": {
+      "datos": "datos/energia.json",
+      "desde": 1990,
+      "porDefecto": "RUS",
+      "comparar": "KAZ",
+      "paises": [
+        "RUS",
+        "UKR",
+        "BLR",
+        "MDA",
+        "GEO",
+        "ARM",
+        "AZE",
+        "KAZ",
+        "UZB",
+        "TKM",
+        "KGZ",
+        "TJK",
+        "UE27",
+        "CHN",
+        "USA",
+        "MUNDO"
+      ]
+    }
+  },
+  "poblacion": {
+    "cuestionario": "cuestionarios/poblacion.json",
+    "porDefecto": "RUS",
+    "comparar": "",
+    "transicionComparar": "UZB",
+    "comparadores": [
+      "UKR",
+      "KAZ",
+      "UZB",
+      "TJK",
+      "CHN",
+      "USA",
+      "ESP",
+      "DEU",
+      "JPN",
+      "EUR",
+      "MUNDO"
+    ],
+    "explorador": {
+      "x": "fecundidad",
+      "y": "esperanza_vida",
+      "anio": 2024
+    }
+  },
+  "paisajes": {
+    "archivo": "datos/paisajes.json",
+    "estacionesExtra": "datos/estaciones_paisajes.json"
+  }
+}

@@ -52,7 +52,7 @@
   try {
     const D = await RM.json(R.carpeta + "datos/paises.json");
     const filas = Object.entries(D.paises).map(([iso, d]) => Object.assign({ iso }, d));
-    const cols = [
+    const cols = D.columnas || [
       ["nombre", "País", 0, false],
       ["poblacion_manual", "Población 2015 (M, manual)", 1, true],
       ["poblacion", "Población 2025 (M)", 1, true],
