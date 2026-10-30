@@ -1,0 +1,313 @@
+{
+  "titulo": "Climas de Rusia y del espacio postsoviético",
+  "preguntas": [
+    {
+      "id": "continentalidad-oeste-este",
+      "enunciado": "En la pestaña Explorar, recorred de oeste a este Kiev, Moscú, Novosibirsk y Verjoyansk. La amplitud térmica pasa de unos 25 °C a más de 60 °C. ¿Qué la explica?",
+      "opciones": [
+        {
+          "t": "La continentalidad: cuanto más lejos del Atlántico y más dentro de la gran masa de Asia, más frío es el invierno",
+          "r": "El verano cambia poco (17-21 °C en las cuatro); lo que se desploma es el mes más frío, de −3 °C en Kiev a −45 °C en Verjoyansk.",
+          "ok": true
+        },
+        {
+          "t": "La altitud, que aumenta hacia el este",
+          "r": "Las cuatro estaciones están entre 130 y 170 m de altitud."
+        },
+        {
+          "t": "Que los veranos son mucho más calurosos en Siberia",
+          "r": "El mes más cálido es incluso algo más fresco en Verjoyansk (17 °C) que en Kiev (21 °C)."
+        },
+        {
+          "t": "La influencia del océano Glaciar Ártico, que calienta el norte en invierno",
+          "r": "El Ártico está helado de 8 a 11 meses y apenas modera nada; Verjoyansk está lejos de él y es la más fría."
+        }
+      ],
+      "explicacion": [
+        "El manual resume la idea en el cuadro 2.4: la oscilación térmica y el frío invernal crecen de oeste a este hasta la «hipercontinentalidad» de Siberia oriental.",
+        "La masa continental se enfría mucho en invierno y se calienta en verano; las montañas del sur y del este aíslan el interior y el norte está abierto al aire polar."
+      ],
+      "manual": "Apartados 3.2.1 y 3.2.2 (cuadro 2.4)"
+    },
+    {
+      "id": "verjoyansk-anticiclon",
+      "enunciado": "Verjoyansk tiene una media de −45 °C en enero y menos de 200 mm al año. ¿Qué situación atmosférica domina allí el invierno?",
+      "opciones": [
+        {
+          "t": "El anticiclón térmico siberiano: aire polar muy frío, seco y estable, con cielos despejados que dejan escapar el calor",
+          "r": "Con el cielo despejado y la noche polar, el suelo pierde calor sin freno; el aire frío y denso se estanca en los valles.",
+          "ok": true
+        },
+        {
+          "t": "Una sucesión de borrascas atlánticas que traen aire frío",
+          "r": "Las borrascas atlánticas apenas rozan el norte y el sur del territorio y no llegan a Siberia oriental en invierno; traerían nubes y nieve, no cielos despejados."
+        },
+        {
+          "t": "La depresión aleutiana, que se instala sobre Yakutia",
+          "r": "La depresión aleutiana está sobre el Pacífico norte, no sobre el interior del continente."
+        },
+        {
+          "t": "Los vientos húmedos del monzón de invierno",
+          "r": "En invierno el aire sale del continente hacia el océano: es frío y seco, no húmedo."
+        }
+      ],
+      "explicacion": [
+        "En invierno se instala en el centro de Asia un potente anticiclón térmico; el manual cita la mínima de Verjoyansk, −69,8 °C.",
+        "Por eso el invierno es a la vez muy frío y muy seco: de noviembre a abril caen menos de 40 mm en total."
+      ],
+      "manual": "Apartado 3.2.1"
+    },
+    {
+      "id": "irkutsk-invierno-seco",
+      "enunciado": "En el climograma de Irkutsk, enero recibe 14 mm y julio 106 mm. La clasificación de Köppen le da una «w». ¿Qué significa?",
+      "opciones": [
+        {
+          "t": "Invierno seco: el mes más lluvioso del verano recibe más de diez veces lo que el más seco del invierno",
+          "r": "Es la sequía invernal que el manual atribuye al anticiclón: las precipitaciones se concentran en verano.",
+          "ok": true
+        },
+        {
+          "t": "Que el clima es cálido todo el año",
+          "r": "Irkutsk tiene cinco meses bajo cero y una media anual de poco más de 1 °C."
+        },
+        {
+          "t": "Que llueve todo el año de forma regular",
+          "r": "Esa sería la «f»; Irkutsk tiene un contraste muy marcado entre invierno y verano."
+        },
+        {
+          "t": "Que el verano es seco, como en el Mediterráneo",
+          "r": "Es justo al revés: el verano es la estación lluviosa."
+        }
+      ],
+      "explicacion": [
+        "El manual pone Irkutsk, con Verjoyansk, como ejemplo de la variante hipercontinental: inviernos durísimos, menos de 400 mm y sequía invernal bajo el anticiclón.",
+        "Hoy Irkutsk recibe unos 480 mm, algo más que lo que indica el manual."
+      ],
+      "manual": "Apartado 3.2.3"
+    },
+    {
+      "id": "vladivostok-manchu",
+      "enunciado": "Vladivostok está a 43° N, la latitud de Marsella, pero tiene −12 °C en enero y su máximo de lluvia en agosto (176 mm). ¿Por qué?",
+      "opciones": [
+        {
+          "t": "En invierno recibe el aire frío y seco del anticiclón siberiano y en verano los vientos húmedos del Pacífico: es el clima de tipo manchú",
+          "r": "Es una fachada oriental: los vientos dominantes vienen del continente en invierno y del mar en verano, como en un monzón.",
+          "ok": true
+        },
+        {
+          "t": "La corriente cálida del Golfo llega hasta el mar de Japón",
+          "r": "La corriente del Golfo es atlántica; frente a Siberia corre la corriente fría de Oya Shivo."
+        },
+        {
+          "t": "Está a mucha altitud",
+          "r": "La estación está a menos de 200 m."
+        },
+        {
+          "t": "Las borrascas atlánticas descargan allí al final de su recorrido",
+          "r": "Las borrascas atlánticas no cruzan el continente; la humedad de verano llega del Pacífico."
+        }
+      ],
+      "explicacion": [
+        "El manual describe las costas del Extremo Oriente como continentales, frescas y húmedas, «similar al clima manchú»: invierno frío y seco, verano lluvioso, más de 600 mm.",
+        "Vladivostok recibe unos 860 mm, casi todos de mayo a septiembre; Köppen la clasifica como Dwb."
+      ],
+      "manual": "Apartado 3.2.3"
+    },
+    {
+      "id": "kazalinsk-arido",
+      "enunciado": "Kazalinsk, junto al antiguo mar de Aral, recibe unos 130 mm al año y tiene casi 27 °C en julio. ¿Qué explica esa aridez?",
+      "opciones": [
+        {
+          "t": "La lejanía del mar, el aislamiento por las montañas del sur y las altas temperaturas de verano, que disparan la evaporación",
+          "r": "Es la «degradación árida» del clima continental en la depresión aralo-caspiana.",
+          "ok": true
+        },
+        {
+          "t": "La corriente fría de un océano cercano, como en los desiertos costeros",
+          "r": "Kazalinsk está a miles de kilómetros de cualquier océano; no es un desierto costero."
+        },
+        {
+          "t": "El anticiclón de las Azores, que se instala allí todo el año",
+          "r": "El anticiclón de las Azores solo se deja sentir en verano en la costa de Crimea."
+        },
+        {
+          "t": "La altitud de la meseta",
+          "r": "Kazalinsk está a unos 60 m; es una llanura deprimida, no una meseta elevada."
+        }
+      ],
+      "explicacion": [
+        "El manual sitúa las variantes semiárida y árida en la depresión aralo-caspiana, con menos de 250 mm y veranos calurosos, y pone Kazalinsk como ejemplo.",
+        "Köppen la clasifica como BWk: desierto frío (media anual por debajo de 18 °C)."
+      ],
+      "manual": "Apartados 3.2.2 y 3.2.3"
+    },
+    {
+      "id": "astracan-dato-manual",
+      "enunciado": "El manual da a Astracán 160 mm de precipitación; las normales 1991-2020 dan unos 230 mm. ¿Qué cambia en su clasificación de Köppen?",
+      "opciones": [
+        {
+          "t": "Pasa de desierto (BWk) a estepa (BSk): con 230 mm supera la mitad del umbral de aridez, que para su temperatura ronda los 360 mm",
+          "r": "Con 160 mm quedaría por debajo de unos 180 mm, el límite entre desierto y estepa; con 230 mm es estepa semiárida.",
+          "ok": true
+        },
+        {
+          "t": "Deja de ser un clima seco y pasa a ser continental húmedo (Dfa)",
+          "r": "230 mm siguen muy lejos del umbral de aridez; sigue siendo un clima B."
+        },
+        {
+          "t": "Nada: Köppen solo tiene en cuenta la temperatura",
+          "r": "Los climas secos (B) se definen precisamente comparando la precipitación con un umbral que depende de la temperatura."
+        },
+        {
+          "t": "Pasa a ser mediterráneo, porque llueve más en invierno",
+          "r": "En Astracán la lluvia se reparte bastante por igual; no hay verano seco con invierno lluvioso."
+        }
+      ],
+      "explicacion": [
+        "El umbral de aridez de Köppen es de unos 20 × T + 140 mm cuando la lluvia se reparte por igual (T, media anual en °C); para Astracán, con 10,9 °C, son unos 360 mm. Por debajo de la mitad (unos 180 mm) el clima es desértico (BW); entre la mitad y el umbral, estepario (BS).",
+        "La idea del manual se mantiene: Astracán está en la degradación árida del clima continental, en la orilla del Caspio."
+      ],
+      "manual": "Apartado 3.2.2"
+    },
+    {
+      "id": "yalta-mediterraneo",
+      "enunciado": "El manual habla de «clima mediterráneo» en Yalta, pero la clasificación de Köppen le da Cfa. ¿Por qué?",
+      "opciones": [
+        {
+          "t": "Su mes más seco del verano recibe algo más de 30 mm, el límite que Köppen pone para hablar de verano seco (Cs)",
+          "r": "Mayo y julio reciben 31-33 mm: por muy poco no cumple el criterio. Sí tiene el máximo de lluvia en invierno, el rasgo mediterráneo.",
+          "ok": true
+        },
+        {
+          "t": "Porque en Yalta el invierno es muy frío, por debajo de 0 °C",
+          "r": "Yalta tiene unos 4 °C en enero y febrero; por eso es un clima templado (C)."
+        },
+        {
+          "t": "Porque llueve más en verano que en invierno",
+          "r": "Es al revés: diciembre (91 mm) y enero (76 mm) son los meses más lluviosos."
+        },
+        {
+          "t": "Porque está a mucha altitud",
+          "r": "La estación está a 66 m, junto al mar."
+        }
+      ],
+      "explicacion": [
+        "El manual cita Yalta como una pequeña área de clima mediterráneo al sur de Crimea, abrigada por las montañas y con más de 2 °C de media en enero.",
+        "Köppen exige para Cs que el mes más seco del verano reciba menos de 30 mm y menos de un tercio que el más lluvioso del invierno. Yalta está justo en el límite."
+      ],
+      "manual": "Apartado 3.2.3"
+    },
+    {
+      "id": "batumi-lluvias",
+      "enunciado": "Batumi, en la costa georgiana del mar Negro, recibe unos 2.500 mm al año, la cifra más alta de todas las estaciones. ¿Por qué llueve tanto?",
+      "opciones": [
+        {
+          "t": "Los vientos húmedos del mar Negro chocan con las montañas que cierran la costa y se ven obligados a ascender",
+          "r": "Es un efecto de barrera: la costa está rodeada por el Cáucaso Menor y el Gran Cáucaso, que además la abrigan de los vientos polares.",
+          "ok": true
+        },
+        {
+          "t": "Porque recibe el monzón del océano Índico",
+          "r": "El monzón índico no llega al Cáucaso: lo impiden la distancia y las montañas de Irán y Turquía."
+        },
+        {
+          "t": "Por las borrascas que llegan desde el Ártico",
+          "r": "El Gran Cáucaso protege precisamente a Georgia de los vientos del norte."
+        },
+        {
+          "t": "Porque está a gran altitud",
+          "r": "La estación está a 11 m, al nivel del mar."
+        }
+      ],
+      "explicacion": [
+        "El manual describe Georgia con un clima subtropical húmedo, cálido (más de 5 °C en enero) y lluvioso (unos 2.000 mm) repartidos por todo el año.",
+        "Las normales disponibles son de 1981-2010; Köppen la clasifica como Cfa."
+      ],
+      "manual": "Apartado 3.2.3"
+    },
+    {
+      "id": "dikson-tundra",
+      "enunciado": "En Dikson, en la costa del mar de Kara, el mes más cálido apenas llega a 6 °C. ¿Qué clima es según Köppen?",
+      "opciones": [
+        {
+          "t": "Tundra (ET): ningún mes alcanza 10 °C, pero alguno supera 0 °C",
+          "r": "Por eso no crecen árboles: con menos de 10 °C en el mes más cálido no hay bosque.",
+          "ok": true
+        },
+        {
+          "t": "Clima de hielos perpetuos (EF)",
+          "r": "En Dikson julio y agosto superan los 5 °C; el EF exige que ningún mes pase de 0 °C."
+        },
+        {
+          "t": "Subártico (Dfc)",
+          "r": "El Dfc necesita al menos un mes por encima de 10 °C, como en Arjánguelsk."
+        },
+        {
+          "t": "Desierto frío (BWk)",
+          "r": "Recibe unos 390 mm, más que el umbral de aridez para una temperatura media de −10 °C."
+        }
+      ],
+      "explicacion": [
+        "El manual describe los climas polares de la franja septentrional y de los archipiélagos: ningún mes llega a 10 °C y las precipitaciones son escasas.",
+        "Es el dominio de la tundra y de la merzlota (permafrost)."
+      ],
+      "manual": "Apartados 3.2.3 y 3.3"
+    },
+    {
+      "id": "lluvias-de-verano",
+      "enunciado": "En Moscú, Irkutsk o Astaná el mes más lluvioso es julio. ¿Por qué llueve más en verano en casi todo el territorio?",
+      "opciones": [
+        {
+          "t": "El continente se calienta, se forma una depresión térmica y el aire inestable genera tormentas; además entran mejor los vientos del oeste",
+          "r": "En invierno el anticiclón siberiano bloquea las borrascas; en verano la situación se invierte.",
+          "ok": true
+        },
+        {
+          "t": "Porque en verano el océano Glaciar Ártico se deshiela y aporta mucha humedad",
+          "r": "El Ártico aporta muy poca humedad incluso en verano."
+        },
+        {
+          "t": "Porque las borrascas atlánticas son más fuertes en verano",
+          "r": "Las borrascas atlánticas son más activas en invierno; lo que cambia es el bloqueo del anticiclón."
+        },
+        {
+          "t": "Por la influencia del anticiclón de las Azores",
+          "r": "Un anticiclón da estabilidad y sequía, no lluvias; solo llega a la costa de Crimea."
+        }
+      ],
+      "explicacion": [
+        "El manual explica que las precipitaciones son escasas y predominantes en verano, por las bajas presiones continentales y la inestabilidad del aire caliente, con lluvias irregulares y violentas.",
+        "La excepción son Yalta (máximo de invierno) y Asia Central meridional (Taskent, máximo de primavera e invierno)."
+      ],
+      "manual": "Apartados 3.2.1 y 3.2.2"
+    },
+    {
+      "id": "moscu-cuadro-actualizado",
+      "enunciado": "El cuadro 2.4 del manual da a Moscú −11 °C en el mes más frío y 4,4 °C de media anual. Las normales 1991-2020 dan −6 °C y 6,3 °C. ¿Qué explica la diferencia?",
+      "opciones": [
+        {
+          "t": "Son periodos de referencia distintos: los inviernos se han suavizado con el calentamiento, sobre todo en las ciudades",
+          "r": "El cambio está sobre todo en el invierno: julio casi no varía (unos 19 °C) mientras enero se ha suavizado varios grados.",
+          "ok": true
+        },
+        {
+          "t": "Un error del manual: Moscú nunca ha tenido −11 °C de media en enero",
+          "r": "Las series antiguas de Moscú daban medias de enero de −10 a −11 °C; no es un error."
+        },
+        {
+          "t": "Que la estación de Moscú se ha trasladado a la costa",
+          "r": "Moscú está a cientos de kilómetros del mar."
+        },
+        {
+          "t": "Que Moscú se ha vuelto un clima mediterráneo",
+          "r": "Sigue siendo continental (Dfb), con cinco meses bajo cero."
+        }
+      ],
+      "explicacion": [
+        "Lo mismo ocurre en Verjoyansk: el manual da −47 °C en el mes más frío y hoy la media de enero es de unos −45 °C.",
+        "La idea del manual no cambia: la amplitud térmica y el frío invernal siguen creciendo de oeste a este."
+      ],
+      "manual": "Apartado 3.2.2 (cuadro 2.4)"
+    }
+  ]
+}

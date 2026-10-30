@@ -533,6 +533,234 @@
   },
   "recursos": {
     "cuestionario": "cuestionarios/recursos.json",
+    "agregado": {
+      "clave": "Espacio postsoviético",
+      "nombre": "Espacio postsoviético (12 Estados)",
+      "paises": [
+        "RUS",
+        "UKR",
+        "BLR",
+        "MDA",
+        "GEO",
+        "ARM",
+        "AZE",
+        "KAZ",
+        "UZB",
+        "TKM",
+        "KGZ",
+        "TJK",
+        "SUN"
+      ],
+      "nombreCorto": "Los 12 Estados"
+    },
+    "productos": [
+      "trigo",
+      "cebada",
+      "centeno",
+      "maiz",
+      "girasol",
+      "remolacha",
+      "algodon",
+      "vino",
+      "leche",
+      "porcino",
+      "petroleo",
+      "gas",
+      "carbon",
+      "nuclear",
+      "hidraulica",
+      "eolica_solar",
+      "uranio",
+      "hierro",
+      "niquel",
+      "aluminio",
+      "bauxita",
+      "cobre",
+      "oro",
+      "paladio",
+      "wolframio",
+      "cobalto",
+      "tierras_raras"
+    ],
+    "manual": [
+      {
+        "producto": "trigo",
+        "tipo": "cuota",
+        "texto": "El trigo supone entre el 12 y el 15 % de la cosecha mundial",
+        "apartado": "4.2"
+      },
+      {
+        "producto": "trigo",
+        "tipo": "pais",
+        "pais": "UKR",
+        "texto": "Ucrania es un gran productor de trigo (10.º productor mundial)",
+        "apartado": "7.1"
+      },
+      {
+        "producto": "cebada",
+        "tipo": "posicion",
+        "texto": "La cebada, en notable progresión, es la primera producción mundial (20 %)",
+        "apartado": "4.2"
+      },
+      {
+        "producto": "centeno",
+        "tipo": "cuota",
+        "texto": "El centeno (40 % de la producción mundial) y la avena retroceden",
+        "apartado": "4.2"
+      },
+      {
+        "producto": "maiz",
+        "tipo": "pais",
+        "pais": "UKR",
+        "texto": "Ucrania es también gran productor de maíz (5.º productor mundial)",
+        "apartado": "7.1"
+      },
+      {
+        "producto": "girasol",
+        "tipo": "posicion",
+        "texto": "El girasol es la principal oleaginosa y se cultiva en Moldavia, sur de Ucrania y regiones del Volga",
+        "apartado": "4.2",
+        "nota": "El manual no da cifra; hoy Rusia y Ucrania son los dos primeros productores del mundo."
+      },
+      {
+        "producto": "remolacha",
+        "tipo": "posicion",
+        "texto": "En remolacha azucarera es segundo productor mundial",
+        "apartado": "4.2"
+      },
+      {
+        "producto": "remolacha",
+        "tipo": "pais",
+        "pais": "UKR",
+        "texto": "Ucrania es el 6.º productor mundial de remolacha azucarera",
+        "apartado": "7.1"
+      },
+      {
+        "producto": "algodon",
+        "tipo": "posicion",
+        "texto": "La producción de algodón fue la primera del mundo (2,5 Mt a mediados de los ochenta)",
+        "apartado": "4.2"
+      },
+      {
+        "producto": "algodon",
+        "tipo": "ranking",
+        "paises": [
+          "RUS",
+          "UKR",
+          "BLR",
+          "MDA",
+          "GEO",
+          "ARM",
+          "AZE",
+          "KAZ",
+          "UZB",
+          "TKM",
+          "KGZ",
+          "TJK"
+        ],
+        "n": 3,
+        "texto": "Actualmente ha aumentado hasta los 4 Mt, obtenidas en gran parte en Uzbekistán y Turkmenistán",
+        "apartado": "4.2",
+        "nota": "Las cifras son de algodón en rama, sin desmotar."
+      },
+      {
+        "producto": "leche",
+        "tipo": "cuota",
+        "texto": "En 1987 la Unión Soviética era el primer productor mundial de leche (20 % del total)",
+        "apartado": "4.2"
+      },
+      {
+        "producto": "carbon",
+        "tipo": "posicion",
+        "texto": "Ucrania, Rusia y Kazajistán obtienen 526 Mt de hulla (2014), tercer puesto después de China y EE UU",
+        "apartado": "5.2.1",
+        "nota": "Aquí se suma todo el carbón, hulla y lignito."
+      },
+      {
+        "producto": "petroleo",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Rusia es el segundo productor mundial de petróleo",
+        "apartado": "6.1"
+      },
+      {
+        "producto": "gas",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Rusia es el segundo productor mundial de gas",
+        "apartado": "6.1"
+      },
+      {
+        "producto": "uranio",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Kazajistán es el primer productor mundial de uranio",
+        "apartado": "7.3.2"
+      },
+      {
+        "producto": "hierro",
+        "tipo": "cuota",
+        "texto": "Rusia, Ucrania y Kazajistán producen más de 200 Mt de hierro (el 7 % del total mundial en 2014)",
+        "apartado": "5.1"
+      },
+      {
+        "producto": "niquel",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Níquel: Rusia es el 2.º productor, con los yacimientos de Norilsk",
+        "apartado": "5.1"
+      },
+      {
+        "producto": "aluminio",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "En aluminio Rusia es la segunda producción mundial (7 % del total)",
+        "apartado": "5.3.1"
+      },
+      {
+        "producto": "bauxita",
+        "tipo": "pais",
+        "pais": [
+          "RUS",
+          "KAZ"
+        ],
+        "texto": "Rusia y Kazajistán figuran entre los diez primeros productores de bauxita",
+        "apartado": "5.1"
+      },
+      {
+        "producto": "cobre",
+        "tipo": "pais",
+        "pais": [
+          "RUS",
+          "KAZ"
+        ],
+        "texto": "En cobre Rusia y Kazajistán aparecen entre los diez primeros productores",
+        "apartado": "5.1",
+        "nota": "Se compara la producción minera de cobre."
+      },
+      {
+        "producto": "oro",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "En oro Rusia se sitúa en el 3.er lugar",
+        "apartado": "5.1"
+      },
+      {
+        "producto": "paladio",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "En platino, Rusia ha sido primer productor del mundo y hoy es el 2.º (Urales y Norilsk)",
+        "apartado": "5.1",
+        "nota": "Aquí se compara el paladio, el metal del grupo del platino que más produce Norilsk. En platino, Rusia sigue siendo hoy el segundo productor, tras Sudáfrica."
+      }
+    ],
     "energia": {
       "datos": "datos/energia.json",
       "desde": 1990,
@@ -555,6 +783,18 @@
         "CHN",
         "USA",
         "MUNDO"
+      ]
+    },
+    "agrario": {
+      "datos": "datos/agrario.json",
+      "comparadores": [
+        "USA",
+        "CHN",
+        "IND",
+        "BRA",
+        "AUS",
+        "EUU",
+        "WLD"
       ]
     }
   },

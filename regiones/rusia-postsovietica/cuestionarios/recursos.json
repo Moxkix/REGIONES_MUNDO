@@ -1,0 +1,361 @@
+{
+  "titulo": "Preguntas sobre producciones y recursos del espacio postsoviético",
+  "preguntas": [
+    {
+      "id": "trigo-recuperacion",
+      "vista": {
+        "pestana": "produccion",
+        "producto": "trigo",
+        "anio": 2000
+      },
+      "enunciado": "Recorred los años del trigo: el espacio postsoviético pasa del 17 % de la cosecha mundial en 1990 a menos del 10 % en 2000, y hoy supera el 16 %. ¿Qué explica la caída y la recuperación?",
+      "opciones": [
+        {
+          "t": "La crisis de la transición desmanteló koljoses y sovjoses y hundió la inversión; desde 2000 los grandes grupos agroindustriales han modernizado la producción en las tierras negras",
+          "r": "Rusia es hoy el primer exportador mundial de trigo; Ucrania y Kazajistán también exportan buena parte de su cosecha.",
+          "ok": true
+        },
+        {
+          "t": "Un cambio climático brusco en los años noventa",
+          "r": "Las condiciones climáticas no cambiaron de golpe: la caída coincide con la crisis económica de la transición."
+        },
+        {
+          "t": "La sustitución del trigo por el arroz",
+          "r": "El arroz es un cultivo marginal en la región, limitado a algunos regadíos del sur."
+        },
+        {
+          "t": "Que en 1990 se contaban también los países bálticos",
+          "r": "Los bálticos producen poco trigo; no explican una diferencia de esa magnitud."
+        }
+      ],
+      "explicacion": [
+        "El manual sitúa el trigo entre el 12 y el 15 % de la cosecha mundial y señala las frecuentes malas cosechas que obligaban a importar.",
+        "Hoy la cuota es algo mayor y la región ha pasado de importadora a gran exportadora de cereal."
+      ],
+      "manual": "Apartados 4.1 y 4.2"
+    },
+    {
+      "id": "centeno-retroceso",
+      "vista": {
+        "pestana": "produccion",
+        "producto": "centeno"
+      },
+      "enunciado": "El manual dice que el centeno supone el 40 % de la producción mundial. ¿Qué muestran hoy los datos?",
+      "opciones": [
+        {
+          "t": "Ha bajado a alrededor del 20 %: el centeno sigue retrocediendo y Alemania y Polonia producen hoy más que Rusia",
+          "r": "En 1992 la región producía más de 18 Mt de centeno; hoy poco más de 2 Mt.",
+          "ok": true
+        },
+        {
+          "t": "Que la región ha superado el 60 % del centeno mundial",
+          "r": "Esa cuota es la de 1992; desde entonces no ha dejado de bajar."
+        },
+        {
+          "t": "Que el centeno ha desaparecido de la región",
+          "r": "Rusia y Bielorrusia siguen entre los cuatro primeros productores del mundo."
+        },
+        {
+          "t": "Que el centeno ha sustituido al trigo en las tierras negras",
+          "r": "Es al revés: el trigo y la cebada ganan terreno y el centeno, cultivo de suelos pobres y climas frescos, retrocede."
+        }
+      ],
+      "explicacion": [
+        "El manual ya hablaba de retroceso del centeno y la avena. El dato del 40 % corresponde a los años 2000; la tendencia ha continuado.",
+        "El centeno resiste en suelos pobres y climas frescos, como los de Bielorrusia y el noroeste de Rusia."
+      ],
+      "manual": "Apartado 4.2"
+    },
+    {
+      "id": "girasol-tierras-negras",
+      "vista": {
+        "pestana": "produccion",
+        "producto": "girasol"
+      },
+      "enunciado": "Rusia y Ucrania son hoy los dos primeros productores mundiales de pipa de girasol y, con el resto de la región, superan la mitad del total. ¿Dónde se cultiva sobre todo?",
+      "opciones": [
+        {
+          "t": "En la estepa de tierras negras (chernozem) del sur de Ucrania, del sur de Rusia y del Volga",
+          "r": "Son suelos muy fértiles y un clima de veranos cálidos y secos, adecuados para el girasol.",
+          "ok": true
+        },
+        {
+          "t": "En la taiga de Siberia occidental",
+          "r": "En la taiga el verano es corto y los suelos son pobres; no se cultiva girasol."
+        },
+        {
+          "t": "En los oasis de regadío de Asia central",
+          "r": "Asia central dedica el regadío al algodón, al trigo y a los frutales; su girasol es poco importante."
+        },
+        {
+          "t": "En la costa del Extremo Oriente ruso",
+          "r": "Allí la agricultura es marginal: hay muy poca tierra cultivada."
+        }
+      ],
+      "explicacion": [
+        "El manual cita el girasol como la principal oleaginosa, cultivada en Moldavia, el sur de Ucrania y las regiones del Volga.",
+        "Desde entonces la producción se ha multiplicado por más de cinco: la región ha pasado del 25 % del total mundial en 1992 a casi el 60 %."
+      ],
+      "manual": "Apartados 3.3 y 4.2"
+    },
+    {
+      "id": "algodon-asia-central",
+      "vista": {
+        "pestana": "produccion",
+        "producto": "algodon",
+        "anio": 1992
+      },
+      "enunciado": "En 1992 la región producía el 12,5 % del algodón del mundo; hoy, el 6 %. Uzbekistán sigue siendo el primer productor. ¿Qué ha frenado el algodón en Asia central?",
+      "opciones": [
+        {
+          "t": "Los problemas del monocultivo de regadío heredado de la URSS: agotamiento del agua y del Aral, salinización y la diversificación hacia trigo, frutas y hortalizas",
+          "r": "Uzbekistán ha reducido la superficie de algodón para cultivar más trigo y frutas, y ha acabado con el trabajo forzoso sistemático en la cosecha.",
+          "ok": true
+        },
+        {
+          "t": "El frío, que impide madurar al algodón",
+          "r": "Los oasis de Asia central tienen veranos muy calurosos (27-28 °C de media en julio en Fergana o Taskent)."
+        },
+        {
+          "t": "Que se ha trasladado el cultivo a Rusia",
+          "r": "En Rusia no se cultiva algodón: no tiene veranos lo bastante cálidos y largos."
+        },
+        {
+          "t": "La falta de demanda mundial de algodón",
+          "r": "La producción mundial ha seguido creciendo, sobre todo en China, India y Brasil."
+        }
+      ],
+      "explicacion": [
+        "El manual describe la ampliación de los regadíos y la producción masiva de algodón en la época soviética, y el desastre ecológico del mar de Aral.",
+        "Las cifras son de algodón en rama (fibra y semilla)."
+      ],
+      "manual": "Apartados 4.2 y 7.3.1"
+    },
+    {
+      "id": "uranio-kazajistan",
+      "vista": {
+        "pestana": "produccion",
+        "producto": "uranio"
+      },
+      "enunciado": "Kazajistán produce casi el 40 % del uranio del mundo; con Uzbekistán y Rusia, la región supera la mitad. ¿Qué afirmación es correcta?",
+      "opciones": [
+        {
+          "t": "Kazajistán es el primer productor mundial de uranio, como dice el manual, y lo extrae sobre todo por lixiviación in situ en las cuencas sedimentarias de la estepa",
+          "r": "La lixiviación disuelve el uranio en el subsuelo y lo bombea a la superficie: es más barata que la minería convencional.",
+          "ok": true
+        },
+        {
+          "t": "Rusia es el primer productor mundial de uranio",
+          "r": "Rusia produce alrededor del 4-5 %; su peso está más en el enriquecimiento y en la construcción de centrales."
+        },
+        {
+          "t": "Kazajistán consume todo su uranio en sus propias centrales nucleares",
+          "r": "Kazajistán no tiene hoy ninguna central nuclear en funcionamiento: exporta casi todo su uranio."
+        },
+        {
+          "t": "El uranio de la región procede de las minas de Ucrania",
+          "r": "Ucrania produce menos del 1 % del total mundial."
+        }
+      ],
+      "explicacion": [
+        "El manual destaca la riqueza de Kazajistán en petróleo del Caspio y en uranio, del que es el primer productor mundial.",
+        "En un referéndum de octubre de 2024, Kazajistán aprobó construir su primera central nuclear; en 2025 eligió a Rosatom para dirigir el proyecto."
+      ],
+      "manual": "Apartado 7.3.2"
+    },
+    {
+      "id": "paladio-norilsk",
+      "vista": {
+        "pestana": "produccion",
+        "producto": "paladio"
+      },
+      "enunciado": "Rusia produce más del 40 % del paladio del mundo. ¿De dónde procede?",
+      "opciones": [
+        {
+          "t": "De los yacimientos de níquel, cobre y metales del grupo del platino de Norilsk, en el norte de Siberia",
+          "r": "El paladio se obtiene junto con el níquel y el cobre; por eso Rusia también está entre los primeros productores de níquel.",
+          "ok": true
+        },
+        {
+          "t": "De las minas de oro del Kolimá",
+          "r": "El Kolimá es una región de oro; el paladio ruso sale casi todo de Norilsk."
+        },
+        {
+          "t": "De los yacimientos de Krivói Rog, en Ucrania",
+          "r": "Krivói Rog es la gran cuenca de hierro de Ucrania."
+        },
+        {
+          "t": "Del fondo del mar Caspio",
+          "r": "En el Caspio se extraen petróleo y gas, no metales."
+        }
+      ],
+      "explicacion": [
+        "El manual menciona los yacimientos de níquel de Norilsk y el norte de Siberia, y dice que en platino Rusia ha pasado de primer a segundo productor mundial.",
+        "Norilsk está por encima del círculo polar, en una zona de clima subártico y suelo helado (merzlota): una de las ciudades industriales más septentrionales del mundo."
+      ],
+      "manual": "Apartado 5.1"
+    },
+    {
+      "id": "aluminio-hidroelectricas",
+      "vista": {
+        "pestana": "produccion",
+        "producto": "aluminio"
+      },
+      "enunciado": "Rusia es hoy el tercer productor de aluminio, tras China e India. ¿Por qué sus fundiciones más modernas están en Siberia (Krasnoyarsk, Bratsk, Irkutsk)?",
+      "opciones": [
+        {
+          "t": "Porque la fundición de aluminio consume muchísima electricidad, y allí la proporcionan las grandes centrales hidroeléctricas del Yeniséi y del Angará",
+          "r": "El manual lo resume: la fabricación de aluminio es la mejor forma de sacar provecho de los enormes recursos hidroeléctricos.",
+          "ok": true
+        },
+        {
+          "t": "Porque allí están las mayores minas de bauxita del mundo",
+          "r": "La bauxita es una de las pocas reservas pequeñas de la región; buena parte se importa."
+        },
+        {
+          "t": "Porque están cerca de los grandes mercados consumidores",
+          "r": "Es al revés: los grandes mercados están en la Rusia europea y en el extranjero, a miles de kilómetros."
+        },
+        {
+          "t": "Porque el frío ayuda a enfriar los hornos",
+          "r": "El frío no es un factor de localización de la industria del aluminio."
+        }
+      ],
+      "explicacion": [
+        "El manual daba a Rusia la segunda producción mundial (7 %). Hoy India la ha superado y su cuota ronda el 5 %.",
+        "Comparad con la bauxita: Rusia y Kazajistán producen poca, lo que obliga a importarla."
+      ],
+      "manual": "Apartados 5.1 y 5.3.1"
+    },
+    {
+      "id": "rusia-gas-energia",
+      "vista": {
+        "pestana": "energia",
+        "paisA": "RUS",
+        "paisB": "KAZ"
+      },
+      "enunciado": "En el balance energético de Rusia, el gas natural supone más de la mitad del consumo de energía primaria y la producción de combustibles fósiles casi dobla el consumo. ¿Qué significa?",
+      "opciones": [
+        {
+          "t": "Que Rusia es un gran exportador de energía y que su consumo interno se basa en el gas, muy abundante y barato en Siberia occidental",
+          "r": "Los grandes yacimientos de gas (Urengói, Yamburg, Yamal) están en Siberia occidental, a miles de kilómetros de los centros de consumo.",
+          "ok": true
+        },
+        {
+          "t": "Que Rusia depende de las importaciones de gas",
+          "r": "La producción de fósiles casi dobla el consumo: Rusia exporta, no importa."
+        },
+        {
+          "t": "Que Rusia ha abandonado el carbón",
+          "r": "El carbón sigue aportando alrededor del 12 % del consumo, con el Kuzbass como gran cuenca."
+        },
+        {
+          "t": "Que la energía nuclear es la principal fuente de Rusia",
+          "r": "La nuclear supone en torno al 6 % del consumo de energía primaria, aunque cerca de una quinta parte de la electricidad."
+        }
+      ],
+      "explicacion": [
+        "El manual habla del potencial energético más importante del mundo y de su gran problema: los yacimientos están a 2.000 o 3.000 km de los lugares de consumo, en regiones de clima hostil y vacías de población.",
+        "Desde 2022, las sanciones y el corte de los gasoductos hacia la UE han desviado las exportaciones hacia China, Turquía y la India."
+      ],
+      "manual": "Apartados 5.2 y 5.2.2"
+    },
+    {
+      "id": "kazajistan-carbon",
+      "vista": {
+        "pestana": "energia",
+        "paisA": "KAZ",
+        "paisB": "RUS"
+      },
+      "enunciado": "Comparad Kazajistán con Rusia: casi la mitad del consumo de energía de Kazajistán es carbón. ¿De dónde procede?",
+      "opciones": [
+        {
+          "t": "De las grandes cuencas de la estepa kazaja, como Karagandá y Ekibastuz",
+          "r": "Es carbón abundante y barato, que se quema sobre todo en centrales térmicas.",
+          "ok": true
+        },
+        {
+          "t": "De las importaciones desde China",
+          "r": "Kazajistán produce más carbón del que consume y exporta una parte."
+        },
+        {
+          "t": "Del Donbass",
+          "r": "El Donbass está en Ucrania, muy lejos de Kazajistán."
+        },
+        {
+          "t": "De los yacimientos del Caspio",
+          "r": "En el Caspio (Tengiz, Kashagán) se extraen petróleo y gas."
+        }
+      ],
+      "explicacion": [
+        "El manual cita Karagandá, en las estepas de Kazajistán, entre las grandes cuencas carboníferas del espacio postsoviético, con el Donbass y el Kuzbass.",
+        "Kazajistán exporta sobre todo petróleo; en casa, el carbón sigue siendo la base de la electricidad."
+      ],
+      "manual": "Apartados 5.2.1 y 7.3.2"
+    },
+    {
+      "id": "rendimiento-kazajistan",
+      "vista": {
+        "pestana": "agrario",
+        "indicador": "rendimiento_cereales"
+      },
+      "enunciado": "En el rendimiento de los cereales, Kazajistán cosecha unos 1.500 kg por hectárea y Ucrania más de 5.000. ¿Qué explica la diferencia?",
+      "opciones": [
+        {
+          "t": "Kazajistán cultiva trigo de primavera de secano en estepas áridas, con inviernos muy duros; Ucrania, trigo de invierno en las tierras negras, más húmedas",
+          "r": "El manual ya lo señalaba: unos 30 quintales por hectárea en el trigo de invierno europeo frente a 12 en el de primavera de Kazajistán.",
+          "ok": true
+        },
+        {
+          "t": "Que Kazajistán no tiene tierra suficiente",
+          "r": "Kazajistán es el país con más tierra cultivable por habitante de toda la región."
+        },
+        {
+          "t": "Que en Kazajistán se cultiva sobre todo arroz",
+          "r": "El cereal dominante en Kazajistán es el trigo de primavera de las tierras vírgenes."
+        },
+        {
+          "t": "Que Ucrania riega casi todos sus cereales",
+          "r": "En Ucrania el regadío es muy escaso: los altos rendimientos se deben al suelo y a la lluvia."
+        }
+      ],
+      "explicacion": [
+        "Las tierras vírgenes de Kazajistán se roturaron en los años cincuenta. La aridez y el frío hacen que las cosechas varíen mucho de un año a otro.",
+        "Uzbekistán y Tayikistán tienen rendimientos altos porque casi todo su cereal es de regadío."
+      ],
+      "manual": "Apartados 4.2 y 4.3"
+    },
+    {
+      "id": "empleo-agrario",
+      "vista": {
+        "pestana": "agrario",
+        "indicador": "empleo_agrario"
+      },
+      "enunciado": "En el empleo agrario, Rusia está en torno al 5 %, mientras que Moldavia, Tayikistán, Azerbaiyán o Georgia superan el 30 %. ¿Qué refleja esa diferencia?",
+      "opciones": [
+        {
+          "t": "Distintos niveles de desarrollo: en los países más pobres y rurales la agricultura sigue ocupando a mucha gente, con baja productividad",
+          "r": "Comparad con el peso de la agricultura en el PIB: en Moldavia o Georgia ocupa a un tercio de los trabajadores pero aporta menos del 8 % del PIB.",
+          "ok": true
+        },
+        {
+          "t": "Que Rusia ha dejado de producir alimentos",
+          "r": "Rusia es el primer exportador mundial de trigo; produce mucho con poca mano de obra."
+        },
+        {
+          "t": "Que en Moldavia y Tayikistán la agricultura está muy mecanizada",
+          "r": "Es al revés: mucha mano de obra suele indicar poca mecanización."
+        },
+        {
+          "t": "Que esos países tienen las mejores tierras de la región",
+          "r": "Tayikistán tiene muy poca tierra cultivable por habitante; las mejores tierras están en Ucrania y el sur de Rusia."
+        }
+      ],
+      "explicacion": [
+        "Las cifras de empleo son estimaciones modelizadas de la OIT. En Tayikistán o Kirguistán, las remesas de los emigrantes en Rusia completan los ingresos de muchas familias rurales.",
+        "En Kazajistán el empleo agrario ha bajado del 37 % en 2000 a alrededor del 11 %, a la vez que crecía la economía del petróleo."
+      ],
+      "manual": "Apartados 4.1 y 7.3"
+    }
+  ]
+}

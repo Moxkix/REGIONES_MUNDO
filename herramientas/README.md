@@ -46,6 +46,18 @@ mapshaper ne_50m_lakes.geojson -clip bbox=-32,28,70,76 -filter-fields name \
 
 `europa_capas.py` contiene la clasificación de las unidades de relieve por orogenia y las listas de ciudades, picos, cuencas sedimentarias y regiones industriales. Para otra región, copiadlo y cambiad las listas.
 
+## Capas de Rusia y los Estados postsoviéticos
+
+`rusia_capas.py` sigue el mismo esquema: clasifica las unidades de relieve en plataforma rusa, llanura de Siberia occidental, depresión aralo-caspiana, escudo siberiano, macizos hercinianos y cordilleras alpinas y recientes, y escribe las ciudades, picos, regiones industriales y yacimientos (petróleo, gas, carbón, metales) en `puntos.json`.
+
+```
+python3 herramientas/rusia_capas.py ne_10m_geography_regions_polys.geojson carpeta_temporal
+python3 herramientas/koppen_region.py kgcpy/kmz_int_reshape.png koppen_a.geojson --bbox 18 34 180 82 --factor 6 --suavizado 3
+python3 herramientas/koppen_region.py kgcpy/kmz_int_reshape.png koppen_b.geojson --bbox -180 60 -168 72 --factor 6 --suavizado 3
+```
+
+Los dos recortes de Köppen se unen con mapshaper (`-merge-layers`), se recortan con `tierra50.geojson` y se simplifican al 20 %. El segundo cubre el extremo de Chukotka al otro lado del antimeridiano.
+
 ## Energía
 
 Descargad `owid-energy-data.csv` de <https://github.com/owid/energy-data> y ejecutad:
@@ -69,6 +81,8 @@ Los archivos de `datos/produccion/` de origen FAOSTAT y USGS se prepararon a par
 ```
 
 Se incluyen los países con al menos el 0,5 % de la producción mundial en alguno de los años. Tras añadir o actualizar un producto, ejecutad `python3 herramientas/indice_produccion.py`.
+
+Para el capítulo 2 se añadieron girasol, algodón y centeno (FAOSTAT, con 1992 como primer año sin la URSS) y uranio (Asociación Nuclear Mundial), níquel, oro, aluminio y paladio (USGS). Los códigos `SUN` (URSS), `SDN_ANTIGUO` (Sudán anterior a 2011) y `ETP` (Etiopía con Eritrea, hasta 1992) mantienen los países desaparecidos en los primeros años.
 
 ## Población (Naciones Unidas, WPP 2024)
 

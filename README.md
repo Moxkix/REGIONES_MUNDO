@@ -53,6 +53,12 @@ herramientas/     scripts para preparar las capas (ver herramientas/README.md)
 4. Generad el clima de Köppen para la ventana con `herramientas/koppen_region.py` y las demás capas que necesitéis.
 5. Rellenad `datos/paises.json`, `datos/estaciones.json`, `datos/actualizacion.json` y los cuestionarios.
 
+Algunos detalles opcionales:
+
+- En `datos/paises.json`, `columnas` define las columnas de la tabla de países de la presentación (por defecto, las de Europa).
+- En `datos/actualizacion.json`, cada fila puede citar una fuente (`fuente`, `url`) o varias (`fuentes: [{"titulo", "url"}]`).
+- En `datos/estaciones.json`, si alguna estación lleva `ordenEjercicio`, el ejercicio de clasificación usa solo esas, en ese orden; las demás quedan para explorar. `nota` explica cualquier particularidad de la serie (periodo distinto, estación sustituta).
+
 Los motores leen todo de la configuración: no hay que tocar el código.
 
 ### Tipos de capa del atlas
@@ -67,7 +73,7 @@ Los motores leen todo de la configuración: no hay que tocar el código.
 
 ### Producciones y recursos
 
-La sección `recursos` de `config.json` indica qué productos mostrar (`productos`), el agregado regional con el que comparar (`agregado`, por ejemplo la UE-27 o la suma de los países de la región), las afirmaciones del manual que hay que comprobar (`manual`), los países del balance energético (`energia`) y el archivo de indicadores agrarios (`agrario`).
+La sección `recursos` de `config.json` indica qué productos mostrar (`productos`), el agregado regional con el que comparar (`agregado`, por ejemplo la UE-27 o la suma de los países de la región; `nombreCorto` acorta su etiqueta en el gráfico de barras), las afirmaciones del manual que hay que comprobar (`manual`), los países del balance energético (`energia`) y el archivo de indicadores agrarios (`agrario`).
 
 Cada afirmación del manual se comprueba automáticamente con los datos más recientes:
 
@@ -76,7 +82,7 @@ Cada afirmación del manual se comprueba automáticamente con los datos más rec
 | `cuota` | Porcentaje del agregado regional en el total mundial |
 | `posicion` | Puesto del agregado frente al resto de países |
 | `ranking` | Primeros productores dentro de una lista de países (o del mundo) |
-| `pais` | Cuota mundial de un país |
+| `pais` | Puesto y cuota mundial de un país (o de varios: `"pais": ["RUS", "KAZ"]`) |
 
 Los datos de producción son mundiales: al añadir una región nueva normalmente basta con elegir productos ya disponibles. Para añadir un producto, se crea `datos/produccion/<id>.json` con el mismo formato y se ejecuta `herramientas/indice_produccion.py`.
 

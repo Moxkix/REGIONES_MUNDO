@@ -1,0 +1,460 @@
+{
+ "fuente": "Banco Mundial, World Development Indicators (actualización de octubre de 2026)",
+ "indicadores": {
+  "empleo_agrario": {
+   "nombre": "Empleo en agricultura (% del empleo total)",
+   "codigo": "SL.AGR.EMPL.ZS",
+   "fuente": "Banco Mundial, WDI (estimación modelizada de la OIT)",
+   "explicacion": "Peso de la agricultura en el empleo. Contrasta Rusia, Bielorrusia o Kazajistán, con economías industriales o de recursos, con Moldavia, Tayikistán, Azerbaiyán o Georgia, donde la agricultura sigue ocupando a un tercio o más de los trabajadores. Las cifras son estimaciones modelizadas de la OIT; la de Ucrania no se actualiza desde 2021.",
+   "decimales": 1
+  },
+  "pib_agrario": {
+   "nombre": "Agricultura, silvicultura y pesca, valor añadido (% del PIB)",
+   "codigo": "NV.AGR.TOTL.ZS",
+   "fuente": "Banco Mundial, WDI (cuentas nacionales del Banco Mundial y de la OCDE)",
+   "explicacion": "Peso de la agricultura, la silvicultura y la pesca en el PIB. Es mucho menor que su peso en el empleo porque la productividad agraria es baja: en Moldavia o Georgia la agricultura ocupa a un tercio de los trabajadores y aporta menos del 8 % del PIB.",
+   "decimales": 1
+  },
+  "rendimiento_cereales": {
+   "nombre": "Rendimiento de los cereales (kg por hectárea)",
+   "codigo": "AG.YLD.CREL.KG",
+   "fuente": "Banco Mundial, WDI (FAO)",
+   "explicacion": "Kilos de cereal cosechados por hectárea. Kazajistán y Turkmenistán están por debajo de 2.000 kg/ha por la aridez de las estepas de secano; Uzbekistán y Tayikistán superan a Rusia porque buena parte de su cereal es de regadío. Varía mucho de un año a otro con la meteorología.",
+   "decimales": 0
+  },
+  "tierra_cultivable": {
+   "nombre": "Tierra cultivable (hectáreas por persona)",
+   "codigo": "AG.LND.ARBL.HA.PC",
+   "fuente": "Banco Mundial, WDI (FAO y estimaciones de población del Banco Mundial)",
+   "explicacion": "Hectáreas de tierra cultivable por habitante. Kazajistán, Rusia, Ucrania y Moldavia disponen de mucha tierra por persona (las tierras negras y las estepas cerealistas); los oasis de Asia central (Uzbekistán, Tayikistán) muy poca, porque su población crece y el cultivo depende del riego.",
+   "decimales": 2
+  },
+  "bosque": {
+   "nombre": "Superficie forestal (% de la superficie de tierra)",
+   "codigo": "AG.LND.FRST.ZS",
+   "fuente": "Banco Mundial, WDI (FAO, Evaluación de los Recursos Forestales)",
+   "explicacion": "La mitad de Rusia está cubierta de bosque, sobre todo la taiga siberiana, la mayor masa forestal del planeta. En Asia central el bosque apenas existe fuera de las montañas.",
+   "decimales": 1
+  }
+ },
+ "paises": {
+  "RUS": {
+   "empleo_agrario": {
+    "2000": 14.21,
+    "2025": 5.11
+   },
+   "pib_agrario": {
+    "2000": 5.75,
+    "2025": 3.06
+   },
+   "rendimiento_cereales": {
+    "2000": 1561.4,
+    "2024": 3042
+   },
+   "tierra_cultivable": {
+    "2000": 0.8484,
+    "2024": 0.8467
+   },
+   "bosque": {
+    "2000": 49.6,
+    "2024": 50.8
+   }
+  },
+  "UKR": {
+   "empleo_agrario": {
+    "2000": 18.32,
+    "2021": 14.12
+   },
+   "pib_agrario": {
+    "2000": 13.95,
+    "2025": 7.57
+   },
+   "rendimiento_cereales": {
+    "2000": 1950.8,
+    "2024": 5147.7
+   },
+   "tierra_cultivable": {
+    "2000": 0.6571,
+    "2024": 0.8696
+   },
+   "bosque": {
+    "2000": 16.4,
+    "2024": 17.3
+   }
+  },
+  "BLR": {
+   "empleo_agrario": {
+    "2000": 19.0,
+    "2025": 9.48
+   },
+   "pib_agrario": {
+    "2000": 12.1,
+    "2025": 6.9
+   },
+   "rendimiento_cereales": {
+    "2000": 1949.7,
+    "2024": 3394.8
+   },
+   "tierra_cultivable": {
+    "2000": 0.6146,
+    "2024": 0.6045
+   },
+   "bosque": {
+    "2000": 40.8,
+    "2024": 44.1
+   }
+  },
+  "MDA": {
+   "empleo_agrario": {
+    "2000": 50.87,
+    "2025": 50.5
+   },
+   "pib_agrario": {
+    "2000": 25.41,
+    "2025": 7.38
+   },
+   "rendimiento_cereales": {
+    "2000": 2032.8,
+    "2024": 2406.2
+   },
+   "tierra_cultivable": {
+    "2000": 0.6247,
+    "2024": 0.773
+   },
+   "bosque": {
+    "2000": 10.5,
+    "2024": 11.3
+   }
+  },
+  "GEO": {
+   "empleo_agrario": {
+    "2000": 51.09,
+    "2025": 33.95
+   },
+   "pib_agrario": {
+    "2000": 20.6,
+    "2025": 5.18
+   },
+   "rendimiento_cereales": {
+    "2000": 1369,
+    "2024": 2816
+   },
+   "tierra_cultivable": {
+    "2000": 0.1945,
+    "2024": 0.072
+   },
+   "bosque": {
+    "2000": 43.7,
+    "2024": 44.6
+   }
+  },
+  "ARM": {
+   "empleo_agrario": {
+    "2000": 48.01,
+    "2025": 26.97
+   },
+   "pib_agrario": {
+    "2020": 11.35,
+    "2025": 7.93
+   },
+   "rendimiento_cereales": {
+    "2000": 1383,
+    "2024": 1961.1
+   },
+   "tierra_cultivable": {
+    "2000": 0.1397,
+    "2024": 0.1456
+   },
+   "bosque": {
+    "2000": 11.7,
+    "2024": 11.8
+   }
+  },
+  "AZE": {
+   "empleo_agrario": {
+    "2000": 41.01,
+    "2025": 34.23
+   },
+   "pib_agrario": {
+    "2000": 16.08,
+    "2025": 5.93
+   },
+   "rendimiento_cereales": {
+    "2000": 2335.2,
+    "2024": 3427
+   },
+   "tierra_cultivable": {
+    "2000": 0.2268,
+    "2024": 0.2052
+   },
+   "bosque": {
+    "2000": 12.0,
+    "2024": 14.6
+   }
+  },
+  "KAZ": {
+   "empleo_agrario": {
+    "2000": 36.59,
+    "2025": 11.32
+   },
+   "pib_agrario": {
+    "2000": 8.11,
+    "2025": 3.74
+   },
+   "rendimiento_cereales": {
+    "2000": 942.5,
+    "2024": 1529.5
+   },
+   "tierra_cultivable": {
+    "2000": 1.9456,
+    "2024": 1.4832
+   },
+   "bosque": {
+    "2000": 1.2,
+    "2024": 1.3
+   }
+  },
+  "UZB": {
+   "empleo_agrario": {
+    "2000": 36.79,
+    "2025": 25.2
+   },
+   "pib_agrario": {
+    "2000": 30.06,
+    "2025": 16.56
+   },
+   "rendimiento_cereales": {
+    "2000": 2684.3,
+    "2024": 5496.2
+   },
+   "tierra_cultivable": {
+    "2000": 0.1808,
+    "2024": 0.1113
+   },
+   "bosque": {
+    "2000": 6.8,
+    "2024": 8.8
+   }
+  },
+  "TKM": {
+   "empleo_agrario": {
+    "2000": 39.1,
+    "2025": 21.93
+   },
+   "pib_agrario": {
+    "2000": 22.54,
+    "2025": 12.36
+   },
+   "rendimiento_cereales": {
+    "2000": 2122.4,
+    "2024": 1711.7
+   },
+   "tierra_cultivable": {
+    "2000": 0.3491,
+    "2024": 0.2188
+   },
+   "bosque": {
+    "2000": 5.0,
+    "2024": 5.0
+   }
+  },
+  "KGZ": {
+   "empleo_agrario": {
+    "2000": 42.31,
+    "2025": 15.45
+   },
+   "pib_agrario": {
+    "2000": 34.19,
+    "2025": 8.0
+   },
+   "rendimiento_cereales": {
+    "2000": 2669.3,
+    "2024": 3489.4
+   },
+   "tierra_cultivable": {
+    "2000": 0.2768,
+    "2024": 0.1783
+   },
+   "bosque": {
+    "2000": 6.2,
+    "2024": 6.5
+   }
+  },
+  "TJK": {
+   "empleo_agrario": {
+    "2000": 59.27,
+    "2025": 43.27
+   },
+   "pib_agrario": {
+    "2000": 25.12,
+    "2024": 23.05
+   },
+   "rendimiento_cereales": {
+    "2000": 1310.7,
+    "2024": 4123.9
+   },
+   "tierra_cultivable": {
+    "2000": 0.1247,
+    "2024": 0.0798
+   },
+   "bosque": {
+    "2000": 2.9,
+    "2024": 3.1
+   }
+  },
+  "USA": {
+   "empleo_agrario": {
+    "2000": 2.4,
+    "2025": 1.52
+   },
+   "pib_agrario": {
+    "2000": 1.15,
+    "2021": 0.94
+   },
+   "rendimiento_cereales": {
+    "2000": 5854.3,
+    "2024": 8413.5
+   },
+   "tierra_cultivable": {
+    "2000": 0.6219,
+    "2024": 0.4457
+   },
+   "bosque": {
+    "2000": 33.1,
+    "2024": 33.8
+   }
+  },
+  "CHN": {
+   "empleo_agrario": {
+    "2000": 50.04,
+    "2025": 21.68
+   },
+   "pib_agrario": {
+    "2000": 14.53,
+    "2025": 6.66
+   },
+   "rendimiento_cereales": {
+    "2000": 4752.6,
+    "2024": 6494.7
+   },
+   "tierra_cultivable": {
+    "2000": 0.0936,
+    "2024": 0.077
+   },
+   "bosque": {
+    "2000": 18.9,
+    "2024": 24.0
+   }
+  },
+  "IND": {
+   "empleo_agrario": {
+    "2000": 59.61,
+    "2025": 41.63
+   },
+   "pib_agrario": {
+    "2000": 21.61,
+    "2025": 16.23
+   },
+   "rendimiento_cereales": {
+    "2000": 2287.0,
+    "2024": 3632.5
+   },
+   "tierra_cultivable": {
+    "2000": 0.1526,
+    "2024": 0.106
+   },
+   "bosque": {
+    "2000": 22.7,
+    "2024": 24.4
+   }
+  },
+  "BRA": {
+   "empleo_agrario": {
+    "2000": 14.21,
+    "2025": 7.63
+   },
+   "pib_agrario": {
+    "2000": 4.75,
+    "2025": 6.09
+   },
+   "rendimiento_cereales": {
+    "2000": 2643.3,
+    "2024": 5002.6
+   },
+   "tierra_cultivable": {
+    "2000": 0.2612,
+    "2024": 0.2625
+   },
+   "bosque": {
+    "2000": 67.1,
+    "2024": 58.5
+   }
+  },
+  "AUS": {
+   "empleo_agrario": {
+    "2000": 5.41,
+    "2025": 2.18
+   },
+   "pib_agrario": {
+    "2000": 3.11,
+    "2025": 2.27
+   },
+   "rendimiento_cereales": {
+    "2000": 1961.0,
+    "2024": 2689.7
+   },
+   "tierra_cultivable": {
+    "2000": 1.2336,
+    "2024": 1.1497
+   },
+   "bosque": {
+    "2000": 17.3,
+    "2024": 17.4
+   }
+  },
+  "EUU": {
+   "empleo_agrario": {
+    "2000": 7.77,
+    "2025": 3.23
+   },
+   "pib_agrario": {
+    "2000": 2.18,
+    "2025": 1.63
+   },
+   "rendimiento_cereales": {
+    "2000": 4397.7,
+    "2023": 5329.2
+   },
+   "tierra_cultivable": {
+    "2000": 0.2549,
+    "2024": 0.2151
+   },
+   "bosque": {
+    "2000": 38.1,
+    "2023": 40.1
+   }
+  },
+  "WLD": {
+   "empleo_agrario": {
+    "2000": 39.35,
+    "2025": 25.76
+   },
+   "pib_agrario": {
+    "2000": 3.37,
+    "2025": 4.01
+   },
+   "rendimiento_cereales": {
+    "2000": 3061.0,
+    "2023": 4229.3
+   },
+   "tierra_cultivable": {
+    "2000": 0.2193,
+    "2024": 0.1717
+   },
+   "bosque": {
+    "2000": 32.4,
+    "2023": 31.1
+   }
+  }
+ }
+}

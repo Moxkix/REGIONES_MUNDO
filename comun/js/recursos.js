@@ -145,7 +145,7 @@
       svgR.selectAll("*").remove();
       const g = svgR.selectAll("g").data(filas).join("g").attr("transform", (d, i) => "translate(0," + (i * fila + (d.agregado ? 8 : 0)) + ")");
       g.append("text").attr("class", (d) => "rot" + (regionPaises.has(d.id) || d.agregado ? " region" : "")).attr("x", izq - 6).attr("y", 15).attr("text-anchor", "end")
-        .text((d) => d.agregado ? (agr.nombre + (d.aprox ? " (aprox.)" : "")) : nombre(d.id));
+        .text((d) => d.agregado ? ((agr.nombreCorto || agr.nombre) + (d.aprox ? " (aprox.)" : "")) : nombre(d.id));
       g.append("rect").attr("class", (d) => "barra-r" + (d.agregado ? " agregado" : regionPaises.has(d.id) ? " region" : ""))
         .attr("x", izq).attr("y", 4).attr("height", 15).attr("width", (d) => Math.max(1, x(d.c) - izq));
       g.append("text").attr("class", "rot valor").attr("x", (d) => x(d.c) + 5).attr("y", 15).text((d) => f1(d.c) + " %");
@@ -214,8 +214,13 @@
         return "Hoy (" + a + "): " + lista.map((id) => nombre(id) + " (" + formatoValor(p.paises[id][a], p.unidad, p.unidadCorta) + ")").join(", ") + ".";
       }
       if (m2.tipo === "pais") {
-        const v = p.paises[m2.pais] ? p.paises[m2.pais][a] : null;
-        return v != null ? "Hoy (" + a + "): " + nombre(m2.pais) + " produce el " + f1((v / W) * 100) + " % del total mundial." : "Hoy no llega al 0,5 % del total mundial.";
+        // uno o varios países: puesto mundial y cuota de cada uno
+        const orden = Object.keys(p.paises).filter((id) => p.paises[id][a] != null).sort((u, w) => p.paises[w][a] - p.paises[u][a]);
+        const frases = [].concat(m2.pais).map((id) => {
+          const v = p.paises[id] ? p.paises[id][a] : null;
+          return v != null ? nombre(id) + " es el " + (orden.indexOf(id) + 1) + ".º productor mundial, con el " + f1((v / W) * 100) + " % del total" : nombre(id) + " no llega al 0,5 % del total mundial";
+        });
+        return "Hoy (" + a + "): " + frases.join("; ") + ".";
       }
       return "";
     }
