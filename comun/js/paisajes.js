@@ -314,6 +314,10 @@
         '<span class="nota">Fondo: Köppen-Geiger 1986-2010 (Rubel et al., 2017).</span>';
     }
 
+    window.addEventListener("hashchange", () => {
+      const m = location.hash.match(/^#p=([\w-]+)/);
+      if (m && porId.has(m[1])) mostrar(m[1]);
+    });
     const h = location.hash.match(/^#p=([\w-]+)/);
     if (h && porId.has(h[1])) mostrar(h[1]); else pintarGaleria();
     if (location.hash === "#mapa") abrir("mapa");
