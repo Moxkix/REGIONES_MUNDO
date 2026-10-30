@@ -6,7 +6,7 @@ La página ya puede mostrarla así. Este script, ejecutado en un ordenador con a
 
   1. consulta la API de Commons y rellena autor, licencia, enlace y dirección de la imagen;
   2. avisa si las coordenadas de la foto quedan lejos del punto del paisaje;
-  3. con --descargar, guarda una copia a 1600 px en regiones/<id>/fotos/ (campo "local"),
+  3. con --descargar, guarda una copia a 1920 px en regiones/<id>/fotos/ (campo "local"),
      para que el sitio no dependa de Commons.
 
 Uso, desde la raíz del repositorio:
@@ -40,7 +40,7 @@ def texto(v):
 def ficha(archivo):
     nombre = re.sub(r"^(File|Archivo):", "", archivo).strip()
     q = urllib.parse.urlencode({"action": "query", "format": "json", "titles": "File:" + nombre,
-                                "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1600})
+                                "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1920})
     datos = json.loads(pedir(API + "?" + q))
     pagina = next(iter(datos["query"]["pages"].values()))
     if "imageinfo" not in pagina:

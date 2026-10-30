@@ -54,7 +54,8 @@
     function fuentesFoto(f, ancho) {
       const lista = [];
       if (f.local) lista.push(carpeta(f.local));
-      if (f.url) lista.push(ancho < 1000 ? f.url.replace(/\/(\d+)px-/, "/" + ancho + "px-") : f.url);
+      // Wikimedia solo sirve miniaturas en anchos normalizados (250, 330, 500, 960, 1280, 1920...)
+      if (f.url) lista.push(ancho < 1000 && /\/\d+px-/.test(f.url) ? f.url.replace(/\/(\d+)px-/, "/" + ancho + "px-") : f.url);
       if (nombreArchivo(f)) lista.push(COMMONS + "Special:FilePath/" + encodeURIComponent(nombreArchivo(f)) + "?width=" + ancho);
       return lista;
     }
@@ -62,7 +63,7 @@
     const busqueda = (f) => f.buscar ? "https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=" + encodeURIComponent(f.buscar) : null;
 
     function imagen(img, foto, op) {
-      const fuentes = fuentesFoto(foto, op && op.mini ? 640 : 1600);
+      const fuentes = fuentesFoto(foto, op && op.mini ? 500 : 1920);
       let i = 0;
       img.alt = foto.alt || "";
       const fallo = (pendiente) => {
@@ -85,7 +86,7 @@
         (f.licencia ? ", " + (f.licencia_url ? '<a href="' + f.licencia_url + '" target="_blank" rel="noopener">' + RM.esc(f.licencia) + "</a>" : RM.esc(f.licencia)) : "") +
         (pag ? ', <a href="' + pag + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : "");
     }
-    const hayFoto = (f) => fuentesFoto(f, 1600).length > 0;
+    const hayFoto = (f) => fuentesFoto(f, 1920).length > 0;
 
     // ---------- Pestañas ----------
     const tabs = ["lectura", "mapa"];
@@ -216,7 +217,7 @@
         const [x, y] = mapa.proy(real);
         const g = gM.append("g").attr("class", "marca-real").attr("transform", "translate(" + x + "," + y + ")");
         g.append("circle").attr("r", 9);
-        g.append("text").attr("class", "etiqueta").attr("x", 13).attr("y", 5).attr("font-size", 15).text(p.lugar || p.titulo);
+        g.append("text").attr("class", "etiqueta").attr("x", 13).attr("y", 5).attr("font-size", 15).text(p.titulo);
       }
       function resolverLoc(lonlat) {
         gM.selectAll("*").remove();
@@ -231,8 +232,7 @@
           const tol = p.tolerancia || 250;
           html += '<p class="veredicto ' + (d <= tol ? "bien" : "mal") + '">' +
             (d <= tol ? "Bien localizado: estáis a " + f0(d) + " km." : "Os habéis alejado " + f0(d) + " km del lugar de la foto.") + "</p>";
-          if (kc) html += "<p>El punto que habéis marcado tiene clima <b>" + kc + "</b> (" + RM.esc(nombreK(kc)) + ")" +
-            (kc === p.koppen ? ", el mismo que el del paisaje." : "; el del paisaje es otro.") + "</p>";
+          if (kc) html += '<p>Según el mapa de Köppen, el punto que habéis marcado tiene clima <b>' + kc + "</b> (" + RM.esc(nombreK(kc)) + ').</p>';
           e.loc = Math.round(d);
         } else if (e.loc == null) e.loc = -1;
         marcaReal();

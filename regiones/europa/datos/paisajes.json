@@ -5,20 +5,25 @@
     {
       "id": "tundra-finnmark",
       "titulo": "Tundra ártica de Finnmark",
-      "lugar": "Península de Nordkinn (Finnmark)",
+      "lugar": "Interior de la península de Nordkinn (Finnmark)",
       "pais": "Noruega",
-      "lat": 70.95,
-      "lon": 27.9,
+      "lat": 70.69,
+      "lon": 27.42,
       "tolerancia": 350,
       "foto": {
-        "archivo": null,
-        "buscar": "tundra Finnmark Nordkinn OR Varanger landscape"
+        "archivo": "File:Tundra, Nordkinn, Norway, july 2007 - panoramio.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Tundra%2C_Nordkinn%2C_Norway%2C_july_2007_-_panoramio.jpg/1920px-Tundra%2C_Nordkinn%2C_Norway%2C_july_2007_-_panoramio.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Tundra,_Nordkinn,_Norway,_july_2007_-_panoramio.jpg",
+        "autor": "Risto Varhe",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "alt": "Tundra con lagos y colinas rocosas redondeadas en la península de Nordkinn, en julio"
       },
       "mirar": [
-        "La ausencia total de árboles y la vegetación rasa, pegada al suelo.",
-        "Los tonos de musgos, líquenes y arbustos enanos; en otoño, rojizos y ocres.",
-        "Las rocas pulidas y los pequeños lagos: el relieve heredado de los glaciares cuaternarios.",
-        "Los asentamientos, si aparecen: pequeños puertos pesqueros en la costa."
+        "La ausencia total de árboles: solo una alfombra baja de musgos, líquenes, gramíneas y arbustos enanos.",
+        "Los lagos y charcas que ocupan las depresiones: el agua apenas drena en un relieve modelado por el hielo y con poca evaporación.",
+        "Las colinas redondeadas y la roca desnuda, pulidas por los glaciares cuaternarios.",
+        "Las manchas de nieve que aún quedan en julio, cuando se tomó la foto."
       ],
       "koppen": "ET",
       "distractores": [
@@ -101,20 +106,25 @@
     {
       "id": "taiga-finlandia",
       "titulo": "Taiga y lagos de Finlandia",
-      "lugar": "Koli y el lago Pielinen (Carelia del Norte)",
+      "lugar": "Koli, sobre el lago Pielinen (Carelia del Norte)",
       "pais": "Finlandia",
-      "lat": 63.1,
-      "lon": 29.8,
+      "lat": 63.092,
+      "lon": 29.811,
       "tolerancia": 300,
       "foto": {
-        "archivo": null,
-        "buscar": "Koli national park Pielinen view"
+        "archivo": "File:Koli panorama 3.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Koli_panorama_3.jpg/1920px-Koli_panorama_3.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Koli_panorama_3.jpg",
+        "autor": "kallerna",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Bosque de coníferas y lago Pielinen con islas, desde las rocas de Koli"
       },
       "mirar": [
-        "El bosque continuo de coníferas: pinos y abetos, con abedules intercalados.",
-        "La cantidad de lagos, islas y penínsulas alargadas.",
-        "El relieve suave, sin grandes montañas: colinas redondeadas por el hielo.",
-        "La escasez de campos de cultivo y de asentamientos."
+        "El bosque continuo de coníferas (pinos y abetos), con algún abedul y árboles muertos en pie.",
+        "El lago Pielinen, con sus islas alargadas, al fondo.",
+        "La roca clara del primer plano: cuarcitas del escudo Báltico, pulidas por el hielo.",
+        "La ausencia de campos de cultivo y de pueblos a la vista."
       ],
       "koppen": "Dfc",
       "distractores": [
@@ -195,20 +205,25 @@
     {
       "id": "fiordo-hardanger",
       "titulo": "Fiordo noruego",
-      "lugar": "Hardangerfjord (Vestland)",
+      "lugar": "Sørfjorden (Hardangerfjord), desde Odda",
       "pais": "Noruega",
-      "lat": 60.2,
-      "lon": 6.2,
+      "lat": 60.07,
+      "lon": 6.52,
       "tolerancia": 250,
       "foto": {
-        "archivo": null,
-        "buscar": "Hardangerfjord landscape"
+        "archivo": "File:Sørfjorden i Hardanger tatt mot nord.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/S%C3%B8rfjorden_i_Hardanger_tatt_mot_nord.jpg/1920px-S%C3%B8rfjorden_i_Hardanger_tatt_mot_nord.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:S%C3%B8rfjorden_i_Hardanger_tatt_mot_nord.jpg",
+        "autor": "JoarOyg",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Fiordo encajado entre laderas empinadas, con cumbres nevadas al fondo y un núcleo industrial en la orilla"
       },
       "mirar": [
-        "El valle en forma de U, con laderas muy empinadas, invadido por el mar.",
-        "Las cascadas que caen desde valles colgados laterales.",
-        "Los pueblos y los cultivos en las pequeñas superficies llanas de la orilla.",
-        "La nieve o los glaciares en las cumbres, si se ven."
+        "El valle en U, de laderas casi verticales, invadido por el mar.",
+        "Las cumbres nevadas al fondo: la meseta de la que descendían los glaciares.",
+        "Las instalaciones industriales y el pueblo en la orilla derecha (Tyssedal) y las torres de alta tensión del primer plano.",
+        "La escasez de superficie llana: casas e industrias se concentran en los pequeños deltas de la orilla."
       ],
       "koppen": "Cfb",
       "distractores": [
@@ -219,7 +234,7 @@
       "estacion": "bergen",
       "clima": "Clima oceánico (Cfb): inviernos suaves para la latitud (el mes más frío supera los 0 °C en la costa) y veranos frescos (unos 15-16 °C). Llueve muchísimo, todo el año: Bergen, a la entrada de los fiordos, recibe unos 2.500 mm. Los vientos del oeste, cargados de humedad, chocan con las montañas escandinavas y descargan en la vertiente atlántica (lluvias orográficas).",
       "notaKoppen": "Al fondo de los fiordos y en las montañas que los rodean el clima se vuelve más frío (Dfc y, en las cumbres, ET): en pocos kilómetros se pasa del clima oceánico al de tundra.",
-      "localizacion": "Costa occidental de Noruega, al sureste de Bergen. Los fiordos recortan todo el litoral noruego entre Stavanger y el cabo Norte.",
+      "localizacion": "Costa occidental de Noruega, unos 100 km al sureste de Bergen, en el extremo sur del Hardangerfjord.",
       "preguntas": [
         {
           "id": "fiordo-origen",
@@ -249,12 +264,12 @@
         },
         {
           "id": "fiordo-economia",
-          "enunciado": "¿Qué actividades se apoyan en el relieve y el clima de este paisaje?",
+          "enunciado": "En la foto se ven instalaciones industriales y tendidos eléctricos en la orilla del fiordo. ¿Qué relación tienen con el relieve y el clima?",
           "opciones": [
             {
-              "t": "La hidroelectricidad, la acuicultura de salmón y, en las laderas abrigadas, los frutales",
-              "r": "El Hardangerfjord es conocido por sus manzanos y cerezos; el agua abundante y el desnivel hacen de Noruega una potencia hidroeléctrica.",
-              "ok": true
+              "t": "El desnivel y la lluvia abundante permiten producir mucha hidroelectricidad barata, que atrajo a industrias que consumen mucha energía, como la metalurgia del zinc",
+              "ok": true,
+              "r": "Odda y Tyssedal son un caso clásico: la central de Tyssedal (1908) abasteció a fundiciones y fábricas químicas, y en Odda sigue funcionando una fundición de zinc."
             },
             {
               "t": "La agricultura cerealista extensiva",
@@ -270,14 +285,14 @@
             }
           ],
           "explicacion": [
-            "Noruega genera alrededor del 90 % de su electricidad con centrales hidráulicas. Los fiordos son también un gran destino turístico, con cruceros que llegan hasta su fondo."
+            "Noruega genera alrededor del 90 % de su electricidad con centrales hidráulicas. Otras actividades de los fiordos son la acuicultura de salmón, los frutales en las laderas soleadas (manzanos y cerezos del Hardanger) y el turismo de cruceros."
           ]
         }
       ],
       "modelo": {
-        "a": "Fiordo de Hardanger, en la costa occidental de Noruega (60° N), al sureste de Bergen. Los fiordos recortan todo el litoral noruego, en la vertiente atlántica de las montañas escandinavas.",
+        "a": "Sørfjorden, brazo meridional del Hardangerfjord, desde Odda, en la costa occidental de Noruega (60° N), al sureste de Bergen. Los fiordos recortan todo el litoral noruego, en la vertiente atlántica de las montañas escandinavas.",
         "b": "Clima oceánico (Cfb) en la costa y el fondo de los fiordos: inviernos suaves para la latitud por la corriente del Atlántico Norte, veranos frescos y precipitaciones muy abundantes todo el año (más de 2.000 mm en Bergen) por el efecto orográfico de las montañas. Las cumbres tienen clima de montaña frío, con glaciares.",
-        "c": "Valle glaciar en U invadido por el mar, con laderas de bosque (pino, abedul) y prados en las orillas. Actividades: hidroelectricidad, piscicultura de salmón, frutales en las laderas soleadas (manzanos y cerezos del Hardanger), pesca y turismo de cruceros y naturaleza."
+        "c": "Valle glaciar en U invadido por el mar, con laderas de bosque (pino, abedul) y cumbres nevadas. Actividades: hidroelectricidad e industria electrointensiva (metalurgia del zinc en Odda), piscicultura de salmón, frutales en las laderas soleadas, pesca y turismo de cruceros y naturaleza."
       },
       "manual": "Apartados 1.1.1, 1.2.1 y 1.2.2.1",
       "enlaces": [
@@ -296,20 +311,25 @@
     {
       "id": "valle-alpino",
       "titulo": "Valle alpino",
-      "lugar": "Valle de Davos (Grisones)",
+      "lugar": "Valle de Dischma, junto a Davos (Grisones)",
       "pais": "Suiza",
-      "lat": 46.8,
-      "lon": 9.83,
+      "lat": 46.75,
+      "lon": 9.9,
       "tolerancia": 200,
       "foto": {
-        "archivo": null,
-        "buscar": "Davos valley summer meadows OR Alpine valley Graubünden"
+        "archivo": "File:Dischma.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Dischma.jpg/1920px-Dischma.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Dischma.jpg",
+        "autor": "Adrian Michael",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Valle alpino con río, prados y cabañas en el fondo, bosque de coníferas en las laderas y cumbres nevadas con un glaciar"
       },
       "mirar": [
-        "La sucesión de pisos de vegetación: prados en el fondo, bosque de coníferas en las laderas, pastos y roca en las cumbres.",
-        "El límite superior del bosque, una línea bastante nítida.",
-        "Los prados de siega y los pastos de altura (alpes o alpages).",
-        "Los pueblos en el fondo del valle y las infraestructuras turísticas (remontes, hoteles)."
+        "El fondo del valle, con el río y los prados de siega salpicados de cabañas y pajares.",
+        "El bosque de coníferas de las laderas y su límite superior.",
+        "Las cumbres de más de 3.000 m, con nieve, y el glaciar de Scaletta al fondo.",
+        "La ausencia de cultivos: es un valle ganadero."
       ],
       "koppen": "Dfc",
       "distractores": [
@@ -376,7 +396,7 @@
         }
       ],
       "modelo": {
-        "a": "Valle alpino de Davos, en los Alpes suizos (Grisones), a unos 1.500 m de altitud y 47° N. Los Alpes forman un arco desde el sur de Francia hasta Austria y Eslovenia.",
+        "a": "Valle de Dischma, junto a Davos, en los Alpes suizos (Grisones), a unos 1.700 m de altitud y 47° N. Los Alpes forman un arco desde el sur de Francia hasta Austria y Eslovenia.",
         "b": "Clima de montaña: inviernos fríos con nieve abundante (unos −5 °C de media en enero a 1.600 m) y veranos frescos (unos 13 °C). Precipitación abundante, en torno a 1.000 mm, con máximo estival. La temperatura desciende con la altitud y en las cumbres el clima es de tundra o de hielo.",
         "c": "Zonación altitudinal de la vegetación: prados de siega en el fondo, bosque de coníferas en las laderas, pastos alpinos por encima del límite del bosque y roquedo y glaciares en las cumbres. Actividades: ganadería bovina con trashumancia estival, turismo de invierno y de verano e hidroelectricidad."
       },
@@ -392,20 +412,25 @@
     {
       "id": "bocage-normandia",
       "titulo": "Bocage normando",
-      "lugar": "Bocage de la Baja Normandía",
+      "lugar": "Montpinchon, en el bocage del Cotentin (Mancha)",
       "pais": "Francia",
-      "lat": 48.9,
-      "lon": -0.9,
+      "lat": 49.02,
+      "lon": -1.3,
       "tolerancia": 250,
       "foto": {
-        "archivo": null,
-        "buscar": "bocage Normandie aerial"
+        "archivo": "File:Montpinchon bocage.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Montpinchon_bocage.jpg/1920px-Montpinchon_bocage.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Montpinchon_bocage.jpg",
+        "autor": "Perlinkinso",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Vacas normandas en un prado cerrado por setos arbolados, con una granja al fondo"
       },
       "mirar": [
-        "Las parcelas pequeñas e irregulares cerradas por setos vivos y arbolado.",
-        "El predominio de los prados sobre los campos de labor.",
-        "Las casas dispersas, cada una en su explotación.",
-        "Los manzanos, si aparecen, para la sidra y el calvados."
+        "El prado de hierba alta y densa, verde en pleno verano.",
+        "Las vacas de raza normanda, lecheras, pastando al aire libre.",
+        "Los setos con árboles que cierran el prado al fondo.",
+        "La granja aislada junto a sus campos: poblamiento disperso."
       ],
       "koppen": "Cfb",
       "distractores": [
@@ -471,7 +496,7 @@
         }
       ],
       "modelo": {
-        "a": "Bocage de la Baja Normandía, en el oeste de Francia, hacia los 49° N. Paisajes de bocage se extienden por Bretaña, el oeste de Francia, Irlanda, el suroeste de Gran Bretaña y la cornisa cantábrica.",
+        "a": "Bocage de la Mancha (Montpinchon, cerca de Coutances), en Normandía, oeste de Francia, hacia los 49° N. Paisajes de bocage se extienden por Bretaña, el oeste de Francia, Irlanda, el suroeste de Gran Bretaña y la cornisa cantábrica.",
         "b": "Clima oceánico (Cfb): temperaturas suaves todo el año (6 °C en invierno y 18 °C en verano), escasa amplitud térmica y lluvias repartidas a lo largo del año (unos 750 mm), sin estación seca, por la llegada constante de borrascas atlánticas.",
         "c": "Campos cerrados por setos vivos con árboles, parcelas pequeñas e irregulares y poblamiento disperso. Predominan los prados para el ganado vacuno de leche (mantequilla, quesos) y los manzanos de sidra. La concentración parcelaria ha eliminado muchos setos desde los años sesenta."
       },
@@ -492,20 +517,25 @@
     {
       "id": "openfield-beauce",
       "titulo": "Campos abiertos de la Beauce",
-      "lugar": "Beauce, entre Chartres y Orleans",
+      "lugar": "Campos de cebada entre Dreux y Chartres (Eure-et-Loir)",
       "pais": "Francia",
-      "lat": 48.3,
-      "lon": 1.6,
+      "lat": 48.6,
+      "lon": 1.4,
       "tolerancia": 200,
       "foto": {
-        "archivo": null,
-        "buscar": "Beauce champs blé paysage"
+        "archivo": "File:Beauce 3.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Beauce_3.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Beauce_3.jpg",
+        "autor": "Urban",
+        "licencia": "Dominio público",
+        "licencia_url": null,
+        "alt": "Campo de cebada madura que se extiende hasta el horizonte en una llanura sin árboles"
       },
       "mirar": [
-        "Las parcelas enormes y regulares, sin setos ni cercas.",
-        "La llanura casi perfecta y la escasez de árboles.",
-        "Los cultivos de cereal, colza o remolacha y los silos.",
-        "Los pueblos agrupados y separados por grandes distancias."
+        "La parcela de cereal (cebada) que se extiende hasta el horizonte.",
+        "La llanura perfecta, sin setos, cercas ni árboles.",
+        "La regularidad del cultivo, sembrado y cosechado con máquinas.",
+        "El horizonte, una línea recta: no hay relieve que lo interrumpa."
       ],
       "koppen": "Cfb",
       "distractores": [
@@ -585,22 +615,27 @@
       ]
     },
     {
-      "id": "polder-beemster",
-      "titulo": "Pólder neerlandés",
-      "lugar": "Pólder de Beemster (Holanda Septentrional)",
+      "id": "polder-kinderdijk",
+      "titulo": "Pólder y molinos de Kinderdijk",
+      "lugar": "Kinderdijk, en la Alblasserwaard (Holanda Meridional)",
       "pais": "Países Bajos",
-      "lat": 52.55,
-      "lon": 4.92,
+      "lat": 51.876,
+      "lon": 4.666,
       "tolerancia": 150,
       "foto": {
-        "archivo": null,
-        "buscar": "Beemster polder landscape"
+        "archivo": "File:Kinderdijk, Overwaard molens no8tm3 RM30558tm3 en Nederwaard molens no5en4 RM30547+6 IMG 9372 2021-06-13 11.20.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Kinderdijk%2C_Overwaard_molens_no8tm3_RM30558tm3_en_Nederwaard_molens_no5en4_RM30547%2B6_IMG_9372_2021-06-13_11.20.jpg/1920px-Kinderdijk%2C_Overwaard_molens_no8tm3_RM30558tm3_en_Nederwaard_molens_no5en4_RM30547%2B6_IMG_9372_2021-06-13_11.20.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Kinderdijk,_Overwaard_molens_no8tm3_RM30558tm3_en_Nederwaard_molens_no5en4_RM30547%2B6_IMG_9372_2021-06-13_11.20.jpg",
+        "autor": "Michielverbeek",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Canal recto flanqueado por una hilera de molinos de viento en un paisaje completamente llano"
       },
       "mirar": [
-        "La geometría perfecta de la parcelación, en cuadrícula.",
-        "Las acequias y canales que separan las parcelas.",
-        "El relieve completamente plano y los diques que lo rodean.",
-        "Los molinos o las estaciones de bombeo, si aparecen."
+        "El canal, cuyo nivel está por encima del de las tierras que drena.",
+        "Los molinos de viento alineados a lo largo del canal.",
+        "El horizonte completamente plano.",
+        "Los prados y la vegetación de ribera, con muy pocos árboles."
       ],
       "koppen": "Cfb",
       "distractores": [
@@ -610,20 +645,20 @@
       ],
       "estacion": "de-bilt",
       "clima": "Clima oceánico (Cfb): inviernos suaves (unos 4 °C en enero) y veranos frescos (18 °C), con lluvias regulares durante todo el año, unos 850 mm, algo más abundantes de julio a diciembre.",
-      "localizacion": "Al norte de Ámsterdam, en la provincia de Holanda Septentrional.",
+      "localizacion": "Delta del Rin y el Mosa, al este de Róterdam, entre los ríos Lek y Noord.",
       "preguntas": [
         {
-          "id": "polder-que",
-          "enunciado": "¿Qué es un pólder?",
+          "id": "kinderdijk-que",
+          "enunciado": "¿Para qué servían estos molinos?",
           "opciones": [
             {
-              "t": "Una tierra ganada al mar o a un lago, cerrada por diques y drenada por bombeo, que queda por debajo del nivel del agua",
-              "r": "El pólder de Beemster se desecó en 1612 y es Patrimonio Mundial. Cerca de una cuarta parte de los Países Bajos está por debajo del nivel del mar.",
-              "ok": true
+              "t": "Para bombear el agua de los pólderes, tierras rodeadas de diques que quedan por debajo del nivel de los ríos, y verterla a canales y depósitos más altos",
+              "ok": true,
+              "r": "Los 19 molinos de Kinderdijk, levantados hacia 1740, elevaban el agua de la Alblasserwaard hasta depósitos (boezems) desde los que se vertía al río Lek. Son Patrimonio Mundial desde 1997."
             },
             {
-              "t": "Una llanura de inundación natural de un río",
-              "r": "El pólder es artificial: hay que bombear el agua continuamente."
+              "t": "Para moler el cereal de la comarca",
+              "r": "Hubo molinos harineros en Holanda, pero estos son molinos de drenaje: mueven agua, no grano."
             },
             {
               "t": "Un lago de origen glaciar",
@@ -635,11 +670,12 @@
             }
           ],
           "explicacion": [
-            "Los molinos de viento bombeaban el agua; hoy lo hacen estaciones eléctricas. La subida del nivel del mar convierte la gestión del agua en una cuestión estratégica para el país."
+            "Cerca de una cuarta parte de los Países Bajos está por debajo del nivel del mar y depende del bombeo constante. Los molinos fueron sustituidos por estaciones de bombeo de vapor, después diésel y hoy eléctricas.",
+            "La subida del nivel del mar hace de la gestión del agua una cuestión estratégica para el país."
           ]
         },
         {
-          "id": "polder-uso",
+          "id": "kinderdijk-uso",
           "enunciado": "¿A qué se dedican hoy sobre todo los pólderes?",
           "opciones": [
             {
@@ -666,9 +702,9 @@
         }
       ],
       "modelo": {
-        "a": "Pólder de Beemster, al norte de Ámsterdam (52,5° N), en los Países Bajos. Los pólderes ocupan buena parte del oeste y el norte del país, junto al mar del Norte y el IJsselmeer.",
+        "a": "Kinderdijk, en la Alblasserwaard, al este de Róterdam (52° N), en el delta del Rin y el Mosa, en los Países Bajos. Los pólderes ocupan buena parte del oeste y el norte del país.",
         "b": "Clima oceánico (Cfb): inviernos suaves, veranos frescos, amplitud térmica pequeña (unos 15 °C) y precipitaciones regulares todo el año, en torno a 850 mm.",
-        "c": "Paisaje agrario artificial, completamente llano y por debajo del nivel del mar, con parcelación regular separada por acequias y protegido por diques; el drenaje se hace por bombeo. Dominan los prados para el vacuno de leche, la horticultura y la floricultura, muy intensivas y orientadas a la exportación."
+        "c": "Paisaje artificial y completamente llano, situado por debajo del nivel de los ríos y protegido por diques. Los molinos del siglo XVIII elevaban el agua de los pólderes a canales y depósitos y hoy la bombean estaciones eléctricas. Predominan los prados para el vacuno de leche; en otros pólderes, la horticultura y la floricultura intensivas para la exportación."
       },
       "manual": "Apartados 1.1.2.3 y 5.3",
       "enlaces": [
@@ -682,20 +718,25 @@
     {
       "id": "estepa-ucrania",
       "titulo": "Campos de cereal de la estepa ucraniana",
-      "lugar": "Llanura de Poltava",
+      "lugar": "Distrito de Jorol, provincia de Poltava",
       "pais": "Ucrania",
-      "lat": 49.6,
-      "lon": 34.5,
+      "lat": 49.88,
+      "lon": 33.35,
       "tolerancia": 350,
       "foto": {
-        "archivo": null,
-        "buscar": "Ukraine wheat field steppe Poltava OR sunflower field Ukraine"
+        "archivo": "File:Khorol's'kyi district, Poltavs'ka oblast, Ukraine - panoramio (378).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Khorol%27s%27kyi_district%2C_Poltavs%27ka_oblast%2C_Ukraine_-_panoramio_%28378%29.jpg/1920px-Khorol%27s%27kyi_district%2C_Poltavs%27ka_oblast%2C_Ukraine_-_panoramio_%28378%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Khorol%27s%27kyi_district,_Poltavs%27ka_oblast,_Ukraine_-_panoramio_(378).jpg",
+        "autor": "юра запеченко",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "alt": "Campo recién labrado de tierra casi negra en una llanura, con árboles al fondo y aves en el suelo"
       },
       "mirar": [
-        "La llanura inmensa, sin relieve, hasta el horizonte.",
-        "Los cultivos de cereal o girasol en parcelas gigantescas.",
-        "Las franjas de árboles que cortan los campos: cortavientos.",
-        "El color oscuro del suelo cuando está labrado."
+        "El suelo recién labrado, de color casi negro: el chernozem.",
+        "La llanura sin relieve que se pierde en el horizonte.",
+        "Las hileras de árboles del fondo: bosquetes y franjas cortavientos.",
+        "Las aves que buscan alimento en el campo labrado, en otoño."
       ],
       "koppen": "Dfb",
       "distractores": [
@@ -782,20 +823,25 @@
     {
       "id": "olivar-jaen",
       "titulo": "Olivar de Jaén",
-      "lugar": "Campiña de Jaén",
+      "lugar": "Campiña oriental de Jaén, al norte de Sierra Mágina",
       "pais": "España",
-      "lat": 37.85,
-      "lon": -3.7,
+      "lat": 37.83,
+      "lon": -3.55,
       "tolerancia": 200,
       "foto": {
-        "archivo": null,
-        "buscar": "olivar Jaén mar de olivos"
+        "archivo": "File:Paisaje de olivar 24J 05.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Paisaje_de_olivar_24J_05.jpg/1920px-Paisaje_de_olivar_24J_05.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Paisaje_de_olivar_24J_05.jpg",
+        "autor": "Veinticuatro de Jahén",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Lomas cubiertas de olivos en hileras, con el suelo desnudo, y sierras calizas al fondo"
       },
       "mirar": [
-        "Los olivos en hileras regulares que cubren colinas enteras: un monocultivo.",
-        "El suelo desnudo o con poca hierba entre los árboles.",
-        "Los colores pardos y ocres del suelo y el verde grisáceo del olivo.",
-        "Las sierras al fondo y los pueblos blancos en lo alto."
+        "Los olivos en hileras regulares que cubren lomas enteras: un monocultivo.",
+        "El suelo desnudo, labrado, entre los árboles.",
+        "Las sierras calizas del fondo: Sierra Mágina y el cerro Aznaitín.",
+        "Los cortijos dispersos y las manchas de vegetación natural en los cerros."
       ],
       "koppen": "Csa",
       "distractores": [
@@ -881,21 +927,26 @@
     },
     {
       "id": "dehesa-extremadura",
-      "titulo": "Dehesa extremeña",
-      "lugar": "Dehesa de Extremadura",
+      "titulo": "Dehesa con cerdos ibéricos",
+      "lugar": "Dehesa del suroeste peninsular",
       "pais": "España",
       "lat": 39.2,
       "lon": -6.4,
-      "tolerancia": 200,
+      "tolerancia": 300,
       "foto": {
-        "archivo": null,
-        "buscar": "dehesa Extremadura encinas"
+        "archivo": "File:Rufo-13-12-2018--9 La montanera.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Rufo-13-12-2018--9_La_montanera.jpg/1920px-Rufo-13-12-2018--9_La_montanera.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Rufo-13-12-2018--9_La_montanera.jpg",
+        "autor": "Rufonavarro",
+        "licencia": "CC0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Cerdos ibéricos pastando bajo encinas en una dehesa"
       },
       "mirar": [
-        "Los árboles dispersos, separados entre sí, sobre un pastizal.",
-        "La forma de las copas, podadas y redondeadas.",
-        "El ganado: cerdos ibéricos, ovejas o vacas.",
-        "El color del pasto: verde en primavera, amarillo en verano."
+        "Las encinas de copa ancha, separadas entre sí.",
+        "El pastizal bajo los árboles.",
+        "Los cerdos ibéricos sueltos: es la montanera, de finales de otoño a invierno, cuando comen las bellotas caídas.",
+        "El suelo removido por los cerdos al hozar."
       ],
       "koppen": "Csa",
       "distractores": [
@@ -905,7 +956,7 @@
       ],
       "estacion": "badajoz",
       "clima": "Clima mediterráneo de verano caluroso (Csa): veranos muy cálidos y secos (27 °C de media en julio y agosto) e inviernos suaves (unos 10 °C). Precipitación escasa, unos 430 mm, concentrada de octubre a mayo; de junio a agosto apenas llueve. Es un clima mediterráneo con rasgos continentales por la distancia al mar.",
-      "localizacion": "Suroeste de la península ibérica, entre los ríos Tajo y Guadiana.",
+      "localizacion": "Suroeste de la península ibérica: Extremadura, Sierra Morena, Salamanca y el Alentejo. El punto marca el centro de Extremadura, la región con más dehesa.",
       "preguntas": [
         {
           "id": "dehesa-que",
@@ -977,20 +1028,25 @@
     {
       "id": "invernaderos-almeria",
       "titulo": "Invernaderos de Almería",
-      "lugar": "Campo de Dalías (El Ejido)",
+      "lugar": "Campo de Dalías: El Ejido y la sierra de Gádor",
       "pais": "España",
-      "lat": 36.75,
-      "lon": -2.8,
+      "lat": 36.77,
+      "lon": -2.81,
       "tolerancia": 150,
       "foto": {
-        "archivo": null,
-        "buscar": "invernaderos Almería El Ejido mar de plástico"
+        "archivo": "File:El Ejido aerial.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/El_Ejido_aerial.jpg/1920px-El_Ejido_aerial.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:El_Ejido_aerial.jpg",
+        "autor": "kallerna",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Vista aérea de una llanura cubierta de invernaderos que rodean una ciudad, con una sierra al fondo"
       },
       "mirar": [
-        "La superficie continua de cubiertas de plástico: el «mar de plástico».",
-        "La llanura litoral entre la sierra y el mar.",
-        "Las balsas de agua para el riego.",
-        "Las montañas desnudas, casi sin vegetación, al fondo."
+        "La superficie casi continua de invernaderos: el «mar de plástico».",
+        "La ciudad, El Ejido, rodeada de invernaderos.",
+        "Las balsas de riego, de color azul, entre las naves.",
+        "La sierra de Gádor al fondo, casi sin vegetación."
       ],
       "koppen": "BSh",
       "distractores": [
@@ -1073,20 +1129,25 @@
     {
       "id": "vinedo-douro",
       "titulo": "Viñedos en bancales del Duero",
-      "lugar": "Alto Douro Vinhateiro, en torno a Pinhão",
+      "lugar": "Alto Douro Vinhateiro, cerca de Pinhão",
       "pais": "Portugal",
       "lat": 41.18,
       "lon": -7.55,
       "tolerancia": 200,
       "foto": {
-        "archivo": null,
-        "buscar": "Douro valley vineyards terraces Pinhão"
+        "archivo": "File:Alto Douro Vinhateiro - Zona de Pinhão (3).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Alto_Douro_Vinhateiro_-_Zona_de_Pinh%C3%A3o_%283%29.jpg/1920px-Alto_Douro_Vinhateiro_-_Zona_de_Pinh%C3%A3o_%283%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Alto_Douro_Vinhateiro_-_Zona_de_Pinh%C3%A3o_(3).jpg",
+        "autor": "Concierge.2C",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Laderas cubiertas de viñedos en bancales, con una quinta de tejados rojos en el centro"
       },
       "mirar": [
-        "Las terrazas o bancales escalonados que cubren laderas muy empinadas.",
-        "Los muros de piedra (pizarra) que sostienen las terrazas.",
-        "El río encajado en el fondo del valle.",
-        "Las quintas (casas de las explotaciones vinícolas) entre los viñedos."
+        "Los bancales que cubren por completo las laderas, siguiendo las curvas de nivel.",
+        "La quinta (casa y bodega) en el centro, rodeada de viñas.",
+        "Los caminos en zigzag que suben por la pendiente.",
+        "Los olivos en los bordes de las terrazas y el suelo pedregoso de pizarra."
       ],
       "koppen": "Csa",
       "distractores": [
