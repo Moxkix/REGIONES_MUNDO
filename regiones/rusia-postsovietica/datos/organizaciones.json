@@ -1,0 +1,67 @@
+{
+ "fecha": "octubre de 2026",
+ "categorias": {
+  "uee-otsc": {
+   "color": "#8a3b2f",
+   "nombre": "CEI, Unión Económica Euroasiática y OTSC"
+  },
+  "uee-armenia": {
+   "color": "#c9826f",
+   "nombre": "CEI y UEE; participación en la OTSC congelada"
+  },
+  "cei-otsc": {
+   "color": "#d9a46a",
+   "nombre": "CEI y OTSC, fuera de la UEE"
+  },
+  "cei": {
+   "color": "#e9d3a3",
+   "nombre": "CEI (Turkmenistán, miembro asociado), fuera de la UEE y la OTSC"
+  },
+  "candidato": {
+   "color": "#7ea6cc",
+   "nombre": "Candidato a la UE, fuera o saliendo de la CEI"
+  },
+  "ue": {
+   "color": "#2f5d8a",
+   "nombre": "UE y OTAN (bálticos)"
+  },
+  "otro": {
+   "color": "#e2e4df",
+   "nombre": "Otros Estados"
+  }
+ },
+ "paises": {
+  "RUS": "uee-otsc",
+  "BLR": "uee-otsc",
+  "KAZ": "uee-otsc",
+  "KGZ": "uee-otsc",
+  "ARM": "uee-armenia",
+  "TJK": "cei-otsc",
+  "AZE": "cei",
+  "UZB": "cei",
+  "TKM": "cei",
+  "UKR": "candidato",
+  "MDA": "candidato",
+  "GEO": "candidato",
+  "EST": "ue",
+  "LVA": "ue",
+  "LTU": "ue"
+ },
+ "notas": {
+  "RUS": "Miembro fundador de CEI, UEE y OTSC. Socio fundador de los BRICS. Participación en el G8 suspendida desde 2014.",
+  "UKR": "Candidata a la UE desde 2022; clusters 1, 2, 3 y 6 abiertos (2026). Aspirante a la OTAN (fórmula de Bucarest 2008, solicitud acelerada de 2022), sin invitación.",
+  "BLR": "Estado de la Unión con Rusia. Socio de los BRICS y miembro de la OCS (2024).",
+  "MDA": "Proceso de salida de la CEI iniciado en abril de 2026. Constitucionalmente neutral. Observador de la UEE desde 2018 sin participación efectiva.",
+  "GEO": "Salió de la OTSC en 1999 y de la CEI el 18-8-2009. Candidata a la UE desde diciembre de 2023, sin avances.",
+  "ARM": "Ley de inicio del proceso de adhesión a la UE (2025), sin solicitud formal. La UEE estudia suspenderle la aplicación del Tratado (informe del 20-10-2026).",
+  "AZE": "Salió de la OTSC en 1999.",
+  "KAZ": "Socio de los BRICS.",
+  "UZB": "Salió de la OTSC en 1999, volvió en 2006 y la dejó de nuevo en 2012. Observador de la UEE desde el 11-12-2020.",
+  "TKM": "Miembro asociado desde 2005. Neutralidad permanente reconocida por la ONU (1995). Preside la CEI en 2026.",
+  "KGZ": "Miembro de la UEE desde 2015.",
+  "TJK": "No se ha incorporado a la UEE (ni como observador), pese a la previsión del manual.",
+  "EST": "UE y OTAN desde 2004. Euro desde 2011.",
+  "LVA": "UE y OTAN desde 2004. Euro desde 2014.",
+  "LTU": "UE y OTAN desde 2004. Euro desde 2015."
+ }
+}

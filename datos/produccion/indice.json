@@ -13,6 +13,28 @@
    ]
   },
   {
+   "id": "algodon",
+   "nombre": "Algodón (en rama, sin desmotar)",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    1992,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "aluminio",
+   "nombre": "Aluminio primario",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
+   ]
+  },
+  {
    "id": "arroz",
    "nombre": "Arroz (con cáscara)",
    "grupo": "agricultura",
@@ -82,6 +104,19 @@
    ]
   },
   {
+   "id": "centeno",
+   "nombre": "Centeno",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    1992,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
    "id": "cobalto",
    "nombre": "Cobalto",
    "grupo": "mineria",
@@ -117,6 +152,18 @@
    "grupo": "energia",
    "anios": [
     1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
+   "id": "girasol",
+   "nombre": "Girasol (pipa)",
+   "grupo": "agricultura",
+   "anios": [
+    1992,
     2000,
     2010,
     2020,
@@ -178,6 +225,15 @@
    ]
   },
   {
+   "id": "niquel",
+   "nombre": "Níquel (minería)",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
+   ]
+  },
+  {
    "id": "nuclear",
    "nombre": "Electricidad nuclear",
    "grupo": "energia",
@@ -186,6 +242,24 @@
     2000,
     2010,
     2020,
+    2025
+   ]
+  },
+  {
+   "id": "oro",
+   "nombre": "Oro",
+   "grupo": "mineria",
+   "anios": [
+    2015,
+    2025
+   ]
+  },
+  {
+   "id": "paladio",
+   "nombre": "Paladio",
+   "grupo": "mineria",
+   "anios": [
+    2015,
     2025
    ]
   },
@@ -255,6 +329,15 @@
     2000,
     2010,
     2020,
+    2024
+   ]
+  },
+  {
+   "id": "uranio",
+   "nombre": "Uranio",
+   "grupo": "mineria",
+   "anios": [
+    2015,
     2024
    ]
   },

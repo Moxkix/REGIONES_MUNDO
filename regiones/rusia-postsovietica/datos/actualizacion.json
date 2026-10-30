@@ -1,0 +1,546 @@
+{
+ "revisado": "octubre de 2026",
+ "nota": "Afirmaciones del manual (edición de 2016, datos de 2014-2015) frente a la situación a finales de octubre de 2026. Varias cuestiones (guerra de Ucrania, Armenia en la UEE y la OTSC, negociaciones de adhesión a la UE) están cambiando mes a mes: comprobad la fecha de cada dato.",
+ "items": [
+  {
+   "id": "cei",
+   "manual": "Georgia abandonó la CEI (2008-2009); Ucrania la abandonó en 2015.",
+   "actual": "Georgia salió en 2009. Ucrania nunca ratificó la Carta, rompió con los órganos de la CEI en 2018 y en 2026 ha denunciado decenas de acuerdos. Moldavia firmó su salida el 8-4-2026, efectiva el 8-4-2027. Turkmenistán sigue como miembro asociado.",
+   "nota": "La CEI se reduce a nueve miembros de pleno derecho, todos en la órbita rusa; los Estados que miran a la UE la abandonan.",
+   "fuente": "Logos-Press: Moldova to officially leave CIS on April 8, 2027",
+   "url": "https://logos-pres.md/?p=69448",
+   "fuentes": [
+    {
+     "titulo": "Logos-Press: Moldova to officially leave CIS on April 8, 2027",
+     "url": "https://logos-pres.md/?p=69448"
+    },
+    {
+     "titulo": "Nasha Niva: salida de Moldavia efectiva el 8-4-2027",
+     "url": "https://nashaniva.com/en/392917"
+    },
+    {
+     "titulo": "Euromaidan Press (26-3-2026): Ukraine formally tears up its last legal ties to Russia and the CIS",
+     "url": "https://euromaidanpress.com/2026/03/26/ukraine-formally-tears-up-its-last-legal-ties-to-russia-and-the-cis/"
+    },
+    {
+     "titulo": "MFA de Ucrania: el Gobierno decide salir de 116 tratados de la CEI",
+     "url": "https://mfa.gov.ua/en/news/andrij-sibiga-uryad-uhvaliv-rishennya-pro-vihid-zi-116-dogovoriv-snd"
+    },
+    {
+     "titulo": "Ukrinform (2018): Ukraine finally quits CIS coordination bodies",
+     "url": "https://www.ukrinform.net/rubric-polytics/2635185-ukraine-finally-quits-cis-coordination-bodies.html"
+    },
+    {
+     "titulo": "PanARMENIAN (18-8-2009): salida de Georgia",
+     "url": "https://panarmenian.net/m/eng/news/35208/"
+    },
+    {
+     "titulo": "Portal oficial de la CEI (presidencia de Turkmenistán 2026)",
+     "url": "https://e-cis.info/cooperation/3/"
+    }
+   ],
+   "apartado": "6.1",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-04-08 (Moldavia); 2026-03 (Ucrania)",
+   "observaciones": "El manual fecha en 2015 la salida de Ucrania; en realidad nunca fue miembro según la Carta y la ruptura se produjo entre 2014 y 2018."
+  },
+  {
+   "id": "uee",
+   "manual": "Miembros en 2016: Rusia, Bielorrusia, Kazajistán, Armenia, Kirguistán; 'pronto se incorporará Tayikistán'.",
+   "actual": "Siguen los mismos cinco miembros: Rusia, Bielorrusia, Kazajistán, Armenia y Kirguistán. Tayikistán no se ha incorporado. Observadores: Moldavia (inactiva), Uzbekistán, Cuba e Irán (2024). En octubre de 2026 los otros cuatro miembros han propuesto suspender la aplicación del Tratado a Armenia, que aprobó en 2025 una ley para iniciar su adhesión a la UE.",
+   "nota": "La UEE no ha crecido y Armenia, su miembro más reticente, se acerca a la UE.",
+   "fuente": "Comisión Económica Euroasiática: estatus de Estado observador",
+   "url": "https://eec.eaeunion.org/en/comission/department/dep_razv_integr/mezhdunarodnoe-sotrudnichestvo/o-statuse-gosudarstva-nablyudatelya.php",
+   "fuentes": [
+    {
+     "titulo": "Comisión Económica Euroasiática: estatus de Estado observador",
+     "url": "https://eec.eaeunion.org/en/comission/department/dep_razv_integr/mezhdunarodnoe-sotrudnichestvo/o-statuse-gosudarstva-nablyudatelya.php"
+    },
+    {
+     "titulo": "bne IntelliNews: Iran gains observer status in EAEU (26-12-2024)",
+     "url": "https://www.intellinews.com/iran-gains-observer-status-in-russian-led-eurasian-economic-union-359647/"
+    },
+    {
+     "titulo": "Armenpress (29-5-2026): EAEU leaders call for Armenia referendum",
+     "url": "https://armenpress.am/en/article/1251541"
+    },
+    {
+     "titulo": "Armenpress (20-10-2026): informe sobre la suspensión del Tratado de la UEE para Armenia",
+     "url": "https://armenpress.am/en/article/1263327"
+    },
+    {
+     "titulo": "ARKA: ley de inicio de la adhesión de Armenia a la UE firmada por el presidente",
+     "url": "https://arka.am/en/news/politics/bill-on-beginning-armenia-s-accession-to-eu-signed-into-law-by-armenian-president-/"
+    },
+    {
+     "titulo": "Interfax (25-8-2026): Armenia aún no ha presentado solicitud formal a la UE",
+     "url": "https://interfax.com/newsroom/top-stories/118856/"
+    }
+   ],
+   "apartado": "6.1 y conclusión",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-10-20",
+   "observaciones": "Decisión pendiente en la cumbre de la UEE de diciembre de 2026."
+  },
+  {
+   "id": "otsc",
+   "manual": "Miembros de la OTSC (incluida Armenia).",
+   "actual": "Seis miembros formales: Rusia, Bielorrusia, Kazajistán, Kirguistán, Tayikistán y Armenia. Armenia congeló su participación en febrero de 2024 y no la ha reactivado.",
+   "nota": "La alianza militar liderada por Rusia ha perdido de hecho a Armenia, que la acusa de no haberla defendido frente a Azerbaiyán.",
+   "fuente": "Sitio oficial de la OTSC (Estados miembros)",
+   "url": "https://en.odkb-csto.org/",
+   "fuentes": [
+    {
+     "titulo": "Sitio oficial de la OTSC (Estados miembros)",
+     "url": "https://en.odkb-csto.org/"
+    },
+    {
+     "titulo": "Armenpress (24-8-2026): no hay cooperación con Armenia en la OTSC",
+     "url": "https://armenpress.am/en/article/1258772"
+    },
+    {
+     "titulo": "Yeni Şafak (6-8-2026): la OTSC podría suspender los derechos de Armenia en la cumbre de noviembre",
+     "url": "https://en.yenisafak.com/world/csto-may-suspend-armenia-rights-at-november-summit-3721621"
+    }
+   ],
+   "apartado": "6.1",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-08-24",
+   "observaciones": "La reunión del 11-11-2026 podría suspender los derechos de voto de Armenia."
+  },
+  {
+   "id": "ucrania",
+   "manual": "Anexión rusa de Crimea (2014) y repúblicas autoproclamadas de Donetsk y Lugansk.",
+   "actual": "El 24-2-2022 Rusia invadió Ucrania. El 30-9-2022 proclamó la anexión de Donetsk, Lugansk, Zaporiyia y Jersón, que no controla por completo; la Asamblea General de la ONU la declaró nula. Rusia ocupa en torno al 19 % del territorio ucraniano, Crimea incluida (abril de 2026). El frente apenas se ha movido en 2026 y no hay alto el fuego general.",
+   "nota": "El conflicto de 2014 que describe el manual se ha convertido en la mayor guerra en Europa desde 1945.",
+   "fuente": "ONU / Al Jazeera (12-10-2022): la Asamblea General condena las anexiones",
+   "url": "https://www.aljazeera.com/news/2022/10/12/un-condemns-russias-move-to-annex-parts-of-ukraine",
+   "fuentes": [
+    {
+     "titulo": "ONU / Al Jazeera (12-10-2022): la Asamblea General condena las anexiones",
+     "url": "https://www.aljazeera.com/news/2022/10/12/un-condemns-russias-move-to-annex-parts-of-ukraine"
+    },
+    {
+     "titulo": "AAP/Reuters (abril de 2026): Russia has taken 1,700 square km of Ukraine in 2026 (19,35 %)",
+     "url": "https://aapnews.aap.com.au/news/russia-has-taken-1700-square-km-of-ukraine-in-2026"
+    },
+    {
+     "titulo": "ISW/CTP: Russian Offensive Campaign Assessment, 21-10-2026",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-21-2026"
+    },
+    {
+     "titulo": "Khaleej Times/Reuters (24-10-2026): alto el fuego en Oleshky y conversaciones en noviembre",
+     "url": "https://www.khaleejtimes.com/europe/russia-ukraine-hold-peace-talks-nov-2026-ceasefire-oleshky"
+    }
+   ],
+   "apartado": "7.1",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-10-24",
+   "observaciones": "Las cifras de territorio proceden de mapas de fuentes abiertas y no son oficiales. La situación cambia con rapidez."
+  },
+  {
+   "id": "candidaturas-ue",
+   "manual": "(No las recoge: en 2016 ninguno era candidato).",
+   "actual": "Ucrania y Moldavia son candidatas desde junio de 2022 y negocian su adhesión: en 2026 se han abierto cuatro de los seis grupos de capítulos. Georgia es candidata desde diciembre de 2023, pero su proceso está de facto detenido.",
+   "nota": "En 2016 ninguno era candidato; hoy tres antiguas repúblicas soviéticas aspiran a entrar en la UE.",
+   "fuente": "New Union Post (13-10-2026): clusters 2 y 3 abiertos para Ucrania y Moldavia",
+   "url": "https://newunionpost.eu/2026/10/13/ukraine-moldova-clusters-eu-accession/",
+   "fuentes": [
+    {
+     "titulo": "New Union Post (13-10-2026): clusters 2 y 3 abiertos para Ucrania y Moldavia",
+     "url": "https://newunionpost.eu/2026/10/13/ukraine-moldova-clusters-eu-accession/"
+    },
+    {
+     "titulo": "Ukrainska Pravda (13-10-2026): EU opens negotiating clusters 2 and 3",
+     "url": "https://pravda.com.ua/eng/news/2026/10/13/8057865"
+    },
+    {
+     "titulo": "PISM: Ukraine and Moldova open the first EU negotiations cluster",
+     "url": "https://pism.pl/publications/ukraine-and-moldova-open-the-first-eu-negotiations-cluster"
+    },
+    {
+     "titulo": "European Western Balkans (14-7-2026): cluster 6 abierto",
+     "url": "https://europeanwesternbalkans.com/2026/07/14/ukraine-and-moldova-open-cluster-6-on-external-relations-with-the-eu/"
+    },
+    {
+     "titulo": "JAMnews (7-10-2026): EU prepares to expand without Georgia",
+     "url": "https://jam-news.net/eu-prepares-to-expand-without-georgia-what-candidate-status-on-paper-means/"
+    },
+    {
+     "titulo": "Comisión Europea: Georgia",
+     "url": "https://enlargement.ec.europa.eu/georgia_en"
+    }
+   ],
+   "apartado": "6.1 y 7.1",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-10-13",
+   "observaciones": "La apertura de los grupos 2 y 3 (13-10-2026) solo la confirma prensa especializada."
+  },
+  {
+   "id": "karabaj",
+   "manual": "Conflicto no resuelto entre Armenia y Azerbaiyán.",
+   "actual": "Azerbaiyán recuperó todo el territorio con la ofensiva de septiembre de 2023. La república de Artsaj se disolvió el 1-1-2024 y más de 100.000 armenios, casi toda la población, huyeron a Armenia. Armenia y Azerbaiyán rubricaron un tratado de paz en Washington en agosto de 2025, aún sin firmar ni ratificar.",
+   "nota": "El conflicto «no resuelto» del manual terminó por la fuerza; queda pendiente la paz formal.",
+   "fuente": "Noticias ONU (29-9-2023): Karabakh emergency escalates",
+   "url": "https://news.un.org/en/story/2023/09/1141662",
+   "fuentes": [
+    {
+     "titulo": "Noticias ONU (29-9-2023): Karabakh emergency escalates",
+     "url": "https://news.un.org/en/story/2023/09/1141662"
+    },
+    {
+     "titulo": "Malay Mail/AFP (30-9-2023): More than 100,000 refugees arrive in Armenia",
+     "url": "https://www.malaymail.com/news/world/2023/09/30/more-than-100000-refugees-arrive-in-armenia/93678"
+    },
+    {
+     "titulo": "Daily Sabah (15-10-2026): Armenia aims to seal Azerbaijan peace deal before 2031",
+     "url": "https://www.dailysabah.com/politics/armenia-aims-to-seal-azerbaijan-peace-deal-before-2031/news"
+    }
+   ],
+   "apartado": "1.2 y 7.2",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-10-15",
+   "observaciones": "Azerbaiyán exige una reforma de la Constitución armenia antes de firmar."
+  },
+  {
+   "id": "abjasia-osetia",
+   "manual": "Repúblicas separatistas de Georgia reconocidas por Rusia.",
+   "actual": "Siguen separadas de Georgia y con tropas rusas. Solo las reconocen Rusia, Nicaragua, Venezuela y Siria. En 2026 Osetia del Sur firmó con Rusia un tratado de «cooperación aliada» y nombró presidente a un exfuncionario ruso.",
+   "nota": "Su integración de hecho en Rusia ha avanzado.",
+   "fuente": "Meduza (30-7-2026): Nauru retira el reconocimiento, quedan cuatro países",
+   "url": "https://meduza.io/en/news/2026/07/30/a-nation-of-10-000-people-just-shrank-the-list-of-countries-recognizing-abkhazia-and-south-ossetia-to-four",
+   "fuentes": [
+    {
+     "titulo": "Meduza (30-7-2026): Nauru retira el reconocimiento, quedan cuatro países",
+     "url": "https://meduza.io/en/news/2026/07/30/a-nation-of-10-000-people-just-shrank-the-list-of-countries-recognizing-abkhazia-and-south-ossetia-to-four"
+    },
+    {
+     "titulo": "EEAS (7-8-2026): declaración en el 18.º aniversario de la guerra ruso-georgiana",
+     "url": "https://www.eeas.europa.eu/eeas/georgia-statement-spokesperson-marking-18-years-outbreak-war-between-russia-and-georgia_en"
+    },
+    {
+     "titulo": "Meduza (23-6-2026): South Ossetia's president resigns and joins Putin's staff",
+     "url": "https://meduza.io/en/feature/2026/06/23/south-ossetia-s-president-resigns-and-joins-putin-s-presidential-staff-reviving-questions-about-russian-annexation"
+    },
+    {
+     "titulo": "Meduza (20-9-2026): Kambolov declarado vencedor",
+     "url": "https://meduza.io/en/news/2026/09/20/georgian-breakaway-region-declares-former-russian-government-official-the-winner-of-its-presidential-election-a-new-treaty-made-his-rise-possible"
+    }
+   ],
+   "apartado": "7.2",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-09-20",
+   "observaciones": "No consta que Siria haya retirado su reconocimiento tras la caída de Assad (2024)."
+  },
+  {
+   "id": "transnistria",
+   "manual": "Región separatista de Moldavia apoyada por Rusia, conflicto congelado.",
+   "actual": "Sigue sin reconocimiento y con tropas rusas. El fin del tránsito de gas ruso por Ucrania (1-1-2025) la dejó sin suministro: hubo cortes de calefacción y electricidad. Desde febrero de 2025 recibe gas por un esquema intermediado.",
+   "nota": "La salida de Moldavia de la CEI y su avance hacia la UE aumentan la presión sobre la región.",
+   "fuente": "bne IntelliNews (enero de 2025): Transnistria hit by blackouts and industrial shutdowns after gas cut off",
+   "url": "https://www.intellinews.com/moldova-s-separatist-transnistria-region-hit-by-blackouts-and-industrial-shutdowns-after-gas-cut-off-359751",
+   "fuentes": [
+    {
+     "titulo": "bne IntelliNews (enero de 2025): Transnistria hit by blackouts and industrial shutdowns after gas cut off",
+     "url": "https://www.intellinews.com/moldova-s-separatist-transnistria-region-hit-by-blackouts-and-industrial-shutdowns-after-gas-cut-off-359751"
+    },
+    {
+     "titulo": "Meduza (7-1-2025): Russian gas cutoff leaves thousands without heat and power",
+     "url": "https://meduza.io/en/feature/2025/01/07/russian-gas-cutoff-leaves-thousands-without-heat-and-power-in-moldova-s-breakaway-transnistria-region"
+    },
+    {
+     "titulo": "MoldovaInvest (3-4-2026): incertidumbre del suministro después de junio de 2026",
+     "url": "https://moldovainvest.eu/en/international-en/uncertainties-regarding-gas-supply-in-transnistria-after-june-2026-authorities-explore-transition-scenarios-to-market-prices/"
+    },
+    {
+     "titulo": "Moldpres (9-6-2026): Moldovagaz suministrará gas a Transnistria hasta finales de 2026",
+     "url": "https://moldpres.md/eng/economy/moldovagaz-to-supply-natural-gas-to-transnistrian-region-by-late-2026"
+    }
+   ],
+   "apartado": "1.2 y 7.1",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-06-09",
+   "observaciones": ""
+  },
+  {
+   "id": "kazajistan-capital",
+   "manual": "Astaná capital (nombre de 2016).",
+   "actual": "La capital se llamó Nur-Sultán entre 2019 y 2022 y ha recuperado el nombre de Astaná. Población a 1-9-2026: Astaná, 1.700.385 habitantes; Almaty, 2.387.896; Kazajistán, 20,6 millones.",
+   "nota": "Astaná ha duplicado su población desde 2015 (855.000).",
+   "fuente": "Azattyq Ruhy (1-10-2026): la población de Astaná supera 1,7 millones (1.700.385)",
+   "url": "https://rus.azattyq-ruhy.kz/society/117061-chislennost-naseleniia-astany-prevysila-1-7-mln-chelovek",
+   "fuentes": [
+    {
+     "titulo": "Azattyq Ruhy (1-10-2026): la población de Astaná supera 1,7 millones (1.700.385)",
+     "url": "https://rus.azattyq-ruhy.kz/society/117061-chislennost-naseleniia-astany-prevysila-1-7-mln-chelovek"
+    },
+    {
+     "titulo": "The Astana Times (5-10-2026): Kazakhstan's population tops 20.6 million as Astana passes 1.7 million",
+     "url": "https://astanatimes.com/2026/10/kazakhstans-population-tops-20-6-million-as-astana-passes-1-7-million/"
+    },
+    {
+     "titulo": "Oficina Nacional de Estadística de Kazajistán: Astaná",
+     "url": "https://stat.gov.kz/en/region/astana/"
+    }
+   ],
+   "apartado": "7.3.2",
+   "tema": "Población y ciudades",
+   "fecha": "2026-09-01",
+   "observaciones": "Datos provisionales de la Oficina Nacional de Estadística."
+  },
+  {
+   "id": "poblacion-rusia",
+   "manual": "142,1 millones (2015).",
+   "actual": "Rosstat: 146,0 millones a 1-1-2025, cifra que incluye Crimea. Naciones Unidas, con las fronteras reconocidas: 144,0 millones en 2025. Crecimiento natural de 2024: −596.200 personas. Desde 2025 Rosstat ha dejado de publicar los datos mensuales de nacimientos y defunciones.",
+   "nota": "La diferencia con el manual (142,1) se debe a que Rosstat suma Crimea desde 2014; el crecimiento natural sigue siendo negativo.",
+   "fuente": "TASS (31-1-2025): Russian population stands at 146 mln as of January 1, 2025",
+   "url": "https://tass.com/society/1907243/amp",
+   "fuentes": [
+    {
+     "titulo": "TASS (31-1-2025): Russian population stands at 146 mln as of January 1, 2025",
+     "url": "https://tass.com/society/1907243/amp"
+    },
+    {
+     "titulo": "Rambler/Rosstat (1-2-2025): estimación preliminar, excluye DNR, LNR, Zaporiyia y Jersón",
+     "url": "https://finance.rambler.ru/economics/54135976-rosstat-predvaritelno-otsenil-chislennost-naseleniya-rossii/"
+    },
+    {
+     "titulo": "BFM/Interfax (22-2-2025): pérdida natural de 596.200 en 2024",
+     "url": "https://www.bfm.ru/news/568219"
+    },
+    {
+     "titulo": "StatisticsTimes (datos ONU WPP 2024): Russia population",
+     "url": "https://statisticstimes.com/demographics/country/russia-population.php"
+    },
+    {
+     "titulo": "Meduza (14-7-2025): No births, no deaths, no data (apagón estadístico)",
+     "url": "https://meduza.io/en/feature/2025/07/14/no-births-no-deaths-no-data"
+    }
+   ],
+   "apartado": "6.1",
+   "tema": "Población y ciudades",
+   "fecha": "2025-01-01 (Rosstat); 2025-07-01 (ONU)",
+   "observaciones": ""
+  },
+  {
+   "id": "moscu-spb",
+   "manual": "Moscú 12,1 millones (2014); San Petersburgo 5,1 millones.",
+   "actual": "Moscú: 13,27 millones a 1-1-2025 (unos 13,3 a 1-1-2026). San Petersburgo: 5,65 millones a 1-1-2025.",
+   "nota": "Ambas ciudades siguen creciendo, a diferencia del conjunto de Rusia.",
+   "fuente": "Snob (25-2-2026): Mosstat, la población de Moscú alcanza 13,3 millones",
+   "url": "https://snob.ru/news/mosstat-chislennost-naseleniia-moskvy-dostigla-133-mln-chelovek/",
+   "fuentes": [
+    {
+     "titulo": "Snob (25-2-2026): Mosstat, la población de Moscú alcanza 13,3 millones",
+     "url": "https://snob.ru/news/mosstat-chislennost-naseleniia-moskvy-dostigla-133-mln-chelovek/"
+    },
+    {
+     "titulo": "CityPopulation.de (con datos de Rosstat): San Petersburgo",
+     "url": "https://www.citypopulation.de/en/russia/gorodsanktpeterburg/"
+    }
+   ],
+   "apartado": "2.2",
+   "tema": "Población y ciudades",
+   "fecha": "2025-01-01",
+   "observaciones": "Las cifras oficiales de ciudad no son comparables con las de área metropolitana."
+  },
+  {
+   "id": "petroleo-gas",
+   "manual": "Rusia, primer exportador mundial de gas y segundo de petróleo; segundo productor mundial de petróleo y de gas; reservas de gas = 18 % del mundo.",
+   "actual": "Energy Institute (datos de 2025): Rusia es el 2.º productor de gas (609 bcm, 14,5 %), tras Estados Unidos, y el 3.º de petróleo (10,7 %), tras Estados Unidos y Arabia Saudí. Ya no es el primer exportador de gas: Estados Unidos lidera el gas natural licuado y Noruega la superó por gasoducto en 2025. El gas ruso pasó de cerca del 40 % de las importaciones de la UE por gasoducto (2021) a un 12 % de todo el gas importado (2025).",
+   "nota": "Europa ha dejado de ser el gran cliente del gas ruso, que se orienta hacia China y Turquía.",
+   "fuente": "Rigzone (2-7-2026): productores de gas 2025 según el EI Statistical Review 2026",
+   "url": "https://www.rigzone.com/news/which_countries_produce_and_consume_the_most_natural_gas-02-jul-2026-184041-article/",
+   "fuentes": [
+    {
+     "titulo": "Rigzone (2-7-2026): productores de gas 2025 según el EI Statistical Review 2026",
+     "url": "https://www.rigzone.com/news/which_countries_produce_and_consume_the_most_natural_gas-02-jul-2026-184041-article/"
+    },
+    {
+     "titulo": "Rigzone (30-6-2026): productores de petróleo 2025 según el EI Statistical Review 2026",
+     "url": "https://www.rigzone.com/news/who_is_the_worlds_biggest_oil_producer-30-jun-2026-184023-article/"
+    },
+    {
+     "titulo": "Energy Institute: Statistical Review of World Energy 2026 (informe PDF)",
+     "url": "https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf"
+    },
+    {
+     "titulo": "bne IntelliNews (25-5-2026): Norway overtakes Russia as top gas pipeline exporter (IGU)",
+     "url": "https://www.intellinews.com/norway-overtakes-russia-as-world-s-top-gas-pipeline-exporter-444759/"
+    },
+    {
+     "titulo": "Consejo de la UE: Where does the EU's gas come from? (revisado el 13-4-2026)",
+     "url": "https://www.consilium.europa.eu/en/infographics/where-does-the-eu-s-gas-come-from/"
+    },
+    {
+     "titulo": "EIA: Country Analysis Brief Russia 2025",
+     "url": "https://www.eia.gov/international/content/analysis/countries_long/Russia/pdf/Russia%20CAB_2025.pdf"
+    },
+    {
+     "titulo": "Planète Énergies (datos BP): reservas mundiales de gas 2020",
+     "url": "https://planete-energies.com/en/media/figures/global-natural-gas-reserves"
+    }
+   ],
+   "apartado": "5.2.2 y 6.1",
+   "tema": "Energía y recursos",
+   "fecha": "2025 (datos); publicación junio de 2026",
+   "observaciones": "Cifras del Statistical Review reproducidas por Rigzone. El Energy Institute ya no publica reservas."
+  },
+  {
+   "id": "uranio",
+   "manual": "Kazajistán, primer productor mundial de uranio.",
+   "actual": "Kazajistán sigue siendo el primer productor: 23.270 t de uranio en 2024, el 39 % de la producción mundial.",
+   "nota": "Se mantiene la afirmación del manual.",
+   "fuente": "World Nuclear Association: World Uranium Mining Production",
+   "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production",
+   "fuentes": [
+    {
+     "titulo": "World Nuclear Association: World Uranium Mining Production",
+     "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+    }
+   ],
+   "apartado": "7.3.2",
+   "tema": "Energía y recursos",
+   "fecha": "2024 (página de la WNA actualizada el 23-10-2026)",
+   "observaciones": ""
+  },
+  {
+   "id": "gas-turkmenistan",
+   "manual": "4.º país por reservas de gas, 9,3 % de las mundiales.",
+   "actual": "Último dato homogéneo (BP, 2020): 13,6 billones de m³, el 7,2 % mundial, 4.º puesto. Con datos de Oil & Gas Journal (2025) sería el 5.º, con en torno al 5 %.",
+   "nota": "Turkmenistán sigue entre las primeras reservas del mundo; el porcentaje depende de la fuente.",
+   "fuente": "Planète Énergies (datos BP): reservas mundiales de gas 2020",
+   "url": "https://planete-energies.com/en/media/figures/global-natural-gas-reserves",
+   "fuentes": [
+    {
+     "titulo": "Planète Énergies (datos BP): reservas mundiales de gas 2020",
+     "url": "https://planete-energies.com/en/media/figures/global-natural-gas-reserves"
+    },
+    {
+     "titulo": "Bursa (11-7-2025, con datos OGJ/EIA): Russia, Iran and Qatar control 51% of reserves",
+     "url": "https://www.bursa.ro/russia-iran-and-qatar-control-51-procente-of-global-proven-natural-gas-reserves-04082655"
+    }
+   ],
+   "apartado": "7.3.1",
+   "tema": "Energía y recursos",
+   "fecha": "2020 (BP); 2025 (OGJ)",
+   "observaciones": ""
+  },
+  {
+   "id": "nuclear",
+   "manual": "Rusia 32 'centrales' (reactores) operativas, Ucrania 15.",
+   "actual": "Reactores en operación (World Nuclear Association, 16-10-2026): Rusia 34, Ucrania 15 (incluidos los 6 de Zaporiyia, bajo control ruso y parados desde 2022), Bielorrusia 2 (Ostrovets, nueva), Armenia 1. Kazajistán (contrato con Rosatom, 2026) y Uzbekistán (obras desde marzo de 2026) construyen sus primeras centrales.",
+   "nota": "La energía nuclear se expande con tecnología rusa; Zaporiyia, la mayor central de Europa, está en zona de guerra.",
+   "fuente": "WNA: World Nuclear Power Reactors & Uranium Requirements (16-10-2026)",
+   "url": "https://world-nuclear.org/information-library/facts-and-figures/world-nuclear-power-reactors-and-uranium-requireme",
+   "fuentes": [
+    {
+     "titulo": "WNA: World Nuclear Power Reactors & Uranium Requirements (16-10-2026)",
+     "url": "https://world-nuclear.org/information-library/facts-and-figures/world-nuclear-power-reactors-and-uranium-requireme"
+    },
+    {
+     "titulo": "WNA: Nuclear Power in Russia (28-10-2026)",
+     "url": "https://world-nuclear.org/Information-Library/Country-Profiles/Countries-O-S/Russia-Nuclear-Power"
+    },
+    {
+     "titulo": "Cyprus Mail/Reuters (28-5-2026): Rusia firma el contrato de la primera central de Kazajistán",
+     "url": "https://www.cyprus-mail.com/2026/05/28/russia-signs-16-5-billion-deal-to-build-first-nuclear-power-plant-in-kazakhstan"
+    },
+    {
+     "titulo": "Astana Times (2024): resultados oficiales del referéndum, 71 % a favor",
+     "url": "https://astanatimes.com/2024/10/kazakhstans-official-referendum-results-out-71-back-nuclear-power-plant-proposal/"
+    },
+    {
+     "titulo": "Kun.uz (25-3-2026): comienza la construcción de la unidad pequeña en Jizzaj",
+     "url": "https://kun.uz/en/news/2026/03/24/construction-of-small-capacity-nuclear-power-units-begins-in-jizzakh"
+    },
+    {
+     "titulo": "OIEA Update 346 (marzo de 2026), vía ReliefWeb",
+     "url": "https://reliefweb.int/report/ukraine/update-346-iaea-director-general-statement-situation-ukraine"
+    },
+    {
+     "titulo": "Reuters vía Internazionale (26-6-2026): reparada la línea de 750 kV de Zaporiyia",
+     "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/26/iaea-says-repairs-completed-on-key-power-line-at-zaporizhzhya-nuclear-plant"
+    },
+    {
+     "titulo": "OIEA Update 297 (20-6-2025): seis unidades en parada fría",
+     "url": "https://www.iaea.org/node/221363"
+    }
+   ],
+   "apartado": "5.2.3",
+   "tema": "Energía y recursos",
+   "fecha": "2026-10-16 (WNA); 2026-06-26 (OIEA)",
+   "observaciones": "El manual habla de «centrales»; las cifras se refieren a reactores."
+  },
+  {
+   "id": "remesas",
+   "manual": "Remesas = 40 % del PIB de Tayikistán.",
+   "actual": "Banco Mundial: las remesas equivalen al 57,7 % del PIB de Tayikistán en 2025, la mayor proporción del mundo, y al 17,6 % del de Kirguistán en 2024.",
+   "nota": "La dependencia de Tayikistán respecto de sus emigrantes en Rusia ha aumentado.",
+   "fuente": "API del Banco Mundial: Personal remittances, received (% of GDP), TJK y KGZ",
+   "url": "https://api.worldbank.org/v2/country/TJK;KGZ/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json&mrv=4",
+   "fuentes": [
+    {
+     "titulo": "API del Banco Mundial: Personal remittances, received (% of GDP), TJK y KGZ",
+     "url": "https://api.worldbank.org/v2/country/TJK;KGZ/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json&mrv=4"
+    },
+    {
+     "titulo": "Banco Mundial: indicador BX.TRF.PWKR.DT.GD.ZS",
+     "url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS"
+    }
+   ],
+   "apartado": "7.3.1",
+   "tema": "Población y ciudades",
+   "fecha": "2025 (TJK); 2024 (KGZ)",
+   "observaciones": ""
+  },
+  {
+   "id": "aral",
+   "manual": "Desecación del mar de Aral por el regadío del algodón.",
+   "actual": "El Aral está dividido en dos. El Aral Norte, en Kazajistán, se ha recuperado en parte gracias a la presa de Kokaral (2005) y ha vuelto la pesca; una segunda fase prevé recrecer la presa. El Aral Sur sigue en regresión y su lóbulo oriental está prácticamente seco.",
+   "nota": "Recuperación parcial en el norte; el desierto del Aralkum sigue avanzando en el sur.",
+   "fuente": "Times of Central Asia (22-1-2026): Astana accelerates Northern Aral Sea recovery plan",
+   "url": "https://timesca.com/astana-accelerates-northern-aral-sea-recovery-plan/",
+   "fuentes": [
+    {
+     "titulo": "Times of Central Asia (22-1-2026): Astana accelerates Northern Aral Sea recovery plan",
+     "url": "https://timesca.com/astana-accelerates-northern-aral-sea-recovery-plan/"
+    },
+    {
+     "titulo": "Times of Central Asia: Kazakhstan and World Bank launch second phase",
+     "url": "https://timesca.com/kazakhstan-and-world-bank-launch-second-phase-to-revive-northern-aral-sea/"
+    },
+    {
+     "titulo": "Global Voices (29-5-2026): How Kazakhstan resurrected the North Aral Sea",
+     "url": "https://globalvoices.org/2026/05/29/how-kazakhstan-resurrected-the-north-aral-sea/"
+    }
+   ],
+   "apartado": "3.1.1 y 4.3",
+   "tema": "Energía y recursos",
+   "fecha": "2026-01-22",
+   "observaciones": ""
+  },
+  {
+   "id": "g8-brics",
+   "manual": "Rusia expulsada del G8 en 2014.",
+   "actual": "La participación de Rusia en el G8 se suspendió el 24-3-2014 y nunca se ha restablecido. Rusia es miembro fundador de los BRICS, ampliados desde 2024; Bielorrusia, Kazajistán y Uzbekistán son países socios.",
+   "nota": "Rusia ha reorientado sus alianzas hacia los BRICS y Asia.",
+   "fuente": "Al Jazeera (24-3-2014): G7 nations suspend Russia and scrap G8 summit",
+   "url": "https://www.aljazeera.com/news/2014/3/24/g7-nations-suspend-russia-and-scrap-g8-summit",
+   "fuentes": [
+    {
+     "titulo": "Al Jazeera (24-3-2014): G7 nations suspend Russia and scrap G8 summit",
+     "url": "https://www.aljazeera.com/news/2014/3/24/g7-nations-suspend-russia-and-scrap-g8-summit"
+    },
+    {
+     "titulo": "Business Today (10-9-2026): BRICS decoded, miembros y socios",
+     "url": "https://www.businesstoday.in/india/story/bt-explainerbrics-decoded-the-origin-evolution-members-partners-and-future-of-the-summit-554110-2026-09-10"
+    }
+   ],
+   "apartado": "6.1",
+   "tema": "Integración y conflictos",
+   "fecha": "2026-09-10",
+   "observaciones": "Técnicamente fue una suspensión, no una expulsión."
+  }
+ ]
+}

@@ -42,7 +42,9 @@
           '<tr><td class="ap" data-t="Apartado">' + RM.esc(i.apartado) + '</td><td data-t="Manual">' + RM.esc(i.manual) +
           '</td><td data-t="Actualidad">' + RM.esc(i.actual) + '<span class="fuente">' + RM.esc(i.fecha) + "</span></td>" +
           '<td data-t="Qué ha cambiado">' + RM.esc(i.nota) +
-          '<span class="fuente">Fuente: ' + (i.url ? '<a href="' + RM.esc(i.url) + '">' + RM.esc(i.fuente) + "</a>" : RM.esc(i.fuente)) + "</span>" +
+          (i.fuentes && i.fuentes.length
+            ? '<span class="fuente">Fuentes: ' + i.fuentes.map((f) => '<a href="' + RM.esc(f.url) + '">' + RM.esc(f.titulo) + "</a>").join("; ") + "</span>"
+            : '<span class="fuente">Fuente: ' + (i.url ? '<a href="' + RM.esc(i.url) + '">' + RM.esc(i.fuente) + "</a>" : RM.esc(i.fuente)) + "</span>") +
           (i.observaciones ? '<span class="obs">' + RM.esc(i.observaciones) + "</span>" : "") + "</td></tr>").join("")).join("") +
         "</tbody></table></div>";
     } catch (e) { console.warn(e); }

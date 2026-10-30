@@ -1,0 +1,1197 @@
+{
+  "titulo": "Paisajes de Rusia y los Estados postsoviéticos",
+  "nota": "Las fotografías proceden de Wikimedia Commons y se cargan desde allí con su autor y su licencia.",
+  "paisajes": [
+    {
+      "id": "lesotundra-taz",
+      "titulo": "Tundra arbolada del norte de Siberia",
+      "lugar": "Península del Taz (Yamalia-Nenetsia)",
+      "pais": "Rusia",
+      "lat": 67.5,
+      "lon": 77.5,
+      "tolerancia": 400,
+      "estacion": "salejard",
+      "foto": {
+        "archivo": "File:Тазовская лесотундра.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/%D0%A2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B5%D1%81%D0%BE%D1%82%D1%83%D0%BD%D0%B4%D1%80%D0%B0.jpg/1920px-%D0%A2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B5%D1%81%D0%BE%D1%82%D1%83%D0%BD%D0%B4%D1%80%D0%B0.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B5%D1%81%D0%BE%D1%82%D1%83%D0%BD%D0%B4%D1%80%D0%B0.jpg",
+        "autor": "Sergey.vlad.popov",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Llanura con musgos y arbustos bajos de tonos ocres y algunos alerces aislados"
+      },
+      "mirar": [
+        "La vegetación baja de musgos, líquenes y arbustos, con tonos ocres y rojizos de otoño.",
+        "Los alerces aislados y raquíticos: estamos en el límite septentrional del bosque.",
+        "La línea oscura del bosque al fondo, donde la taiga empieza a ser continua.",
+        "El relieve completamente llano y encharcado de la llanura de Siberia Occidental."
+      ],
+      "koppen": "Dfc",
+      "distractores": [
+        "ET",
+        "Dwd",
+        "BSk"
+      ],
+      "clima": "Clima subártico (Dfc) en el límite de la tundra: inviernos larguísimos y muy fríos (−23,1 °C en el mes más frío en Salejard) y un verano corto en el que solo uno o dos meses superan los 10 °C (15,0 °C en julio). Precipitación escasa, 475 mm, con máximo en verano. El suelo está helado en profundidad (merzlota) y solo se deshiela una capa superficial en verano.",
+      "localizacion": "Norte de la llanura de Siberia Occidental, entre los golfos del Obi y del Taz, junto al círculo polar ártico.",
+      "preguntas": [
+        {
+          "id": "taz-limite",
+          "enunciado": "¿Qué indica la presencia de alerces aislados y raquíticos sobre la tundra?",
+          "opciones": [
+            {
+              "t": "Que es una zona de transición entre la tundra y la taiga: la tundra arbolada o lesotundra",
+              "r": "Hacia el sur los árboles se hacen más densos hasta formar la taiga; hacia el norte desaparecen.",
+              "ok": true
+            },
+            {
+              "t": "Que el bosque ha sido talado",
+              "r": "No hay tala: el límite es climático. Los árboles no pueden crecer más al norte porque el verano es demasiado frío y corto."
+            },
+            {
+              "t": "Que el suelo es muy fértil",
+              "r": "El suelo es pobre, helado en profundidad y encharcado en verano."
+            },
+            {
+              "t": "Que es un clima de montaña",
+              "r": "Es una llanura casi a nivel del mar."
+            }
+          ],
+          "explicacion": [
+            "El alerce es el árbol más resistente al frío extremo: pierde las hojas en invierno y sus raíces superficiales se adaptan a la capa activa que se deshiela sobre la merzlota."
+          ]
+        },
+        {
+          "id": "taz-economia",
+          "enunciado": "¿Qué actividad económica ha transformado este espacio desde los años setenta?",
+          "opciones": [
+            {
+              "t": "La extracción de gas natural y petróleo: aquí están los mayores yacimientos de gas de Rusia (Urengói, Yamal)",
+              "r": "El manual cita Urengói como primer yacimiento mundial. Junto a ellos siguen pastoreando renos los nenets.",
+              "ok": true
+            },
+            {
+              "t": "La agricultura cerealista",
+              "r": "El frío y el suelo helado impiden la agricultura."
+            },
+            {
+              "t": "La industria textil",
+              "r": "No hay industria de transformación: la actividad es extractiva y el gas se envía a miles de kilómetros."
+            },
+            {
+              "t": "El turismo de playa",
+              "r": "El mar está helado de 8 a 11 meses al año."
+            }
+          ],
+          "explicacion": [
+            "El gas se extrae en un medio hostil, a 2.000 o 3.000 km de los centros de consumo. Desde 2017 se exporta también como gas natural licuado desde Yamal."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Norte de la llanura de Siberia Occidental (península del Taz, 67° N), en la franja de transición entre la tundra y la taiga que recorre todo el norte de Rusia.",
+        "b": "Clima subártico (Dfc): inviernos de seis a ocho meses, con medias inferiores a −20 °C en los meses centrales, y verano muy corto y fresco, en torno a 14-15 °C en julio. Precipitación escasa, unos 500 mm, con máximo estival. Suelo helado permanentemente en profundidad (merzlota).",
+        "c": "Tundra arbolada: musgos, líquenes y arbustos con alerces aislados, en transición hacia la taiga. Pastoreo nómada de renos de los pueblos nenets y, sobre todo, explotación de los grandes yacimientos de gas y petróleo del Gran Norte."
+      },
+      "manual": "Apartados 3.3 y 5.2.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=gas",
+          "texto": "Producción de gas natural: Rusia en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "taiga-lena",
+      "titulo": "Taiga y pilares del Lena",
+      "lugar": "Pilares del Lena (Yakutia)",
+      "pais": "Rusia",
+      "lat": 61.0,
+      "lon": 127.5,
+      "tolerancia": 400,
+      "estacion": "yakutsk",
+      "foto": {
+        "archivo": "File:Lena Pillars 20050716 1.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Lena_Pillars_20050716_1.JPG/1920px-Lena_Pillars_20050716_1.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Lena_Pillars_20050716_1.JPG",
+        "autor": "ZankaM",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Río ancho al pie de grandes pilares de roca caliza, con bosque de coníferas en las laderas"
+      },
+      "mirar": [
+        "El bosque continuo de coníferas (alerces y pinos) que cubre las laderas.",
+        "Los pilares de roca caliza, esculpidos por la erosión y el ciclo de hielo y deshielo.",
+        "El río Lena, ancho y de curso tranquilo: helado más de seis meses al año.",
+        "La ausencia de pueblos y de campos de cultivo."
+      ],
+      "koppen": "Dfc",
+      "distractores": [
+        "Dfd",
+        "Dwb",
+        "ET"
+      ],
+      "clima": "Clima subártico extremadamente continental. En Yakutsk el mes más frío baja a −37,0 °C y el más cálido sube a 19,9 °C: una amplitud de 56,9 °C, de las mayores del mundo. Llueve muy poco (233 mm), sobre todo en verano. Es la «hipercontinentalidad» del manual.",
+      "notaKoppen": "Yakutsk, a unos 100 km, roza el umbral de −38 °C en enero que define la tercera letra d (invierno extremo), propia del valle del Yana en torno a Verjoyansk.",
+      "localizacion": "Siberia Oriental, en el valle medio del Lena, río arriba de Yakutsk.",
+      "preguntas": [
+        {
+          "id": "lena-taiga",
+          "enunciado": "¿Por qué el árbol más común de esta taiga es el alerce?",
+          "opciones": [
+            {
+              "t": "Porque pierde las hojas en invierno y resiste mejor que ningún otro árbol el frío extremo y el suelo helado",
+              "r": "El manual señala que en la taiga oriental el rigor del invierno limita la variedad de árboles, y los más típicos son el alerce y el abeto rojo.",
+              "ok": true
+            },
+            {
+              "t": "Porque necesita mucha lluvia",
+              "r": "Aquí llueve muy poco; el alerce se adapta precisamente a la sequedad."
+            },
+            {
+              "t": "Porque se plantó para la industria papelera",
+              "r": "Es un bosque natural."
+            },
+            {
+              "t": "Porque crece sobre suelos muy fértiles",
+              "r": "Los suelos de la taiga son pobres y ácidos."
+            }
+          ],
+          "explicacion": [
+            "El permafrost (merzlota) ocupa más de la mitad del Asia rusa. Solo se deshiela en verano una capa superficial de unos metros, que es donde viven las raíces."
+          ]
+        },
+        {
+          "id": "lena-poblamiento",
+          "enunciado": "¿Cómo es el poblamiento de esta parte de Siberia?",
+          "opciones": [
+            {
+              "t": "Un inmenso vacío humano, con densidades de 1 hab./km² y núcleos aislados ligados a la minería o al transporte fluvial",
+              "r": "Yakutia es la mayor división administrativa de Rusia y tiene en torno a un millón de habitantes. Su riqueza es minera: diamantes, oro, carbón.",
+              "ok": true
+            },
+            {
+              "t": "Una red densa de pueblos agrícolas",
+              "r": "La agricultura apenas es posible con este clima."
+            },
+            {
+              "t": "Grandes ciudades industriales como en los Urales",
+              "r": "La industria siberiana se concentra en el sur, a lo largo del Transiberiano."
+            },
+            {
+              "t": "Un poblamiento disperso de granjas ganaderas",
+              "r": "Hay ganadería de renos y caballos yakutos, pero muy extensiva."
+            }
+          ],
+          "explicacion": [
+            "El manual habla de «islotes de actividad» alineados a lo largo del Transiberiano y del BAM y de inmensos vacíos en el Gran Norte y el Extremo Oriente."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Valle del Lena, en Siberia Oriental (República de Sajá-Yakutia), hacia los 61° N, unos 100 km al sur de Yakutsk.",
+        "b": "Clima subártico hipercontinental: inviernos larguísimos y de frío extremo (unos −37 °C en enero), veranos cortos pero cálidos (unos 20 °C en julio), con una amplitud térmica de casi 57 °C, y precipitaciones muy escasas (unos 230 mm), sobre todo estivales. Suelo helado en profundidad.",
+        "c": "Taiga oriental de alerces y pinos sobre permafrost, con relieves de calizas modelados por la erosión. Densidad de población muy baja; minería (diamantes, oro, carbón), explotación forestal y transporte fluvial en verano."
+      },
+      "manual": "Apartados 3.2 y 3.3",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climogramas de Yakutsk y Verjoyansk"
+        }
+      ]
+    },
+    {
+      "id": "baikal",
+      "titulo": "Lago Baikal",
+      "lugar": "Orilla occidental del Baikal, cerca de Bolshoe Goloustnoe",
+      "pais": "Rusia",
+      "lat": 51.95,
+      "lon": 105.26,
+      "tolerancia": 300,
+      "estacion": "irkutsk",
+      "foto": {
+        "archivo": "File:Большая Байкальская тропа недалеко от посёлка Большое Голоустное.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D0%91%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B0%D0%BB%D0%B5%D0%BA%D0%BE_%D0%BE%D1%82_%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BA%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%93%D0%BE%D0%BB%D0%BE%D1%83%D1%81%D1%82%D0%BD%D0%BE%D0%B5.jpg/1920px-%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D0%91%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B0%D0%BB%D0%B5%D0%BA%D0%BE_%D0%BE%D1%82_%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BA%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%93%D0%BE%D0%BB%D0%BE%D1%83%D1%81%D1%82%D0%BD%D0%BE%D0%B5.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D0%91%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D0%BF%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B0%D0%BB%D0%B5%D0%BA%D0%BE_%D0%BE%D1%82_%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BA%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5_%D0%93%D0%BE%D0%BB%D0%BE%D1%83%D1%81%D1%82%D0%BD%D0%BE%D0%B5.jpg",
+        "autor": "Veteran hiker",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Pinos y abedules en la orilla de un gran lago, con montañas al fondo"
+      },
+      "mirar": [
+        "El bosque de pinos y abedules de la ladera.",
+        "La extensión del lago, que se pierde en el horizonte.",
+        "Las montañas de la orilla opuesta: el lago ocupa una fosa tectónica.",
+        "El sotobosque rojizo de otoño."
+      ],
+      "koppen": "Dwb",
+      "distractores": [
+        "Dfb",
+        "Cfb",
+        "BSk"
+      ],
+      "clima": "Clima continental de invierno seco (Dwb). En Irkutsk el mes más frío está a −17,6 °C y el más cálido a 19,0 °C; la precipitación, 477 mm, se concentra en verano (julio es el mes más lluvioso) y el invierno es muy seco porque lo domina el anticiclón siberiano. El lago se hiela de enero a mayo.",
+      "localizacion": "Sur de Siberia Oriental, al este de Irkutsk, en una de las fosas del escudo siberiano.",
+      "preguntas": [
+        {
+          "id": "baikal-origen",
+          "enunciado": "¿Qué origen tiene el lago Baikal?",
+          "opciones": [
+            {
+              "t": "Ocupa una fosa tectónica: su fondo está a más de 1.000 m bajo el nivel del mar y es el lago más profundo del mundo",
+              "r": "El manual cita un fondo a 1.300 m bajo el nivel del mar, con las orillas a 455 m sobre él. Contiene en torno a una quinta parte del agua dulce superficial no helada del planeta.",
+              "ok": true
+            },
+            {
+              "t": "Es un lago glaciar, como los de Finlandia",
+              "r": "Los lagos glaciares son poco profundos; el Baikal es una fosa de origen tectónico."
+            },
+            {
+              "t": "Es un cráter volcánico",
+              "r": "No hay vulcanismo; es una fosa de hundimiento."
+            },
+            {
+              "t": "Es un embalse artificial",
+              "r": "Es natural. Los embalses están en el Angará, el río que sale del lago."
+            }
+          ],
+          "explicacion": [
+            "Del Baikal nace el Angará, cuyas presas (Irkutsk, Bratsk, Ust-Ilimsk) alimentan la metalurgia del aluminio y la industria de la celulosa."
+          ]
+        },
+        {
+          "id": "baikal-industria",
+          "enunciado": "¿Qué industria se instaló junto al Angará, el río que nace del Baikal, y por qué?",
+          "opciones": [
+            {
+              "t": "La metalurgia del aluminio y la celulosa, atraídas por la electricidad abundante y barata de las grandes presas",
+              "r": "El manual explica que fabricar aluminio fue la mejor forma de aprovechar los enormes recursos hidroeléctricos de Siberia, muy alejados de los centros de consumo.",
+              "ok": true
+            },
+            {
+              "t": "La industria textil, por la abundancia de algodón",
+              "r": "El algodón se cultiva en Asia Central, no en Siberia."
+            },
+            {
+              "t": "Los astilleros, por la salida al mar",
+              "r": "El Baikal está a miles de kilómetros del mar."
+            },
+            {
+              "t": "La industria del automóvil, por la cercanía al mercado",
+              "r": "Es una región alejada de los grandes mercados."
+            }
+          ],
+          "explicacion": [
+            "La fábrica de celulosa de Baikalsk, en la orilla sur, fue durante décadas un símbolo de la contaminación del lago; cerró en 2013."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Orilla occidental del lago Baikal, en el sur de Siberia Oriental (52° N), al este de Irkutsk.",
+        "b": "Clima continental de invierno seco (Dwb): inviernos muy fríos y secos por el anticiclón siberiano, veranos templados con lluvias tormentosas. Precipitación escasa, unos 480 mm, con máximo en julio y agosto. El lago, por su masa de agua, suaviza algo las temperaturas de la orilla.",
+        "c": "Taiga de pinos, alerces y abedules en las laderas de una fosa tectónica ocupada por el lago más profundo del mundo. Hidroelectricidad en el Angará, metalurgia del aluminio y celulosa, pesca y turismo de naturaleza."
+      },
+      "manual": "Apartados 3.1.2 y 6.2.3",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=hidraulica",
+          "texto": "Producción hidroeléctrica"
+        }
+      ]
+    },
+    {
+      "id": "aldea-rusa",
+      "titulo": "Aldea rusa en invierno",
+      "lugar": "Mga, región de Leningrado",
+      "pais": "Rusia",
+      "lat": 59.75,
+      "lon": 31.0,
+      "tolerancia": 400,
+      "estacion": "sanpetersburgo",
+      "foto": {
+        "archivo": "File:Winter in village Mga.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Winter_in_village_Mga.jpg/1920px-Winter_in_village_Mga.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Winter_in_village_Mga.jpg",
+        "autor": "Petr Savchenko",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "alt": "Casa de madera con el tejado cubierto de nieve, valla de madera y bosque de abetos"
+      },
+      "mirar": [
+        "La nieve espesa que cubre tejados y huertos: el manto dura cuatro o cinco meses.",
+        "Las casas de madera, material abundante en la región del bosque.",
+        "Los abetos y abedules: el bosque mixto y la taiga meridional.",
+        "Las parcelas cercadas: huertos y casas de veraneo (dachas) de los habitantes de la ciudad."
+      ],
+      "koppen": "Dfb",
+      "distractores": [
+        "Cfb",
+        "Dwc",
+        "ET"
+      ],
+      "clima": "Clima continental de tipo centroeuropeo (Dfb). En S. Petersburgo el mes más frío está a −5,0 °C y el más cálido a 19,1 °C. La precipitación, 668 mm, es suficiente todo el año, con máximo en verano; en invierno cae en forma de nieve. Es el clima más húmedo y menos extremo del territorio, por la cercanía del Báltico.",
+      "localizacion": "Noroeste de la Rusia europea, unos 40 km al este de San Petersburgo.",
+      "preguntas": [
+        {
+          "id": "aldea-region",
+          "enunciado": "Según el manual, ¿qué región agraria ocupa el noroeste de la Rusia europea, del Báltico a los Urales?",
+          "opciones": [
+            {
+              "t": "Una región de policultivo en el bosque roturado, con centeno, avena, lino y patata, y pueblos de casas de madera (isbas)",
+              "r": "Es la región agraria 1 del manual. Hoy muchos pueblos se han convertido en lugares de segunda residencia para los habitantes de las ciudades.",
+              "ok": true
+            },
+            {
+              "t": "Una región de grandes campos de trigo sobre tierras negras",
+              "r": "Las tierras negras están más al sur, en Ucrania y el sur de Rusia."
+            },
+            {
+              "t": "Una región de regadío de algodón",
+              "r": "El algodón se cultiva en los oasis de Asia Central."
+            },
+            {
+              "t": "Una región de cultivos subtropicales",
+              "r": "Eso corresponde a la franja meridional, de Moldavia a Azerbaiyán."
+            }
+          ],
+          "explicacion": [
+            "El manual señala que la franja rural del norte evoluciona hacia su conversión en espacio de ocio para los habitantes de las regiones industriales."
+          ]
+        },
+        {
+          "id": "aldea-dacha",
+          "enunciado": "Las parcelas cercadas de la foto pertenecen a una asociación de huertos de verano. ¿Qué papel tienen las dachas en Rusia?",
+          "opciones": [
+            {
+              "t": "Son segundas residencias con huerto, muy extendidas entre los habitantes de las ciudades, que pasan allí los fines de semana del verano",
+              "r": "Durante la crisis de los noventa los huertos de las dachas fueron una fuente importante de alimentos para muchas familias urbanas.",
+              "ok": true
+            },
+            {
+              "t": "Son grandes explotaciones agrícolas de exportación",
+              "r": "Son parcelas pequeñas de uso familiar."
+            },
+            {
+              "t": "Son viviendas de los trabajadores del petróleo",
+              "r": "Están en torno a las grandes ciudades, no en las zonas petroleras."
+            },
+            {
+              "t": "Son granjas colectivas de la época soviética",
+              "r": "Los koljoses eran explotaciones colectivas; las dachas son de uso privado."
+            }
+          ],
+          "explicacion": [
+            "Las legumbres y hortalizas, dice el manual, proceden en buena parte de los huertos situados cerca de las ciudades."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Región de Leningrado, unos 40 km al este de San Petersburgo, en el noroeste de la Rusia europea (60° N).",
+        "b": "Clima continental de tipo centroeuropeo (Dfb): inviernos fríos y nivosos (unos −5 °C en enero y febrero) y veranos templados (unos 19 °C en julio). Precipitación moderada, en torno a 650 mm, repartida todo el año con máximo en verano. Es la variante más suave del clima continental, por la influencia del Báltico.",
+        "c": "Bosque mixto y taiga meridional de abetos y abedules, ampliamente roturado. Policultivo de centeno, avena, patata y lino, ganadería, explotación forestal, y transformación de los pueblos en lugares de segunda residencia (dachas) de los habitantes de San Petersburgo."
+      },
+      "manual": "Apartados 3.2.3, 4.3 y 6.2.1",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climogramas de San Petersburgo y Moscú"
+        }
+      ]
+    },
+    {
+      "id": "estepa-kazaja",
+      "titulo": "Estepa kazaja de las tierras vírgenes",
+      "lugar": "Estepa de Akmola, al norte de Astaná",
+      "pais": "Kazajistán",
+      "lat": 51.6,
+      "lon": 71.3,
+      "tolerancia": 400,
+      "estacion": "astana",
+      "foto": {
+        "archivo": "File:Astana-steppe-7748.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Astana-steppe-7748.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Astana-steppe-7748.jpg",
+        "autor": "Vmenkov",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Llanura de gramíneas sin árboles hasta el horizonte"
+      },
+      "mirar": [
+        "La llanura sin árboles, cubierta de gramíneas.",
+        "El horizonte perfectamente plano.",
+        "Las manchas rojizas de suelos salinos.",
+        "La ausencia de pueblos y de cercas: una ocupación muy extensiva."
+      ],
+      "koppen": "Dfb",
+      "distractores": [
+        "BSk",
+        "Cfa",
+        "BWk"
+      ],
+      "clima": "Clima continental muy seco, en el límite de la estepa (Dfb, muy próximo al BSk). En Astaná el mes más frío está a −14,5 °C y el más cálido a 20,6 °C, con una amplitud de 35,1 °C. Llueve poco, 337 mm, sobre todo a comienzos del verano. Las sequías y los vientos fuertes son frecuentes.",
+      "notaKoppen": "Con tan poca lluvia, Astaná está en el límite entre el clima continental húmedo (Dfb) y el estepario (BSk): una sequía basta para que las cosechas fracasen.",
+      "localizacion": "Norte de Kazajistán, en el centro de la región de las «tierras vírgenes».",
+      "preguntas": [
+        {
+          "id": "estepa-tierras-virgenes",
+          "enunciado": "¿Qué fueron las «tierras vírgenes»?",
+          "opciones": [
+            {
+              "t": "Unos 30 millones de hectáreas de estepa roturadas entre 1954 y 1964 por iniciativa de Jruschov para cultivar trigo",
+              "r": "Llegaron centenares de miles de colonos rusos y ucranianos. Hoy el norte de Kazajistán produce trigo de primavera en grandes explotaciones mecanizadas, con rendimientos bajos e irregulares.",
+              "ok": true
+            },
+            {
+              "t": "Bosques talados para crear pastos",
+              "r": "La estepa no tenía árboles."
+            },
+            {
+              "t": "Tierras ganadas al mar Caspio",
+              "r": "Están a más de 1.500 km del Caspio."
+            },
+            {
+              "t": "Oasis de regadío para el algodón",
+              "r": "El algodón está más al sur, en Uzbekistán y Turkmenistán."
+            }
+          ],
+          "explicacion": [
+            "El manual las describe como una «agricultura a la americana»: monocultivo cerealista extensivo de bajos rendimientos."
+          ]
+        },
+        {
+          "id": "estepa-astana",
+          "enunciado": "¿Por qué Kazajistán trasladó en 1997 su capital desde Almaty a Astaná, en esta estepa?",
+          "opciones": [
+            {
+              "t": "Para reforzar la cohesión del país, situando la capital en el norte, poblado en gran parte por rusos y cercano a las tierras vírgenes",
+              "r": "Almaty está en el extremo sureste, junto a la frontera china. Astaná ha pasado de menos de 300.000 habitantes en 1990 a más de 1,4 millones.",
+              "ok": true
+            },
+            {
+              "t": "Porque Almaty fue destruida por un terremoto",
+              "r": "Almaty sigue siendo la mayor ciudad del país."
+            },
+            {
+              "t": "Porque Astaná tenía mejor clima",
+              "r": "Astaná es una de las capitales más frías del mundo."
+            },
+            {
+              "t": "Para acercarla al mar Caspio y al petróleo",
+              "r": "El Caspio está a más de 1.500 km."
+            }
+          ],
+          "explicacion": [
+            "Astaná se llamó Nur-Sultán entre 2019 y 2022."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Estepa del norte de Kazajistán (provincia de Akmola, 51° N), en torno a Astaná. Las estepas se extienden de Ucrania a Mongolia.",
+        "b": "Clima continental seco: inviernos muy fríos (unos −15 °C en enero) y veranos cálidos (unos 21 °C), gran amplitud térmica y precipitaciones escasas (unos 330 mm), con máximo a comienzos del verano. Sequías y vientos fuertes frecuentes.",
+        "c": "Estepa de gramíneas sobre suelos castaños, en parte salinos. Ganadería ovina extensiva y, desde los años cincuenta, cultivo extensivo de trigo de primavera en las tierras vírgenes roturadas, con rendimientos bajos e irregulares."
+      },
+      "manual": "Apartados 4.3 y 7.3.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=trigo",
+          "texto": "Producción de trigo: Rusia y Kazajistán"
+        }
+      ]
+    },
+    {
+      "id": "mar-aral",
+      "titulo": "El mar de Aral desecado",
+      "lugar": "Bahía de Zhalanash, cerca de Aralsk",
+      "pais": "Kazajistán",
+      "lat": 46.0,
+      "lon": 61.4,
+      "tolerancia": 300,
+      "estacion": "kazalinsk",
+      "foto": {
+        "archivo": "File:The Aral sea is drying up. Bay of Zhalanash, Ship Cemetery, Aralsk, Kazakhstan.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/The_Aral_sea_is_drying_up._Bay_of_Zhalanash%2C_Ship_Cemetery%2C_Aralsk%2C_Kazakhstan.jpg/1920px-The_Aral_sea_is_drying_up._Bay_of_Zhalanash%2C_Ship_Cemetery%2C_Aralsk%2C_Kazakhstan.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:The_Aral_sea_is_drying_up._Bay_of_Zhalanash%2C_Ship_Cemetery%2C_Aralsk%2C_Kazakhstan.jpg",
+        "autor": "Zhanat Kulenov",
+        "licencia": "CC BY-SA 3.0 IGO",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+        "alt": "Barco oxidado varado en una llanura de arena y sal donde antes había mar"
+      },
+      "mirar": [
+        "El barco varado en tierra firme, lejos del agua.",
+        "El fondo marino convertido en una llanura de arena y costras de sal.",
+        "La vegetación rala de arbustos que coloniza el antiguo lecho.",
+        "La ausencia total de agua a la vista."
+      ],
+      "koppen": "BWk",
+      "distractores": [
+        "BSk",
+        "Csa",
+        "Dfb"
+      ],
+      "clima": "Clima desértico frío (BWk), la degradación árida del clima continental. En Kazalinsk el mes más frío está a −8,9 °C y el más cálido a 26,9 °C; la amplitud térmica es de 35,8 °C y llueven solo 130 mm al año. Es la estación de Kazalinsk que el manual pone como ejemplo de continental árido.",
+      "localizacion": "Orilla noreste del antiguo mar de Aral, en el sur de Kazajistán, junto a la desembocadura del Sir Daria.",
+      "preguntas": [
+        {
+          "id": "aral-causa",
+          "enunciado": "¿Por qué se ha secado el mar de Aral?",
+          "opciones": [
+            {
+              "t": "Porque desde los años sesenta se desvió el agua del Amu Daria y del Sir Daria para regar los campos de algodón de Asia Central",
+              "r": "El mar llegó a perder más del 80 % de su superficie y se dividió en varios lagos. Es una de las mayores catástrofes ambientales del siglo XX.",
+              "ok": true
+            },
+            {
+              "t": "Por un cambio climático natural que redujo las lluvias",
+              "r": "La causa principal es humana: el regadío."
+            },
+            {
+              "t": "Por la extracción de petróleo bajo el mar",
+              "r": "No es la causa del desecamiento."
+            },
+            {
+              "t": "Por un terremoto que abrió una salida al Caspio",
+              "r": "El Aral es un lago cerrado; no hubo tal terremoto."
+            }
+          ],
+          "explicacion": [
+            "El polvo salino y cargado de pesticidas del antiguo lecho afecta a la salud de la población. En la parte kazaja, la presa de Kokaral (2005) ha permitido recuperar el pequeño Aral del norte y su pesca."
+          ]
+        },
+        {
+          "id": "aral-regadio",
+          "enunciado": "El manual dice que el regadío de Asia Central produce la mayor parte del algodón. ¿Qué lección deja el Aral sobre ese modelo?",
+          "opciones": [
+            {
+              "t": "Que un regadío masivo en un clima árido puede agotar los recursos hídricos y destruir ecosistemas enteros",
+              "r": "La URSS fue el primer productor mundial de algodón a costa del Aral. Hoy Uzbekistán y Turkmenistán siguen dependiendo de esos ríos.",
+              "ok": true
+            },
+            {
+              "t": "Que el regadío no tiene ningún impacto ambiental",
+              "r": "El Aral demuestra lo contrario."
+            },
+            {
+              "t": "Que el algodón necesita poca agua",
+              "r": "El algodón es un cultivo muy exigente en agua."
+            },
+            {
+              "t": "Que el problema se resolvió en los años noventa",
+              "r": "La parte sur del Aral sigue secándose."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Orilla noreste del antiguo mar de Aral, cerca de Aralsk, en el sur de Kazajistán (46° N), en la depresión aralo-caspiana.",
+        "b": "Clima desértico continental (BWk): inviernos fríos (unos −9 °C en enero), veranos muy calurosos (unos 27 °C en julio), amplitud térmica de unos 36 °C y precipitaciones muy escasas, en torno a 130 mm.",
+        "c": "Desierto de arena y costras salinas (Aralkum) sobre el antiguo fondo marino, con matorral halófilo. La pesca, antes importante, desapareció con el mar; se ha recuperado en parte en el pequeño Aral del norte. Es la consecuencia del regadío masivo del algodón en el Amu Daria y el Sir Daria."
+      },
+      "manual": "Apartados 3.1.1, 3.2.3 y 4.3",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=algodon",
+          "texto": "Producción de algodón: Asia Central en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "algodon-fergana",
+      "titulo": "Algodonal en el valle de Fergana",
+      "lugar": "Valle de Fergana, al oeste de la ciudad de Fergana",
+      "pais": "Uzbekistán",
+      "lat": 40.4,
+      "lon": 71.6,
+      "tolerancia": 300,
+      "estacion": "fergana",
+      "foto": {
+        "archivo": "File:Cotton field ferghana.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Cotton_field_ferghana.JPG/1920px-Cotton_field_ferghana.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cotton_field_ferghana.JPG",
+        "autor": "Man77",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Campo de algodón con cápsulas abiertas y recolectores al fondo"
+      },
+      "mirar": [
+        "Las plantas de algodón con las cápsulas blancas abiertas: es la época de la cosecha.",
+        "Los recolectores al fondo: buena parte de la cosecha se hace a mano.",
+        "La llanura aluvial, regada, en un clima árido.",
+        "La densidad de ocupación: Fergana es uno de los valles más poblados de Asia Central."
+      ],
+      "koppen": "BWk",
+      "distractores": [
+        "Csa",
+        "Cfa",
+        "Dfb"
+      ],
+      "clima": "Clima desértico continental de veranos muy calurosos. En Fergana el mes más frío está a 0,5 °C y el más cálido a 27,9 °C; llueven solo 187 mm, casi nada en verano. Sin regadío no habría agricultura posible: el agua llega de las montañas del Tian Shan y del Alái por el Sir Daria y sus afluentes.",
+      "notaKoppen": "El fondo del valle es árido; las montañas que lo rodean reciben más lluvia y nieve, que alimentan los ríos.",
+      "localizacion": "Valle de Fergana, en el este de Uzbekistán, rodeado por las montañas del Tian Shan y del Alái y repartido entre Uzbekistán, Kirguistán y Tayikistán.",
+      "preguntas": [
+        {
+          "id": "fergana-oasis",
+          "enunciado": "¿Qué tipo de agricultura es esta?",
+          "opciones": [
+            {
+              "t": "Una agricultura intensiva de oasis y regadío, que produce la mayor parte del algodón, el arroz y la fruta de Asia Central",
+              "r": "Es la región agraria 5 del manual, que la opone a la ganadería ovina de secano de las estepas.",
+              "ok": true
+            },
+            {
+              "t": "Una agricultura de secano extensiva, como la de las tierras vírgenes",
+              "r": "Aquí no se puede cultivar sin regar."
+            },
+            {
+              "t": "Una agricultura de policultivo en claros del bosque",
+              "r": "No hay bosque: es un valle árido."
+            },
+            {
+              "t": "Una ganadería de renos",
+              "r": "Eso es propio del Gran Norte."
+            }
+          ],
+          "explicacion": [
+            "En los valles regados se superan los 100-200 hab./km²; la población se acumula en el campo."
+          ]
+        },
+        {
+          "id": "fergana-algodon",
+          "enunciado": "La URSS fue el primer productor mundial de algodón. ¿Qué ha cambiado en Uzbekistán después de la independencia?",
+          "opciones": [
+            {
+              "t": "Sigue siendo un gran productor, pero ha reducido la superficie de algodón en favor de cereales, frutas y hortalizas, y ha eliminado el trabajo forzoso en la cosecha",
+              "r": "Durante décadas los estudiantes y funcionarios eran movilizados para recoger algodón; desde 2022 la Organización Internacional del Trabajo considera erradicado ese sistema.",
+              "ok": true
+            },
+            {
+              "t": "Ha abandonado por completo el algodón",
+              "r": "Sigue entre los grandes productores mundiales."
+            },
+            {
+              "t": "Ha multiplicado la superficie de algodón",
+              "r": "La tendencia ha sido la contraria."
+            },
+            {
+              "t": "Ha pasado a cultivar algodón de secano",
+              "r": "El algodón aquí solo es posible con regadío."
+            }
+          ],
+          "explicacion": [
+            "Comparad la producción de algodón de 1990 (URSS) con la actual en el motor de producciones y recursos."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Valle de Fergana, en el este de Uzbekistán (40° N), en Asia Central, rodeado por el Tian Shan y el Alái.",
+        "b": "Clima desértico continental: inviernos frescos (en torno a 0 °C), veranos muy calurosos (unos 28 °C en julio) y precipitaciones muy escasas (menos de 200 mm), casi nulas en verano. El agua procede del deshielo de las montañas.",
+        "c": "Oasis de regadío sobre la llanura aluvial del Sir Daria: algodón, arroz, frutales, hortalizas y moreras. Densidad de población muy alta y predominio de la población rural. Problemas de salinización del suelo y de reparto del agua entre los Estados del valle."
+      },
+      "manual": "Apartados 4.2, 4.3 y 7.3.1",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=algodon",
+          "texto": "Producción de algodón"
+        }
+      ]
+    },
+    {
+      "id": "petroleo-baku",
+      "titulo": "Petróleo en Bakú",
+      "lugar": "Absherón, Bakú",
+      "pais": "Azerbaiyán",
+      "lat": 40.37,
+      "lon": 49.85,
+      "tolerancia": 250,
+      "estacion": "baku",
+      "foto": {
+        "archivo": "File:Oil pump in Baku.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Oil_pump_in_Baku.jpg/1920px-Oil_pump_in_Baku.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Oil_pump_in_Baku.jpg",
+        "autor": "Gulustan",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Bomba de extracción de petróleo sobre un terreno árido, con los edificios de Bakú al fondo"
+      },
+      "mirar": [
+        "La bomba de varilla (el «caballito») que extrae petróleo de un pozo.",
+        "El terreno árido, sin vegetación, removido por más de un siglo de explotación.",
+        "La ciudad de Bakú al fondo, que creció con el petróleo.",
+        "La convivencia de los pozos con los barrios de la ciudad."
+      ],
+      "koppen": "BSk",
+      "distractores": [
+        "Csa",
+        "BWh",
+        "Cfa"
+      ],
+      "clima": "Clima semiárido (BSk). En Bakú (Parsabad) el mes más frío está a 3,4 °C y el más cálido a 27,2 °C; llueven unos 270 mm, sobre todo en otoño e invierno, y el verano es seco. Bakú es famosa por sus vientos fuertes del norte.",
+      "localizacion": "Península de Absherón, en la orilla occidental del mar Caspio.",
+      "preguntas": [
+        {
+          "id": "baku-primer",
+          "enunciado": "¿Por qué el manual llama a Bakú el «primer Bakú»?",
+          "opciones": [
+            {
+              "t": "Porque fue la primera gran región petrolera del imperio ruso y de la URSS: explotada desde 1873, en 1900 era el primer yacimiento del mundo",
+              "r": "Los yacimientos posteriores se nombraron por comparación: el Segundo Bakú (Volga-Urales), el Tercero (Siberia Occidental) y el Cuarto (Kazajistán).",
+              "ok": true
+            },
+            {
+              "t": "Porque es la primera ciudad de Azerbaiyán por población",
+              "r": "Lo es, pero el nombre se refiere al petróleo."
+            },
+            {
+              "t": "Porque es la ciudad más antigua del Caspio",
+              "r": "El nombre se refiere a la historia del petróleo."
+            },
+            {
+              "t": "Porque fue la primera capital de la URSS",
+              "r": "La capital soviética fue Moscú (desde 1918)."
+            }
+          ],
+          "explicacion": [
+            "Hoy la producción se hace sobre todo en el mar, en los grandes campos de Azeri-Chirag-Guneshli, y se exporta por el oleoducto Bakú-Tiflis-Ceyhan sin pasar por Rusia."
+          ]
+        },
+        {
+          "id": "baku-dependencia",
+          "enunciado": "Según el manual, ¿qué peso tiene el petróleo en la economía de Azerbaiyán?",
+          "opciones": [
+            {
+              "t": "Enorme: en torno al 95 % de las exportaciones, la mitad del PIB y el 70 % de los ingresos del Estado",
+              "r": "Por eso el país intenta diversificar su economía hacia la agricultura y el turismo.",
+              "ok": true
+            },
+            {
+              "t": "Es una actividad secundaria frente a la industria textil",
+              "r": "El petróleo es la base de la economía."
+            },
+            {
+              "t": "Solo abastece al mercado interior",
+              "r": "La mayor parte se exporta."
+            },
+            {
+              "t": "Se agotó en los años cuarenta",
+              "r": "La producción marina creció mucho desde 2002."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Península de Absherón, junto a Bakú, en la orilla occidental del Caspio (40° N), en Azerbaiyán.",
+        "b": "Clima semiárido (BSk): inviernos suaves (unos 4 °C en enero), veranos calurosos y secos (unos 27 °C en julio) y precipitaciones escasas, entre 200 y 300 mm, concentradas en otoño, invierno y primavera. Vientos fuertes.",
+        "c": "Estepa semiárida muy alterada por más de un siglo de explotación petrolera. Petróleo y gas, refino y petroquímica; hoy la producción se ha desplazado al mar Caspio y se exporta por oleoductos hacia Turquía y Georgia."
+      },
+      "manual": "Apartados 5.2.2 y 7.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=petroleo",
+          "texto": "Producción de petróleo"
+        },
+        {
+          "pagina": "recursos.html",
+          "ancla": "energia",
+          "texto": "Balance energético de Azerbaiyán"
+        }
+      ]
+    },
+    {
+      "id": "te-guria",
+      "titulo": "Plantaciones de té en Georgia",
+      "lugar": "Guria, oeste de Georgia",
+      "pais": "Georgia",
+      "lat": 41.95,
+      "lon": 42.05,
+      "tolerancia": 250,
+      "estacion": "batumi",
+      "foto": {
+        "archivo": "File:Camellia sinensis bushes in Guria, Georgia.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Camellia_sinensis_bushes_in_Guria%2C_Georgia.jpg/1920px-Camellia_sinensis_bushes_in_Guria%2C_Georgia.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Camellia_sinensis_bushes_in_Guria%2C_Georgia.jpg",
+        "autor": "Giorgi Abdaladze",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Hileras de arbustos de té bajo árboles altos"
+      },
+      "mirar": [
+        "Los arbustos de té, podados en hileras para facilitar la recolección.",
+        "El verde intenso de la vegetación: no hay estación seca.",
+        "Los árboles altos que dan sombra al cultivo.",
+        "La humedad del ambiente, propia de la llanura de la Cólquida."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Csa",
+        "Dfb",
+        "BSk"
+      ],
+      "clima": "Clima subtropical húmedo (Cfa). En Batumi el mes más frío está a 5,4 °C y el más cálido a 23,2 °C, y llueven nada menos que 2.519 mm, repartidos todo el año. El Gran Cáucaso protege esta fachada del mar Negro del aire polar, y los vientos húmedos del oeste descargan contra las montañas.",
+      "localizacion": "Oeste de Georgia, entre la llanura de la Cólquida y el Cáucaso Menor, cerca del mar Negro.",
+      "preguntas": [
+        {
+          "id": "te-clima",
+          "enunciado": "¿Por qué puede cultivarse té en Georgia, a la latitud de Roma?",
+          "opciones": [
+            {
+              "t": "Porque tiene un clima subtropical húmedo, sin heladas fuertes y con lluvias abundantes todo el año, protegido del aire frío por el Gran Cáucaso",
+              "r": "El manual describe Georgia como una república privilegiada de la URSS por su clima: té, cítricos, frutales, tabaco y vid.",
+              "ok": true
+            },
+            {
+              "t": "Porque tiene un clima mediterráneo con veranos secos",
+              "r": "El té necesita lluvias en verano; aquí llueve todo el año."
+            },
+            {
+              "t": "Porque está a gran altitud",
+              "r": "La Cólquida es una llanura litoral."
+            },
+            {
+              "t": "Porque se cultiva en invernaderos",
+              "r": "Se cultiva al aire libre."
+            }
+          ],
+          "explicacion": [
+            "Georgia fue el principal productor de té de la URSS. Tras la independencia la producción se hundió; hoy se intenta recuperar con té de calidad."
+          ]
+        },
+        {
+          "id": "te-conflicto",
+          "enunciado": "La fachada del mar Negro de Georgia tuvo un gran desarrollo turístico en época soviética. ¿Qué ha afectado a esta región desde la independencia?",
+          "opciones": [
+            {
+              "t": "Los conflictos territoriales: Abjasia, en el noroeste, se separó con apoyo ruso, y Rusia reconoció su independencia en 2008",
+              "r": "El manual describe Abjasia como una rica región junto al mar Negro que se declaró independiente. Hoy sigue fuera del control de Tiflis.",
+              "ok": true
+            },
+            {
+              "t": "Un terremoto que destruyó la costa",
+              "r": "No es eso lo que señala el manual."
+            },
+            {
+              "t": "La desecación del mar Negro",
+              "r": "El mar Negro no se ha desecado; eso ocurrió con el Aral."
+            },
+            {
+              "t": "La anexión de Georgia por Turquía",
+              "r": "Georgia es un Estado independiente."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Guria, en el oeste de Georgia (42° N), junto a la llanura de la Cólquida y el mar Negro, en el Cáucaso.",
+        "b": "Clima subtropical húmedo (Cfa): inviernos suaves (unos 5 °C en enero), veranos cálidos (unos 23 °C) y precipitaciones muy abundantes, más de 2.000 mm en la costa, repartidas todo el año. El Gran Cáucaso frena el aire polar.",
+        "c": "Vegetación de bosque húmedo de la Cólquida, sustituida en buena parte por cultivos subtropicales: té, cítricos, avellanos, maíz y frutales. Agricultura intensiva en las llanuras y turismo de costa."
+      },
+      "manual": "Apartados 3.2.3, 4.3 y 7.2",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Batumi"
+        }
+      ]
+    },
+    {
+      "id": "costa-crimea",
+      "titulo": "Costa sur de Crimea",
+      "lugar": "Gaspra, cerca de Yalta",
+      "pais": "Ucrania (ocupada por Rusia desde 2014)",
+      "lat": 44.43,
+      "lon": 34.12,
+      "tolerancia": 250,
+      "estacion": "yalta",
+      "foto": {
+        "archivo": "File:Widok na Gasprę ze statku 01.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Widok_na_Gaspr%C4%99_ze_statku_01.jpg/1920px-Widok_na_Gaspr%C4%99_ze_statku_01.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Widok_na_Gaspr%C4%99_ze_statku_01.jpg",
+        "autor": "Marcin Konsek",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Costa con edificios y jardines al pie de grandes acantilados calizos, vista desde el mar"
+      },
+      "mirar": [
+        "Los acantilados calizos de los montes de Crimea, que cierran la costa por el norte.",
+        "La estrecha franja litoral entre las montañas y el mar.",
+        "Los sanatorios, hoteles y jardines: una costa turística desde el siglo XIX.",
+        "La vegetación de tipo mediterráneo: cipreses y pinos."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Dfb",
+        "Csb",
+        "BWk"
+      ],
+      "clima": "El manual habla de una pequeña área de clima mediterráneo en la costa sur de Crimea, en Yalta. En Yalta el mes más frío está a 4,1 °C y el más cálido a 24,8 °C; llueven 614 mm, con más lluvia en invierno que en verano. Según Köppen es un clima subtropical húmedo (Cfa) en el límite del mediterráneo, porque el verano no llega a ser lo bastante seco.",
+      "localizacion": "Costa sur de la península de Crimea, en el mar Negro, al pie de los montes de Crimea.",
+      "preguntas": [
+        {
+          "id": "crimea-abrigo",
+          "enunciado": "¿Qué explica que Yalta tenga un invierno suave, con medias por encima de 2 °C, en un territorio dominado por el frío continental?",
+          "opciones": [
+            {
+              "t": "Las montañas de Crimea la protegen de los vientos fríos del norte y el mar Negro suaviza las temperaturas",
+              "r": "Es un efecto de abrigo: a pocos kilómetros, en el interior de Crimea, el invierno es mucho más frío.",
+              "ok": true
+            },
+            {
+              "t": "Su baja latitud tropical",
+              "r": "Está a 44° N, más al norte que Barcelona."
+            },
+            {
+              "t": "La corriente cálida del Atlántico Norte",
+              "r": "La corriente del Atlántico Norte afecta al noroeste de Europa, no al mar Negro."
+            },
+            {
+              "t": "Su altitud elevada",
+              "r": "Está al nivel del mar."
+            }
+          ],
+          "explicacion": []
+        },
+        {
+          "id": "crimea-situacion",
+          "enunciado": "¿Cuál es la situación política de Crimea?",
+          "opciones": [
+            {
+              "t": "Rusia la ocupó y se la anexionó en 2014; la mayoría de los Estados y la ONU la siguen considerando parte de Ucrania",
+              "r": "El manual ya recogía la anexión. Desde 2022 Crimea es además base y escenario de la guerra entre Rusia y Ucrania.",
+              "ok": true
+            },
+            {
+              "t": "Es un Estado independiente reconocido internacionalmente",
+              "r": "No lo es."
+            },
+            {
+              "t": "Forma parte de Ucrania sin ninguna disputa",
+              "r": "Está bajo control ruso desde 2014."
+            },
+            {
+              "t": "Es territorio de Turquía",
+              "r": "No."
+            }
+          ],
+          "explicacion": [
+            "El puerto de Sebastopol es la base de la flota rusa del mar Negro, de gran valor geoestratégico."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Costa sur de la península de Crimea, junto a Yalta (44,5° N), en el mar Negro. Territorio de Ucrania ocupado y anexionado por Rusia en 2014.",
+        "b": "Clima de transición entre el mediterráneo y el subtropical húmedo: inviernos suaves (unos 4 °C en enero) gracias al abrigo de las montañas, veranos cálidos (unos 25 °C) y precipitación moderada, en torno a 600 mm, con máximo invernal. Es el único enclave de este tipo en el espacio postsoviético.",
+        "c": "Vegetación de tipo mediterráneo (cipreses, pinos, encinas) y jardines. Viñedo, frutales y, sobre todo, turismo y sanatorios desde la época zarista y soviética. Base naval de Sebastopol."
+      },
+      "manual": "Apartados 3.2.3 y 7.1",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Yalta"
+        }
+      ]
+    },
+    {
+      "id": "volcanes-kamchatka",
+      "titulo": "Volcanes de Kamchatka",
+      "lugar": "Volcanes Koriakski, Avachinski y Kozelski, junto a Petropávlovsk",
+      "pais": "Rusia",
+      "lat": 53.07,
+      "lon": 158.43,
+      "tolerancia": 400,
+      "estacion": "petropavlovsk",
+      "foto": {
+        "archivo": "File:Корякский, Авачинский, Козельский.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%D0%9A%D0%BE%D1%80%D1%8F%D0%BA%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%90%D0%B2%D0%B0%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%9A%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9.jpg/1920px-%D0%9A%D0%BE%D1%80%D1%8F%D0%BA%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%90%D0%B2%D0%B0%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%9A%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D1%80%D1%8F%D0%BA%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%90%D0%B2%D0%B0%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%9A%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+        "autor": "Козинцев",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Tres volcanes nevados reflejados en un lago rodeado de bosque"
+      },
+      "mirar": [
+        "Los conos volcánicos nevados: volcanes activos.",
+        "El bosque de abedules y alisos al pie de los volcanes.",
+        "El agua del lago, en una zona húmeda y nubosa.",
+        "La nieve en las cumbres incluso en verano."
+      ],
+      "koppen": "Dfc",
+      "distractores": [
+        "Cfb",
+        "ET",
+        "Dwa"
+      ],
+      "clima": "Clima subártico de fachada oceánica (Dfc). En Petropávlovsk el mes más frío está a −6,4 °C, un invierno suave para Siberia, y el más cálido a 13,7 °C. La precipitación es abundante (1.187 mm), con mucha nieve: el Pacífico modera el frío y aporta humedad.",
+      "localizacion": "Sureste de la península de Kamchatka, en el Extremo Oriente ruso, junto a la ciudad de Petropávlovsk-Kamchatski.",
+      "preguntas": [
+        {
+          "id": "kamchatka-volcanes",
+          "enunciado": "¿Por qué hay volcanes activos en Kamchatka?",
+          "opciones": [
+            {
+              "t": "Porque forma parte del cinturón de fuego del Pacífico: la placa del Pacífico se hunde bajo la de Ojotsk",
+              "r": "El manual describe las costas del mar de Ojotsk como elevadas e inestables, con seísmos frecuentes y vulcanismo activo en Kamchatka (4.850 m).",
+              "ok": true
+            },
+            {
+              "t": "Porque es un escudo precámbrico",
+              "r": "Los escudos son estables y no tienen volcanes."
+            },
+            {
+              "t": "Porque está en el centro de una placa",
+              "r": "Está en un borde de placas activo."
+            },
+            {
+              "t": "Porque son restos de la orogenia herciniana",
+              "r": "Son relieves muy jóvenes, del sistema alpino del Pacífico."
+            }
+          ],
+          "explicacion": [
+            "Kamchatka tiene unos 30 volcanes activos; el Kliuchevskaya Sopka es el volcán activo más alto de Eurasia."
+          ]
+        },
+        {
+          "id": "kamchatka-economia",
+          "enunciado": "¿Cuál es la principal actividad económica del Extremo Oriente ruso costero, según el manual?",
+          "opciones": [
+            {
+              "t": "La pesca y la industria pesquera, junto con la minería y la base naval y comercial del Pacífico",
+              "r": "Vladivostok y Petropávlovsk son los grandes puertos rusos del Pacífico. La región sufre la falta de población.",
+              "ok": true
+            },
+            {
+              "t": "La agricultura de cereales",
+              "r": "El clima y el relieve la limitan mucho."
+            },
+            {
+              "t": "La industria textil",
+              "r": "No es una actividad importante allí."
+            },
+            {
+              "t": "La producción de algodón",
+              "r": "El algodón es de Asia Central."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Sureste de la península de Kamchatka (53° N), en el Extremo Oriente ruso, junto a Petropávlovsk-Kamchatski, en el cinturón de fuego del Pacífico.",
+        "b": "Clima subártico de fachada oceánica: inviernos fríos pero menos extremos que en el interior (unos −6 °C en enero), veranos frescos (unos 14 °C) y precipitaciones abundantes, más de 1.000 mm, con grandes nevadas.",
+        "c": "Volcanes activos rodeados de bosques de abedul de Erman y matorral de pino enano. Pesca y conservas (salmón, cangrejo), base naval, minería y turismo de naturaleza. Población escasa y en descenso."
+      },
+      "manual": "Apartados 3.1.3 y 6.2.3",
+      "enlaces": []
+    },
+    {
+      "id": "pastos-kirguis",
+      "titulo": "Pastos de montaña en Kirguistán",
+      "lugar": "Lago Song Köl (Tian Shan), a 3.000 m",
+      "pais": "Kirguistán",
+      "lat": 41.86,
+      "lon": 75.26,
+      "tolerancia": 300,
+      "estacion": "naryn",
+      "foto": {
+        "archivo": "File:Song Köl lake, Kyrgyzstan (29896109091).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Song_K%C3%B6l_lake%2C_Kyrgyzstan_%2829896109091%29.jpg/1920px-Song_K%C3%B6l_lake%2C_Kyrgyzstan_%2829896109091%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Song_K%C3%B6l_lake%2C_Kyrgyzstan_%2829896109091%29.jpg",
+        "autor": "Thomas Depenbusch",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Yurtas blancas y caballos en una pradera de alta montaña, con montañas rocosas al fondo"
+      },
+      "mirar": [
+        "Las yurtas, viviendas desmontables de los pastores.",
+        "Los caballos y el pasto bajo de alta montaña.",
+        "La ausencia de árboles: estamos por encima del límite del bosque.",
+        "Las montañas del Tian Shan al fondo."
+      ],
+      "koppen": "Dfc",
+      "distractores": [
+        "BWk",
+        "Csa",
+        "Cfb"
+      ],
+      "clima": "Clima de montaña. A 3.000 m el verano es muy corto y fresco y el invierno largo y frío; solo se puede ocupar el pasto de junio a septiembre. La estación de Naryn, en un valle a unos 2.000 m, tiene un mes más frío de −14,9 °C, un mes más cálido de 17,8 °C y 298 mm de lluvia, con máximo en mayo.",
+      "notaKoppen": "El mapa de Köppen da Dfc en esta zona; a la altitud del lago, por encima de 3.000 m, el clima es ya de tundra de montaña (ET).",
+      "localizacion": "Centro de Kirguistán, en las montañas del Tian Shan.",
+      "preguntas": [
+        {
+          "id": "kirguis-trashumancia",
+          "enunciado": "¿Qué actividad muestran las yurtas y los caballos?",
+          "opciones": [
+            {
+              "t": "La ganadería trashumante: los pastores suben en verano con el ganado a los pastos de alta montaña (jailoo)",
+              "r": "El manual describe una ganadería ovina muy extensiva en las montañas del sur y en las estepas secas de Asia Central.",
+              "ok": true
+            },
+            {
+              "t": "La agricultura de regadío",
+              "r": "A esta altitud no hay cultivos."
+            },
+            {
+              "t": "La explotación forestal",
+              "r": "Estamos por encima del límite del bosque."
+            },
+            {
+              "t": "La minería del carbón",
+              "r": "No es lo que muestra la foto."
+            }
+          ],
+          "explicacion": [
+            "Los kirguises eran pastores nómadas antes de la sedentarización soviética. Hoy la trashumancia estival se mantiene, junto con el turismo."
+          ]
+        },
+        {
+          "id": "kirguis-economia",
+          "enunciado": "Según el manual, ¿de qué depende sobre todo la economía de Kirguistán?",
+          "opciones": [
+            {
+              "t": "De las remesas de los emigrantes en Rusia, la hidroelectricidad y la exportación de oro",
+              "r": "El manual cita el oro como el 40 % de las exportaciones. Kirguistán es miembro de la Unión Económica Euroasiática.",
+              "ok": true
+            },
+            {
+              "t": "Del petróleo y el gas",
+              "r": "Esos son los recursos de Kazajistán y Turkmenistán."
+            },
+            {
+              "t": "De la industria del automóvil",
+              "r": "Su industria es muy escasa."
+            },
+            {
+              "t": "Del turismo de playa",
+              "r": "Es un país sin salida al mar."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Lago Song Köl, en el Tian Shan central (Kirguistán), a unos 3.000 m de altitud (42° N), en las montañas que bordean Asia Central por el sur.",
+        "b": "Clima de montaña: inviernos largos y muy fríos y veranos cortos y frescos. En los valles a 2.000 m (Naryn) el invierno ronda los −15 °C y el verano no llega a 20 °C; las precipitaciones, escasas, caen sobre todo en primavera y verano.",
+        "c": "Praderas de alta montaña sin árboles. Ganadería trashumante de ovejas, caballos y yaks, que sube en verano a los pastos de altura; viviendas desmontables (yurtas); turismo de naturaleza."
+      },
+      "manual": "Apartados 3.1.3, 4.3 y 7.3.1",
+      "enlaces": [
+        {
+          "pagina": "poblacion.html",
+          "ancla": "piramides",
+          "texto": "Pirámide de Kirguistán"
+        }
+      ]
+    }
+  ]
+}

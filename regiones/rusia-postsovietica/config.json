@@ -331,6 +331,14 @@
         },
         "fuente": "Elaboración propia a partir de los apartados 5.1 y 5.2 del manual. Posición aproximada.",
         "manual": "Apartados 5.1 y 5.2."
+      },
+      {
+        "id": "organizaciones",
+        "nombre": "CEI, UEE, OTSC y UE (2026)",
+        "tipo": "categorias",
+        "datos": "datos/organizaciones.json",
+        "fuente": "Sitios oficiales de la CEI, la Comisión Económica Euroasiática y la OTSC; Consejo de la UE y prensa internacional. Situación a finales de octubre de 2026.",
+        "manual": "Apartado 6.1 y conclusión (situación de marzo de 2016)."
       }
     ]
   },
@@ -575,7 +583,6 @@
     }
   },
   "paisajes": {
-    "archivo": "datos/paisajes.json",
-    "estacionesExtra": "datos/estaciones_paisajes.json"
+    "archivo": "datos/paisajes.json"
   }
 }

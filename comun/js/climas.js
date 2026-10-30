@@ -152,7 +152,9 @@
     const claveC = "climas:" + R.ficha.id + ":clasificar";
     let elecciones = RM.memoria.leer(claveC, {});
     const tarjetas = document.getElementById("tarjetas");
-    const orden = est.slice().sort((a, b) => (a.ordenEjercicio || 0) - (b.ordenEjercicio || 0) || a.id.localeCompare(b.id));
+    // si algunas estaciones llevan ordenEjercicio, el ejercicio usa solo esas
+    const enEjercicio = est.some((e) => e.ordenEjercicio != null) ? est.filter((e) => e.ordenEjercicio != null) : est;
+    const orden = enEjercicio.slice().sort((a, b) => (a.ordenEjercicio || 0) - (b.ordenEjercicio || 0) || a.id.localeCompare(b.id));
     function pintarTarjetas(corregir, solucion) {
       tarjetas.innerHTML = orden.map((e) => {
         const sel = elecciones[e.id] || "";
