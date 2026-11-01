@@ -1,5 +1,5 @@
 {
- "nota": "Población de 2025 según Naciones Unidas (World Population Prospects 2024); densidad calculada con la superficie del cuadro 2.2 del manual. Las columnas «manual» proceden del cuadro 2.2 (2015). Ucrania: la estimación de la ONU descuenta a los refugiados que han salido del país desde 2022. Rusia: sin Crimea ni los territorios ocupados de Ucrania.",
+ "nota": "Población de 2025 según Naciones Unidas (World Population Prospects 2024); densidad calculada con la superficie del cuadro 2.2 del manual. Las columnas «manual» proceden del cuadro 2.2 (2015). Ucrania: la estimación de la ONU descuenta a los refugiados que han salido del país desde 2022. Rusia: sin Crimea ni los territorios ocupados de Ucrania. Los tres Estados bálticos, que no entraron en la CEI y son miembros de la UE desde 2004, figuran también en el cuadro 2.2.",
  "fuentes": "Naciones Unidas, World Population Prospects 2024; Banco Mundial, World Development Indicators (consulta de octubre de 2026); manual, cuadro 2.2.",
  "columnas": [
   [
@@ -58,6 +58,48 @@
   ]
  ],
  "paises": {
+  "EST": {
+   "nombre": "Estonia",
+   "capital": "Tallin",
+   "superficie": 45215,
+   "poblacion": 1335000,
+   "poblacion_manual": 1.3,
+   "densidad": 29.5,
+   "densidad_manual": 29,
+   "var_pob": -4.2,
+   "fecundidad": 1.36,
+   "pct65": 21.5,
+   "pib_pc": 41186.0,
+   "urbana": 70.7
+  },
+  "LVA": {
+   "nombre": "Letonia",
+   "capital": "Riga",
+   "superficie": 64500,
+   "poblacion": 1843000,
+   "poblacion_manual": 2.0,
+   "densidad": 28.6,
+   "densidad_manual": 31,
+   "var_pob": -21.7,
+   "fecundidad": 1.34,
+   "pct65": 22.0,
+   "pib_pc": 37615.0,
+   "urbana": 68.5
+  },
+  "LTU": {
+   "nombre": "Lituania",
+   "capital": "Vilna",
+   "superficie": 65200,
+   "poblacion": 2809000,
+   "poblacion_manual": 3.0,
+   "densidad": 43.1,
+   "densidad_manual": 45,
+   "var_pob": -19.5,
+   "fecundidad": 1.21,
+   "pct65": 20.4,
+   "pib_pc": 47462.0,
+   "urbana": 68.8
+  },
   "RUS": {
    "nombre": "Rusia",
    "capital": "Moscú",

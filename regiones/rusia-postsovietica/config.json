@@ -15,7 +15,7 @@
   ],
   "presentacion": {
     "resumen": [
-      "La antigua Unión Soviética ocupaba 22 millones de km², la sexta parte de las tierras emergidas. Al desintegrarse en 1991 dio lugar a quince Estados; doce de ellos formaron la Comunidad de Estados Independientes (CEI) y son los que estudia este capítulo. Rusia, el Estado más extenso del mundo, sigue siendo la potencia que organiza ese espacio.",
+      "La antigua Unión Soviética ocupaba 22 millones de km², la sexta parte de las tierras emergidas. Al desintegrarse en 1991 dio lugar a quince Estados: doce formaron la Comunidad de Estados Independientes (CEI) y los tres bálticos se integraron en la UE y la OTAN en 2004. El capítulo se centra en los doce de la CEI; las tablas y los gráficos incluyen también a los bálticos para comparar. Rusia, el Estado más extenso del mundo, sigue siendo la potencia que organiza ese espacio.",
       "Usad el atlas para relacionar la inmensidad del territorio, la continentalidad del clima y los grandes vacíos demográficos; los climogramas para medir la continentalidad de oeste a este; y los motores de recursos y población para comprobar qué ha cambiado desde 2016: la guerra de Ucrania, el fin del gas ruso en Europa y el crecimiento demográfico de Asia Central frente al declive eslavo."
     ],
     "indice": [
@@ -534,9 +534,12 @@
   "recursos": {
     "cuestionario": "cuestionarios/recursos.json",
     "agregado": {
-      "clave": "Espacio postsoviético",
-      "nombre": "Espacio postsoviético (12 Estados)",
+      "clave": "Antigua URSS",
+      "nombre": "Antigua URSS (15 Estados)",
       "paises": [
+        "EST",
+        "LVA",
+        "LTU",
         "RUS",
         "UKR",
         "BLR",
@@ -551,7 +554,7 @@
         "TJK",
         "SUN"
       ],
-      "nombreCorto": "Los 12 Estados"
+      "nombreCorto": "Antigua URSS"
     },
     "productos": [
       "trigo",
@@ -645,6 +648,9 @@
         "producto": "algodon",
         "tipo": "ranking",
         "paises": [
+          "EST",
+          "LVA",
+          "LTU",
           "RUS",
           "UKR",
           "BLR",
@@ -767,6 +773,9 @@
       "porDefecto": "RUS",
       "comparar": "KAZ",
       "paises": [
+        "EST",
+        "LVA",
+        "LTU",
         "RUS",
         "UKR",
         "BLR",
