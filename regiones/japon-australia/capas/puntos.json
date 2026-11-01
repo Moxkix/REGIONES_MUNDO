@@ -1,0 +1,1299 @@
+{
+"picos": [
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Fuji (volcán)",
+"h": 3776
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.73,
+35.36
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kita-dake",
+"h": 3193
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.24,
+35.67
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ontake (volcán)",
+"h": 3067
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.48,
+35.89
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Asama (volcán)",
+"h": 2568
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.52,
+36.41
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Asahi-dake (Daisetsuzan) (volcán)",
+"h": 2291
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.85,
+43.66
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Aso (volcán)",
+"h": 1592
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.1,
+32.88
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sakurajima (volcán)",
+"h": 1117
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+130.66,
+31.58
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Unzen (volcán)",
+"h": 1483
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+130.29,
+32.76
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Usu (volcán)",
+"h": 737
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.84,
+42.54
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kosciuszko",
+"h": 2228
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+148.26,
+-36.46
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bartle Frere",
+"h": 1622
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+145.81,
+-17.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ossa",
+"h": 1617
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+146.03,
+-41.87
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Zeil",
+"h": 1531
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+132.39,
+-23.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Woodroffe",
+"h": 1435
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.75,
+-26.33
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Uluru",
+"h": 863
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.04,
+-25.34
+]
+}
+}
+],
+"ciudades": [
+{
+"type": "Feature",
+"properties": {
+"n": "Tokio",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.69,
+35.69
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Yokohama",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.64,
+35.44
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Osaka",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+135.5,
+34.69
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Nagoya",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.91,
+35.18
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sapporo",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.35,
+43.06
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Fukuoka",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+130.4,
+33.59
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kobe",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+135.2,
+34.69
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kioto",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+135.77,
+35.01
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hiroshima",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+132.46,
+34.39
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sendai",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.87,
+38.27
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kitakyushu",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+130.88,
+33.88
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Niigata",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04,
+37.92
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kagoshima",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+130.56,
+31.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Naha",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+127.68,
+26.21
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kanazawa",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.66,
+36.56
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Canberra",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+149.13,
+-35.28
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sídney",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+151.21,
+-33.87
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Melbourne",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+144.96,
+-37.81
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Brisbane",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+153.03,
+-27.47
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Perth",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+115.86,
+-31.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Adelaida",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.6,
+-34.93
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hobart",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+147.33,
+-42.88
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Darwin",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+130.84,
+-12.46
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gold Coast",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+153.43,
+-28.02
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Newcastle",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+151.78,
+-32.93
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Townsville",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+146.82,
+-19.26
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cairns",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+145.77,
+-16.92
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Alice Springs",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+133.88,
+-23.7
+]
+}
+}
+],
+"cuencas": [
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura de Kanto"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.6,
+36.1
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura de Nobi"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.75,
+35.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura de Echigo"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.2,
+37.75
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura de Ishikari"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.6,
+43.25
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura de Tokachi"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+143.2,
+42.75
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura de Osaka"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+135.55,
+34.85
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gran Cuenca Artesiana"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.5,
+-24.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca del Murray-Darling"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+145.0,
+-33.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Llanura de Nullarbor"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+128.5,
+-30.8
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Lago Eyre (−15 m)"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.3,
+-28.4
+]
+}
+}
+],
+"industria": [
+{
+"type": "Feature",
+"properties": {
+"n": "Keihin (Tokio-Kawasaki-Yokohama)",
+"tipo": "jp_principal",
+"nota": "Primera región industrial de Japón: siderurgia, refino y petroquímica, automóvil, electrónica, industria aeronáutica y alimentaria."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.75,
+35.55
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hanshin (Osaka-Kobe)",
+"tipo": "jp_principal",
+"nota": "Segunda región industrial: siderurgia, naval, química, electrónica, textil y metalurgia."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+135.35,
+34.67
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Chukyo (Nagoya)",
+"tipo": "jp_principal",
+"nota": "Industria del automóvil (Toyota), textil, cerámica, aeronáutica y siderurgia."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.88,
+35.05
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kitakyushu",
+"tipo": "jp_principal",
+"nota": "Antiguo foco de la industria pesada (siderurgia de Yawata), en lenta decadencia."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+130.85,
+33.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Keiyo (Chiba)",
+"tipo": "jp_otra",
+"nota": "Siderurgia, refino y petroquímica en polders de la bahía de Tokio."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.08,
+35.55
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Tokai (Shizuoka-Hamamatsu)",
+"tipo": "jp_otra",
+"nota": "Motocicletas, instrumentos musicales, papel y automóvil."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.9,
+34.85
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Setouchi (Mar Interior: Mizushima, Fukuyama, Hiroshima)",
+"tipo": "jp_otra",
+"nota": "Siderurgia, petroquímica, construcción naval y automóvil (Mazda) a orillas del Mar Interior."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+133.4,
+34.45
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Kita-Kanto",
+"tipo": "jp_otra",
+"nota": "Electrónica y automóvil en el interior de Kanto."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.4,
+36.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hokuriku (Toyama-Kanazawa)",
+"tipo": "jp_otra",
+"nota": "Aluminio, química, maquinaria y textil en la costa del Mar del Japón."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.0,
+36.65
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Muroran-Tomakomai",
+"tipo": "jp_otra",
+"nota": "Siderurgia, papel y refino en Hokkaido."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.2,
+42.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Sídney-Newcastle-Port Kembla",
+"tipo": "au",
+"nota": "Siderurgia (Port Kembla), metalurgia, química, refino y bienes de equipo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+151.1,
+-33.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Melbourne-Geelong",
+"tipo": "au",
+"nota": "Bienes de equipo, química, alimentaria; el automóvil cerró en 2016-2017."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+144.6,
+-37.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Adelaida-Whyalla-Port Pirie",
+"tipo": "au",
+"nota": "Siderurgia (Whyalla), fundición de plomo (Port Pirie) y material de defensa."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.9,
+-33.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Brisbane-Gladstone",
+"tipo": "au",
+"nota": "Alúmina y aluminio en Gladstone; alimentaria y refino en Brisbane."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+151.25,
+-23.85
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Perth-Kwinana",
+"tipo": "au",
+"nota": "Refino de petróleo, alúmina, níquel y procesado de litio."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+115.8,
+-32.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bell Bay (Tasmania)",
+"tipo": "au",
+"nota": "Aluminio y ferroaleaciones gracias a la hidroelectricidad."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+146.85,
+-41.15
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Isa",
+"tipo": "au",
+"nota": "Fundición de cobre, plomo y zinc junto a la mina."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.49,
+-20.73
+]
+}
+}
+],
+"recursos": [
+{
+"type": "Feature",
+"properties": {
+"n": "Hierro del Pilbara",
+"tipo": "hierro",
+"nota": "Mount Newman, Tom Price, Paraburdoo: primera región exportadora de mineral de hierro del mundo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+118.5,
+-22.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bauxita de Weipa",
+"tipo": "bauxita",
+"nota": "Península del cabo York (Queensland)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.9,
+-12.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bauxita de Gove",
+"tipo": "bauxita",
+"nota": "Tierra de Arnhem (Territorio del Norte)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.8,
+-12.25
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bauxita de la Darling Range",
+"tipo": "bauxita",
+"nota": "Huntly y Willowdale, al sur de Perth."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+116.1,
+-32.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Carbón de la cuenca de Bowen",
+"tipo": "carbon",
+"nota": "Carbón de coque para la siderurgia de Asia oriental."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+148.6,
+-22.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Carbón del valle del Hunter",
+"tipo": "carbon",
+"nota": "Carbón térmico exportado por Newcastle, el mayor puerto carbonero del mundo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+151.0,
+-32.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Lignito del valle de La Trobe",
+"tipo": "carbon",
+"nota": "Centrales térmicas de Victoria."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+146.5,
+-38.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Oro de Kalgoorlie",
+"tipo": "metales",
+"nota": "Super Pit y otras minas de los Goldfields de Australia Occidental."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+121.47,
+-30.78
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Olympic Dam",
+"tipo": "metales",
+"nota": "Cobre, uranio, oro y plata: uno de los mayores yacimientos de uranio del mundo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.88,
+-30.44
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Broken Hill",
+"tipo": "metales",
+"nota": "Plata, plomo y zinc desde 1883."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.47,
+-31.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Isa",
+"tipo": "metales",
+"nota": "Cobre, plomo, zinc y plata."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.49,
+-20.73
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Níquel de Kambalda",
+"tipo": "metales",
+"nota": "Níquel de Australia Occidental."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+121.66,
+-31.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Litio de Greenbushes",
+"tipo": "metales",
+"nota": "La mayor mina de litio en roca del mundo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+116.06,
+-33.86
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gas del Noroeste (North West Shelf, Gorgon)",
+"tipo": "gas",
+"nota": "Gas natural licuado exportado a Japón, China y Corea."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+116.8,
+-20.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gas y petróleo del estrecho de Bass",
+"tipo": "gas",
+"nota": "Cuenca de Gippsland."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+148.0,
+-38.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gas de la cuenca de Cooper (Moomba)",
+"tipo": "gas",
+"nota": "En el desierto de Strzelecki."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.2,
+-28.1
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Gas de Queensland (gas de carbón)",
+"tipo": "gas",
+"nota": "Gas de las vetas de carbón exportado como GNL por Gladstone."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+149.5,
+-26.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Petróleo y gas de Niigata y Akita",
+"tipo": "historico",
+"nota": "Pequeños yacimientos que apenas cubren una mínima parte del consumo japonés."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.6,
+38.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Carbón de Ishikari y Kushiro",
+"tipo": "historico",
+"nota": "Las minas de carbón japonesas cerraron casi todas; solo queda una mina submarina en Kushiro."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.5,
+43.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cobre de Hitachi y Besshi",
+"tipo": "historico",
+"nota": "Antiguas minas de cobre, hoy cerradas."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+134.0,
+33.9
+]
+}
+}
+]
+}

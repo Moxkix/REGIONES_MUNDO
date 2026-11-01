@@ -23,7 +23,7 @@
       estClimas ? RM.json(carpeta(estClimas)).catch(() => null) : Promise.resolve(null),
       C.estacionesExtra ? RM.json(carpeta(C.estacionesExtra)).catch(() => null) : Promise.resolve(null),
     ]);
-    const P = datos.paisajes;
+    const P = datos.paisajes.filter((p) => RM.enVista(p));
     const porId = new Map(P.map((p, i) => [p.id, Object.assign(p, { n: i + 1 })]));
     const estaciones = new Map([].concat(est1 ? est1.estaciones : [], est2 ? est2.estaciones : []).map((e) => [e.id, e]));
     const climasK = topoK ? topojson.feature(topoK, topoK.objects[capaK.objeto]).features : [];

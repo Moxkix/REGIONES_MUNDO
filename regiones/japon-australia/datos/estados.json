@@ -1,0 +1,506 @@
+{
+ "fuente": {
+  "poblacion": "Japón: Censo de Población de 2025, resultados definitivos (1 de octubre de 2025; Statistics Bureau of Japan, 29-9-2026). Australia: población residente estimada (ERP) a 30 de junio de 2025 (ABS, 18-12-2025).",
+  "base2000": "Japón: Censo de 2000. Australia: Censo de 2001 (personas por lugar de enumeración, sin visitantes extranjeros); la ERP de 2025 incluye una corrección por omisión censal, de modo que la variación australiana está algo sobrestimada (2-3 puntos).",
+  "superficie": "Japón: superficies del GSI a 1-10-2025 publicadas con el censo. Australia: Geoscience Australia (continente e islas).",
+  "mayores65": "% de la población con 65 años o más. Japón: Censo 2025, valores con imputación de no respuesta (不詳補完値), tabla 2-3 de la Tabulación Básica (e-Stat, statInfId 000040506655), referencia 1-10-2025; Japón 29,4 % (Akita 40,0 %, la prefectura más alta; Tokio 22,8 %, la más baja). Australia: ABS, «Regional population by age and sex, 2025» (publicado el 27-08-2026), ERP a 30-06-2025. El ABS solo ofrece en la web la pirámide en % de la población total de cada capital (GCCSA) y del resto del estado; el % estatal se ha calculado sumando los grupos de 65-69 a 85+ (hombres + mujeres, dos decimales) y ponderando capital y resto del estado con la ERP de 2025 (error estimado ±0,1 puntos). Australia 17,5 %.",
+  "extranjeros": "No es homogéneo entre países. Japón: % de residentes de nacionalidad extranjera (no de nacidos en el extranjero) según el Censo 2025 (1-10-2025), valores con imputación (不詳補完値): (población total − población japonesa) / población total, tabla 2-3; Japón 3.840.593 extranjeros = 3,1 % (Tokio 5,5 %; Aichi y Gunma 4,5 %). Australia: % de población nacida fuera de Australia, ABS, «Australia's population by country of birth» (publicado el 29-04-2026), ERP por país de nacimiento a 30-06-2021: el ABS solo da el desglose por estados en años de censo; total Australia 29,3 % en 2021 y 32,0 % a 30-06-2025 (solo cifra nacional)."
+ },
+ "unidades": {
+  "AU-ACT": {
+   "nombre": "Territorio de la Capital Australiana",
+   "pob": 0.485,
+   "densidad": 205.6,
+   "var_pob": 56.8,
+   "mayores65": 14.0,
+   "extranjeros": 29.8,
+   "anio_ext": "2021"
+  },
+  "AU-NSW": {
+   "nombre": "Nueva Gales del Sur",
+   "pob": 8.594,
+   "densidad": 10.73,
+   "var_pob": 36.2,
+   "mayores65": 18.0,
+   "extranjeros": 31.0,
+   "anio_ext": "2021"
+  },
+  "AU-NT": {
+   "nombre": "Territorio del Norte",
+   "pob": 0.264,
+   "densidad": 0.2,
+   "var_pob": 30.4,
+   "mayores65": 9.7,
+   "extranjeros": 23.9,
+   "anio_ext": "2021"
+  },
+  "AU-QLD": {
+   "nombre": "Queensland",
+   "pob": 5.67,
+   "densidad": 3.28,
+   "var_pob": 58.1,
+   "mayores65": 17.4,
+   "extranjeros": 24.2,
+   "anio_ext": "2021"
+  },
+  "AU-SA": {
+   "nombre": "Australia Meridional",
+   "pob": 1.902,
+   "densidad": 1.93,
+   "var_pob": 30.4,
+   "mayores65": 20.5,
+   "extranjeros": 25.1,
+   "anio_ext": "2021"
+  },
+  "AU-TAS": {
+   "nombre": "Tasmania",
+   "pob": 0.576,
+   "densidad": 8.42,
+   "var_pob": 26.6,
+   "mayores65": 22.4,
+   "extranjeros": 16.3,
+   "anio_ext": "2021"
+  },
+  "AU-VIC": {
+   "nombre": "Victoria",
+   "pob": 7.074,
+   "densidad": 31.1,
+   "var_pob": 53.4,
+   "mayores65": 17.0,
+   "extranjeros": 31.7,
+   "anio_ext": "2021"
+  },
+  "AU-WA": {
+   "nombre": "Australia Occidental",
+   "pob": 3.044,
+   "densidad": 1.2,
+   "var_pob": 66.1,
+   "mayores65": 16.3,
+   "extranjeros": 34.1,
+   "anio_ext": "2021"
+  },
+  "JP-01": {
+   "nombre": "Hokkaidō",
+   "pob": 4.98,
+   "densidad": 59.7,
+   "var_pob": -12.4,
+   "mayores65": 33.5,
+   "extranjeros": 1.4,
+   "anio_ext": "2025"
+  },
+  "JP-02": {
+   "nombre": "Aomori",
+   "pob": 1.139,
+   "densidad": 118.14,
+   "var_pob": -22.8,
+   "mayores65": 36.3,
+   "extranjeros": 0.7,
+   "anio_ext": "2025"
+  },
+  "JP-03": {
+   "nombre": "Iwate",
+   "pob": 1.125,
+   "densidad": 73.63,
+   "var_pob": -20.6,
+   "mayores65": 35.8,
+   "extranjeros": 1.0,
+   "anio_ext": "2025"
+  },
+  "JP-04": {
+   "nombre": "Miyagi",
+   "pob": 2.225,
+   "densidad": 305.6,
+   "var_pob": -5.9,
+   "mayores65": 29.8,
+   "extranjeros": 1.4,
+   "anio_ext": "2025"
+  },
+  "JP-05": {
+   "nombre": "Akita",
+   "pob": 0.881,
+   "densidad": 75.74,
+   "var_pob": -25.9,
+   "mayores65": 40.0,
+   "extranjeros": 0.7,
+   "anio_ext": "2025"
+  },
+  "JP-06": {
+   "nombre": "Yamagata",
+   "pob": 0.992,
+   "densidad": 106.44,
+   "var_pob": -20.2,
+   "mayores65": 36.1,
+   "extranjeros": 1.0,
+   "anio_ext": "2025"
+  },
+  "JP-07": {
+   "nombre": "Fukushima",
+   "pob": 1.71,
+   "densidad": 124.07,
+   "var_pob": -19.6,
+   "mayores65": 34.1,
+   "extranjeros": 1.1,
+   "anio_ext": "2025"
+  },
+  "JP-08": {
+   "nombre": "Ibaraki",
+   "pob": 2.79,
+   "densidad": 457.5,
+   "var_pob": -6.6,
+   "mayores65": 30.9,
+   "extranjeros": 3.7,
+   "anio_ext": "2025"
+  },
+  "JP-09": {
+   "nombre": "Tochigi",
+   "pob": 1.863,
+   "densidad": 290.78,
+   "var_pob": -7.1,
+   "mayores65": 30.8,
+   "extranjeros": 3.1,
+   "anio_ext": "2025"
+  },
+  "JP-10": {
+   "nombre": "Gunma",
+   "pob": 1.866,
+   "densidad": 293.29,
+   "var_pob": -7.8,
+   "mayores65": 31.4,
+   "extranjeros": 4.5,
+   "anio_ext": "2025"
+  },
+  "JP-11": {
+   "nombre": "Saitama",
+   "pob": 7.287,
+   "densidad": 1918.73,
+   "var_pob": 5.0,
+   "mayores65": 27.6,
+   "extranjeros": 3.7,
+   "anio_ext": "2025"
+  },
+  "JP-12": {
+   "nombre": "Chiba",
+   "pob": 6.257,
+   "densidad": 1213.58,
+   "var_pob": 5.6,
+   "mayores65": 28.2,
+   "extranjeros": 3.8,
+   "anio_ext": "2025"
+  },
+  "JP-13": {
+   "nombre": "Tokio",
+   "pob": 14.237,
+   "densidad": 6471.19,
+   "var_pob": 18.0,
+   "mayores65": 22.8,
+   "extranjeros": 5.5,
+   "anio_ext": "2025"
+  },
+  "JP-14": {
+   "nombre": "Kanagawa",
+   "pob": 9.194,
+   "densidad": 3803.86,
+   "var_pob": 8.3,
+   "mayores65": 26.1,
+   "extranjeros": 3.3,
+   "anio_ext": "2025"
+  },
+  "JP-15": {
+   "nombre": "Niigata",
+   "pob": 2.067,
+   "densidad": 164.27,
+   "var_pob": -16.5,
+   "mayores65": 34.4,
+   "extranjeros": 1.1,
+   "anio_ext": "2025"
+  },
+  "JP-16": {
+   "nombre": "Toyama",
+   "pob": 0.982,
+   "densidad": 231.2,
+   "var_pob": -12.4,
+   "mayores65": 33.3,
+   "extranjeros": 2.4,
+   "anio_ext": "2025"
+  },
+  "JP-17": {
+   "nombre": "Ishikawa",
+   "pob": 1.087,
+   "densidad": 259.27,
+   "var_pob": -8.0,
+   "mayores65": 30.8,
+   "extranjeros": 2.0,
+   "anio_ext": "2025"
+  },
+  "JP-18": {
+   "nombre": "Fukui",
+   "pob": 0.729,
+   "densidad": 173.85,
+   "var_pob": -12.1,
+   "mayores65": 31.9,
+   "extranjeros": 2.7,
+   "anio_ext": "2025"
+  },
+  "JP-19": {
+   "nombre": "Yamanashi",
+   "pob": 0.779,
+   "densidad": 174.53,
+   "var_pob": -12.3,
+   "mayores65": 32.4,
+   "extranjeros": 3.0,
+   "anio_ext": "2025"
+  },
+  "JP-20": {
+   "nombre": "Nagano",
+   "pob": 1.954,
+   "densidad": 144.07,
+   "var_pob": -11.8,
+   "mayores65": 33.3,
+   "extranjeros": 2.3,
+   "anio_ext": "2025"
+  },
+  "JP-21": {
+   "nombre": "Gifu",
+   "pob": 1.89,
+   "densidad": 177.91,
+   "var_pob": -10.3,
+   "mayores65": 31.7,
+   "extranjeros": 3.8,
+   "anio_ext": "2025"
+  },
+  "JP-22": {
+   "nombre": "Shizuoka",
+   "pob": 3.466,
+   "densidad": 445.63,
+   "var_pob": -8.0,
+   "mayores65": 31.6,
+   "extranjeros": 3.5,
+   "anio_ext": "2025"
+  },
+  "JP-23": {
+   "nombre": "Aichi",
+   "pob": 7.448,
+   "densidad": 1439.79,
+   "var_pob": 5.7,
+   "mayores65": 25.8,
+   "extranjeros": 4.5,
+   "anio_ext": "2025"
+  },
+  "JP-24": {
+   "nombre": "Mie",
+   "pob": 1.693,
+   "densidad": 293.25,
+   "var_pob": -8.8,
+   "mayores65": 31.1,
+   "extranjeros": 4.0,
+   "anio_ext": "2025"
+  },
+  "JP-25": {
+   "nombre": "Shiga",
+   "pob": 1.392,
+   "densidad": 346.53,
+   "var_pob": 3.7,
+   "mayores65": 27.4,
+   "extranjeros": 3.1,
+   "anio_ext": "2025"
+  },
+  "JP-26": {
+   "nombre": "Kioto",
+   "pob": 2.5,
+   "densidad": 542.1,
+   "var_pob": -5.5,
+   "mayores65": 29.9,
+   "extranjeros": 3.4,
+   "anio_ext": "2025"
+  },
+  "JP-27": {
+   "nombre": "Osaka",
+   "pob": 8.759,
+   "densidad": 4598.06,
+   "var_pob": -0.5,
+   "mayores65": 27.4,
+   "extranjeros": 3.7,
+   "anio_ext": "2025"
+  },
+  "JP-28": {
+   "nombre": "Hyōgo",
+   "pob": 5.318,
+   "densidad": 633.0,
+   "var_pob": -4.2,
+   "mayores65": 30.3,
+   "extranjeros": 2.8,
+   "anio_ext": "2025"
+  },
+  "JP-29": {
+   "nombre": "Nara",
+   "pob": 1.268,
+   "densidad": 343.59,
+   "var_pob": -12.1,
+   "mayores65": 33.2,
+   "extranjeros": 1.5,
+   "anio_ext": "2025"
+  },
+  "JP-30": {
+   "nombre": "Wakayama",
+   "pob": 0.864,
+   "densidad": 182.81,
+   "var_pob": -19.3,
+   "mayores65": 34.9,
+   "extranjeros": 1.2,
+   "anio_ext": "2025"
+  },
+  "JP-31": {
+   "nombre": "Tottori",
+   "pob": 0.523,
+   "densidad": 149.15,
+   "var_pob": -14.7,
+   "mayores65": 34.3,
+   "extranjeros": 1.2,
+   "anio_ext": "2025"
+  },
+  "JP-32": {
+   "nombre": "Shimane",
+   "pob": 0.629,
+   "densidad": 93.75,
+   "var_pob": -17.4,
+   "mayores65": 35.4,
+   "extranjeros": 1.8,
+   "anio_ext": "2025"
+  },
+  "JP-33": {
+   "nombre": "Okayama",
+   "pob": 1.807,
+   "densidad": 254.03,
+   "var_pob": -7.4,
+   "mayores65": 31.3,
+   "extranjeros": 2.2,
+   "anio_ext": "2025"
+  },
+  "JP-34": {
+   "nombre": "Hiroshima",
+   "pob": 2.683,
+   "densidad": 316.44,
+   "var_pob": -6.8,
+   "mayores65": 30.5,
+   "extranjeros": 2.5,
+   "anio_ext": "2025"
+  },
+  "JP-35": {
+   "nombre": "Yamaguchi",
+   "pob": 1.263,
+   "densidad": 206.57,
+   "var_pob": -17.4,
+   "mayores65": 35.7,
+   "extranjeros": 1.6,
+   "anio_ext": "2025"
+  },
+  "JP-36": {
+   "nombre": "Tokushima",
+   "pob": 0.675,
+   "densidad": 162.72,
+   "var_pob": -18.1,
+   "mayores65": 35.8,
+   "extranjeros": 1.3,
+   "anio_ext": "2025"
+  },
+  "JP-37": {
+   "nombre": "Kagawa",
+   "pob": 0.907,
+   "densidad": 483.13,
+   "var_pob": -11.3,
+   "mayores65": 32.8,
+   "extranjeros": 2.2,
+   "anio_ext": "2025"
+  },
+  "JP-38": {
+   "nombre": "Ehime",
+   "pob": 1.26,
+   "densidad": 221.97,
+   "var_pob": -15.6,
+   "mayores65": 34.8,
+   "extranjeros": 1.5,
+   "anio_ext": "2025"
+  },
+  "JP-39": {
+   "nombre": "Kōchi",
+   "pob": 0.643,
+   "densidad": 90.51,
+   "var_pob": -21.0,
+   "mayores65": 36.9,
+   "extranjeros": 1.0,
+   "anio_ext": "2025"
+  },
+  "JP-40": {
+   "nombre": "Fukuoka",
+   "pob": 5.078,
+   "densidad": 1018.2,
+   "var_pob": 1.2,
+   "mayores65": 28.5,
+   "extranjeros": 2.4,
+   "anio_ext": "2025"
+  },
+  "JP-41": {
+   "nombre": "Saga",
+   "pob": 0.781,
+   "densidad": 319.82,
+   "var_pob": -10.9,
+   "mayores65": 32.2,
+   "extranjeros": 1.5,
+   "anio_ext": "2025"
+  },
+  "JP-42": {
+   "nombre": "Nagasaki",
+   "pob": 1.232,
+   "densidad": 298.24,
+   "var_pob": -18.8,
+   "mayores65": 35.1,
+   "extranjeros": 1.2,
+   "anio_ext": "2025"
+  },
+  "JP-43": {
+   "nombre": "Kumamoto",
+   "pob": 1.677,
+   "densidad": 226.39,
+   "var_pob": -9.8,
+   "mayores65": 32.7,
+   "extranjeros": 1.7,
+   "anio_ext": "2025"
+  },
+  "JP-44": {
+   "nombre": "Ōita",
+   "pob": 1.076,
+   "densidad": 169.74,
+   "var_pob": -11.9,
+   "mayores65": 34.5,
+   "extranjeros": 2.0,
+   "anio_ext": "2025"
+  },
+  "JP-45": {
+   "nombre": "Miyazaki",
+   "pob": 1.018,
+   "densidad": 131.58,
+   "var_pob": -13.0,
+   "mayores65": 34.3,
+   "extranjeros": 1.2,
+   "anio_ext": "2025"
+  },
+  "JP-46": {
+   "nombre": "Kagoshima",
+   "pob": 1.512,
+   "densidad": 164.57,
+   "var_pob": -15.4,
+   "mayores65": 34.5,
+   "extranjeros": 1.3,
+   "anio_ext": "2025"
+  },
+  "JP-47": {
+   "nombre": "Okinawa",
+   "pob": 1.467,
+   "densidad": 642.66,
+   "var_pob": 11.3,
+   "mayores65": 24.5,
+   "extranjeros": 2.2,
+   "anio_ext": "2025"
+  }
+ }
+}

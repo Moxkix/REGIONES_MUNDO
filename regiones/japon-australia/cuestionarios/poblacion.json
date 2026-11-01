@@ -1,0 +1,266 @@
+{
+ "titulo": "Población de Japón y Australia",
+ "preguntas": [
+  {
+   "id": "jp-piramide",
+   "parte": "japon",
+   "vista": {
+    "pestana": "piramides",
+    "pais": "JPN",
+    "anio": 2025
+   },
+   "enunciado": "Observad la pirámide de Japón en 2025. ¿Qué rasgos tiene?",
+   "opciones": [
+    {
+     "t": "Una base muy estrecha, una cima ancha y dos abultamientos: 75-79 años (baby boom de 1947-1949) y 50-54 años (segundo baby boom, de sus hijos, a principios de los setenta)",
+     "r": "Es la pirámide de una población muy envejecida: el 30 % tiene 65 años o más.",
+     "ok": true
+    },
+    {
+     "t": "Una base ancha y una cima estrecha",
+     "r": "Esa es una pirámide de población joven."
+    },
+    {
+     "t": "Una forma rectangular sin irregularidades",
+     "r": "Tiene entrantes y salientes muy marcados."
+    },
+    {
+     "t": "Un gran abultamiento de jóvenes de 20-30 años",
+     "r": "Ese abultamiento, por la inmigración, es propio de Australia."
+    }
+   ],
+   "explicacion": [
+    "El número de nacimientos de 2025 (671.000) es menos de un tercio del de 1949."
+   ],
+   "manual": "Apartado 1.3"
+  },
+  {
+   "id": "au-piramide",
+   "parte": "australia",
+   "vista": {
+    "pestana": "piramides",
+    "pais": "AUS",
+    "anio": 2025,
+    "comparar": "JPN"
+   },
+   "enunciado": "Comparad las pirámides de Australia y Japón en 2025. ¿Qué explica la forma de la australiana?",
+   "opciones": [
+    {
+     "t": "Una fecundidad más alta y, sobre todo, una inmigración muy intensa de adultos jóvenes, que ensancha los grupos de 25 a 45 años",
+     "r": "El manual destaca la inmigración como motor del crecimiento australiano.",
+     "ok": true
+    },
+    {
+     "t": "Una fecundidad de más de 4 hijos por mujer",
+     "r": "Está por debajo del reemplazo (1,5)."
+    },
+    {
+     "t": "La emigración de jóvenes",
+     "r": "Australia recibe inmigrantes."
+    },
+    {
+     "t": "Una mortalidad infantil muy alta",
+     "r": "Es muy baja."
+    }
+   ],
+   "explicacion": [
+    "Australia tiene un 18 % de mayores de 65 años frente al 30 % de Japón."
+   ],
+   "manual": "Apartado 2.4.1"
+  },
+  {
+   "id": "jp-transicion",
+   "parte": "japon",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "JPN"
+   },
+   "enunciado": "En la transición demográfica de Japón, ¿cuándo empieza a superar la mortalidad a la natalidad?",
+   "opciones": [
+    {
+     "t": "Hacia 2005: desde entonces el crecimiento natural es negativo y cada vez más",
+     "r": "En 2024 la natalidad era de unos 6 por mil y la mortalidad de más de 12.",
+     "ok": true
+    },
+    {
+     "t": "En 1950",
+     "r": "En 1950 la natalidad era muy alta (28 por mil)."
+    },
+    {
+     "t": "Nunca",
+     "r": "Ya lo ha hecho."
+    },
+    {
+     "t": "Está previsto para 2080",
+     "r": "Ocurre desde mediados de la década de 2000."
+    }
+   ],
+   "explicacion": [
+    "Japón alcanzó su máximo de población hacia 2008-2010 (128 millones) y el censo de 2025 da 123 millones. Naciones Unidas prevé unos 105 millones en 2050."
+   ],
+   "manual": "Apartado 1.3"
+  },
+  {
+   "id": "jp-hinoeuma",
+   "parte": "japon",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "JPN"
+   },
+   "enunciado": "En la curva de fecundidad de Japón aparece una caída brusca en 1966, de 2,1 a 1,6 hijos por mujer, que se recupera al año siguiente. ¿A qué se debe?",
+   "opciones": [
+    {
+     "t": "A una superstición: 1966 era un año hinoeuma («caballo de fuego») y muchas parejas evitaron tener hijas en ese año",
+     "r": "Es un ejemplo de cómo un factor cultural puede alterar las cifras demográficas.",
+     "ok": true
+    },
+    {
+     "t": "A una guerra",
+     "r": "Japón no estaba en guerra."
+    },
+    {
+     "t": "A una epidemia",
+     "r": "No hubo ninguna epidemia que lo explique."
+    },
+    {
+     "t": "A un error de los datos",
+     "r": "Es un hecho real, visible también en la pirámide."
+    }
+   ],
+   "explicacion": [
+    "En la curva de natalidad la caída es muy visible (de 18,5 a 14,5 por mil). En la pirámide apenas se aprecia, porque los grupos de cinco años mezclan 1966 con los años vecinos."
+   ],
+   "manual": "Apartado 1.3 (ampliación)"
+  },
+  {
+   "id": "au-transicion",
+   "parte": "australia",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "AUS",
+    "comparar": "JPN"
+   },
+   "enunciado": "En la transición de Australia, la natalidad sigue por encima de la mortalidad. ¿Por qué crece tanto su población?",
+   "opciones": [
+    {
+     "t": "Por el crecimiento natural, aún positivo, y sobre todo por una inmigración neta que aporta cerca de tres cuartas partes del crecimiento",
+     "r": "En el año hasta marzo de 2026 la migración neta aportó 292.000 personas y el crecimiento natural 101.000.",
+     "ok": true
+    },
+    {
+     "t": "Solo por una natalidad muy alta",
+     "r": "Su fecundidad es de 1,5 hijos por mujer."
+    },
+    {
+     "t": "Por una mortalidad que aumenta",
+     "r": "Eso reduciría el crecimiento."
+    },
+    {
+     "t": "No crece",
+     "r": "Ha pasado de 24 millones (manual, 2015) a casi 28."
+    }
+   ],
+   "explicacion": [
+    "El 32 % de los residentes en Australia ha nacido fuera del país."
+   ],
+   "manual": "Apartados 2.4.1 y 2.4.2"
+  },
+  {
+   "id": "jp-corea",
+   "parte": "japon",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "JPN",
+    "comparar": "KOR"
+   },
+   "enunciado": "Comparad la transición de Japón con la de Corea del Sur. ¿Qué muestran?",
+   "opciones": [
+    {
+     "t": "Que Corea sigue el mismo camino, más tarde pero más deprisa: su fecundidad es aún más baja que la japonesa (0,7 hijos por mujer) y su población ya empieza a disminuir",
+     "r": "Japón fue el primer país asiático en completar la transición; sus vecinos lo siguen.",
+     "ok": true
+    },
+    {
+     "t": "Que Corea tiene una natalidad muy alta",
+     "r": "Tiene la fecundidad más baja del mundo."
+    },
+    {
+     "t": "Que Corea no ha empezado la transición",
+     "r": "La ha completado."
+    },
+    {
+     "t": "Que las dos poblaciones crecen deprisa",
+     "r": "Las dos disminuyen."
+    }
+   ],
+   "explicacion": [
+    "El manual cierra el tema señalando el reto que suponen para Japón sus vecinos asiáticos; en demografía comparten el mismo problema."
+   ],
+   "manual": "Conclusión"
+  },
+  {
+   "id": "explorador-edad",
+   "vista": {
+    "pestana": "explorador",
+    "pais": "JPN"
+   },
+   "enunciado": "En el Explorador, situad Japón y Australia en el gráfico de edad mediana y mayores de 65 años. ¿Qué lugar ocupa Japón?",
+   "opciones": [
+    {
+     "t": "Uno de los extremos del mundo: con una edad mediana cercana a los 50 años y casi un 30 % de mayores de 65, es uno de los países más envejecidos",
+     "r": "Australia queda en una posición intermedia entre los países desarrollados.",
+     "ok": true
+    },
+    {
+     "t": "Está entre los países más jóvenes",
+     "r": "Es al revés."
+    },
+    {
+     "t": "Está en la media mundial",
+     "r": "La edad mediana mundial ronda los 31 años."
+    },
+    {
+     "t": "Es igual que Australia",
+     "r": "Japón está mucho más envejecido."
+    }
+   ],
+   "explicacion": [
+    "Activad el rastro para ver cómo Japón se ha desplazado hacia el extremo del gráfico desde 1950."
+   ],
+   "manual": "Apartado 1.3"
+  },
+  {
+   "id": "esperanza",
+   "parte": "japon",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "JPN",
+    "comparar": "AUS"
+   },
+   "enunciado": "Japón y Australia tienen esperanzas de vida al nacer de unos 84-85 años. ¿Qué consecuencia tiene en Japón, con una natalidad tan baja?",
+   "opciones": [
+    {
+     "t": "Un envejecimiento muy rápido: cada vez hay más ancianos y menos jóvenes para mantener el sistema de pensiones y el mercado de trabajo",
+     "r": "El manual relaciona estos problemas con los retos de futuro de Japón.",
+     "ok": true
+    },
+    {
+     "t": "Un rejuvenecimiento de la población",
+     "r": "Pasa lo contrario."
+    },
+    {
+     "t": "Un aumento de la población activa",
+     "r": "La población activa disminuye."
+    },
+    {
+     "t": "Ninguna",
+     "r": "Es uno de los grandes retos del país."
+    }
+   ],
+   "explicacion": [
+    "Japón empieza a abrirse a la inmigración de trabajadores: los residentes extranjeros son ya 3,8 millones (3,1 %)."
+   ],
+   "manual": "Apartado 1.3 y conclusión"
+  }
+ ]
+}

@@ -67,6 +67,14 @@ NOMBRES = {
     "Шелепино": "Rýbinsk", "Zhilkino": "Irkutsk (noroeste)",
     "Анатуриши узбок": "Vahdat (este)", "Киров": "Bojtar (este)", "Курбонкуса": "Tursunzoda (oeste)",
     "Шадобдеҳ": "Istaravshán",
+    # Japón y Australia
+    "Tōkyō (Tokyo)": "Tokio", "Osaka": "Osaka (Keihanshin)", "Hinomine 3-chome": "Kobe (norte)", "小名浜愛宕上": "Iwaki",
+    "Inter-nishi": "Aizuwakamatsu", "Takasaki [Maebashi]": "Takasaki-Maebashi", "Nara": "Nara",
+    "Sydney": "Sídney", "Adelaide": "Adelaida", "Cambridge Park": "Penrith (Sídney oeste)", "Campbelltown": "Campbelltown (Sídney suroeste)",
+    "Dallas": "Craigieburn (Melbourne norte)", "Hackham West": "Morphett Vale (Adelaida sur)", "Langwarrin": "Frankston (Melbourne sur)",
+    "Point Cook": "Point Cook (Melbourne oeste)", "Thuringowa Central": "Townsville", "Butler": "Butler (Perth norte)",
+    "Wanneroo": "Wanneroo (Perth norte)", "North Lakes": "North Lakes (Brisbane norte)", "Redcliffe": "Redcliffe (Brisbane norte)",
+    "Cleveland": "Cleveland (Brisbane este)",
 }
 
 

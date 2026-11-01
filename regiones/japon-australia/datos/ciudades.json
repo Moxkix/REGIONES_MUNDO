@@ -1,0 +1,302 @@
+{
+ "afirmaciones": [
+  {
+   "texto": "Japón cuenta con 12 ciudades millonarias; Tokio, Yokohama y Osaka encabezan la lista (2015)",
+   "apartado": "1.3.3 (cuadro 4.2)",
+   "hoy": "Censo de 2025: siguen siendo 12 municipios millonarios, que suman 30,6 millones de habitantes (el 25 % del país). Los 23 distritos de Tokio tienen 9,94 millones.",
+   "nota": "Cambia el orden: Fukuoka y Kawasaki han adelantado a Kobe. Entre 2020 y 2025 ganaron población Tokio, Osaka, Fukuoka y Kawasaki, y perdieron Kioto, Kobe, Hiroshima, Yokohama y Sapporo."
+  },
+  {
+   "texto": "La Región Metropolitana del Gran Tokio, con 39 millones de habitantes en 2015, alberga el 30 % de la población total del país",
+   "apartado": "1.3.3",
+   "hoy": "Censo de 2025: las cuatro prefecturas (Tokio, Kanagawa, Saitama y Chiba) suman 36,98 millones, el 30,1 % de Japón. El área metropolitana oficial de Kantō reunía 38,0 millones en 2020.",
+   "nota": "El peso de Tokio sigue subiendo porque el resto del país pierde población más deprisa: la prefectura de Tokio fue la única de las 47 que creció entre 2020 y 2025. Los 39 millones del manual corresponden a una delimitación más amplia que esas cuatro prefecturas (36,1 millones en 2015)."
+  },
+  {
+   "texto": "Alrededor de esta línea imaginaria que se extiende de Tokio a Fukuoka vive más de las tres cuartas partes de la población japonesa",
+   "apartado": "1.3.3",
+   "hoy": "Censo de 2020: solo las tres grandes áreas metropolitanas de la Megalópolis de Tokaido (Kantō, Kinki y Chūkyō) suman 66,4 millones, el 52,6 % de Japón; a ellas se añaden Fukuoka-Kitakyūshū, Hiroshima, Okayama y el resto de ciudades del mar Interior.",
+   "nota": "No hay una cifra oficial de la Megalópolis: depende del perímetro, y la proporción de las tres cuartas partes no puede comprobarse con una sola estadística. Las áreas metropolitanas de 2025 no se publicarán hasta 2027."
+  },
+  {
+   "texto": "En 1900 uno de cada tres australianos era ciudadano; la población urbana pasó al 70 % en 1950 y al 90 % en 2015",
+   "apartado": "2.4.3.1",
+   "hoy": "Banco Mundial (2025): 87,7 % de población urbana. Las ocho capitales reúnen el 67,9 % de la población (ABS, 2025).",
+   "nota": "La diferencia con el 90 % del manual es de definición, no de tendencia: la concentración en las capitales ha seguido aumentando (61 % en 2015 según el manual)."
+  },
+  {
+   "texto": "Las siete capitales de estado, más la capital federal, agrupan en 2015 a 14,1 millones de habitantes que representan el 61 % de la población total",
+   "apartado": "2.4.3.1 (cuadro 4.7)",
+   "hoy": "ABS (30-6-2025): 18,75 millones, el 67,9 % de la población de Australia. Las cinco ciudades millonarias reúnen el 64,6 %.",
+   "nota": "Melbourne crece más deprisa que Sídney (+2,0 % en 2024-2025) y se le acerca: con la delimitación de la ABS, Sídney solo la supera ya en unos 200.000 habitantes. Perth y Brisbane son las capitales que más crecen."
+  },
+  {
+   "texto": "Sydney es 15 veces mayor que Blacktown, la segunda ciudad de Nueva Gales del Sur",
+   "apartado": "2.4.3.2",
+   "hoy": "ABS (2025): fuera de las capitales, las mayores áreas urbanas son Gold Coast-Tweed Heads (762.000), Newcastle-Maitland (542.000), Sunshine Coast (425.000), Central Coast (354.000), Wollongong (322.000) y Geelong (314.000).",
+   "nota": "Blacktown es un municipio de la periferia de Sídney; si se comparan áreas urbanas, Sídney es unas diez veces mayor que Newcastle. Siguen faltando ciudades medias: la macrocefalia que describe el manual no ha cambiado."
+  }
+ ],
+ "cuadros": [
+  {
+   "titulo": "Cuadro 4.2. Ciudades millonarias de Japón: el manual (2015) y el censo de 2025",
+   "columnas": [
+    "2015 (manual)"
+   ],
+   "columnaHoy": "Censo 2025 (municipio)",
+   "escalaDatos": 1000,
+   "filas": [
+    {
+     "nombre": "Tokio (23 distritos)",
+     "manual": [
+      9102000
+     ],
+     "hoy": {
+      "valor": 9944109,
+      "fecha": "censo 2025"
+     },
+     "wup": "JPN|Tokio"
+    },
+    {
+     "nombre": "Yokohama",
+     "manual": [
+      3722000
+     ],
+     "hoy": {
+      "valor": 3750952,
+      "fecha": "censo 2025"
+     },
+     "wup": null
+    },
+    {
+     "nombre": "Osaka",
+     "manual": [
+      2670000
+     ],
+     "hoy": {
+      "valor": 2805371,
+      "fecha": "censo 2025"
+     },
+     "wup": "JPN|Osaka (Keihanshin)"
+    },
+    {
+     "nombre": "Nagoya",
+     "manual": [
+      2260000
+     ],
+     "hoy": {
+      "valor": 2345186,
+      "fecha": "censo 2025"
+     },
+     "wup": "JPN|Nagoya"
+    },
+    {
+     "nombre": "Sapporo",
+     "manual": [
+      1936000
+     ],
+     "hoy": {
+      "valor": 1961996,
+      "fecha": "censo 2025"
+     },
+     "wup": "JPN|Sapporo"
+    },
+    {
+     "nombre": "Kobe",
+     "manual": [
+      1550000
+     ],
+     "hoy": {
+      "valor": 1494997,
+      "fecha": "censo 2025"
+     },
+     "wup": null
+    },
+    {
+     "nombre": "Fukuoka",
+     "manual": [
+      1486000
+     ],
+     "hoy": {
+      "valor": 1662793,
+      "fecha": "censo 2025"
+     },
+     "wup": "JPN|Fukuoka"
+    },
+    {
+     "nombre": "Kawasaki",
+     "manual": [
+      1445000
+     ],
+     "hoy": {
+      "valor": 1559571,
+      "fecha": "censo 2025"
+     },
+     "wup": null
+    },
+    {
+     "nombre": "Kioto",
+     "manual": [
+      1419000
+     ],
+     "hoy": {
+      "valor": 1430062,
+      "fecha": "censo 2025"
+     },
+     "wup": null
+    },
+    {
+     "nombre": "Saitama",
+     "manual": [
+      1270000
+     ],
+     "hoy": {
+      "valor": 1344865,
+      "fecha": "censo 2025"
+     },
+     "wup": null
+    },
+    {
+     "nombre": "Hiroshima",
+     "manual": [
+      1188000
+     ],
+     "hoy": {
+      "valor": 1171915,
+      "fecha": "censo 2025"
+     },
+     "wup": "JPN|Hiroshima"
+    },
+    {
+     "nombre": "Sendai",
+     "manual": [
+      1053000
+     ],
+     "hoy": {
+      "valor": 1096146,
+      "fecha": "censo 2025"
+     },
+     "wup": "JPN|Sendai"
+    }
+   ],
+   "nota": "Manual: Japan Statistical Yearbook 2016 (estimaciones de 2015). Hoy: censo de 2025, resultados definitivos, población de cada municipio (en Tokio, los 23 distritos especiales). Última columna: ciudad continua según Naciones Unidas (World Urbanization Prospects 2025), que une los municipios contiguos: Yokohama, Kawasaki y Saitama quedan dentro de Tokio, y Kobe y Kioto dentro de Osaka, por eso no tienen cifra propia."
+  },
+  {
+   "titulo": "Cuadro 4.7. Las capitales australianas: el manual y hoy",
+   "columnas": [
+    "1900 (manual)",
+    "1971 (manual)",
+    "2014 (manual)"
+   ],
+   "columnaHoy": "Área metropolitana 2025 (ABS)",
+   "escalaDatos": 1000,
+   "filas": [
+    {
+     "nombre": "Sídney",
+     "manual": [
+      481000,
+      2808000,
+      4500000
+     ],
+     "hoy": {
+      "valor": 5638830,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Sídney"
+    },
+    {
+     "nombre": "Melbourne",
+     "manual": [
+      496000,
+      2503000,
+      4000000
+     ],
+     "hoy": {
+      "valor": 5435590,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Melbourne"
+    },
+    {
+     "nombre": "Brisbane",
+     "manual": [
+      113000,
+      868000,
+      2000000
+     ],
+     "hoy": {
+      "valor": 2833524,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Brisbane"
+    },
+    {
+     "nombre": "Perth",
+     "manual": [
+      66000,
+      703000,
+      1700000
+     ],
+     "hoy": {
+      "valor": 2452765,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Perth"
+    },
+    {
+     "nombre": "Adelaida",
+     "manual": [
+      162000,
+      843000,
+      1200000
+     ],
+     "hoy": {
+      "valor": 1491015,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Adelaida"
+    },
+    {
+     "nombre": "Canberra",
+     "manual": [
+      null,
+      146000,
+      351000
+     ],
+     "hoy": {
+      "valor": 484630,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Canberra"
+    },
+    {
+     "nombre": "Hobart",
+     "manual": [
+      34000,
+      151000,
+      212000
+     ],
+     "hoy": {
+      "valor": 255250,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Hobart"
+    },
+    {
+     "nombre": "Darwin",
+     "manual": [
+      null,
+      33000,
+      124000
+     ],
+     "hoy": {
+      "valor": 159284,
+      "fecha": "ERP 2025"
+     },
+     "wup": "AUS|Darwin"
+    }
+   ],
+   "nota": "Manual: Maher (1984), Calendario Atlante de Agostini y World Gazetteer (cifras redondeadas). Hoy: población residente estimada a 30 de junio de 2025 de las Greater Capital City Statistical Areas de la ABS (Canberra: todo el Territorio de la Capital). Última columna: ciudad continua según Naciones Unidas (WUP 2025), una delimitación más estricta que deja fuera las periferias poco densas. Las tres fuentes delimitan la ciudad de forma distinta: comparad tendencias, no cifras exactas."
+  }
+ ]
+}

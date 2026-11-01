@@ -71,6 +71,24 @@ python3 herramientas/koppen_region.py kgcpy/kmz_int_reshape.png koppen.geojson -
 
 Los datos por estado y provincia (`regiones/norteamerica/datos/estados.json`) proceden del U.S. Census Bureau (censos de 2000 y estimaciones Vintage 2025; ACS 2024 para la población nacida en el extranjero) y de Statistics Canada (censo de 2001, estimaciones a 1 de julio de 2025 y censo de 2021). Las áreas metropolitanas (`datos/metros.json`) suman los condados de la delimitación de la OMB de 2023 en todos los años y usan las estimaciones de Statistics Canada con los límites de 2021; las fuentes completas están en el propio archivo.
 
+## Capas de Japón y Australia
+
+`japon_australia_capas.py` prepara las capas de las dos partes de la región:
+
+- **Relieve de Japón:** se clasifica en cuatro escalones de altitud (menos de 200 m, 200-500, 500-1.500 y más de 1.500 m) a partir de un modelo digital de elevaciones de 0,04° (`herramientas/dem_jp.npy`), obtenido de las teselas Terrarium de AWS (Mapzen/Nextzen, datos SRTM y otros, dominio público). Los polígonos se suavizan y se recortan con la tierra de Japón.
+- **Relieve de Australia:** se agrupan las unidades de Natural Earth en las grandes unidades morfoestructurales de la figura 4.10 del manual (zócalo, zócalo recubierto, llanuras centrales y cordillera oriental). Los huecos se rellenan con la unidad más próxima por celdas de 1°.
+- **Zonas agrarias de Australia (`agro_au.json`):** es un esquema propio que asigna a cada clima de Köppen un uso dominante (desierto, ganadería bovina, ovina, trigo, agricultura intensiva y plantación), inspirado en la figura 4.9.
+- **Puntos y líneas:** picos y volcanes, cuencas, regiones industriales (figura 4.5), recursos, la Línea Tectónica Media, la Fosa Magna y las fosas oceánicas.
+- **Prefecturas y estados (`estados.geojson`):** salen de Natural Earth admin-1 (10m).
+
+```
+python3 herramientas/japon_australia_capas.py ne_10m_geography_regions_polys.geojson adm1_ja.geojson dem_jp.npy carpeta_temporal
+python3 herramientas/koppen_region.py kgcpy/kmz_int_reshape.png k_jp.geojson --bbox 122 24 146.5 46 --factor 4 --suavizado 3
+python3 herramientas/koppen_region.py kgcpy/kmz_int_reshape.png k_au.geojson --bbox 112 -44 154.5 -9.5 --factor 6 --suavizado 3
+```
+
+Si `k_au.geojson` está en la carpeta temporal, el script genera también las zonas agrarias. Los datos por prefectura y estado (`regiones/japon-australia/datos/estados.json`) proceden de los censos de Japón de 2000 y 2025 (Statistics Bureau) y del censo australiano de 2001 y la población estimada de 2025 (ABS); las fuentes completas están en el propio archivo.
+
 ## Energía
 
 Descargad `owid-energy-data.csv` de <https://github.com/owid/energy-data> y ejecutad:

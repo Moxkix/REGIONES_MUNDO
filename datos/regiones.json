@@ -121,8 +121,15 @@
       "capitulo": 4,
       "titulo": "Japón y Australia",
       "subtitulo": "Dos modelos de organización del espacio en el Pacífico",
-      "disponible": false,
-      "motores": [],
+      "disponible": true,
+      "motores": [
+        "atlas",
+        "climas",
+        "recursos",
+        "poblacion",
+        "ciudades",
+        "paisajes"
+      ],
       "color": "#d16d8a",
       "paises": [
         "JPN",

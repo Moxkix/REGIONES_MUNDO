@@ -1,0 +1,508 @@
+{
+ "revisado": "noviembre de 2026",
+ "nota": "Afirmaciones del manual (edición de 2016, datos de 2014-2015) frente a los datos oficiales más recientes, a comienzos de noviembre de 2026. La energía (crisis de Ormuz de 2026), el arroz japonés y el comercio australiano con China cambian mes a mes: comprobad la fecha de cada dato.",
+ "items": [
+  {
+   "id": "jp_poblacion_envejecimiento",
+   "tema": "Japón: población y ciudades",
+   "apartado": "Introducción y 1.3",
+   "manual": "Japón tiene una población de 127 millones de habitantes (2015), es el décimo país más poblado del mundo y su densidad media es de 337 hab./km².",
+   "actual": "Censo de 2025 (resultados definitivos del recuento básico, Oficina de Estadística, 29-9-2026): 122.972.528 habitantes a 1-10-2025, 3.173.571 menos que en 2020 (−2,5 %) y 4.122.217 menos que en el censo de 2015 (127.094.745), con una densidad de 329,7 hab./km². Los mayores de 65 años son 36.141.613 (29,4 %, máximo histórico y el porcentaje más alto del mundo según la propia Oficina); los menores de 15 años, el 10,9 %. Según el Ministerio de Sanidad (MHLW, avance anual de 2025), en 2025 nacieron 671.236 niños, la cifra más baja desde que hay registros, y la fecundidad bajó a 1,14 hijos por mujer (0,96 en Tokio).",
+   "nota": "Japón ha perdido algo más de 4 millones de habitantes desde el censo de 2015 y el ritmo de descenso se acelera: el 91,2 % de los municipios perdió población entre 2020 y 2025. El envejecimiento (casi 3 de cada 10 habitantes con 65 o más años) y una natalidad mínima son hoy los rasgos demográficos centrales.",
+   "observaciones": "El avance del censo (29-5-2026) daba 123,05 millones; el dato definitivo es 122.972.528. La densidad de 329,7 hab./km² es la que publica el censo; dividir la población por 377.980 km² da 325, porque el censo calcula la densidad sobre una superficie algo menor. La fecundidad de 2025 es provisional: el MHLW advierte que se recalculará con la población del censo. No se ha verificado el puesto actual de Japón en el ranking mundial de población (el manual dice décimo).",
+   "fuentes": [
+    {
+     "titulo": "Statistics Bureau of Japan: 令和7年国勢調査 人口等基本集計 結果の概要 (29-9-2026)",
+     "url": "https://www.stat.go.jp/data/kokusei/2025/kekka/pdf/outline_01.pdf"
+    },
+    {
+     "titulo": "Statistics Bureau of Japan: News Bulletin, Preliminary Counts of the 2025 Population Census (25-6-2026)",
+     "url": "https://www.stat.go.jp/english/info/news/20260625.html"
+    },
+    {
+     "titulo": "MHLW: 令和7(2025)年 人口動態統計月報年計(概数)の概況, resultados",
+     "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/nengai25/dl/kekka.pdf"
+    }
+   ]
+  },
+  {
+   "id": "jp_ciudades_millonarias",
+   "tema": "Japón: población y ciudades",
+   "apartado": "1.3.3 (Cuadro 4.2)",
+   "manual": "Ciudades millonarias en Japón (2015, miles de hab.): Tokio 9.102; Yokohama 3.722; Osaka 2.670; Nagoya 2.260; Sapporo 1.936; Kobe 1.550; Fukuoka 1.486; Kawasaki 1.445; Kyoto 1.419; Saitama 1.270; Hiroshima 1.188; Sendai 1.053 (Japan Statistical Yearbook 2016).",
+   "actual": "Censo de 2025 (definitivo, 1-10-2025), en miles de hab.: Tokio (23 distritos especiales) 9.944; Yokohama 3.751; Osaka 2.805; Nagoya 2.345; Sapporo 1.962; Fukuoka 1.663; Kawasaki 1.560; Kobe 1.495; Kyoto 1.430; Saitama 1.345; Hiroshima 1.172; Sendai 1.096. Siguen siendo 12 municipios millonarios, que suman 30,57 millones de habitantes (24,9 % del total). Chiba se queda en 994.846.",
+   "nota": "La lista de ciudades millonarias es la misma, pero cambia el orden: Fukuoka (6.ª) y Kawasaki (7.ª) han adelantado a Kobe, que pierde población. Entre 2020 y 2025 los 23 distritos de Tokio ganaron 210.833 habitantes, Osaka 52.959 y Fukuoka 50.401, mientras Kyoto, Kobe, Hiroshima, Yokohama y Sapporo perdieron población.",
+   "observaciones": "La cifra de Tokio en el manual corresponde a los 23 distritos especiales (ku-bu), no a la metrópoli de Tokio (14,24 millones). Las cifras de Sapporo y Sendai proceden de las notas de sus ayuntamientos sobre el censo definitivo; las demás, de la tabla de municipios con mayor aumento o descenso del resumen del censo. Las cifras del manual (2015) son estimaciones del anuario, no del censo, y no son exactamente comparables.",
+   "fuentes": [
+    {
+     "titulo": "Statistics Bureau of Japan: 令和7年国勢調査 人口等基本集計 結果の概要 (29-9-2026)",
+     "url": "https://www.stat.go.jp/data/kokusei/2025/kekka/pdf/outline_01.pdf"
+    },
+    {
+     "titulo": "Ciudad de Sapporo: 令和7年「国勢調査」人口等基本集計 結果の概要",
+     "url": "https://www.city.sapporo.jp/toukei/tokusyu/documents/r07kokutyoujinkou.pdf"
+    },
+    {
+     "titulo": "Ciudad de Sendai: 令和7年国勢調査による仙台市の人口（確定値）",
+     "url": "https://www.city.sendai.jp/chosatoke/shise/toke/r7kokucho/kisya_r7kakuhou.html"
+    }
+   ]
+  },
+  {
+   "id": "jp_gran_tokio",
+   "tema": "Japón: población y ciudades",
+   "apartado": "1.3.3",
+   "manual": "La Región Metropolitana del Gran Tokio (prefecturas de Tokio, Saitama, Kanagawa y Chiba) tiene 39 millones de habitantes en 2015 y alberga el 30 % de la población total del país.",
+   "actual": "Censo de 2025 (definitivo): la región de Tokio (Tokio, Kanagawa, Saitama y Chiba) suma 36.975.000 habitantes, el 30,1 % de la población de Japón, y ganó 61.000 habitantes entre 2020 y 2025. La metrópoli de Tokio tiene 14.237.000 (11,6 % del país) y fue la única de las 47 prefecturas que creció (+1,3 %).",
+   "nota": "El porcentaje del 30 % se mantiene e incluso sube un poco, porque el resto del país pierde población más deprisa. La cifra absoluta del manual (39 millones) es más alta que la que da el censo para esas cuatro prefecturas.",
+   "observaciones": "Los 39 millones del manual no coinciden con el censo: en 2015 esas cuatro prefecturas sumaban 36.130.685 habitantes (cálculo propio con la tabla del censo), así que el manual parece usar una definición más amplia de la aglomeración. El avance del censo daba 36,986 millones; el dato definitivo es 36,975 millones.",
+   "fuentes": [
+    {
+     "titulo": "Statistics Bureau of Japan: 令和7年国勢調査 人口等基本集計 結果の概要 (29-9-2026)",
+     "url": "https://www.stat.go.jp/data/kokusei/2025/kekka/pdf/outline_01.pdf"
+    },
+    {
+     "titulo": "Statistics Bureau of Japan: News Bulletin (25-6-2026)",
+     "url": "https://www.stat.go.jp/english/info/news/20260625.html"
+    }
+   ]
+  },
+  {
+   "id": "jp_superficie_cultivada_arroz",
+   "tema": "Japón: agricultura y pesca",
+   "apartado": "1.1.2.1 (Cuadro 4.1)",
+   "manual": "La superficie cultivada ocupa el 12,4 % del territorio y permanece bastante estable; el arroz cubre 1,6 millones de ha, ocupa casi la mitad del suelo cultivado y sus arrozales están en lento retroceso.",
+   "actual": "Según el MAFF (superficie de tierras de cultivo a 15-7-2025), Japón tiene 4.239.000 ha cultivables (2.300.000 ha de arrozal y 1.939.000 ha de secano), 33.000 ha menos que un año antes (−0,8 %). Eso es el 11,2 % del territorio (cálculo propio sobre 377.980 km²). La superficie de arroz para consumo (主食用米) subió en 2025 a 1.367.000 ha, unas 108.000 ha más que en 2024 (1.259.000 ha), y la cosecha de 2025 aumentó un 10 % tras la crisis de abastecimiento de 2024-2025.",
+   "nota": "La superficie cultivada no es estable: sigue bajando y ya está en torno al 11 % del territorio. El arroz de consumo ocupa menos de lo que dice el manual, pero en 2025 se rompió la tendencia al retroceso, porque el Gobierno relajó el control de la producción tras la escasez y la subida de precios.",
+   "observaciones": "Las cifras de 2025 sobre tierras de cultivo se han tomado de los resúmenes de prensa sectorial (農機新聞) y del índice de publicaciones del MAFF, no del cuadro original, porque la web del MAFF bloqueó la descarga. La superficie de arroz de 2025 es la de consumo humano (la de todo el arroz con cáscara es mayor) y procede de la nota del MAFF del 10-10-2025 recogida por ESG Journal. El +10 % de cosecha (676.000 t de arroz integral más) es del informe del USDA.",
+   "fuentes": [
+    {
+     "titulo": "週刊「農機新聞」: 令和7年耕地面積（7月15日現在） (resumen de la publicación del MAFF)",
+     "url": "https://www.shin-norin.co.jp/?p=55618"
+    },
+    {
+     "titulo": "MAFF: 面積調査 (índice de resultados)",
+     "url": "https://www.maff.go.jp/j/tokei/kouhyou/sakumotu/menseki/"
+    },
+    {
+     "titulo": "ESG Journal: 令和7年産水田作付、主食用米が10万ヘクタール増加 (23-10-2025, cita al MAFF)",
+     "url": "https://esgjournaljapan.com/world-news/48465"
+    },
+    {
+     "titulo": "USDA FAS GAIN JA2026-0015: High Domestic Rice Prices Drive Record Private Sector Imports in 2025 (3-4-2026)",
+     "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=High%20Domestic%20Rice%20Prices%20Drive%20Record%20Private%20Sector%20Imports%20in%202025_Tokyo_Japan_JA2026-0015"
+    }
+   ]
+  },
+  {
+   "id": "jp_arroz_importacion",
+   "tema": "Japón: agricultura y pesca",
+   "apartado": "1.1.2.2",
+   "manual": "El arroz es un cultivo sumamente protegido: aunque importarlo sería más barato, la importación de arroz extranjero está prohibida y se garantizan a los agricultores precios elevados.",
+   "actual": "La importación no está prohibida: Japón importa cada año, por comercio de Estado y sin arancel, un contingente OMC de «acceso mínimo» de 682.000 t de arroz elaborado (como máximo 100.000 t para mesa, el resto para transformación, piensos y ayuda alimentaria). Fuera del contingente se paga un arancel de 341 yenes/kg. Tras la escasez de 2024, con precios que en mayo de 2025 duplicaban los de un año antes, las importaciones privadas fuera de contingente llegaron a 96.834 t en 2025 (95 veces más que en 2024; el 78 % de EE. UU.). Entre marzo y septiembre de 2025 el Gobierno vendió 590.000 t de su reserva estratégica. En el acuerdo comercial con EE. UU. de julio de 2025, Japón se comprometió a aumentar un 75 % sus compras de arroz estadounidense.",
+   "nota": "La afirmación del manual está superada: el sistema actual de importación, con contingente y arancel, existe desde 1999 (USDA). La crisis de 2024-2025 ha llevado el arroz importado a máximos y ha hecho que el Gobierno replantee la política arrocera y su sistema de reservas.",
+   "observaciones": "La cifra de 682.000 t del contingente es en base de arroz elaborado; en otras fuentes aparece en base de arroz integral, con un número más alto. El texto del compromiso del 75 % (Casa Blanca) no detalla cómo se aplica dentro del contingente. El dato del informe del USDA lo elaboró personal del USDA con estadísticas del Ministerio de Finanzas japonés.",
+   "fuentes": [
+    {
+     "titulo": "USDA FAS GAIN JA2026-0015: High Domestic Rice Prices Drive Record Private Sector Imports in 2025 (3-4-2026)",
+     "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=High%20Domestic%20Rice%20Prices%20Drive%20Record%20Private%20Sector%20Imports%20in%202025_Tokyo_Japan_JA2026-0015"
+    },
+    {
+     "titulo": "The White House: Fact Sheet on the U.S.-Japan Strategic Trade and Investment Agreement (7-2025)",
+     "url": "https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-secures-unprecedented-u-s-japan-strategic-trade-and-investment-agreement/"
+    }
+   ]
+  },
+  {
+   "id": "jp_autoabastecimiento",
+   "tema": "Japón: agricultura y pesca",
+   "apartado": "Introducción y 1.1.2.2",
+   "manual": "Japón es el mayor importador de cereales del mundo; la soja, alimento básico, se importa en más de un 70 % y su producción nacional no representa más del 5 % del consumo; la tasa de cobertura agraria ha disminuido en las últimas décadas.",
+   "actual": "MAFF (7-8-2026): en el año fiscal 2025 la tasa de autoabastecimiento alimentario fue del 37 % en calorías (37,11 %, mínimo histórico igualado; 38 % en 2024) y del 66 % en valor de la producción. Por productos, en calorías: arroz 96 %, trigo 16 %, soja 25 %, aceites y grasas 4 %, productos ganaderos 17 % (contando el pienso importado). La autosuficiencia en piensos es del 24 %.",
+   "nota": "La dependencia alimentaria sigue siendo muy alta y estructural: en calorías Japón produce poco más de un tercio de lo que consume, y el trigo y la soja siguen siendo mayoritariamente importados. El arroz, en cambio, está casi autoabastecido.",
+   "observaciones": "El 25 % de la soja es en calorías y sobre el consumo como alimento; no es comparable con el 5 % del manual, que se refiere al volumen de todo el consumo, incluida la soja que se tritura para aceite. No se ha verificado si Japón sigue siendo el primer importador mundial de cereales; con los volúmenes que importa hoy China, probablemente no lo sea.",
+   "fuentes": [
+    {
+     "titulo": "MAFF: 令和７年度食料自給率について (8-2026)",
+     "url": "https://www.maff.go.jp/j/press/kanbo/anpo/attach/pdf/260807-3.pdf"
+    },
+    {
+     "titulo": "MAFF: 日本の食料自給率",
+     "url": "https://www.maff.go.jp/j/zyukyu/zikyu_ritu/012.html"
+    }
+   ]
+  },
+  {
+   "id": "jp_pesca",
+   "tema": "Japón: agricultura y pesca",
+   "apartado": "1.1.2.3",
+   "manual": "Japón es (2014) el sexto país del mundo en capturas pesqueras, por detrás de China, Indonesia, India, EE. UU. y Perú, y el noveno en acuicultura; es (2015) el segundo importador de pescado y marisco del mundo, tras EE. UU.; consume 56,7 kg de pescado por habitante y año.",
+   "actual": "MAFF (estadística de pesca y acuicultura de 2025, cifras provisionales): la producción total fue de 3.577.400 t, un 1,6 % menos que en 2024 y un nuevo mínimo desde 1951. La pesca marítima capturó 2.700.500 t y la acuicultura marina 831.900 t. FAO (SOFIA 2024, datos de 2022): Japón era el 8.º país en capturas marinas, con 2,889 Mt (3,6 % del total), por detrás de China, Indonesia, Perú, Rusia, EE. UU., India y Vietnam. No figura entre los diez primeros productores acuícolas. Es el 3.er importador mundial de productos acuáticos, tras EE. UU. y China. El consumo de pescado comestible es de 21,4 kg por habitante y año (año fiscal 2023, base de alimento neto, Agencia de Pesca), frente a 40,2 kg en 2001.",
+   "nota": "El declive de la pesca japonesa ha continuado: las capturas marinas en 2022 eran algo más de la cuarta parte de las de los años ochenta, y Japón ha bajado al 8.º puesto en capturas y ha salido del grupo de los diez primeros en acuicultura. China lo ha desplazado como segundo importador mundial.",
+   "observaciones": "El informe SOFIA 2026 (junio de 2026, datos de 2024) da como siete primeros en capturas marinas a China, Indonesia, Perú, Rusia, India, EE. UU. y Vietnam; no se ha podido consultar su tabla por países para confirmar el puesto exacto de Japón. Los 56,7 kg del manual siguen la definición de la FAO (equivalente en peso vivo); los 21,4 kg de la Agencia de Pesca son en peso neto comestible, así que las dos cifras no son comparables, aunque ambas muestran una caída fuerte.",
+   "fuentes": [
+    {
+     "titulo": "MAFF: 令和7年漁業・養殖業生産統計 (概数)",
+     "url": "https://www.maff.go.jp/j/tokei/kouhyou/kaimen_gyosei/pdf/gyogyou_seisan_25.pdf"
+    },
+    {
+     "titulo": "FAO: The State of World Fisheries and Aquaculture 2024, Table 6 (capturas marinas por país)",
+     "url": "https://openknowledge.fao.org/server/api/core/bitstreams/1273bc36-339b-43d2-8163-af4d805f2ad2/content/sofia/2024/capture-fisheries-production.html"
+    },
+    {
+     "titulo": "FAO Newsroom: Global fisheries and aquaculture production reaches a new record high (7-6-2024)",
+     "url": "https://www.fao.org/newsroom/detail/fao-report-global-fisheries-and-aquaculture-production-reaches-a-new-record-high/en"
+    },
+    {
+     "titulo": "FAO: SOFIA 2026, Capture fisheries production",
+     "url": "https://openknowledge.fao.org/server/api/core/bitstreams/09d03e2f-7097-4d59-bf94-db65e95f44fd/content/sofia-2026/capture-fisheries-production.html"
+    },
+    {
+     "titulo": "Agencia de Pesca de Japón: Libro Blanco de la Pesca, (2) 水産物消費の状況",
+     "url": "https://www.jfa.maff.go.jp/j/kikaku/wpaper/r06_h/trend/1/t1_1_2.html"
+    }
+   ]
+  },
+  {
+   "id": "jp_ballenas",
+   "tema": "Japón: agricultura y pesca",
+   "apartado": "1.1.2.3",
+   "manual": "La presión ecologista internacional ha reducido drásticamente las capturas de ballenas de los balleneros japoneses en el Océano Antártico: 17.000 cetáceos en 1970, 2.000 a principios de los noventa y, en la actualidad, no más de 1.000 ejemplares.",
+   "actual": "Japón abandonó la Comisión Ballenera Internacional (CBI) en 2019 y ese mismo año reanudó la caza comercial, a la que ya no se aplica la moratoria (CBI). Los cupos actuales de la Agencia de Pesca solo contemplan poblaciones del Pacífico noroccidental. La Agencia de Pesca fijó para 2026 un cupo total de 412 ballenas: 145 rorcuales aliblancos (caza costera), 153 rorcuales tropicales (133 con buque factoría y 20 costeros), 56 rorcuales boreales y 58 rorcuales comunes. La caza de rorcual común se autorizó en 2024.",
+   "nota": "La caza en el océano Antártico que describe el manual ya no figura en los cupos japoneses. Desde 2019 se hace una caza comercial declarada en el Pacífico noroccidental, con cupos de unas 400 ballenas al año, que incluye de nuevo el rorcual común.",
+   "observaciones": "El total de 412 es la suma de los cupos por especie del documento de la Agencia de Pesca (traducción provisional, sin fecha). Coincide con la cifra que dan los medios (World Animal News, 12-5-2026). Las capturas reales suelen quedar por debajo del cupo. Las capturas japonesas se siguen comunicando a la CBI.",
+   "fuentes": [
+    {
+     "titulo": "International Whaling Commission: Commercial Whaling",
+     "url": "https://iwc.int/management-and-conservation/whaling/commercial"
+    },
+    {
+     "titulo": "Fisheries Agency of Japan: Initial allocations of TAC for 2026 (traducción provisional)",
+     "url": "https://www.jfa.maff.go.jp/e/whale/attach/pdf/index-51.pdf"
+    },
+    {
+     "titulo": "Fisheries Agency of Japan: Whaling Affairs",
+     "url": "https://www.jfa.maff.go.jp/e/whale/"
+    },
+    {
+     "titulo": "World Animal News: Japan's 2026 whaling season underway (12-5-2026)",
+     "url": "https://worldanimalnews.com/2026/05/12/whales-killed-for-profit-as-japan-continues-commercial-whaling-despite-global-outrage/"
+    }
+   ]
+  },
+  {
+   "id": "jp_dependencia_energetica",
+   "tema": "Japón: industria y energía",
+   "apartado": "Introducción, 1.2.1",
+   "manual": "Japón es el primer importador mundial de carbón (casi el 30 % del total mundial) y el segundo de petróleo y gas natural (en otro pasaje, el tercer importador de petróleo tras China y EE. UU., 2015); la mayor parte del petróleo procede de Oriente Medio; es la potencia industrial más dependiente de la energía importada.",
+   "actual": "Según la estadística energética general de la ANRE (año fiscal 2024, definitiva, 4-2026), la autosuficiencia energética de Japón fue del 16,3 % (base AIE, +1,1 puntos) y los combustibles fósiles cubrieron el 80,1 % de la energía primaria. En 2026 el Libro Blanco de la Energía (aprobado en octubre de 2026) recuerda que más del 90 % del crudo procede de Oriente Medio. Señala también que el cierre de facto del estrecho de Ormuz, tras los ataques de EE. UU. contra Irán que empezaron a finales de febrero de 2026, obligó a liberar reservas de petróleo desde marzo. En carbón, la AIE (Coal 2025) estima para 2025 unas importaciones de China de 489 Mt y de la India de unas 235 Mt, mientras que Japón importó 14,64 Mt en diciembre de 2025 (Ministerio de Finanzas), es decir, del orden de 170 Mt al año.",
+   "nota": "Japón ya no es el primer importador de carbón: China y la India lo superan con holgura. Sigue siendo, en cambio, uno de los países industrializados más dependientes de la energía importada, y la crisis de Ormuz de 2026 volvió a dejar a la vista su vulnerabilidad.",
+   "observaciones": "La cifra anual de importación de carbón de Japón es una estimación propia a partir del dato mensual; no se ha podido consultar el total de 2025. Tampoco se ha verificado el puesto actual de Japón como importador de petróleo y de GNL. La autosuficiencia del 16,3 % cuenta la nuclear como energía propia. La noticia sobre el Libro Blanco es un resumen de prensa (Kyodo); según esa nota, la edición aprobada es la de 2025 (año fiscal).",
+   "fuentes": [
+    {
+     "titulo": "ANRE/METI: 2024年度（令和6年度）エネルギー需給実績（確報） (4-2026)",
+     "url": "https://www.enecho.meti.go.jp/statistics/total_energy/pdf/honbun2024fykaku.pdf"
+    },
+    {
+     "titulo": "熊本日日新聞 (Kyodo): エネルギー、有事に備えを 白書「中東情勢で弱点」 (23-10-2026)",
+     "url": "https://kumanichi.com/articles/2049675"
+    },
+    {
+     "titulo": "IEA: Coal 2025 – Trade",
+     "url": "https://www.iea.org/reports/coal-2025/trade"
+    },
+    {
+     "titulo": "APBI-ICMA: Japan Dec coal imports fall 7.7% on yr – prelim data (22-1-2026)",
+     "url": "https://apbi-icma.org/media-article/japan-dec-coal-imports-fall-7.7-on-yr-prelim-data"
+    }
+   ]
+  },
+  {
+   "id": "jp_nuclear",
+   "tema": "Japón: industria y energía",
+   "apartado": "1.2.1",
+   "manual": "Tras el accidente de Fukushima (11-3-2011), cuando la nuclear aportaba una cuarta parte de la electricidad, se cerraron todas las centrales; en 2015 Japón vuelve a apostar por la nuclear con la reapertura de Sendai, y el objetivo es que genere el 22 % de la electricidad en 2030.",
+   "actual": "Desde 2015 se han reactivado 15 reactores: Sendai 1 y 2, Takahama 1 a 4, Ikata 3, Ohi 3 y 4, Genkai 3 y 4, Mihama 3, Onagawa 2, Shimane 2 y, en enero de 2026, Kashiwazaki-Kariwa 6, el primero de TEPCO desde 2011 (Nippon.com). En el año fiscal 2024 la nuclear generó el 9,4 % de la electricidad y las renovables, hidráulica incluida, el 23,1 % (ANRE). El 7.º Plan Estratégico de Energía, aprobado por el Gobierno el 18-2-2025, prevé para 2040 en torno a un 20 % de nuclear, un 40-50 % de renovables y un 30-40 % de térmica. En julio de 2026 el Gobierno anunció que sustituirá entre 2 y 5 reactores en la década de 2040.",
+   "nota": "La reactivación ha sido más lenta de lo previsto: la nuclear está todavía lejos del 20-22 % que se fijó para 2030. La política ha pasado, aun así, de «reducir la dependencia» a «aprovechar al máximo» la nuclear, y el horizonte de los objetivos se ha llevado a 2040.",
+   "observaciones": "La lista de reactores reactivados procede de la cronología de Nippon.com (actualizada en septiembre de 2026). El reparto de 2040 son «perspectivas» del plan, no objetivos vinculantes; los porcentajes se han tomado de Nippon.com, porque las notas del METI y de la AIE consultadas solo detallan la parte solar, eólica y de biomasa.",
+   "fuentes": [
+    {
+     "titulo": "Nippon.com: Mapa de las centrales nucleares de Japón en 2026",
+     "url": "https://www.nippon.com/es/japan-data/h02901/"
+    },
+    {
+     "titulo": "ANRE/METI: 2024年度エネルギー需給実績（確報） (4-2026)",
+     "url": "https://www.enecho.meti.go.jp/statistics/total_energy/pdf/honbun2024fykaku.pdf"
+    },
+    {
+     "titulo": "METI: Cabinet Decision on the Seventh Strategic Energy Plan (18-2-2025)",
+     "url": "https://www.meti.go.jp/english/press/2025/0218_001.html"
+    },
+    {
+     "titulo": "Nippon.com: Japan's Energy Plan: New Policy Shifts Nuclear Power Stance from Reduction to Maximization",
+     "url": "https://www.nippon.com/en/in-depth/d01195/japan%E2%80%99s-energy-plan-new-policy-shifts-nuclear-power-stance-from-reduction-to-maximizatio.html"
+    },
+    {
+     "titulo": "ANRE: A Closer Look at the 7th Strategic Energy Plan",
+     "url": "https://www.enecho.meti.go.jp/en/category/special/article/detail_215.html"
+    }
+   ]
+  },
+  {
+   "id": "jp_siderurgia",
+   "tema": "Japón: industria y energía",
+   "apartado": "1.2.2.2",
+   "manual": "Japón es todavía hoy el segundo productor mundial de acero, por detrás de China, con el 9,1 % de la producción mundial (2014).",
+   "actual": "worldsteel (23-1-2026): en 2025 Japón produjo 80,7 Mt de acero bruto (−4,0 %) y fue el 4.º productor mundial, por detrás de China (960,8 Mt), la India (164,9 Mt) y EE. UU. (82,0 Mt). Su cuota es del 4,4 % de una producción mundial de 1.849,4 Mt (cálculo propio).",
+   "nota": "Japón ha bajado del 2.º al 4.º puesto: hoy lo superan la India y, en 2025, también EE. UU. Su cuota mundial se ha reducido a menos de la mitad.",
+   "observaciones": "La diferencia con EE. UU. es pequeña (1,3 Mt) y el puesto puede alternar de un año a otro. Las cifras de 2025 son las de la nota de prensa de enero; worldsteel puede revisarlas en su anuario.",
+   "fuentes": [
+    {
+     "titulo": "worldsteel: December 2025 crude steel production and 2025 global totals (23-1-2026)",
+     "url": "https://worldsteel.org/media/press-releases/2026/december-2025-crude-steel-production-2025-global-crude-steel-production/"
+    }
+   ]
+  },
+  {
+   "id": "jp_automovil",
+   "tema": "Japón: industria y energía",
+   "apartado": "1.2.2.2",
+   "manual": "Japón ocupó el primer lugar mundial con 11,6 millones de vehículos en 2008; con 8,7 millones de unidades en 2015 ocupa el segundo lugar, por detrás de China.",
+   "actual": "OICA (encuesta de corresponsales, 2025): Japón fabricó 8.410.232 vehículos de motor en 2025 (+2 %), el 8,7 % del total mundial (96.383.650). Es el 3.er productor, por detrás de China (34.530.738, el 35,8 % del total) y EE. UU. (10.243.844), y por delante de la India (6.490.810).",
+   "nota": "La producción japonesa es parecida a la de 2015, pero Japón ha pasado al tercer puesto, detrás de EE. UU. El gran cambio es el peso de China, que fabrica cuatro veces más vehículos que Japón.",
+   "observaciones": "Las cifras de la OICA se han leído en la tabla de 2025 que reproduce la asociación portuguesa AFIA. La OICA cuenta vehículos fabricados dentro de cada país, no por los fabricantes de ese país: los grupos japoneses producen mucho más en el extranjero. No se ha verificado el puesto actual de Japón como exportador de automóviles.",
+   "fuentes": [
+    {
+     "titulo": "OICA: World motor vehicle production by country/region and type 2025 (tabla reproducida por AFIA)",
+     "url": "https://www.afia.pt/wp-content/uploads/2026/04/prod-total-2025.pdf"
+    }
+   ]
+  },
+  {
+   "id": "jp_pib_ranking",
+   "tema": "Japón: industria y energía",
+   "apartado": "Introducción y Conclusión",
+   "manual": "Gracias a su supremacía industrial, financiera y tecnológica, Japón ocupa uno de los primeros puestos en la escena económica internacional (tradicionalmente, la tercera economía del mundo).",
+   "actual": "Según la prensa sobre las Perspectivas de la Economía Mundial del FMI (octubre de 2026), Japón es la 4.ª economía del mundo en PIB nominal en dólares, detrás de EE. UU., China y Alemania, con un PIB previsto de 4,34 billones de dólares en 2026. El FMI prevé que en 2027 baje al 6.º puesto (4,47 billones), superado por la India (4,52 billones) y el Reino Unido (4,49 billones).",
+   "nota": "Japón es la 4.ª economía desde 2023, cuando lo superó Alemania, y el FMI prevé que en 2027 lo superen también la India y el Reino Unido.",
+   "observaciones": "Las cifras proceden de la prensa (Qatar Tribune, 19-10-2026), que cita el WEO de octubre de 2026; no se ha podido consultar directamente la base de datos del FMI. En 2025 el Gobierno indio afirmó que la India ya había superado a Japón (con proyecciones anteriores del FMI), así que las fuentes no coinciden. El orden depende mucho del tipo de cambio: en paridad de poder adquisitivo la India está muy por delante de Japón desde hace años.",
+   "fuentes": [
+    {
+     "titulo": "Qatar Tribune: Japan to fall to 6th in world GDP rankings behind India, Britain: IMF (19-10-2026)",
+     "url": "https://www.qatar-tribune.com/article/259744/business/japan-to-fall-to-6th-in-world-gdp-rankings-behind-india-britain-imf"
+    },
+    {
+     "titulo": "ShareSansar: India expected to overtake Japan as world's 4th largest economy in 2027: IMF (15-10-2026)",
+     "url": "https://www.sharesansar.com/newsdetail/india-expected-to-overtake-japan-as-worlds-4th-largest-economy-in-2027-imf-2026-10-15"
+    }
+   ]
+  },
+  {
+   "id": "au_poblacion_inmigracion",
+   "tema": "Australia: población y ciudades",
+   "apartado": "2.4.1",
+   "manual": "En 2015, de los 24 millones de habitantes el 25 % había nacido fuera del país; los asiáticos pasaron de unos 160.000 en 1975 a unos 900.000 (5 %) en 2015, gran parte llegados desde Hong Kong.",
+   "actual": "ABS: Australia tenía 27.921.150 habitantes a 31-3-2026, tras crecer 392.700 en un año (+1,4 %): 100.600 por crecimiento natural y 292.100 por migración neta exterior. A 30-6-2025 había 8,8 millones de nacidos en el extranjero, el 32,0 % de la población (ABS, 29-4-2026). Los principales países de nacimiento son la India (971.020), Inglaterra (970.950), China (732.000), Nueva Zelanda (638.000), Filipinas (412.530) y Vietnam (326.630).",
+   "nota": "La población ha crecido casi 4 millones desde 2015 y la proporción de nacidos fuera ha subido del 25 % a casi un tercio. Los nacidos en la India son ya el primer grupo, por delante de los ingleses, y solo los nacidos en la India, China, Filipinas y Vietnam suman unos 2,44 millones: la inmigración asiática supera con mucho la cifra del manual.",
+   "observaciones": "Los nacidos en el extranjero son un dato de país de nacimiento, no de origen étnico; la cifra de «asiáticos» del manual no tiene una definición clara. La suma de 2,44 millones es un cálculo propio con cuatro países. El censo de agosto de 2026 revisará estas series cuando se publique (desde mediados de 2027).",
+   "fuentes": [
+    {
+     "titulo": "ABS: National, state and territory population, March 2026 (17-9-2026)",
+     "url": "https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release"
+    },
+    {
+     "titulo": "ABS: Australia's population by country of birth, June 2025 (29-4-2026)",
+     "url": "https://www.abs.gov.au/statistics/people/population/australias-population-country-birth/latest-release"
+    }
+   ]
+  },
+  {
+   "id": "au_aborigenes",
+   "tema": "Australia: población y ciudades",
+   "apartado": "2.4.1",
+   "manual": "Se calcula que en 2015 los aborígenes son alrededor de 500.000 (2,5 % de la población).",
+   "actual": "ABS (estimación de población residente basada en el censo de 2021): a 30-6-2021 había 983.700 aborígenes e isleños del estrecho de Torres, el 3,8 % de la población australiana. Nueva Gales del Sur tenía la mayor población (339.700).",
+   "nota": "La población indígena es casi el doble de lo que dice el manual, y su peso en el total ha pasado del 2,5 % al 3,8 %.",
+   "observaciones": "Es la última estimación oficial definitiva (datos de 2021); no se ha consultado la cifra proyectada para 2026. Parte del aumento se debe a que más personas se identifican como indígenas en cada censo, no solo al crecimiento natural. El recuento directo del censo es más bajo que la estimación de población residente, porque esta corrige el subregistro. Los datos del censo de 2026 se publicarán a partir de 2027.",
+   "fuentes": [
+    {
+     "titulo": "ABS: Estimates of Aboriginal and Torres Strait Islander Australians, June 2021",
+     "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/estimates-aboriginal-and-torres-strait-islander-australians/latest-release"
+    }
+   ]
+  },
+  {
+   "id": "au_ciudades",
+   "tema": "Australia: población y ciudades",
+   "apartado": "2.4.3.1 (Cuadro 4.7)",
+   "manual": "Población 2014 (miles) y % sobre la población del estado: Sydney 4.500 (60 %), Melbourne 4.000 (68 %), Brisbane 2.000 (42 %), Perth 1.700 (66 %), Adelaida 1.200 (71 %), Canberra 351 (91 %), Hobart 212 (41 %), Darwin 124 (51 %). Las siete capitales y Canberra agrupan 14,1 millones (61 %); en las cinco ciudades millonarias vivía el 58 % en 2015.",
+   "actual": "ABS (población regional, 30-6-2025; publicada el 31-3-2026), áreas metropolitanas (Greater Capital City Statistical Areas): Sydney 5.638.830 (65,6 % de Nueva Gales del Sur); Melbourne 5.435.590 (76,8 % de Victoria); Brisbane 2.833.524 (50,0 % de Queensland); Perth 2.452.765 (80,6 % de Australia Occidental); Adelaida 1.491.015 (78,4 % de Australia Meridional); Canberra (Territorio de la Capital Australiana) 484.630; Hobart 255.250 (44,3 % de Tasmania); Darwin 159.284 (60,2 % del Territorio del Norte). Las ocho capitales suman 18.750.888 habitantes, el 67,9 % de los 27.614.411 de Australia; las cinco millonarias, el 64,6 %. Los porcentajes son cálculos propios con la población de cada estado a la misma fecha.",
+   "nota": "La concentración urbana ha seguido creciendo: dos tercios de la población viven en las capitales. Melbourne (+105.030 en 2024-2025, +2,0 %) crece más que Sydney y se le acerca, aunque con esta delimitación Sydney sigue siendo mayor por unos 203.000 habitantes. Perth y Brisbane son las capitales que más crecen.",
+   "observaciones": "Las cifras de 2014 del manual (World Gazetteer, redondeadas) no son comparables con las áreas metropolitanas de la ABS; los porcentajes de crecimiento 1971-2014 del cuadro tampoco cuadran con sus propias cifras. Con otras delimitaciones (por ejemplo, la de «área urbana significativa») el orden entre Sydney y Melbourne puede cambiar. En el caso de Canberra, la cifra es la de todo el Territorio de la Capital Australiana.",
+   "fuentes": [
+    {
+     "titulo": "ABS: Regional population, 2024-25 (31-3-2026)",
+     "url": "https://www.abs.gov.au/statistics/people/population/regional-population/latest-release"
+    },
+    {
+     "titulo": "ABS: National, state and territory population, June 2025",
+     "url": "https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/jun-2025"
+    }
+   ]
+  },
+  {
+   "id": "au_ganaderia",
+   "tema": "Australia: medio y agricultura",
+   "apartado": "2.2.2.1 (Cuadro 4.5)",
+   "manual": "Ganado ovino: 159 millones de cabezas (1985), 101 (2007) y 76 (2014); bovino: 23, 29 y 29 millones; lana: 516, 508 y 360 miles de t. Australia posee la segunda cabaña ovina mundial y es el primer productor (20 %) y exportador (50 %) de lana.",
+   "actual": "ABS (Australian Agriculture: Livestock, 2024-25, revisión del 31-8-2026): 65,8 millones de ovinos a 30-6-2025 (−8,0 % en un año) y 29,7 millones de bovinos (−2,5 %): 27,6 de carne y 2,1 de leche. Lana (Comité de Previsión de la Producción Lanera, agosto de 2026): 253,9 millones de kg en sucio esquilados en 2025/26 (−9,4 %) y una previsión de 249,3 para 2026/27, con 56,3 millones de ovejas esquiladas. Además, la exportación de ovejas vivas por mar quedará prohibida a partir del 1-5-2028 (reforma de la Export Control Act 2020, en vigor desde el 10-7-2024).",
+   "nota": "La cabaña ovina ha seguido cayendo (de 76 a 66 millones) y la lana esquilada ha bajado a unos 250 millones de kg, menos de la mitad que en 1985. El bovino se mantiene en torno a 30 millones de cabezas. El fin de la exportación de ovejas vivas por mar es un cambio de política importante para el sector.",
+   "observaciones": "La cifra de lana del manual (miles de t) parece ser en sucio; los 253,9 millones de kg equivalen a 253.900 t en sucio. La ABS revisó a la baja las estimaciones ovinas de 2024-25 el 31-8-2026. No se ha verificado el puesto actual de Australia en la cabaña ovina ni en el comercio mundial de lana.",
+   "fuentes": [
+    {
+     "titulo": "ABS: Australian Agriculture: Livestock, 2024-25",
+     "url": "https://www.abs.gov.au/statistics/industry/agriculture/australian-agriculture-livestock/latest-release"
+    },
+    {
+     "titulo": "AWI / Australian Wool Production Forecasting Committee: Australian Wool Production Forecast – August 2026",
+     "url": "https://www.wool.com/news-events/news/australian-wool-production-forecast---august-2026/"
+    },
+    {
+     "titulo": "Department of Agriculture, Fisheries and Forestry: Phasing out live sheep exports by sea – decision",
+     "url": "https://agriculture.gov.au/biosecurity-trade/export/controlled-goods/live-animals/livestock/live-sheep-exports-phase-out/decision"
+    }
+   ]
+  },
+  {
+   "id": "au_trigo",
+   "tema": "Australia: medio y agricultura",
+   "apartado": "2.2.2.2",
+   "manual": "El trigo, de cultivo extensivo (10-15 Qm/ha), ocupa según los años entre 10 y 15 millones de ha y su producción varía entre 20 y 25 millones de t; Australia está entre los cuatro primeros exportadores.",
+   "actual": "ABARES (Australian Crop Report, 1-9-2026): la previsión para 2026-27 es de 29,9 Mt de trigo en 11.051.000 ha. Eso es un 17 % menos que en 2025-26 (unos 36 Mt, cálculo propio), pero por encima de la previsión de junio (26,7 Mt). La superficie de trigo baja un 11 %, aunque sigue un 3 % por encima de la media de 10 años. La cosecha total de invierno se estima en 60,9 Mt (−12 %), todavía un 16 % por encima de la media decenal.",
+   "nota": "Las cosechas de trigo de los últimos años (unos 30-40 Mt) superan con claridad el intervalo de 20-25 Mt del manual, porque han mejorado los rendimientos (unas 2,7 t/ha, es decir, 27 Qm/ha en 2026-27, cálculo propio). La superficie, en cambio, sigue dentro del intervalo de 10-15 millones de ha.",
+   "observaciones": "Las cifras de 2026-27 son previsiones y cambiarán con la cosecha (el informe de diciembre las revisará). El dato de 2025-26 no se ha leído directamente; sale del descenso del 17 %. Las cifras de trigo vienen de Grain Central y World Grain, que resumen el informe de ABARES (la web de ABARES no se pudo consultar); el total de cultivos de invierno procede del propio PDF del informe de ABARES. No se ha verificado el puesto actual de Australia como exportador de trigo.",
+   "fuentes": [
+    {
+     "titulo": "Grain Central: South's kind winter lifts ABARES wheat, barley, canola figures (1-9-2026)",
+     "url": "https://www.graincentral.com/?p=252271"
+    },
+    {
+     "titulo": "World Grain: Australia's winter crop production revised up",
+     "url": "https://www.world-grain.com/articles/23168-australias-winter-crop-production-revised-up"
+    },
+    {
+     "titulo": "ABARES: Australian Crop Report September 2026 (PDF reproducido por el Tesoro de Australia Meridional)",
+     "url": "https://treasury.sa.gov.au/__data/assets/pdf_file/0008/1446623/ABARES-Crop-Report-Sep-qtr-2026.pdf"
+    }
+   ]
+  },
+  {
+   "id": "au_mineria_rankings",
+   "tema": "Australia: minería, energía e industria",
+   "apartado": "2.3.1.2 (Cuadro 4.6)",
+   "manual": "Lugar de Australia y % de la producción mundial: 1.º en bauxita (35 %) y titanio (25 %); 2.º en hierro (20,5 %), manganeso (19 %), plomo (15 %), zinc (12 %) y oro (10 %); 3.º en uranio (9 %) y platino (3,7 %); 4.º en níquel (9 %), plata (7,6 %), hulla y lignito (6,2 %), cobre (6 %) y diamantes (10 %). En el texto: oro, 270 t (2.º o 3.º productor); hierro, 2.º productor y 1.er exportador; bauxita, 1.er productor con el 35 % en 2014.",
+   "actual": "USGS (Mineral Commodity Summaries 2026, estimaciones de 2025; porcentajes de cálculo propio): mineral de hierro, 1.º (980 Mt de mineral utilizable, 37,7 % del mundo; 600 Mt de contenido en hierro); bauxita, 2.º (97 Mt, 22 %) tras Guinea (150 Mt, 34 %); litio, 1.º (92.000 t de Li, 31,7 %) por delante de China (62.000 t) y Chile (56.000 t); oro, 3.º (280 t, 8,5 %) tras China (380 t) y Rusia (310 t); plomo, 2.º (480.000 t, 10,7 %); zinc, 3.º (1,1 Mt, 8,5 %) tras China y Perú; tierras raras, 3.º (29.000 t, 7,4 %); manganeso, 4.º (1,6 Mt, 8 %) tras Sudáfrica, Gabón y Ghana; níquel, 45.000 t (1,2 %), frente a los 2,6 Mt de Indonesia. Uranio (World Nuclear Association, 2024): 4.º, con 4.598 t de U (8 %), tras Kazajistán (39 %), Canadá (24 %) y Namibia (12 %).",
+   "nota": "Australia es hoy el primer productor de mineral de hierro (no el segundo) y el primero de litio, un mineral que el manual no menciona. Ha perdido el primer puesto en bauxita frente a Guinea. El níquel se ha hundido (del 9 % a poco más del 1 %) por la competencia de Indonesia, y el uranio ha bajado al 4.º puesto.",
+   "observaciones": "Las cifras de 2025 del USGS son estimaciones; el hierro se da en mineral utilizable y en contenido metálico (el porcentaje es casi igual en los dos casos). Las cuotas del manual mezclan fuentes y años. No se han actualizado titanio (ilmenita y rutilo), platino, plata, cobre ni diamantes.",
+   "fuentes": [
+    {
+     "titulo": "USGS Mineral Commodity Summaries 2026: Iron Ore",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-ore.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Bauxite and Alumina",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bauxite-alumina.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Lithium",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Gold",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gold.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Nickel",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Zinc",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zinc.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Lead",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lead.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Manganese",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf"
+    },
+    {
+     "titulo": "USGS MCS 2026: Rare Earths",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf"
+    },
+    {
+     "titulo": "World Nuclear Association: World Uranium Mining Production (actualizado 23-10-2026)",
+     "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+    }
+   ]
+  },
+  {
+   "id": "au_carbon_gas_petroleo",
+   "tema": "Australia: minería, energía e industria",
+   "apartado": "2.3.1.3",
+   "manual": "Australia es el 4.º productor de hulla y lignito y el primer exportador mundial de carbón (35 %); la producción de petróleo cubre ya las dos terceras partes de las necesidades del país y se espera cubrirlas totalmente; las perspectivas del gas natural son prometedoras.",
+   "actual": "Resources and Energy Quarterly (diciembre de 2025), datos de 2024-25: Australia exportó 147 Mt de carbón metalúrgico (39.300 millones de A$), 1.er exportador mundial con un 45 %; 205 Mt de carbón térmico (32.000 millones de A$), 2.º exportador con un 18 %, tras Indonesia (48 %); unos 79 Mt de GNL (64.600 millones de A$), en torno al 20 % del comercio mundial, al nivel de Qatar y algo por detrás de EE. UU. (21 %); y 900 Mt de mineral de hierro (116.400 millones de A$), el 52 % de las exportaciones mundiales. En petróleo, Australia importa hoy más del 90 % de sus combustibles líquidos y solo le quedan dos refinerías: Viva Energy en Geelong y Ampol en Lytton (Brisbane).",
+   "nota": "Australia ya no es el primer exportador de carbón en volumen (lo es Indonesia, en térmico), aunque domina el carbón metalúrgico. El gas natural se ha convertido en una gran exportación y Australia está entre los tres primeros exportadores de GNL. En petróleo ha pasado lo contrario de lo que esperaba el manual: la dependencia de los combustibles importados ha aumentado mucho y preocupa la seguridad energética, sobre todo tras el incendio de la refinería de Geelong (abril de 2026) y la crisis de Oriente Medio.",
+   "observaciones": "Existe una edición de septiembre de 2026 del Resources and Energy Quarterly con datos de 2025-26, pero la web del Departamento de Industria no permitió consultarla; las cifras son, por tanto, de 2024-25. Las cuotas mundiales que da el REQ son de 2024. El 90 % de combustibles importados lo dan dos noticias de prensa (WorldPorts, 2025; Canberra Times, 17-4-2026). No se ha actualizado el puesto de Australia como productor de carbón.",
+   "fuentes": [
+    {
+     "titulo": "Department of Industry, Science and Resources: Resources and Energy Quarterly, December 2025",
+     "url": "https://www.industry.gov.au/sites/default/files/2025-12/resources-and-energy-quarterly-december-2025.pdf"
+    },
+    {
+     "titulo": "WorldPorts: Australia's crude oil paradox (2025)",
+     "url": "https://www.worldports.org/australias-crude-oil-paradox"
+    },
+    {
+     "titulo": "The Canberra Times: No extra fuel security measures after refinery inferno (17-4-2026)",
+     "url": "https://www.canberratimes.com.au/story/9225730/no-extra-fuel-security-measures-after-refinery-inferno/"
+    }
+   ]
+  },
+  {
+   "id": "au_automovil",
+   "tema": "Australia: minería, energía e industria",
+   "apartado": "2.3.2",
+   "manual": "La industria automovilística, en profunda crisis (184.000 vehículos en 2014), ha anunciado el cierre en 2016 y 2017 de las fábricas de Ford y Toyota; las industrias se localizan en Melbourne, Adelaida, Sydney y Geelong.",
+   "actual": "Los cierres anunciados se cumplieron: Ford cerró Broadmeadows (Melbourne) en octubre de 2016, Toyota cerró su planta de Melbourne (Altona) a principios de octubre de 2017, dos semanas antes que Holden, y Holden (General Motors) cerró la de Elizabeth (Adelaida) el 20-10-2017, lo que puso fin a la fabricación de turismos en serie en Australia. En su máximo, en 1970, la industria había llegado a unos 475.000 vehículos al año. La OICA atribuye a Australia solo 6.127 vehículos en 2025 (−15 %), fabricados por productores especializados.",
+   "nota": "Desde 2017 Australia no tiene fabricación de automóviles en serie: el sector del manual ha desaparecido y el país importa todos sus turismos.",
+   "observaciones": "La prensa del motor da el 3-10-2017 como fecha de cierre de Toyota, pero esa página no se pudo consultar; NBC solo dice que cerró «hace dos semanas» respecto al 20-10-2017. La cifra de la OICA para Australia es anual y aproximada, y se refiere a vehículos especiales o pesados, no a turismos de las grandes marcas.",
+   "fuentes": [
+    {
+     "titulo": "NBC News: Australia's 100-Year-Old Automobile Industry Just Closed Down (10-2017)",
+     "url": "https://www.nbcnews.com/business/autos/australia-s-100-year-old-automobile-industry-just-closed-down-n812756"
+    },
+    {
+     "titulo": "OICA: World motor vehicle production 2025 (tabla reproducida por AFIA)",
+     "url": "https://www.afia.pt/wp-content/uploads/2026/04/prod-total-2025.pdf"
+    }
+   ]
+  },
+  {
+   "id": "au_comercio_china",
+   "tema": "Australia: minería, energía e industria",
+   "apartado": "Conclusión",
+   "manual": "Australia debe intensificar los intercambios con Asia oriental; la intensificación de las relaciones con Japón y las nuevas relaciones económicas y comerciales con el «emergente gigante chino» son signos de una nueva etapa; el hierro y el carbón se exportan sobre todo a Japón.",
+   "actual": "Según las estadísticas del DFAT analizadas por el ASPI (14-5-2025), en 2024 China (con Hong Kong) compró el 36,9 % de las exportaciones de bienes australianas y suministró el 25,8 % de las importaciones (20,1 % en 2014). La cuota de Japón en las exportaciones bajó del 18,1 % al 13,6 % después de que entrara en vigor el acuerdo de libre comercio de 2015, y EE. UU. absorbió el 4,6 % de las exportaciones y aportó el 11,8 % de las importaciones de bienes.",
+   "nota": "China ya no es un socio «emergente»: es con diferencia el primer socio comercial de Australia, con más de un tercio de sus exportaciones de bienes, sobre todo mineral de hierro. Japón sigue siendo un mercado clave, pero su peso relativo ha disminuido.",
+   "observaciones": "Los porcentajes son de 2024, según el análisis del ASPI con datos del DFAT; el propio artículo da 36,8 % y 36,9 % para China en distintos pasajes. No se han podido consultar directamente las tablas del DFAT para 2024-25 porque la web bloqueó el acceso. El artículo no da el orden completo de socios.",
+   "fuentes": [
+    {
+     "titulo": "ASPI The Strategist: No, Australian trade isn't diversifying away from China (14-5-2025)",
+     "url": "https://www.aspistrategist.org.au/no-australian-trade-isnt-diversifying-away-from-china/"
+    }
+   ]
+  }
+ ]
+}

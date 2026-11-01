@@ -12,7 +12,7 @@
   class Cuestionario {
     constructor(contenedor, preguntas, op) {
       this.el = contenedor;
-      this.p = preguntas;
+      this.p = preguntas.filter((q) => RM.enVista(q));  // "parte": solo en la vista de Japón o de Australia
       this.op = op || {};
       this.clave = "cuestionario:" + (this.op.clave || "general");
       this.resp = RM.memoria.leer(this.clave, {});

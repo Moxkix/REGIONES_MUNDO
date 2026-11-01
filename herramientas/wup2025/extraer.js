@@ -13,8 +13,8 @@
    Para añadir una región, ampliad la lista PAISES y volved a ejecutarlo.
    Después: python3 herramientas/ciudades_wup.py */
 (async () => {
-  const PAISES = "ALB,AND,AUT,BEL,BGR,BIH,CHE,CYP,CYN,CZE,DEU,DNK,ESP,EST,FIN,FRA,GBR,GRC,HRV,HUN,IRL,ISL,ITA,LIE,LTU,LUX,LVA,MCO,MKD,MLT,MNE,NLD,NOR,POL,PRT,ROU,SMR,SRB,SVK,SVN,SWE,VAT,XKX,RUS,UKR,BLR,MDA,GEO,ARM,AZE,KAZ,TKM,UZB,KGZ,TJK".split(",");
-  const COMPARAR = "USA,CAN,JPN,CHN,IND,BRA,NGA,TUR,AUS,MEX,EGY".split(",");
+  const PAISES = "ALB,AND,AUT,BEL,BGR,BIH,CHE,CYP,CYN,CZE,DEU,DNK,ESP,EST,FIN,FRA,GBR,GRC,HRV,HUN,IRL,ISL,ITA,LIE,LTU,LUX,LVA,MCO,MKD,MLT,MNE,NLD,NOR,POL,PRT,ROU,SMR,SRB,SVK,SVN,SWE,VAT,XKX,RUS,UKR,BLR,MDA,GEO,ARM,AZE,KAZ,TKM,UZB,KGZ,TJK,JPN,AUS".split(",");
+  const COMPARAR = "USA,CAN,JPN,CHN,IND,BRA,NGA,TUR,AUS,MEX,EGY,KOR,NZL".split(",");
   const BASE = "https://population.un.org/wup/assets/Download/";
 
   async function leerZip(url) {

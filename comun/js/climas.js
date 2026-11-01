@@ -18,7 +18,7 @@
       capaK ? RM.json(carpeta(capaK.archivo)) : Promise.resolve(null),
       C.cuestionario ? RM.json(carpeta(C.cuestionario)).catch(() => null) : Promise.resolve(null),
     ]);
-    const est = datos.estaciones.map((e) => Object.assign(e, { k: RM.koppen(e.t, e.p, e.lat) }));
+    const est = datos.estaciones.filter((e) => RM.enVista(e)).map((e) => Object.assign(e, { k: RM.koppen(e.t, e.p, e.lat) }));
     const porId = new Map(est.map((e) => [e.id, e]));
     const dominios = new Map(C.dominios.map((d) => [d.id, d]));
     const colorK = (c) => (koppen.tipos[c] || {}).color || "#ccc";
@@ -119,7 +119,9 @@
 
     // ---------- Dinámica atmosférica ----------
     if (C.centros) {
-      const m2 = new RM.Mapa(document.getElementById("mapa-centros"), R.config, mundo, { ancho: 700 });
+      // los centros de acción pueden necesitar un encuadre más amplio que el de la región
+      const confC = C.centros.ventana ? Object.assign({}, R.config, { ventana: C.centros.ventana, proyeccion: C.centros.proyeccion || R.config.proyeccion }) : R.config;
+      const m2 = new RM.Mapa(document.getElementById("mapa-centros"), confC, mundo, { ancho: 700 });
       m2.fronteras(m2.capa("fronteras"));
       m2.defs.append("marker").attr("id", "flecha").attr("viewBox", "0 0 10 10").attr("refX", 6).attr("refY", 5)
         .attr("markerWidth", 7).attr("markerHeight", 7).attr("orient", "auto-start-reverse")

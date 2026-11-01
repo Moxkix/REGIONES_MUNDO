@@ -1,0 +1,1528 @@
+{
+  "titulo": "Paisajes de Japón y Australia",
+  "nota": "Las fotografías proceden de Wikimedia Commons y se cargan desde allí con su autor y su licencia.",
+  "paisajes": [
+    {
+      "id": "arrozales-kyushu",
+      "parte": "japon",
+      "titulo": "Arrozales en terrazas de Kyūshū",
+      "lugar": "Montañas del centro de la prefectura de Kumamoto (Kyūshū), según las coordenadas de la fotografía",
+      "pais": "Japón",
+      "lat": 32.66,
+      "lon": 130.9,
+      "tolerancia": 250,
+      "estacion": "kagoshima",
+      "foto": {
+        "archivo": "File:Rice terraces by ASAKAWA KOHJI.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Rice_terraces_by_ASAKAWA_KOHJI.jpg/1920px-Rice_terraces_by_ASAKAWA_KOHJI.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Rice_terraces_by_ASAKAWA_KOHJI.jpg",
+        "autor": "ASAKAWA KOHJI",
+        "licencia": "CC0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Arrozales escalonados e inundados que siguen las curvas de nivel de una ladera, con montañas boscosas al fondo"
+      },
+      "mirar": [
+        "Las parcelas pequeñas y de formas curvas, que siguen las curvas de nivel de la ladera.",
+        "El agua que cubre los campos: es finales de mayo, el momento del trasplante del arroz.",
+        "Los taludes de tierra cubiertos de hierba que sostienen cada terraza.",
+        "Las montañas cubiertas de bosque que rodean el valle: el espacio llano es escasísimo."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Aw",
+        "Cfb",
+        "Dfa"
+      ],
+      "clima": "Clima subtropical húmedo de tipo monzónico (Cfa). En Kagoshima, la estación de referencia, el mes más frío tiene 8,7 °C y el más cálido 28,8 °C. Llueven 2.435 mm, con un fuerte máximo en junio, la época del baiu o «lluvias de las ciruelas», justo cuando el arroz recién trasplantado necesita agua.",
+      "notaKoppen": "Kagoshima está unos 130 km al sur, en la costa. En las montañas del interior de Kumamoto los inviernos son algo más fríos, pero el tipo de clima es el mismo (Cfa).",
+      "localizacion": "Isla de Kyūshū, al sur del archipiélago, en una zona de montaña media de la prefectura de Kumamoto.",
+      "preguntas": [
+        {
+          "id": "arrozales-regadio",
+          "enunciado": "¿Cómo llama el manual a estos campos y por qué se riegan si llueve tanto?",
+          "opciones": [
+            {
+              "t": "Son los ta, campos regados: el arroz japonés es de regadío por la irregularidad de las lluvias y la escasez estival",
+              "r": "El manual subraya que, a diferencia de los grandes exportadores asiáticos, la ricicultura japonesa es regada.",
+              "ok": true
+            },
+            {
+              "t": "Son los hataké, campos de secano sobre terrazas",
+              "r": "Los hataké son de secano y dan cereal de invierno y legumbres en verano."
+            },
+            {
+              "t": "Son polders ganados al mar",
+              "r": "Los polders están en las bahías, no en las laderas."
+            },
+            {
+              "t": "Son arrozales de lluvia, sin riego",
+              "r": "El manual dice expresamente lo contrario."
+            }
+          ],
+          "explicacion": [
+            "Los campos regados forman el paisaje rural más antiguo de Japón y ocupan más de la mitad del suelo agrícola."
+          ]
+        },
+        {
+          "id": "arrozales-explotacion",
+          "enunciado": "¿Qué rasgos de la agricultura japonesa refleja este paisaje?",
+          "opciones": [
+            {
+              "t": "Microexplotaciones muy fragmentadas, de agricultores a tiempo parcial y muy envejecidos, y un arroz protegido con precios garantizados",
+              "r": "El manual destaca el predominio absoluto de las explotaciones pequeñas en el Japón subtropical y la protección estatal del arroz.",
+              "ok": true
+            },
+            {
+              "t": "Grandes explotaciones mecanizadas orientadas a la exportación",
+              "r": "Ese modelo es el de Hokkaido (para la ganadería) o el de Australia."
+            },
+            {
+              "t": "Plantaciones de capital extranjero",
+              "r": "No existen en la ricicultura japonesa."
+            },
+            {
+              "t": "Agricultura itinerante de roza",
+              "r": "Es una agricultura permanente e intensiva desde hace dos milenios."
+            }
+          ],
+          "explicacion": [
+            "En las montañas, muchas terrazas como estas se están abandonando: la superficie de arroz retrocede y los agricultores son cada vez más mayores. Algunas se conservan como paisaje cultural."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Isla de Kyūshū (33° N), en el sur de Japón, en las montañas del centro de la prefectura de Kumamoto.",
+        "b": "Clima subtropical húmedo de influencia monzónica (Cfa): inviernos suaves, de 5 a 8 °C, veranos calurosos de 27-28 °C y lluvias muy abundantes (más de 2.000 mm), con máximo en junio-julio (baiu) y en septiembre (tifones).",
+        "c": "Arrozales regados en terrazas sobre una ladera, con parcelas diminutas que siguen las curvas de nivel, y montañas cubiertas de bosque. Agricultura de microexplotaciones, a tiempo parcial y muy envejecida; muchas terrazas de montaña están en retroceso."
+      },
+      "manual": "Apartados 1.1.2.1 y 1.1.2.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=arroz",
+          "texto": "Producción de arroz: Japón en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "shirakawa-nieve",
+      "parte": "japon",
+      "titulo": "Nieve en Shirakawa-gō",
+      "lugar": "Shirakawa-gō (aldea de Ogimachi), prefectura de Gifu",
+      "pais": "Japón",
+      "lat": 36.26,
+      "lon": 136.9,
+      "tolerancia": 200,
+      "estacion": "kanazawa",
+      "foto": {
+        "archivo": "File:Shirakawa in winter; Gifu Prefecture; February 2018 (14).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Shirakawa_in_winter%3B_Gifu_Prefecture%3B_February_2018_%2814%29.jpg/1920px-Shirakawa_in_winter%3B_Gifu_Prefecture%3B_February_2018_%2814%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Shirakawa_in_winter%3B_Gifu_Prefecture%3B_February_2018_%2814%29.jpg",
+        "autor": "雷太 (Raita Futo)",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Casa tradicional de madera oscura de dos plantas, con el tejado cubierto de nieve, junto a una calle con grandes montones de nieve mientras nieva"
+      },
+      "mirar": [
+        "La nieve que cae y los montones apartados a los lados de la calle: es febrero.",
+        "La casa de madera, con un tejado muy saliente para proteger las paredes.",
+        "Las laderas del fondo, cubiertas de bosque nevado: el valle es estrecho y está encajado en las montañas.",
+        "La carretera limpia de nieve: en estas zonas se usan sistemas de agua para fundirla."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Dfb",
+        "Cfb",
+        "ET"
+      ],
+      "clima": "Japón del mar del Japón. En Kanazawa, en la costa cercana, el mes más frío tiene 4,0 °C y el más cálido 27,3 °C, pero lo característico es la precipitación: 2.402 mm al año, con máximo en diciembre. En invierno el monzón del noroeste, frío y seco al salir de Siberia, se carga de humedad al cruzar el mar del Japón y la descarga como nieve al chocar con las montañas.",
+      "notaKoppen": "Kanazawa está unos 50 km al norte, en la costa. Shirakawa, a unos 500 m de altitud, es más fría y recibe varios metros de nieve cada invierno; Köppen la sigue clasificando como Cfa porque el mes más frío no baja de −3 °C.",
+      "localizacion": "Montañas de Hida, en el centro de Honshū, en la vertiente que mira al mar del Japón.",
+      "preguntas": [
+        {
+          "id": "shirakawa-nieve-origen",
+          "enunciado": "¿Por qué nieva tanto en esta vertiente de Japón?",
+          "opciones": [
+            {
+              "t": "Porque el monzón de invierno del noroeste se carga de humedad sobre el mar del Japón y la descarga al chocar con las montañas",
+              "r": "El manual opone la costa occidental, con lluvias de invierno ligadas a los vientos del NW, a la costa del Pacífico.",
+              "ok": true
+            },
+            {
+              "t": "Por los tifones de septiembre",
+              "r": "Los tifones afectan sobre todo a la costa del Pacífico y traen lluvia, no nieve."
+            },
+            {
+              "t": "Porque está a más de 3.000 m de altitud",
+              "r": "El valle está a unos 500 m."
+            },
+            {
+              "t": "Por el baiu de junio",
+              "r": "El baiu da lluvias de primavera-verano."
+            }
+          ],
+          "explicacion": [
+            "Al otro lado de las montañas, en la costa del Pacífico (Tokio), el invierno es seco y soleado: es el mismo viento, que ya ha descargado su humedad."
+          ]
+        },
+        {
+          "id": "shirakawa-poblamiento",
+          "enunciado": "¿Cómo encaja este lugar en la distribución de la población japonesa?",
+          "opciones": [
+            {
+              "t": "Es la costa del mar del Japón y las montañas: una zona poco poblada, envejecida y peor comunicada que la costa del Pacífico",
+              "r": "El manual describe el desequilibrio entre la fachada del Pacífico y la del mar del Japón.",
+              "ok": true
+            },
+            {
+              "t": "Forma parte de la Megalópolis de Tokaido",
+              "r": "La Megalópolis se extiende por la costa del Pacífico."
+            },
+            {
+              "t": "Es una gran región industrial",
+              "r": "Las cuatro grandes regiones industriales están en la costa del Pacífico y el mar Interior."
+            },
+            {
+              "t": "Es una zona de inmigración reciente",
+              "r": "Pierde población desde hace décadas."
+            }
+          ],
+          "explicacion": [
+            "La aldea es Patrimonio Mundial desde 1995 por sus casas gasshō-zukuri, de tejados de paja muy inclinados para soportar la nieve; hoy vive sobre todo del turismo."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Centro de Honshū (36° N), en las montañas de la prefectura de Gifu, en la vertiente que mira al mar del Japón.",
+        "b": "Clima subtropical húmedo con inviernos fríos y muy nivosos (Cfa en el límite del Dfa): el monzón del NW, cargado de humedad sobre el mar del Japón, deja más de 2.000 mm al año, con máximo en invierno en forma de nieve.",
+        "c": "Valle estrecho entre montañas cubiertas de bosque, con casas tradicionales de madera adaptadas a la nieve. Zona de montaña poco poblada y envejecida; agricultura de valle y turismo cultural."
+      },
+      "manual": "Apartados 1.1.1.2 y 1.3.2",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Compara los climogramas de Kanazawa y Tokio"
+        }
+      ]
+    },
+    {
+      "id": "keihin-kawasaki",
+      "parte": "japon",
+      "titulo": "La zona industrial de Keihin",
+      "lugar": "Frente marítimo de Kawasaki, bahía de Tokio (prefectura de Kanagawa)",
+      "pais": "Japón",
+      "lat": 35.49,
+      "lon": 139.71,
+      "tolerancia": 120,
+      "estacion": "tokio",
+      "foto": {
+        "archivo": "File:Laika ac Keihin Industrial Zone (7547942328).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Laika_ac_Keihin_Industrial_Zone_%287547942328%29.jpg/1920px-Laika_ac_Keihin_Industrial_Zone_%287547942328%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Laika_ac_Keihin_Industrial_Zone_%287547942328%29.jpg",
+        "autor": "Laika ac",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Refinería y fábricas con chimeneas y torres iluminadas al atardecer, bajo un cielo gris, detrás de naves de almacenes"
+      },
+      "mirar": [
+        "Las torres y chimeneas de la refinería y de las plantas químicas.",
+        "Las naves de almacenes y de logística en primer plano: industria y puerto van juntos.",
+        "El terreno completamente llano: es suelo ganado al mar.",
+        "El cielo gris de un día de lluvia en julio, en plena época de lluvias."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Csa",
+        "Cfb",
+        "Dfa"
+      ],
+      "clima": "Clima subtropical húmedo (Cfa). En Tokio el mes más frío tiene 5,4 °C y el más cálido 26,9 °C. Llueven 1.598 mm, con un primer máximo en junio (baiu) y otro mayor en septiembre-octubre, por los tifones; el mes más lluvioso es octubre.",
+      "notaKoppen": "Kawasaki está entre Tokio y Yokohama, a unos 15 km de la estación de referencia.",
+      "localizacion": "Orilla occidental de la bahía de Tokio, entre Tokio y Yokohama, en la llanura de Kantō.",
+      "preguntas": [
+        {
+          "id": "keihin-localizacion",
+          "enunciado": "¿Por qué la gran industria japonesa se instaló junto a los puertos de las bahías?",
+          "opciones": [
+            {
+              "t": "Porque Japón importa casi toda su energía y materias primas: junto al puerto se reducen los costes de transporte, y además allí estaban la población y el mercado",
+              "r": "El manual explica así la localización industrial: llanuras arroceras pobladas y puertos marítimos.",
+              "ok": true
+            },
+            {
+              "t": "Porque allí estaban las minas de carbón y de hierro",
+              "r": "Japón es extremadamente pobre en recursos minerales."
+            },
+            {
+              "t": "Porque el suelo era barato y estaba vacío",
+              "r": "Eran las zonas más pobladas del país."
+            },
+            {
+              "t": "Para exportar productos agrícolas",
+              "r": "Japón importa alimentos."
+            }
+          ],
+          "explicacion": [
+            "Gran parte de este frente industrial está sobre terrenos ganados al mar: los polders, antes agrícolas y hoy industriales, de los que habla el manual."
+          ]
+        },
+        {
+          "id": "keihin-region",
+          "enunciado": "¿Qué región industrial es Keihin y qué importancia le da el manual?",
+          "opciones": [
+            {
+              "t": "La de la bahía de Tokio y la llanura de Kantō, la primera del país, con siderurgia, construcción naval, petroquímica, automóvil, alimentación…",
+              "r": "Es una de las cuatro grandes regiones industriales, con Chūkyō (Nagoya), Hanshin (Osaka-Kobe) y Kitakyūshū.",
+              "ok": true
+            },
+            {
+              "t": "La región de Nagoya, centrada en el automóvil",
+              "r": "Esa es Chūkyō."
+            },
+            {
+              "t": "La región del norte de Kyūshū, en declive",
+              "r": "Esa es Kitakyūshū."
+            },
+            {
+              "t": "Una región industrial de Hokkaido",
+              "r": "Hokkaido tiene poca industria."
+            }
+          ],
+          "explicacion": [
+            "Keihin, Chūkyō y Hanshin forman la Megalópolis de Tokaido. En el atlas puedes ver la capa de industria y la línea de la Megalópolis."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Kawasaki (35,5° N), en la orilla occidental de la bahía de Tokio, entre Tokio y Yokohama, en la llanura de Kantō.",
+        "b": "Clima subtropical húmedo (Cfa): inviernos suaves y secos (5-6 °C), veranos calurosos y húmedos (unos 27 °C) y unos 1.600 mm de lluvia, con máximos en el baiu y en la época de tifones.",
+        "c": "Frente industrial y portuario sobre terrenos ganados al mar: refinerías, petroquímica, siderurgia, alimentación y logística. Es el núcleo de Keihin, la primera región industrial de Japón, dentro de la Megalópolis."
+      },
+      "manual": "Apartados 1.2.2.3 y 1.1.1.1",
+      "enlaces": [
+        {
+          "pagina": "atlas.html?v=japon",
+          "ancla": "industria",
+          "texto": "Atlas: regiones industriales y Megalópolis"
+        }
+      ]
+    },
+    {
+      "id": "biei-hokkaido",
+      "parte": "japon",
+      "titulo": "Los campos de Biei, en Hokkaido",
+      "lugar": "Biei, centro de Hokkaido (la llamada «Patchwork Road»)",
+      "pais": "Japón",
+      "lat": 43.6,
+      "lon": 142.44,
+      "tolerancia": 200,
+      "estacion": "sapporo",
+      "foto": {
+        "archivo": "File:140724 Biei Hokkaido Japan01s8.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/140724_Biei_Hokkaido_Japan01s8.jpg/1920px-140724_Biei_Hokkaido_Japan01s8.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:140724_Biei_Hokkaido_Japan01s8.jpg",
+        "autor": "663highland",
+        "licencia": "CC BY 2.5",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.5",
+        "alt": "Vista desde lo alto de un mosaico de grandes campos de colores verdes y amarillos, separados por hileras de árboles, sobre colinas suaves"
+      },
+      "mirar": [
+        "Los campos grandes y regulares, muy distintos de las parcelas diminutas del sur.",
+        "El mosaico de colores: trigo maduro en amarillo, patatas, judías o remolacha en verde.",
+        "Las hileras de árboles que separan los campos y frenan el viento.",
+        "Las colinas suaves, casi sin pueblos: es una colonización reciente, de granjas dispersas."
+      ],
+      "koppen": "Dfb",
+      "distractores": [
+        "Cfa",
+        "Dfc",
+        "Cfb"
+      ],
+      "clima": "Clima continental húmedo. En Sapporo, la estación de referencia, el mes más frío baja a −3,2 °C y el más cálido sube a 22,3 °C. Llueven 1.146 mm, con máximo en septiembre, por el paso de las borrascas del frente polar; el invierno es largo y nivoso.",
+      "notaKoppen": "Sapporo, en la costa, es Dfa por muy poco (su mes más cálido pasa de 22 °C). Biei, en el interior y a unos 250 m de altitud, es más fría: clima Dfb, con inviernos de −8 °C de media.",
+      "localizacion": "Centro de la isla de Hokkaido, al pie de los montes Tokachi, cerca de Asahikawa.",
+      "preguntas": [
+        {
+          "id": "biei-explotaciones",
+          "enunciado": "¿Por qué las explotaciones de Hokkaido son mucho mayores que las del resto de Japón?",
+          "opciones": [
+            {
+              "t": "Porque Hokkaido se colonizó tarde, en la época Meiji, con grandes lotes de tierra y una agricultura de cereales, patata y ganado vacuno",
+              "r": "El manual opone las grandes explotaciones del norte (Tohoku y Hokkaido) a las microexplotaciones arroceras del sur.",
+              "ok": true
+            },
+            {
+              "t": "Porque el arroz necesita mucho espacio",
+              "r": "Aquí el arroz es secundario; dominan el trigo, la patata, la remolacha y los forrajes."
+            },
+            {
+              "t": "Porque las explotaciones son de propiedad estatal",
+              "r": "Son explotaciones familiares."
+            },
+            {
+              "t": "Porque el clima permite tres cosechas al año",
+              "r": "El invierno es largo y frío: una sola cosecha."
+            }
+          ],
+          "explicacion": [
+            "Hokkaido es la gran región lechera de Japón (vacas Holstein, según el manual) y la primera productora de trigo, patata y remolacha azucarera."
+          ]
+        },
+        {
+          "id": "biei-cultivos",
+          "enunciado": "¿Qué cultivos se adaptan a este clima, según el manual?",
+          "opciones": [
+            {
+              "t": "Trigo, cebada y otros cereales de invierno, patata, forrajes para el ganado vacuno y frutales como el manzano",
+              "r": "El manual sitúa en el norte los cereales distintos del arroz, el maíz, los forrajes y las manzanas.",
+              "ok": true
+            },
+            {
+              "t": "Té y morera",
+              "r": "Son cultivos del Japón subtropical."
+            },
+            {
+              "t": "Mandarinas",
+              "r": "Se cultivan desde Tokio hasta el sur de Kyūshū."
+            },
+            {
+              "t": "Caña de azúcar",
+              "r": "Es un cultivo tropical (Okinawa)."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Centro de la isla de Hokkaido (43,6° N), en el norte de Japón, cerca de Asahikawa.",
+        "b": "Clima continental húmedo (Dfb): inviernos largos y fríos (−8 °C en enero en el interior), con mucha nieve, y veranos templados (unos 20 °C). Unos 1.000-1.100 mm de precipitación, con máximo a finales de verano.",
+        "c": "Mosaico de grandes campos de trigo, patata, legumbres y remolacha sobre colinas suaves, con cortavientos de árboles y granjas dispersas. Es la agricultura de grandes explotaciones del norte, fruto de la colonización Meiji."
+      },
+      "manual": "Apartados 1.1.1.2, 1.1.2.1 y 1.1.2.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=trigo",
+          "texto": "Producción de trigo: Japón y Australia"
+        }
+      ]
+    },
+    {
+      "id": "sakurajima",
+      "parte": "japon",
+      "titulo": "El volcán Sakurajima",
+      "lugar": "Sakurajima visto desde Yoshino (Kagoshima)",
+      "pais": "Japón",
+      "lat": 31.64,
+      "lon": 130.59,
+      "tolerancia": 150,
+      "estacion": "kagoshima",
+      "foto": {
+        "archivo": "File:20090906 sakurajima yoshino kagoshima-ken japna.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/20090906_sakurajima_yoshino_kagoshima-ken_japna.jpg/1920px-20090906_sakurajima_yoshino_kagoshima-ken_japna.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:20090906_sakurajima_yoshino_kagoshima-ken_japna.jpg",
+        "autor": "Hirase",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Columna de ceniza gris que sale de un volcán de laderas pardas, detrás de casas y de una vegetación muy densa y verde"
+      },
+      "mirar": [
+        "La columna de ceniza: Sakurajima entra en erupción varias veces al año.",
+        "Las laderas desnudas, de color pardo, del cono volcánico.",
+        "Las casas y la vegetación subtropical, muy densa, a pocos kilómetros del cráter.",
+        "La ausencia de nieve en las cumbres: es septiembre y estamos a 31,6° N."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Aw",
+        "Csa",
+        "Cfb"
+      ],
+      "clima": "Clima subtropical húmedo (Cfa). En Kagoshima el mes más frío tiene 8,7 °C y el más cálido 28,8 °C. Es una de las ciudades más lluviosas de Japón: 2.435 mm, con un máximo enorme en junio (baiu) y lluvias fuertes con los tifones de finales de verano.",
+      "notaKoppen": "La foto está tomada desde Kagoshima, la propia estación de referencia.",
+      "localizacion": "Bahía de Kagoshima, en el extremo sur de la isla de Kyūshū.",
+      "preguntas": [
+        {
+          "id": "sakurajima-origen",
+          "enunciado": "¿Por qué hay tantos volcanes en Japón?",
+          "opciones": [
+            {
+              "t": "Porque es un arco insular en el «cinturón de fuego» del Pacífico, en el contacto entre varias placas tectónicas",
+              "r": "El manual relaciona el vulcanismo y la sismicidad con la confluencia de placas.",
+              "ok": true
+            },
+            {
+              "t": "Porque es un continente muy antiguo",
+              "r": "Es un archipiélago geológicamente joven y no consolidado."
+            },
+            {
+              "t": "Por la erosión de los ríos",
+              "r": "La erosión no crea volcanes."
+            },
+            {
+              "t": "Por los tifones",
+              "r": "Son fenómenos atmosféricos."
+            }
+          ],
+          "explicacion": [
+            "El manual sitúa la mayoría de los volcanes en tres nudos: Hokkaido, Chūbu (Fosa Magna) y Kyūshū. Son de tipo explosivo, como Sakurajima."
+          ]
+        },
+        {
+          "id": "sakurajima-caldera",
+          "enunciado": "¿Qué es la bahía de Kagoshima, según el manual?",
+          "opciones": [
+            {
+              "t": "Una gran caldera volcánica invadida por el mar",
+              "r": "El manual la cita como ejemplo de caldera ocupada por el mar, igual que la bahía del Volcán en Hokkaido.",
+              "ok": true
+            },
+            {
+              "t": "Un fiordo glaciar",
+              "r": "No hubo glaciares de ese tamaño en el sur de Japón."
+            },
+            {
+              "t": "Un polder",
+              "r": "Los polders son terrenos ganados al mar, no bahías."
+            },
+            {
+              "t": "Un delta fluvial",
+              "r": "Los ríos japoneses son cortos y no forman grandes deltas."
+            }
+          ],
+          "explicacion": [
+            "En 1914 una gran erupción vertió tanta lava que unió la isla de Sakurajima con la península de Ōsumi. En el atlas, la capa de relieve marca los principales volcanes."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Bahía de Kagoshima (31,6° N), en el extremo sur de la isla de Kyūshū.",
+        "b": "Clima subtropical húmedo (Cfa): inviernos suaves (unos 9 °C), veranos calurosos (29 °C) y lluvias muy abundantes, unos 2.400 mm, con fuerte máximo en junio (baiu) y aguaceros con los tifones.",
+        "c": "Volcán explosivo muy activo dentro de una caldera invadida por el mar, rodeado de vegetación subtropical y de núcleos habitados. Ejemplo del riesgo volcánico que afecta a zonas pobladas."
+      },
+      "manual": "Apartado 1.1.1.3",
+      "enlaces": [
+        {
+          "pagina": "atlas.html?v=japon",
+          "ancla": "relieve",
+          "texto": "Atlas: relieve, volcanes y fosas de Japón"
+        }
+      ]
+    },
+    {
+      "id": "fuji-te",
+      "parte": "japon",
+      "titulo": "El monte Fuji y los campos de té",
+      "lugar": "Fujinomiya (prefectura de Shizuoka)",
+      "pais": "Japón",
+      "lat": 35.2,
+      "lon": 138.63,
+      "tolerancia": 150,
+      "estacion": "tokio",
+      "foto": {
+        "archivo": "File:Mount Fuji 20120909.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mount_Fuji_20120909.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_20120909.jpg",
+        "autor": "Batholith",
+        "licencia": "Dominio público",
+        "licencia_url": "",
+        "alt": "El cono del monte Fuji con algunas nubes, sobre una ciudad extendida al pie de la montaña y, en primer plano, un campo de té de arbustos recortados"
+      },
+      "mirar": [
+        "El cono casi perfecto del Fuji, un estratovolcán, sin nieve a principios de septiembre.",
+        "Los arbustos de té recortados en hileras redondeadas, en primer plano.",
+        "La ciudad que ocupa todo el llano al pie del volcán.",
+        "Lo poco que hay entre campo y ciudad: agricultura, industria y vivienda se mezclan."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Cfb",
+        "Dfa",
+        "Csa"
+      ],
+      "clima": "Clima subtropical húmedo (Cfa). En Tokio, a unos 100 km, el mes más frío tiene 5,4 °C y el más cálido 26,9 °C, con 1.598 mm de lluvia y máximo en octubre. Las colinas de Shizuoka, abiertas al Pacífico, son algo más templadas en invierno y aún más lluviosas.",
+      "notaKoppen": "Tokio está a unos 100 km al este. En la cima del Fuji (3.776 m) el clima es frío de alta montaña (ET).",
+      "localizacion": "Prefectura de Shizuoka, al pie sudoeste del monte Fuji, cerca de la bahía de Suruga.",
+      "preguntas": [
+        {
+          "id": "fuji-te-cultivo",
+          "enunciado": "¿Dónde sitúa el manual las plantaciones de té de Japón?",
+          "opciones": [
+            {
+              "t": "En las colinas y suaves pendientes del centro y sur del Japón subtropical; la región de Shizuoka, en la bahía de Suruga, es una de las principales",
+              "r": "El manual las presenta como uno de los dos cultivos tradicionales del Japón subtropical, junto con la morera.",
+              "ok": true
+            },
+            {
+              "t": "En las llanuras de Hokkaido",
+              "r": "El té necesita inviernos suaves."
+            },
+            {
+              "t": "En los arrozales inundados",
+              "r": "El té es un cultivo de secano en laderas bien drenadas."
+            },
+            {
+              "t": "En invernaderos hidropónicos",
+              "r": "El manual cita el cultivo hidropónico para hortalizas."
+            }
+          ],
+          "explicacion": [
+            "El té llegó de China en el siglo IX y, como la seda, sus exportaciones ayudaron a financiar la industrialización Meiji. En los últimos años Kagoshima, en el sur de Kyūshū, disputa a Shizuoka el primer puesto."
+          ]
+        },
+        {
+          "id": "fuji-volcan",
+          "enunciado": "¿Qué tipo de relieve es el monte Fuji?",
+          "opciones": [
+            {
+              "t": "Un estratovolcán activo, formado por capas de lava y cenizas; su última erupción fue en 1707",
+              "r": "Está en el nudo de Chūbu, cerca de la Fosa Magna, donde se cruzan los arcos de Japón.",
+              "ok": true
+            },
+            {
+              "t": "Un macizo de rocas antiguas erosionado",
+              "r": "Es un volcán joven."
+            },
+            {
+              "t": "Una caldera ocupada por un lago",
+              "r": "Las calderas son depresiones; el Fuji es un cono."
+            },
+            {
+              "t": "Un pliegue de la cordillera",
+              "r": "Es un edificio volcánico."
+            }
+          ],
+          "explicacion": [
+            "Con 3.776 m es la cumbre más alta de Japón y uno de sus símbolos nacionales."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Prefectura de Shizuoka (35,2° N), en el centro de Honshū, al pie del monte Fuji y cerca de la bahía de Suruga, en la fachada del Pacífico.",
+        "b": "Clima subtropical húmedo (Cfa): inviernos suaves y soleados, veranos calurosos y húmedos y lluvias abundantes (más de 1.800 mm), con máximos en el baiu y la época de tifones.",
+        "c": "Estratovolcán con una ciudad extendida a sus pies y plantaciones de té en las laderas suaves. Mezcla de agricultura intensiva, industria y urbanización típica de la fachada del Pacífico."
+      },
+      "manual": "Apartados 1.1.1.3 y 1.1.2.2",
+      "enlaces": []
+    },
+    {
+      "id": "tokio-megalopolis",
+      "parte": "japon",
+      "titulo": "Tokio desde la Skytree",
+      "lugar": "Vista hacia el oeste desde la torre Tokyo Skytree (distrito de Sumida, Tokio)",
+      "pais": "Japón",
+      "lat": 35.71,
+      "lon": 139.81,
+      "tolerancia": 120,
+      "estacion": "tokio",
+      "foto": {
+        "archivo": "File:Cityscape of Tokyo, view from Tokyo Skytree (2016-01-04 by louisredon @Pixabay 1141165).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Cityscape_of_Tokyo%2C_view_from_Tokyo_Skytree_%282016-01-04_by_louisredon_%40Pixabay_1141165%29.jpg/1920px-Cityscape_of_Tokyo%2C_view_from_Tokyo_Skytree_%282016-01-04_by_louisredon_%40Pixabay_1141165%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Tokyo%2C_view_from_Tokyo_Skytree_%282016-01-04_by_louisredon_%40Pixabay_1141165%29.jpg",
+        "autor": "louisredon (Pixabay)",
+        "licencia": "CC0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Vista aérea de una ciudad inmensa y densa que se pierde en la bruma, con rascacielos al fondo y un río que la atraviesa"
+      },
+      "mirar": [
+        "El tejido urbano continuo hasta el horizonte: no se ve ni un hueco sin construir.",
+        "Los rascacielos del fondo (Shinjuku) y los barrios de casas y bloques bajos en primer plano.",
+        "El río Sumida que atraviesa la ciudad, con sus puentes.",
+        "La bruma, frecuente en las grandes aglomeraciones."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Cfb",
+        "Dfa",
+        "Csa"
+      ],
+      "clima": "Clima subtropical húmedo (Cfa). En Tokio el mes más frío tiene 5,4 °C y el más cálido 26,9 °C. El invierno es seco y soleado; las lluvias (1.598 mm) se concentran entre junio y octubre, con máximo en octubre.",
+      "notaKoppen": "La foto está tomada en Tokio, la propia estación de referencia.",
+      "localizacion": "Centro de Tokio, al fondo de la bahía de Tokio, en el sur de la llanura de Kantō.",
+      "preguntas": [
+        {
+          "id": "tokio-megalopolis",
+          "enunciado": "¿Qué es la Megalópolis japonesa?",
+          "opciones": [
+            {
+              "t": "La aglomeración urbana que se extiende unos 1.200 km a lo largo del eje Tokio-Fukuoka, con las tres cuartas partes de la población del país",
+              "r": "El manual la presenta como la mayor aglomeración urbana del mundo, formada por Keihin, Keihanshin, Chūkyō y Kitakyūshū-Fukuoka.",
+              "ok": true
+            },
+            {
+              "t": "La ciudad de Tokio dentro de sus límites municipales",
+              "r": "Los 23 distritos de Tokio tienen unos 10 millones de habitantes; la Megalópolis, decenas de millones."
+            },
+            {
+              "t": "Una red de ciudades de la costa del mar del Japón",
+              "r": "La costa del mar del Japón está mucho menos poblada."
+            },
+            {
+              "t": "Una ciudad nueva planificada",
+              "r": "Es el resultado de siglos de crecimiento y de la industrialización."
+            }
+          ],
+          "explicacion": [
+            "El tramo Tokio-Osaka sigue la antigua ruta del Tokaido, por eso se habla de la Megalópolis de Tokaido. En el atlas y en la página de ciudades puedes ver su trazado."
+          ]
+        },
+        {
+          "id": "tokio-tamano",
+          "enunciado": "¿Qué tamaño tiene hoy la gran área metropolitana de Tokio?",
+          "opciones": [
+            {
+              "t": "Unos 38 millones de habitantes en 2020 (área metropolitana de Kantō), alrededor del 30 % de la población de Japón",
+              "r": "El manual da 39 millones en 2015; el dato oficial del censo de 2020 es muy parecido (38,0 millones, el 30,2 %).",
+              "ok": true
+            },
+            {
+              "t": "Unos 10 millones",
+              "r": "Es la población de los 23 distritos, no de toda el área metropolitana."
+            },
+            {
+              "t": "Unos 80 millones",
+              "r": "Es demasiado: Japón tiene unos 123 millones de habitantes."
+            },
+            {
+              "t": "Unos 3 millones",
+              "r": "Esa es la población de Yokohama, la segunda ciudad."
+            }
+          ],
+          "explicacion": [
+            "La población de Japón ya disminuye, pero Tokio sigue ganando habitantes: la prefectura pasó de 14,05 millones en 2020 a 14,24 millones en 2025, mientras casi todas las demás perdían población."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Tokio (35,7° N), al fondo de la bahía de Tokio, en el sur de la llanura de Kantō (centro-este de Honshū).",
+        "b": "Clima subtropical húmedo (Cfa): inviernos suaves y secos (5-6 °C), veranos calurosos y húmedos (27 °C) y unos 1.600 mm de lluvia, con máximos en el baiu y la época de tifones.",
+        "c": "Tejido urbano continuo y muy denso, con rascacielos en los centros de negocios y barrios bajos alrededor. Cabeza de la Megalópolis japonesa y mayor aglomeración urbana del mundo, con funciones políticas, financieras e industriales."
+      },
+      "manual": "Apartado 1.3.3",
+      "enlaces": [
+        {
+          "pagina": "ciudades.html?v=japon",
+          "ancla": "mapa",
+          "texto": "Ciudades: el crecimiento de Tokio y la Megalópolis"
+        }
+      ]
+    },
+    {
+      "id": "uluru",
+      "parte": "australia",
+      "titulo": "Uluru, en el corazón árido",
+      "lugar": "Parque Nacional de Uluṟu-Kata Tjuṯa, junto al paseo Kuniya (Territorio del Norte)",
+      "pais": "Australia",
+      "lat": -25.35,
+      "lon": 131.03,
+      "tolerancia": 450,
+      "estacion": "alicesprings",
+      "foto": {
+        "archivo": "File:Petermann Ranges (AU), Uluru-Kata Tjuta National Park, Uluru, Kuniya Walk -- 2019 -- 3615.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Petermann_Ranges_%28AU%29%2C_Uluru-Kata_Tjuta_National_Park%2C_Uluru%2C_Kuniya_Walk_--_2019_--_3615.jpg/1920px-Petermann_Ranges_%28AU%29%2C_Uluru-Kata_Tjuta_National_Park%2C_Uluru%2C_Kuniya_Walk_--_2019_--_3615.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Petermann_Ranges_%28AU%29%2C_Uluru-Kata_Tjuta_National_Park%2C_Uluru%2C_Kuniya_Walk_--_2019_--_3615.jpg",
+        "autor": "Dietmar Rabich",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Gran pared rojiza y lisa de roca bajo un cielo azul intenso, con hierbas secas, matas de spinifex y árboles dispersos en primer plano"
+      },
+      "mirar": [
+        "El color rojo de la roca: arenisca rica en hierro oxidado.",
+        "El suelo arenoso con matas de hierba dura (spinifex) y árboles dispersos, algunos secos.",
+        "El cielo sin una nube: la masa de aire cálido y seco domina casi todo el año.",
+        "La llanura que rodea el monolito: es un resto aislado en medio de un escudo arrasado."
+      ],
+      "koppen": "BWh",
+      "distractores": [
+        "BSh",
+        "Aw",
+        "BWk"
+      ],
+      "clima": "Clima desértico cálido (BWh). En Alice Springs, la estación de referencia, el mes más cálido llega a 29,4 °C y el más frío baja a 12,2 °C (con heladas nocturnas en invierno). Solo llueven 273 mm, sobre todo en verano y de forma muy irregular de un año a otro.",
+      "notaKoppen": "Alice Springs está a unos 335 km al nordeste, en línea recta. Uluru es todavía algo más seca.",
+      "localizacion": "Centro de Australia, en el suroeste del Territorio del Norte, en el desierto central.",
+      "preguntas": [
+        {
+          "id": "uluru-relieve",
+          "enunciado": "¿A qué gran unidad del relieve australiano pertenece este paisaje?",
+          "opciones": [
+            {
+              "t": "A las mesetas occidentales, el viejo zócalo precámbrico arrasado por la erosión, donde domina el gran desierto",
+              "r": "El manual describe el escudo como un viejo zócalo peniplanizado con desiertos de hamadas y dunas.",
+              "ok": true
+            },
+            {
+              "t": "A la Gran Cordillera Divisoria",
+              "r": "La cordillera está en el borde oriental."
+            },
+            {
+              "t": "A la cuenca del Murray-Darling",
+              "r": "Está en el sureste."
+            },
+            {
+              "t": "A una cordillera volcánica joven",
+              "r": "Australia apenas tiene volcanes activos; es un continente muy estable."
+            }
+          ],
+          "explicacion": [
+            "Uluru es un inselberg, una roca dura que ha resistido la erosión de cientos de millones de años mientras la llanura de alrededor se rebajaba."
+          ]
+        },
+        {
+          "id": "uluru-poblamiento",
+          "enunciado": "¿Cómo es el poblamiento de esta parte de Australia?",
+          "opciones": [
+            {
+              "t": "Casi vacío: las tres cuartas partes del territorio no pasan de 0,5 hab./km²; viven comunidades aborígenes y unos pocos centros de servicios como Alice Springs",
+              "r": "El manual habla de un desierto de más de dos millones de km² que funciona como una «zona muerta».",
+              "ok": true
+            },
+            {
+              "t": "Muy denso, con agricultura de regadío",
+              "r": "No hay agua superficial para regar."
+            },
+            {
+              "t": "Ocupado por grandes ciudades mineras",
+              "r": "Hay explotaciones mineras aisladas, no grandes ciudades."
+            },
+            {
+              "t": "Ocupado por el cinturón triguero",
+              "r": "El trigo está en el sureste y el suroeste, donde llueve más."
+            }
+          ],
+          "explicacion": [
+            "Uluru es un lugar sagrado para los aṉangu, sus propietarios tradicionales. Desde octubre de 2019 está prohibido escalarlo."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Centro de Australia (25° S), en el suroeste del Territorio del Norte, unos 335 km al suroeste de Alice Springs.",
+        "b": "Clima desértico cálido (BWh): veranos muy calurosos (unos 29 °C de media y máximas de más de 35 °C), inviernos templados con noches frías y precipitación escasa e irregular, de 250 a 300 mm, sobre todo en verano.",
+        "c": "Monolito de arenisca roja sobre una llanura arenosa con spinifex, matorral y árboles dispersos. Territorio casi vacío, de comunidades aborígenes y turismo, dentro del gran desierto australiano."
+      },
+      "manual": "Apartados 2.2.1.3, 2.3.1.1 y 2.4.2",
+      "enlaces": [
+        {
+          "pagina": "climas.html?v=australia",
+          "ancla": "explorar",
+          "texto": "Climograma de Alice Springs"
+        }
+      ]
+    },
+    {
+      "id": "kakadu",
+      "parte": "australia",
+      "titulo": "El escarpe de Arnhem en Kakadu",
+      "lugar": "Mirador de Gunwarrdehwarrde, Parque Nacional de Kakadu (Territorio del Norte)",
+      "pais": "Australia",
+      "lat": -12.87,
+      "lon": 132.82,
+      "tolerancia": 400,
+      "estacion": "darwin",
+      "foto": {
+        "archivo": "File:Kakadu (AU), Kakadu National Park, Gunwarrdehwarrde Lookout -- 2019 -- 4118.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Gunwarrdehwarrde_Lookout_--_2019_--_4118.jpg/1920px-Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Gunwarrdehwarrde_Lookout_--_2019_--_4118.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Gunwarrdehwarrde_Lookout_--_2019_--_4118.jpg",
+        "autor": "Dietmar Rabich",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Cantil de arenisca en capas de color rojizo sobre una ladera con árboles y matorral verde, bajo un cielo azul con nubes de algodón"
+      },
+      "mirar": [
+        "El escarpe de arenisca en capas horizontales: el borde de una meseta antigua.",
+        "La sabana arbolada de eucaliptos y hierbas altas al pie.",
+        "Las nubes de algodón que empiezan a crecer: es finales de octubre, justo antes de las lluvias.",
+        "La ausencia total de campos y de casas."
+      ],
+      "koppen": "Aw",
+      "distractores": [
+        "Am",
+        "BSh",
+        "Cwa"
+      ],
+      "clima": "Clima tropical de sabana de matiz monzónico (Aw). En Darwin, la estación de referencia, hace calor todo el año: el mes más fresco tiene 25,2 °C y el más cálido 29,6 °C. Llueven 1.832 mm casi solo entre noviembre y abril, con máximo en enero; de mayo a septiembre apenas cae una gota.",
+      "notaKoppen": "Darwin está a unos 200 km al oeste. El clima de Kakadu es el mismo, con una estación seca algo más calurosa.",
+      "localizacion": "Norte del Territorio del Norte, en la Tierra de Arnhem, al este de Darwin.",
+      "preguntas": [
+        {
+          "id": "kakadu-estaciones",
+          "enunciado": "¿Cómo son las estaciones en este clima?",
+          "opciones": [
+            {
+              "t": "Una estación muy lluviosa en verano (noviembre-abril), con el monzón del noroeste, y otra seca en invierno",
+              "r": "El manual habla de alternancia de estación muy lluviosa en verano y seca en invierno, con más de 1.500 mm en Darwin.",
+              "ok": true
+            },
+            {
+              "t": "Lluvias repartidas todo el año",
+              "r": "Ese es el clima litoral de alisio de Brisbane."
+            },
+            {
+              "t": "Lluvias de invierno y verano seco",
+              "r": "Es el régimen mediterráneo de Perth y Adelaida."
+            },
+            {
+              "t": "Nieve en invierno",
+              "r": "Estamos a 13° S: nunca hace frío."
+            }
+          ],
+          "explicacion": [
+            "En el hemisferio sur, el verano es de diciembre a febrero: el monzón llega cuando el sol está más alto sobre el norte de Australia."
+          ]
+        },
+        {
+          "id": "kakadu-uranio",
+          "enunciado": "¿Qué recurso minero, citado en el manual, se ha explotado en el interior de Kakadu?",
+          "opciones": [
+            {
+              "t": "El uranio, en la mina Ranger, que dejó de producir en 2021 y está en restauración",
+              "r": "El manual dice que Australia es segundo o tercer productor mundial de uranio.",
+              "ok": true
+            },
+            {
+              "t": "El carbón",
+              "r": "El carbón está en las cuencas de la cordillera oriental (Nueva Gales del Sur y Queensland)."
+            },
+            {
+              "t": "El hierro",
+              "r": "El hierro se extrae sobre todo en el Pilbara, en Australia Occidental."
+            },
+            {
+              "t": "El petróleo",
+              "r": "Kakadu no tiene petróleo."
+            }
+          ],
+          "explicacion": [
+            "Kakadu es Patrimonio Mundial natural y cultural: tiene arte rupestre aborigen de decenas de miles de años. La mina se quedó como un enclave dentro del parque."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Norte de Australia (12,9° S), en la Tierra de Arnhem (Territorio del Norte), al este de Darwin.",
+        "b": "Clima tropical de sabana de tipo monzónico (Aw): calor todo el año (25-30 °C), unos 1.500-1.800 mm de lluvia concentrados en el verano austral (noviembre-abril) y una estación seca de cinco o seis meses.",
+        "c": "Escarpe de arenisca de una meseta antigua sobre una sabana arbolada de eucaliptos; humedales en las llanuras de inundación. Parque nacional sin agricultura, con arte rupestre aborigen y un antiguo enclave minero de uranio."
+      },
+      "manual": "Apartados 2.2.1.3 y 2.3.1.3",
+      "enlaces": [
+        {
+          "pagina": "climas.html?v=australia",
+          "ancla": "explorar",
+          "texto": "Climograma de Darwin"
+        }
+      ]
+    },
+    {
+      "id": "cana-cairns",
+      "parte": "australia",
+      "titulo": "Caña de azúcar en Cairns",
+      "lugar": "Lower Freshwater Road, Barron (Cairns, Queensland)",
+      "pais": "Australia",
+      "lat": -16.88,
+      "lon": 145.71,
+      "tolerancia": 300,
+      "estacion": "cairns",
+      "foto": {
+        "archivo": "File:Sugar cane fields with mountains beyond, Lower Freshwater Road, Barron, Cairns, 2018 01.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Sugar_cane_fields_with_mountains_beyond%2C_Lower_Freshwater_Road%2C_Barron%2C_Cairns%2C_2018_01.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Sugar_cane_fields_with_mountains_beyond%2C_Lower_Freshwater_Road%2C_Barron%2C_Cairns%2C_2018_01.jpg",
+        "autor": "Kerry Raymond",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "alt": "Campo de caña de azúcar alta junto a una carretera con postes eléctricos, con montañas cubiertas de selva al fondo bajo un cielo nublado"
+      },
+      "mirar": [
+        "La caña de azúcar alta y densa: estamos en mayo, poco antes de la zafra.",
+        "Las montañas cubiertas de selva: el borde de la cordillera, muy cerca del mar.",
+        "El cielo cargado y el verde intenso: es uno de los lugares más lluviosos de Australia.",
+        "La llanura litoral estrecha entre la montaña y el océano."
+      ],
+      "koppen": "Am",
+      "distractores": [
+        "Aw",
+        "Cfa",
+        "Af"
+      ],
+      "clima": "Clima tropical monzónico (Am). En Cairns el mes más fresco tiene 21,8 °C y el más cálido 28,0 °C. Llueven 1.957 mm, con máximo en febrero; los alisios del sureste descargan humedad contra la montaña incluso en la estación seca, que es corta.",
+      "notaKoppen": "La foto está tomada en las afueras de Cairns, la propia estación de referencia.",
+      "localizacion": "Llanura litoral del noreste de Queensland, al pie de la cordillera, junto a la Gran Barrera de Coral.",
+      "preguntas": [
+        {
+          "id": "cana-agricultura",
+          "enunciado": "¿Qué tipo de agricultura practica esta región, según el manual?",
+          "opciones": [
+            {
+              "t": "Agricultura intensiva tropical en las llanuras litorales de Queensland: caña de azúcar, frutas tropicales y cítricos, en explotaciones medianas mecanizadas",
+              "r": "La caña es el principal cultivo tropical de Australia (unas 400.000 ha en 2015, según el manual).",
+              "ok": true
+            },
+            {
+              "t": "Ganadería extensiva de merinos",
+              "r": "Los merinos están en las tierras semiáridas del sur."
+            },
+            {
+              "t": "Cultivo extensivo de trigo",
+              "r": "El trigo está en el sureste y el suroeste."
+            },
+            {
+              "t": "Arrozales de regadío",
+              "r": "El arroz australiano se cultiva en los regadíos del Murray."
+            }
+          ],
+          "explicacion": [
+            "La mayor parte del azúcar se exporta, sobre todo a Asia oriental. Antes se quemaba la caña antes de cortarla; hoy casi toda se cosecha en verde con máquinas."
+          ]
+        },
+        {
+          "id": "cana-ciudades",
+          "enunciado": "¿Qué papel tienen ciudades como Cairns o Townsville en la red urbana australiana?",
+          "opciones": [
+            {
+              "t": "Son las «ciudades del azúcar»: nacieron como puertos azucareros y se han convertido en centros comerciales, industriales y turísticos",
+              "r": "El manual las cita como ejemplo de pequeñas ciudades de servicios, junto con Mackay y Bundaberg.",
+              "ok": true
+            },
+            {
+              "t": "Son capitales de estado",
+              "r": "La capital de Queensland es Brisbane."
+            },
+            {
+              "t": "Son ciudades mineras del interior",
+              "r": "Están en la costa."
+            },
+            {
+              "t": "Son ciudades millonarias",
+              "r": "Cairns tiene unos 165.000 habitantes y Townsville unos 190.000."
+            }
+          ],
+          "explicacion": [
+            "Cairns vive hoy sobre todo del turismo de la Gran Barrera y de la selva tropical de Queensland, ambas Patrimonio Mundial."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Noreste de Australia (16,9° S), en la llanura litoral de Cairns (Queensland), al pie de la cordillera oriental.",
+        "b": "Clima tropical monzónico (Am): calor todo el año (22-28 °C) y lluvias muy abundantes, cerca de 2.000 mm, con máximo en verano (enero-marzo) y una estación seca corta; los alisios y los ciclones refuerzan las precipitaciones.",
+        "c": "Llanura litoral cubierta de campos de caña de azúcar mecanizados, al pie de montañas con selva tropical. Agricultura intensiva de exportación y ciudades portuarias de servicios y turismo."
+      },
+      "manual": "Apartados 2.2.1.3, 2.2.2.2 y 2.4.3.2",
+      "enlaces": [
+        {
+          "pagina": "atlas.html?v=australia",
+          "ancla": "agro",
+          "texto": "Atlas: usos agrarios de Australia"
+        }
+      ]
+    },
+    {
+      "id": "trigo-kulin",
+      "parte": "australia",
+      "titulo": "El cinturón triguero del suroeste",
+      "lugar": "Al este de Kulin, en la carretera a Lake Grace (Australia Occidental)",
+      "pais": "Australia",
+      "lat": -32.68,
+      "lon": 118.25,
+      "tolerancia": 400,
+      "estacion": "perth",
+      "foto": {
+        "archivo": "File:Harvested wheat fields east of Kulin, Western Australia, October 2020.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Harvested_wheat_fields_east_of_Kulin%2C_Western_Australia%2C_October_2020.jpg/1920px-Harvested_wheat_fields_east_of_Kulin%2C_Western_Australia%2C_October_2020.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Harvested_wheat_fields_east_of_Kulin%2C_Western_Australia%2C_October_2020.jpg",
+        "autor": "Calistemon",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Campo de rastrojo dorado de trigo cosechado, llano hasta el horizonte, con una hilera de eucaliptos al fondo y algunas pacas de paja"
+      },
+      "mirar": [
+        "El campo inmenso y llano hasta el horizonte: es la meseta del suroeste.",
+        "El rastrojo dorado y las pacas de paja: el trigo ya está cosechado (principios de octubre).",
+        "La hilera de eucaliptos al fondo: restos del bosque que se taló para cultivar.",
+        "La ausencia de casas y de pueblos: explotaciones enormes y muy mecanizadas."
+      ],
+      "koppen": "Csa",
+      "distractores": [
+        "BWh",
+        "Cfb",
+        "Aw"
+      ],
+      "clima": "Clima mediterráneo seco. En Perth, la estación de referencia en la costa, el mes más cálido tiene 25,0 °C y el más frío 13,3 °C; llueven 699 mm, casi todo en invierno, con máximo en julio. El trigo se siembra con las lluvias de otoño (abril-mayo) y se cosecha en la primavera austral.",
+      "notaKoppen": "Kulin está unos 280 km al sureste de Perth, ya en el interior: recibe solo unos 350 mm, en el límite entre el clima mediterráneo (Csa) y la estepa (BSk).",
+      "localizacion": "Meseta del suroeste de Australia Occidental, en el «Wheatbelt», entre Perth y los lagos salados del interior.",
+      "preguntas": [
+        {
+          "id": "trigo-cinturon",
+          "enunciado": "¿Qué dice el manual del cinturón triguero australiano?",
+          "opciones": [
+            {
+              "t": "Que tiene dos sectores: el más importante, en el creciente del sureste, y otro menor en las mesetas de la región de Perth; el cultivo es extensivo y muy mecanizado",
+              "r": "El manual da rendimientos bajos (10-15 Qm/ha) y una producción de 20 a 25 millones de t, casi toda exportada.",
+              "ok": true
+            },
+            {
+              "t": "Que está en las llanuras tropicales del norte",
+              "r": "Allí hace demasiado calor y la lluvia cae en verano."
+            },
+            {
+              "t": "Que es un cultivo de regadío",
+              "r": "Es mayoritariamente de secano; el regadío solo lo intensifica en algunas zonas."
+            },
+            {
+              "t": "Que produce sobre todo para el mercado interior",
+              "r": "Australia tiene poca población: exporta la mayor parte."
+            }
+          ],
+          "explicacion": [
+            "Hoy Australia Occidental es el primer estado productor de trigo. En los buenos años la cosecha australiana supera los 30 millones de t, más que el rango que da el manual; en los años de sequía cae mucho."
+          ]
+        },
+        {
+          "id": "trigo-riesgos",
+          "enunciado": "¿Qué problemas ambientales sufren estas tierras?",
+          "opciones": [
+            {
+              "t": "Sequías, erosión del suelo y salinización: al talar el bosque, el agua salada del subsuelo sube a la superficie",
+              "r": "El manual insiste en la fragilidad de los suelos cultivados y en la necesidad de protegerlos contra la erosión y la degradación.",
+              "ok": true
+            },
+            {
+              "t": "Inundaciones por los monzones",
+              "r": "Aquí no llega el monzón."
+            },
+            {
+              "t": "Heladas que impiden cualquier cultivo",
+              "r": "Los inviernos son suaves."
+            },
+            {
+              "t": "Contaminación industrial",
+              "r": "Es una región rural casi sin industria."
+            }
+          ],
+          "explicacion": [
+            "La salinización de secano es uno de los grandes problemas del Wheatbelt: en el atlas verás que al este de esta zona empiezan los lagos salados y el desierto."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Meseta del suroeste de Australia (32,7° S), en el Wheatbelt de Australia Occidental, a unos 280 km al sureste de Perth.",
+        "b": "Clima mediterráneo seco en el límite de la estepa (Csa/BSk): veranos calurosos y secos, inviernos templados, y unos 350 mm de lluvia concentrados en invierno.",
+        "c": "Inmensos campos de trigo de secano, llanos y mecanizados, con restos de eucaliptos entre ellos; muy poca población. Problemas de sequía, erosión y salinización."
+      },
+      "manual": "Apartados 2.2.1.4 y 2.2.2.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=trigo",
+          "texto": "Producción de trigo: Australia en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "merinas-walcha",
+      "parte": "australia",
+      "titulo": "Ovejas merinas en Nueva Inglaterra",
+      "lugar": "Walcha, mesetas de Nueva Inglaterra (Nueva Gales del Sur)",
+      "pais": "Australia",
+      "lat": -30.98,
+      "lon": 151.6,
+      "tolerancia": 350,
+      "estacion": "canberra",
+      "foto": {
+        "archivo": "File:Merino ewes & lambs.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Merino_ewes_%26_lambs.JPG/1920px-Merino_ewes_%26_lambs.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Merino_ewes_%26_lambs.JPG",
+        "autor": "Cgoodwin",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Rebaño numeroso de ovejas merinas con sus corderos en un prado verde, con árboles y colinas suaves al fondo"
+      },
+      "mirar": [
+        "El rebaño de ovejas merinas con corderos: es una raza de lana muy fina.",
+        "El prado verde: en estas mesetas llueve más que en el interior.",
+        "Los eucaliptos aislados y las colinas suaves al fondo.",
+        "La cerca y el gran espacio abierto: el ganado pasta en parcelas cercadas."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "BSk",
+        "Cfa",
+        "Csb"
+      ],
+      "clima": "Clima templado oceánico de montaña (Cfb). En Canberra, también en la Gran Cordillera Divisoria, el mes más frío tiene 6,2 °C y el más cálido 21,7 °C, con 588 mm bien repartidos a lo largo del año. Los inviernos son frescos, con heladas frecuentes.",
+      "notaKoppen": "Canberra está unos 550 km al sur, pero tiene un clima parecido al de estas mesetas a 1.000 m de altitud. Walcha recibe algo más de lluvia (unos 800 mm).",
+      "localizacion": "Mesetas de Nueva Inglaterra, en la Gran Cordillera Divisoria, en el norte de Nueva Gales del Sur.",
+      "preguntas": [
+        {
+          "id": "merinas-lana",
+          "enunciado": "¿Qué papel ha tenido la lana de merino en la historia de Australia?",
+          "opciones": [
+            {
+              "t": "Fue desde principios del siglo XIX el gran estímulo del crecimiento económico, de la inmigración y de la ocupación del territorio; Australia sigue siendo el primer exportador mundial de lana",
+              "r": "El manual dice que los altibajos de la economía australiana seguían los precios de la lana.",
+              "ok": true
+            },
+            {
+              "t": "Ninguno: la ganadería ovina llegó en los años setenta",
+              "r": "Los primeros merinos llegaron con la colonización, a finales del siglo XVIII."
+            },
+            {
+              "t": "Solo abastece a la industria textil australiana",
+              "r": "Se exporta casi toda, sobre todo a China."
+            },
+            {
+              "t": "Se produce en granjas intensivas junto a las ciudades",
+              "r": "Es una ganadería extensiva."
+            }
+          ],
+          "explicacion": [
+            "La cabaña ovina ha bajado mucho: de 159 millones de cabezas en 1985 a 76 millones en 2014, según el manual (79 millones en 2024, según la FAO). El manual daba a Australia como primer productor de lana; según la FAO, hoy China la supera en lana sucia, aunque la australiana, más fina, domina el comercio mundial."
+          ]
+        },
+        {
+          "id": "merinas-localizacion",
+          "enunciado": "¿Dónde se localizan los grandes rebaños de merinos, según el manual?",
+          "opciones": [
+            {
+              "t": "En las tierras con precipitaciones escasas, entre 200 y 500 mm, del centro-sur, en enormes explotaciones; y, con ganado vacuno, en las colinas y mesetas más pobres del sureste",
+              "r": "El manual distingue la ganadería del sureste húmedo, la bovina del norte y los grandes rebaños de merinos de las tierras semiáridas.",
+              "ok": true
+            },
+            {
+              "t": "En el norte tropical",
+              "r": "Allí domina el ganado bovino para carne."
+            },
+            {
+              "t": "En el desierto central",
+              "r": "Es demasiado seco incluso para las ovejas."
+            },
+            {
+              "t": "En Tasmania exclusivamente",
+              "r": "Hay ovejas en Tasmania, pero la mayoría está en el continente."
+            }
+          ],
+          "explicacion": [
+            "Nueva Inglaterra produce lana superfina, la más cotizada, gracias a su clima fresco de montaña."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Mesetas de Nueva Inglaterra (31° S), en la Gran Cordillera Divisoria, al norte de Nueva Gales del Sur, a unos 1.000 m de altitud.",
+        "b": "Clima templado oceánico de montaña (Cfb): veranos templados (18-19 °C), inviernos frescos con heladas (5-6 °C) y unos 800 mm de lluvia repartidos todo el año.",
+        "c": "Prados y colinas suaves con eucaliptos dispersos, dedicados a la ganadería ovina de lana fina y al vacuno. Explotaciones extensas con muy poca población."
+      },
+      "manual": "Apartados 2.2.2 y 2.2.2.1",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=lana",
+          "texto": "Producción de lana: Australia en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "pilbara-whaleback",
+      "parte": "australia",
+      "titulo": "La mina de hierro de Mount Whaleback",
+      "lugar": "Mina de Mount Whaleback, junto a Newman (Pilbara, Australia Occidental)",
+      "pais": "Australia",
+      "lat": -23.37,
+      "lon": 119.67,
+      "tolerancia": 450,
+      "estacion": "alicesprings",
+      "foto": {
+        "archivo": "File:Mount Whaleback mine, 2016 (01).JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Mount_Whaleback_mine%2C_2016_%2801%29.JPG/1920px-Mount_Whaleback_mine%2C_2016_%2801%29.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Mount_Whaleback_mine%2C_2016_%2801%29.JPG",
+        "autor": "Bahnfrend",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Enorme corta minera a cielo abierto de color rojo intenso, con bancales escalonados y pistas, vista desde un mirador con barandilla"
+      },
+      "mirar": [
+        "El color rojo intenso: óxidos de hierro.",
+        "Los bancales escalonados de la corta, por donde suben los camiones.",
+        "El tamaño: el fondo de la mina se pierde en la distancia.",
+        "La ausencia de vegetación y el cielo pálido de una región muy seca."
+      ],
+      "koppen": "BWh",
+      "distractores": [
+        "BSh",
+        "Aw",
+        "Csa"
+      ],
+      "clima": "Clima desértico cálido (BWh). En Alice Springs, la estación de referencia, el mes más cálido llega a 29,4 °C y el más frío baja a 12,2 °C; solo llueven 273 mm, en verano y de forma muy irregular. El Pilbara tiene algunas de las temperaturas más altas de Australia.",
+      "notaKoppen": "Alice Springs está a más de 1.300 km al este, pero el clima de Newman es muy parecido: unos 300 mm de lluvia, sobre todo en verano y con ciclones ocasionales, y temperaturas medias de verano de más de 30 °C.",
+      "localizacion": "Meseta del Pilbara, en el noroeste de Australia Occidental, a unos 1.200 km al norte de Perth.",
+      "preguntas": [
+        {
+          "id": "pilbara-hierro",
+          "enunciado": "¿Qué importancia tiene el hierro para Australia?",
+          "opciones": [
+            {
+              "t": "Es su principal exportación; Australia es hoy el primer productor mundial de mineral de hierro y el primer exportador, sobre todo a China",
+              "r": "El manual (2016) la situaba como segundo productor; según el USGS, hoy produce más de un tercio del mineral de hierro del mundo.",
+              "ok": true
+            },
+            {
+              "t": "Muy poca: Australia importa hierro",
+              "r": "Es uno de los mayores exportadores del mundo."
+            },
+            {
+              "t": "Abastece sobre todo a la siderurgia australiana",
+              "r": "El consumo interno es pequeño; casi todo se exporta."
+            },
+            {
+              "t": "Se agotó en el siglo XIX",
+              "r": "La gran expansión del hierro empezó en los años sesenta."
+            }
+          ],
+          "explicacion": [
+            "El mineral viaja en trenes de más de 2 km de largo hasta Port Hedland, en la costa, y desde allí en barco a Asia oriental. Japón fue el primer gran cliente del Pilbara en los años sesenta."
+          ]
+        },
+        {
+          "id": "pilbara-escudo",
+          "enunciado": "¿Por qué Australia tiene tanta riqueza mineral?",
+          "opciones": [
+            {
+              "t": "Por la extensión de su zócalo cristalino precámbrico y de los plegamientos hercinianos del arco oriental; los hidrocarburos aparecen en las cuencas sedimentarias",
+              "r": "El manual explica así la riqueza del subsuelo australiano.",
+              "ok": true
+            },
+            {
+              "t": "Por sus muchos volcanes activos",
+              "r": "Australia es un continente muy estable, sin vulcanismo activo importante."
+            },
+            {
+              "t": "Por sus glaciares",
+              "r": "Los glaciares no forman yacimientos de hierro."
+            },
+            {
+              "t": "Por la abundancia de agua",
+              "r": "La mayor parte del país es árida."
+            }
+          ],
+          "explicacion": [
+            "El Pilbara es uno de los bloques levantados del escudo occidental que cita el manual, junto a Kimberley, Isa y Darling."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Meseta del Pilbara (23,4° S), en el noroeste de Australia Occidental, junto a la ciudad minera de Newman.",
+        "b": "Clima desértico cálido (BWh): veranos muy calurosos (más de 30 °C de media), inviernos templados y unos 300 mm de lluvia irregular en verano, a veces con ciclones.",
+        "c": "Gigantesca corta minera de hierro a cielo abierto en una meseta árida de rocas rojas, con ferrocarril hacia los puertos de exportación. Ciudades mineras pequeñas en un territorio casi vacío."
+      },
+      "manual": "Apartados 2.3.1.1 y 2.3.1.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=hierro",
+          "texto": "Producción de mineral de hierro en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "sidney-bahia",
+      "parte": "australia",
+      "titulo": "La bahía de Sídney",
+      "lugar": "Port Jackson y el puente de la bahía (Sídney, Nueva Gales del Sur)",
+      "pais": "Australia",
+      "lat": -33.85,
+      "lon": 151.21,
+      "tolerancia": 200,
+      "estacion": "sidney",
+      "foto": {
+        "archivo": "File:Sydney (AU), Harbour Bridge -- 2019 -- 2881.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2881.jpg/1920px-Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2881.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2881.jpg",
+        "autor": "Dietmar Rabich",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Vista aérea de una gran bahía azul con el puente de arco metálico, rascacielos, barrios de casas con jardines y la ciudad extendida hasta el horizonte"
+      },
+      "mirar": [
+        "La bahía profunda y ramificada: un valle fluvial invadido por el mar.",
+        "El puente de arco metálico (1932) y los rascacielos del centro de negocios.",
+        "Los barrios de casas con jardín: la ciudad se extiende hacia el horizonte.",
+        "Los barcos y transbordadores: el puerto está en el origen de la ciudad."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Csa",
+        "Cfb",
+        "BSk"
+      ],
+      "clima": "Clima subtropical húmedo (Cfa). En Sídney el mes más frío tiene 13,6 °C y el más cálido 23,8 °C. Llueven 1.148 mm repartidos todo el año, con máximo en junio y un otoño también húmedo.",
+      "notaKoppen": "La foto está tomada en Sídney, la propia estación de referencia. El manual describe este clima como de transición entre el litoral de alisio de Brisbane y el clima «chino».",
+      "localizacion": "Costa sureste de Australia, en Nueva Gales del Sur, en la bahía de Port Jackson.",
+      "preguntas": [
+        {
+          "id": "sidney-red",
+          "enunciado": "¿Qué rasgo de la red urbana australiana representa Sídney?",
+          "opciones": [
+            {
+              "t": "La macrocefalia: las capitales de estado, ciudades-puerto, concentran la mayoría de la población de cada estado y apenas hay ciudades medias",
+              "r": "El manual dice que Sídney es 15 veces mayor que la segunda ciudad de su estado.",
+              "ok": true
+            },
+            {
+              "t": "Una red urbana equilibrada con muchas ciudades medias",
+              "r": "Es justo lo contrario: faltan ciudades medias."
+            },
+            {
+              "t": "El predominio de la población rural",
+              "r": "Australia es un país de ciudades: la población rural solo es el 10 %."
+            },
+            {
+              "t": "Una ciudad del interior",
+              "r": "Todas las grandes ciudades están en la costa."
+            }
+          ],
+          "explicacion": [
+            "Sídney tenía 5,6 millones de habitantes en 2025 (Gran Sídney), el 66 % de Nueva Gales del Sur; el manual daba 4,5 millones en 2014. Melbourne (5,4 millones) está a punto de alcanzarla."
+          ]
+        },
+        {
+          "id": "sidney-emplazamiento",
+          "enunciado": "¿Por qué el emplazamiento de Sídney es tan favorable?",
+          "opciones": [
+            {
+              "t": "Porque está en un amplio estuario de la vertiente oriental de la cordillera, un puerto natural profundo y abrigado",
+              "r": "El manual explica que la erosión fluvial formó estuarios donde se establecieron los puertos y surgieron las ciudades.",
+              "ok": true
+            },
+            {
+              "t": "Porque está junto a un gran río navegable hacia el interior",
+              "r": "Los ríos de la vertiente oriental son cortos."
+            },
+            {
+              "t": "Porque está en el centro del continente",
+              "r": "Está en la costa sureste."
+            },
+            {
+              "t": "Porque tiene minas de oro en la ciudad",
+              "r": "El oro estaba en el interior."
+            }
+          ],
+          "explicacion": [
+            "Sídney fue la primera colonia británica (1788). En la página de ciudades puedes comparar el crecimiento de las capitales australianas."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Costa sureste de Australia (33,9° S), en Nueva Gales del Sur, en la bahía de Port Jackson.",
+        "b": "Clima subtropical húmedo (Cfa): veranos cálidos (unos 23-24 °C), inviernos suaves (13-14 °C) y unos 1.100-1.200 mm de lluvia repartidos todo el año.",
+        "c": "Gran ciudad-puerto sobre un estuario ramificado, con un centro de rascacielos y extensos barrios residenciales de baja densidad. Primera ciudad de Australia y ejemplo de la concentración urbana en las capitales costeras."
+      },
+      "manual": "Apartados 2.3.1.1, 2.4.3.1 y 2.4.3.2",
+      "enlaces": [
+        {
+          "pagina": "ciudades.html?v=australia",
+          "ancla": "mapa",
+          "texto": "Ciudades: el crecimiento de las capitales australianas"
+        }
+      ]
+    },
+    {
+      "id": "cradle-tasmania",
+      "parte": "australia",
+      "titulo": "Cradle Mountain, en Tasmania",
+      "lugar": "Parque Nacional de Cradle Mountain-Lake St Clair (Tasmania)",
+      "pais": "Australia",
+      "lat": -41.66,
+      "lon": 145.95,
+      "tolerancia": 300,
+      "estacion": "hobart",
+      "foto": {
+        "archivo": "File:Parque Nacional Cradle Mountain-Tasmania-Australia04.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Parque_Nacional_Cradle_Mountain-Tasmania-Australia04.JPG/1920px-Parque_Nacional_Cradle_Mountain-Tasmania-Australia04.JPG",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Cradle_Mountain-Tasmania-Australia04.JPG",
+        "autor": "Diego Delso",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Lago de aguas tranquilas que reflejan una montaña de cumbres rocosas y escarpadas, rodeado de bosque y matorral bajo un cielo azul"
+      },
+      "mirar": [
+        "Las cumbres de roca escarpadas, en forma de cresta: un relieve modelado por los glaciares.",
+        "El lago en el fondo de una cubeta: es de origen glaciar.",
+        "El bosque denso de las orillas: aquí llueve mucho.",
+        "La ausencia de construcciones: es un espacio protegido."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "Cfa",
+        "Csb",
+        "Dfc"
+      ],
+      "clima": "Clima oceánico (Cfb). En Hobart, la capital de Tasmania, el mes más frío tiene 9,0 °C y el más cálido 17,9 °C, con 565 mm bien repartidos. En las montañas del oeste, expuestas a los vientos del oeste, la precipitación supera los 2.000 mm y nieva en invierno.",
+      "notaKoppen": "Hobart está unos 150 km al sureste, protegida por las montañas; por eso es mucho más seca que las tierras altas del oeste.",
+      "localizacion": "Tierras altas del noroeste de Tasmania, al sur del estrecho de Bass.",
+      "preguntas": [
+        {
+          "id": "cradle-relieve",
+          "enunciado": "¿Cómo describe el manual el relieve de Tasmania?",
+          "opciones": [
+            {
+              "t": "Como la prolongación de los plegamientos de la cordillera oriental, con una meseta central de hasta 1.200 m y valles de origen glaciar",
+              "r": "El manual añade que el zócalo precámbrico aflora en la parte occidental.",
+              "ok": true
+            },
+            {
+              "t": "Como una isla volcánica joven",
+              "r": "No es volcánica."
+            },
+            {
+              "t": "Como una llanura sedimentaria",
+              "r": "Es una isla montañosa."
+            },
+            {
+              "t": "Como un fragmento del desierto central",
+              "r": "Es la parte más lluviosa y fresca de Australia."
+            }
+          ],
+          "explicacion": [
+            "Tasmania y los Alpes Australianos son las únicas zonas de Australia con formas glaciares."
+          ]
+        },
+        {
+          "id": "cradle-clima",
+          "enunciado": "¿Por qué Tasmania es tan distinta del resto de Australia?",
+          "opciones": [
+            {
+              "t": "Porque está más al sur (41-43° S), en plena circulación de los vientos del oeste, con un clima oceánico fresco y lluvioso",
+              "r": "El manual incluye Hobart entre las estaciones representativas del clima oceánico del sureste.",
+              "ok": true
+            },
+            {
+              "t": "Porque recibe el monzón",
+              "r": "El monzón afecta al norte tropical."
+            },
+            {
+              "t": "Porque está a mucha más altitud que el continente",
+              "r": "Tiene montañas, pero lo decisivo es la latitud."
+            },
+            {
+              "t": "Porque tiene un clima mediterráneo",
+              "r": "Las lluvias se reparten todo el año."
+            }
+          ],
+          "explicacion": [
+            "Una quinta parte de Tasmania forma parte del Área Silvestre de Tasmania, Patrimonio Mundial."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Tierras altas del noroeste de Tasmania (41,7° S), la isla del sureste de Australia.",
+        "b": "Clima oceánico (Cfb) de montaña: veranos frescos, inviernos fríos con nieve en las cumbres y precipitaciones muy abundantes (más de 2.000 mm) repartidas todo el año, por los vientos del oeste.",
+        "c": "Montañas de cumbres escarpadas y lagos glaciares rodeados de bosque templado húmedo. Espacio natural protegido, sin poblamiento permanente; turismo de naturaleza."
+      },
+      "manual": "Apartados 2.2.1.3 y 2.3.1.1",
+      "enlaces": [
+        {
+          "pagina": "climas.html?v=australia",
+          "ancla": "explorar",
+          "texto": "Climograma de Hobart"
+        }
+      ]
+    }
+  ]
+}

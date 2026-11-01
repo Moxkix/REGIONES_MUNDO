@@ -1,0 +1,453 @@
+{
+ "titulo": "Producciones y recursos de Japón y Australia",
+ "preguntas": [
+  {
+   "id": "arroz-japon",
+   "parte": "japon",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "arroz"
+   },
+   "enunciado": "Japón produce hoy algo más de 10 millones de t de arroz con cáscara, el 1,2 % del mundo (12.º productor en 2024). ¿Qué dice el manual de la política arrocera?",
+   "opciones": [
+    {
+     "t": "Que es un cultivo muy protegido, con precios garantizados; el manual dice incluso que la importación está prohibida, aunque en realidad existe un contingente y en 2025 las importaciones privadas batieron récords",
+     "r": "Es una de las diferencias con el manual que recoge la tabla de actualización.",
+     "ok": true
+    },
+    {
+     "t": "Que Japón es el primer exportador mundial de arroz",
+     "r": "Produce para su mercado interior."
+    },
+    {
+     "t": "Que el arroz ha desaparecido de la dieta",
+     "r": "Sigue siendo básico, aunque su consumo baja."
+    },
+    {
+     "t": "Que se cultiva sobre todo en Hokkaido",
+     "r": "Se cultiva en todo el país, con más intensidad en el centro de Honshū."
+    }
+   ],
+   "explicacion": [
+    "Tras la mala cosecha de 2023 y la escasez de 2024, el precio del arroz se duplicó en 2025 y el Gobierno tuvo que vender parte de su reserva."
+   ],
+   "manual": "Apartados 1.1.2.1 y 1.1.2.2"
+  },
+  {
+   "id": "trigo-australia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "trigo"
+   },
+   "enunciado": "Australia produjo 34 millones de t de trigo en 2024 (6.º productor mundial, 4,3 %). ¿Qué la diferencia de los grandes productores asiáticos?",
+   "opciones": [
+    {
+     "t": "Que exporta la mayor parte de la cosecha: tiene poca población y un cultivo extensivo y mecanizado",
+     "r": "El manual la sitúa entre los cuatro primeros exportadores de trigo.",
+     "ok": true
+    },
+    {
+     "t": "Que tiene los rendimientos más altos del mundo",
+     "r": "Sus rendimientos son bajos (secano en tierras áridas)."
+    },
+    {
+     "t": "Que lo cultiva en regadío en el norte tropical",
+     "r": "El trigo está en el sureste y el suroeste, y es de secano."
+    },
+    {
+     "t": "Que lo importa casi todo",
+     "r": "Es una gran exportadora."
+    }
+   ],
+   "explicacion": [
+    "La cosecha varía mucho con las sequías: el manual hablaba de 20-25 millones de t; en los años buenos ya supera los 30."
+   ],
+   "manual": "Apartado 2.2.2.2"
+  },
+  {
+   "id": "hierro-australia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "hierro"
+   },
+   "enunciado": "En el mapa de producción de mineral de hierro, ¿qué lugar ocupa hoy Australia?",
+   "opciones": [
+    {
+     "t": "El primero, con un 38 % de la producción mundial, por delante de Brasil",
+     "r": "El manual (2016) la situaba como segunda productora y primera exportadora.",
+     "ok": true
+    },
+    {
+     "t": "El segundo, por detrás de China",
+     "r": "China produce mucho menos mineral utilizable que Australia."
+    },
+    {
+     "t": "El décimo",
+     "r": "Es la primera."
+    },
+    {
+     "t": "No produce hierro",
+     "r": "Es la mayor productora."
+    }
+   ],
+   "explicacion": [
+    "Casi todo sale del Pilbara y se exporta a China. Japón, sin hierro propio, fue el primer gran cliente en los años sesenta."
+   ],
+   "manual": "Apartado 2.3.1.2 (cuadro 4.6)"
+  },
+  {
+   "id": "bauxita-australia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "bauxita"
+   },
+   "enunciado": "El manual dice que Australia era el primer productor de bauxita (35 %). ¿Qué muestran los datos actuales?",
+   "opciones": [
+    {
+     "t": "Que Guinea la ha superado: Australia es hoy segunda, con un 22 %",
+     "r": "Es una de las diferencias con el cuadro 4.6 del manual.",
+     "ok": true
+    },
+    {
+     "t": "Que sigue siendo primera con más del 50 %",
+     "r": "Ha perdido el primer puesto."
+    },
+    {
+     "t": "Que ha dejado de producir bauxita",
+     "r": "Sigue siendo la segunda productora."
+    },
+    {
+     "t": "Que China es la única productora",
+     "r": "China es tercera."
+    }
+   ],
+   "explicacion": [
+    "La bauxita es la materia prima del aluminio. Australia la extrae en el norte de Queensland (Weipa), el Territorio del Norte (Gove) y el suroeste (Darling Range)."
+   ],
+   "manual": "Apartado 2.3.1.2 (cuadro 4.6)"
+  },
+  {
+   "id": "litio-australia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "litio"
+   },
+   "enunciado": "Un mineral que el manual no cita encabeza hoy la producción australiana. ¿Cuál?",
+   "opciones": [
+    {
+     "t": "El litio: Australia es el primer productor mundial (32 % en 2025), sobre todo en Greenbushes, en el suroeste",
+     "r": "Es un recurso clave para las baterías de la transición energética.",
+     "ok": true
+    },
+    {
+     "t": "El petróleo",
+     "r": "Australia produce poco petróleo e importa la mayor parte de sus combustibles líquidos."
+    },
+    {
+     "t": "El estaño",
+     "r": "No es un gran productor de estaño."
+    },
+    {
+     "t": "El diamante",
+     "r": "La gran mina de diamantes (Argyle) cerró en 2020."
+    }
+   ],
+   "explicacion": [
+    "También el níquel ha cambiado: el manual situaba a Australia como tercer o cuarto productor; hoy, con el auge de Indonesia, no llega al 2 %."
+   ],
+   "manual": "Apartado 2.3.1.2"
+  },
+  {
+   "id": "energia-japon",
+   "parte": "japon",
+   "vista": {
+    "pestana": "energia",
+    "paisA": "JPN",
+    "paisB": "AUS"
+   },
+   "enunciado": "Abrid el balance energético de Japón. ¿Qué rasgo destaca?",
+   "opciones": [
+    {
+     "t": "La dependencia: produce muy poca energía y los combustibles fósiles importados cubren más del 80 % del consumo",
+     "r": "El manual define a Japón como la potencia industrial más dependiente de la energía importada.",
+     "ok": true
+    },
+    {
+     "t": "Que se autoabastece con su carbón",
+     "r": "Las minas de carbón japonesas cerraron casi todas."
+    },
+    {
+     "t": "Que la nuclear cubre la mitad del consumo",
+     "r": "Tras Fukushima (2011) la nuclear cayó; hoy apenas supera el 4 % del consumo primario."
+    },
+    {
+     "t": "Que exporta gas natural",
+     "r": "Es uno de los mayores importadores de gas licuado."
+    }
+   ],
+   "explicacion": [
+    "Después del accidente de Fukushima el carbón y el gas sustituyeron a la nuclear. La crisis de Ormuz de 2026 obligó a usar las reservas de petróleo."
+   ],
+   "manual": "Apartado 1.2.1"
+  },
+  {
+   "id": "energia-australia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "energia",
+    "paisA": "AUS",
+    "paisB": "JPN"
+   },
+   "enunciado": "Comparad ahora el balance de Australia con el de Japón. ¿En qué se diferencia?",
+   "opciones": [
+    {
+     "t": "Australia produce mucha más energía de la que consume: es una gran exportadora de carbón y de gas natural licuado",
+     "r": "El manual destaca el carbón de la cordillera oriental y las expectativas del gas.",
+     "ok": true
+    },
+    {
+     "t": "Australia depende como Japón de la energía importada",
+     "r": "Solo importa combustibles líquidos."
+    },
+    {
+     "t": "Australia obtiene la mayor parte de su electricidad de centrales nucleares",
+     "r": "Australia no tiene centrales nucleares."
+    },
+    {
+     "t": "Australia no tiene carbón",
+     "r": "Es la cuarta productora mundial."
+    }
+   ],
+   "explicacion": [
+    "Paradoja: Australia es uno de los primeros productores de uranio pero no tiene centrales nucleares. Su electricidad depende todavía del carbón, aunque la solar y la eólica ya rondan un tercio de la generación (2025)."
+   ],
+   "manual": "Apartado 2.3.1.3"
+  },
+  {
+   "id": "rendimientos",
+   "vista": {
+    "pestana": "agrario",
+    "indicador": "rendimiento_cereales"
+   },
+   "enunciado": "En Sector agrario, comparad el rendimiento de los cereales. Japón supera los 6.000 kg/ha y Australia no llega a 2.700. ¿Por qué?",
+   "opciones": [
+    {
+     "t": "Japón practica una ricicultura de regadío muy intensiva en parcelas pequeñas; Australia, un cultivo extensivo de secano en tierras áridas",
+     "r": "El manual da para el trigo australiano rendimientos de 10-15 Qm/ha.",
+     "ok": true
+    },
+    {
+     "t": "Porque Australia no usa maquinaria",
+     "r": "Su agricultura está muy mecanizada."
+    },
+    {
+     "t": "Porque en Japón llueve menos",
+     "r": "Llueve mucho más."
+    },
+    {
+     "t": "Porque Australia cultiva sobre todo arroz",
+     "r": "Cultiva sobre todo trigo y cebada."
+    }
+   ],
+   "explicacion": [
+    "Son dos modelos opuestos: Japón obtiene mucho por hectárea con poca tierra (0,03 ha cultivables por habitante); Australia, poco por hectárea con mucha tierra (1,15 ha por habitante)."
+   ],
+   "manual": "Apartados 1.1.2 y 2.2.2"
+  },
+  {
+   "id": "empleo-agrario",
+   "vista": {
+    "pestana": "agrario",
+    "indicador": "empleo_agrario"
+   },
+   "enunciado": "En los dos países la agricultura emplea a menos del 3 % de los trabajadores. ¿Qué diferencia de fondo hay entre ambos sectores agrarios?",
+   "opciones": [
+    {
+     "t": "El japonés es protegido y abastece el mercado interior (Japón es un gran importador de alimentos); el australiano es competitivo y exportador",
+     "r": "El manual dice que el sector agrario australiano genera el 20 % de las exportaciones.",
+     "ok": true
+    },
+    {
+     "t": "Los dos son grandes exportadores",
+     "r": "Japón importa la mayor parte de sus calorías."
+    },
+    {
+     "t": "Los dos dependen de microexplotaciones",
+     "r": "Las australianas son enormes."
+    },
+    {
+     "t": "Ninguno recibe ayudas",
+     "r": "El arroz japonés está muy subvencionado."
+    }
+   ],
+   "explicacion": [
+    "Japón solo produce el 37 % de las calorías que consume (año fiscal 2025)."
+   ],
+   "manual": "Apartados 1.1.2.1 y 2.2.2"
+  },
+  {
+   "id": "cebada-australia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "cebada"
+   },
+   "enunciado": "Australia es la segunda productora mundial de cebada (9 %), tras Rusia. ¿Dónde se cultiva?",
+   "opciones": [
+    {
+     "t": "En el mismo cinturón cerealista que el trigo, en el sureste y el suroeste, en rotación con él",
+     "r": "El manual cita la cebada entre los cereales que acompañan al trigo.",
+     "ok": true
+    },
+    {
+     "t": "En las llanuras tropicales del norte",
+     "r": "La cebada es un cereal de clima templado."
+    },
+    {
+     "t": "En el desierto central",
+     "r": "Es demasiado árido."
+    },
+    {
+     "t": "En Tasmania exclusivamente",
+     "r": "Se cultiva sobre todo en el continente."
+    }
+   ],
+   "explicacion": [
+    "Gran parte se exporta como cebada forrajera o para malta a Asia oriental."
+   ],
+   "manual": "Apartado 2.2.2.2"
+  },
+  {
+   "id": "acero-japon",
+   "parte": "japon",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "acero"
+   },
+   "enunciado": "El manual dice que Japón es el segundo productor mundial de acero (9,1 % en 2014). ¿Qué muestran los datos de 2025?",
+   "opciones": [
+    {
+     "t": "Que ha bajado al cuarto puesto (4,4 %), por detrás de China, la India y Estados Unidos",
+     "r": "Es una de las diferencias con el manual: la India lo superó en 2018.",
+     "ok": true
+    },
+    {
+     "t": "Que sigue siendo segundo",
+     "r": "Ha bajado al cuarto puesto."
+    },
+    {
+     "t": "Que es el primero",
+     "r": "China produce más de la mitad del acero del mundo."
+    },
+    {
+     "t": "Que ya no produce acero",
+     "r": "Produce unos 81 millones de t al año."
+    }
+   ],
+   "explicacion": [
+    "La siderurgia japonesa, instalada en polders junto a los puertos (Chiba, Kawasaki, Fukuyama, Kitakyūshū), importa todo el hierro y el carbón de coque, en buena parte de Australia."
+   ],
+   "manual": "Apartado 1.2.2.2"
+  },
+  {
+   "id": "automoviles-japon",
+   "parte": "japon",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "automoviles"
+   },
+   "enunciado": "En la producción de vehículos de motor, ¿qué puesto ocupa hoy Japón?",
+   "opciones": [
+    {
+     "t": "El tercero, con 8,4 millones de vehículos en 2025 (8,7 %), tras China y Estados Unidos; el manual lo situaba segundo",
+     "r": "China produce hoy más de un tercio de los vehículos del mundo.",
+     "ok": true
+    },
+    {
+     "t": "El primero",
+     "r": "Lo es China desde 2009."
+    },
+    {
+     "t": "El décimo",
+     "r": "Sigue entre los tres primeros."
+    },
+    {
+     "t": "No fabrica vehículos",
+     "r": "Es una de las grandes potencias del automóvil."
+    }
+   ],
+   "explicacion": [
+    "Las marcas japonesas fabrican además millones de vehículos fuera de Japón (Estados Unidos, China, Tailandia, México…). Australia, en cambio, dejó de fabricar automóviles en 2017."
+   ],
+   "manual": "Apartado 1.2.2.2"
+  },
+  {
+   "id": "pesca-japon",
+   "parte": "japon",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "pesca"
+   },
+   "enunciado": "El manual situaba a Japón como sexto país del mundo por capturas pesqueras (2014). ¿Qué muestran los datos actuales?",
+   "opciones": [
+    {
+     "t": "Que ha seguido bajando: es el octavo (2,8 millones de t, un 3 % del mundo en 2024)",
+     "r": "El manual ya hablaba de un declive progresivo desde los años noventa.",
+     "ok": true
+    },
+    {
+     "t": "Que es el primero del mundo",
+     "r": "China, Indonesia, Perú, la India o Rusia capturan más."
+    },
+    {
+     "t": "Que sus capturas se han duplicado",
+     "r": "Se han reducido a casi un tercio: eran unos 8 millones de t en 1992."
+    },
+    {
+     "t": "Que ya no pesca",
+     "r": "Sigue siendo una gran potencia pesquera."
+    }
+   ],
+   "explicacion": [
+    "Japón compensa con importaciones y con acuicultura. La caza comercial de ballenas se reanudó en 2019, cuando Japón abandonó la Comisión Ballenera Internacional."
+   ],
+   "manual": "Apartado 1.1.2.3"
+  },
+  {
+   "id": "lana-australia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "lana"
+   },
+   "enunciado": "El manual dice que Australia es el primer productor (20 %) y el primer exportador de lana (50 %). ¿Qué indican los datos de la FAO para 2024?",
+   "opciones": [
+    {
+     "t": "Que Australia es segunda productora de lana sucia (17 %), por detrás de China, aunque sigue siendo la primera exportadora",
+     "r": "China produce más lana, pero de menor calidad, y además importa la australiana para su industria textil.",
+     "ok": true
+    },
+    {
+     "t": "Que Australia ya no produce lana",
+     "r": "Produce unas 280.000 t."
+    },
+    {
+     "t": "Que Nueva Zelanda la ha superado",
+     "r": "Nueva Zelanda es tercera."
+    },
+    {
+     "t": "Que produce el 80 % del mundo",
+     "r": "Produce un 17 %."
+    }
+   ],
+   "explicacion": [
+    "La cabaña ovina australiana tenía 79 millones de cabezas en 2024 (tercera del mundo, tras China y la India), lejos de los 159 millones de 1985."
+   ],
+   "manual": "Apartado 2.2.2.1 (cuadro 4.5)"
+  }
+ ]
+}

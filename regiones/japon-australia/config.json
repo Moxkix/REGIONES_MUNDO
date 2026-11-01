@@ -1,0 +1,1774 @@
+{
+  "id": "japon-australia",
+  "proyeccion": {
+    "tipo": "laea",
+    "rotar": [
+      -136,
+      -35
+    ]
+  },
+  "ventana": [
+    122.5,
+    24,
+    148,
+    46
+  ],
+  "vistas": [
+    {
+      "id": "japon",
+      "nombre": "Japón",
+      "proyeccion": {
+        "tipo": "laea",
+        "rotar": [
+          -136,
+          -35
+        ]
+      },
+      "ventana": [
+        122.5,
+        24,
+        148,
+        46
+      ],
+      "secciones": {
+        "climas": {
+          "dominios": [
+            {
+              "id": "jp_hokkaido",
+              "nombre": "Hokkaido: continental húmedo frío",
+              "color": "#3f6fae"
+            },
+            {
+              "id": "jp_marjapon",
+              "nombre": "Vertiente del Mar del Japón: lluvias y nieve de invierno",
+              "color": "#5aa0c8"
+            },
+            {
+              "id": "jp_pacifico",
+              "nombre": "Vertiente del Pacífico: baiu y tifones",
+              "color": "#2f8f5a"
+            },
+            {
+              "id": "jp_interior",
+              "nombre": "Mar Interior y cuencas interiores: más secos",
+              "color": "#c99a1f"
+            },
+            {
+              "id": "jp_subtropical",
+              "nombre": "Okinawa: subtropical",
+              "color": "#d9506a"
+            }
+          ],
+          "centros": {
+            "fuente": "Esquema según el apartado 1.1.1.2 y la figura 4.2 del manual (Azcárate, M. V. (2001): Japón: un original modelo de desarrollo económico occidental en el Extremo Oriente asiático, figura 10, UNED). Posiciones medias aproximadas.",
+            "ventana": [
+              95,
+              18,
+              180,
+              60
+            ],
+            "proyeccion": {
+              "tipo": "laea",
+              "rotar": [
+                -138,
+                -40
+              ]
+            },
+            "estaciones": {
+              "invierno": {
+                "nombre": "Invierno",
+                "texto": [
+                  "Sobre el continente se instala el anticiclón euroasiático (siberiano), frío y seco, y sobre el Pacífico norte la depresión de las Aleutianas. Entre ambos soplan vientos fríos del noroeste: es el monzón de invierno.",
+                  "Al cruzar el Mar del Japón, el aire se carga de humedad y descarga nieve y lluvia abundantes en la costa occidental (Hokuriku, Tohoku): es la vertiente de las lluvias de invierno. En la costa del Pacífico, al abrigo de las montañas, el invierno es seco y soleado.",
+                  "Por eso Japón tiene, para su latitud y a pesar de ser un archipiélago, inviernos rigurosamente fríos."
+                ],
+                "centros": [
+                  {
+                    "tipo": "A",
+                    "nombre": "Anticiclón euroasiático",
+                    "lon": 108,
+                    "lat": 48
+                  },
+                  {
+                    "tipo": "B",
+                    "nombre": "Depresión de las Aleutianas",
+                    "lon": 172,
+                    "lat": 50
+                  }
+                ],
+                "flujos": [
+                  {
+                    "nombre": "Monzón de invierno del noroeste",
+                    "coords": [
+                      [
+                        118,
+                        46
+                      ],
+                      [
+                        126,
+                        43
+                      ],
+                      [
+                        133,
+                        40
+                      ],
+                      [
+                        138,
+                        38
+                      ]
+                    ]
+                  },
+                  {
+                    "nombre": "Vientos del noroeste sobre Hokkaido",
+                    "coords": [
+                      [
+                        130,
+                        50
+                      ],
+                      [
+                        136,
+                        47
+                      ],
+                      [
+                        141,
+                        44.5
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "verano": {
+                "nombre": "Verano",
+                "texto": [
+                  "El continente se calienta y se forma una depresión euroasiática; sobre el Pacífico domina el anticiclón de las Hawái (de Ogasawara). El aire tropical, cálido y húmedo, sopla del sur y del sureste: es el monzón de verano, que da a Japón veranos excepcionalmente cálidos para su latitud.",
+                  "En junio y julio el frente que separa el aire tropical del aire más fresco del norte se estaciona sobre el sur de Japón: son las lluvias del baiu («lluvias de las ciruelas»), la verdadera estación de lluvias de la costa del Pacífico.",
+                  "En septiembre llegan los tifones del sur, que dan un segundo máximo de lluvias (shurin). Hokkaido recibe su máximo a finales de verano, con el paso de las perturbaciones del frente polar."
+                ],
+                "centros": [
+                  {
+                    "tipo": "B",
+                    "nombre": "Depresión euroasiática",
+                    "lon": 105,
+                    "lat": 40
+                  },
+                  {
+                    "tipo": "A",
+                    "nombre": "Anticiclón de las Hawái (Ogasawara)",
+                    "lon": 160,
+                    "lat": 32
+                  }
+                ],
+                "flujos": [
+                  {
+                    "nombre": "Monzón de verano del sureste",
+                    "coords": [
+                      [
+                        150,
+                        28
+                      ],
+                      [
+                        143,
+                        31
+                      ],
+                      [
+                        138,
+                        34
+                      ]
+                    ]
+                  },
+                  {
+                    "nombre": "Aire tropical del suroeste",
+                    "coords": [
+                      [
+                        124,
+                        24
+                      ],
+                      [
+                        128,
+                        28
+                      ],
+                      [
+                        132,
+                        31.5
+                      ]
+                    ]
+                  },
+                  {
+                    "nombre": "Trayectoria de los tifones",
+                    "coords": [
+                      [
+                        132,
+                        20
+                      ],
+                      [
+                        129,
+                        25
+                      ],
+                      [
+                        130,
+                        30
+                      ],
+                      [
+                        134,
+                        33.5
+                      ],
+                      [
+                        140,
+                        37
+                      ]
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "australia",
+      "nombre": "Australia",
+      "proyeccion": {
+        "tipo": "laea",
+        "rotar": [
+          -134,
+          25
+        ]
+      },
+      "ventana": [
+        112,
+        -44,
+        154,
+        -10
+      ],
+      "secciones": {
+        "climas": {
+          "dominios": [
+            {
+              "id": "au_tropical",
+              "nombre": "1. Tropical de matiz monzónico",
+              "color": "#1f7a3a"
+            },
+            {
+              "id": "au_subarido_n",
+              "nombre": "2. Tropical subárido",
+              "color": "#a6c35a"
+            },
+            {
+              "id": "au_desierto",
+              "nombre": "3. Desierto subtropical",
+              "color": "#e9c53c"
+            },
+            {
+              "id": "au_subarido_s",
+              "nombre": "4. Franja subárida meridional",
+              "color": "#d9906f"
+            },
+            {
+              "id": "au_mediterraneo",
+              "nombre": "5. Mediterráneo",
+              "color": "#c0573e"
+            },
+            {
+              "id": "au_alisio",
+              "nombre": "6. Cálido con lluvias todo el año (litoral de alisio)",
+              "color": "#5aa0c8"
+            },
+            {
+              "id": "au_oceanico",
+              "nombre": "7. Oceánico templado",
+              "color": "#2f5d8a"
+            }
+          ],
+          "centros": {
+            "fuente": "Esquema según el apartado 2.2.1.1 y las figuras 4.7 y 4.8 del manual. Posiciones medias aproximadas.",
+            "ventana": [
+              100,
+              -52,
+              175,
+              2
+            ],
+            "proyeccion": {
+              "tipo": "laea",
+              "rotar": [
+                -135,
+                24
+              ]
+            },
+            "estaciones": {
+              "verano": {
+                "nombre": "Verano austral (enero)",
+                "texto": [
+                  "En enero las células de altas presiones subtropicales se desplazan al sur del continente, sobre la Gran Bahía Australiana y el mar de Tasmania, y la convergencia intertropical (CIT) baja al norte de Australia.",
+                  "El norte recibe una masa de aire cálido y húmedo y vientos del noroeste y del noreste que dan las fuertes lluvias tropicales de verano, de tipo monzónico (Darwin recibe en verano casi dos tercios de su lluvia anual).",
+                  "En el centro dominan los alisios del sureste, que rara vez llueven salvo en la costa oriental y la vertiente este de la Gran Cordillera Divisoria. En el sur reina el buen tiempo: las borrascas del frente polar pasan más al sur y solo rozan Tasmania."
+                ],
+                "centros": [
+                  {
+                    "tipo": "B",
+                    "nombre": "Convergencia intertropical (baja monzónica)",
+                    "lon": 132,
+                    "lat": -14
+                  },
+                  {
+                    "tipo": "A",
+                    "nombre": "Anticiclón subtropical (Índico)",
+                    "lon": 108,
+                    "lat": -34
+                  },
+                  {
+                    "tipo": "A",
+                    "nombre": "Anticiclón subtropical (mar de Tasmania)",
+                    "lon": 160,
+                    "lat": -36
+                  },
+                  {
+                    "tipo": "B",
+                    "nombre": "Borrascas del frente polar",
+                    "lon": 140,
+                    "lat": -48
+                  }
+                ],
+                "flujos": [
+                  {
+                    "nombre": "Monzón del noroeste",
+                    "coords": [
+                      [
+                        118,
+                        -8
+                      ],
+                      [
+                        124,
+                        -11
+                      ],
+                      [
+                        130,
+                        -13
+                      ]
+                    ]
+                  },
+                  {
+                    "nombre": "Alisios del sureste",
+                    "coords": [
+                      [
+                        155,
+                        -30
+                      ],
+                      [
+                        147,
+                        -27
+                      ],
+                      [
+                        138,
+                        -24
+                      ],
+                      [
+                        128,
+                        -22
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "invierno": {
+                "nombre": "Invierno austral (julio)",
+                "texto": [
+                  "En julio las altas presiones se desplazan hacia el norte y se sitúan sobre el centro del continente; la CIT queda muy al norte del ecuador, sobre Asia meridional.",
+                  "La mitad norte de Australia queda bajo aire cálido y seco: es la estación seca de los climas tropicales.",
+                  "En el sur queda una franja libre de altas presiones por la que pasan las borrascas del frente polar: es la estación lluviosa del clima mediterráneo de Perth y Adelaida y de las lluvias de invierno de Tasmania. La costa oriental sigue recibiendo lluvias de los alisios."
+                ],
+                "centros": [
+                  {
+                    "tipo": "A",
+                    "nombre": "Anticiclón subtropical sobre el continente",
+                    "lon": 134,
+                    "lat": -26
+                  },
+                  {
+                    "tipo": "B",
+                    "nombre": "Borrascas del frente polar",
+                    "lon": 115,
+                    "lat": -43
+                  },
+                  {
+                    "tipo": "B",
+                    "nombre": "Borrascas del frente polar",
+                    "lon": 150,
+                    "lat": -46
+                  }
+                ],
+                "flujos": [
+                  {
+                    "nombre": "Vientos del oeste con borrascas",
+                    "coords": [
+                      [
+                        105,
+                        -38
+                      ],
+                      [
+                        115,
+                        -37
+                      ],
+                      [
+                        125,
+                        -37.5
+                      ],
+                      [
+                        135,
+                        -39
+                      ],
+                      [
+                        145,
+                        -41
+                      ]
+                    ]
+                  },
+                  {
+                    "nombre": "Alisios del sureste sobre la costa oriental",
+                    "coords": [
+                      [
+                        160,
+                        -22
+                      ],
+                      [
+                        153,
+                        -20
+                      ],
+                      [
+                        147,
+                        -18
+                      ]
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ambos",
+      "nombre": "Los dos",
+      "todas": true,
+      "proyeccion": {
+        "tipo": "laea",
+        "rotar": [
+          -142,
+          0
+        ]
+      },
+      "ventana": [
+        108,
+        -47,
+        178,
+        47
+      ]
+    }
+  ],
+  "presentacion": {
+    "resumen": [
+      "Japón y Australia son dos países desarrollados del Pacífico occidental con modelos de organización del espacio opuestos. Japón, un archipiélago montañoso y expuesto a terremotos, volcanes y tifones, concentra a 123 millones de habitantes en estrechas llanuras litorales y se ha convertido, sin apenas recursos naturales, en una gran potencia industrial y tecnológica.",
+      "Australia, una isla-continente de 7,7 millones de km² dominada por la aridez, tiene menos de 28 millones de habitantes concentrados en unas pocas ciudades costeras, y basa su economía en la exportación de minerales, energía y productos agropecuarios, sobre todo hacia Asia oriental. Usad el selector Japón / Australia / Los dos de la cabecera para cambiar el espacio que muestran los mapas."
+    ],
+    "indice": [
+      "1. Japón. Alta densidad demográfica e intensa concentración de la ocupación humana",
+      "2. Australia. Baja densidad de población y distribución periférica de la ocupación humana",
+      "Conclusión: problemas y retos ante el futuro"
+    ],
+    "actualizacion": "datos/actualizacion.json"
+  },
+  "atlas": {
+    "cuestionario": "cuestionarios/atlas.json",
+    "referencia": {
+      "rios": {
+        "archivo": "capas/rios.json",
+        "objeto": "rios"
+      },
+      "lagos": {
+        "archivo": "capas/lagos.json",
+        "objeto": "lagos"
+      },
+      "puntos": "capas/puntos.json",
+      "principales": [
+        "Tokio",
+        "Osaka",
+        "Nagoya",
+        "Sapporo",
+        "Fukuoka",
+        "Canberra",
+        "Sídney",
+        "Melbourne",
+        "Brisbane",
+        "Perth",
+        "Adelaida",
+        "Darwin",
+        "Hobart"
+      ]
+    },
+    "capas": [
+      {
+        "id": "relieve",
+        "nombre": "Relieve: altitudes de Japón y unidades morfoestructurales de Australia",
+        "tipo": "poligonos",
+        "archivo": "capas/relieve.json",
+        "objeto": "relieve",
+        "campo": "u",
+        "etiqueta": "n",
+        "puntos": [
+          "picos",
+          "cuencas"
+        ],
+        "categorias": {
+          "jp1": {
+            "color": "#cfe0b0",
+            "nombre": "Japón: llanuras y colinas (menos de 200 m)",
+            "parte": "japon"
+          },
+          "jp2": {
+            "color": "#e9dca6",
+            "nombre": "Japón: colinas y montañas bajas (200-500 m)",
+            "parte": "japon"
+          },
+          "jp3": {
+            "color": "#c9a46a",
+            "nombre": "Japón: montañas (500-1.500 m)",
+            "parte": "japon"
+          },
+          "jp4": {
+            "color": "#7d5235",
+            "nombre": "Japón: altas montañas (más de 1.500 m)",
+            "parte": "japon"
+          },
+          "au_zocalo": {
+            "color": "#f2b98e",
+            "nombre": "Australia: zócalo precámbrico (mesetas occidentales)",
+            "parte": "australia"
+          },
+          "au_recubierto": {
+            "color": "#e08a5c",
+            "nombre": "Australia: zócalo precámbrico recubierto por sedimentos",
+            "parte": "australia"
+          },
+          "au_llanuras": {
+            "color": "#bcdcae",
+            "nombre": "Australia: llanuras centrales (Gran Cuenca Artesiana, cuenca del Murray-Darling)",
+            "parte": "australia"
+          },
+          "au_cordillera": {
+            "color": "#e7a6c6",
+            "nombre": "Australia: cadenas primarias rejuvenecidas en el Terciario (Gran Cordillera Divisoria)",
+            "parte": "australia"
+          }
+        },
+        "lineas": [
+          {
+            "nombre": "Línea Media Tectónica",
+            "estilo": "falla",
+            "leyenda": "Grandes fallas (Línea Media Tectónica y Línea Magna)",
+            "nota": "Separa la zona interna y la zona externa del arco del suroeste (figura 4.1).",
+            "coords": [
+              [
+                130.7,
+                32.6
+              ],
+              [
+                131.8,
+                33.2
+              ],
+              [
+                132.6,
+                33.65
+              ],
+              [
+                133.5,
+                33.9
+              ],
+              [
+                134.6,
+                34.1
+              ],
+              [
+                135.3,
+                34.25
+              ],
+              [
+                136.2,
+                34.4
+              ],
+              [
+                137.0,
+                34.8
+              ],
+              [
+                137.9,
+                35.6
+              ],
+              [
+                138.15,
+                36.0
+              ]
+            ],
+            "parte": "japon"
+          },
+          {
+            "nombre": "Línea Magna (Itoigawa-Shizuoka)",
+            "estilo": "falla",
+            "leyenda": "Grandes fallas (Línea Media Tectónica y Línea Magna)",
+            "nota": "Borde occidental de la Fosa Magna, que separa el arco del noreste del arco del suroeste.",
+            "coords": [
+              [
+                137.86,
+                37.04
+              ],
+              [
+                137.9,
+                36.6
+              ],
+              [
+                138.0,
+                36.2
+              ],
+              [
+                138.1,
+                35.9
+              ],
+              [
+                138.3,
+                35.4
+              ],
+              [
+                138.4,
+                35.0
+              ]
+            ],
+            "parte": "japon"
+          },
+          {
+            "nombre": "Fosa del Japón",
+            "estilo": "fosa",
+            "leyenda": "Fosas oceánicas (subducción de las placas del Pacífico y de Filipinas)",
+            "nota": "La placa del Pacífico se hunde bajo el arco japonés (figura 4.4).",
+            "coords": [
+              [
+                145.0,
+                41.8
+              ],
+              [
+                144.4,
+                40.5
+              ],
+              [
+                144.0,
+                39.0
+              ],
+              [
+                143.5,
+                37.5
+              ],
+              [
+                142.5,
+                35.8
+              ],
+              [
+                142.0,
+                34.8
+              ]
+            ],
+            "parte": "japon"
+          },
+          {
+            "nombre": "Fosa de las Kuriles",
+            "estilo": "fosa",
+            "leyenda": "Fosas oceánicas (subducción de las placas del Pacífico y de Filipinas)",
+            "coords": [
+              [
+                148.5,
+                44.6
+              ],
+              [
+                147.0,
+                43.4
+              ],
+              [
+                145.8,
+                42.4
+              ],
+              [
+                145.0,
+                41.8
+              ]
+            ],
+            "parte": "japon"
+          },
+          {
+            "nombre": "Fosa de Nankai",
+            "estilo": "fosa",
+            "leyenda": "Fosas oceánicas (subducción de las placas del Pacífico y de Filipinas)",
+            "nota": "La placa de Filipinas se hunde bajo el suroeste de Japón; zona de grandes terremotos.",
+            "coords": [
+              [
+                138.6,
+                34.2
+              ],
+              [
+                137.5,
+                33.6
+              ],
+              [
+                136.0,
+                33.1
+              ],
+              [
+                134.5,
+                32.75
+              ],
+              [
+                133.0,
+                32.3
+              ],
+              [
+                132.0,
+                31.5
+              ]
+            ],
+            "parte": "japon"
+          },
+          {
+            "nombre": "Fosa de las Ryukyu",
+            "estilo": "fosa",
+            "leyenda": "Fosas oceánicas (subducción de las placas del Pacífico y de Filipinas)",
+            "coords": [
+              [
+                132.0,
+                31.5
+              ],
+              [
+                131.4,
+                30.2
+              ],
+              [
+                130.2,
+                28.2
+              ],
+              [
+                128.6,
+                26.3
+              ],
+              [
+                126.6,
+                24.8
+              ],
+              [
+                124.5,
+                23.8
+              ]
+            ],
+            "parte": "japon"
+          }
+        ],
+        "fuente": "Japón: altitudes de los modelos digitales de elevación SRTM, GMTED2010 y ETOPO1 (teselas Terrarium de Mapzen en Amazon Web Services) en una rejilla de unos 4 km, clasificadas en cuatro pisos; fallas y fosas según la figura 4.1 y la figura 4.4 del manual (posición aproximada). Australia: unidades de Natural Earth 1:10 m agrupadas según la leyenda de la figura 4.10 del manual (Azcárate, B.; Azcárate, M. V. y Sánchez, J. (2006): Atlas Histórico y Geográfico Universitario, UNED, mapa IX.78, p. 388). La clasificación es nuestra.",
+        "manual": "Apartados 1.1.1.1 (figura 4.1, mapa IX.22 del Atlas Histórico y Geográfico Universitario) y 2.3.1.1 (figura 4.10). El manual estima que las llanuras cubren solo el 16 % de Japón: son las llanuras aluviales; el mapa de altitudes incluye también colinas y terrazas por debajo de 200 m."
+      },
+      {
+        "id": "clima",
+        "nombre": "Clima: tipos de Köppen-Geiger",
+        "tipo": "koppen",
+        "archivo": "capas/clima.json",
+        "objeto": "clima",
+        "campo": "k",
+        "fuente": "Köppen-Geiger 1986-2010 (Rubel et al., 2017), ráster de 100\" agregado a unos 7 km (Japón) y 11 km (Australia).",
+        "manual": "Apartados 1.1.1.2 (figuras 4.2 y 4.3) y 2.2.1 (figuras 4.7 y 4.8). Comparad la amplitud del grupo B (climas secos) en Australia con la ausencia de climas secos en Japón."
+      },
+      {
+        "id": "densidad",
+        "nombre": "Densidad de población por prefectura y estado (2025)",
+        "tipo": "coropleta",
+        "datos": "datos/estados.json",
+        "clave": "unidades",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "campo": "densidad",
+        "anio": "2025",
+        "unidad": "hab./km²",
+        "decimales": 1,
+        "clases": [
+          1,
+          10,
+          100,
+          300,
+          1000
+        ],
+        "colores": [
+          "#f7efdc",
+          "#ecd3a5",
+          "#dcab6f",
+          "#c27a45",
+          "#9a4c2b",
+          "#5e2618"
+        ],
+        "fuente": "Japón: censo de 2025 (1 de octubre), Statistics Bureau of Japan, y superficies del GSI. Australia: población residente estimada a 30 de junio de 2025 (ABS) y superficies de Geoscience Australia. La prefectura de Tokio supera los 6.000 hab./km²; el Territorio del Norte no llega a 0,2.",
+        "manual": "Introducción (337 hab./km² en Japón y 3 en Australia en 2015), apartados 1.3.2 y 2.4.2."
+      },
+      {
+        "id": "variacion",
+        "nombre": "Variación de la población 2000-2025 (%)",
+        "tipo": "coropleta",
+        "datos": "datos/estados.json",
+        "clave": "unidades",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "campo": "var_pob",
+        "anio": "2000-2025",
+        "unidad": "%",
+        "decimales": 1,
+        "clases": [
+          -15,
+          -5,
+          0,
+          15,
+          40
+        ],
+        "colores": [
+          "#8c510a",
+          "#d8b365",
+          "#f3e6c4",
+          "#c7e4e0",
+          "#5ab4ac",
+          "#01665e"
+        ],
+        "fuente": "Japón: censos de 2000 y 2025. Australia: censo de 2001 y población residente estimada a 30 de junio de 2025 (ABS); la estimación corrige la omisión censal, así que la variación australiana está algo sobrestimada (2-3 puntos). En Australia el periodo es 2001-2025.",
+        "manual": "Apartados 1.3.2 (contraste entre la costa del Pacífico y el resto de Japón) y 2.4.1 (crecimiento por inmigración en Australia)."
+      },
+      {
+        "id": "mayores65",
+        "nombre": "Población de 65 años y más (%)",
+        "tipo": "coropleta",
+        "datos": "datos/estados.json",
+        "clave": "unidades",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "campo": "mayores65",
+        "anio": "2025",
+        "unidad": "%",
+        "decimales": 1,
+        "clases": [
+          15,
+          20,
+          25,
+          30,
+          35
+        ],
+        "colores": [
+          "#f2f0f7",
+          "#dadaeb",
+          "#bcbddc",
+          "#9e9ac8",
+          "#756bb1",
+          "#54278f"
+        ],
+        "fuente": "Japón: censo de 2025 (valores con imputación de la no respuesta). Australia: ABS, población por edad a 30 de junio de 2025; el porcentaje de cada estado es un cálculo propio ponderando la capital y el resto del estado (±0,1 puntos).",
+        "manual": "Apartado 1.1.2.1: más de la mitad de la población agraria japonesa tiene más de 65 años."
+      },
+      {
+        "id": "extranjeros",
+        "nombre": "Población extranjera o nacida en el extranjero (%)",
+        "tipo": "coropleta",
+        "datos": "datos/estados.json",
+        "clave": "unidades",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "campo": "extranjeros",
+        "anio": "campo:anio_ext",
+        "unidad": "%",
+        "decimales": 1,
+        "clases": [
+          2,
+          5,
+          10,
+          20,
+          30
+        ],
+        "colores": [
+          "#f1e9f4",
+          "#dccbe6",
+          "#bea0d0",
+          "#9a74b6",
+          "#764f98",
+          "#4f2f72"
+        ],
+        "fuente": "Las dos cifras no miden lo mismo. Japón: residentes de nacionalidad extranjera, censo de 2025. Australia: población nacida fuera de Australia, ABS (estimación a 30 de junio de 2021, último año con desglose por estados; el total nacional era del 32 % en 2025).",
+        "manual": "Apartado 2.4.1: la inmigración, motor del crecimiento de Australia."
+      },
+      {
+        "id": "agro",
+        "parte": "australia",
+        "nombre": "Australia: grandes zonas agrarias (esquema)",
+        "tipo": "poligonos",
+        "archivo": "capas/agro_au.json",
+        "objeto": "agro",
+        "campo": "u",
+        "categorias": {
+          "desierto": {
+            "color": "#f6efc8",
+            "nombre": "Desierto: pastoreo muy extensivo y tierras improductivas"
+          },
+          "bovino": {
+            "color": "#d7c96a",
+            "nombre": "Ganadería bovina extensiva (norte tropical y semiárido)"
+          },
+          "ovino": {
+            "color": "#c0b357",
+            "nombre": "Ganadería ovina extensiva (merinos, 200-500 mm)"
+          },
+          "trigo": {
+            "color": "#f2b32e",
+            "nombre": "Cereales (trigo) y ganadería ovina intensiva para carne"
+          },
+          "intensiva": {
+            "color": "#4fa79a",
+            "nombre": "Ganadería lechera, horticultura y agricultura periurbana"
+          },
+          "plantacion": {
+            "color": "#e98fae",
+            "nombre": "Agricultura de plantación (caña de azúcar, frutos tropicales)"
+          }
+        },
+        "fuente": "Esquema propio que asigna cada tipo de clima de Köppen a un uso agrario dominante, siguiendo la figura 4.9 del manual (Azcárate, B.; Azcárate, M. V. y Sánchez, J. (2006): Atlas Histórico y Geográfico Universitario, UNED, mapa IX.81, p. 391) y el apartado 2.2.2. Los límites reales no coinciden exactamente: el cinturón triguero del este, por ejemplo, ocupa también parte de la estepa (BSk).",
+        "manual": "Apartados 2.2.1.4 y 2.2.2 (cuadros 4.4 y 4.5 y figura 4.9)."
+      },
+      {
+        "id": "industria",
+        "nombre": "Regiones industriales",
+        "tipo": "puntos",
+        "archivo": "capas/puntos.json",
+        "clave": "industria",
+        "campo": "tipo",
+        "categorias": {
+          "jp_principal": {
+            "color": "#a3245c",
+            "nombre": "Japón: las cuatro grandes regiones industriales",
+            "parte": "japon"
+          },
+          "jp_otra": {
+            "color": "#d1609a",
+            "nombre": "Japón: otras regiones industriales",
+            "parte": "japon"
+          },
+          "au": {
+            "color": "#2f6c8f",
+            "nombre": "Australia: centros industriales",
+            "parte": "australia"
+          }
+        },
+        "lineas": [
+          {
+            "nombre": "Megalópolis japonesa (eje Tokio-Fukuoka)",
+            "nota": "Unos 1.200 km a lo largo de la costa del Pacífico y del Mar Interior.",
+            "coords": [
+              [
+                139.8,
+                35.7
+              ],
+              [
+                138.4,
+                35.0
+              ],
+              [
+                137.0,
+                34.9
+              ],
+              [
+                136.0,
+                34.8
+              ],
+              [
+                135.3,
+                34.7
+              ],
+              [
+                134.0,
+                34.65
+              ],
+              [
+                133.0,
+                34.4
+              ],
+              [
+                132.2,
+                34.1
+              ],
+              [
+                131.0,
+                33.9
+              ],
+              [
+                130.4,
+                33.6
+              ]
+            ],
+            "parte": "japon"
+          }
+        ],
+        "fuente": "Elaboración propia a partir de la figura 4.5 (Azcárate, B.; Azcárate, M. V. y Sánchez, J. (2006): Atlas Histórico y Geográfico Universitario, UNED, mapa IX.26, p. 334) y del apartado 2.3.2. Posición aproximada.",
+        "manual": "Apartados 1.2.2.3 y 2.3.2."
+      },
+      {
+        "id": "recursos",
+        "nombre": "Minería y energía",
+        "tipo": "puntos",
+        "archivo": "capas/puntos.json",
+        "clave": "recursos",
+        "campo": "tipo",
+        "categorias": {
+          "hierro": {
+            "color": "#9c3a1f",
+            "nombre": "Hierro"
+          },
+          "bauxita": {
+            "color": "#c98a2b",
+            "nombre": "Bauxita"
+          },
+          "carbon": {
+            "color": "#1d2a30",
+            "nombre": "Carbón y lignito"
+          },
+          "metales": {
+            "color": "#a3245c",
+            "nombre": "Oro, uranio, cobre, plomo-zinc, níquel y litio"
+          },
+          "gas": {
+            "color": "#2f6c8f",
+            "nombre": "Gas natural y petróleo"
+          },
+          "historico": {
+            "color": "#9aa3a6",
+            "nombre": "Japón: yacimientos pequeños o minas cerradas"
+          }
+        },
+        "fuente": "Elaboración propia a partir de los apartados 1.2.1 y 2.3.1, actualizada con los grandes yacimientos actuales (litio de Greenbushes, gas licuado del Noroeste y de Queensland). Posición aproximada.",
+        "manual": "Apartados 1.2.1, 2.3.1.2 y 2.3.1.3 (cuadro 4.6)."
+      }
+    ]
+  },
+  "climas": {
+    "estaciones": "datos/estaciones.json",
+    "cuestionario": "cuestionarios/climas.json",
+    "dominios": [
+      {
+        "id": "jp_hokkaido",
+        "nombre": "Hokkaido: continental húmedo frío",
+        "color": "#3f6fae"
+      },
+      {
+        "id": "jp_marjapon",
+        "nombre": "Vertiente del Mar del Japón: lluvias y nieve de invierno",
+        "color": "#5aa0c8"
+      },
+      {
+        "id": "jp_pacifico",
+        "nombre": "Vertiente del Pacífico: baiu y tifones",
+        "color": "#2f8f5a"
+      },
+      {
+        "id": "jp_interior",
+        "nombre": "Mar Interior y cuencas interiores: más secos",
+        "color": "#c99a1f"
+      },
+      {
+        "id": "jp_subtropical",
+        "nombre": "Okinawa: subtropical",
+        "color": "#d9506a"
+      },
+      {
+        "id": "au_tropical",
+        "nombre": "1. Tropical de matiz monzónico",
+        "color": "#1f7a3a"
+      },
+      {
+        "id": "au_subarido_n",
+        "nombre": "2. Tropical subárido",
+        "color": "#a6c35a"
+      },
+      {
+        "id": "au_desierto",
+        "nombre": "3. Desierto subtropical",
+        "color": "#e9c53c"
+      },
+      {
+        "id": "au_subarido_s",
+        "nombre": "4. Franja subárida meridional",
+        "color": "#d9906f"
+      },
+      {
+        "id": "au_mediterraneo",
+        "nombre": "5. Mediterráneo",
+        "color": "#c0573e"
+      },
+      {
+        "id": "au_alisio",
+        "nombre": "6. Cálido con lluvias todo el año (litoral de alisio)",
+        "color": "#5aa0c8"
+      },
+      {
+        "id": "au_oceanico",
+        "nombre": "7. Oceánico templado",
+        "color": "#2f5d8a"
+      }
+    ],
+    "centros": {
+      "fuente": "Esquema según el apartado 1.1.1.2 y la figura 4.2 del manual (Azcárate, M. V. (2001): Japón: un original modelo de desarrollo económico occidental en el Extremo Oriente asiático, figura 10, UNED). Posiciones medias aproximadas.",
+      "ventana": [
+        95,
+        18,
+        180,
+        60
+      ],
+      "proyeccion": {
+        "tipo": "laea",
+        "rotar": [
+          -138,
+          -40
+        ]
+      },
+      "estaciones": {
+        "invierno": {
+          "nombre": "Invierno",
+          "texto": [
+            "Sobre el continente se instala el anticiclón euroasiático (siberiano), frío y seco, y sobre el Pacífico norte la depresión de las Aleutianas. Entre ambos soplan vientos fríos del noroeste: es el monzón de invierno.",
+            "Al cruzar el Mar del Japón, el aire se carga de humedad y descarga nieve y lluvia abundantes en la costa occidental (Hokuriku, Tohoku): es la vertiente de las lluvias de invierno. En la costa del Pacífico, al abrigo de las montañas, el invierno es seco y soleado.",
+            "Por eso Japón tiene, para su latitud y a pesar de ser un archipiélago, inviernos rigurosamente fríos."
+          ],
+          "centros": [
+            {
+              "tipo": "A",
+              "nombre": "Anticiclón euroasiático",
+              "lon": 108,
+              "lat": 48
+            },
+            {
+              "tipo": "B",
+              "nombre": "Depresión de las Aleutianas",
+              "lon": 172,
+              "lat": 50
+            }
+          ],
+          "flujos": [
+            {
+              "nombre": "Monzón de invierno del noroeste",
+              "coords": [
+                [
+                  118,
+                  46
+                ],
+                [
+                  126,
+                  43
+                ],
+                [
+                  133,
+                  40
+                ],
+                [
+                  138,
+                  38
+                ]
+              ]
+            },
+            {
+              "nombre": "Vientos del noroeste sobre Hokkaido",
+              "coords": [
+                [
+                  130,
+                  50
+                ],
+                [
+                  136,
+                  47
+                ],
+                [
+                  141,
+                  44.5
+                ]
+              ]
+            }
+          ]
+        },
+        "verano": {
+          "nombre": "Verano",
+          "texto": [
+            "El continente se calienta y se forma una depresión euroasiática; sobre el Pacífico domina el anticiclón de las Hawái (de Ogasawara). El aire tropical, cálido y húmedo, sopla del sur y del sureste: es el monzón de verano, que da a Japón veranos excepcionalmente cálidos para su latitud.",
+            "En junio y julio el frente que separa el aire tropical del aire más fresco del norte se estaciona sobre el sur de Japón: son las lluvias del baiu («lluvias de las ciruelas»), la verdadera estación de lluvias de la costa del Pacífico.",
+            "En septiembre llegan los tifones del sur, que dan un segundo máximo de lluvias (shurin). Hokkaido recibe su máximo a finales de verano, con el paso de las perturbaciones del frente polar."
+          ],
+          "centros": [
+            {
+              "tipo": "B",
+              "nombre": "Depresión euroasiática",
+              "lon": 105,
+              "lat": 40
+            },
+            {
+              "tipo": "A",
+              "nombre": "Anticiclón de las Hawái (Ogasawara)",
+              "lon": 160,
+              "lat": 32
+            }
+          ],
+          "flujos": [
+            {
+              "nombre": "Monzón de verano del sureste",
+              "coords": [
+                [
+                  150,
+                  28
+                ],
+                [
+                  143,
+                  31
+                ],
+                [
+                  138,
+                  34
+                ]
+              ]
+            },
+            {
+              "nombre": "Aire tropical del suroeste",
+              "coords": [
+                [
+                  124,
+                  24
+                ],
+                [
+                  128,
+                  28
+                ],
+                [
+                  132,
+                  31.5
+                ]
+              ]
+            },
+            {
+              "nombre": "Trayectoria de los tifones",
+              "coords": [
+                [
+                  132,
+                  20
+                ],
+                [
+                  129,
+                  25
+                ],
+                [
+                  130,
+                  30
+                ],
+                [
+                  134,
+                  33.5
+                ],
+                [
+                  140,
+                  37
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recursos": {
+    "cuestionario": "cuestionarios/recursos.json",
+    "agregado": {
+      "clave": "Japón y Australia",
+      "nombre": "Japón y Australia",
+      "nombreCorto": "Japón y Australia",
+      "paises": [
+        "JPN",
+        "AUS"
+      ]
+    },
+    "productos": [
+      "arroz",
+      "trigo",
+      "cebada",
+      "leche",
+      "porcino",
+      "bovino",
+      "ovino",
+      "lana",
+      "pesca",
+      "acero",
+      "automoviles",
+      "aluminio",
+      "hierro",
+      "bauxita",
+      "carbon",
+      "gas",
+      "petroleo",
+      "oro",
+      "uranio",
+      "niquel",
+      "cobre",
+      "litio",
+      "tierras_raras",
+      "nuclear",
+      "hidraulica",
+      "eolica_solar"
+    ],
+    "manual": [
+      {
+        "producto": "arroz",
+        "tipo": "pais",
+        "pais": [
+          "JPN"
+        ],
+        "texto": "[El arroz] sigue siendo el cultivo predominante, cubriendo 1,6 millones de ha [...]; estos arrozales están en lento retroceso",
+        "apartado": "1.1.2.1",
+        "nota": "El manual no da el puesto mundial; aquí se ve el peso de Japón en la producción mundial de arroz."
+      },
+      {
+        "producto": "trigo",
+        "tipo": "pais",
+        "pais": [
+          "AUS"
+        ],
+        "texto": "Australia está entre los cuatro primeros exportadores de trigo (a menudo, el 1.º) [...] su producción [varía] entre 20 y 25 millones de t",
+        "apartado": "2.2.2.2",
+        "nota": "Aquí se mide la producción, no la exportación."
+      },
+      {
+        "producto": "lana",
+        "tipo": "pais",
+        "pais": [
+          "AUS"
+        ],
+        "texto": "Australia es el primer productor (20 % del total) y primer exportador mundial de lana (50 % del total)",
+        "apartado": "2.2.2.1"
+      },
+      {
+        "producto": "ovino",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 4,
+        "texto": "Australia posee la segunda cabaña ovina mundial (después de China), una décima parte del total; actualmente se sitúa entre 80 y 110 millones de cabezas",
+        "apartado": "2.2.2.1"
+      },
+      {
+        "producto": "bovino",
+        "tipo": "pais",
+        "pais": [
+          "AUS",
+          "JPN"
+        ],
+        "texto": "La ganadería vacuna extensiva [australiana] hoy se halla estabilizada (26-30 millones de cabezas)",
+        "apartado": "2.2.2.1"
+      },
+      {
+        "producto": "pesca",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 8,
+        "texto": "Por su volumen anual de pesca de capturas en alta mar, Japón ocupa el sexto puesto mundial, por detrás de China, Indonesia, India, Estados Unidos y Perú (2014)",
+        "apartado": "1.1.2.3"
+      },
+      {
+        "producto": "acero",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 4,
+        "texto": "Todavía hoy día [Japón] es el segundo productor mundial de acero, por detrás de China, con [...] el 9,1 % de la producción mundial (2014)",
+        "apartado": "1.2.2.2"
+      },
+      {
+        "producto": "automoviles",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 4,
+        "texto": "Con una producción de 8,7 millones de unidades en el año 2015, [Japón] ocupa el segundo lugar en el ranking mundial, por detrás de China",
+        "apartado": "1.2.2.2"
+      },
+      {
+        "producto": "hierro",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Australia es el segundo productor mundial de hierro y, debido a su escaso consumo interno, es el primer exportador mundial",
+        "apartado": "2.3.1.2"
+      },
+      {
+        "producto": "bauxita",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Bauxita, primer productor mundial con el 35 % del total en 2014, Australia es también primer exportador",
+        "apartado": "2.3.1.2"
+      },
+      {
+        "producto": "oro",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 4,
+        "texto": "Hoy, con 270 t, Australia es el segundo o tercer productor mundial [de oro]",
+        "apartado": "2.3.1.2"
+      },
+      {
+        "producto": "uranio",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 4,
+        "texto": "Con el 10-15 % de la producción total, [Australia] es, según los años, segundo o tercer productor mundial [de uranio]",
+        "apartado": "2.3.1.3"
+      },
+      {
+        "producto": "niquel",
+        "tipo": "pais",
+        "pais": [
+          "AUS"
+        ],
+        "texto": "Níquel, cuya producción oscila entre el tercer o cuarto productor mundial",
+        "apartado": "2.3.1.2"
+      },
+      {
+        "producto": "cobre",
+        "tipo": "pais",
+        "pais": [
+          "AUS"
+        ],
+        "texto": "Australia, 4.º productor mundial de cobre (6 %)",
+        "apartado": "2.3.1.2 (cuadro 4.6)"
+      },
+      {
+        "producto": "litio",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "El manual no menciona el litio",
+        "apartado": "2.3.1.2",
+        "nota": "El litio, clave para las baterías, se ha convertido desde 2017 en una de las grandes exportaciones mineras australianas."
+      },
+      {
+        "producto": "carbon",
+        "tipo": "pais",
+        "pais": [
+          "AUS",
+          "JPN"
+        ],
+        "texto": "Australia ha pasado en pocos años a situarse entre los grandes productores de hulla y lignito (4.º mundial), es ya el primer exportador mundial (35 %). [Japón] es el primer importador del mundo, con casi el 30 %",
+        "apartado": "1.2.1 y 2.3.1.3",
+        "nota": "Aquí solo se ve la producción. Hoy Indonesia supera a Australia como primer exportador de carbón en toneladas, y China es el primer importador."
+      },
+      {
+        "producto": "gas",
+        "tipo": "pais",
+        "pais": [
+          "AUS"
+        ],
+        "texto": "Igualmente prometedoras son las expectativas en cuanto al gas natural",
+        "apartado": "2.3.1.3",
+        "nota": "Australia se ha convertido en uno de los primeros exportadores mundiales de gas natural licuado."
+      },
+      {
+        "producto": "nuclear",
+        "tipo": "pais",
+        "pais": [
+          "JPN"
+        ],
+        "texto": "El objetivo es que la energía nuclear genere el 22 % de la electricidad en el horizonte del año 2030",
+        "apartado": "1.2.1",
+        "nota": "Antes de Fukushima (2011) la nuclear daba una cuarta parte de la electricidad japonesa; se ve en la pestaña de balance energético."
+      },
+      {
+        "producto": "aluminio",
+        "tipo": "pais",
+        "pais": [
+          "AUS"
+        ],
+        "texto": "De más reciente creación y más rápido crecimiento es la metalurgia del aluminio, gracias a los grandes yacimientos de bauxita",
+        "apartado": "2.3.2"
+      }
+    ],
+    "energia": {
+      "datos": "datos/energia.json",
+      "desde": 1990,
+      "porDefecto": "JPN",
+      "comparar": "AUS",
+      "paises": [
+        "JPN",
+        "AUS",
+        "KOR",
+        "CHN",
+        "USA",
+        "DEU",
+        "FRA",
+        "IND",
+        "UE27",
+        "MUNDO"
+      ]
+    },
+    "agrario": {
+      "datos": "datos/agrario.json",
+      "comparadores": [
+        "NZL",
+        "KOR",
+        "CHN",
+        "USA",
+        "BRA",
+        "EUU",
+        "WLD"
+      ]
+    }
+  },
+  "poblacion": {
+    "cuestionario": "cuestionarios/poblacion.json",
+    "porDefecto": "JPN",
+    "comparar": "AUS",
+    "transicionComparar": "KOR",
+    "comparadores": [
+      "KOR",
+      "CHN",
+      "NZL",
+      "DEU",
+      "ITA",
+      "ESP",
+      "USA",
+      "CAN",
+      "EUR",
+      "MUNDO"
+    ],
+    "explorador": {
+      "x": "edad_mediana",
+      "y": "mayores65",
+      "anio": 2024
+    }
+  },
+  "ciudades": {
+    "cuestionario": "cuestionarios/ciudades.json",
+    "datos": "datos/ciudades.json",
+    "porDefecto": "JPN",
+    "comparar": "AUS",
+    "etiquetas": 900,
+    "trazados": [
+      {
+        "nombre": "Megalópolis japonesa (Tokio-Fukuoka)",
+        "tipo": "linea",
+        "parte": "japon",
+        "coords": [
+          [
+            139.8,
+            35.7
+          ],
+          [
+            138.4,
+            35.0
+          ],
+          [
+            137.0,
+            34.9
+          ],
+          [
+            136.0,
+            34.8
+          ],
+          [
+            135.3,
+            34.7
+          ],
+          [
+            134.0,
+            34.65
+          ],
+          [
+            133.0,
+            34.4
+          ],
+          [
+            132.2,
+            34.1
+          ],
+          [
+            131.0,
+            33.9
+          ],
+          [
+            130.4,
+            33.6
+          ]
+        ],
+        "rotulo": [
+          133.0,
+          33.6
+        ],
+        "nota": "Unos 1.200 km a lo largo del Pacífico y del Mar Interior: Keihin, Chukyo, Hanshin y Kitakyushu-Fukuoka (apartado 1.3.3).",
+        "visible": true
+      },
+      {
+        "nombre": "Tokaido",
+        "tipo": "linea",
+        "parte": "japon",
+        "coords": [
+          [
+            139.77,
+            35.68
+          ],
+          [
+            139.0,
+            35.25
+          ],
+          [
+            138.4,
+            34.97
+          ],
+          [
+            137.7,
+            34.71
+          ],
+          [
+            136.9,
+            35.17
+          ],
+          [
+            136.2,
+            35.3
+          ],
+          [
+            135.77,
+            35.01
+          ]
+        ],
+        "rotulo": [
+          138.0,
+          35.6
+        ],
+        "nota": "Antigua ruta de Edo (Tokio) a Kioto: eje de la Megalópolis de Tokaido.",
+        "visible": false
+      },
+      {
+        "nombre": "Cinturón triguero del sureste",
+        "tipo": "area",
+        "parte": "australia",
+        "coords": [
+          [
+            151.5,
+            -26.5
+          ],
+          [
+            150.2,
+            -26.0
+          ],
+          [
+            148.0,
+            -28.5
+          ],
+          [
+            146.5,
+            -32.0
+          ],
+          [
+            144.5,
+            -34.0
+          ],
+          [
+            142.0,
+            -35.0
+          ],
+          [
+            140.5,
+            -35.0
+          ],
+          [
+            138.0,
+            -33.0
+          ],
+          [
+            136.5,
+            -33.5
+          ],
+          [
+            135.5,
+            -33.8
+          ],
+          [
+            137.5,
+            -34.8
+          ],
+          [
+            140.0,
+            -36.5
+          ],
+          [
+            142.5,
+            -36.8
+          ],
+          [
+            145.5,
+            -36.2
+          ],
+          [
+            147.8,
+            -34.8
+          ],
+          [
+            149.0,
+            -32.5
+          ],
+          [
+            150.5,
+            -29.0
+          ]
+        ],
+        "rotulo": [
+          143.0,
+          -33.2
+        ],
+        "nota": "El «creciente» cerealista entre la cordillera y el interior árido (apartado 2.2.2.2).",
+        "visible": false
+      }
+    ],
+    "urbanizacion": {
+      "agregados": [
+        "japon-australia",
+        "DEV",
+        "EUR",
+        "WLD"
+      ],
+      "porDefecto": [
+        "JPN",
+        "AUS",
+        "KOR",
+        "WLD"
+      ],
+      "comparadores": [
+        "KOR",
+        "NZL",
+        "USA",
+        "CHN",
+        "DEU"
+      ]
+    },
+    "tamano": {
+      "comparadores": [
+        "KOR",
+        "USA",
+        "CAN",
+        "UE27",
+        "CHN",
+        "WLD"
+      ]
+    }
+  },
+  "paisajes": {
+    "archivo": "datos/paisajes.json"
+  }
+}

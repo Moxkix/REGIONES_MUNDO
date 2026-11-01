@@ -62,6 +62,23 @@ Algunos detalles opcionales:
 
 Los motores leen todo de la configuración: no hay que tocar el código.
 
+### Regiones con varias vistas
+
+Cuando una región reúne espacios separados (Japón y Australia), `config.json` puede declarar `vistas`. La cabecera muestra entonces un selector y todas las páginas reciben `&v=<id>`:
+
+```json
+"vistas": [
+  { "id": "japon", "nombre": "Japón", "proyeccion": {…}, "ventana": [122.5, 24, 148, 46],
+    "secciones": { "climas": { "dominios": […], "centros": {…} } } },
+  { "id": "australia", "nombre": "Australia", "proyeccion": {…}, "ventana": [112, -44, 154, -10] },
+  { "id": "ambos", "nombre": "Los dos", "todas": true, "proyeccion": {…}, "ventana": [108, -47, 178, 47] }
+]
+```
+
+Cada vista sustituye la proyección y la ventana, y `secciones` mezcla sus claves con las de la sección correspondiente de la configuración. Las capas del atlas, las estaciones, los paisajes, los trazados urbanos y las preguntas que llevan `"parte": "<id de vista>"` solo aparecen en esa vista (y en la que tenga `todas: true`); los que no llevan `parte` aparecen siempre.
+
+El atlas admite un enlace directo a una capa: `atlas.html?r=<región>#<id de capa>` la muestra sola.
+
 ### Tipos de capa del atlas
 
 | `tipo` | Datos | Uso |
@@ -113,7 +130,7 @@ Los datos de ciudades son compartidos (Naciones Unidas, *World Urbanization Pros
   "tamano": { "comparadores": ["UE27", "USA", "WLD"] } }
 ```
 
-Una región puede sustituir las ciudades de la ONU por las suyas con `"archivo"` (misma estructura que `datos/ciudades/ciudades.json`, con un séptimo campo opcional para el nombre oficial). Norteamérica lo hace con las áreas metropolitanas oficiales (`datos/metros.json`: MSA del U.S. Census Bureau y CMA de Statistics Canada, 2000-2025), porque la ciudad continua de la ONU fragmenta las metrópolis de baja densidad de Estados Unidos. En ese caso conviene ajustar `"periodos"` (variaciones del mapa, por defecto `[[2000, 2025], [1975, 2000]]`), `"tramos"` (periodos de la ficha de cada ciudad), `"umbralJerarquia"` (miles de habitantes que cuentan en el gráfico rango-tamaño) y, si se quiere encuadrar solo una parte de la región, `"ventana"`. El cuadro del manual admite `columnaHoy`, `columnaDatos` y `escalaDatos` para rotular y escalar sus dos últimas columnas.
+Una región puede sustituir las ciudades de la ONU por las suyas con `"archivo"` (misma estructura que `datos/ciudades/ciudades.json`, con un séptimo campo opcional para el nombre oficial). Norteamérica lo hace con las áreas metropolitanas oficiales (`datos/metros.json`: MSA del U.S. Census Bureau y CMA de Statistics Canada, 2000-2025), porque la ciudad continua de la ONU fragmenta las metrópolis de baja densidad de Estados Unidos. En ese caso conviene ajustar `"periodos"` (variaciones del mapa, por defecto `[[2000, 2025], [1975, 2000]]`), `"tramos"` (periodos de la ficha de cada ciudad), `"umbralJerarquia"` (miles de habitantes que cuentan en el gráfico rango-tamaño) y, si se quiere encuadrar solo una parte de la región, `"ventana"`. El cuadro del manual admite `columnaHoy`, `columnaDatos` y `escalaDatos` para rotular y escalar sus dos últimas columnas. Si hay varios cuadros, se ponen en una lista `cuadros` en lugar de `cuadro`.
 
 `regiones/<id>/datos/ciudades.json` contiene las afirmaciones del manual con su comprobación (`texto`, `hoy`, `nota`, `apartado`) y, si lo hay, un cuadro del manual con las cifras oficiales de hoy (`cuadro`). Para añadir los países de una región nueva, ved `herramientas/README.md`.
 

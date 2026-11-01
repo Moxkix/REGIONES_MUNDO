@@ -1,0 +1,415 @@
+{
+ "titulo": "Preguntas guiadas del atlas de Japón y Australia",
+ "preguntas": [
+  {
+   "id": "jp-montanas",
+   "parte": "japon",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "relieve"
+    ]
+   },
+   "enunciado": "Con la capa de relieve, observad cuánto espacio ocupan en Japón las tierras de menos de 200 m. ¿Qué dice el manual del reparto entre montañas y llanuras?",
+   "opciones": [
+    {
+     "t": "Más de las tres cuartas partes son montañas; las llanuras, pequeñas y abiertas al mar, no pasan del 16 % pero concentran la población y la economía",
+     "r": "Es la gran limitación del medio japonés que abre el tema.",
+     "ok": true
+    },
+    {
+     "t": "La mitad del país son grandes llanuras interiores",
+     "r": "Las llanuras interiores son escasas: la mayoría son costeras y de unas decenas de km²."
+    },
+    {
+     "t": "Japón es un archipiélago de mesetas",
+     "r": "Es un arco montañoso joven con fuertes pendientes."
+    },
+    {
+     "t": "Las montañas están densamente pobladas",
+     "r": "Siempre estuvieron débilmente habitadas por las pendientes y la erosión."
+    }
+   ],
+   "explicacion": [
+    "La mayor llanura es la de Kantō, en torno a Tokio. Las demás (Nōbi en Nagoya, Kinai en Osaka) son mucho menores.",
+    "Activad después la capa de densidad: las prefecturas más densas coinciden con esas llanuras costeras."
+   ],
+   "manual": "Apartado 1.1.1.1 y figura 4.1"
+  },
+  {
+   "id": "jp-fosas",
+   "parte": "japon",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "relieve"
+    ]
+   },
+   "enunciado": "Con la capa de relieve, fijaos en las líneas azules punteadas (fosas) al este y al sur del archipiélago y en los volcanes. ¿Qué explican?",
+   "opciones": [
+    {
+     "t": "La subducción de las placas del Pacífico y de Filipinas bajo el arco japonés, que provoca terremotos, tsunamis y un vulcanismo explosivo",
+     "r": "El manual sitúa a Japón en el «cinturón de fuego», en la confluencia de placas (figura 4.4).",
+     "ok": true
+    },
+    {
+     "t": "Antiguos cauces de ríos hoy sumergidos",
+     "r": "Son fosas oceánicas de miles de metros de profundidad."
+    },
+    {
+     "t": "La separación de Japón y Australia",
+     "r": "Son procesos sin relación."
+    },
+    {
+     "t": "Corrientes marinas frías",
+     "r": "Las corrientes (Kuroshio y Oyashio) no son relieves."
+    }
+   ],
+   "explicacion": [
+    "La fosa del Japón tiene más de 8.000 m de profundidad. El terremoto y el tsunami de Tōhoku de 2011 se originaron junto a ella.",
+    "La línea continua de la Línea Tectónica Media y la Fosa Magna separan los grandes bloques del archipiélago."
+   ],
+   "manual": "Apartado 1.1.1.3 y figura 4.4"
+  },
+  {
+   "id": "jp-climas",
+   "parte": "japon",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "clima"
+    ]
+   },
+   "enunciado": "Con la capa de clima, recorred Japón de norte a sur. ¿Qué contraste aparece?",
+   "opciones": [
+    {
+     "t": "Hokkaido y las montañas del centro tienen clima continental húmedo (D); el resto, de Tōhoku a Kyūshū, subtropical húmedo (Cfa)",
+     "r": "El manual opone una mitad norte inhóspita, de colonización tardía, al sur monzónico donde se asentaron la agricultura y la población.",
+     "ok": true
+    },
+    {
+     "t": "Todo Japón tiene el mismo clima oceánico",
+     "r": "Hay grandes contrastes por la latitud y la exposición."
+    },
+    {
+     "t": "El norte es desértico y el sur ecuatorial",
+     "r": "Todo el país es húmedo."
+    },
+    {
+     "t": "El clima depende solo de la altitud",
+     "r": "Pesa más la latitud: el archipiélago se extiende unos 20°."
+    }
+   ],
+   "explicacion": [
+    "Köppen no distingue la diferencia más llamativa: la fachada del mar del Japón recibe nieves abundantes en invierno y la del Pacífico lluvias de verano. Lo veréis en los climogramas."
+   ],
+   "manual": "Apartado 1.1.1.2"
+  },
+  {
+   "id": "jp-densidad",
+   "parte": "japon",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "densidad"
+    ]
+   },
+   "enunciado": "Con la capa de densidad, ¿dónde están las prefecturas más densas de Japón?",
+   "opciones": [
+    {
+     "t": "En la costa del Pacífico: Tokio (más de 6.000 hab./km²), Osaka, Kanagawa, Saitama, Aichi…, a lo largo de la Megalópolis",
+     "r": "El manual divide el país en una costa del Pacífico densa y un norte y una costa del mar del Japón poco poblados.",
+     "ok": true
+    },
+    {
+     "t": "En Hokkaido, la isla más grande",
+     "r": "Hokkaido tiene unos 60 hab./km², la densidad más baja."
+    },
+    {
+     "t": "En la costa del mar del Japón",
+     "r": "Es la fachada menos poblada."
+    },
+    {
+     "t": "En las montañas del centro",
+     "r": "Las montañas siempre estuvieron poco pobladas."
+    }
+   ],
+   "explicacion": [
+    "La densidad media de Japón (unos 325 hab./km²) esconde contrastes enormes: el manual recuerda que en las llanuras se superan los 5.000 hab./km²."
+   ],
+   "manual": "Apartado 1.3.2"
+  },
+  {
+   "id": "jp-envejecimiento",
+   "parte": "japon",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "mayores65"
+    ]
+   },
+   "enunciado": "Con la capa de mayores de 65 años, comparad las prefecturas. ¿Dónde es más alto el porcentaje?",
+   "opciones": [
+    {
+     "t": "En el norte de Honshū (Akita, 40 %; Aomori, Yamagata, Iwate) y en Shikoku (Kōchi, Tokushima): regiones rurales que pierden jóvenes",
+     "r": "Tokio (22,8 %) y Okinawa (24,5 %) son las menos envejecidas.",
+     "ok": true
+    },
+    {
+     "t": "En Tokio y Osaka",
+     "r": "Las grandes ciudades atraen a los jóvenes: son las menos envejecidas."
+    },
+    {
+     "t": "Es igual en todo el país",
+     "r": "Va del 22,8 % de Tokio al 40 % de Akita."
+    },
+    {
+     "t": "En Okinawa",
+     "r": "Okinawa es la segunda prefectura menos envejecida, con la natalidad más alta de Japón."
+    }
+   ],
+   "explicacion": [
+    "Japón tiene un 29,4 % de mayores de 65 años (censo de 2025), el porcentaje más alto del mundo. El manual ya señalaba que más de la mitad de la población agraria tenía más de 65 años."
+   ],
+   "manual": "Apartados 1.1.2.1 y 1.3.2"
+  },
+  {
+   "id": "variacion-contraste",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "variacion"
+    ]
+   },
+   "enunciado": "Con la capa de variación de la población 2000-2025, comparad Japón y Australia (vista conjunta o una tras otra). ¿Qué muestra?",
+   "opciones": [
+    {
+     "t": "Japón pierde población en casi todas las prefecturas (solo crecen Tokio, Okinawa y el entorno de Tokio y Nagoya); Australia crece en todos los estados, entre un 27 % y un 66 %",
+     "r": "Son dos modelos demográficos opuestos: envejecimiento y declive frente a crecimiento por inmigración.",
+     "ok": true
+    },
+    {
+     "t": "Los dos países crecen al mismo ritmo",
+     "r": "Japón ha perdido un 3 % desde 2000; Australia ha ganado un 47 %."
+    },
+    {
+     "t": "Australia pierde población en el interior",
+     "r": "Todos los estados y territorios crecen."
+    },
+    {
+     "t": "Japón crece en el norte y pierde en el sur",
+     "r": "Las mayores pérdidas están en el norte: Akita −26 %, Aomori −23 %."
+    }
+   ],
+   "explicacion": [
+    "En Australia los estados que más crecen son Australia Occidental (+66 %) y Queensland (+58 %): la población se desplaza hacia el oeste minero y el norte cálido."
+   ],
+   "manual": "Apartados 1.3.2 y 2.4.1"
+  },
+  {
+   "id": "jp-industria",
+   "parte": "japon",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "industria",
+     "densidad"
+    ]
+   },
+   "enunciado": "Con la capa de regiones industriales, ¿cómo se distribuye la industria japonesa?",
+   "opciones": [
+    {
+     "t": "En cuatro grandes regiones costeras de la franja Tokio-Nagasaki (Keihin, Chūkyō, Hanshin y Kitakyūshū), en torno a una gran ciudad y a sus puertos",
+     "r": "El manual explica que la industria se instaló en las llanuras arroceras pobladas y junto a los puertos, por la dependencia de materias primas importadas.",
+     "ok": true
+    },
+    {
+     "t": "Junto a los yacimientos de carbón y hierro del interior",
+     "r": "Japón apenas tiene recursos minerales."
+    },
+    {
+     "t": "Repartida por igual en todo el país",
+     "r": "La concentración en el Pacífico es muy fuerte."
+    },
+    {
+     "t": "Sobre todo en Hokkaido",
+     "r": "Hokkaido tiene poca industria."
+    }
+   ],
+   "explicacion": [
+    "Keihin es la primera región industrial; Kitakyūshū, basada en la industria pesada, está en declive. La línea marca la Megalópolis, donde se genera cerca del 80 % de la producción manufacturera."
+   ],
+   "manual": "Apartado 1.2.2.3 y figura 4.5"
+  },
+  {
+   "id": "au-unidades",
+   "parte": "australia",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "relieve"
+    ]
+   },
+   "enunciado": "Con la capa de relieve en Australia, ¿cómo se ordenan las grandes unidades morfoestructurales?",
+   "opciones": [
+    {
+     "t": "En tres bandas de norte a sur: mesetas occidentales del viejo zócalo, llanuras centrales sedimentarias y la Gran Cordillera Divisoria al este",
+     "r": "Es la división del manual (figura 4.10): un continente monótono, de altitud media inferior a 300 m.",
+     "ok": true
+    },
+    {
+     "t": "Una gran cordillera en el oeste y llanuras en el este",
+     "r": "La cordillera está en el este."
+    },
+    {
+     "t": "Un relieve volcánico joven en todo el continente",
+     "r": "Es el continente más estable y erosionado."
+    },
+    {
+     "t": "Mesetas altas de más de 2.000 m en el centro",
+     "r": "El centro son llanuras de unos 160 m de altitud media."
+    }
+   ],
+   "explicacion": [
+    "El lago Eyre, en la Gran Cuenca Artesiana, está a unos 15 m bajo el nivel del mar. La cumbre más alta, el Kosciuszko (2.228 m), está en los Alpes Australianos."
+   ],
+   "manual": "Apartado 2.3.1.1 y figura 4.10"
+  },
+  {
+   "id": "au-clima-agro",
+   "parte": "australia",
+   "mapa": {
+    "modo": "comparar",
+    "izq": "clima",
+    "der": "agro",
+    "corte": 0.5
+   },
+   "enunciado": "Comparad con la cortinilla la capa de clima (izquierda) y la de zonas agrarias (derecha). ¿Qué relación hay?",
+   "opciones": [
+    {
+     "t": "Los usos agrarios forman franjas que siguen la disminución de las lluvias desde la costa hacia el desierto: agricultura intensiva y trigo en los bordes húmedos, ganadería extensiva después y desierto en el centro",
+     "r": "El manual explica que la localización de la ganadería y los cultivos depende de la cantidad y la estación de las lluvias.",
+     "ok": true
+    },
+    {
+     "t": "No hay relación: los usos dependen del tipo de suelo",
+     "r": "El factor decisivo es el agua."
+    },
+    {
+     "t": "Los cultivos ocupan el centro del continente",
+     "r": "El centro es desierto."
+    },
+    {
+     "t": "La ganadería ocupa solo la costa",
+     "r": "La ganadería extensiva ocupa enormes extensiones semiáridas del interior."
+    }
+   ],
+   "explicacion": [
+    "La capa agraria es un esquema propio derivado del clima, simplificado a partir de la figura 4.9; sirve para entender la lógica, no para localizar explotaciones concretas."
+   ],
+   "manual": "Apartados 2.2.1 y 2.2.2 y figura 4.9"
+  },
+  {
+   "id": "au-recursos",
+   "parte": "australia",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "recursos",
+     "relieve"
+    ]
+   },
+   "enunciado": "Con la capa de minería y energía, ¿dónde están los grandes yacimientos de Australia?",
+   "opciones": [
+    {
+     "t": "El hierro en el Pilbara (escudo occidental), la bauxita en el norte (Weipa, Gove) y el suroeste, el carbón en la cordillera oriental (Queensland y Nueva Gales del Sur) y el gas en la plataforma del noroeste",
+     "r": "El manual relaciona los minerales con el zócalo y los plegamientos hercinianos, y los hidrocarburos con las cuencas sedimentarias.",
+     "ok": true
+    },
+    {
+     "t": "Todos junto a las grandes ciudades del sureste",
+     "r": "La mayoría están en regiones remotas del oeste y del norte."
+    },
+    {
+     "t": "En el desierto central exclusivamente",
+     "r": "Hay grandes yacimientos en casi todos los estados."
+    },
+    {
+     "t": "En Tasmania",
+     "r": "Tasmania tiene algo de minería, pero no los grandes yacimientos."
+    }
+   ],
+   "explicacion": [
+    "Australia es hoy el primer productor mundial de mineral de hierro (38 %) y de litio (32 %). Lo veréis en la página de recursos."
+   ],
+   "manual": "Apartados 2.3.1.2 y 2.3.1.3"
+  },
+  {
+   "id": "au-densidad",
+   "parte": "australia",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "densidad"
+    ]
+   },
+   "enunciado": "Con la capa de densidad en Australia, ¿cómo se reparte la población?",
+   "opciones": [
+    {
+     "t": "En la periferia y sobre todo en el sureste: Victoria (31 hab./km²) y Nueva Gales del Sur (11) frente a menos de 2 hab./km² en Australia Occidental y el Territorio del Norte",
+     "r": "El manual describe una distribución periférica, ligada a la Australia húmeda y a una economía volcada al exterior.",
+     "ok": true
+    },
+    {
+     "t": "De forma uniforme en todo el continente",
+     "r": "Las tres cuartas partes del territorio no llegan a 0,5 hab./km²."
+    },
+    {
+     "t": "Concentrada en el centro, junto a Alice Springs",
+     "r": "El centro está casi vacío."
+    },
+    {
+     "t": "Concentrada en el norte tropical",
+     "r": "El norte está muy poco poblado."
+    }
+   ],
+   "explicacion": [
+    "El Territorio de la Capital (Canberra) supera los 200 hab./km² porque es casi solo ciudad. La densidad media de Australia es de 3,6 hab./km²."
+   ],
+   "manual": "Apartado 2.4.2"
+  },
+  {
+   "id": "extranjeros-contraste",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "extranjeros"
+    ]
+   },
+   "enunciado": "Con la capa de población extranjera, comparad los dos países. ¿Qué precaución hay que tener al leerla?",
+   "opciones": [
+    {
+     "t": "Que no mide lo mismo: en Japón son residentes de nacionalidad extranjera (3,1 %) y en Australia nacidos en el extranjero (cerca de un tercio); aun así, el contraste es enorme",
+     "r": "Un inmigrante nacionalizado cuenta en Australia pero no en Japón. Por eso el contraste real es aún mayor.",
+     "ok": true
+    },
+    {
+     "t": "Que los datos australianos son de 1900",
+     "r": "Son de 2021, el último año con desglose por estados."
+    },
+    {
+     "t": "Que en Japón no hay extranjeros",
+     "r": "Hay 3,8 millones, y su número crece deprisa."
+    },
+    {
+     "t": "Que las dos cifras son idénticas",
+     "r": "Las definiciones son distintas."
+    }
+   ],
+   "explicacion": [
+    "Australia se ha construido con inmigración (hoy la India es el primer país de nacimiento de los inmigrantes). Japón, muy envejecido, empieza a abrirse: Tokio, Aichi y Gunma, con industria, tienen las proporciones más altas."
+   ],
+   "manual": "Apartados 1.3.2 y 2.4.1"
+  }
+ ]
+}

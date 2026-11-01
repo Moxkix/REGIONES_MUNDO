@@ -1,0 +1,298 @@
+{
+ "titulo": "Ciudades y redes urbanas de Japón y Australia",
+ "preguntas": [
+  {
+   "id": "megalopolis",
+   "parte": "japon",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "trazados": [
+     "Megalópolis japonesa (Tokio-Fukuoka)"
+    ]
+   },
+   "enunciado": "Con el trazado de la Megalópolis japonesa, observad las ciudades que une. ¿Qué es la Megalópolis según el manual?",
+   "opciones": [
+    {
+     "t": "La aglomeración urbana de unos 1.200 km entre Tokio y Fukuoka, por la costa del Pacífico y el mar Interior, con las tres cuartas partes de la población",
+     "r": "Une las conurbaciones de Keihin, Chūkyō, Keihanshin y Kitakyūshū-Fukuoka.",
+     "ok": true
+    },
+    {
+     "t": "La ciudad de Tokio",
+     "r": "Tokio es solo su cabeza."
+    },
+    {
+     "t": "Una red de ciudades de la costa del mar del Japón",
+     "r": "Está en la costa del Pacífico."
+    },
+    {
+     "t": "Una autopista",
+     "r": "Es una región urbana."
+    }
+   ],
+   "explicacion": [
+    "El tramo entre Tokio y Osaka sigue la antigua ruta del Tokaido: por eso se llama también Megalópolis de Tokaido. Hoy lo recorre el tren de alta velocidad (Shinkansen) desde 1964."
+   ],
+   "manual": "Apartado 1.3.3 y figura 4.6"
+  },
+  {
+   "id": "tokio-tamano",
+   "parte": "japon",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "ciudad": "JPN|Tokio"
+   },
+   "enunciado": "Seleccionad Tokio en el mapa. Según Naciones Unidas tiene 33,4 millones de habitantes en su ciudad continua (2025). ¿Qué tendencia se prevé?",
+   "opciones": [
+    {
+     "t": "Que deje de crecer y disminuya (30,7 millones en 2050), siguiendo el declive de la población japonesa",
+     "r": "Naciones Unidas (WUP 2025) prevé que Tokio siga perdiendo puestos frente a las grandes ciudades del sur y el sureste de Asia, como Yakarta o Daca, que ya la superan.",
+     "ok": true
+    },
+    {
+     "t": "Que llegue a 60 millones en 2050",
+     "r": "La población japonesa disminuye."
+    },
+    {
+     "t": "Que se mantenga como la mayor del mundo sin cambios",
+     "r": "Con la nueva delimitación de la ONU (WUP 2025), Yakarta y Daca ya la superan."
+    },
+    {
+     "t": "Que desaparezca",
+     "r": "Seguirá siendo una de las mayores aglomeraciones."
+    }
+   ],
+   "explicacion": [
+    "Las cifras dependen de la delimitación: los 23 distritos tienen 9,9 millones, la prefectura 14,2 y el área metropolitana de Kantō 38 millones."
+   ],
+   "manual": "Apartado 1.3.3"
+  },
+  {
+   "id": "japon-color",
+   "parte": "japon",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "color": "2000"
+   },
+   "enunciado": "Observad el color de los círculos en Japón (variación 2000-2025). ¿Qué ciudades crecen?",
+   "opciones": [
+    {
+     "t": "Casi solo las grandes de la Megalópolis (Tokio, Nagoya) y algunas regionales como Sendai, Fukuoka o Naha; muchas ciudades medias y del norte pierden población",
+     "r": "Coincide con la concentración en el Pacífico que describe el manual.",
+     "ok": true
+    },
+    {
+     "t": "Todas las ciudades crecen al mismo ritmo",
+     "r": "Muchas pierden población."
+    },
+    {
+     "t": "Crecen sobre todo las ciudades de Hokkaido",
+     "r": "Sapporo pierde población desde 2020."
+    },
+    {
+     "t": "Ninguna crece",
+     "r": "Tokio y Nagoya crecen."
+    }
+   ],
+   "explicacion": [
+    "En la ciudad continua de Osaka la ONU estima un descenso; en los municipios, el censo de 2025 da un ligero aumento en Osaka y descensos en Kobe y Kioto."
+   ],
+   "manual": "Apartados 1.3.2 y 1.3.3"
+  },
+  {
+   "id": "australia-capitales",
+   "parte": "australia",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025
+   },
+   "enunciado": "Con el mapa de Australia, ¿dónde están las grandes ciudades?",
+   "opciones": [
+    {
+     "t": "Todas en la costa, y son las capitales de los estados: Sídney, Melbourne, Brisbane, Perth y Adelaida",
+     "r": "El manual explica que las ciudades-puerto, capitales de las antiguas colonias, organizan el territorio.",
+     "ok": true
+    },
+    {
+     "t": "Repartidas por el interior",
+     "r": "En el interior no hay ningún centro urbano importante."
+    },
+    {
+     "t": "Concentradas en Tasmania",
+     "r": "Tasmania tiene una sola ciudad media, Hobart."
+    },
+    {
+     "t": "En el norte tropical",
+     "r": "Darwin y Cairns son ciudades pequeñas."
+    }
+   ],
+   "explicacion": [
+    "Las ocho capitales reúnen el 67,9 % de la población (2025). El manual daba el 61 % en 2015."
+   ],
+   "manual": "Apartados 2.4.3.1 y 2.4.3.2"
+  },
+  {
+   "id": "australia-crecimiento",
+   "parte": "australia",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "color": "2000"
+   },
+   "enunciado": "Observad el color de los círculos en Australia (variación 2000-2025). ¿Qué capitales crecen más?",
+   "opciones": [
+    {
+     "t": "Brisbane y Perth, en los estados que más crecen (Queensland y Australia Occidental); Melbourne crece más que Sídney",
+     "r": "Según la ONU, Brisbane casi ha duplicado su ciudad continua desde 2000.",
+     "ok": true
+    },
+    {
+     "t": "Adelaida y Hobart",
+     "r": "Son las que menos crecen."
+    },
+    {
+     "t": "Ninguna crece",
+     "r": "Todas crecen."
+    },
+    {
+     "t": "Solo Sídney",
+     "r": "Sídney crece menos que las otras grandes."
+    }
+   ],
+   "explicacion": [
+    "Melbourne es ya casi tan grande como Sídney: según la ABS, la diferencia es de unos 200.000 habitantes."
+   ],
+   "manual": "Apartados 2.4.1 y 2.4.3.2"
+  },
+  {
+   "id": "macrocefalia",
+   "parte": "australia",
+   "vista": {
+    "pestana": "jerarquia",
+    "pais": "AUS",
+    "anio": 2025
+   },
+   "enunciado": "Abrid la jerarquía urbana de Australia. ¿Qué rasgo describe el manual?",
+   "opciones": [
+    {
+     "t": "Una fuerte macrocefalia: pocas grandes ciudades y muchos pequeños centros de servicios, sin apenas ciudades medias",
+     "r": "El manual lo considera más propio de países en desarrollo y lo explica por el interior inhóspito y la economía volcada al exterior.",
+     "ok": true
+    },
+    {
+     "t": "Una jerarquía equilibrada con muchas ciudades medias",
+     "r": "Faltan ciudades medias."
+    },
+    {
+     "t": "Una sola gran ciudad",
+     "r": "Hay dos grandes metrópolis, Sídney y Melbourne."
+    },
+    {
+     "t": "Una red urbana del interior",
+     "r": "Las ciudades están en la costa."
+    }
+   ],
+   "explicacion": [
+    "En cada estado, la capital es muchísimo mayor que la segunda ciudad: Sídney es unas diez veces mayor que Newcastle, la segunda área urbana de Nueva Gales del Sur."
+   ],
+   "manual": "Apartado 2.4.3.2"
+  },
+  {
+   "id": "japon-jerarquia",
+   "vista": {
+    "pestana": "jerarquia",
+    "pais": "JPN",
+    "comparar": "AUS",
+    "anio": 2025
+   },
+   "enunciado": "Comparad la jerarquía urbana de Japón con la de Australia. ¿En qué se diferencian?",
+   "opciones": [
+    {
+     "t": "Japón tiene una ciudad enorme (Tokio) muy por encima de las demás y muchas ciudades medias; Australia tiene dos grandes ciudades de tamaño parecido y casi ninguna ciudad media",
+     "r": "Tokio es dos veces y media Osaka; Sídney apenas supera a Melbourne.",
+     "ok": true
+    },
+    {
+     "t": "Son idénticas",
+     "r": "Tienen formas muy distintas."
+    },
+    {
+     "t": "Australia tiene más ciudades millonarias que Japón",
+     "r": "Japón tiene muchas más."
+    },
+    {
+     "t": "Japón no tiene ciudades medias",
+     "r": "Tiene decenas."
+    }
+   ],
+   "explicacion": [
+    "La jerarquía japonesa refleja una larga historia urbana (ciudades-castillo, ciudades-templo, puertos); la australiana, una colonización reciente desde los puertos."
+   ],
+   "manual": "Apartados 1.3.3 y 2.4.3.2"
+  },
+  {
+   "id": "urbanizacion",
+   "vista": {
+    "pestana": "urbanizacion"
+   },
+   "enunciado": "En Urbanización, comparad Japón y Australia. La serie japonesa salta del 79 % en 2000 al 91 % en 2010. ¿Por qué?",
+   "opciones": [
+    {
+     "t": "Por un cambio de definición: entre 2000 y 2010 se fusionaron muchos municipios y se reclasificaron como urbanos, no porque la gente se trasladara de golpe",
+     "r": "Hay que tener cuidado con las series largas de urbanización: cada país usa su propia definición.",
+     "ok": true
+    },
+    {
+     "t": "Por un éxodo rural masivo en esos diez años",
+     "r": "El gran éxodo rural japonés fue entre 1950 y 1970."
+    },
+    {
+     "t": "Por la llegada de millones de inmigrantes",
+     "r": "La inmigración en Japón es pequeña."
+    },
+    {
+     "t": "Por un error del gráfico",
+     "r": "Es un cambio real de la estadística, no del gráfico."
+    }
+   ],
+   "explicacion": [
+    "Hoy los dos países superan el 85 % de población urbana. El manual daba el 90 % para Australia en 2015."
+   ],
+   "manual": "Apartados 1.3.3 y 2.4.3.1"
+  },
+  {
+   "id": "manual-ciudades",
+   "parte": "japon",
+   "vista": {
+    "pestana": "manual"
+   },
+   "enunciado": "En «El manual y los datos», comparad el cuadro 4.2 con el censo de 2025. ¿Qué ha cambiado?",
+   "opciones": [
+    {
+     "t": "Siguen siendo doce ciudades millonarias, pero Fukuoka y Kawasaki han adelantado a Kobe, que pierde población",
+     "r": "Las ciudades que crecen están en Tokio y su entorno y en Fukuoka.",
+     "ok": true
+    },
+    {
+     "t": "Japón ya no tiene ciudades millonarias",
+     "r": "Siguen siendo doce."
+    },
+    {
+     "t": "Todas las ciudades han duplicado su población",
+     "r": "Los cambios son pequeños."
+    },
+    {
+     "t": "Tokio ha perdido la mitad de su población",
+     "r": "Los 23 distritos han pasado de 9,1 a 9,9 millones."
+    }
+   ],
+   "explicacion": [
+    "Chiba (995.000 habitantes) está a punto de convertirse en la decimotercera."
+   ],
+   "manual": "Apartado 1.3.3 (cuadro 4.2)"
+  }
+ ]
+}

@@ -36,9 +36,31 @@
     const ficha = catalogo.regiones.find((r) => r.id === id);
     if (!ficha) throw new Error("La región «" + id + "» no existe en datos/regiones.json");
     if (!ficha.disponible) throw new Error("La región «" + ficha.titulo + "» todavía no tiene contenidos.");
-    const config = await json("regiones/" + id + "/config.json");
-    return { catalogo, ficha, config, carpeta: "regiones/" + id + "/" };
+    let config = await json("regiones/" + id + "/config.json");
+    let vista = null;
+    if (config.vistas && config.vistas.length) {
+      vista = config.vistas.find((v) => v.id === parametro("v")) || config.vistas[0];
+      config = conVista(config, vista);
+      vistas = { actual: vista, lista: config.vistas, region: id };
+    }
+    return { catalogo, ficha, config, vista, carpeta: "regiones/" + id + "/" };
   }
+
+  /* Vistas de una región con dos espacios separados (Japón y Australia):
+     "vistas": [{ "id", "nombre", "proyeccion", "ventana", "secciones": { "climas": {...} } }]
+     Cada vista cambia el encuadre de los mapas y puede sustituir claves de cualquier sección.
+     Los elementos con "parte" (capas, estaciones, paisajes, preguntas) solo se muestran en su vista;
+     una vista con "todas": true los muestra todos. */
+  let vistas = null;
+  function conVista(config, v) {
+    const c = Object.assign({}, config);
+    if (v.proyeccion) c.proyeccion = v.proyeccion;
+    if (v.ventana) c.ventana = v.ventana;
+    Object.entries(v.secciones || {}).forEach(([k, val]) => { c[k] = Object.assign({}, config[k] || {}, val); });
+    return c;
+  }
+  const enVista = (x) => !vistas || vistas.actual.todas || !x || !x.parte || x.parte === vistas.actual.id;
+  const conV = (ruta) => vistas ? ruta + "&v=" + vistas.actual.id : ruta;
 
   const HERRAMIENTAS = [
     { id: "region", pagina: "region.html", nombre: "Presentación" },
@@ -57,8 +79,13 @@
       (ficha ? '<nav class="ruta" aria-label="Ruta"><span aria-hidden="true">/</span>' +
         '<a href="' + url("region.html?r=" + ficha.id) + '">Cap. ' + ficha.capitulo + ". " + esc(ficha.titulo) + "</a></nav>" : "") +
       (ficha ? '<nav class="herramientas" aria-label="Herramientas de la región">' +
-        disponibles.map((h) => '<a href="' + url(h.pagina + "?r=" + ficha.id) + '"' +
-          (h.id === actual ? ' aria-current="page"' : "") + ">" + h.nombre + "</a>").join("") + "</nav>" : "");
+        disponibles.map((h) => '<a href="' + url(conV(h.pagina + "?r=" + ficha.id)) + '"' +
+          (h.id === actual ? ' aria-current="page"' : "") + ">" + h.nombre + "</a>").join("") + "</nav>" : "") +
+      (ficha && vistas && actual !== "region" ? '<nav class="vistas" aria-label="Espacio que se muestra">' +
+        vistas.lista.map((v) => '<a href="' + url(location.pathname.split("/").pop() + "?r=" + ficha.id + "&v=" + v.id) + '"' +
+          (v.id === vistas.actual.id ? ' aria-current="true"' : "") + ">" + esc(v.nombre) + "</a>").join("") + "</nav>" : "");
+    const nv = contenedor.querySelector("nav.vistas");
+    if (nv) nv.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => { a.href += location.hash; }));
   }
 
   function error(contenedor, e) {
@@ -126,5 +153,6 @@
     };
   }
 
-  window.RM = { url, json, esc, parametro, region, cabecera, error, proyeccion, ventana, memoria, formato, fichaFlotante };
+  window.RM = { url, json, esc, parametro, region, cabecera, error, proyeccion, ventana, memoria, formato, fichaFlotante, enVista,
+    get vista() { return vistas ? vistas.actual : null; } };
 })();

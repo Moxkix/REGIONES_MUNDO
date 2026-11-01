@@ -12,7 +12,7 @@
   const C = R.config.recursos;
   const carpeta = (r) => R.carpeta + r;
 
-  const GRUPOS = { agricultura: "Agricultura y ganadería", energia: "Energía", mineria: "Minería" };
+  const GRUPOS = { agricultura: "Agricultura, ganadería y pesca", energia: "Energía", mineria: "Minería", industria: "Industria" };
   const AGR = {
     "World": "Mundo", "European Union (27)": "Unión Europea (27)", "Europe": "Europa", "Africa": "África", "Asia": "Asia",
     "North America": "América del Norte, Central y Caribe", "Northern America": "América del Norte", "South America": "América del Sur",

@@ -1,0 +1,102 @@
+{
+ "nota": "Japón: censo de 2025 (1 de octubre). Australia: población residente estimada a 30 de junio de 2025 (ABS). Variación desde el censo de 2000 (Japón) y el de 2001 (Australia). Las columnas «manual» proceden de la introducción del tema (2015). Fecundidad de 2024, población urbana y PIB por habitante de 2025 según el Banco Mundial. Los motores de población usan las estimaciones de Naciones Unidas (WPP 2024), algo distintas.",
+ "fuentes": "Statistics Bureau of Japan (censos de 2000 y 2025); Australian Bureau of Statistics (censo de 2001 y National, state and territory population, junio de 2025); Geoscience Australia; Banco Mundial, World Development Indicators (consulta de noviembre de 2026); manual, introducción del tema 4.",
+ "columnas": [
+  [
+   "nombre",
+   "País",
+   0,
+   false
+  ],
+  [
+   "superficie",
+   "Superficie (km²)",
+   0,
+   true
+  ],
+  [
+   "poblacion_manual",
+   "Población 2015 (M, manual)",
+   1,
+   true
+  ],
+  [
+   "poblacion",
+   "Población 2025 (M)",
+   1,
+   true
+  ],
+  [
+   "var_pob",
+   "Variación 2000-2025 (%)",
+   1,
+   true
+  ],
+  [
+   "densidad_manual",
+   "Densidad 2015 (manual)",
+   0,
+   true
+  ],
+  [
+   "densidad",
+   "Densidad 2025",
+   1,
+   true
+  ],
+  [
+   "pct65",
+   "65 y más, 2025 (%)",
+   1,
+   true
+  ],
+  [
+   "fecundidad",
+   "Hijos por mujer (2024)",
+   2,
+   true
+  ],
+  [
+   "urbana",
+   "Población urbana 2025 (%)",
+   1,
+   true
+  ],
+  [
+   "pib_pc",
+   "PIB por hab. PPA 2025 ($)",
+   0,
+   true
+  ]
+ ],
+ "paises": {
+  "JPN": {
+   "nombre": "Japón",
+   "capital": "Tokio",
+   "superficie": 377980,
+   "poblacion": 122972528,
+   "poblacion_manual": 127.1,
+   "densidad": 325.3,
+   "densidad_manual": 337,
+   "var_pob": -3.1,
+   "pct65": 29.4,
+   "fecundidad": 1.15,
+   "urbana": 92.3,
+   "pib_pc": 55422
+  },
+  "AUS": {
+   "nombre": "Australia",
+   "capital": "Canberra",
+   "superficie": 7688287,
+   "poblacion": 27614400,
+   "poblacion_manual": 24.0,
+   "densidad": 3.6,
+   "densidad_manual": 3,
+   "var_pob": 47.1,
+   "pct65": 17.5,
+   "fecundidad": 1.48,
+   "urbana": 87.7,
+   "pib_pc": 71934
+  }
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "titulo": "Climas de Japón y Australia",
+ "preguntas": [
+  {
+   "id": "jp-pacifico-mar",
+   "parte": "japon",
+   "enunciado": "En Explorar, comparad Kanazawa (mar del Japón) y Tokio (Pacífico). ¿En qué se diferencian sus lluvias?",
+   "opciones": [
+    {
+     "t": "Kanazawa tiene el máximo en invierno (diciembre-enero), con mucha nieve; Tokio tiene el invierno seco y las lluvias en junio y septiembre-octubre",
+     "r": "El manual opone la costa occidental, con lluvias de invierno por los vientos del NW, a la del Pacífico, con baiu y tifones.",
+     "ok": true
+    },
+    {
+     "t": "Las dos tienen el máximo en julio",
+     "r": "Solo la del Pacífico tiene un máximo de verano."
+    },
+    {
+     "t": "Tokio es más lluviosa todo el año",
+     "r": "Kanazawa recibe unos 2.400 mm; Tokio, unos 1.600."
+    },
+    {
+     "t": "Kanazawa tiene un verano seco de tipo mediterráneo",
+     "r": "No hay ningún mes seco."
+    }
+   ],
+   "explicacion": [
+    "El monzón de invierno, frío y seco al salir de Siberia, se carga de humedad sobre el mar del Japón y deja nieve en la vertiente occidental; al cruzar las montañas llega seco a Tokio."
+   ],
+   "manual": "Apartado 1.1.1.2 y figura 4.3"
+  },
+  {
+   "id": "jp-baiu",
+   "parte": "japon",
+   "enunciado": "Kagoshima recibe 570 mm en junio, más que en todo el invierno junto. ¿Cómo se llama esa estación lluviosa?",
+   "opciones": [
+    {
+     "t": "El baiu o «lluvias de las ciruelas», ligado al monzón del suroeste y al frente estacionario que se instala sobre Japón",
+     "r": "El manual la considera la verdadera estación de lluvias de la costa del Pacífico.",
+     "ok": true
+    },
+    {
+     "t": "El shurin, la época de los tifones",
+     "r": "El shurin es el segundo máximo, en septiembre."
+    },
+    {
+     "t": "El monzón de invierno",
+     "r": "Trae nieve a la costa del mar del Japón."
+    },
+    {
+     "t": "La estación seca",
+     "r": "Es justo lo contrario."
+    }
+   ],
+   "explicacion": [
+    "El baiu coincide con el trasplante del arroz. Después llegan los tifones (shurin), con lluvias muy intensas pero concentradas en pocos días."
+   ],
+   "manual": "Apartado 1.1.1.2"
+  },
+  {
+   "id": "jp-amplitud",
+   "parte": "japon",
+   "enunciado": "Sapporo tiene −3,2 °C en el mes más frío y 22,3 °C en el más cálido, a 43° N, la latitud de Bilbao. ¿Qué rasgo del clima japonés muestra?",
+   "opciones": [
+    {
+     "t": "Una fuerte amplitud térmica, con inviernos muy fríos y veranos cálidos para su latitud, a pesar de ser un archipiélago",
+     "r": "Es el primer rasgo que destaca el manual: el anticiclón siberiano en invierno y el aire tropical en verano.",
+     "ok": true
+    },
+    {
+     "t": "Un clima oceánico suave",
+     "r": "Un clima oceánico tendría inviernos mucho más templados."
+    },
+    {
+     "t": "Un clima mediterráneo",
+     "r": "No hay sequía de verano."
+    },
+    {
+     "t": "Un clima polar",
+     "r": "El verano supera los 20 °C."
+    }
+   ],
+   "explicacion": [
+    "Bilbao tiene unos 10 °C en enero. La diferencia se debe a que Japón está en la fachada oriental de un gran continente: en invierno le llega el aire frío de Siberia."
+   ],
+   "manual": "Apartado 1.1.1.2 y figura 4.2"
+  },
+  {
+   "id": "jp-centros",
+   "parte": "japon",
+   "enunciado": "En Dinámica atmosférica, elegid el invierno en Japón. ¿Qué centros de acción dominan?",
+   "opciones": [
+    {
+     "t": "El anticiclón siberiano (euroasiático) y la depresión de las Aleutianas, que generan vientos fríos del noroeste",
+     "r": "Es la situación de la figura 4.2 del manual.",
+     "ok": true
+    },
+    {
+     "t": "El anticiclón de las Azores",
+     "r": "Actúa sobre el Atlántico."
+    },
+    {
+     "t": "La depresión monzónica de Asia",
+     "r": "Es la situación de verano."
+    },
+    {
+     "t": "El anticiclón de Hawái",
+     "r": "Domina en verano y empuja aire tropical húmedo hacia Japón."
+    }
+   ],
+   "explicacion": [
+    "En verano la situación se invierte: depresión sobre el continente y anticiclón del Pacífico (Hawái u Ogasawara), con vientos húmedos del sur y sureste y la llegada de los tifones."
+   ],
+   "manual": "Apartado 1.1.1.2 y figura 4.2"
+  },
+  {
+   "id": "au-darwin-alice",
+   "parte": "australia",
+   "enunciado": "Comparad Darwin, Halls Creek y Alice Springs, de norte a sur. ¿Qué ocurre con las lluvias?",
+   "opciones": [
+    {
+     "t": "Disminuyen de unos 1.800 mm a 700 y a 270, y siempre caen en verano: del clima tropical monzónico a la franja subárida y al desierto",
+     "r": "Son los tres primeros dominios del manual.",
+     "ok": true
+    },
+    {
+     "t": "Aumentan hacia el interior",
+     "r": "Disminuyen."
+    },
+    {
+     "t": "Pasan de lluvias de verano a lluvias de invierno",
+     "r": "En las tres el máximo es de verano; el régimen invernal aparece en el sur."
+    },
+    {
+     "t": "Son iguales en las tres",
+     "r": "La diferencia es enorme."
+    }
+   ],
+   "explicacion": [
+    "El manual sitúa el límite estadístico del desierto en los 250 mm. Alice Springs, con 273 mm, está justo en él."
+   ],
+   "manual": "Apartado 2.2.1.3"
+  },
+  {
+   "id": "au-perth",
+   "parte": "australia",
+   "enunciado": "Perth tiene 140 mm en julio y 10 en diciembre. ¿Qué tipo de clima es y por qué?",
+   "opciones": [
+    {
+     "t": "Mediterráneo: en invierno llegan las borrascas del oeste y en verano domina el anticiclón subtropical",
+     "r": "El manual lo sitúa en el borde occidental del continente, en Perth y Adelaida.",
+     "ok": true
+    },
+    {
+     "t": "Tropical monzónico",
+     "r": "Las lluvias tropicales caen en verano."
+    },
+    {
+     "t": "Oceánico",
+     "r": "El oceánico no tiene una estación seca tan marcada."
+    },
+    {
+     "t": "Desértico",
+     "r": "Perth recibe unos 700 mm."
+    }
+   ],
+   "explicacion": [
+    "Recordad que en el hemisferio sur julio es invierno. Perth tiene cuatro meses de sequía estival."
+   ],
+   "manual": "Apartado 2.2.1.3"
+  },
+  {
+   "id": "au-hemisferio",
+   "parte": "australia",
+   "enunciado": "En Darwin el mes más lluvioso es enero y en Perth julio. ¿Qué hay que tener en cuenta al leer los climogramas de Australia?",
+   "opciones": [
+    {
+     "t": "Que está en el hemisferio sur: el verano es de diciembre a febrero y el invierno de junio a agosto",
+     "r": "Por eso el máximo de verano de Darwin cae en enero.",
+     "ok": true
+    },
+    {
+     "t": "Que los meses están ordenados al revés",
+     "r": "Los meses están en su orden; lo que cambia son las estaciones."
+    },
+    {
+     "t": "Que las temperaturas están en Fahrenheit",
+     "r": "Están en grados Celsius."
+    },
+    {
+     "t": "Nada: las estaciones son las mismas que en Japón",
+     "r": "Son las opuestas."
+    }
+   ],
+   "explicacion": [
+    "En la pestaña de dinámica atmosférica, enero corresponde al verano australiano: la zona de convergencia intertropical y la baja térmica se sitúan sobre el norte del continente."
+   ],
+   "manual": "Apartado 2.2.1.1"
+  },
+  {
+   "id": "au-brisbane",
+   "parte": "australia",
+   "enunciado": "Brisbane tiene lluvias todo el año con máximo en verano, y Mildura, a la misma latitud aproximada pero al otro lado de la cordillera, solo 274 mm. ¿Por qué?",
+   "opciones": [
+    {
+     "t": "Porque los alisios del sureste descargan su humedad en la vertiente oriental de la Gran Cordillera Divisoria; al oeste el clima se continentaliza y se seca rápidamente",
+     "r": "El manual explica así la escasa penetración del clima litoral de alisio hacia el interior.",
+     "ok": true
+    },
+    {
+     "t": "Porque Mildura está a mucha más altitud",
+     "r": "Mildura está en las llanuras del Murray, a unos 50 m."
+    },
+    {
+     "t": "Porque a Mildura llegan monzones secos",
+     "r": "El monzón afecta al norte."
+    },
+    {
+     "t": "Porque Brisbane está junto a un desierto",
+     "r": "Es al revés."
+    }
+   ],
+   "explicacion": [
+    "Mildura, en el Murray, vive del regadío: viñedo, cítricos y frutales con agua del río."
+   ],
+   "manual": "Apartados 2.2.1.3 y 2.2.1.4"
+  },
+  {
+   "id": "au-hobart",
+   "parte": "australia",
+   "enunciado": "Hobart tiene 9 °C en el mes más frío, 18 °C en el más cálido y lluvias bien repartidas. ¿Qué clima es?",
+   "opciones": [
+    {
+     "t": "Oceánico (Cfb), como el de Melbourne: el del sureste, primer espacio de colonización británica",
+     "r": "El manual lo describe con temperaturas moderadas, escasa oscilación y lluvias repartidas.",
+     "ok": true
+    },
+    {
+     "t": "Mediterráneo",
+     "r": "No tiene sequía de verano."
+    },
+    {
+     "t": "Subtropical húmedo",
+     "r": "El verano es demasiado fresco (menos de 22 °C)."
+    },
+    {
+     "t": "Continental",
+     "r": "El invierno es suave, sin meses bajo cero."
+    }
+   ],
+   "explicacion": [
+    "El manual recuerda que no es casualidad que el sureste, con un clima parecido al británico, fuese el sector de los primeros asentamientos."
+   ],
+   "manual": "Apartado 2.2.1.3"
+  },
+  {
+   "id": "contraste-modelos",
+   "enunciado": "Comparad en Explorar Tokio y Sídney, dos ciudades costeras de latitud parecida (35° N y 34° S). ¿Qué diferencia principal hay?",
+   "opciones": [
+    {
+     "t": "Tokio tiene un invierno mucho más frío (5 °C frente a 14 °C) por el aire siberiano; Sídney, sin un gran continente frío al sur, tiene inviernos suaves",
+     "r": "Las dos tienen clima Cfa, pero la fachada oriental de Asia recibe el frío continental.",
+     "ok": true
+    },
+    {
+     "t": "Sídney es mucho más lluviosa",
+     "r": "Las dos reciben entre 1.100 y 1.600 mm."
+    },
+    {
+     "t": "Tokio tiene clima mediterráneo",
+     "r": "Tokio tiene el verano lluvioso."
+    },
+    {
+     "t": "No hay ninguna diferencia",
+     "r": "La diferencia de temperatura invernal es de unos 9 °C."
+    }
+   ],
+   "explicacion": [
+    "Es un buen ejemplo de que la latitud no lo explica todo: la posición respecto a los continentes y a los centros de acción es decisiva."
+   ],
+   "manual": "Apartados 1.1.1.2 y 2.2.1.3"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 /* Motor «Atlas de lectura cruzada».
    Lee la sección "atlas" de regiones/<id>/config.json y dibuja sus capas.
    Tipos de capa: poligonos, koppen, coropleta, categorias (por país), puntos.
-   Las coropletas y las categorías admiten "lineas" ([{nombre, coords}]) que se trazan como líneas finas discontinuas.
+   Los polígonos, las coropletas y las categorías admiten "lineas" ([{nombre, coords}]) que se trazan como líneas finas discontinuas.
    Las coropletas y las categorías pueden usar otra geometría (por ejemplo, estados o provincias):
    "geometria": { "archivo": "capas/estados.json", "objeto": "estados" }, con los datos indexados por
    properties.id y guardados en la clave indicada por "clave" (por defecto, "paises"). */
@@ -13,7 +13,7 @@
   RM.cabecera(barra, R.ficha, "atlas", R.ficha.motores);
   document.title = "Atlas de lectura cruzada. " + R.ficha.titulo;
 
-  const A = R.config.atlas;
+  const A = Object.assign({}, R.config.atlas, { capas: R.config.atlas.capas.filter((c) => RM.enVista(c)) });
   const carpeta = (ruta) => R.carpeta + ruta;
 
   try {
@@ -99,16 +99,17 @@
         capa.dibujar = (g) => {
           g.selectAll("path").data(feats).join("path").attr("class", "poligono").attr("d", mapa.ruta).attr("fill", capa.color);
           if (c.puntos && D[ref.puntos]) dibujarExtras(g, c.puntos);
+          lineasFinas(g, c);
         };
         capa.info = (ll) => {
           const f = feats.find((x) => contiene(x, ll));
           if (!f) return null;
           const k = f.properties[c.campo];
           if (c.tipo === "koppen") return "<b>" + k + "</b> " + RM.esc((cat[k] || {}).nombre || "");
-          return "<b>" + RM.esc(f.properties[c.etiqueta]) + "</b><br>" + RM.esc((cat[k] || {}).nombre || "");
+          return (c.etiqueta ? "<b>" + RM.esc(f.properties[c.etiqueta]) + "</b><br>" : "") + RM.esc((cat[k] || {}).nombre || "");
         };
         capa.leyenda = () => {
-          if (c.tipo !== "koppen") return "<ul>" + Object.values(cat).map((v) => "<li>" + caja(v.color) + RM.esc(v.nombre) + "</li>").join("") + "</ul>";
+          if (c.tipo !== "koppen") return "<ul>" + Object.values(cat).filter((v) => RM.enVista(v)).map((v) => "<li>" + caja(v.color) + RM.esc(v.nombre) + "</li>").join("") + leyendaLineas(c) + "</ul>";
           const presentes = new Set(feats.map((f) => f.properties[c.campo]));
           const grupos = {};
           Object.entries(cat).forEach(([k, v]) => { if (presentes.has(k)) (grupos[v.grupo] = grupos[v.grupo] || []).push([k, v]); });
@@ -170,8 +171,8 @@
           ajustarSimbolos();
         };
         capa.info = () => null;
-        capa.leyenda = () => "<ul>" + Object.values(c.categorias).map((v) => '<li><span class="punto" style="background:' + v.color + '"></span>' + RM.esc(v.nombre) + "</li>").join("") +
-          (c.lineas || []).map((l) => '<li><span class="caja" style="background:rgba(163,36,92,.3);border:0"></span>' + RM.esc(l.nombre) + "</li>").join("") + "</ul>";
+        capa.leyenda = () => "<ul>" + Object.values(c.categorias).filter((v) => RM.enVista(v)).map((v) => '<li><span class="punto" style="background:' + v.color + '"></span>' + RM.esc(v.nombre) + "</li>").join("") +
+          (c.lineas || []).filter((l) => RM.enVista(l)).map((l) => '<li><span class="caja" style="background:rgba(163,36,92,.3);border:0"></span>' + RM.esc(l.nombre) + "</li>").join("") + "</ul>";
         capa.esPuntos = true;
       }
       return capa;
@@ -180,11 +181,13 @@
 
     // Líneas finas de referencia sobre coropletas y categorías ("lineas": [{nombre, coords}])
     function lineasFinas(g, c) {
-      (c.lineas || []).forEach((l) => g.append("path").datum({ type: "LineString", coordinates: l.coords })
-        .attr("class", "linea-ref").attr("d", mapa.ruta));
+      (c.lineas || []).filter((l) => RM.enVista(l)).forEach((l) => g.append("path").datum({ type: "LineString", coordinates: l.coords })
+        .attr("class", "linea-ref" + (l.estilo ? " " + l.estilo : "")).attr("d", mapa.ruta).append("title").text(l.nombre + (l.nota ? ": " + l.nota : "")));
     }
     function leyendaLineas(c) {
-      return (c.lineas || []).map((l) => '<li><span class="caja linea"></span>' + RM.esc(l.nombre) + "</li>").join("");
+      const vistas = new Set();
+      return (c.lineas || []).filter((l) => RM.enVista(l)).filter((l) => { const k = l.leyenda || l.nombre; if (vistas.has(k)) return false; vistas.add(k); return true; })
+        .map((l) => '<li><span class="caja linea' + (l.estilo ? " " + l.estilo : "") + '"></span>' + RM.esc(l.leyenda || l.nombre) + "</li>").join("");
     }
 
     function dibujarExtras(g, claves) {
@@ -418,6 +421,10 @@
     } else {
       document.getElementById("tab-preguntas").hidden = true;
     }
+
+    // Enlace directo a una capa: atlas.html?r=…#id-de-capa la muestra sola (en modo superponer)
+    const ancla = location.hash.slice(1);
+    if (capaPor.has(ancla)) { estado.modo = "superponer"; estado.activas = [ancla]; }
 
     aplicar();
   } catch (e) {

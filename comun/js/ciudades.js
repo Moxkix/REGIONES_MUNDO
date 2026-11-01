@@ -99,7 +99,7 @@
     ciudades.forEach((c) => { c.xy = enMapa(c); });
 
     // trazados opcionales (megalópolis, ejes, ferrocarriles)
-    const trazados = C.trazados || [];
+    const trazados = (C.trazados || []).filter((t) => RM.enVista(t));
     const elTraz = document.getElementById("mapa-trazados");
     elTraz.innerHTML = trazados.map((t, i) => '<label><input type="checkbox" data-t="' + i + '"' + (t.visible ? " checked" : "") + "> " + RM.esc(t.nombre) + "</label>").join("");
     function pintarTrazados() {
@@ -399,8 +399,8 @@
           '<div class="afirmacion"><p class="que">«' + RM.esc(a.texto) + '»</p><p class="hoy">' + RM.esc(a.hoy) + '</p><p class="ap">' +
           (a.nota ? RM.esc(a.nota) + " " : "") + "Manual: " + RM.esc(a.apartado) + "</p></div>").join("");
       }
-      const q = propios.cuadro;
-      if (q) {
+      // Uno o varios cuadros del manual comparados con hoy ("cuadro" o "cuadros")
+      (propios.cuadros || (propios.cuadro ? [propios.cuadro] : [])).forEach((q) => {
         html += "<h2>" + RM.esc(q.titulo) + '</h2><div class="tabla-desplazable"><table class="tabla-ciudades"><thead><tr><th>Ciudad</th>' +
           q.columnas.map((c) => "<th>" + RM.esc(c) + "</th>").join("") + '<th class="hoy">' + RM.esc(q.columnaHoy || "Hoy (oficial)") + '</th><th class="wup">' +
           (q.columnaDatos ? RM.esc(q.columnaDatos) : "ONU 2025<br>(ciudad continua)") + "</th></tr></thead><tbody>" +
@@ -411,7 +411,7 @@
               '<td class="wup">' + (c && val(c, ULT) != null ? f0(val(c, ULT) * (q.escalaDatos || 1)) : "—") + "</td></tr>";
           }).join("") + "</tbody></table></div>" +
           '<p class="nota">' + RM.esc(q.nota || "") + "</p>";
-      }
+      });
       el.innerHTML = html;
     }
     repintar.manual = pintarManual;

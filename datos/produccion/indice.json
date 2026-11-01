@@ -13,6 +13,17 @@
    ]
   },
   {
+   "id": "acero",
+   "nombre": "Acero bruto",
+   "grupo": "industria",
+   "anios": [
+    2000,
+    2010,
+    2020,
+    2025
+   ]
+  },
+  {
    "id": "algodon",
    "nombre": "Algodón (en rama, sin desmotar)",
    "grupo": "agricultura",
@@ -47,12 +58,35 @@
    ]
   },
   {
+   "id": "automoviles",
+   "nombre": "Vehículos de motor",
+   "grupo": "industria",
+   "anios": [
+    2000,
+    2010,
+    2020,
+    2025
+   ]
+  },
+  {
    "id": "bauxita",
    "nombre": "Bauxita",
    "grupo": "mineria",
    "anios": [
     2015,
     2025
+   ]
+  },
+  {
+   "id": "bovino",
+   "nombre": "Cabaña bovina",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
    ]
   },
   {
@@ -192,6 +226,18 @@
    ]
   },
   {
+   "id": "lana",
+   "nombre": "Lana (sucia)",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
    "id": "leche",
    "nombre": "Leche (todas las especies)",
    "grupo": "agricultura",
@@ -255,12 +301,36 @@
    ]
   },
   {
+   "id": "ovino",
+   "nombre": "Cabaña ovina",
+   "grupo": "agricultura",
+   "anios": [
+    1990,
+    2000,
+    2010,
+    2020,
+    2024
+   ]
+  },
+  {
    "id": "paladio",
    "nombre": "Paladio",
    "grupo": "mineria",
    "anios": [
     2015,
     2025
+   ]
+  },
+  {
+   "id": "pesca",
+   "nombre": "Pesca de captura",
+   "grupo": "agricultura",
+   "anios": [
+    1992,
+    2000,
+    2010,
+    2020,
+    2024
    ]
   },
   {
