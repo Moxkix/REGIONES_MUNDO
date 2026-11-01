@@ -1,0 +1,285 @@
+{
+ "titulo": "Climas de Norteamérica",
+ "preguntas": [
+  {
+   "id": "este-oeste",
+   "enunciado": "En la pestaña Explorar, comparad Nueva York (1.258 mm), Columbus (1.056), Dodge City (559), Cheyenne (392) y Las Vegas (106). ¿Qué gran contraste del continente reflejan?",
+   "opciones": [
+    {
+     "t": "La oposición entre el este húmedo y el oeste árido, con la frontera de la aridez hacia el meridiano 98",
+     "r": "El manual lo subraya: el meridiano 98 divide el país en una mitad oriental húmeda y una occidental seca.",
+     "ok": true
+    },
+    {
+     "t": "Un aumento de las lluvias con la latitud",
+     "r": "Las cinco estaciones están entre los 36° y los 41° N: lo que cambia es la longitud."
+    },
+    {
+     "t": "El efecto de la altitud, que hace más lluvioso el oeste",
+     "r": "El oeste es más alto, pero mucho más seco."
+    },
+    {
+     "t": "Que la costa atlántica tiene clima mediterráneo",
+     "r": "Nueva York reparte las lluvias todo el año, sin sequía estival."
+    }
+   ],
+   "explicacion": [
+    "El aire tropical marítimo del golfo de México riega el este, sobre todo en verano. Las cordilleras occidentales, de disposición meridiana, frenan las masas húmedas del Pacífico.",
+    "Las Vegas, en las cuencas intramontanas al abrigo de Sierra Nevada, recibe unos 100 mm al año."
+   ],
+   "manual": "Apartados 1.2.1 y 1.2.2"
+  },
+  {
+   "id": "masas-invierno",
+   "enunciado": "En la pestaña Dinámica atmosférica, elegid el invierno. ¿Por qué el aire polar continental llega hasta el golfo de México?",
+   "opciones": [
+    {
+     "t": "Porque no hay ninguna barrera montañosa de oeste a este: las llanuras centrales forman un pasillo abierto de norte a sur",
+     "r": "Es una consecuencia directa de la disposición meridiana del relieve.",
+     "ok": true
+    },
+    {
+     "t": "Porque los Apalaches lo canalizan hacia el sur",
+     "r": "Los Apalaches están al este del pasillo y no son la causa."
+    },
+    {
+     "t": "Porque la corriente del Golfo lo atrae",
+     "r": "La corriente del Golfo es una corriente marina cálida que bordea la costa atlántica."
+    },
+    {
+     "t": "Porque se forma sobre el océano Pacífico",
+     "r": "El aire polar continental se forma sobre el norte de Canadá."
+    }
+   ],
+   "explicacion": [
+    "La masa polar continental, fría, seca y estable, desciende por las Grandes Llanuras y trae heladas al Canadá central y a gran parte de la cuenca del Misisipi.",
+    "En verano ocurre lo contrario: el aire tropical marítimo del Golfo sube hasta los Grandes Lagos y el sur de la bahía de Hudson. Por eso el centro del continente tiene una amplitud térmica tan grande."
+   ],
+   "manual": "Apartado 1.2.1.2 y figura 3.2"
+  },
+  {
+   "id": "vancouver-winnipeg",
+   "enunciado": "Vancouver y Winnipeg están casi a la misma latitud (49° N). En Vancouver la amplitud térmica es de 14 °C; en Winnipeg, de 36 °C. ¿Por qué?",
+   "opciones": [
+    {
+     "t": "Vancouver está en la fachada occidental, bajo la influencia oceánica; Winnipeg está en el centro del continente, al abrigo de las cordilleras",
+     "r": "Es el contraste entre el clima oceánico de fachada occidental y el continental del interior.",
+     "ok": true
+    },
+    {
+     "t": "Winnipeg está mucho más alta",
+     "r": "Winnipeg está a 239 m; la diferencia de altitud con Vancouver no explica 22 °C de amplitud."
+    },
+    {
+     "t": "Vancouver está más al sur",
+     "r": "Están prácticamente a la misma latitud."
+    },
+    {
+     "t": "Winnipeg recibe la corriente fría del Labrador",
+     "r": "Winnipeg está en el interior, lejos de las costas."
+    }
+   ],
+   "explicacion": [
+    "El océano suaviza los inviernos y refresca los veranos. Las borrascas del Pacífico descargan sobre las cordilleras costeras (más de 1.100 mm en Vancouver, casi todos en invierno) y no penetran en el interior.",
+    "Winnipeg, en las praderas, tiene −16 °C en enero y 20 °C en julio, con solo 520 mm, que caen sobre todo en verano."
+   ],
+   "manual": "Apartados 1.2.2.1 y 1.2.2.2"
+  },
+  {
+   "id": "sanfrancisco",
+   "enunciado": "Abrid San Francisco: llueve casi solo de noviembre a marzo y el mes más cálido no llega a 18 °C. ¿Qué tipo de clima es y por qué el verano es tan fresco?",
+   "opciones": [
+    {
+     "t": "Mediterráneo de verano fresco (Csb): la corriente fría de California y sus nieblas refrescan la costa",
+     "r": "El manual atribuye a la corriente de California la moderación de las temperaturas al sur de los 40°.",
+     "ok": true
+    },
+    {
+     "t": "Oceánico, porque llueve todo el año",
+     "r": "El verano es completamente seco: esa es la marca del clima mediterráneo."
+    },
+    {
+     "t": "Desértico, porque recibe menos de 600 mm",
+     "r": "Con 580 mm y lluvias invernales no es árido."
+    },
+    {
+     "t": "Subtropical húmedo, porque los inviernos son suaves",
+     "r": "El subtropical húmedo tiene lluvias abundantes y veranos calurosos, como en Nueva Orleans."
+    }
+   ],
+   "explicacion": [
+    "Sacramento, en el Gran Valle, tiene el mismo régimen de lluvias pero un verano de 24 °C (Csa): sin la influencia del mar, el verano mediterráneo es caluroso.",
+    "El verano seco obliga a regar: es la base de la agricultura mediterránea de regadío de California (cinturón 9 de la figura 3.7)."
+   ],
+   "manual": "Apartado 1.2.2.1"
+  },
+  {
+   "id": "lasvegas",
+   "enunciado": "Las Vegas recibe unos 100 mm al año, aunque la costa del Pacífico está a menos de 400 km. ¿Qué explica tanta aridez?",
+   "opciones": [
+    {
+     "t": "Está en las cuencas intramontanas, al abrigo de Sierra Nevada y fuera del alcance de los vientos húmedos del oeste",
+     "r": "Es la sombra pluviométrica de las cordilleras costeras que describe el manual.",
+     "ok": true
+    },
+    {
+     "t": "Está a mucha altitud y el aire frío no lleva humedad",
+     "r": "Está a 650 m y su verano es de los más cálidos del continente (34 °C)."
+    },
+    {
+     "t": "Le afecta la corriente cálida del Golfo",
+     "r": "El golfo de México queda muy lejos y al otro lado de las Rocosas."
+    },
+    {
+     "t": "Es una zona de bajas presiones permanentes",
+     "r": "El suroeste está dominado por las altas presiones subtropicales y el aire tropical continental."
+    }
+   ],
+   "explicacion": [
+    "El manual indica que en las mesetas intramontanas la media anual no llega a 200 mm y baja de 100 mm en los desiertos del suroeste, con gran amplitud entre el día y la noche.",
+    "Phoenix, en el desierto de Sonora, tiene un pequeño máximo de lluvias en verano por el monzón norteamericano."
+   ],
+   "manual": "Apartado 1.2.2.1"
+  },
+  {
+   "id": "fortsmith",
+   "enunciado": "Fort Smith (Territorios del Noroeste) tiene −22 °C en enero, 17 °C en julio y unos 360 mm, sobre todo en verano. ¿Qué clima y qué vegetación le corresponden?",
+   "opciones": [
+    {
+     "t": "Subártico o de taiga: bosque boreal de coníferas (picea, pino, abeto, alerce) con abedules y álamos",
+     "r": "Es la descripción del manual: mes más cálido por encima de 15 °C, el más frío en torno a −20 °C y lluvias en la estación cálida.",
+     "ok": true
+    },
+    {
+     "t": "Ártico: tundra de musgos y líquenes",
+     "r": "En el ártico ningún mes llega a 10 °C; en Fort Smith julio tiene 17 °C."
+    },
+    {
+     "t": "Continental húmedo con bosque caducifolio",
+     "r": "El invierno es demasiado largo y frío para el bosque caducifolio."
+    },
+    {
+     "t": "Estepa con praderas de hierbas altas",
+     "r": "Las praderas están más al sur, en las Grandes Llanuras."
+    }
+   ],
+   "explicacion": [
+    "El clima subártico ocupa una ancha banda desde Alaska hasta Terranova y el Labrador, entre los 50° y los 65° N.",
+    "Más al norte, en Utqiagvik (Barrow) o Iqaluit, ningún mes llega a 10 °C: es el clima ártico de la tundra y los Barren Grounds."
+   ],
+   "manual": "Apartado 1.2.2.2"
+  },
+  {
+   "id": "nuevaorleans",
+   "enunciado": "Nueva Orleans tiene 12 °C en enero, 29 °C en julio y 1.600 mm con máximo en verano. ¿Qué masa de aire explica el calor húmedo del verano?",
+   "opciones": [
+    {
+     "t": "El aire tropical marítimo del golfo de México (Tm)",
+     "r": "Cálido y húmedo, produce un tiempo inestable con frecuentes tormentas en el este.",
+     "ok": true
+    },
+    {
+     "t": "El aire polar marítimo del Atlántico",
+     "r": "Es frío y húmedo, y afecta en ocasiones al noreste."
+    },
+    {
+     "t": "El aire tropical continental (Tc)",
+     "r": "Es seco: provoca olas de calor, no lluvias."
+    },
+    {
+     "t": "El aire polar continental",
+     "r": "Domina en invierno, no en verano."
+    }
+   ],
+   "explicacion": [
+    "Es el clima subtropical húmedo de fachada oriental (tipo chino), con lluvias abundantes repartidas todo el año.",
+    "En invierno el aire polar continental puede llegar hasta la costa del Golfo y provocar heladas: es el riesgo de las olas de frío para los cítricos de Florida."
+   ],
+   "manual": "Apartados 1.2.1.2 y 1.2.2.2"
+  },
+  {
+   "id": "miami",
+   "enunciado": "En Miami ningún mes baja de 20 °C y llueve mucho de mayo a octubre. ¿Qué clima es?",
+   "opciones": [
+    {
+     "t": "Tropical (Am en la clasificación de Köppen)",
+     "r": "El manual lo sitúa en el extremo meridional de Florida, con manglares.",
+     "ok": true
+    },
+    {
+     "t": "Mediterráneo",
+     "r": "En Miami el verano es la estación más lluviosa."
+    },
+    {
+     "t": "Subtropical húmedo, igual que Atlanta",
+     "r": "Atlanta tiene 7 °C en enero; Miami, 20 °C."
+    },
+    {
+     "t": "Desértico cálido",
+     "r": "Recibe más de 1.700 mm al año."
+    }
+   ],
+   "explicacion": [
+    "La temporada de lluvias coincide con la de huracanes (de junio a noviembre).",
+    "Es el único clima tropical de Estados Unidos continental: permite los cultivos subtropicales de Florida (cítricos, caña, hortalizas de invierno)."
+   ],
+   "manual": "Apartado 1.2.2.2"
+  },
+  {
+   "id": "cheyenne-minneapolis",
+   "enunciado": "Comparad Cheyenne (392 mm) y Minneapolis (803 mm). Las dos tienen inviernos bajo cero y máximo de lluvias a finales de primavera o en verano. ¿Qué las diferencia?",
+   "opciones": [
+    {
+     "t": "Cheyenne, al oeste del meridiano 98 y a 1.868 m, es semiárida de estepa; Minneapolis, al este, es continental húmeda",
+     "r": "La cantidad de lluvia decide: estepa de hierbas cortas y ganadería frente a maíz, soja y leche.",
+     "ok": true
+    },
+    {
+     "t": "Cheyenne tiene clima mediterráneo porque el verano es seco",
+     "r": "En Cheyenne el máximo de lluvias es en mayo-junio."
+    },
+    {
+     "t": "Minneapolis es más seca porque está más lejos del mar",
+     "r": "Minneapolis recibe el doble de lluvia, gracias al aire húmedo del Golfo."
+    },
+    {
+     "t": "No hay diferencia climática, solo de altitud",
+     "r": "Cheyenne recibe la mitad de precipitación: es un clima seco (BSk)."
+    }
+   ],
+   "explicacion": [
+    "Hacia el oeste las Grandes Llanuras se elevan en mesetas escalonadas hasta 1.600 m en el piedemonte de las Rocosas, y la aridez aumenta.",
+    "El manual explica que la vegetación pasa de pradera de altas hierbas a estepa xerófila hacia el oeste y el suroeste."
+   ],
+   "manual": "Apartados 1.1.3.2 y 1.2.2.2"
+  },
+  {
+   "id": "clasificar-clave",
+   "enunciado": "En la pestaña Clasificar, Halifax tiene −6 °C en enero, 19 °C en julio y 1.390 mm repartidos. ¿Por qué su verano es más fresco que el de Nueva York, 4° más al sur?",
+   "opciones": [
+    {
+     "t": "Por la latitud y por la corriente fría del Labrador, que baja por la costa atlántica de Canadá",
+     "r": "La figura 3.1 dibuja la corriente fría del Labrador frente a la costa de Terranova y Nueva Escocia.",
+     "ok": true
+    },
+    {
+     "t": "Por la corriente cálida del Golfo",
+     "r": "La corriente del Golfo es cálida y se aleja de la costa hacia el nordeste."
+    },
+    {
+     "t": "Porque está en el interior del continente",
+     "r": "Halifax es una ciudad costera."
+    },
+    {
+     "t": "Por la altitud",
+     "r": "Halifax está a 145 m."
+    }
+   ],
+   "explicacion": [
+    "Las fachadas orientales de los continentes son más extremadas que las occidentales a igual latitud: compárese Halifax (amplitud de 25 °C) con Vancouver (14 °C).",
+    "Es el clima continental húmedo de la fachada atlántica, con nieve abundante en invierno."
+   ],
+   "manual": "Apartado 1.2.2.2 y figura 3.1"
+  }
+ ]
+}

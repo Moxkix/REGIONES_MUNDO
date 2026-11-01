@@ -135,15 +135,15 @@
         const S = C.centros.estaciones[temporada];
         gC.selectAll("*").remove();
         S.flujos.forEach((f) => gC.append("path").attr("class", "flujo").attr("d", m2.ruta({ type: "LineString", coordinates: f.coords })));
-        const g = gC.selectAll("g.centro").data(S.centros).join("g").attr("class", (d) => "centro " + d.tipo)
+        const g = gC.selectAll("g.centro").data(S.centros).join("g").attr("class", (d) => "centro " + (d.clase || d.tipo))
           .attr("transform", (d) => "translate(" + m2.proy([d.lon, d.lat]) + ")");
-        [70, 48].forEach((r) => g.append("circle").attr("class", (d) => "halo " + d.tipo).attr("r", r).attr("stroke-width", 2).style("fill", "none"));
+        [70, 48].forEach((r) => g.append("circle").attr("class", (d) => "halo " + (d.clase || d.tipo)).attr("r", r).attr("stroke-width", 2).style("fill", "none"));
         g.append("circle").attr("r", 17);
-        g.append("text").attr("class", "letra").attr("text-anchor", "middle").attr("dy", "0.36em").text((d) => d.tipo);
+        g.append("text").attr("class", (d) => "letra" + ((d.letra || d.tipo).length > 1 ? " corta" : "")).attr("text-anchor", "middle").attr("dy", "0.36em").text((d) => d.letra || d.tipo);
         g.append("text").attr("class", "nombre").attr("text-anchor", "middle").attr("y", 34).text((d) => d.nombre);
         document.getElementById("texto-centros").innerHTML =
           "<h2>" + RM.esc(S.nombre) + "</h2>" + S.texto.map((t) => "<p>" + RM.esc(t) + "</p>").join("") +
-          '<p class="nota">A: anticiclón (altas presiones). B: borrasca o baja presión. ' + RM.esc(C.centros.fuente) + "</p>";
+          '<p class="nota">' + RM.esc(C.centros.leyenda || "A: anticiclón (altas presiones). B: borrasca o baja presión.") + " " + RM.esc(C.centros.fuente) + "</p>";
       }
       pintarCentros();
     } else document.getElementById("t-dinamica").hidden = true;

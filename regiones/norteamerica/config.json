@@ -1,0 +1,1233 @@
+{
+  "id": "norteamerica",
+  "proyeccion": {
+    "tipo": "laea",
+    "rotar": [
+      100,
+      -55
+    ]
+  },
+  "ventana": [
+    -140,
+    24,
+    -55,
+    84
+  ],
+  "presentacion": {
+    "resumen": [
+      "Estados Unidos y Canadá ocupan casi 20 millones de km², el doble que Europa, entre el archipiélago ártico canadiense y los cayos de Florida. Forman un gran conjunto económico y cultural, con una economía muy integrada, y Estados Unidos es la primera potencia económica del mundo.",
+      "Usad el atlas para relacionar la disposición meridiana del relieve con los climas, los cinturones agrarios y las regiones industriales; los climogramas para ver el contraste entre el este húmedo y el oeste árido a ambos lados del meridiano 98; y los motores de población y ciudades para seguir el desplazamiento de la población hacia el sur y el oeste y el crecimiento de las grandes áreas metropolitanas."
+    ],
+    "indice": [
+      "1. Las condiciones naturales, base del desarrollo económico",
+      "2. El proceso de colonización",
+      "3. Usos del suelo agrario",
+      "4. Factores de localización industrial y grandes regiones industriales",
+      "5. Crecimiento y distribución geográfica de la población",
+      "6. Proceso de urbanización y red de ciudades",
+      "Conclusión: Estados Unidos, gran potencia hegemónica a nivel mundial"
+    ],
+    "actualizacion": "datos/actualizacion.json"
+  },
+  "atlas": {
+    "cuestionario": "cuestionarios/atlas.json",
+    "referencia": {
+      "rios": {
+        "archivo": "capas/rios.json",
+        "objeto": "rios"
+      },
+      "lagos": {
+        "archivo": "capas/lagos.json",
+        "objeto": "lagos"
+      },
+      "puntos": "capas/puntos.json",
+      "principales": [
+        "Washington",
+        "Ottawa",
+        "Nueva York",
+        "Los Ángeles",
+        "Chicago",
+        "Toronto",
+        "Montreal",
+        "Vancouver",
+        "Houston",
+        "San Francisco",
+        "Anchorage"
+      ]
+    },
+    "capas": [
+      {
+        "id": "relieve",
+        "nombre": "Relieve: grandes unidades",
+        "tipo": "poligonos",
+        "archivo": "capas/relieve.json",
+        "objeto": "relieve",
+        "campo": "u",
+        "etiqueta": "n",
+        "puntos": [
+          "picos"
+        ],
+        "categorias": {
+          "escudo": {
+            "color": "#f0aa2a",
+            "nombre": "1. Escudo canadiense"
+          },
+          "apalaches": {
+            "color": "#c4a27a",
+            "nombre": "2. Apalaches"
+          },
+          "artica": {
+            "color": "#f5eeb4",
+            "nombre": "3a. Llanuras litorales árticas"
+          },
+          "litoral": {
+            "color": "#efe39a",
+            "nombre": "3b. Llanura litoral del Atlántico y del golfo de México"
+          },
+          "interior": {
+            "color": "#cfe0b0",
+            "nombre": "4. Llanuras interiores"
+          },
+          "tierrasaltas": {
+            "color": "#4f9a86",
+            "nombre": "5. Tierras altas del interior (Ozark y Ouachita)"
+          },
+          "rocosas": {
+            "color": "#b9693f",
+            "nombre": "6. Montañas Rocosas"
+          },
+          "intramontana": {
+            "color": "#e8a183",
+            "nombre": "7. Cuencas y mesetas intramontanas"
+          },
+          "costera": {
+            "color": "#c75a48",
+            "nombre": "8. Cordillera costera del Pacífico"
+          }
+        },
+        "fuente": "Unidades de Natural Earth 1:10 m (geography regions) agrupadas según la leyenda de la figura 3.1 del manual (adaptada de Clawson, D. L.: World Regional Geography. A Development Approach. Prentice Hall, 2001, p. 92). La asignación de cada unidad es nuestra. Altitudes actuales: el monte McKinley se llama oficialmente Denali (6.190 m).",
+        "manual": "Apartado 1.1 y figura 3.1"
+      },
+      {
+        "id": "clima",
+        "nombre": "Clima: tipos de Köppen-Geiger",
+        "tipo": "koppen",
+        "archivo": "capas/clima.json",
+        "objeto": "clima",
+        "campo": "k",
+        "fuente": "Köppen-Geiger 1986-2010 (Rubel et al., 2017), ráster de 100\" agregado a unos 16 km.",
+        "manual": "Apartado 1.2 y figura 3.3 (Azcárate, B.; Azcárate, M. V. y Sánchez, J.: Atlas Histórico y Geográfico Universitario, UNED, 2007, p. 362). Fijaos en el meridiano 98° O: al oeste dominan los climas secos (B)."
+      },
+      {
+        "id": "densidad",
+        "nombre": "Densidad de población por estado y provincia (2025)",
+        "tipo": "coropleta",
+        "datos": "datos/estados.json",
+        "clave": "unidades",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "campo": "densidad",
+        "anio": "2025",
+        "unidad": "hab./km²",
+        "decimales": 1,
+        "clases": [
+          1,
+          10,
+          40,
+          100
+        ],
+        "colores": [
+          "#f4ead2",
+          "#e6c492",
+          "#d4955c",
+          "#b0603a",
+          "#6f3524"
+        ],
+        "lineas": [
+          {
+            "nombre": "Meridiano 98° O",
+            "coords": [
+              [
+                -98,
+                25.8
+              ],
+              [
+                -98,
+                35
+              ],
+              [
+                -98,
+                45
+              ],
+              [
+                -98,
+                49
+              ],
+              [
+                -98,
+                55
+              ],
+              [
+                -98,
+                60
+              ]
+            ]
+          }
+        ],
+        "fuente": "Población a 1 de julio de 2025: U.S. Census Bureau (Vintage 2025 Population Estimates) y Statistics Canada (tabla 17-10-0009-01). Superficie terrestre: U.S. Census Bureau y Statistics Canada (2021). El Distrito de Columbia supera los 4.000 hab./km².",
+        "manual": "Apartado 5 y cuadro 3.1 (densidad media de 33 hab./km² en EE UU y 4 en Canadá en 2015)."
+      },
+      {
+        "id": "variacion",
+        "nombre": "Variación de la población 2000-2025 (%)",
+        "tipo": "coropleta",
+        "datos": "datos/estados.json",
+        "clave": "unidades",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "campo": "var_pob",
+        "anio": "2000-2025",
+        "unidad": "%",
+        "decimales": 1,
+        "clases": [
+          5,
+          15,
+          25,
+          40
+        ],
+        "colores": [
+          "#e6c492",
+          "#eef0e4",
+          "#cfe0e8",
+          "#7ea6cc",
+          "#2f5d8a"
+        ],
+        "fuente": "Censos de 2000 (EE UU) y 2001 (Canadá) y estimaciones a 1 de julio de 2025 del U.S. Census Bureau y Statistics Canada. En Canadá el periodo es 2001-2025.",
+        "manual": "Apartado 5.2: desplazamiento de la población hacia el Sur y el Oeste (Sun Belt) y estancamiento del Noreste y de los Grandes Lagos."
+      },
+      {
+        "id": "extranjeros",
+        "nombre": "Población nacida en el extranjero (%)",
+        "tipo": "coropleta",
+        "datos": "datos/estados.json",
+        "clave": "unidades",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "campo": "extranjeros",
+        "anio": "campo:anio_ext",
+        "unidad": "%",
+        "decimales": 1,
+        "clases": [
+          5,
+          10,
+          15,
+          20
+        ],
+        "colores": [
+          "#f1e9f4",
+          "#d4c2df",
+          "#a98bc3",
+          "#7b5aa5",
+          "#4f3478"
+        ],
+        "fuente": "EE UU: población nacida en el extranjero, American Community Survey 2024 (tabla B05002). Canadá: inmigrantes sobre la población en hogares privados, censo de 2021 (tabla 98-10-0347-01). Las dos definiciones no son idénticas.",
+        "manual": "Apartado 5.1: la inmigración, motor del crecimiento demográfico."
+      },
+      {
+        "id": "expansion",
+        "nombre": "Expansión territorial de Estados Unidos y Canadá",
+        "tipo": "categorias",
+        "datos": "datos/expansion.json",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "fuente": "Año de admisión de cada estado en la Unión y de entrada de cada provincia o territorio en la Confederación canadiense, agrupados en las etapas de la figura 3.4 del manual (Boal, F. W. y Royle, S. A. (eds.): North America. A Geographical Mosaic. Oxford University Press, 1999, p. 6). Se representa la fecha de admisión como estado, no la de adquisición del territorio.",
+        "manual": "Apartado 2 y figura 3.4."
+      },
+      {
+        "id": "cinturones",
+        "nombre": "Cinturones agrícolas",
+        "tipo": "categorias",
+        "datos": "datos/cinturones.json",
+        "geometria": {
+          "archivo": "capas/estados.json",
+          "objeto": "estados"
+        },
+        "lineas": [
+          {
+            "nombre": "Meridiano 98° O: límite de la aridez",
+            "coords": [
+              [
+                -98,
+                25.8
+              ],
+              [
+                -98,
+                35
+              ],
+              [
+                -98,
+                45
+              ],
+              [
+                -98,
+                49
+              ],
+              [
+                -98,
+                55
+              ],
+              [
+                -98,
+                60
+              ]
+            ]
+          }
+        ],
+        "fuente": "Simplificación por estados y provincias de la figura 3.7 del manual (adaptada de Rowntree, L.; Lewis, M.; Price, M. y Wyckoff, W.: Diversity Amid Globalization. World Regions, Environment, Development. Prentice Hall, 2000, p. 107). Cada estado lleva el cinturón dominante: los límites reales no siguen las fronteras administrativas.",
+        "manual": "Apartado 3.1 y figura 3.7."
+      },
+      {
+        "id": "industria",
+        "nombre": "Regiones industriales",
+        "tipo": "puntos",
+        "archivo": "capas/puntos.json",
+        "clave": "industria",
+        "campo": "tipo",
+        "categorias": {
+          "noreste": {
+            "color": "#4b5a60",
+            "nombre": "Manufacturing Belt y Main Street canadiense"
+          },
+          "sur": {
+            "color": "#c0573e",
+            "nombre": "Sur y costa del Golfo (Sun Belt)"
+          },
+          "pacifico": {
+            "color": "#2f6c8f",
+            "nombre": "Costa del Pacífico"
+          }
+        },
+        "fuente": "Elaboración propia a partir del apartado 4.3 y de la figura 3.9 del manual (adaptada de Clawson, D. L., 2001, p. 129, y elaboración propia de los autores). Posición aproximada.",
+        "manual": "Apartado 4.3 y figuras 3.8 y 3.9."
+      },
+      {
+        "id": "recursos",
+        "nombre": "Energía y minerales",
+        "tipo": "puntos",
+        "archivo": "capas/puntos.json",
+        "clave": "recursos",
+        "campo": "tipo",
+        "categorias": {
+          "petroleo": {
+            "color": "#1d2a30",
+            "nombre": "Petróleo (convencional, de esquisto y arenas bituminosas)"
+          },
+          "gas": {
+            "color": "#7ea6cc",
+            "nombre": "Gas natural"
+          },
+          "carbon": {
+            "color": "#5b3a29",
+            "nombre": "Carbón"
+          },
+          "metales": {
+            "color": "#a3245c",
+            "nombre": "Hierro, metales no férreos y uranio"
+          },
+          "hidro": {
+            "color": "#2f8f83",
+            "nombre": "Grandes centrales hidroeléctricas"
+          }
+        },
+        "fuente": "Elaboración propia a partir del apartado 4.1.1 del manual, actualizado con los grandes yacimientos actuales (cuenca pérmica, Bakken, Marcellus). Posición aproximada.",
+        "manual": "Apartado 4.1.1."
+      }
+    ]
+  },
+  "climas": {
+    "estaciones": "datos/estaciones.json",
+    "cuestionario": "cuestionarios/climas.json",
+    "dominios": [
+      {
+        "id": "artico",
+        "nombre": "Ártico",
+        "color": "#6b5ea8"
+      },
+      {
+        "id": "subartico",
+        "nombre": "Subártico (taiga)",
+        "color": "#a99ad0"
+      },
+      {
+        "id": "continental",
+        "nombre": "Continental húmedo",
+        "color": "#2f6fae"
+      },
+      {
+        "id": "continentalseco",
+        "nombre": "Continental seco",
+        "color": "#6dbb6a"
+      },
+      {
+        "id": "oceanico",
+        "nombre": "Oceánico",
+        "color": "#1f7a3a"
+      },
+      {
+        "id": "mediterraneo",
+        "nombre": "Mediterráneo",
+        "color": "#a6cf8a"
+      },
+      {
+        "id": "estepa",
+        "nombre": "Semiárido de estepa",
+        "color": "#c9c25a"
+      },
+      {
+        "id": "desertico",
+        "nombre": "Desértico y subdesértico",
+        "color": "#e9c53c"
+      },
+      {
+        "id": "subtropical",
+        "nombre": "Subtropical húmedo (tipo chino)",
+        "color": "#e8894a"
+      },
+      {
+        "id": "tropical",
+        "nombre": "Tropical",
+        "color": "#d9506a"
+      },
+      {
+        "id": "montana",
+        "nombre": "De montaña",
+        "color": "#9a5a1e"
+      }
+    ],
+    "centros": {
+      "fuente": "Esquema según el apartado 1.2.1.2 y la figura 3.2 del manual (Strahler, A.: Geografía Física, Barcelona, 1975, p. 223). Posiciones medias aproximadas.",
+      "leyenda": "Pc: aire polar continental. Pm: polar marítimo. Tc: tropical continental. Tm: tropical marítimo. Azul: masas frías; rosa: masas cálidas.",
+      "estaciones": {
+        "invierno": {
+          "nombre": "Invierno",
+          "texto": [
+            "La masa de aire polar continental (Pc), estable, fría y seca, se forma en el norte de Canadá y desciende sin obstáculos por las grandes llanuras centrales: lleva heladas al Canadá central y a gran parte de la cuenca del Misisipi, y llega hasta el litoral del golfo de México.",
+            "La masa polar marítima del Pacífico (Pm) descarga fuertes precipitaciones de invierno en las cordilleras costeras. Las cordilleras occidentales, de disposición meridiana, frenan su paso hacia el interior.",
+            "La masa polar marítima del Atlántico afecta en ocasiones al noreste con frío y precipitaciones, y la masa tropical marítima del Pacífico, ligada a las altas presiones al suroeste de California, trae las lluvias de invierno al sur de California."
+          ],
+          "centros": [
+            {
+              "tipo": "Pc",
+              "letra": "Pc",
+              "clase": "frio",
+              "nombre": "Polar continental",
+              "lon": -100,
+              "lat": 64
+            },
+            {
+              "tipo": "Pm",
+              "letra": "Pm",
+              "clase": "frio",
+              "nombre": "Polar marítima del Pacífico",
+              "lon": -142,
+              "lat": 54
+            },
+            {
+              "tipo": "Pm",
+              "letra": "Pm",
+              "clase": "frio",
+              "nombre": "Polar marítima del Atlántico",
+              "lon": -55,
+              "lat": 52
+            },
+            {
+              "tipo": "Tm",
+              "letra": "Tm",
+              "clase": "calido",
+              "nombre": "Tropical marítima del Pacífico",
+              "lon": -128,
+              "lat": 31
+            }
+          ],
+          "flujos": [
+            {
+              "nombre": "Aire polar continental hacia el golfo de México",
+              "coords": [
+                [
+                  -100,
+                  61
+                ],
+                [
+                  -99,
+                  52
+                ],
+                [
+                  -97,
+                  43
+                ],
+                [
+                  -95,
+                  35
+                ],
+                [
+                  -93,
+                  30
+                ]
+              ]
+            },
+            {
+              "nombre": "Aire polar marítimo sobre la costa del Pacífico",
+              "coords": [
+                [
+                  -140,
+                  52
+                ],
+                [
+                  -134,
+                  50
+                ],
+                [
+                  -127,
+                  47.5
+                ],
+                [
+                  -123,
+                  45
+                ]
+              ]
+            },
+            {
+              "nombre": "Aire polar marítimo del Atlántico sobre el noreste",
+              "coords": [
+                [
+                  -55,
+                  48
+                ],
+                [
+                  -62,
+                  45
+                ],
+                [
+                  -68,
+                  43
+                ]
+              ]
+            },
+            {
+              "nombre": "Aire tropical del Pacífico sobre el sur de California",
+              "coords": [
+                [
+                  -126,
+                  31
+                ],
+                [
+                  -122,
+                  32.5
+                ],
+                [
+                  -118.5,
+                  34
+                ]
+              ]
+            }
+          ]
+        },
+        "verano": {
+          "nombre": "Verano",
+          "texto": [
+            "La masa de aire tropical marítimo del golfo de México (Tm) asciende por el valle del Misisipi hasta los Grandes Lagos y, en su avance máximo, hasta el sur de la bahía de Hudson: tiempo cálido, húmedo e inestable, con frecuentes tormentas en el este.",
+            "La masa tropical marítima de las Bahamas, en el Atlántico, produce los mismos efectos en la fachada oriental. El este del continente recibe así lluvias abundantes en verano.",
+            "Sobre el noreste de México y el suroeste de Estados Unidos se forma la masa tropical continental (Tc), seca y cálida, que provoca olas de calor. La costa del Pacífico queda seca bajo las altas presiones subtropicales: es el verano mediterráneo de California."
+          ],
+          "centros": [
+            {
+              "tipo": "Tm",
+              "letra": "Tm",
+              "clase": "calido",
+              "nombre": "Tropical marítima del Golfo",
+              "lon": -91,
+              "lat": 25
+            },
+            {
+              "tipo": "Tm",
+              "letra": "Tm",
+              "clase": "calido",
+              "nombre": "Tropical marítima del Atlántico",
+              "lon": -68,
+              "lat": 28
+            },
+            {
+              "tipo": "Tc",
+              "letra": "Tc",
+              "clase": "calido",
+              "nombre": "Tropical continental",
+              "lon": -106,
+              "lat": 30
+            },
+            {
+              "tipo": "Pc",
+              "letra": "Pc",
+              "clase": "frio",
+              "nombre": "Polar continental (retirada al norte)",
+              "lon": -95,
+              "lat": 70
+            }
+          ],
+          "flujos": [
+            {
+              "nombre": "Aire tropical del Golfo hacia los Grandes Lagos y la bahía de Hudson",
+              "coords": [
+                [
+                  -91,
+                  28
+                ],
+                [
+                  -90,
+                  34
+                ],
+                [
+                  -88,
+                  40
+                ],
+                [
+                  -86,
+                  46
+                ],
+                [
+                  -84,
+                  52
+                ]
+              ]
+            },
+            {
+              "nombre": "Aire tropical del Atlántico sobre la fachada oriental",
+              "coords": [
+                [
+                  -70,
+                  30
+                ],
+                [
+                  -74,
+                  34
+                ],
+                [
+                  -77,
+                  38
+                ]
+              ]
+            },
+            {
+              "nombre": "Aire tropical continental: calor seco",
+              "coords": [
+                [
+                  -104,
+                  32
+                ],
+                [
+                  -102,
+                  36
+                ],
+                [
+                  -100,
+                  40
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recursos": {
+    "cuestionario": "cuestionarios/recursos.json",
+    "agregado": {
+      "clave": "Northern America",
+      "nombre": "Norteamérica (Estados Unidos y Canadá)",
+      "nombreCorto": "Norteamérica",
+      "paises": [
+        "USA",
+        "CAN"
+      ]
+    },
+    "productos": [
+      "trigo",
+      "maiz",
+      "soja",
+      "cebada",
+      "algodon",
+      "remolacha",
+      "leche",
+      "porcino",
+      "petroleo",
+      "gas",
+      "carbon",
+      "nuclear",
+      "hidraulica",
+      "eolica_solar",
+      "uranio",
+      "hierro",
+      "cobre",
+      "oro",
+      "niquel",
+      "aluminio",
+      "paladio",
+      "tierras_raras",
+      "litio"
+    ],
+    "manual": [
+      {
+        "producto": "trigo",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 5,
+        "texto": "Tras China e India, Estados Unidos ocupa el tercer lugar a escala mundial en la producción de trigo, seguida de Rusia y Canadá",
+        "apartado": "3.1"
+      },
+      {
+        "producto": "maiz",
+        "tipo": "pais",
+        "pais": [
+          "USA"
+        ],
+        "texto": "[Estados Unidos] se ha convertido en el mayor productor mundial de maíz convencional y transgénico",
+        "apartado": "3.1"
+      },
+      {
+        "producto": "soja",
+        "tipo": "pais",
+        "pais": [
+          "USA"
+        ],
+        "texto": "La soja se utiliza, básicamente, para la alimentación animal y la superficie destinada a su cultivo se está reduciendo en los últimos años",
+        "apartado": "3.1",
+        "nota": "El manual no da cifra de producción; aquí se ve el puesto mundial de Estados Unidos."
+      },
+      {
+        "producto": "gas",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Actualmente [Estados Unidos se ha convertido] en el primer productor mundial de hidrocarburos (petróleo y gas natural)",
+        "apartado": "4.1.1"
+      },
+      {
+        "producto": "petroleo",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Con esta técnica [el fracking] se ha multiplicado la producción de petróleo",
+        "apartado": "4.1.1"
+      },
+      {
+        "producto": "carbon",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 5,
+        "texto": "Es importante la producción de hulla, la segunda después de China",
+        "apartado": "4.1.1",
+        "nota": "Aquí se suma todo el carbón, hulla y lignito."
+      },
+      {
+        "producto": "hidraulica",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 4,
+        "texto": "La energía hidroeléctrica, primera en el mundo en valores absolutos",
+        "apartado": "4.1.1"
+      },
+      {
+        "producto": "nuclear",
+        "tipo": "pais",
+        "pais": [
+          "USA",
+          "CAN"
+        ],
+        "texto": "Actualmente se contabilizan 104 centrales nucleares",
+        "apartado": "4.1.1",
+        "nota": "El manual cuenta reactores; aquí se compara la electricidad producida."
+      },
+      {
+        "producto": "uranio",
+        "tipo": "ranking",
+        "paises": "mundo",
+        "n": 3,
+        "texto": "Canadá es la primera productora mundial de uranio",
+        "apartado": "4.1.1"
+      },
+      {
+        "producto": "cobre",
+        "tipo": "pais",
+        "pais": [
+          "USA",
+          "CAN"
+        ],
+        "texto": "Es una de las primeras regiones productoras de cobre (Utah, Arizona)",
+        "apartado": "4.1.1"
+      },
+      {
+        "producto": "niquel",
+        "tipo": "pais",
+        "pais": [
+          "CAN"
+        ],
+        "texto": "[El Escudo canadiense es rico en] níquel sobre todo en el área canadiense",
+        "apartado": "1.1.1"
+      }
+    ],
+    "energia": {
+      "datos": "datos/energia.json",
+      "desde": 1990,
+      "porDefecto": "USA",
+      "comparar": "CAN",
+      "paises": [
+        "USA",
+        "CAN",
+        "MEX",
+        "CHN",
+        "DEU",
+        "JPN",
+        "RUS",
+        "UE27",
+        "MUNDO"
+      ]
+    },
+    "agrario": {
+      "datos": "datos/agrario.json",
+      "comparadores": [
+        "MEX",
+        "BRA",
+        "CHN",
+        "AUS",
+        "RUS",
+        "EUU",
+        "WLD"
+      ]
+    }
+  },
+  "poblacion": {
+    "cuestionario": "cuestionarios/poblacion.json",
+    "porDefecto": "USA",
+    "comparar": "CAN",
+    "transicionComparar": "MEX",
+    "comparadores": [
+      "MEX",
+      "GBR",
+      "DEU",
+      "ESP",
+      "JPN",
+      "CHN",
+      "AUS",
+      "NAM",
+      "EUR",
+      "MUNDO"
+    ],
+    "explorador": {
+      "x": "fecundidad",
+      "y": "esperanza_vida",
+      "anio": 2024
+    }
+  },
+  "ciudades": {
+    "cuestionario": "cuestionarios/ciudades.json",
+    "datos": "datos/ciudades.json",
+    "archivo": "datos/metros.json",
+    "periodos": [
+      [
+        2000,
+        2025
+      ],
+      [
+        2020,
+        2025
+      ]
+    ],
+    "tramos": [
+      [
+        2000,
+        2010
+      ],
+      [
+        2010,
+        2020
+      ],
+      [
+        2020,
+        2025
+      ],
+      [
+        2000,
+        2025
+      ]
+    ],
+    "umbralJerarquia": 250,
+    "porDefecto": "USA",
+    "comparar": "CAN",
+    "etiquetas": 2500,
+    "trazados": [
+      {
+        "nombre": "1. Bos-Wash",
+        "tipo": "area",
+        "coords": [
+          [
+            -70.6,
+            42.9
+          ],
+          [
+            -71.4,
+            42.8
+          ],
+          [
+            -74.2,
+            41.4
+          ],
+          [
+            -75.7,
+            40.3
+          ],
+          [
+            -77.7,
+            39.1
+          ],
+          [
+            -77.4,
+            38.5
+          ],
+          [
+            -76.4,
+            38.8
+          ],
+          [
+            -74.6,
+            39.6
+          ],
+          [
+            -73.4,
+            40.5
+          ],
+          [
+            -71.0,
+            41.4
+          ],
+          [
+            -70.4,
+            41.9
+          ]
+        ],
+        "rotulo": [
+          -70.2,
+          40.6
+        ],
+        "nota": "Megalópolis atlántica, de Boston a Washington (figura 3.10).",
+        "visible": true
+      },
+      {
+        "nombre": "2. Chi-Pitts",
+        "tipo": "area",
+        "coords": [
+          [
+            -88.3,
+            43.4
+          ],
+          [
+            -87.4,
+            43.4
+          ],
+          [
+            -86.2,
+            42.4
+          ],
+          [
+            -83.2,
+            42.9
+          ],
+          [
+            -81.4,
+            41.9
+          ],
+          [
+            -79.5,
+            40.9
+          ],
+          [
+            -79.6,
+            40.1
+          ],
+          [
+            -81.0,
+            40.6
+          ],
+          [
+            -83.5,
+            41.2
+          ],
+          [
+            -86.0,
+            41.2
+          ],
+          [
+            -88.6,
+            41.5
+          ]
+        ],
+        "rotulo": [
+          -90.5,
+          44.6
+        ],
+        "nota": "Región de los Grandes Lagos, de Chicago a Pittsburgh (figura 3.10).",
+        "visible": true
+      },
+      {
+        "nombre": "3. Florida",
+        "tipo": "area",
+        "coords": [
+          [
+            -81.9,
+            30.6
+          ],
+          [
+            -81.2,
+            30.5
+          ],
+          [
+            -80.4,
+            28.4
+          ],
+          [
+            -79.9,
+            26.5
+          ],
+          [
+            -80.1,
+            25.4
+          ],
+          [
+            -80.6,
+            25.5
+          ],
+          [
+            -81.1,
+            26.5
+          ],
+          [
+            -82.9,
+            27.6
+          ],
+          [
+            -82.9,
+            28.4
+          ],
+          [
+            -82.0,
+            29.4
+          ]
+        ],
+        "rotulo": [
+          -85.6,
+          29.3
+        ],
+        "nota": "Jacksonville, Orlando, Tampa y Miami (figura 3.10).",
+        "visible": false
+      },
+      {
+        "nombre": "4. Piedemonte",
+        "tipo": "linea",
+        "coords": [
+          [
+            -78.64,
+            35.78
+          ],
+          [
+            -79.79,
+            36.07
+          ],
+          [
+            -80.84,
+            35.23
+          ],
+          [
+            -82.4,
+            34.85
+          ],
+          [
+            -84.39,
+            33.75
+          ]
+        ],
+        "rotulo": [
+          -83.6,
+          35.9
+        ],
+        "nota": "De Raleigh-Durham a Atlanta (figura 3.10).",
+        "visible": false
+      },
+      {
+        "nombre": "5. California",
+        "tipo": "area",
+        "coords": [
+          [
+            -123.0,
+            38.3
+          ],
+          [
+            -121.7,
+            38.4
+          ],
+          [
+            -120.8,
+            36.8
+          ],
+          [
+            -118.8,
+            34.8
+          ],
+          [
+            -116.6,
+            33.6
+          ],
+          [
+            -116.8,
+            32.5
+          ],
+          [
+            -117.4,
+            32.6
+          ],
+          [
+            -118.6,
+            33.9
+          ],
+          [
+            -120.6,
+            34.5
+          ],
+          [
+            -121.9,
+            36.4
+          ],
+          [
+            -122.7,
+            37.4
+          ]
+        ],
+        "rotulo": [
+          -125.5,
+          35.5
+        ],
+        "nota": "De San Francisco a San Diego (figura 3.10).",
+        "visible": true
+      },
+      {
+        "nombre": "6. Main Street",
+        "tipo": "linea",
+        "coords": [
+          [
+            -83.0,
+            42.3
+          ],
+          [
+            -81.25,
+            42.98
+          ],
+          [
+            -79.38,
+            43.65
+          ],
+          [
+            -76.5,
+            44.23
+          ],
+          [
+            -73.57,
+            45.5
+          ],
+          [
+            -71.21,
+            46.81
+          ]
+        ],
+        "rotulo": [
+          -77.5,
+          46.6
+        ],
+        "nota": "Corredor Quebec-Windsor, eje urbano de Canadá (figura 3.10).",
+        "visible": true
+      },
+      {
+        "nombre": "Meridiano 98° O",
+        "tipo": "linea",
+        "coords": [
+          [
+            -98,
+            25.8
+          ],
+          [
+            -98,
+            35
+          ],
+          [
+            -98,
+            45
+          ],
+          [
+            -98,
+            52
+          ]
+        ],
+        "rotulo": [
+          -97.6,
+          51
+        ],
+        "nota": "Límite de la aridez: al oeste, áreas metropolitanas escasas y aisladas.",
+        "visible": false
+      }
+    ],
+    "urbanizacion": {
+      "agregados": [
+        "norteamerica",
+        "NAM",
+        "DEV",
+        "EUR",
+        "WLD"
+      ],
+      "porDefecto": [
+        "norteamerica",
+        "USA",
+        "CAN",
+        "WLD"
+      ],
+      "comparadores": [
+        "GBR",
+        "DEU",
+        "JPN",
+        "CHN",
+        "BRA"
+      ]
+    },
+    "tamano": {
+      "comparadores": [
+        "MEX",
+        "UE27",
+        "JPN",
+        "CHN",
+        "WLD"
+      ]
+    },
+    "ventana": [
+      -126,
+      24,
+      -62,
+      56
+    ]
+  },
+  "paisajes": {
+    "archivo": "datos/paisajes.json"
+  }
+}

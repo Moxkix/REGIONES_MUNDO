@@ -1,0 +1,546 @@
+{
+ "revisado": "octubre de 2026",
+ "nota": "Afirmaciones del manual (edición de 2016, datos de 2014-2015) frente a los datos oficiales más recientes, a finales de octubre de 2026. Las cuestiones comerciales (T-MEC y aranceles) y la ley agraria están cambiando mes a mes: comprobad la fecha de cada dato.",
+ "items": [
+  {
+   "id": "explotaciones_agrarias",
+   "tema": "Agricultura",
+   "apartado": "3 y 3.1",
+   "manual": "Dimensión media de las explotaciones de 175 ha; las de más de 800 ha (3,7 % del total) poseen el 50 % de la superficie agraria; concentración de las explotaciones lecheras: en 2014 desaparecieron 1.634 y en los diez últimos años cerró el 32 % de las granjas.",
+   "actual": "Censo Agrario de 2022 (USDA NASS, publicado en febrero de 2024): 1.900.487 explotaciones (−6,9 % desde 2017), 880,1 millones de acres (356 millones de ha) y 463 acres (187 ha) de media; las explotaciones de 1.000 acres (405 ha) o más son el 9 % y reúnen el 73 % de la tierra, y las de 5.000 acres (2.023 ha) o más, el 2 % y el 42 %. Estimación anual del NASS para 2025 (febrero de 2026): 1.865.000 explotaciones, 873,95 millones de acres y 469 acres (190 ha) de media; las que venden un millón de dólares o más son el 6,2 % y explotan el 36,0 % de la tierra. Lácteo: 23.609 explotaciones con licencia en 2025, frente a 24.645 en 2024 (−4,2 %) y 45.344 a finales de 2014 (−48 % en once años), con una cabaña media de 9,5 millones de vacas.",
+   "nota": "Continúa la concentración: menos explotaciones y algo mayores (de 175 a unas 190 ha de media), con la tierra cada vez más en manos de las grandes. En el sector lácteo el número de granjas casi se ha reducido a la mitad desde 2014 sin que caiga la cabaña.",
+   "observaciones": "Los tramos de tamaño del censo no coinciden con el umbral de 800 ha del manual, así que la comparación es aproximada. El NASS cuenta como explotación toda unidad con ventas potenciales de al menos 1.000 dólares, lo que incluye muchas microexplotaciones. Los datos de 2025 son estimaciones por encuesta; el próximo censo agrario es el de 2027. La cifra de 2014 procede de Hoard's Dairyman citando al USDA (1.631 cierres en 2014 según esa fuente, frente a 1.634 en el manual).",
+   "fuentes": [
+    {
+     "titulo": "USDA NASS: 2022 Census of Agriculture Highlights - Farms and Farmland (2024)",
+     "url": "https://www.nass.usda.gov/Publications/Highlights/2024/Census22_HL_FarmsFarmland.pdf"
+    },
+    {
+     "titulo": "USDA NASS: Farms and Land in Farms 2025 Summary (febrero de 2026)",
+     "url": "https://esmis.nal.usda.gov/sites/default/release-files/795776/fnlo0226.txt"
+    },
+    {
+     "titulo": "USDA NASS: Milk Production (febrero de 2026; explotaciones lecheras con licencia 2024-2025)",
+     "url": "https://esmis.nal.usda.gov/sites/default/release-files/795784/mkpr0226.txt"
+    },
+    {
+     "titulo": "Hoard's Dairyman: Dairy decline in 2014 was smallest ever (45.344 explotaciones con licencia a final de 2014)",
+     "url": "https://hoards.com/blog-15097-Dairy-decline-in-2014-was-smallest-ever.html"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "trigo_maiz",
+   "tema": "Agricultura",
+   "apartado": "3.1",
+   "manual": "Tras China e India, EE. UU. ocupa el tercer lugar mundial en producción de trigo, seguido de Rusia y Canadá; es el mayor productor mundial de maíz.",
+   "actual": "USDA (WASDE de octubre de 2026), trigo en millones de toneladas: 2024/25 China 140,1; India 113,3; Rusia 81,6; EE. UU. 53,9; Canadá 35,9; Australia 34,1 (la UE en conjunto, 121,1). 2025/26 (estimación): China 140,1; India 118,0; Rusia 90,3; EE. UU. 54,1; Canadá 40,6; Australia 36,0. Maíz 2025/26: EE. UU. 430,9 Mt; China 301,2; Brasil 141,0; mundo 1.330,6.",
+   "nota": "EE. UU. ha bajado del tercer al cuarto puesto en trigo (por países), superado por Rusia; Canadá se mantiene quinto. En maíz sigue siendo el primer productor mundial, con casi un tercio del total.",
+   "observaciones": "Campañas comerciales, no años naturales, y estimaciones sujetas a revisión. Si se cuenta la UE como un bloque, quedaría por delante de India. No se usan las proyecciones de la campaña 2026/27, todavía en curso.",
+   "fuentes": [
+    {
+     "titulo": "USDA: World Agricultural Supply and Demand Estimates (WASDE), octubre de 2026",
+     "url": "https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.txt"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "farm_bill",
+   "tema": "Agricultura",
+   "apartado": "3.2",
+   "manual": "La última Ley Agraria de 2014 (Agricultural Act of 2014, conocida como Farm Bill 2014) estará en vigor hasta 2018.",
+   "actual": "Le sucedió la Agriculture Improvement Act of 2018 (Farm Bill 2018), vigente hasta el 30-9-2023 y prorrogada tres veces: P.L. 118-22 (16-11-2023, hasta el 30-9-2024), P.L. 118-158 (21-12-2024, hasta el 30-9-2025) y P.L. 119-37 (12-11-2025, hasta el 30-9-2026, para las disposiciones no reautorizadas en otras leyes). La ley de reconciliación presupuestaria One Big Beautiful Bill Act (P.L. 119-21, 4-7-2025) incluyó en su título I buena parte de la política agraria (programas de apoyo a precios y rentas, seguro agrario, comercio) y cambios en la ayuda alimentaria SNAP. Para una nueva ley agraria, la Cámara de Representantes aprobó el H.R. 7567 el 30-4-2026 (224 votos a favor y 200 en contra) y la Comisión de Agricultura del Senado aprobó la 'Agricultural Act of 2026' el 16-9-2026 (12-11). El 30-9-2026 expiraron las disposiciones del Farm Bill 2018 que no habían sido prorrogadas; a fecha de octubre de 2026 no se ha promulgado una nueva ley agraria completa.",
+   "nota": "El ciclo clásico de 'Farm Bill' quinquenal se ha roto: desde 2023 la política agraria se sostiene con prórrogas anuales y con partes clave aprobadas dentro de otras leyes.",
+   "observaciones": "Situación legislativa en curso; comprobad su estado en congress.gov. El detalle de los programas reautorizados por la P.L. 119-21 (por ejemplo, su horizonte temporal) no se ha verificado en el texto legal.",
+   "fuentes": [
+    {
+     "titulo": "Congressional Research Service: Farm Bills: Major Legislative Actions, 1965-2026 (R45210, 23-9-2026)",
+     "url": "https://www.everycrsreport.com/files/2026-09-23_R45210_5c72a15eceb49d3029c74fc8ad3720db914bc17c.html"
+    },
+    {
+     "titulo": "Feedstuffs: What farm bill expiration means for family farmers (octubre de 2026)",
+     "url": "https://www.feedstuffs.com/policy/what-farm-bill-expiration-means-for-family-farmers"
+    },
+    {
+     "titulo": "AgWeb: Another Temporary Fix: Stopgap Bill Includes Farm Bill Extension (11-11-2025)",
+     "url": "https://www.agweb.com/news/policy/politics/another-temporary-fix-stopgap-bill-includes-farm-bill-extension-new-normal-a"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "industria_pib",
+   "tema": "Industria y energía",
+   "apartado": "4 (introducción)",
+   "manual": "La industria supone el 32 % y el 21 % del producto interior bruto de Canadá y Estados Unidos, respectivamente.",
+   "actual": "Banco Mundial (actualización del 8-10-2026): industria (incluida la construcción) 27,4 % del PIB en Canadá (2022) y 17,6 % en EE. UU. (2021, último año disponible); manufactura 9,3 % del PIB en Canadá (2022) y 10,5 % en EE. UU. (2021).",
+   "nota": "El peso de la industria ha bajado en ambos países. La mayor cifra canadiense se debe sobre todo a la minería, el petróleo, el gas y la construcción; en manufactura, Canadá pesa hoy algo menos que EE. UU.",
+   "observaciones": "La serie del Banco Mundial no tiene datos de EE. UU. posteriores a 2021; el BEA publica cifras más recientes con su propia clasificación (no consultadas). El dato canadiense de 2022 está inflado por los altos precios de la energía de ese año (en 2020 fue del 22,7 %).",
+   "fuentes": [
+    {
+     "titulo": "Banco Mundial, API: Industry (including construction), value added (% of GDP), NV.IND.TOTL.ZS",
+     "url": "https://api.worldbank.org/v2/country/USA;CAN/indicator/NV.IND.TOTL.ZS?format=json&mrv=4"
+    },
+    {
+     "titulo": "Banco Mundial, API: Manufacturing, value added (% of GDP), NV.IND.MANF.ZS",
+     "url": "https://api.worldbank.org/v2/country/USA;CAN/indicator/NV.IND.MANF.ZS?format=json&mrv=4"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "automovil",
+   "tema": "Industria y energía",
+   "apartado": "4.1.2",
+   "manual": "En la industria del automóvil, tres compañías (General Motors, Ford y Chrysler) controlan la producción del 90 % de los automóviles.",
+   "actual": "Ventas de vehículos ligeros nuevos en EE. UU. en 2025 (unos 16,3 millones, estimación de Cox Automotive): GM 2.853.299 (≈17,5 %); Toyota 2.518.071 (≈15,4 %); Ford 2.204.124 (≈13,5 %); Hyundai y Kia 1.753.841 (≈10,8 %); Honda 1.430.577 (≈8,8 %); Stellantis, antigua Chrysler/FCA (1.260.344, ≈7,7 %); Nissan 926.153 (≈5,7 %). Las tres de Detroit suman en torno al 38,8 %; para el tercer trimestre de 2026 Cox estimaba esa cuota en torno al 36 %.",
+   "nota": "Las 'tres grandes' han pasado de dominar el mercado a tener menos del 40 %; Toyota es la segunda y el grupo Hyundai-Kia la cuarta. Chrysler forma parte de Stellantis desde 2021.",
+   "observaciones": "Cuotas calculadas sobre el total estimado de 16,3 millones con las ventas declaradas por los fabricantes (fuente secundaria especializada); Tesla no publica ventas por país y no se incluye. El manual habla de producción y se mide el mercado (ventas), que incluye importaciones y vehículos de marcas extranjeras fabricados en EE. UU.",
+   "fuentes": [
+    {
+     "titulo": "Cox Automotive: Forecast December 2025 - New-Vehicle Sales to Reach 16.3 Million in 2025",
+     "url": "https://www.coxautoinc.com/insights-hub/cox-automotive-forecast-dec-2025-u-s-auto-sales-forecast"
+    },
+    {
+     "titulo": "Best-Selling-Cars.com: 2025 (Full Year) USA - Top Light Vehicle and Car Manufacturers",
+     "url": "https://www.best-selling-cars.com/usa/2025-full-year-usa-top-light-vehicle-and-car-manufacturers-and-brands/"
+    },
+    {
+     "titulo": "Reuters: GM hangs on to US sales crown, but Toyota closes in (1-10-2026)",
+     "url": "https://www.reuters.com/business/autos-transportation/detroit-three-automakers-set-lose-market-share-asian-rivals-2026-10-01/"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "hidrocarburos",
+   "tema": "Industria y energía",
+   "apartado": "4.1.1",
+   "manual": "La producción de gas natural volvió a superar en 2014 las cifras de 1973 ('681.400 m3 anuales', en realidad millones de m³) y EE. UU. se ha convertido en el primer productor mundial de hidrocarburos (petróleo y gas natural).",
+   "actual": "EIA: en 2025 EE. UU. fue el primer productor mundial de crudo con 13,6 millones de barriles diarios (récord; 13,2 en 2024), un 40 % más que Rusia o Arabia Saudí, los siguientes. La producción de gas natural seco alcanzó el récord de 39 billones de pies cúbicos (unos 1.104.000 millones de m³), también la mayor del mundo. La producción total de energía primaria marcó otro récord (107 cuatrillones de BTU).",
+   "nota": "La afirmación del manual se mantiene y se refuerza: EE. UU. sigue siendo el primer productor de petróleo y de gas, y su producción de gas es en torno a un 60 % mayor que la cifra de 2014 citada.",
+   "observaciones": "Gas natural seco según la EIA; la cifra del manual puede corresponder a otra definición (gas comercializado), por lo que el aumento es aproximado. Conversión: 1 pie cúbico = 0,0283 m³. El texto del manual omite la unidad 'millones' en la cifra de 681.400.",
+   "fuentes": [
+    {
+     "titulo": "EIA, Today in Energy: The United States produced more crude oil than any other country in 2025 (9-7-2026)",
+     "url": "https://www.eia.gov/todayinenergy/detail.php?id=67844"
+    },
+    {
+     "titulo": "EIA, Today in Energy: The United States set record energy production in 2025, again (11-5-2026)",
+     "url": "https://www.eia.gov/todayinenergy/detail.php?id=67684"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "carbon",
+   "tema": "Industria y energía",
+   "apartado": "4.1.1",
+   "manual": "Posee unas reservas de carbón que suponen una tercera parte del total mundial; es importante la producción de hulla, la segunda después de China.",
+   "actual": "Producción de EE. UU. en 2025 (EIA): 533 millones de toneladas cortas (≈484 millones de toneladas métricas), +4 % respecto a 2024 tras dos años de descenso. Clasificación mundial de 2024 (EIA, todo tipo de carbón): China 4.402,5 Mt; India 1.012,9; Indonesia 836,0; Rusia 476,2; Australia 467,7; EE. UU. 464,9. Reservas probadas: EE. UU. conserva las mayores del mundo, con algo menos de una cuarta parte del total (≈23 % según la última serie del Energy Institute, con datos de 2020).",
+   "nota": "EE. UU. ha caído del 2.º al 6.º puesto como productor (entre el 4.º y el 6.º según el año, muy igualado con Rusia y Australia), y su peso en las reservas es de casi una cuarta parte, no de un tercio.",
+   "observaciones": "Las cifras de producción varían según la fuente y la definición (la AIE da 4.710 Mt para China en 2025) y según se incluya el lignito; el manual se refiere a la hulla. El porcentaje de reservas procede de la serie del Energy Institute, que no se actualiza desde 2020, y no se ha verificado directamente en esta revisión: tómese como orden de magnitud.",
+   "fuentes": [
+    {
+     "titulo": "EIA, Today in Energy: The United States set record energy production in 2025, again (11-5-2026)",
+     "url": "https://www.eia.gov/todayinenergy/detail.php?id=67684"
+    },
+    {
+     "titulo": "Wikipedia: List of countries by coal production (datos EIA International, 2024)",
+     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_coal_production"
+    },
+    {
+     "titulo": "AIE: Coal Mid-Year Update 2026 - Production",
+     "url": "https://www.iea.org/reports/coal-mid-year-update-2026/production"
+    },
+    {
+     "titulo": "Energy Institute: Statistical Review of World Energy",
+     "url": "https://www.energyinst.org/statistical-review"
+    },
+    {
+     "titulo": "EIA: Coal reserves (U.S.)",
+     "url": "https://www.eia.gov/coal/reserves/"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "hidro_nuclear_uranio",
+   "tema": "Industria y energía",
+   "apartado": "4.1.1",
+   "manual": "La energía hidroeléctrica es la primera del mundo en valores absolutos; actualmente se contabilizan 104 centrales nucleares; Canadá es la primera productora mundial de uranio.",
+   "actual": "Hidroelectricidad en 2025 (Energy Institute, Statistical Review 2026): China 1.392 TWh y Brasil 398 TWh; Canadá ocupa el 3.er puesto y EE. UU. el 4.º. Nuclear: la NRC regula 94 reactores comerciales en funcionamiento; la central de Palisades (Michigan), cerrada en 2022, prepara su reapertura sin fecha confirmada a julio de 2026. Uranio en 2024 (World Nuclear Association): Kazajistán 23.270 tU (39 %), Canadá 14.309 tU (24 %), Namibia 7.333 tU (12 %), Australia 4.598 tU; total mundial 60.213 tU.",
+   "nota": "EE. UU. ya no lidera la hidroelectricidad (China produce más de cinco veces más que Brasil, el segundo). El parque nuclear ha bajado de 104 a 94 reactores pese a la entrada de Vogtle 3 y 4 (2023-2024). Canadá es el segundo productor de uranio desde que Kazajistán lo superó en 2009.",
+   "observaciones": "No se han obtenido los valores de Canadá y EE. UU. en hidroelectricidad (solo su posición), y dependen mucho de la hidraulicidad del año (Canadá sufrió sequías en 2023-2024). El manual habla de 'centrales' cuando se refiere a reactores. La cifra de Uzbekistán en la serie de la WNA es una estimación.",
+   "fuentes": [
+    {
+     "titulo": "Global Note: Producción hidroeléctrica por países 2025 (datos Energy Institute)",
+     "url": "https://www.globalnote.jp/post-3229.html"
+    },
+    {
+     "titulo": "Energy Institute: Statistical Review of World Energy",
+     "url": "https://www.energyinst.org/statistical-review"
+    },
+    {
+     "titulo": "U.S. Nuclear Regulatory Commission: Operating Reactors",
+     "url": "https://www.nrc.gov/reactors/operating.html"
+    },
+    {
+     "titulo": "American Nuclear Society: Palisades - restart projects... but no restart date (8-7-2026)",
+     "url": "https://www.ans.org/news/2026-07-08/article-8187/palisades-restart-projects-holtec-ipo-lawsuit-dismissal-but-no-restart-date/"
+    },
+    {
+     "titulo": "World Nuclear Association: World Uranium Mining Production",
+     "url": "https://www.world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "tecnopolos",
+   "tema": "Industria y energía",
+   "apartado": "4.2, 4.3.2 y 4.3.3",
+   "manual": "Nuevas áreas dinámicas: Silicon Valley (valle de Santa Clara), el triángulo de Carolina del Norte (Research Triangle Park: Raleigh, Durham y Chapel Hill) y el complejo microelectrónico de Austin.",
+   "actual": "Research Triangle: el área metropolitana de Raleigh-Cary alcanzó 1.595.720 habitantes el 1-7-2025 (+2,4 % en un año), entre las diez de mayor crecimiento relativo del país; Austin-Round Rock-San Marcos (2.620.945) fue la 6.ª en crecimiento absoluto (+53.796). Silicon Valley: el área de San Francisco-Oakland-Fremont tenía 4.630.041 habitantes en 2025, un 2,5 % menos que en 2020, y la CSA de San José-San Francisco-Oakland suma 9.140.485.",
+   "nota": "Los tecnopolos del Sur (Raleigh-Durham, Austin) figuran entre las áreas de mayor crecimiento, mientras que el área de la bahía de San Francisco pierde población desde 2020 pese a su peso tecnológico.",
+   "observaciones": "Indicadores demográficos, no económicos: no se han verificado cifras de empleo tecnológico ni de inversión. La MSA de San José no se ha consultado por separado.",
+   "fuentes": [
+    {
+     "titulo": "U.S. Census Bureau: Slow Growth Impacts Nation's Largest Counties Hardest (CB26-56, 26-3-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/2025-popest-metro-micro-counties.html"
+    },
+    {
+     "titulo": "Wikipedia: Metropolitan statistical area (tabla con estimaciones del Census a 1-7-2025)",
+     "url": "https://en.wikipedia.org/wiki/Metropolitan_statistical_area"
+    },
+    {
+     "titulo": "Wikipedia: Combined statistical area (tabla con estimaciones del Census a 1-7-2025)",
+     "url": "https://en.wikipedia.org/wiki/Combined_statistical_area"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "poblacion_total",
+   "tema": "Población y ciudades",
+   "apartado": "5.1 (Cuadro 3.1)",
+   "manual": "Población en 2015: Canadá 35,5 millones y Estados Unidos 325,2 millones; población proyectada en 2050: Canadá 48,4 millones y Estados Unidos 395,3 millones (Population Reference Bureau).",
+   "actual": "Estados Unidos: 341.784.857 habitantes a 1 de julio de 2025 (estimación Vintage 2025 del Census Bureau, 27-1-2026). Canadá: 41.798.407 habitantes a 1 de julio de 2026 (estimación preliminar de Statistics Canada, 23-9-2026). Proyecciones: Naciones Unidas (WPP 2024, variante media) prevé para 2050 unos 380,8 millones en EE. UU. y 45,6 millones en Canadá; la CBO (7-1-2026) proyecta para EE. UU. 349 millones en 2026 y 364 millones en 2056; la última proyección del Census Bureau (9-11-2023) sitúa el máximo en casi 370 millones hacia 2080 y 366 millones en 2100; Statistics Canada (27-1-2026) proyecta para 2075 57,4 millones en el escenario medio (44,0 en el bajo y 75,8 en el alto).",
+   "nota": "Canadá ha ganado unos 6,3 millones de habitantes desde la cifra del manual (+17,7 %), frente a +5,1 % en EE. UU. respecto a los 325,2 millones del cuadro. Las proyecciones para 2050 son hoy más bajas que las del manual en ambos países, sobre todo en EE. UU. (entre 364 y 381 millones según la fuente, frente a 395,3).",
+   "observaciones": "Son estimaciones intercensales, no censos: Canadá publicará los resultados del censo de 2026 el 10-2-2027 y las series se revisarán. La cifra del manual para EE. UU. en 2015 (325,2 M, PRB) es más alta que la estimación oficial de entonces (unos 321 M). Las proyecciones de la ONU son de julio de 2024, anteriores al desplome migratorio de 2025, y probablemente sobrestiman; la CBO ya incorpora ese descenso. Las cifras de la ONU para 2050 se han tomado de PopulationPyramid.net, que reproduce la WPP 2024.",
+   "fuentes": [
+    {
+     "titulo": "U.S. Census Bureau: U.S. Population Growth Slows Due to Historic Decline in Net International Migration (27-1-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Canada's population estimates: Age and gender, 2026 (23-9-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.htm"
+    },
+    {
+     "titulo": "Naciones Unidas: World Population Prospects 2024",
+     "url": "https://population.un.org/wpp/"
+    },
+    {
+     "titulo": "PopulationPyramid.net: World Population in 2050 (datos WPP 2024, variante media)",
+     "url": "https://www.populationpyramid.net/world-population-in-2050/"
+    },
+    {
+     "titulo": "Congressional Budget Office: The Demographic Outlook: 2026 to 2056 (7-1-2026)",
+     "url": "https://www.cbo.gov/publication/61879"
+    },
+    {
+     "titulo": "U.S. Census Bureau: U.S. Population Projected to Begin Declining in Second Half of Century (9-11-2023)",
+     "url": "https://www.census.gov/newsroom/press-releases/2023/population-projections.html"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Population projections for Canada, provinces and territories, 2025 to 2075 (27-1-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260127/dq260127a-eng.htm"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "dinamica_natural",
+   "tema": "Población y ciudades",
+   "apartado": "5.1 (Cuadro 3.1)",
+   "manual": "Tasa de crecimiento anual (2015): Canadá 1 % y EE. UU. 0,77 %; fecundidad 1,6 y 1,9 hijos por mujer; esperanza de vida 81,5 y 78,5 años; natalidad 11 y 13 ‰; mortalidad 7,4 y 8,2 ‰.",
+   "actual": "Crecimiento: EE. UU. +0,5 % entre julio de 2024 y julio de 2025 (+1.781.060 habitantes; crecimiento natural de unos 519.000); Canadá +0,5 % entre julio de 2025 y julio de 2026 (+189.425), el menor crecimiento porcentual desde 1915-1916. Fecundidad: EE. UU. 1,60 hijos por mujer en 2024 (dato definitivo, 1.599,5 por 1.000 mujeres, mínimo histórico); en 2025 hubo 3.606.400 nacimientos (provisional, −1 %) y la tasa general de fecundidad bajó a 53,1 por 1.000 mujeres de 15-44 años. Canadá: 1,26 hijos por mujer en 2025, igual que en 2024 (mínimo histórico). Esperanza de vida al nacer en 2024: EE. UU. 79,0 años (hombres 76,5; mujeres 81,4), récord; Canadá 82,16 años (hombres 80,03; mujeres 84,29). Tasas brutas de 2024 (cálculo propio con cifras oficiales): natalidad ≈10,7 ‰ en EE. UU. (3.628.934 nacimientos) y ≈8,8 ‰ en Canadá (365.737); mortalidad ≈9,0 ‰ en EE. UU. (3.072.666 defunciones) y ≈7,9 ‰ en Canadá (326.779).",
+   "nota": "La fecundidad ha caído con fuerza en ambos países (Canadá ya está en el grupo de 'fecundidad ultrabaja', por debajo de 1,3) y la natalidad bruta ha bajado 2-3 puntos; la mortalidad bruta de EE. UU. sube por el envejecimiento aunque la esperanza de vida se recupera tras la COVID-19. El crecimiento anual se ha reducido a la mitad o menos por el freno de la inmigración, y la CBO prevé que en EE. UU. las defunciones superen a los nacimientos a partir de 2030.",
+   "observaciones": "Las tasas brutas son cálculos propios (nacimientos o defunciones divididos por la población estimada) y pueden diferir ligeramente de las publicadas. El informe provisional de nacimientos de 2025 del NCHS no incluye la fecundidad total; la CBO la estima en 1,60 para 2025 y 1,58 para 2026. Statistics Canada había difundido 1,25 para 2024 y ahora da 1,26 (revisión). Los datos de mortalidad de Canadá para 2024 son preliminares.",
+   "fuentes": [
+    {
+     "titulo": "U.S. Census Bureau: U.S. Population Growth Slows Due to Historic Decline in Net International Migration (27-1-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Canada's population estimates: Age and gender, 2026 (23-9-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.htm"
+    },
+    {
+     "titulo": "CDC/NCHS: Births: Final Data for 2024 (NVSR vol. 75, n.º 2, 9-6-2026)",
+     "url": "https://www.cdc.gov/nchs/data/nvsr/nvsr75/nvsr75-02.pdf"
+    },
+    {
+     "titulo": "CDC/NCHS: U.S. Births down 1% in 2025 (9-4-2026)",
+     "url": "https://www.cdc.gov/nchs/pressroom/releases/20260409.html"
+    },
+    {
+     "titulo": "CDC/NCHS: Mortality in the United States, 2024 (Data Brief 548, 29-1-2026)",
+     "url": "https://www.cdc.gov/nchs/products/databriefs/db548.htm"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Fertility and baby names, 2025 (23-9-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923e-eng.htm"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Deaths, 2024 (13-1-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260113/dq260113b-eng.htm"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Births, 2024 (24-9-2025)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250924/dq250924c-eng.htm"
+    },
+    {
+     "titulo": "CBO: The Demographic Outlook: 2026 to 2056 (PDF)",
+     "url": "https://www.cbo.gov/system/files/2026-01/61879-Demographic-Outlook.pdf"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "inmigracion",
+   "tema": "Población y ciudades",
+   "apartado": "5.1",
+   "manual": "La inmigración ha actuado como importante motor del crecimiento demográfico y explica la estructura demográfica y la variada composición étnica y social.",
+   "actual": "EE. UU.: la migración internacional neta bajó de unos 2,7 millones (julio de 2023-julio de 2024) a 1,3 millones (julio de 2024-julio de 2025), según el Census Bureau, que calcula unas 321.000 personas para 2025-2026 si continúan las tendencias; la CBO estima una inmigración neta de 0,42 millones en 2025 y 0,57 millones en 2026 (años naturales). Canadá: tras crecer más de un 3 % en 2023 por la llegada de residentes temporales, el Gobierno rebajó los objetivos en los planes de niveles 2025-2027 (24-10-2024) y 2026-2028 (4-11-2025): 380.000 residentes permanentes al año en 2026-2028 (el objetivo era 485.000 para 2024 y 395.000 para 2025), 385.000 llegadas de residentes temporales en 2026 y 370.000 en 2027 y 2028, y la meta de reducir los residentes no permanentes por debajo del 5 % de la población a finales de 2027. Entre julio de 2025 y julio de 2026 llegaron 368.224 inmigrantes y los residentes no permanentes disminuyeron en 154.614, hasta 2.779.774 (6,7 % de la población).",
+   "nota": "La inmigración sigue siendo el principal componente del crecimiento, pero en 2025-2026 ambos países han vivido el mayor frenazo migratorio en décadas, por decisiones políticas en los dos casos. En Canadá el saldo de residentes temporales es ahora negativo.",
+   "observaciones": "Census Bureau (julio-junio) y CBO (año natural) usan periodos y métodos distintos; la cifra de 321.000 para 2025-2026 es una proyección condicional. En Canadá, las estimaciones preliminares de algunos trimestres mostraron descensos de población (p. ej., −76.068 en el tercer trimestre de 2025), pero la revisión del 23-9-2026 da 41.723.923 habitantes el 1-10-2025, 41.716.698 el 1-1-2026 y 41.718.064 el 1-4-2026, es decir, casi estancamiento. El plan de niveles 2027-2029 debía presentarse hacia el 1-11-2026; a la fecha de consulta la web del IRCC seguía mostrando como vigente el de 2026-2028.",
+   "fuentes": [
+    {
+     "titulo": "U.S. Census Bureau: New Population Estimates Show Historic Decline in Net International Migration (blog, 27-1-2026)",
+     "url": "https://www.census.gov/newsroom/blogs/random-samplings/2026/01/historic-decline-in-net-international-migration.html"
+    },
+    {
+     "titulo": "U.S. Census Bureau: U.S. Population Growth Slows Due to Historic Decline in Net International Migration (27-1-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+    },
+    {
+     "titulo": "CBO: The Demographic Outlook: 2026 to 2056 (PDF)",
+     "url": "https://www.cbo.gov/system/files/2026-01/61879-Demographic-Outlook.pdf"
+    },
+    {
+     "titulo": "IRCC: Supplementary Information for the 2026-2028 Immigration Levels Plan (4-11-2025)",
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028"
+    },
+    {
+     "titulo": "IRCC: Levels (nota para el Comité CIMM, 18-11-2025)",
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-nov-18-2025/levels.html"
+    },
+    {
+     "titulo": "IRCC: Canada's immigration levels",
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels.html"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Canada's population estimates: Age and gender, 2026 (23-9-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.htm"
+    },
+    {
+     "titulo": "Statistics Canada, The Daily: Canada's population estimates, second quarter 2026 (23-9-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923b-eng.htm"
+    },
+    {
+     "titulo": "Statistics Canada, tabla 17-10-0009-01: Population estimates, quarterly",
+     "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "estructura_edades",
+   "tema": "Población y ciudades",
+   "apartado": "5.1",
+   "manual": "En 2015 la población menor de 15 años representa en Canadá el 16 % y en EE. UU. el 19 %, y la mayor de 65 años el 15 % y el 14 %, respectivamente; 'no se trata de una población envejecida'.",
+   "actual": "Canadá (1-7-2026, Statistics Canada): 15,0 % de 0 a 14 años y 20,0 % de 65 y más; edad mediana 40,9 años. EE. UU. (1-7-2025, Census Bureau): 64.617.088 personas de 65 y más (18,9 %) y unos 72,0 millones de menores de 18 (21,1 %); el Banco Mundial (estimación basada en la ONU) da un 17,1 % de menores de 15 en 2025; edad mediana 39,4 años.",
+   "nota": "La proporción de mayores de 65 ha subido unos 5 puntos en ambos países en una década. En Canadá ya hay más mayores de 65 que menores de 15 (20 % frente a 15 %); en EE. UU. la diferencia se ha estrechado mucho (19 % frente a 17 %), por lo que la afirmación de que no es una población envejecida ha perdido validez.",
+   "observaciones": "El Census Bureau no da en sus notas de prensa la proporción de 0 a 14 años; el 17,1 % procede del Banco Mundial y no coincide exactamente con la serie del Census (el Banco Mundial da 18,4 % de mayores de 65 frente al 18,9 % del Census). La cifra de menores de 18 es cálculo propio por diferencia a partir de la tabla 1 del Census (25-6-2026).",
+   "fuentes": [
+    {
+     "titulo": "Statistics Canada, The Daily: Canada's population estimates: Age and gender, 2026 (23-9-2026)",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.htm"
+    },
+    {
+     "titulo": "U.S. Census Bureau: Populations in All Age Groups Growing in the South (CB26-105, 25-6-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
+    },
+    {
+     "titulo": "U.S. Census Bureau: Women Still Outnumbered Men Among the Oldest (9-4-2026; edad mediana 2025)",
+     "url": "https://www.census.gov/library/stories/2026/04/age-and-sex.html"
+    },
+    {
+     "titulo": "Banco Mundial, API: Population ages 0-14 (% of total), SP.POP.0014.TO.ZS",
+     "url": "https://api.worldbank.org/v2/country/USA;CAN/indicator/SP.POP.0014.TO.ZS?format=json&mrv=2"
+    },
+    {
+     "titulo": "Banco Mundial, API: Population ages 65 and above (% of total), SP.POP.65UP.TO.ZS",
+     "url": "https://api.worldbank.org/v2/country/USA;CAN/indicator/SP.POP.65UP.TO.ZS?format=json&mrv=2"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "urbanizacion",
+   "tema": "Población y ciudades",
+   "apartado": "6 (introducción)",
+   "manual": "Según el World Population Data Sheet, EE. UU. posee el 81 % de población urbana y Canadá el 80 % (2015).",
+   "actual": "Banco Mundial (serie basada en las World Urbanization Prospects de la ONU, actualizada el 8-10-2026): población urbana en 2025 del 80,2 % en EE. UU. y del 82,9 % en Canadá. Según el censo de 2020 de EE. UU., con los nuevos criterios de área urbana, el 80,0 % de la población era urbana.",
+   "nota": "Las proporciones apenas han cambiado; Canadá figura ahora algo por encima de EE. UU. La cifra estadounidense es incluso menor que la del manual porque el censo de 2020 endureció la definición de 'urbano'.",
+   "observaciones": "Las cifras dependen de la definición nacional (EE. UU.: áreas con al menos 2.000 viviendas o 5.000 habitantes; Canadá: centros de población de 1.000 o más habitantes y 400 hab./km²); el umbral de 20.000 habitantes que cita el manual no es el que usan estas series. La ONU (WUP 2025) introduce además el método armonizado 'Degree of Urbanisation', con resultados distintos, que no se usa aquí.",
+   "fuentes": [
+    {
+     "titulo": "Banco Mundial, API: Urban population (% of total population), SP.URB.TOTL.IN.ZS",
+     "url": "https://api.worldbank.org/v2/country/USA;CAN/indicator/SP.URB.TOTL.IN.ZS?format=json&mrv=3"
+    },
+    {
+     "titulo": "U.S. Census Bureau: Urban and Rural (criterios del censo de 2020)",
+     "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "aglomeraciones",
+   "tema": "Población y ciudades",
+   "apartado": "6.1 (Cuadro 3.3)",
+   "manual": "Grandes aglomeraciones (Calendario Atlante de Agostini 2016): Nueva York 20,1 M; Los Ángeles 13,3; Chicago 9,6; Dallas 7,0; Houston 6,5; Toronto 6,1; Filadelfia 6,1; Washington 6,0; Miami 5,9; Atlanta 5,6; Boston 4,7; San Francisco 4,6; Phoenix 4,5.",
+   "actual": "Áreas metropolitanas (MSA) de EE. UU. a 1-7-2025 (Census Bureau, Vintage 2025): Nueva York 20.112.448; Los Ángeles 12.844.441; Chicago 9.434.123; Dallas-Fort Worth 8.477.157; Houston 7.904.627; Atlanta 6.482.182; Washington 6.465.724; Miami 6.391.072; Filadelfia 6.329.118; Phoenix 5.228.938; Boston 5.034.221; Riverside-San Bernardino 4.769.007; San Francisco-Oakland 4.630.041. Toronto (CMA, Statistics Canada, límites de 2021): 7.108.874 a 1-7-2025 (7.109.866 en 2024); Montreal 4.597.837 y Vancouver 3.088.036. Orden conjunto de las ciudades del cuadro: Nueva York, Los Ángeles, Chicago, Dallas, Houston, Toronto, Atlanta, Washington, Miami, Filadelfia, Phoenix, Boston y San Francisco.",
+   "nota": "Dallas sigue por delante de Houston (4.ª y 5.ª), y ambas fueron las que más crecieron en 2024-2025 (+123.557 y +126.720). Atlanta pasa del 10.º al 7.º puesto y supera a Washington, Miami y Filadelfia; Toronto es la 6.ª. Los Ángeles y San Francisco pierden población desde 2020 (−2,7 % y −2,5 %), mientras crecen las metrópolis del Sun Belt.",
+   "observaciones": "Las MSA usan la delimitación de la OMB de 2023 (cambian nombres y algunos condados respecto a 2016) y las cifras del Calendario Atlante mezclaban definiciones, de modo que la comparación es orientativa. Las cifras de las MSA proceden de la tabla del Census reproducida en Wikipedia; las de Dallas, Houston, Atlanta, Washington y Phoenix se han verificado en la nota de prensa del Census del 26-3-2026. La CMA de Toronto apenas varió entre 2024 y 2025 y se revisará con el censo de 2026.",
+   "fuentes": [
+    {
+     "titulo": "U.S. Census Bureau: Slow Growth Impacts Nation's Largest Counties Hardest (CB26-56, 26-3-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/2025-popest-metro-micro-counties.html"
+    },
+    {
+     "titulo": "U.S. Census Bureau: Metropolitan and Micropolitan Statistical Areas Population Totals, 2020-2025",
+     "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html"
+    },
+    {
+     "titulo": "Wikipedia: Metropolitan statistical area (tabla con estimaciones del Census a 1-7-2025)",
+     "url": "https://en.wikipedia.org/wiki/Metropolitan_statistical_area"
+    },
+    {
+     "titulo": "Statistics Canada, tabla 17-10-0148-01: Population estimates, July 1, by CMA and CA, 2021 boundaries",
+     "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014801"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "megalopolis",
+   "tema": "Población y ciudades",
+   "apartado": "6.2.1 y 4.3.1",
+   "manual": "Bos-Wash (Boston, Nueva York, Filadelfia, Baltimore y Washington) tiene más de 30 millones de habitantes; en la Megalópolis, 'que representa el 2 % de la superficie estadounidense, vive aproximadamente el 20 % de la población'; Chi-Pitts (Milwaukee, Chicago, Detroit, Cleveland y Pittsburgh) supera los 25 millones; el área de California (San Diego, Los Ángeles y San Francisco) supera los 20 millones.",
+   "actual": "No existe una cifra oficial de 'megalópolis'. Suma de las áreas estadísticas combinadas (CSA) a 1-7-2025: Bos-Wash = Boston-Worcester-Providence 8.521.063 + Nueva York-Newark 22.535.017 + Filadelfia-Reading-Camden 7.493.171 + Washington-Baltimore-Arlington 10.274.894 = 48,8 millones (14,3 % de la población de EE. UU.); Chi-Pitts = Chicago-Naperville 9.965.292 + Detroit-Warren-Ann Arbor 5.416.003 + Cleveland-Akron-Canton 3.743.802 + Pittsburgh 2.725.198 = 21,9 millones (sin Milwaukee); California = CSA de Los Ángeles 18.444.299 + MSA de San Diego 3.282.248 + CSA de San José-San Francisco-Oakland 9.140.485 = 30,9 millones (33,6 con Sacramento). Como referencia, la Regional Plan Association (America 2050) estimaba para 2010 52,3 millones en la megarregión del Nordeste (17 % de EE. UU.), 55,5 en la de los Grandes Lagos (18 %), 24,4 en el sur de California y 14,0 en el norte.",
+   "nota": "Bos-Wash duplica con creces los 30 millones del manual (49-52 millones según el perímetro), pero su peso relativo ronda el 14-17 %, no el 20 %. Chi-Pitts depende mucho de la delimitación: las cuatro CSA principales suman unos 22 millones y la megarregión de los Grandes Lagos supera los 55. California supera ampliamente los 20 millones.",
+   "observaciones": "Sumas propias de CSA (definiciones de la OMB de 2023) a partir de la tabla del Census reproducida en Wikipedia; se omiten áreas intermedias (p. ej., Hartford, Milwaukee o Fresno). Las megarregiones de America 2050 son de 2010 y llevan proyecciones antiguas. No hay un cálculo oficial reciente del porcentaje de superficie; el '2 %' procede de la bibliografía clásica.",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Combined statistical area (tabla con estimaciones del Census a 1-7-2025)",
+     "url": "https://en.wikipedia.org/wiki/Combined_statistical_area"
+    },
+    {
+     "titulo": "U.S. Census Bureau: Metropolitan and Micropolitan Statistical Areas Population Totals, 2020-2025",
+     "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html"
+    },
+    {
+     "titulo": "Wikipedia: Megaregions of the United States (datos de America 2050 / Regional Plan Association)",
+     "url": "https://en.wikipedia.org/wiki/Megaregions_of_the_United_States"
+    },
+    {
+     "titulo": "Regional Plan Association / America 2050: Defining U.S. Megaregions",
+     "url": "https://s3.us-east-1.amazonaws.com/rpa-org/pdfs/2050-Paper-Defining-US-Megaregions.pdf"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "sunbelt_frostbelt",
+   "tema": "Población y ciudades",
+   "apartado": "4.2 y 5.2",
+   "manual": "Se habla de un Frost Belt o Rust Belt frente a un renaciente Sun Belt; 'sin embargo, desde finales del pasado siglo el Sun Belt ha registrado un estancamiento económico', mientras el noreste mantiene la mayoría de las sedes y el núcleo financiero.",
+   "actual": "Census Bureau (Vintage 2025): entre el 1-4-2020 y el 1-7-2025 el Sur creció un 6,0 % (casi el doble que el país, 3,1 %), el Oeste un 1,9 %, el Medio Oeste un 1,1 % y el Nordeste un 0,7 %. El Sur tiene 133.833.983 habitantes (39,2 % del total) y Sur y Oeste juntos el 62,6 %. Mayores crecimientos 2020-2025 (cálculo propio): Idaho +10,4 %, Florida +8,9 %, Carolina del Sur +8,8 %, Texas +8,8 % y Utah +8,2 %; pierden población, entre otros, Nueva York (−1,0 %), Illinois (−0,8 %) y California (−0,5 %). En 2024-2025 el estado que más creció fue Carolina del Sur (+1,5 %) y en cifras absolutas Texas (+391.243); perdieron población California, Hawái, Nuevo México, Vermont y Virginia Occidental. El crecimiento del Sur bajó del 1,4 % (2023-2024) al 0,9 % (2024-2025) por la caída de la inmigración.",
+   "nota": "El desplazamiento hacia el Sun Belt continúa y se ha intensificado: el Sur concentra casi dos de cada cinco estadounidenses y la mayor parte del crecimiento, lo que matiza la idea de 'estancamiento' del manual. California, antiguo motor del Sun Belt, pierde población.",
+   "observaciones": "Se usan las regiones censales oficiales; el Sun Belt no es una región estadística. Las variaciones 2020-2025 por estado se han calculado con la base de estimación de abril de 2020 y la lista de estados con pérdidas no es exhaustiva. Son datos demográficos; no se han comprobado indicadores económicos ni la localización de sedes empresariales.",
+   "fuentes": [
+    {
+     "titulo": "U.S. Census Bureau: Populations in All Age Groups Growing in the South (CB26-105, 25-6-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
+    },
+    {
+     "titulo": "U.S. Census Bureau: U.S. Population Growth Slows Due to Historic Decline in Net International Migration (27-1-2026)",
+     "url": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "pib_mundial",
+   "tema": "Economía y comercio",
+   "apartado": "Conclusión",
+   "manual": "Las grandes empresas norteamericanas gestionan una gran parte de las riquezas del planeta, 'controlando casi un tercio de la actividad económica mundial'.",
+   "actual": "FMI (base de datos del World Economic Outlook consultada el 1-11-2026): PIB nominal de EE. UU. de 30,86 billones de dólares en 2025 (26,0 % del mundial) y 32,64 billones previstos para 2026 (25,5 %); en paridad de poder adquisitivo, 14,6 % del PIB mundial en 2025 y en 2026. Canadá: 2,32 billones de dólares en 2025 (2,0 % del PIB nominal mundial) y 1,3 % en PPA.",
+   "nota": "El peso de EE. UU. ronda la cuarta parte del PIB mundial a precios corrientes y la séptima parte en paridad de poder adquisitivo; 'casi un tercio' solo se aproximó a la realidad a comienzos de la década de 2000.",
+   "observaciones": "Las cifras de 2026 son previsiones. El porcentaje nominal depende mucho del tipo de cambio del dólar. Por la fecha, los datos corresponden probablemente a la edición de octubre de 2026 del WEO, pero la etiqueta de edición no figura en la respuesta de la API. La frase del manual mezcla actividad de multinacionales y PIB, que no son equivalentes.",
+   "fuentes": [
+    {
+     "titulo": "FMI, DataMapper (WEO): GDP, current prices (NGDPD) - EE. UU., Canadá y mundo",
+     "url": "https://www.imf.org/external/datamapper/api/v1/NGDPD/USA/CAN/WEOWORLD?periods=2025,2026"
+    },
+    {
+     "titulo": "FMI, DataMapper (WEO): GDP based on PPP, share of world (PPPSH)",
+     "url": "https://www.imf.org/external/datamapper/api/v1/PPPSH/USA/CAN?periods=2025,2026"
+    }
+   ],
+   "fecha": ""
+  },
+  {
+   "id": "tmec_aranceles",
+   "tema": "Economía y comercio",
+   "apartado": "No tratado en el manual",
+   "manual": "El manual no trata el marco comercial norteamericano (TLCAN/NAFTA, sustituido por el T-MEC en 2020).",
+   "actual": "El T-MEC (USMCA/CUSMA), en vigor desde el 1-7-2020, celebró su primera revisión conjunta el 1-7-2026: México y Canadá confirmaron su voluntad de prorrogarlo otros 16 años, pero EE. UU. declinó hacerlo 'en su forma actual', lo que abre revisiones anuales hasta que haya acuerdo o hasta su expiración el 1-7-2036. Aranceles: en 2025 EE. UU. impuso a Canadá aranceles al amparo de la ley de emergencias IEEPA (25 % desde marzo y 35 % desde agosto de 2025, con exención para los bienes conformes al T-MEC) y aranceles de la sección 232 (acero y aluminio, automóviles, madera, etc.). El Tribunal Supremo anuló los aranceles IEEPA el 20-2-2026 (Learning Resources v. Trump); se sustituyeron por un arancel global temporal del 10 % (sección 122, desde el 24-2-2026, con exención T-MEC) que expiró el 24-7-2026 y fue reemplazado por aranceles de la sección 301 a 60 economías y por un arancel adicional del 50 % de la sección 338 sobre una lista de productos canadienses (lácteos, bebidas alcohólicas, productos de madera distintos de la madera de coníferas, maquinaria, textiles, entre otros), en vigor desde el 22-8-2026 y sin exención T-MEC. Canadá respondió con recargos de represalia ampliados desde el 8-9-2026. Los aranceles de la sección 232 siguen vigentes.",
+   "nota": "El marco comercial norteamericano ha pasado de la estabilidad del TLCAN a un periodo de revisión anual del tratado y de aranceles cruzados entre EE. UU. y Canadá.",
+   "observaciones": "Situación muy cambiante; las fuentes son despachos jurídicos y guías aduaneras que resumen textos oficiales (la de Zonos se actualizó el 26-10-2026). No se han verificado todos los tipos de la sección 232 ni la lista completa de productos de la sección 338 Para la situación del día, consultad USTR, la Casa Blanca y el Gobierno de Canadá.",
+   "fuentes": [
+    {
+     "titulo": "White & Case: USMCA 2026 Joint Review - United States declines to extend Agreement, triggering annual reviews",
+     "url": "https://www.whitecase.com/insight-alert/usmca-2026-joint-review-united-states-declines-extend-agreement-triggering-annual"
+    },
+    {
+     "titulo": "IISD Investment Treaty News: United States Declines to Renew USMCA at First Joint Review (9-9-2026)",
+     "url": "https://www.iisd.org/itn/2026/09/09/united-states-declines-to-renew-usmca-at-first-joint-review-triggering-annual-reviews/"
+    },
+    {
+     "titulo": "Osler: U.S. Supreme Court strikes down IEEPA tariffs, but global tariff introduced (febrero-marzo de 2026)",
+     "url": "https://www.osler.com/en/insights/updates/u-s-supreme-court-strikes-down-ieepa-tariffs-but-global-tariff-introduced/"
+    },
+    {
+     "titulo": "Cleary Gottlieb: Trump Administration Imposes New Section 301 Tariffs on 60 Trading Partners, New Section 338 Tariffs on Canada (3-8-2026)",
+     "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/trump-administration-imposes-new-section-301-tariffs-on-60-trading-partners"
+    },
+    {
+     "titulo": "Osler: Elbows back up - U.S. section 338 tariffs, Canada's retaliatory surtaxes and the current tariff landscape (10-9-2026)",
+     "url": "https://www.osler.com/en/insights/updates/elbows-back-up-u-s-section-338-tariffs-canada-retaliatory-surtaxes-current-landscape/"
+    },
+    {
+     "titulo": "Zonos Docs: Section 338 Tariffs on Canada (actualizado 26-10-2026)",
+     "url": "https://zonos.com/docs/guides/country-guides/united-states/section-338-canada-tariffs"
+    }
+   ],
+   "fecha": ""
+  }
+ ]
+}

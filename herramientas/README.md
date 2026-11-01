@@ -58,6 +58,19 @@ python3 herramientas/koppen_region.py kgcpy/kmz_int_reshape.png koppen_b.geojson
 
 Los dos recortes de Köppen se unen con mapshaper (`-merge-layers`), se recortan con `tierra50.geojson` y se simplifican al 20 %. El segundo cubre el extremo de Chukotka al otro lado del antimeridiano.
 
+## Capas de Norteamérica
+
+`norteamerica_capas.py` agrupa las unidades de Natural Earth en las ocho grandes unidades de relieve de la figura 3.1 del manual y rellena los huecos que dejan dentro de Estados Unidos y Canadá (por celdas de 1°, con la unidad más próxima o con las zonas fijadas a mano según la figura). Escribe también `estados.geojson` (estados y provincias de Natural Earth admin-1, con su código ISO 3166-2) y `puntos.json` (picos, ciudades, regiones industriales de la figura 3.9 y recursos).
+
+```
+python3 herramientas/norteamerica_capas.py ne_10m_geography_regions_polys.geojson ne_50m_admin_1_states_provinces.geojson carpeta_temporal
+mapshaper carpeta_temporal/relieve.geojson -clip tierra50.geojson -simplify 12% keep-shapes \
+  -rename-layers relieve -o format=topojson quantization=1e5 regiones/norteamerica/capas/relieve.json
+python3 herramientas/koppen_region.py kgcpy/kmz_int_reshape.png koppen.geojson --bbox -172 22 -50 84 --factor 6 --suavizado 3
+```
+
+Los datos por estado y provincia (`regiones/norteamerica/datos/estados.json`) proceden del U.S. Census Bureau (censos de 2000 y estimaciones Vintage 2025; ACS 2024 para la población nacida en el extranjero) y de Statistics Canada (censo de 2001, estimaciones a 1 de julio de 2025 y censo de 2021). Las áreas metropolitanas (`datos/metros.json`) suman los condados de la delimitación de la OMB de 2023 en todos los años y usan las estimaciones de Statistics Canada con los límites de 2021; las fuentes completas están en el propio archivo.
+
 ## Energía
 
 Descargad `owid-energy-data.csv` de <https://github.com/owid/energy-data> y ejecutad:

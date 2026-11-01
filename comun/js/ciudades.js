@@ -1,7 +1,10 @@
 /* Motor «Ciudades y redes urbanas»: mapa de ciudades, jerarquía urbana (rango-tamaño),
    urbanización, el manual frente a los datos y preguntas.
    Lee la sección "ciudades" de regiones/<id>/config.json.
-   Datos compartidos: datos/ciudades/*.json (World Urbanization Prospects 2025) y datos/poblacion/<ID>.json (WPP 2024). */
+   Datos compartidos: datos/ciudades/*.json (World Urbanization Prospects 2025) y datos/poblacion/<ID>.json (WPP 2024).
+   Una región puede usar sus propias ciudades con "archivo" (misma estructura que datos/ciudades/ciudades.json; un séptimo
+   campo opcional guarda el nombre oficial) y ajustar "periodos" (variación del mapa), "tramos" (ficha de cada ciudad)
+   y "umbralJerarquia" (miles de habitantes); "ventana" encuadra el mapa urbano en una parte de la región. Así lo hace Norteamérica con las áreas metropolitanas oficiales. */
 (async function () {
   "use strict";
   const barra = document.getElementById("barra");
@@ -17,7 +20,7 @@
 
   try {
     const [mundo, D, U, T, preguntas, propios] = await Promise.all([
-      RM.json("datos/mundo/paises-50m.json"), RM.json("datos/ciudades/ciudades.json"),
+      RM.json("datos/mundo/paises-50m.json"), RM.json(C.archivo ? carpeta(C.archivo) : "datos/ciudades/ciudades.json"),
       RM.json("datos/ciudades/urbanizacion.json"), RM.json("datos/ciudades/tamano.json"),
       C.cuestionario ? RM.json(carpeta(C.cuestionario)).catch(() => null) : Promise.resolve(null),
       C.datos ? RM.json(carpeta(C.datos)).catch(() => null) : Promise.resolve(null),
@@ -30,7 +33,12 @@
 
     const Y = D.anios, iy = (y) => Y.indexOf(+y), ULT = D.ultimoEstimado || 2025;
     const REGION = C.paises || R.ficha.paises;
-    const todas = D.ciudades.map((c, i) => ({ i, pais: c[0], nombre: c[1], lon: c[2], lat: c[3], cap: !!c[4], v: c[5], clave: c[0] + "|" + c[1] }));
+    const todas = D.ciudades.map((c, i) => ({ i, pais: c[0], nombre: c[1], lon: c[2], lat: c[3], cap: !!c[4], v: c[5], oficial: c[6], clave: c[0] + "|" + c[1] }));
+    // Periodos de variación del mapa y de la ficha de cada ciudad (configurables para series más cortas)
+    const PERIODOS = C.periodos || [[2000, 2025], [1975, 2000]];
+    const TRAMOS = C.tramos || [[1975, 2000], [2000, 2025], [2025, 2050]];
+    const UMBRAL_J = C.umbralJerarquia || 100;  // miles de habitantes
+    const hayProy = Y[Y.length - 1] > ULT;
     const ciudades = todas.filter((c) => REGION.includes(c.pais));
     const porClave = new Map(ciudades.map((c) => [c.clave, c]));
     const val = (c, y) => c.v[iy(y)];
@@ -64,8 +72,11 @@
     // =====================================================================
     // Mapa urbano
     // =====================================================================
-    const M = { anio: ULT, color: "2000", elegida: null };
-    const mapa = new RM.Mapa(document.getElementById("mapa-ciudades"), R.config, mundo, { ancho: 1000, zoom: true });
+    const M = { anio: ULT, color: String(PERIODOS[0][0]), elegida: null };
+    document.getElementById("mapa-color").innerHTML = '<legend class="oculto">Color de los círculos</legend>' + PERIODOS.map((p, i) =>
+      '<label><input type="radio" name="color-c" value="' + p[0] + '"' + (i ? "" : " checked") + ">Variación " + p[0] + "-" + p[1] + "</label>").join("");
+    const periodo = () => PERIODOS.find((p) => String(p[0]) === M.color) || PERIODOS[0];
+    const mapa = new RM.Mapa(document.getElementById("mapa-ciudades"), C.ventana ? Object.assign({}, R.config, { ventana: C.ventana }) : R.config, mundo, { ancho: 1000, zoom: true });
     mapa.fronteras(mapa.capa("fronteras"));
     const gTraz = mapa.capa("trazados"), gCirc = mapa.capa("circulos"), gRot = mapa.capa("rotulos");
     const maxPob = d3.max(ciudades, (c) => d3.max(c.v)) || 1;
@@ -74,7 +85,7 @@
     const COLORES = ["#9c3a1f", "#d9906f", "#e9e4d6", "#a9c8d6", "#5c97b5", "#1f5a7a"];
     const colorVar = d3.scaleThreshold().domain(CORTES).range(COLORES);
     function variacion(c) {
-      const [a, b] = M.color === "2000" ? [2000, 2025] : [1975, 2000];
+      const [a, b] = periodo();
       const va = val(c, a), vb = val(c, b);
       if (va == null && vb == null) return null;
       if (va == null) return 999;
@@ -144,13 +155,14 @@
       const g = variacion(c);
       return "<strong>" + RM.esc(c.nombre) + "</strong>" + RM.esc(nombre(c.pais)) + (c.cap ? " · capital" : "") + "<br>" +
         M.anio + ": " + (val(c, M.anio) != null ? habitantes(val(c, M.anio)) + " hab." : "sin dato") +
-        (g == null ? "" : "<br>" + (M.color === "2000" ? "2000-2025: " : "1975-2000: ") + (g === 999 ? "ciudad nueva (no llegaba a 50.000)" : g === -99 ? "baja de 50.000 hab." : (g > 0 ? "+" : "") + f0(g) + " %"));
+        (c.oficial ? '<br><span class="pais">' + RM.esc(c.oficial) + "</span>" : "") +
+        (g == null ? "" : "<br>" + periodo().join("-") + ": " + (g === 999 ? "ciudad nueva (no llegaba a 50.000)" : g === -99 ? "baja de 50.000 hab." : (g > 0 ? "+" : "") + f0(g) + " %"));
     }
 
     function leyendaMapa() {
       const txt = ["menos de −20 %", "−20 a −5 %", "−5 a +5 %", "+5 a +25 %", "+25 a +50 %", "más de +50 % o ciudad nueva"];
       document.getElementById("leyenda-mapa-ciudades").innerHTML =
-        "<span><b>Variación " + (M.color === "2000" ? "2000-2025" : "1975-2000") + ":</b></span>" +
+        "<span><b>Variación " + periodo().join("-") + ":</b></span>" +
         COLORES.map((c, i) => '<span><i style="background:' + c + '"></i>' + txt[i] + "</span>").join("") +
         '<span><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" fill="#fff" stroke="#1d2a30" stroke-width="1.6"/></svg> capital</span>' +
         "<span>El tamaño del círculo es proporcional a la población del año elegido.</span>";
@@ -176,9 +188,9 @@
       pintarMapa();
       const el = document.getElementById("ficha-ciudad");
       const pts = Y.map((y, i) => ({ y, v: c.v[i] })).filter((d) => d.v != null);
-      el.innerHTML = "<h3>" + RM.esc(c.nombre) + '</h3><p class="pais">' + RM.esc(nombre(c.pais)) + (c.cap ? " · capital" : "") + "</p>" +
+      el.innerHTML = "<h3>" + RM.esc(c.nombre) + '</h3><p class="pais">' + RM.esc(nombre(c.pais)) + (c.cap ? " · capital" : "") + (c.oficial ? "<br>" + RM.esc(c.oficial) : "") + "</p>" +
         '<svg id="serie-ciudad" role="img" aria-label="Evolución de la población de ' + RM.esc(c.nombre) + '"></svg>' +
-        '<dl class="indicadores">' + [[1975, 2000], [2000, 2025], [2025, 2050]].map(([a, b]) => {
+        '<dl class="indicadores">' + TRAMOS.map(([a, b]) => {
           const va = val(c, a), vb = val(c, b);
           return "<div><dt>" + a + "-" + b + (b > ULT ? " (proy.)" : "") + "</dt><dd>" + (va && vb ? ((vb >= va ? "+" : "") + f0((vb - va) / va * 100) + " %") : "—") + "</dd></div>";
         }).join("") + "</dl>";
@@ -186,8 +198,10 @@
       const x = d3.scaleLinear().domain([Y[0], Y[Y.length - 1]]).range([m.l, W - m.r]);
       const y = d3.scaleLinear().domain([0, d3.max(pts, (d) => d.v) * 1.1]).nice().range([H - m.b, m.t]);
       const svg = d3.select("#serie-ciudad").attr("viewBox", [0, 0, W, H]);
-      svg.append("rect").attr("class", "zona-proy").attr("x", x(ULT)).attr("y", m.t).attr("width", x(Y[Y.length - 1]) - x(ULT)).attr("height", H - m.b - m.t);
-      svg.append("text").attr("class", "rot-proy").attr("x", x(ULT) + 4).attr("y", m.t + 10).text("proyección");
+      if (hayProy) {
+        svg.append("rect").attr("class", "zona-proy").attr("x", x(ULT)).attr("y", m.t).attr("width", x(Y[Y.length - 1]) - x(ULT)).attr("height", H - m.b - m.t);
+        svg.append("text").attr("class", "rot-proy").attr("x", x(ULT) + 4).attr("y", m.t + 10).text("proyección");
+      }
       svg.append("g").attr("class", "eje").attr("transform", "translate(0," + (H - m.b) + ")").call(d3.axisBottom(x).tickValues(Y).tickFormat(d3.format("d")).tickSizeOuter(0));
       svg.append("g").attr("class", "eje").attr("transform", "translate(" + m.l + ",0)").call(d3.axisLeft(y).ticks(4).tickFormat((d) => d === 0 ? "0" : d >= 1000 ? f1(d / 1000) + " M" : f0(d) + " k"));
       const lin = d3.line().x((d) => x(d.y)).y((d) => y(d.v));
@@ -199,16 +213,16 @@
 
     botonesAnio(document.getElementById("mapa-anios"), Y, M.anio, (a) => { M.anio = a; pintarMapa(); });
     document.querySelectorAll('input[name="color-c"]').forEach((i) => i.addEventListener("change", () => { M.color = i.value; pintarMapa(); }));
-    document.getElementById("fuente-mapa").innerHTML = "Fuente: " + fuenteC + ". " + RM.esc(D.nota) + " Se muestran las ciudades de 100.000 habitantes o más en algún año.";
+    document.getElementById("fuente-mapa").innerHTML = "Fuente: " + fuenteC + ". " + RM.esc(D.nota) + " " + RM.esc(D.notaMapa || "Se muestran las ciudades de 100.000 habitantes o más en algún año.");
     pintarTrazados();
     pintarMapa();
-    document.getElementById("ficha-ciudad").innerHTML = '<p class="vacio">Pulsad una ciudad en el mapa o en la lista para ver su evolución desde 1975.</p>';
+    document.getElementById("ficha-ciudad").innerHTML = '<p class="vacio">Pulsad una ciudad en el mapa o en la lista para ver su evolución desde ' + Y[0] + '.</p>';
 
     // =====================================================================
     // Jerarquía urbana
     // =====================================================================
     const J = { a: C.porDefecto || REGION[0], b: C.comparar || "", anio: ULT };
-    const paisesJ = REGION.filter((p) => ciudades.filter((c) => c.pais === p && (val(c, ULT) || 0) >= 100).length >= 2)
+    const paisesJ = REGION.filter((p) => ciudades.filter((c) => c.pais === p && (val(c, ULT) || 0) >= UMBRAL_J).length >= 2)
       .sort((u, w) => nombre(u).localeCompare(nombre(w), "es"));
     const selJA = document.getElementById("je-a"), selJB = document.getElementById("je-b");
     const opcJ = (sel, vacio) => (vacio ? '<option value="">Ninguno</option>' : "") +
@@ -223,9 +237,9 @@
       const d = pobTotal[p];
       return d ? d.poblacion[y - d.anios[0]] : null;
     }
-    const lista = (p, y) => ciudades.filter((c) => c.pais === p && (val(c, y) || 0) >= 100).sort((u, w) => val(w, y) - val(u, y));
+    const lista = (p, y) => ciudades.filter((c) => c.pais === p && (val(c, y) || 0) >= UMBRAL_J).sort((u, w) => val(w, y) - val(u, y));
     function tipoRed(l, y) {
-      if (l.length < 2) return { prim: null, i4: null, txt: "Solo una ciudad supera los 100.000 habitantes: no hay red que comparar." };
+      if (l.length < 2) return { prim: null, i4: null, txt: "Solo una ciudad supera los " + f0(UMBRAL_J * 1000) + " habitantes: no hay red que comparar." };
       const P = l.map((c) => val(c, y));
       const prim = P[0] / P[1], i4 = l.length >= 4 ? P[0] / (P[1] + P[2] + P[3]) : null, p23 = P.length >= 3 ? P[1] / P[2] : null;
       let txt;
@@ -242,19 +256,19 @@
       const nMax = d3.max(series, (s) => s.l.length) || 2;
       const vMax = d3.max(series, (s) => s.l.length ? val(s.l[0], y) : 0) || 1000;
       const x = d3.scaleLog().domain([1, Math.max(10, nMax * 1.15)]).range([m.l, W - m.r]);
-      const yS = d3.scaleLog().domain([90, vMax * 1.3]).range([H - m.b, m.t]);
+      const yS = d3.scaleLog().domain([UMBRAL_J * 0.9, vMax * 1.3]).range([H - m.b, m.t]);
       const svg = d3.select("#rango").attr("viewBox", [0, 0, W, H]);
       svg.selectAll("*").remove();
       svg.append("g").attr("class", "eje").attr("transform", "translate(0," + (H - m.b) + ")")
         .call(d3.axisBottom(x).tickValues([1, 2, 3, 5, 10, 20, 50, 100].filter((t) => t <= x.domain()[1])).tickFormat(d3.format("d")));
       svg.append("g").attr("class", "eje").attr("transform", "translate(" + m.l + ",0)")
-        .call(d3.axisLeft(yS).tickValues([100, 200, 500, 1000, 2000, 5000, 10000, 20000].filter((t) => t <= yS.domain()[1])).tickFormat((d) => d >= 1000 ? f0(d / 1000) + " M" : f0(d) + " k"));
+        .call(d3.axisLeft(yS).tickValues([100, 200, 500, 1000, 2000, 5000, 10000, 20000].filter((t) => t >= yS.domain()[0] && t <= yS.domain()[1])).tickFormat((d) => d >= 1000 ? f0(d / 1000) + " M" : f0(d) + " k"));
       svg.append("text").attr("class", "rot").attr("x", W - m.r).attr("y", H - 6).attr("text-anchor", "end").text("Puesto de la ciudad en su país");
       svg.append("text").attr("class", "rot").attr("x", 12).attr("y", m.t + 4).attr("transform", "rotate(-90 12 " + (m.t + 4) + ")").attr("text-anchor", "end").text("Habitantes");
       series.forEach((s) => {
         if (!s.l.length) return;
         const P1 = val(s.l[0], y), lado = s.k ? "b" : "a";
-        const rs = d3.range(1, Math.max(2, s.l.length) + 1).filter((r) => P1 / r >= 90 && r <= x.domain()[1]);
+        const rs = d3.range(1, Math.max(2, s.l.length) + 1).filter((r) => P1 / r >= UMBRAL_J * 0.9 && r <= x.domain()[1]);
         svg.append("path").attr("class", "zipf " + lado).attr("d", d3.line().x((r) => x(r)).y((r) => yS(P1 / r))(rs));
         svg.append("g").selectAll("circle").data(s.l).join("circle").attr("class", "pt-" + lado)
           .attr("cx", (c, i) => x(i + 1)).attr("cy", (c) => yS(val(c, y))).attr("r", 4.5)
@@ -270,7 +284,7 @@
         const P1 = s.l.length ? val(s.l[0], y) : null;
         return '<div class="tarjeta-red' + (s.k ? " b" : "") + '"><h3>' + RM.esc(nombre(s.p)) + " · " + y + (y > ULT ? " (proyección)" : "") + "</h3>" +
           '<p class="tipo">' + RM.esc(t.txt) + "</p>" +
-          '<dl class="indicadores"><div><dt>Ciudades de 100.000 hab. o más</dt><dd>' + s.l.length + "</dd></div>" +
+          '<dl class="indicadores"><div><dt>Ciudades de ' + f0(UMBRAL_J * 1000) + ' hab. o más</dt><dd>' + s.l.length + "</dd></div>" +
           "<div><dt>Índice de primacía</dt><dd>" + (t.prim ? f2(t.prim) : "—") + "</dd></div>" +
           "<div><dt>Índice de las cuatro ciudades</dt><dd>" + (t.i4 ? f2(t.i4) : "—") + "</dd></div>" +
           "<div><dt>La mayor, sobre la población del país</dt><dd>" + (P1 && tot ? f1(P1 / tot * 100) + " %" : "—") + "</dd></div></dl>" +
@@ -279,7 +293,10 @@
       document.getElementById("je-indicadores").innerHTML = tarjetas.join("");
     }
     repintar.jerarquia = pintarJerarquia;
-    document.getElementById("fuente-jerarquia").innerHTML = "Fuente: " + fuenteC + "; población de los países: Naciones Unidas, World Population Prospects 2024. Las ciudades se delimitan con el grado de urbanización, no con los límites municipales.";
+    document.getElementById("fuente-jerarquia").innerHTML = "Fuente: " + fuenteC + "; población de los países: Naciones Unidas, World Population Prospects 2024. " +
+      RM.esc(D.notaJerarquia || "Las ciudades se delimitan con el grado de urbanización, no con los límites municipales.");
+    const elUmbral = document.getElementById("je-umbral");
+    if (elUmbral) elUmbral.textContent = f0(UMBRAL_J * 1000);
 
     // =====================================================================
     // Urbanización
@@ -385,12 +402,13 @@
       const q = propios.cuadro;
       if (q) {
         html += "<h2>" + RM.esc(q.titulo) + '</h2><div class="tabla-desplazable"><table class="tabla-ciudades"><thead><tr><th>Ciudad</th>' +
-          q.columnas.map((c) => "<th>" + RM.esc(c) + "</th>").join("") + '<th class="hoy">Hoy (oficial)</th><th class="wup">ONU 2025<br>(ciudad continua)</th></tr></thead><tbody>' +
+          q.columnas.map((c) => "<th>" + RM.esc(c) + "</th>").join("") + '<th class="hoy">' + RM.esc(q.columnaHoy || "Hoy (oficial)") + '</th><th class="wup">' +
+          (q.columnaDatos ? RM.esc(q.columnaDatos) : "ONU 2025<br>(ciudad continua)") + "</th></tr></thead><tbody>" +
           q.filas.map((f) => {
             const c = f.wup ? porClave.get(f.wup) : null;
             return "<tr><td>" + RM.esc(f.nombre) + "</td>" + f.manual.map((v) => "<td>" + (v == null ? "—" : f0(v)) + "</td>").join("") +
               '<td class="hoy">' + (f.hoy ? f0(f.hoy.valor) + "<small>" + RM.esc(f.hoy.fecha) + "</small>" : "—") + "</td>" +
-              '<td class="wup">' + (c && val(c, ULT) != null ? f0(val(c, ULT)) : "—") + "</td></tr>";
+              '<td class="wup">' + (c && val(c, ULT) != null ? f0(val(c, ULT) * (q.escalaDatos || 1)) : "—") + "</td></tr>";
           }).join("") + "</tbody></table></div>" +
           '<p class="nota">' + RM.esc(q.nota || "") + "</p>";
       }

@@ -1,0 +1,347 @@
+{
+ "titulo": "Preguntas guiadas del atlas de Norteamérica",
+ "preguntas": [
+  {
+   "id": "relieve-meridiano",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "relieve"
+    ]
+   },
+   "enunciado": "Con la capa de relieve activa, recorred el continente de oeste a este. ¿Qué rasgo del relieve destaca el manual por su influencia en el clima, la agricultura y los paisajes?",
+   "opciones": [
+    {
+     "t": "Su disposición meridiana: grandes conjuntos alargados de norte a sur (cordilleras occidentales, llanuras centrales, Apalaches)",
+     "ok": true,
+     "r": "Es la idea con la que el manual abre el tema: las grandes unidades se ordenan en bandas de norte a sur."
+    },
+    {
+     "t": "Una gran cordillera de dirección este-oeste que separa Canadá de Estados Unidos",
+     "r": "No hay ninguna cordillera transversal: entre el Ártico y el golfo de México las llanuras centrales son continuas."
+    },
+    {
+     "t": "Un relieve de mesetas altas uniforme en todo el continente",
+     "r": "El relieve es muy contrastado: montañas jóvenes al oeste, llanuras en el centro, montañas viejas y escudo al este."
+    },
+    {
+     "t": "Una costa oriental montañosa y una costa occidental llana",
+     "r": "Es al revés: la cordillera costera del Pacífico es joven y alta; en el este hay una amplia llanura litoral."
+    }
+   ],
+   "explicacion": [
+    "El manual distingue cuatro grandes unidades: el Escudo canadiense, los Apalaches, las llanuras (litorales e interiores) y las cordilleras occidentales.",
+    "La disposición meridiana deja un pasillo abierto de norte a sur por el que circulan las masas de aire polar y tropical: lo veréis en la capa de clima y en la pestaña de dinámica atmosférica de los climogramas."
+   ],
+   "manual": "Apartado 1.1 y figura 3.1"
+  },
+  {
+   "id": "apalaches-rocosas",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "relieve"
+    ]
+   },
+   "enunciado": "Comparad los Apalaches (marrón claro) con las Montañas Rocosas (marrón oscuro). El monte Mitchell no llega a 2.040 m y el monte Elbert supera los 4.400 m. ¿A qué se debe la diferencia?",
+   "opciones": [
+    {
+     "t": "Los Apalaches son montañas paleozoicas muy erosionadas; las cordilleras occidentales son de los grandes movimientos orogénicos del Cenozoico",
+     "ok": true,
+     "r": "El manual los describe como el único conjunto montañoso paleozoico de Norteamérica, con formas redondeadas por la erosión y las glaciaciones."
+    },
+    {
+     "t": "Los Apalaches están más al norte y los glaciares los han hundido",
+     "r": "Los Apalaches van de Terranova a Alabama, entre los 50° y los 32° N: no están más al norte que las Rocosas."
+    },
+    {
+     "t": "Las Rocosas son de origen volcánico y los Apalaches son dunas",
+     "r": "Los Apalaches son un orógeno plegado, con rocas cristalinas y metamórficas al este y sedimentarias al oeste."
+    },
+    {
+     "t": "No hay diferencia de edad: es solo una cuestión de clima",
+     "r": "La diferencia fundamental es la edad: cientos de millones de años de erosión en los Apalaches."
+    }
+   ],
+   "explicacion": [
+    "Las cordilleras occidentales tienen 8.000 km de Alaska a México y numerosas cumbres de más de 4.000 m; los Apalaches, unos 2.600 km y altitudes entre 450 y 2.050 m.",
+    "El manual llama al monte Elbert 4.399 m y al McKinley 6.187 m. Las mediciones oficiales actuales dan 4.401 m al Elbert y 6.190 m al McKinley, que desde 2015 se llama oficialmente Denali (en 2025 el Gobierno federal volvió a llamarlo McKinley, pero en Alaska y en la cartografía internacional sigue usándose Denali)."
+   ],
+   "manual": "Apartados 1.1.2 y 1.1.4"
+  },
+  {
+   "id": "escudo-recursos",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "relieve",
+     "recursos"
+    ]
+   },
+   "enunciado": "Superponed el relieve y los recursos. El hierro del lago Superior, el níquel de Sudbury y el uranio de Saskatchewan están sobre la misma unidad. ¿Cuál es y por qué es tan rica en minerales?",
+   "opciones": [
+    {
+     "t": "El Escudo canadiense: un zócalo precámbrico de rocas cristalinas y metamórficas, muy erosionado, con yacimientos superficiales",
+     "ok": true,
+     "r": "El manual cita oro, plata, plomo, uranio, zinc, cobre, hierro superficial y níquel, sobre todo en Quebec y Ontario."
+    },
+    {
+     "t": "Las Llanuras interiores, por sus sedimentos marinos",
+     "r": "Las cuencas sedimentarias de las llanuras guardan sobre todo petróleo, gas y carbón, no metales."
+    },
+    {
+     "t": "Los Apalaches, por su vulcanismo reciente",
+     "r": "Los Apalaches tienen carbón y algunos metales, pero no vulcanismo reciente; y estos yacimientos están más al norte y al oeste."
+    },
+    {
+     "t": "La cordillera costera del Pacífico",
+     "r": "Está al otro lado del continente."
+    }
+   ],
+   "explicacion": [
+    "El Escudo es el núcleo geológico más antiguo del continente. Su agricultura es casi nula, pero su subsuelo, sus bosques y su energía hidráulica sostienen la minería, la industria maderera y la del papel.",
+    "Canadá sigue siendo el segundo productor mundial de uranio (24 % en 2024), detrás de Kazajistán: el manual lo situaba el primero."
+   ],
+   "manual": "Apartado 1.1.1"
+  },
+  {
+   "id": "meridiano-98",
+   "mapa": {
+    "modo": "comparar",
+    "izq": "clima",
+    "der": "cinturones",
+    "corte": 0.5
+   },
+   "enunciado": "Comparad el clima con los cinturones agrícolas. La línea discontinua es el meridiano 98° O. ¿Qué cambia a uno y otro lado?",
+   "opciones": [
+    {
+     "t": "Al este, climas húmedos y agricultura de secano intensiva (maíz, soja, leche); al oeste, climas secos, trigo, ganadería extensiva y regadíos",
+     "ok": true,
+     "r": "El manual sitúa hacia el meridiano 98 la frontera climática de la aridez, que divide el país en una mitad oriental húmeda y otra occidental seca."
+    },
+    {
+     "t": "Al este hace más frío y por eso no hay agricultura",
+     "r": "El este concentra los cinturones más intensivos: lechero, hortofrutícola, del maíz y de granjas mixtas."
+    },
+    {
+     "t": "Es la frontera entre las colonias inglesas y las españolas",
+     "r": "Es una frontera climática, no histórica."
+    },
+    {
+     "t": "No cambia nada: es solo un meridiano de referencia",
+     "r": "Fijaos en el clima: al oeste de la línea dominan los tipos B (estepa y desierto)."
+    }
+   ],
+   "explicacion": [
+    "En las Grandes Llanuras, al oeste del meridiano, caen menos de 500 mm al año: el maíz deja paso al trigo y, más al oeste, a los pastos.",
+    "La capa de cinturones es una simplificación por estados de la figura 3.7: en la realidad los cinturones no siguen las fronteras de los estados."
+   ],
+   "manual": "Apartados 1.2.2 y 3.1"
+  },
+  {
+   "id": "clima-pacifico",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "clima"
+    ]
+   },
+   "enunciado": "Mirad la costa del Pacífico en la capa de clima: verde (Cfb, Csb) al norte, amarillo y naranja (Csa, BWh) al sur. ¿Qué explica el contraste a uno y otro lado de la bahía de San Francisco?",
+   "opciones": [
+    {
+     "t": "La latitud y las corrientes: al norte de los 40°, la corriente cálida de Alaska y las borrascas del Pacífico; al sur, la corriente fría de California y las altas presiones subtropicales",
+     "ok": true,
+     "r": "El manual señala que las corrientes moderan las temperaturas pero no borran el contraste entre el norte oceánico y el sur mediterráneo y desértico."
+    },
+    {
+     "t": "La altitud: el sur de California es más alto",
+     "r": "Los Ángeles y San Diego están a nivel del mar."
+    },
+    {
+     "t": "El sur está más lejos del océano",
+     "r": "Las dos zonas son costeras."
+    },
+    {
+     "t": "La deforestación del sur",
+     "r": "El contraste es climático y se debe a factores naturales."
+    }
+   ],
+   "explicacion": [
+    "En la costa de Washington y la Columbia Británica se superan los 2.000 mm. Hacia el sur las lluvias disminuyen y se concentran en invierno: es el clima mediterráneo de California, que pasa al desértico en el sur y en las cuencas del interior.",
+    "Las cordilleras costeras retienen la humedad: al este de Sierra Nevada y de las Cascadas los climas son secos."
+   ],
+   "manual": "Apartado 1.2.2.1"
+  },
+  {
+   "id": "densidad-este-oeste",
+   "mapa": {
+    "modo": "comparar",
+    "izq": "relieve",
+    "der": "densidad",
+    "corte": 0.5
+   },
+   "enunciado": "Comparad el relieve con la densidad por estados. Nueva Jersey tiene 501 hab./km², Wyoming 2,3 y Nunavut 0,02. ¿Cómo describe el manual la distribución de la población?",
+   "opciones": [
+    {
+     "t": "Un este densamente poblado frente a un oeste poco poblado, y un centro casi vacío frente a las costas y los Grandes Lagos",
+     "ok": true,
+     "r": "Es la doble contraposición del manual: este-oeste y centro-costas."
+    },
+    {
+     "t": "Una distribución homogénea, con densidades parecidas en todos los estados",
+     "r": "Las diferencias van de 0,02 a más de 500 hab./km²."
+    },
+    {
+     "t": "La población se concentra en las Montañas Rocosas por sus recursos mineros",
+     "r": "Los estados de las Rocosas están entre los menos densos del país."
+    },
+    {
+     "t": "Canadá tiene su población repartida por todo el territorio",
+     "r": "En Canadá la población se concentra en el sur, junto a la frontera; Ontario y Quebec reúnen más del 60 %."
+    }
+   ],
+   "explicacion": [
+    "El manual daba menos de 2 hab./km² en Wyoming y más de 400 en Nueva Jersey; hoy son 2,3 y 501.",
+    "El Distrito de Columbia, que es solo una ciudad, supera los 4.000 hab./km²."
+   ],
+   "manual": "Apartados 5 y 5.2"
+  },
+  {
+   "id": "sunbelt",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "variacion"
+    ]
+   },
+   "enunciado": "Observad la variación de la población entre 2000 y 2025. Nevada, Utah, Idaho, Arizona, Texas y Florida han crecido entre un 47 % y un 64 %; Míchigan, Illinois y Virginia Occidental apenas han crecido o han perdido población. ¿Qué movimiento del manual se refleja?",
+   "opciones": [
+    {
+     "t": "El desplazamiento hacia el sur y el oeste (Sun Belt), por el desarrollo industrial de esas regiones, el clima y la calidad de vida",
+     "ok": true,
+     "r": "El manual lo describe como el movimiento de norte a sur iniciado hacia 1968, que se suma al movimiento histórico hacia el oeste."
+    },
+    {
+     "t": "El éxodo hacia los estados del noreste en busca de empleo industrial",
+     "r": "El noreste y los Grandes Lagos (antiguo cinturón manufacturero) son los que menos crecen."
+    },
+    {
+     "t": "La emigración de población negra desde el norte hacia el sur rural",
+     "r": "El manual describe el movimiento contrario desde los años veinte: del sur rural a las ciudades del norte."
+    },
+    {
+     "t": "El crecimiento de Canadá por su alta natalidad",
+     "r": "Canadá crece sobre todo por inmigración: su fecundidad es de 1,3 hijos por mujer."
+    }
+   ],
+   "explicacion": [
+    "Entre 2020 y 2025 el Sur creció un 6 % frente al 3,1 % del conjunto del país y ya reúne el 39 % de la población; Sur y Oeste suman casi dos tercios. Nueva York, Illinois y California pierden población por migración interior.",
+    "En Canadá destaca Alberta (+69 % desde 2001), ligada al petróleo, y los territorios del norte, que crecen mucho en porcentaje pero tienen muy poca población."
+   ],
+   "manual": "Apartado 5.2"
+  },
+  {
+   "id": "extranjeros",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "extranjeros"
+    ]
+   },
+   "enunciado": "En la capa de población nacida en el extranjero, ¿dónde se concentran los inmigrantes?",
+   "opciones": [
+    {
+     "t": "En los estados y provincias de las grandes puertas de entrada y metrópolis: California, Nueva York, Nueva Jersey, Florida, Ontario y Columbia Británica",
+     "ok": true,
+     "r": "Superan el 23 %; en Ontario y la Columbia Británica, cerca del 30 %."
+    },
+    {
+     "t": "En los estados agrícolas de las Grandes Llanuras",
+     "r": "Montana, Dakota del Norte o Virginia Occidental no llegan al 6 %."
+    },
+    {
+     "t": "Por igual en todos los estados",
+     "r": "Los porcentajes van del 2 % al 30 %."
+    },
+    {
+     "t": "En los territorios del norte de Canadá",
+     "r": "Nunavut tiene un 3 % de inmigrantes."
+    }
+   ],
+   "explicacion": [
+    "El manual subraya que la inmigración ha sido el motor del crecimiento y que ha rejuvenecido la población. Hoy Canadá recibe proporcionalmente más inmigrantes que Estados Unidos.",
+    "Las dos fuentes no miden lo mismo: Estados Unidos cuenta toda la población nacida en el extranjero (2024) y Canadá a los inmigrantes con residencia permanente (censo de 2021)."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "expansion",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "expansion"
+    ]
+   },
+   "enunciado": "La capa de expansión territorial colorea cada estado o provincia según la fecha de su admisión. ¿Qué hizo posible colonizar en un siglo el territorio desde los Apalaches hasta el Pacífico?",
+   "opciones": [
+    {
+     "t": "El ferrocarril transcontinental, el reparto de la tierra en cuadrículas (Rectangular Land Survey, Homestead Act de 1862) y la inmigración europea masiva",
+     "ok": true,
+     "r": "Son los factores que destaca el manual, junto al deseo de poseer tierras y el movimiento pionero."
+    },
+    {
+     "t": "La compra de todo el oeste a Francia en 1783",
+     "r": "En 1783 la frontera quedó en el Misisipi; Luisiana se compró en 1803 y el resto se incorporó por guerras, tratados y compras."
+    },
+    {
+     "t": "Que el oeste estaba deshabitado",
+     "r": "Las tribus indias fueron diezmadas o relegadas a reservas."
+    },
+    {
+     "t": "La construcción de canales entre el Atlántico y el Pacífico",
+     "r": "El factor decisivo fue el ferrocarril (figura 3.5)."
+    }
+   ],
+   "explicacion": [
+    "La Homestead Act de 1862 repartía la tierra a quien la cultivara al menos cinco años; el sistema de townships de seis millas de lado explica el paisaje de campos cuadrados entre los Apalaches y las Rocosas (figura 3.6).",
+    "El mapa muestra la fecha de admisión como estado, que puede ser muy posterior a la colonización: Alaska y Hawái entraron en 1959. En Canadá, Nunavut se creó en 1999."
+   ],
+   "manual": "Apartado 2 y figuras 3.4, 3.5 y 3.6"
+  },
+  {
+   "id": "industria-regiones",
+   "mapa": {
+    "modo": "superponer",
+    "capas": [
+     "densidad",
+     "industria"
+    ]
+   },
+   "enunciado": "Superponed la densidad y las regiones industriales. ¿Cuál fue el núcleo industrial histórico y cómo ha cambiado el mapa desde mediados del siglo XX?",
+   "opciones": [
+    {
+     "t": "El noreste y los Grandes Lagos (cinturón manufacturero); desde mediados del siglo XX surgen nuevas áreas en el golfo de México, el Sur y el Pacífico",
+     "ok": true,
+     "r": "Es la evolución de las figuras 3.8 y 3.9: petroquímica en el Golfo, aeronáutica y espacial en el oeste, y nuevas áreas dinámicas como Silicon Valley, el Triángulo de Carolina del Norte o Austin."
+    },
+    {
+     "t": "California; desde mediados del siglo XX, desplazamiento hacia el noreste",
+     "r": "California creció después; el núcleo histórico fue el noreste."
+    },
+    {
+     "t": "Las Grandes Llanuras; después, Alaska",
+     "r": "Las Grandes Llanuras son agrícolas y poco pobladas."
+    },
+    {
+     "t": "Texas; la industria no se ha movido",
+     "r": "Texas es un polo reciente (petroquímica, aeroespacial, electrónica), no el histórico."
+    }
+   ],
+   "explicacion": [
+    "El cinturón manufacturero, heredado del siglo XIX, se apoyó en el carbón y el hierro, la mano de obra abundante, la cercanía a los mercados y las vías de agua de los Grandes Lagos. A principios del siglo XX reunía más de tres cuartas partes de la industria del país.",
+    "El manual matiza el contraste entre el Frost Belt o Rust Belt y el Sun Belt: el noreste conserva la mayoría de las sedes de las grandes empresas y sigue siendo el principal centro financiero y de decisión."
+   ],
+   "manual": "Apartados 4.2 y 4.3 y figuras 3.8 y 3.9"
+  }
+ ]
+}

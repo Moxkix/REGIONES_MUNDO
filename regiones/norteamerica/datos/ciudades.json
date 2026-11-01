@@ -1,0 +1,215 @@
+{
+ "afirmaciones": [
+  {
+   "texto": "Estados Unidos posee el 81 % de población urbana y Canadá el 80 % (2015)",
+   "apartado": "6",
+   "hoy": "Hoy: 80,0 % en Estados Unidos según el censo de 2020; la ONU y el Banco Mundial estiman para 2025 un 80,2 % en Estados Unidos y un 82,9 % en Canadá.",
+   "nota": "Las cifras apenas cambian: los dos países terminaron hace décadas su transición urbana. Cada país usa su propia definición (en Estados Unidos, 2.000 viviendas o 5.000 habitantes; en Canadá, 1.000 habitantes y 400 hab./km²), no el umbral de 20.000 habitantes que cita el manual."
+  },
+  {
+   "texto": "En las ciudades con más de un millón de habitantes hay más población en la periferia que en el centro urbano",
+   "apartado": "6.1",
+   "hoy": "Hoy (2025): el municipio de Nueva York reúne el 43 % de su área metropolitana (8,6 de 20,1 millones); el de Atlanta, solo el 8 % (0,53 de 6,5 millones); el de Miami, el 8 %.",
+   "nota": "Las ciudades del Sun Belt, que crecieron con el automóvil, son las más dispersas: la ciudad central es una pequeña parte de un área metropolitana muy extensa."
+  },
+  {
+   "texto": "[Bos-Wash] incluye a cinco grandes áreas metropolitanas: Boston, Nueva York, Philadelphia, Baltimore y Washington, con más de 30 millones de habitantes",
+   "apartado": "6.2.1",
+   "hoy": "Hoy (2025): las cuatro áreas estadísticas combinadas de Boston, Nueva York, Filadelfia y Washington-Baltimore suman 48,8 millones, el 14 % de la población de Estados Unidos.",
+   "nota": "No hay una cifra oficial de la megalópolis: depende del perímetro. El manual dice también que vive en ella el 20 % de la población en el 2 % de la superficie; con estas áreas el peso es del 14 %, y la Regional Plan Association estimaba un 17 % (2010) para una megarregión más amplia."
+  },
+  {
+   "texto": "[Chi-Pitts] incluye las áreas metropolitanas de Milwaukee, Chicago, Detroit, Cleveland y Pittsburgh, con más de 25 millones de habitantes",
+   "apartado": "6.2.1",
+   "hoy": "Hoy (2025): las áreas combinadas de Chicago, Detroit, Cleveland y Pittsburgh suman 21,9 millones; con Milwaukee, unos 23,5.",
+   "nota": "Es la única de las grandes áreas urbanas que no crece: Detroit, Cleveland y Pittsburgh tienen hoy menos habitantes que en 2000 y Chicago no ha crecido desde 2020."
+  },
+  {
+   "texto": "El área de California, conjunto formado por las ciudades de San Diego, Los Ángeles y San Francisco, reúne una población que supera los 20 millones de habitantes",
+   "apartado": "6.2.1",
+   "hoy": "Hoy (2025): las áreas combinadas de Los Ángeles y de San Francisco-San José y el área metropolitana de San Diego suman 30,9 millones (33,6 con Sacramento).",
+   "nota": "Sigue muy por encima de los 20 millones, pero desde 2020 pierde población: Los Ángeles −2,7 %, San Francisco −2,5 %. Muchos californianos se trasladan a Texas, Arizona o Nevada."
+  },
+  {
+   "texto": "El área canadiense (Main Street) concentra las mayores aglomeraciones urbanas de Canadá",
+   "apartado": "6.2.1",
+   "hoy": "Hoy (2025): las áreas metropolitanas del corredor Quebec-Windsor (Toronto, Montreal, Ottawa-Gatineau, Quebec, Hamilton y otras) reúnen unos 19,6 millones de habitantes, el 47 % de la población de Canadá.",
+   "nota": "Toronto ha pasado de 6,1 millones (manual) a 7,1. Fuera del corredor crecen mucho Calgary (+88 % desde 2001), Edmonton y Vancouver."
+  },
+  {
+   "texto": "En la década 1970/1980, por primera vez en la historia se detecta un crecimiento más lento de la población de las grandes aglomeraciones [...] (contraurbanización)",
+   "apartado": "6.1",
+   "hoy": "Entre 2020 y 2025 las tres mayores áreas metropolitanas apenas crecen o pierden población (Nueva York +0,2 %, Chicago −0,2 %, Los Ángeles −2,7 %), mientras Dallas (+11 %), Houston (+11 %), Austin (+15 %) y Raleigh (+13 %) crecen con rapidez.",
+   "nota": "Más que una contraurbanización general, hoy se ve una redistribución entre metrópolis: del Noreste, los Grandes Lagos y California hacia las del Sun Belt. El teletrabajo tras la pandemia la ha acelerado."
+  }
+ ],
+ "cuadro": {
+  "titulo": "Cuadro 3.3. Grandes ciudades y aglomeraciones urbanas: el manual y hoy",
+  "columnas": [
+   "Ciudad (manual)",
+   "Aglomeración (manual)"
+  ],
+  "columnaHoy": "Ciudad hoy (municipio)",
+  "columnaDatos": "Área metropolitana 2025",
+  "escalaDatos": 1000,
+  "filas": [
+   {
+    "nombre": "Nueva York",
+    "manual": [
+     8491079,
+     20092883
+    ],
+    "hoy": {
+     "valor": 8584629,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Nueva York"
+   },
+   {
+    "nombre": "Los Ángeles",
+    "manual": [
+     3928864,
+     13262220
+    ],
+    "hoy": {
+     "valor": 3869089,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Los Ángeles"
+   },
+   {
+    "nombre": "Chicago",
+    "manual": [
+     2722389,
+     9554598
+    ],
+    "hoy": {
+     "valor": 2731585,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Chicago"
+   },
+   {
+    "nombre": "Dallas",
+    "manual": [
+     1281047,
+     6954330
+    ],
+    "hoy": {
+     "valor": 1329491,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Dallas"
+   },
+   {
+    "nombre": "Houston",
+    "manual": [
+     2239558,
+     6490180
+    ],
+    "hoy": {
+     "valor": 2397315,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Houston"
+   },
+   {
+    "nombre": "Toronto",
+    "manual": [
+     2615060,
+     6055700
+    ],
+    "hoy": {
+     "valor": 2794356,
+     "fecha": "censo 2021"
+    },
+    "wup": "CAN|Toronto"
+   },
+   {
+    "nombre": "Filadelfia",
+    "manual": [
+     1560297,
+     6051170
+    ],
+    "hoy": {
+     "valor": 1574281,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Filadelfia"
+   },
+   {
+    "nombre": "Washington",
+    "manual": [
+     658893,
+     6033737
+    ],
+    "hoy": {
+     "valor": 693645,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Washington"
+   },
+   {
+    "nombre": "Miami",
+    "manual": [
+     430332,
+     5929819
+    ],
+    "hoy": {
+     "valor": 489812,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Miami"
+   },
+   {
+    "nombre": "Atlanta",
+    "manual": [
+     456002,
+     5614323
+    ],
+    "hoy": {
+     "valor": 529110,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Atlanta"
+   },
+   {
+    "nombre": "Boston",
+    "manual": [
+     655884,
+     4732161
+    ],
+    "hoy": {
+     "valor": 672973,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Boston"
+   },
+   {
+    "nombre": "San Francisco",
+    "manual": [
+     852469,
+     4594060
+    ],
+    "hoy": {
+     "valor": 826079,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|San Francisco"
+   },
+   {
+    "nombre": "Phoenix",
+    "manual": [
+     319504,
+     4489109
+    ],
+    "hoy": {
+     "valor": 1665481,
+     "fecha": "est. 2025"
+    },
+    "wup": "USA|Phoenix"
+   }
+  ],
+  "nota": "Manual: Calendario Atlante de Agostini 2016 (cifras de 2014-2015). Ciudad hoy: municipios, estimaciones a 1 de julio de 2025 del U.S. Census Bureau (Vintage 2025); Toronto, censo de 2021 de Statistics Canada. Área metropolitana: MSA del U.S. Census Bureau (delimitación de 2023) y CMA de Statistics Canada, a 1 de julio de 2025. Las delimitaciones metropolitanas han cambiado desde 2015 (Dallas, Atlanta o Washington incorporan nuevos condados), así que la comparación es orientativa. La cifra del manual para el municipio de Phoenix (319.504) es un error: en 2015 ya tenía cerca de 1,6 millones."
+ }
+}

@@ -1,0 +1,522 @@
+{
+ "fuente": {
+  "poblacion": "EE. UU.: U.S. Census Bureau, Vintage 2025 Population Estimates, estimación a 1 de julio de 2025 (NST-EST2025-POPCHG2020-2025, POPESTIMATE2025; publicación de 2026). Canadá: Statistics Canada, tabla 17-10-0009-01 (Population estimates, quarterly), estimación a 1 de julio de 2025 (versión publicada el 23-09-2026; la última estimación disponible es a 1 de julio de 2026: Canadá 41.798.407).",
+  "base2000": "EE. UU.: Censo 2000 (1 de abril de 2000), U.S. Census Bureau, Historical Population Change Data (1910-2020). Canadá: Censo de 2001 (15 de mayo de 2001), Statistics Canada, Population and Dwelling Counts, 2001 and 1996 Censuses (100% data).",
+  "superficie": "Superficie terrestre (land area), sin aguas. EE. UU.: U.S. Census Bureau, State Area Measurements and Internal Point Coordinates (Censo 2010), km². Canadá: Statistics Canada, tabla 98-10-0001-01, Land area in square kilometres, 2021.",
+  "extranjeros": "No estrictamente homogéneo entre países. EE. UU.: % de población nacida en el extranjero (foreign-born), American Community Survey 2024 estimaciones a 1 año, tabla B05002 (B05002_013E / B05002_001E). Canadá: % de inmigrantes (landed immigrants/residentes permanentes, excluye residentes no permanentes) sobre la población en hogares privados, Censo de 2021, tabla 98-10-0347-01."
+ },
+ "unidades": {
+  "US-AL": {
+   "nombre": "Alabama",
+   "pob": 5.193,
+   "densidad": 39.59,
+   "var_pob": 16.8,
+   "extranjeros": 4.5,
+   "anio_ext": "2024"
+  },
+  "US-AK": {
+   "nombre": "Alaska",
+   "pob": 0.737,
+   "densidad": 0.5,
+   "var_pob": 17.6,
+   "extranjeros": 7.7,
+   "anio_ext": "2024"
+  },
+  "US-AZ": {
+   "nombre": "Arizona",
+   "pob": 7.624,
+   "densidad": 25.91,
+   "var_pob": 48.6,
+   "extranjeros": 13.4,
+   "anio_ext": "2024"
+  },
+  "US-AR": {
+   "nombre": "Arkansas",
+   "pob": 3.115,
+   "densidad": 23.11,
+   "var_pob": 16.5,
+   "extranjeros": 5.8,
+   "anio_ext": "2024"
+  },
+  "US-CA": {
+   "nombre": "California",
+   "pob": 39.355,
+   "densidad": 97.54,
+   "var_pob": 16.2,
+   "extranjeros": 27.6,
+   "anio_ext": "2024"
+  },
+  "US-CO": {
+   "nombre": "Colorado",
+   "pob": 6.013,
+   "densidad": 22.4,
+   "var_pob": 39.8,
+   "extranjeros": 10.6,
+   "anio_ext": "2024"
+  },
+  "US-CT": {
+   "nombre": "Connecticut",
+   "pob": 3.688,
+   "densidad": 294.09,
+   "var_pob": 8.3,
+   "extranjeros": 15.9,
+   "anio_ext": "2024"
+  },
+  "US-DE": {
+   "nombre": "Delaware",
+   "pob": 1.06,
+   "densidad": 210.02,
+   "var_pob": 35.3,
+   "extranjeros": 11.6,
+   "anio_ext": "2024"
+  },
+  "US-DC": {
+   "nombre": "Distrito de Columbia",
+   "pob": 0.694,
+   "densidad": 4390.16,
+   "var_pob": 21.3,
+   "extranjeros": 15.5,
+   "anio_ext": "2024"
+  },
+  "US-FL": {
+   "nombre": "Florida",
+   "pob": 23.463,
+   "densidad": 168.93,
+   "var_pob": 46.8,
+   "extranjeros": 23.1,
+   "anio_ext": "2024"
+  },
+  "US-GA": {
+   "nombre": "Georgia",
+   "pob": 11.303,
+   "densidad": 75.88,
+   "var_pob": 38.1,
+   "extranjeros": 11.9,
+   "anio_ext": "2024"
+  },
+  "US-HI": {
+   "nombre": "Hawái",
+   "pob": 1.433,
+   "densidad": 86.13,
+   "var_pob": 18.3,
+   "extranjeros": 18.6,
+   "anio_ext": "2024"
+  },
+  "US-ID": {
+   "nombre": "Idaho",
+   "pob": 2.03,
+   "densidad": 9.48,
+   "var_pob": 56.9,
+   "extranjeros": 6.3,
+   "anio_ext": "2024"
+  },
+  "US-IL": {
+   "nombre": "Illinois",
+   "pob": 12.719,
+   "densidad": 88.45,
+   "var_pob": 2.4,
+   "extranjeros": 15.4,
+   "anio_ext": "2024"
+  },
+  "US-IN": {
+   "nombre": "Indiana",
+   "pob": 6.973,
+   "densidad": 75.15,
+   "var_pob": 14.7,
+   "extranjeros": 7.0,
+   "anio_ext": "2024"
+  },
+  "US-IA": {
+   "nombre": "Iowa",
+   "pob": 3.238,
+   "densidad": 22.38,
+   "var_pob": 10.7,
+   "extranjeros": 6.3,
+   "anio_ext": "2024"
+  },
+  "US-KS": {
+   "nombre": "Kansas",
+   "pob": 2.977,
+   "densidad": 14.06,
+   "var_pob": 10.7,
+   "extranjeros": 7.8,
+   "anio_ext": "2024"
+  },
+  "US-KY": {
+   "nombre": "Kentucky",
+   "pob": 4.607,
+   "densidad": 45.05,
+   "var_pob": 14.0,
+   "extranjeros": 5.2,
+   "anio_ext": "2024"
+  },
+  "US-LA": {
+   "nombre": "Luisiana",
+   "pob": 4.618,
+   "densidad": 41.27,
+   "var_pob": 3.3,
+   "extranjeros": 5.2,
+   "anio_ext": "2024"
+  },
+  "US-ME": {
+   "nombre": "Maine",
+   "pob": 1.415,
+   "densidad": 17.71,
+   "var_pob": 11.0,
+   "extranjeros": 4.7,
+   "anio_ext": "2024"
+  },
+  "US-MD": {
+   "nombre": "Maryland",
+   "pob": 6.265,
+   "densidad": 249.2,
+   "var_pob": 18.3,
+   "extranjeros": 17.1,
+   "anio_ext": "2024"
+  },
+  "US-MA": {
+   "nombre": "Massachusetts",
+   "pob": 7.154,
+   "densidad": 354.13,
+   "var_pob": 12.7,
+   "extranjeros": 18.7,
+   "anio_ext": "2024"
+  },
+  "US-MI": {
+   "nombre": "Míchigan",
+   "pob": 10.128,
+   "densidad": 69.16,
+   "var_pob": 1.9,
+   "extranjeros": 7.7,
+   "anio_ext": "2024"
+  },
+  "US-MN": {
+   "nombre": "Minnesota",
+   "pob": 5.83,
+   "densidad": 28.27,
+   "var_pob": 18.5,
+   "extranjeros": 9.0,
+   "anio_ext": "2024"
+  },
+  "US-MS": {
+   "nombre": "Misisipi",
+   "pob": 2.954,
+   "densidad": 24.31,
+   "var_pob": 3.8,
+   "extranjeros": 2.7,
+   "anio_ext": "2024"
+  },
+  "US-MO": {
+   "nombre": "Misuri",
+   "pob": 6.271,
+   "densidad": 35.22,
+   "var_pob": 12.1,
+   "extranjeros": 4.9,
+   "anio_ext": "2024"
+  },
+  "US-MT": {
+   "nombre": "Montana",
+   "pob": 1.145,
+   "densidad": 3.04,
+   "var_pob": 26.9,
+   "extranjeros": 2.1,
+   "anio_ext": "2024"
+  },
+  "US-NE": {
+   "nombre": "Nebraska",
+   "pob": 2.018,
+   "densidad": 10.14,
+   "var_pob": 17.9,
+   "extranjeros": 9.0,
+   "anio_ext": "2024"
+  },
+  "US-NV": {
+   "nombre": "Nevada",
+   "pob": 3.282,
+   "densidad": 11.54,
+   "var_pob": 64.3,
+   "extranjeros": 19.9,
+   "anio_ext": "2024"
+  },
+  "US-NH": {
+   "nombre": "Nuevo Hampshire",
+   "pob": 1.415,
+   "densidad": 61.04,
+   "var_pob": 14.5,
+   "extranjeros": 5.9,
+   "anio_ext": "2024"
+  },
+  "US-NJ": {
+   "nombre": "Nueva Jersey",
+   "pob": 9.548,
+   "densidad": 501.3,
+   "var_pob": 13.5,
+   "extranjeros": 25.0,
+   "anio_ext": "2024"
+  },
+  "US-NM": {
+   "nombre": "Nuevo México",
+   "pob": 2.125,
+   "densidad": 6.77,
+   "var_pob": 16.8,
+   "extranjeros": 10.0,
+   "anio_ext": "2024"
+  },
+  "US-NY": {
+   "nombre": "Nueva York",
+   "pob": 20.002,
+   "densidad": 163.88,
+   "var_pob": 5.4,
+   "extranjeros": 23.3,
+   "anio_ext": "2024"
+  },
+  "US-NC": {
+   "nombre": "Carolina del Norte",
+   "pob": 11.198,
+   "densidad": 88.93,
+   "var_pob": 39.1,
+   "extranjeros": 9.9,
+   "anio_ext": "2024"
+  },
+  "US-ND": {
+   "nombre": "Dakota del Norte",
+   "pob": 0.799,
+   "densidad": 4.47,
+   "var_pob": 24.5,
+   "extranjeros": 5.3,
+   "anio_ext": "2024"
+  },
+  "US-OH": {
+   "nombre": "Ohio",
+   "pob": 11.901,
+   "densidad": 112.45,
+   "var_pob": 4.8,
+   "extranjeros": 5.5,
+   "anio_ext": "2024"
+  },
+  "US-OK": {
+   "nombre": "Oklahoma",
+   "pob": 4.123,
+   "densidad": 23.21,
+   "var_pob": 19.5,
+   "extranjeros": 6.6,
+   "anio_ext": "2024"
+  },
+  "US-OR": {
+   "nombre": "Oregón",
+   "pob": 4.274,
+   "densidad": 17.19,
+   "var_pob": 24.9,
+   "extranjeros": 10.0,
+   "anio_ext": "2024"
+  },
+  "US-PA": {
+   "nombre": "Pensilvania",
+   "pob": 13.059,
+   "densidad": 112.69,
+   "var_pob": 6.3,
+   "extranjeros": 8.3,
+   "anio_ext": "2024"
+  },
+  "US-RI": {
+   "nombre": "Rhode Island",
+   "pob": 1.115,
+   "densidad": 416.18,
+   "var_pob": 6.3,
+   "extranjeros": 15.7,
+   "anio_ext": "2024"
+  },
+  "US-SC": {
+   "nombre": "Carolina del Sur",
+   "pob": 5.57,
+   "densidad": 71.54,
+   "var_pob": 38.8,
+   "extranjeros": 6.4,
+   "anio_ext": "2024"
+  },
+  "US-SD": {
+   "nombre": "Dakota del Sur",
+   "pob": 0.935,
+   "densidad": 4.76,
+   "var_pob": 23.9,
+   "extranjeros": 4.1,
+   "anio_ext": "2024"
+  },
+  "US-TN": {
+   "nombre": "Tennessee",
+   "pob": 7.315,
+   "densidad": 68.49,
+   "var_pob": 28.6,
+   "extranjeros": 6.5,
+   "anio_ext": "2024"
+  },
+  "US-TX": {
+   "nombre": "Texas",
+   "pob": 31.71,
+   "densidad": 46.87,
+   "var_pob": 52.1,
+   "extranjeros": 18.4,
+   "anio_ext": "2024"
+  },
+  "US-UT": {
+   "nombre": "Utah",
+   "pob": 3.539,
+   "densidad": 16.63,
+   "var_pob": 58.5,
+   "extranjeros": 9.8,
+   "anio_ext": "2024"
+  },
+  "US-VT": {
+   "nombre": "Vermont",
+   "pob": 0.645,
+   "densidad": 27.01,
+   "var_pob": 5.9,
+   "extranjeros": 4.5,
+   "anio_ext": "2024"
+  },
+  "US-VA": {
+   "nombre": "Virginia",
+   "pob": 8.88,
+   "densidad": 86.82,
+   "var_pob": 25.5,
+   "extranjeros": 13.5,
+   "anio_ext": "2024"
+  },
+  "US-WA": {
+   "nombre": "Washington",
+   "pob": 8.001,
+   "densidad": 46.49,
+   "var_pob": 35.7,
+   "extranjeros": 16.1,
+   "anio_ext": "2024"
+  },
+  "US-WV": {
+   "nombre": "Virginia Occidental",
+   "pob": 1.766,
+   "densidad": 28.37,
+   "var_pob": -2.3,
+   "extranjeros": 2.1,
+   "anio_ext": "2024"
+  },
+  "US-WI": {
+   "nombre": "Wisconsin",
+   "pob": 5.973,
+   "densidad": 42.58,
+   "var_pob": 11.4,
+   "extranjeros": 5.5,
+   "anio_ext": "2024"
+  },
+  "US-WY": {
+   "nombre": "Wyoming",
+   "pob": 0.589,
+   "densidad": 2.34,
+   "var_pob": 19.2,
+   "extranjeros": 3.5,
+   "anio_ext": "2024"
+  },
+  "CA-NL": {
+   "nombre": "Terranova y Labrador",
+   "pob": 0.55,
+   "densidad": 1.54,
+   "var_pob": 7.3,
+   "extranjeros": 2.8,
+   "anio_ext": "2021"
+  },
+  "CA-PE": {
+   "nombre": "Isla del Príncipe Eduardo",
+   "pob": 0.182,
+   "densidad": 31.96,
+   "var_pob": 34.2,
+   "extranjeros": 7.8,
+   "anio_ext": "2021"
+  },
+  "CA-NS": {
+   "nombre": "Nueva Escocia",
+   "pob": 1.095,
+   "densidad": 20.73,
+   "var_pob": 20.6,
+   "extranjeros": 7.5,
+   "anio_ext": "2021"
+  },
+  "CA-NB": {
+   "nombre": "Nuevo Brunswick",
+   "pob": 0.875,
+   "densidad": 12.28,
+   "var_pob": 19.9,
+   "extranjeros": 5.8,
+   "anio_ext": "2021"
+  },
+  "CA-QC": {
+   "nombre": "Quebec",
+   "pob": 9.051,
+   "densidad": 6.97,
+   "var_pob": 25.1,
+   "extranjeros": 14.6,
+   "anio_ext": "2021"
+  },
+  "CA-ON": {
+   "nombre": "Ontario",
+   "pob": 16.217,
+   "densidad": 18.17,
+   "var_pob": 42.1,
+   "extranjeros": 30.0,
+   "anio_ext": "2021"
+  },
+  "CA-MB": {
+   "nombre": "Manitoba",
+   "pob": 1.509,
+   "densidad": 2.79,
+   "var_pob": 34.7,
+   "extranjeros": 19.7,
+   "anio_ext": "2021"
+  },
+  "CA-SK": {
+   "nombre": "Saskatchewan",
+   "pob": 1.266,
+   "densidad": 2.19,
+   "var_pob": 29.4,
+   "extranjeros": 12.5,
+   "anio_ext": "2021"
+  },
+  "CA-AB": {
+   "nombre": "Alberta",
+   "pob": 5.025,
+   "densidad": 7.92,
+   "var_pob": 68.9,
+   "extranjeros": 23.2,
+   "anio_ext": "2021"
+  },
+  "CA-BC": {
+   "nombre": "Columbia Británica",
+   "pob": 5.703,
+   "densidad": 6.19,
+   "var_pob": 45.9,
+   "extranjeros": 29.0,
+   "anio_ext": "2021"
+  },
+  "CA-YT": {
+   "nombre": "Yukón",
+   "pob": 0.049,
+   "densidad": 0.1,
+   "var_pob": 71.4,
+   "extranjeros": 13.6,
+   "anio_ext": "2021"
+  },
+  "CA-NT": {
+   "nombre": "Territorios del Noroeste",
+   "pob": 0.046,
+   "densidad": 0.04,
+   "var_pob": 23.2,
+   "extranjeros": 10.3,
+   "anio_ext": "2021"
+  },
+  "CA-NU": {
+   "nombre": "Nunavut",
+   "pob": 0.042,
+   "densidad": 0.02,
+   "var_pob": 57.4,
+   "extranjeros": 3.2,
+   "anio_ext": "2021"
+  }
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "titulo": "Ciudades y redes urbanas de Norteamérica",
+ "preguntas": [
+  {
+   "id": "megalopolis",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "trazados": [
+     "1. Bos-Wash"
+    ]
+   },
+   "enunciado": "Con el trazado de Bos-Wash activo, observad la sucesión de grandes áreas metropolitanas entre Boston y Washington. ¿Qué es una megalópolis según el manual?",
+   "opciones": [
+    {
+     "t": "Una banda continua de áreas metropolitanas con alta densidad de población, unidas por las redes de transporte y comunicación",
+     "r": "Es el concepto que generalizó Gottmann en 1961 a partir de esta región del noreste.",
+     "ok": true
+    },
+    {
+     "t": "Una sola ciudad de más de 30 millones de habitantes con un único gobierno municipal",
+     "r": "Bos-Wash reúne decenas de municipios, condados y cinco estados."
+    },
+    {
+     "t": "Una ciudad planificada para descongestionar Nueva York",
+     "r": "Es el resultado del crecimiento y la fusión de áreas metropolitanas, no de un plan."
+    },
+    {
+     "t": "Una región industrial sin ciudades",
+     "r": "Es la región más urbanizada del país."
+    }
+   ],
+   "explicacion": [
+    "Bos-Wash se extiende a lo largo de unos 1.000 km. El manual le atribuye más de 30 millones de habitantes; hoy sus áreas combinadas suman cerca de 49 millones.",
+    "Es el centro económico, financiero, político y cultural del país: en ella están Wall Street, la sede de la ONU y el Gobierno federal."
+   ],
+   "manual": "Apartado 6.2.1 y figura 3.10"
+  },
+  {
+   "id": "sunbelt-metropolis",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "color": "2000"
+   },
+   "enunciado": "Observad el color de los círculos (variación 2000-2025). ¿Dónde están las áreas metropolitanas que más han crecido?",
+   "opciones": [
+    {
+     "t": "En el Sur y el Oeste: Texas, Florida, Arizona, Carolina del Norte, Georgia, y en el oeste de Canadá",
+     "r": "Austin y Raleigh han duplicado su población; Dallas, Houston, Phoenix y Calgary han crecido más de un 60 %.",
+     "ok": true
+    },
+    {
+     "t": "En los Grandes Lagos y el Noreste",
+     "r": "Detroit, Cleveland y Pittsburgh tienen hoy menos habitantes que en 2000."
+    },
+    {
+     "t": "En California",
+     "r": "Los Ángeles y San Francisco crecen poco y pierden población desde 2020."
+    },
+    {
+     "t": "Por igual en todo el territorio",
+     "r": "Los contrastes regionales son muy marcados."
+    }
+   ],
+   "explicacion": [
+    "Es el reflejo urbano del desplazamiento de la población hacia el Sun Belt que describe el manual: industrias nuevas, clima, menor coste de la vida y de la vivienda.",
+    "En Canadá crecen con fuerza Calgary, Edmonton, Vancouver y Ottawa; también Toronto, por la inmigración."
+   ],
+   "manual": "Apartados 5.2 y 6.1"
+  },
+  {
+   "id": "rust-belt",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "color": "2000",
+    "trazados": [
+     "2. Chi-Pitts"
+    ],
+    "ciudad": "USA|Detroit"
+   },
+   "enunciado": "Detroit tenía 4,45 millones de habitantes en 2000 y 4,39 en 2025. ¿Qué explica su estancamiento?",
+   "opciones": [
+    {
+     "t": "La crisis de su base industrial, el automóvil, y el traslado de la industria y la población hacia el Sur y el Oeste",
+     "r": "Es el caso más claro del Rust Belt o cinturón del óxido.",
+     "ok": true
+    },
+    {
+     "t": "Su clima, más frío desde 2000",
+     "r": "El clima no ha cambiado de forma apreciable en este periodo."
+    },
+    {
+     "t": "Que su área metropolitana se ha reducido por ley",
+     "r": "La comparación se hace con la misma delimitación en todos los años."
+    },
+    {
+     "t": "Una catástrofe natural",
+     "r": "No ha habido ninguna catástrofe que lo explique."
+    }
+   ],
+   "explicacion": [
+    "El manual presenta Detroit como el núcleo de la industria del automóvil (Ford, General Motors, Chrysler). Las tres grandes han perdido cuota frente a los fabricantes asiáticos y europeos, muchos de ellos instalados en el Sur.",
+    "La ciudad de Detroit llegó a declararse en quiebra en 2013; su municipio ha pasado de 1,8 millones de habitantes en 1950 a unos 650.000."
+   ],
+   "manual": "Apartados 4.3.1 y 6.2.2"
+  },
+  {
+   "id": "california-pierde",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025,
+    "color": "2020",
+    "trazados": [
+     "5. California"
+    ],
+    "ciudad": "USA|Los Ángeles"
+   },
+   "enunciado": "Elegid la variación 2020-2025. Los Ángeles y San Francisco aparecen en naranja: han perdido población. ¿Qué lo explica?",
+   "opciones": [
+    {
+     "t": "El elevado precio de la vivienda, el teletrabajo tras la pandemia y la migración hacia estados más baratos como Texas, Arizona o Nevada",
+     "r": "California pierde población por migración interior, que solo compensa en parte la inmigración extranjera.",
+     "ok": true
+    },
+    {
+     "t": "Un fuerte aumento de la mortalidad",
+     "r": "La causa principal es la migración, no la mortalidad."
+    },
+    {
+     "t": "La pérdida de los puertos del Pacífico",
+     "r": "Los puertos de Los Ángeles y Long Beach siguen siendo los primeros del país."
+    },
+    {
+     "t": "El cambio de los límites de las áreas metropolitanas",
+     "r": "Las cifras usan los mismos límites en todos los años."
+    }
+   ],
+   "explicacion": [
+    "El área de California sigue siendo la segunda gran concentración urbana del país, con más de 30 millones de habitantes.",
+    "El manual destaca el dinamismo demográfico de Los Ángeles; hoy ese dinamismo ha pasado a las metrópolis de Texas y del sureste."
+   ],
+   "manual": "Apartados 6.2.1 y 6.2.2"
+  },
+  {
+   "id": "sin-primacia",
+   "vista": {
+    "pestana": "jerarquia",
+    "pais": "USA",
+    "comparar": "CAN",
+    "anio": 2025
+   },
+   "enunciado": "En el gráfico rango-tamaño, Nueva York solo multiplica por 1,6 a Los Ángeles y reúne menos del 6 % de la población del país. ¿Cómo interpreta el manual la red urbana de Estados Unidos?",
+   "opciones": [
+    {
+     "t": "No hay una jerarquía nacional dominada por una ciudad: en un país grande y federal, varias metrópolis comparten funciones de primer rango",
+     "r": "El manual subraya que no es posible hablar de la primacía de una ciudad.",
+     "ok": true
+    },
+    {
+     "t": "Como un caso de macrocefalia, igual que París en Francia",
+     "r": "El índice de primacía (1,6) está por debajo del que da la regla rango-tamaño (2)."
+    },
+    {
+     "t": "Como una red bicéfala Nueva York-Washington",
+     "r": "Washington es la capital política, pero es la séptima área metropolitana."
+    },
+    {
+     "t": "Como una red sin grandes ciudades",
+     "r": "Hay 56 áreas metropolitanas de más de un millón de habitantes."
+    }
+   ],
+   "explicacion": [
+    "Las ciudades grandes quedan por encima de la línea de la regla rango-tamaño: muchas metrópolis de tamaño parecido, de 5 a 9 millones.",
+    "La capital política no es la mayor ciudad, ni en Estados Unidos (Washington) ni en Canadá (Ottawa)."
+   ],
+   "manual": "Apartado 6.2.1"
+  },
+  {
+   "id": "canada-toronto",
+   "vista": {
+    "pestana": "jerarquia",
+    "pais": "CAN",
+    "comparar": "",
+    "anio": 2025
+   },
+   "enunciado": "En Canadá, Toronto reúne el 17 % de la población del país, frente al 6 % de Nueva York en Estados Unidos. ¿Por qué es mayor su peso?",
+   "opciones": [
+    {
+     "t": "Porque la población canadiense es mucho menor y se concentra en una franja estrecha del sur, en el corredor Quebec-Windsor (Main Street)",
+     "r": "Casi la mitad de los canadienses viven en las áreas metropolitanas de Main Street.",
+     "ok": true
+    },
+    {
+     "t": "Porque Toronto es la capital federal",
+     "r": "La capital es Ottawa."
+    },
+    {
+     "t": "Porque Toronto es más grande que Nueva York",
+     "r": "Toronto tiene 7,1 millones; Nueva York, 20,1."
+    },
+    {
+     "t": "Porque en Canadá no hay otras ciudades grandes",
+     "r": "Montreal, Vancouver, Calgary, Ottawa y Edmonton superan el millón y medio de habitantes."
+    }
+   ],
+   "explicacion": [
+    "Toronto y Montreal fueron durante el siglo XX las dos grandes metrópolis rivales (red bicéfala); Toronto pasó por delante en los años setenta y hoy casi dobla a Montreal.",
+    "La inmigración se dirige sobre todo a Toronto, Vancouver y Montreal."
+   ],
+   "manual": "Apartado 6.2.1"
+  },
+  {
+   "id": "jerarquia-bethemont",
+   "vista": {
+    "pestana": "mapa",
+    "anio": 2025
+   },
+   "enunciado": "Según la clasificación de Bethemont y Breuil (1991) que recoge el manual, ¿qué rasgo define a las new supercities (Nueva York, Los Ángeles y Chicago)?",
+   "opciones": [
+    {
+     "t": "No tanto su tamaño como la complejidad de sus funciones y su integración en las redes y estructuras internacionales",
+     "r": "Nueva York y Chicago destacan por su papel financiero mundial y Los Ángeles por su dinamismo.",
+     "ok": true
+    },
+    {
+     "t": "Ser capitales de sus estados",
+     "r": "Ninguna de las tres es capital de su estado."
+    },
+    {
+     "t": "Tener industria pesada",
+     "r": "No es su rasgo definitorio."
+    },
+    {
+     "t": "Superar los 20 millones de habitantes",
+     "r": "Solo Nueva York se acerca a esa cifra."
+    }
+   ],
+   "explicacion": [
+    "El manual distingue cuatro rangos: new supercities, grandes metrópolis (Atlanta, Boston, Dallas, Houston, Miami…), metrópolis de segundo rango (Denver, Phoenix, Seattle…) y metrópolis regionales.",
+    "Advierte que ninguna clasificación refleja bien la realidad: agrupa ciudades con dinamismos muy distintos, como Phoenix y Cleveland, hoy con 5,2 y 2,2 millones."
+   ],
+   "manual": "Apartado 6.2.2"
+  },
+  {
+   "id": "urbanizacion-estable",
+   "vista": {
+    "pestana": "urbanizacion",
+    "series": [
+     "norteamerica",
+     "USA",
+     "CAN",
+     "WLD"
+    ]
+   },
+   "enunciado": "Observad las curvas de población urbana. Estados Unidos y Canadá superaron el 50 % hacia 1920-1930, y desde 1970 su porcentaje urbano avanza muy despacio. ¿Por qué?",
+   "opciones": [
+    {
+     "t": "Porque terminaron pronto su transición urbana: hoy el crecimiento se produce en las periferias de las áreas metropolitanas, no por el paso del campo a la ciudad",
+     "r": "Con un 80 % de población urbana queda poco éxodo rural.",
+     "ok": true
+    },
+    {
+     "t": "Porque la población rural está creciendo más deprisa por la natalidad",
+     "r": "La natalidad rural no es mayor y la población rural apenas cambia."
+    },
+    {
+     "t": "Porque se ha prohibido el crecimiento de las ciudades",
+     "r": "No existe tal prohibición."
+    },
+    {
+     "t": "Porque las ciudades están perdiendo población en todo el país",
+     "r": "Las áreas metropolitanas en conjunto siguen creciendo."
+    }
+   ],
+   "explicacion": [
+    "El manual describe el éxodo rural ligado a la mecanización, la suburbanización desde 1940 y la contraurbanización de los años setenta.",
+    "Las cifras dependen de la definición de urbano de cada país; el manual advierte que con los asentamientos de funciones urbanas se superaría el 90 %."
+   ],
+   "manual": "Apartados 6 y 6.1"
+  },
+  {
+   "id": "tamano-ciudades",
+   "vista": {
+    "pestana": "urbanizacion",
+    "series": [
+     "norteamerica",
+     "USA",
+     "CAN",
+     "WLD"
+    ],
+    "anio": 2025
+   },
+   "enunciado": "En el gráfico «¿Ciudades grandes o pequeñas?», calculado con el grado de urbanización de la ONU, Estados Unidos aparece con solo un 35 % de su población en ciudades, aunque oficialmente el 80 % es urbana. ¿A qué se debe?",
+   "opciones": [
+    {
+     "t": "A la baja densidad de las periferias residenciales (suburbs): muchas no alcanzan los 1.500 hab./km² que exige la ONU para considerarlas ciudad",
+     "r": "La ciudad norteamericana se extiende en barrios de viviendas unifamiliares de baja densidad.",
+     "ok": true
+    },
+    {
+     "t": "A que la ONU no cuenta las ciudades de Estados Unidos",
+     "r": "Sí las cuenta, con un criterio de densidad."
+    },
+    {
+     "t": "A que la mayoría de la población vive en granjas",
+     "r": "La población agraria es mínima."
+    },
+    {
+     "t": "A un error de los datos",
+     "r": "Es una consecuencia de la definición."
+    }
+   ],
+   "explicacion": [
+    "Por eso este motor usa para Norteamérica las áreas metropolitanas oficiales y no las ciudades continuas de la ONU.",
+    "El manual describe la ciudad en anillos concéntricos, con un centro de negocios (CBD) y extensas periferias suburbanas."
+   ],
+   "manual": "Apartados 6.1 y 6.3"
+  },
+  {
+   "id": "cuadro-33",
+   "vista": {
+    "pestana": "manual"
+   },
+   "enunciado": "En el cuadro 3.3 actualizado, ¿qué área metropolitana ha subido más puestos desde el manual?",
+   "opciones": [
+    {
+     "t": "Atlanta, que pasa del 10.º puesto (5,6 millones) al 7.º (6,5 millones)",
+     "r": "Atlanta supera ahora a Filadelfia, Washington y Miami.",
+     "ok": true
+    },
+    {
+     "t": "Chicago, que adelanta a Los Ángeles",
+     "r": "Chicago sigue tercera, con 9,4 millones."
+    },
+    {
+     "t": "Boston, que pasa a ser la segunda",
+     "r": "Boston sigue en torno al 12.º puesto."
+    },
+    {
+     "t": "San Francisco, que adelanta a Houston",
+     "r": "San Francisco ha perdido población desde 2020."
+    }
+   ],
+   "explicacion": [
+    "Dallas y Houston, cuarta y quinta, son las áreas metropolitanas que más habitantes ganaron en 2024-2025.",
+    "Las cifras del manual (Calendario Atlante de Agostini) y las actuales no usan exactamente las mismas delimitaciones: la comparación es orientativa."
+   ],
+   "manual": "Cuadro 3.3"
+  }
+ ]
+}

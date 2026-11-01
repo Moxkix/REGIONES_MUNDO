@@ -1,0 +1,272 @@
+{
+ "titulo": "Población de Norteamérica",
+ "preguntas": [
+  {
+   "id": "baby-boom",
+   "vista": {
+    "pestana": "piramides",
+    "pais": "USA",
+    "anio": 2025
+   },
+   "enunciado": "En la pirámide de Estados Unidos de 2025 destaca un ensanchamiento entre los 55 y los 69 años. ¿A quiénes corresponde?",
+   "opciones": [
+    {
+     "t": "A la generación del baby boom, nacida entre mediados de los cuarenta y mediados de los sesenta",
+     "r": "El manual explica el aumento de la natalidad tras la Segunda Guerra Mundial por el auge económico y la reducción de la edad del matrimonio.",
+     "ok": true
+    },
+    {
+     "t": "A los inmigrantes llegados en los años noventa",
+     "r": "Los inmigrantes recientes engrosan sobre todo los grupos de 25 a 44 años."
+    },
+    {
+     "t": "A los supervivientes de la Segunda Guerra Mundial",
+     "r": "Tendrían hoy más de 95 años."
+    },
+    {
+     "t": "A los nacidos durante la Gran Depresión",
+     "r": "Fue una época de natalidad muy baja (18 ‰ en 1936, según el manual)."
+    }
+   ],
+   "explicacion": [
+    "La fecundidad llegó a 3,7 hijos por mujer a finales de los cincuenta y cayó por debajo de 2 a mediados de los setenta.",
+    "Al jubilarse, el baby boom hace crecer rápidamente la población mayor de 65 años: hoy ronda el 19 % en Estados Unidos y el 20 % en Canadá, frente al 14 % y el 15 % que daba el manual para 2015."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "canada-envejece",
+   "vista": {
+    "pestana": "piramides",
+    "pais": "CAN",
+    "anio": 2025,
+    "comparar": "USA"
+   },
+   "enunciado": "Comparad las pirámides de Canadá y Estados Unidos en 2025. ¿Cuál tiene la base más estrecha y por qué?",
+   "opciones": [
+    {
+     "t": "Canadá: su fecundidad es mucho más baja (1,26 hijos por mujer frente a 1,6) y la inmigración se concentra en adultos jóvenes",
+     "r": "Canadá tiene menos menores de 15 años (15 %) y más mayores de 65 (20 %).",
+     "ok": true
+    },
+    {
+     "t": "Estados Unidos, porque recibe menos inmigrantes",
+     "r": "Lo que estrecha la base es la baja fecundidad, y Canadá recibe proporcionalmente más inmigrantes."
+    },
+    {
+     "t": "Son idénticas",
+     "r": "Canadá tiene una base más estrecha y una cúspide más ancha."
+    },
+    {
+     "t": "Canadá, porque su mortalidad infantil es muy alta",
+     "r": "La mortalidad infantil es muy baja en los dos países."
+    }
+   ],
+   "explicacion": [
+    "El manual decía que la población norteamericana no estaba envejecida gracias a la inmigración; hoy Canadá ya tiene más mayores de 65 que menores de 15.",
+    "El saliente entre 25 y 44 años en Canadá refleja la llegada masiva de inmigrantes y residentes temporales en los últimos años."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "transicion-mexico",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "USA",
+    "comparar": "MEX"
+   },
+   "enunciado": "Comparad la transición demográfica de Estados Unidos con la de México. ¿Qué diferencia principal observáis?",
+   "opciones": [
+    {
+     "t": "Estados Unidos tenía ya natalidad baja a mediados del siglo XX; México la redujo mucho más tarde y más deprisa, y aún crece más",
+     "r": "La transición mexicana es más tardía y rápida: la fecundidad pasó de casi 7 hijos por mujer en los cincuenta a menos de 2 hoy.",
+     "ok": true
+    },
+    {
+     "t": "México tiene hoy una mortalidad mucho más alta que Estados Unidos",
+     "r": "Su tasa bruta de mortalidad es incluso más baja, por su población más joven."
+    },
+    {
+     "t": "Estados Unidos no ha hecho la transición demográfica",
+     "r": "La terminó hace décadas: el manual sitúa el descenso de la natalidad ya en el siglo XIX."
+    },
+    {
+     "t": "Las dos transiciones son idénticas",
+     "r": "Hay unos cuarenta años de desfase."
+    }
+   ],
+   "explicacion": [
+    "El manual sitúa el descenso de la natalidad estadounidense en la segunda mitad del siglo XIX (del 55 ‰ al 30 ‰ a comienzos del XX) y una caída brusca con la crisis de 1929.",
+    "La vecindad de dos países en fases distintas de la transición y con niveles de renta muy diferentes explica buena parte de la inmigración mexicana a Estados Unidos."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "baby-boom-curva",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "CAN",
+    "comparar": "USA"
+   },
+   "enunciado": "En las curvas de natalidad de Canadá y Estados Unidos se ve un repunte entre 1946 y 1964. ¿Qué lo explica?",
+   "opciones": [
+    {
+     "t": "El baby boom de posguerra: prosperidad económica y matrimonios más tempranos",
+     "r": "Tras la Segunda Guerra Mundial la natalidad volvió a subir hasta superar el 25 ‰.",
+     "ok": true
+    },
+    {
+     "t": "Una oleada de inmigración de familias numerosas",
+     "r": "El repunte es de natalidad de toda la población, no solo de inmigrantes."
+    },
+    {
+     "t": "Una política de natalidad obligatoria",
+     "r": "No hubo tal política."
+    },
+    {
+     "t": "La caída de la esperanza de vida",
+     "r": "La esperanza de vida siguió aumentando."
+    }
+   ],
+   "explicacion": [
+    "Después, la natalidad se hundió por debajo del 16 ‰ en los años setenta y hoy está en torno al 9-11 ‰ (el manual daba 11 y 13 ‰ para 2015).",
+    "Las tasas brutas de mortalidad tienden a subir lentamente por el envejecimiento, aunque la esperanza de vida siga aumentando."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "esperanza-vida",
+   "vista": {
+    "pestana": "explorador",
+    "x": "fecundidad",
+    "y": "esperanza_vida",
+    "anio": 2024
+   },
+   "enunciado": "En el explorador, Estados Unidos tiene una esperanza de vida de unos 79 años, más de tres años menos que Canadá y por debajo de casi todos los países ricos. ¿Qué factores cita el manual para explicar las diferencias de mortalidad?",
+   "opciones": [
+    {
+     "t": "Las desigualdades por nivel profesional, por origen étnico y por territorio",
+     "r": "El manual menciona mayor mortalidad en la población negra, en los niveles profesionales más bajos y en los estados del noreste y de la llanura central.",
+     "ok": true
+    },
+    {
+     "t": "El clima más frío de Estados Unidos",
+     "r": "Canadá es más frío y tiene mayor esperanza de vida."
+    },
+    {
+     "t": "Una población más envejecida en Estados Unidos",
+     "r": "Canadá está más envejecida."
+    },
+    {
+     "t": "La falta de médicos en Estados Unidos",
+     "r": "No es el factor que cita el manual."
+    }
+   ],
+   "explicacion": [
+    "Hoy se añaden la epidemia de sobredosis de opioides, la obesidad, las muertes por armas de fuego y el acceso desigual a la sanidad. En 2024 la esperanza de vida volvió a un máximo de 79 años, tras la caída de la pandemia.",
+    "Canadá, con sanidad pública universal, supera los 82 años."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "poblacion-crece",
+   "vista": {
+    "pestana": "transicion",
+    "pais": "USA",
+    "comparar": "CAN"
+   },
+   "enunciado": "Canadá ha pasado de 35,5 millones (manual, 2015) a 41,6 millones en 2025, un aumento del 17 %, frente al 5 % de Estados Unidos. ¿De dónde procede ese crecimiento?",
+   "opciones": [
+    {
+     "t": "Casi todo de la inmigración: permanente y, desde 2022, también temporal (estudiantes y trabajadores)",
+     "r": "Con 1,26 hijos por mujer, el crecimiento natural es mínimo.",
+     "ok": true
+    },
+    {
+     "t": "De un fuerte repunte de la natalidad",
+     "r": "La fecundidad canadiense está en mínimos históricos."
+    },
+    {
+     "t": "De la anexión de nuevos territorios",
+     "r": "El territorio no ha cambiado."
+    },
+    {
+     "t": "Del descenso de la emigración hacia Estados Unidos",
+     "r": "La emigración tiene poco peso frente a la llegada de inmigrantes."
+    }
+   ],
+   "explicacion": [
+    "En 2023 y 2024 Canadá creció más de un 3 % anual. Desde 2025 el Gobierno ha reducido los cupos y el crecimiento ha caído al 0,5 %.",
+    "En Estados Unidos la migración neta también se ha hundido en 2025 (de 2,7 a 1,3 millones), por el endurecimiento de la política migratoria."
+   ],
+   "manual": "Apartados 5 y 5.1"
+  },
+  {
+   "id": "mayores-edad-mediana",
+   "vista": {
+    "pestana": "explorador",
+    "x": "edad_mediana",
+    "y": "mayores65",
+    "anio": 2024
+   },
+   "enunciado": "En el explorador, situad Estados Unidos y Canadá frente a Japón, Alemania y España. ¿Cómo están, en edad mediana y población mayor de 65 años?",
+   "opciones": [
+    {
+     "t": "Más jóvenes que Japón y Europa, aunque envejecen: la inmigración y una fecundidad algo más alta frenan el envejecimiento",
+     "r": "El manual destaca el papel rejuvenecedor de la inmigración.",
+     "ok": true
+    },
+    {
+     "t": "Más envejecidos que Japón",
+     "r": "Japón tiene casi un 30 % de mayores de 65 años."
+    },
+    {
+     "t": "Con estructuras propias de países en desarrollo",
+     "r": "Su estructura es la de países desarrollados, con base estrecha."
+    },
+    {
+     "t": "Igual que México",
+     "r": "México es mucho más joven (9 % de mayores de 65)."
+    }
+   ],
+   "explicacion": [
+    "La edad mediana es de unos 39 años en Estados Unidos y 42 en Canadá, frente a 46-47 en Alemania o España y casi 51 en Japón.",
+    "Canadá envejece más deprisa que Estados Unidos porque su fecundidad es más baja."
+   ],
+   "manual": "Apartado 5.1"
+  },
+  {
+   "id": "proyeccion-2050",
+   "vista": {
+    "pestana": "piramides",
+    "pais": "USA",
+    "anio": 2050
+   },
+   "enunciado": "El manual proyectaba 395,3 millones de habitantes para Estados Unidos en 2050. La pirámide de Naciones Unidas (2024) da unos 381 millones y la Oficina Presupuestaria del Congreso (2026) aún menos. ¿Por qué han bajado las proyecciones?",
+   "opciones": [
+    {
+     "t": "Porque la fecundidad ha seguido cayendo y la inmigración neta se ha reducido",
+     "r": "Las proyecciones dependen sobre todo de estos dos supuestos.",
+     "ok": true
+    },
+    {
+     "t": "Porque ha aumentado mucho la mortalidad",
+     "r": "La esperanza de vida ha vuelto a subir tras la pandemia."
+    },
+    {
+     "t": "Porque se ha cambiado la definición de población",
+     "r": "La definición no ha cambiado."
+    },
+    {
+     "t": "No han bajado: son iguales",
+     "r": "Hay entre 15 y 30 millones de diferencia según la fuente."
+    }
+   ],
+   "explicacion": [
+    "La CBO proyecta 364 millones en 2056 y un crecimiento cada vez más dependiente de la inmigración: hacia 2030 las defunciones superarán a los nacimientos.",
+    "Para Canadá, Naciones Unidas proyecta unos 45,7 millones en 2050, frente a los 48,4 del manual."
+   ],
+   "manual": "Cuadro 3.1"
+  }
+ ]
+}

@@ -1,0 +1,966 @@
+{
+"picos": [
+{
+"type": "Feature",
+"properties": {
+"n": "Denali (McKinley)",
+"h": 6190
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-151.007,
+63.069
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Elbert",
+"h": 4401
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-106.445,
+39.118
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Whitney",
+"h": 4421
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-118.292,
+36.579
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Rainier",
+"h": 4392
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-121.76,
+46.853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Mitchell",
+"h": 2037
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-82.265,
+35.765
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Monte Washington",
+"h": 1917
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.303,
+44.271
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Valle de la Muerte (−86 m)",
+"h": -86
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-116.83,
+36.25
+]
+}
+}
+],
+"ciudades": [
+{
+"type": "Feature",
+"properties": {
+"n": "Washington",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-77.04,
+38.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Ottawa",
+"cap": 1
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.7,
+45.42
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Nueva York",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-74.0,
+40.71
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Los Ángeles",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-118.24,
+34.05
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Chicago",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-87.63,
+41.88
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Houston",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-95.37,
+29.76
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Dallas",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-96.8,
+32.78
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Filadelfia",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17,
+39.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Miami",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-80.19,
+25.76
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Atlanta",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-84.39,
+33.75
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Boston",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.06,
+42.36
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "San Francisco",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.42,
+37.77
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Phoenix",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-112.07,
+33.45
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Seattle",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.33,
+47.61
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Detroit",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-83.05,
+42.33
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Denver",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-104.99,
+39.74
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Minneapolis",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-93.27,
+44.98
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Nueva Orleans",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-90.07,
+29.95
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Pittsburgh",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-79.99,
+40.44
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Toronto",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-79.38,
+43.65
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Montreal",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.57,
+45.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Vancouver",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-123.12,
+49.28
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Calgary",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-114.07,
+51.05
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Winnipeg",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-97.14,
+49.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Anchorage",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-149.9,
+61.22
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Quebec",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.21,
+46.81
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Halifax",
+"cap": 0
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-63.57,
+44.65
+]
+}
+}
+],
+"industria": [
+{
+"type": "Feature",
+"properties": {
+"n": "Megalópolis (Boston-Washington)",
+"tipo": "noreste",
+"nota": "Núcleo del cinturón manufacturero: industria muy diversificada, servicios avanzados, finanzas e investigación."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-74.0,
+40.7
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Valle del Mohawk",
+"tipo": "noreste",
+"nota": "Corredor entre el Atlántico y los Grandes Lagos: electrónica, locomotoras, turborreactores e industria fotográfica."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.2,
+43.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Pittsburgh-Cleveland",
+"tipo": "noreste",
+"nota": "Industria pesada (siderurgia) sobre el carbón de los Apalaches y el hierro del lago Superior; hoy diversificada."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-80.8,
+41.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Detroit",
+"tipo": "noreste",
+"nota": "Núcleo histórico de la industria del automóvil (Ford, General Motors, Chrysler)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-83.05,
+42.33
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Calumet (sur de Chicago)",
+"tipo": "noreste",
+"nota": "Gary, Hammond y Milwaukee: siderurgia, electrónica, textil y alimentación a orillas del lago Michigan."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-87.5,
+41.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cinturón industrial canadiense",
+"tipo": "noreste",
+"nota": "Toronto, Hamilton y Montreal: automóvil, acero, maquinaria y servicios."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-79.0,
+43.8
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Piedemonte (Charlotte-Greensboro)",
+"tipo": "sur",
+"nota": "Industria textil trasladada desde Nueva Inglaterra, tabaco y química."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-80.5,
+35.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Triángulo de la Investigación",
+"tipo": "sur",
+"nota": "Raleigh, Durham y Chapel Hill: biotecnología y alta tecnología."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-78.8,
+35.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Área de Tennessee (Birmingham)",
+"tipo": "sur",
+"nota": "Acero de Birmingham y la investigación espacial de Huntsville."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-86.8,
+33.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bajo Misisipi y costa del Golfo",
+"tipo": "sur",
+"nota": "Petroquímica y refinerías entre Baton Rouge, Nueva Orleans y Houston."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-91.2,
+30.2
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Florida (Cabo Cañaveral, Tampa, Miami)",
+"tipo": "sur",
+"nota": "Industria aeroespacial y nuevas tecnologías."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-80.6,
+28.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Los Ángeles-San Diego",
+"tipo": "pacifico",
+"nota": "Industria aeronáutica y espacial, cine y farmacia."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-117.6,
+33.6
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "San Francisco y Silicon Valley",
+"tipo": "pacifico",
+"nota": "Electrónica e informática en torno a la Universidad de Stanford."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.0,
+37.4
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Seattle-Portland-Vancouver",
+"tipo": "pacifico",
+"nota": "Aluminio sobre la energía hidráulica del Columbia, aeronáutica (Seattle, la «Jet City»), madera y papel."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-122.5,
+47.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Houston",
+"tipo": "sur",
+"nota": "Petróleo, petroquímica e industria espacial."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-95.37,
+29.76
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Austin",
+"tipo": "sur",
+"nota": "Complejo microelectrónico."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-97.74,
+30.27
+]
+}
+}
+],
+"recursos": [
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca pérmica (Texas y Nuevo México)",
+"tipo": "petroleo",
+"nota": "Principal región productora de petróleo de esquisto (fracking)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-102.5,
+31.8
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Costa del Golfo de México",
+"tipo": "petroleo",
+"nota": "Petróleo y gas de Texas y Luisiana, en tierra y en el mar."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-91.0,
+28.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Bakken (Dakota del Norte)",
+"tipo": "petroleo",
+"nota": "Petróleo de esquisto."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-102.8,
+47.9
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Vertiente norte de Alaska (Prudhoe Bay)",
+"tipo": "petroleo",
+"nota": "Grandes reservas, encarecidas por la distancia y el clima."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-148.5,
+70.3
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Arenas bituminosas de Alberta",
+"tipo": "petroleo",
+"nota": "Principal fuente del petróleo canadiense."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-111.5,
+57.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Marcellus (Apalaches)",
+"tipo": "gas",
+"nota": "Gas de esquisto en Pensilvania y Virginia Occidental."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-77.5,
+41.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Carbón de los Apalaches",
+"tipo": "carbon",
+"nota": "Kentucky, Virginia Occidental y Pensilvania."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-81.5,
+38.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Carbón de Illinois",
+"tipo": "carbon",
+"nota": "Cuenca de la región central (Illinois e Indiana)."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-88.8,
+38.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cuenca del Powder River (Wyoming)",
+"tipo": "carbon",
+"nota": "Carbón a cielo abierto de las Montañas Rocosas: hoy la mayor producción."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-105.5,
+44.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Hierro del lago Superior (Mesabi)",
+"tipo": "metales",
+"nota": "Minas de hierro a cielo abierto."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-92.5,
+47.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Cobre de Utah y Arizona",
+"tipo": "metales",
+"nota": "Bingham Canyon y las minas de Arizona."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-112.1,
+40.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Uranio de Saskatchewan (Athabasca)",
+"tipo": "metales",
+"nota": "Una de las principales zonas uraníferas del mundo."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-105.0,
+58.0
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Níquel de Sudbury",
+"tipo": "metales",
+"nota": "Níquel y cobre del Escudo canadiense."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-81.0,
+46.5
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Presa Grand Coulee (Columbia)",
+"tipo": "hidro",
+"nota": "Energía hidráulica del Columbia."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-118.98,
+47.96
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "Presa Hoover (Colorado)",
+"tipo": "hidro",
+"nota": "Energía hidráulica del Colorado."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-114.74,
+36.02
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"n": "James Bay (Quebec)",
+"tipo": "hidro",
+"nota": "Gran complejo hidroeléctrico canadiense."
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-77.0,
+53.8
+]
+}
+}
+]
+}

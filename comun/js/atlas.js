@@ -1,6 +1,10 @@
 /* Motor «Atlas de lectura cruzada».
    Lee la sección "atlas" de regiones/<id>/config.json y dibuja sus capas.
-   Tipos de capa: poligonos, koppen, coropleta, categorias (por país), puntos. */
+   Tipos de capa: poligonos, koppen, coropleta, categorias (por país), puntos.
+   Las coropletas y las categorías admiten "lineas" ([{nombre, coords}]) que se trazan como líneas finas discontinuas.
+   Las coropletas y las categorías pueden usar otra geometría (por ejemplo, estados o provincias):
+   "geometria": { "archivo": "capas/estados.json", "objeto": "estados" }, con los datos indexados por
+   properties.id y guardados en la clave indicada por "clave" (por defecto, "paises"). */
 (async function () {
   "use strict";
   const barra = document.getElementById("barra");
@@ -15,7 +19,7 @@
   try {
     // ---------- Carga de datos ----------
     const archivos = new Set();
-    A.capas.forEach((c) => { if (c.archivo) archivos.add(c.archivo); if (c.datos) archivos.add(c.datos); });
+    A.capas.forEach((c) => { if (c.archivo) archivos.add(c.archivo); if (c.datos) archivos.add(c.datos); if (c.geometria) archivos.add(c.geometria.archivo); });
     const ref = A.referencia || {};
     ["rios", "lagos"].forEach((k) => ref[k] && archivos.add(ref[k].archivo));
     if (ref.puntos) archivos.add(ref.puntos);
@@ -76,6 +80,14 @@
     }
     const caja = (color) => '<span class="caja" style="background:' + color + '"></span>';
 
+    // Geometría de una capa: países del mundo o la indicada en "geometria"
+    function geometriaDe(c) {
+      if (!c.geometria) return { feats: mapa.paises, propia: false };
+      const t = D[c.geometria.archivo];
+      return { feats: topojson.feature(t, t.objects[c.geometria.objeto]).features, propia: true };
+    }
+    const unidadEn = (G, ll, pais) => G.propia ? G.feats.find((f) => contiene(f, ll)) : pais;
+
     // Cada capa expone: dibujar(grupo), leyenda(), info(ll, pais)
     const capas = A.capas.map((c) => {
       const capa = { def: c, id: c.id, nombre: c.nombre };
@@ -104,40 +116,47 @@
             items.map(([k, v]) => "<li>" + caja(v.color) + "<span><b>" + k + "</b> " + RM.esc(v.nombre) + "</span></li>").join("") + "</ul>").join("");
         };
       } else if (c.tipo === "coropleta") {
-        const datos = D[c.datos].paises;
+        const datos = D[c.datos][c.clave || "paises"];
+        const G = geometriaDe(c);
         const valor = (iso) => datos[iso] ? datos[iso][c.campo] : null;
         const color = (v) => v == null ? null : c.colores[clase(v, c.clases)];
         capa.dibujar = (g) => {
-          g.selectAll("path").data(mapa.paises).join("path").attr("d", mapa.ruta)
+          g.selectAll("path").data(G.feats).join("path").attr("d", mapa.ruta)
             .attr("class", (f) => "poligono" + (valor(f.properties.id) == null ? " sindatos" : ""))
             .attr("fill", (f) => color(valor(f.properties.id)) || "url(#rayado)");
+          lineasFinas(g, c);
         };
-        capa.info = (ll, pais) => {
+        capa.info = (ll, paisMundo) => {
+          const pais = unidadEn(G, ll, paisMundo);
           if (!pais) return null;
           const d = datos[pais.properties.id];
           if (!d || d[c.campo] == null) return RM.esc(c.nombre) + ": sin datos";
           const anio = c.anio && c.anio.startsWith("campo:") ? d[c.anio.slice(6)] : c.anio;
-          let t = RM.esc(c.nombre.replace(/\s*\(\d{4}\)$/, "")) + ": <b>" + RM.formato(d[c.campo], c.decimales) + " " + c.unidad + "</b>" + (anio ? " (" + anio + ")" : "");
+          let t = (G.propia && d.nombre ? "<b>" + RM.esc(d.nombre) + "</b><br>" : "") + RM.esc(c.nombre.replace(/\s*\(\d{4}\)$/, "")) + ": <b>" + RM.formato(d[c.campo], c.decimales) + " " + c.unidad + "</b>" + (anio ? " (" + anio + ")" : "");
           if (c.comparar && d[c.comparar.campo] != null) t += "<br>" + RM.esc(c.comparar.texto) + ": " + RM.formato(d[c.comparar.campo], c.decimales) + " " + c.unidad;
           return t;
         };
         capa.leyenda = () => "<ul>" + rangos(c.clases, c.unidad).map((r, i) => "<li>" + caja(c.colores[i]) + RM.esc(r) + "</li>").join("") +
-          '<li><span class="caja sin" style="background:#eef0ec"></span>Sin datos</li></ul>' +
-          '<p class="nota">Medias por país. Fuentes y notas en la pestaña Capas y en la presentación de la región.</p>';
+          '<li><span class="caja sin" style="background:#eef0ec"></span>Sin datos</li>' + leyendaLineas(c) + "</ul>" +
+          '<p class="nota">' + (G.propia ? "Valores por estado o provincia." : "Medias por país.") + " Fuentes y notas en la pestaña Capas y en la presentación de la región.</p>";
       } else if (c.tipo === "categorias") {
         const datos = D[c.datos];
-        const cat = (iso) => datos.paises[iso];
+        const G = geometriaDe(c);
+        const cat = (iso) => (datos[c.clave || "paises"] || {})[iso];
         capa.dibujar = (g) => {
-          g.selectAll("path").data(mapa.paises).join("path").attr("d", mapa.ruta).attr("class", "poligono")
+          g.selectAll("path").data(G.feats).join("path").attr("d", mapa.ruta).attr("class", "poligono")
             .attr("fill", (f) => (datos.categorias[cat(f.properties.id)] || {}).color || "#eef0ec");
+          lineasFinas(g, c);
         };
-        capa.info = (ll, pais) => {
+        capa.info = (ll, paisMundo) => {
+          const pais = unidadEn(G, ll, paisMundo);
           if (!pais) return null;
           const k = cat(pais.properties.id);
           const extra = datos.notas && datos.notas[pais.properties.id];
-          return k ? "<b>" + RM.esc(datos.categorias[k].nombre) + "</b>" + (extra ? "<br>" + RM.esc(extra) : "") : null;
+          const nom = datos.nombres && datos.nombres[pais.properties.id];
+          return k ? (nom ? RM.esc(nom) + ": " : "") + "<b>" + RM.esc(datos.categorias[k].nombre) + "</b>" + (extra ? "<br>" + RM.esc(extra) : "") : null;
         };
-        capa.leyenda = () => "<ul>" + Object.values(datos.categorias).map((v) => "<li>" + caja(v.color) + RM.esc(v.nombre) + "</li>").join("") + "</ul>";
+        capa.leyenda = () => "<ul>" + Object.values(datos.categorias).map((v) => "<li>" + caja(v.color) + RM.esc(v.nombre) + "</li>").join("") + leyendaLineas(c) + "</ul>";
       } else if (c.tipo === "puntos") {
         const pts = D[c.archivo][c.clave];
         capa.dibujar = (g) => {
@@ -158,6 +177,15 @@
       return capa;
     });
     const capaPor = new Map(capas.map((c) => [c.id, c]));
+
+    // Líneas finas de referencia sobre coropletas y categorías ("lineas": [{nombre, coords}])
+    function lineasFinas(g, c) {
+      (c.lineas || []).forEach((l) => g.append("path").datum({ type: "LineString", coordinates: l.coords })
+        .attr("class", "linea-ref").attr("d", mapa.ruta));
+    }
+    function leyendaLineas(c) {
+      return (c.lineas || []).map((l) => '<li><span class="caja linea"></span>' + RM.esc(l.nombre) + "</li>").join("");
+    }
 
     function dibujarExtras(g, claves) {
       const P = D[ref.puntos];
@@ -210,7 +238,7 @@
       });
     }
     const PRINCIPALES = new Set(["Londres", "París", "Madrid", "Roma", "Berlín", "Varsovia", "Moscú", "Kiev", "Estambul", "Estocolmo",
-      "Atenas", "Bucarest", "Lisboa", "Oslo", "Helsinki", "Viena", "Budapest", "Dublín"]);
+      "Atenas", "Bucarest", "Lisboa", "Oslo", "Helsinki", "Viena", "Budapest", "Dublín"].concat(ref.principales || []));
     mapa.alZoom = () => { ajustarSimbolos(); colocarCortinilla(); };
 
     // ---------- Estado ----------

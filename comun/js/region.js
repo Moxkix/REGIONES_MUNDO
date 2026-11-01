@@ -15,7 +15,7 @@
     climas: ["climas.html", "Climogramas", "Estaciones con datos de 1991-2020, clasificación de Köppen paso a paso, dinámica atmosférica y ejercicio de dominios climáticos."],
     recursos: ["recursos.html", "Producciones y recursos", "Quién produce qué en el mundo, balance energético de cada país y evolución del sector agrario, con las afirmaciones del manual comprobadas."],
     poblacion: ["poblacion.html", "Población y desarrollo", "Pirámides de 1950 a 2100, transición demográfica y un explorador de indicadores que compara todos los países del mundo."],
-    ciudades: ["ciudades.html", "Ciudades y redes urbanas", "Mapa de las ciudades desde 1975, jerarquía urbana con la regla rango-tamaño, ritmo de urbanización y las cifras del manual comparadas con las de hoy."],
+    ciudades: ["ciudades.html", "Ciudades y redes urbanas", "Mapa del crecimiento de las ciudades, jerarquía urbana con la regla rango-tamaño, ritmo de urbanización y las cifras del manual comparadas con las de hoy."],
     paisajes: ["paisajes.html", "Lectura de paisajes", "Fotografías de paisajes para localizar, clasificar por su clima y explicar su vegetación y su actividad económica, como en la PEC."],
   };
 

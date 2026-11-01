@@ -101,8 +101,15 @@
       "capitulo": 3,
       "titulo": "Norteamérica",
       "subtitulo": "Primera potencia económica mundial: Estados Unidos",
-      "disponible": false,
-      "motores": [],
+      "disponible": true,
+      "motores": [
+        "atlas",
+        "climas",
+        "recursos",
+        "poblacion",
+        "ciudades",
+        "paisajes"
+      ],
       "color": "#2f8f83",
       "paises": [
         "USA",

@@ -14,7 +14,7 @@ Sitio publicado: <https://moxkix.github.io/REGIONES_MUNDO/>
 | `climas.html?r=<id>` | Climogramas, clasificación de Köppen paso a paso, centros de acción y ejercicio de clasificación |
 | `recursos.html?r=<id>` | Producciones y recursos: cuotas de producción mundial (agricultura, energía y minería), balance energético por país, indicadores agrarios y afirmaciones del manual comprobadas |
 | `poblacion.html?r=<id>` | Población y desarrollo: pirámides animadas (1950-2100) con comparación, transición demográfica y explorador de indicadores en dispersión, con trayectorias y mapa mundial |
-| `ciudades.html?r=<id>` | Ciudades y redes urbanas: mapa de ciudades de 1975 a 2050, jerarquía urbana con la regla rango-tamaño, urbanización y tamaño de las ciudades, y las cifras del manual comparadas con las de hoy |
+| `ciudades.html?r=<id>` | Ciudades y redes urbanas: mapa de ciudades de 1975 a 2050 (en Norteamérica, áreas metropolitanas de 2000 a 2025), jerarquía urbana con la regla rango-tamaño, urbanización y tamaño de las ciudades, y las cifras del manual comparadas con las de hoy |
 | `paisajes.html?r=<id>` | Lectura de paisajes como en la PEC: localizar la fotografía en el mapa, identificar el clima (con climograma de referencia) y explicar la vegetación y la actividad económica, con respuesta modelo |
 
 Todo es HTML, CSS y JavaScript sin compilación. D3 y TopoJSON están en `comun/vendor/` y las fuentes tipográficas en `comun/fuentes/`, de modo que el sitio no depende de servicios externos.
@@ -70,6 +70,8 @@ Los motores leen todo de la configuración: no hay que tocar el código.
 | `koppen` | TopoJSON con el campo `k` | clima |
 | `coropleta` | `datos/paises.json` y un campo numérico | densidad, envejecimiento, renta |
 | `categorias` | asignación país → categoría | situación política, bloques |
+
+Las coropletas y las categorías usan por defecto los países del mundo. Con `"geometria": { "archivo": "capas/estados.json", "objeto": "estados" }` se dibujan sobre otra geometría (en Norteamérica, estados y provincias), con los datos indexados por `properties.id` bajo la clave que indica `"clave"` (`"unidades"` en `datos/estados.json`). Ambas admiten `"lineas"` (`[{ "nombre", "coords" }]`), que se trazan como líneas discontinuas de referencia, como el meridiano 98° O.
 | `puntos` | lista de puntos con categoría | regiones industriales, yacimientos, puertos |
 
 ### Producciones y recursos
@@ -110,6 +112,8 @@ Los datos de ciudades son compartidos (Naciones Unidas, *World Urbanization Pros
   "urbanizacion": { "agregados": ["UE27", "WLD"], "porDefecto": ["UE27", "WLD"], "comparadores": ["USA"] },
   "tamano": { "comparadores": ["UE27", "USA", "WLD"] } }
 ```
+
+Una región puede sustituir las ciudades de la ONU por las suyas con `"archivo"` (misma estructura que `datos/ciudades/ciudades.json`, con un séptimo campo opcional para el nombre oficial). Norteamérica lo hace con las áreas metropolitanas oficiales (`datos/metros.json`: MSA del U.S. Census Bureau y CMA de Statistics Canada, 2000-2025), porque la ciudad continua de la ONU fragmenta las metrópolis de baja densidad de Estados Unidos. En ese caso conviene ajustar `"periodos"` (variaciones del mapa, por defecto `[[2000, 2025], [1975, 2000]]`), `"tramos"` (periodos de la ficha de cada ciudad), `"umbralJerarquia"` (miles de habitantes que cuentan en el gráfico rango-tamaño) y, si se quiere encuadrar solo una parte de la región, `"ventana"`. El cuadro del manual admite `columnaHoy`, `columnaDatos` y `escalaDatos` para rotular y escalar sus dos últimas columnas.
 
 `regiones/<id>/datos/ciudades.json` contiene las afirmaciones del manual con su comprobación (`texto`, `hoy`, `nota`, `apartado`) y, si lo hay, un cuadro del manual con las cifras oficiales de hoy (`cuadro`). Para añadir los países de una región nueva, ved `herramientas/README.md`.
 

@@ -1,0 +1,90 @@
+{
+ "nota": "Población a 1 de julio de 2025 según las estimaciones oficiales del U.S. Census Bureau (Vintage 2025) y de Statistics Canada; densidad calculada con la superficie total del manual (introducción), con las aguas interiores. Variación desde el censo de 2000 (EE UU) y el de 2001 (Canadá). Fecundidad de 2024 según el NCHS y Statistics Canada. Las columnas «manual» proceden del cuadro 3.1 (2015). Los motores de población usan las estimaciones de Naciones Unidas (WPP 2024), algo distintas: 348,2 millones en EE UU y 40,3 en Canadá en 2025.",
+ "fuentes": "U.S. Census Bureau (Vintage 2025 y censo de 2000); Statistics Canada (tabla 17-10-0009-01 y censo de 2001); NCHS (National Vital Statistics Reports); Banco Mundial, World Development Indicators (PIB por habitante, consulta de octubre de 2026); manual, cuadro 3.1.",
+ "columnas": [
+  [
+   "nombre",
+   "País",
+   0,
+   false
+  ],
+  [
+   "superficie",
+   "Superficie (km²)",
+   0,
+   true
+  ],
+  [
+   "poblacion_manual",
+   "Población 2015 (M, manual)",
+   1,
+   true
+  ],
+  [
+   "poblacion",
+   "Población 2025 (M)",
+   1,
+   true
+  ],
+  [
+   "var_pob",
+   "Variación 2000-2025 (%)",
+   1,
+   true
+  ],
+  [
+   "densidad_manual",
+   "Densidad 2015 (manual)",
+   0,
+   true
+  ],
+  [
+   "densidad",
+   "Densidad 2025",
+   0,
+   true
+  ],
+  [
+   "fecundidad",
+   "Hijos por mujer (2024)",
+   2,
+   true
+  ],
+  [
+   "pib_pc",
+   "PIB por hab. PPA 2024 ($)",
+   0,
+   true
+  ]
+ ],
+ "paises": {
+  "USA": {
+   "nombre": "Estados Unidos",
+   "capital": "Washington",
+   "superficie": 9629090,
+   "poblacion": 341784857.0,
+   "poblacion_manual": 325.2,
+   "densidad": 35.5,
+   "densidad_manual": 33,
+   "var_pob": 21.4,
+   "fecundidad": 1.6,
+   "pct65": 18.16,
+   "pib_pc": 75698.0,
+   "urbana": 80.1
+  },
+  "CAN": {
+   "nombre": "Canadá",
+   "capital": "Ottawa",
+   "superficie": 9970610,
+   "poblacion": 41608982.0,
+   "poblacion_manual": 35.5,
+   "densidad": 4.2,
+   "densidad_manual": 4,
+   "var_pob": 38.7,
+   "fecundidad": 1.26,
+   "pct65": 20.02,
+   "pib_pc": 57534.0,
+   "urbana": 82.7
+  }
+ }
+}

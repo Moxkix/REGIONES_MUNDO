@@ -74,6 +74,12 @@ svg .flujo { fill: none; stroke: var(--tinta); stroke-width: 2.4; stroke-dasharr
 svg .halo { fill: none; stroke-opacity: .25; }
 svg .halo.A { stroke: #2f5d8a; }
 svg .halo.B { stroke: #9c3a1f; }
+/* Masas de aire (Norteamérica): "clase" frio o calido y "letra" Pc, Pm, Tc, Tm */
+svg .centro.frio circle { fill: #4f7fb0; }
+svg .centro.calido circle { fill: #c2456a; }
+svg .halo.frio { stroke: #4f7fb0; }
+svg .halo.calido { stroke: #c2456a; }
+svg .centro .letra.corta { font-size: 15px; }
 .modo { display: flex; border: 1px solid var(--linea); border-radius: var(--radio); overflow: hidden; margin: 0 0 1rem; padding: 0; }
 .modo label { flex: 1; text-align: center; padding: .5rem .3rem; font-family: var(--sans); font-size: .9rem; cursor: pointer; background: var(--tierra); }
 .modo input { position: absolute; opacity: 0; }

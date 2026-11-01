@@ -1,0 +1,1179 @@
+{
+  "titulo": "Paisajes de Norteamérica",
+  "nota": "Las fotografías proceden de Wikimedia Commons y se cargan desde allí con su autor y su licencia.",
+  "paisajes": [
+    {
+      "id": "tundra-nunavut",
+      "titulo": "Tundra ártica de Nunavut",
+      "lugar": "Nunavut (Canadá); la fotografía no indica el lugar exacto",
+      "pais": "Canadá",
+      "lat": 64.5,
+      "lon": -80.0,
+      "tolerancia": 900,
+      "estacion": "iqaluit",
+      "foto": {
+        "archivo": "File:Nunavut tundra -c.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Nunavut_tundra_-c.jpg/1920px-Nunavut_tundra_-c.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Nunavut_tundra_-c.jpg",
+        "autor": "ADialla",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Suelo pedregoso con musgos, líquenes y plantas enanas de tonos rojos y ocres, grandes bloques de roca y pequeñas charcas"
+      },
+      "mirar": [
+        "La ausencia total de árboles: solo musgos, líquenes y arbustos enanos.",
+        "Los tonos rojos y ocres de las plantas en el corto otoño ártico (la foto es de septiembre).",
+        "Los bloques de roca sueltos sobre el suelo, abandonados por los glaciares, y la roca desnuda del escudo.",
+        "Las charcas: el suelo helado en profundidad no deja que el agua se infiltre."
+      ],
+      "koppen": "ET",
+      "distractores": [
+        "Dfc",
+        "EF",
+        "BWk"
+      ],
+      "clima": "Clima ártico (ET). En Iqaluit el mes más frío baja a −27,0 °C y el más cálido no pasa de 8,1 °C: ningún mes llega a 10 °C, el umbral que necesitan los árboles. La precipitación es escasa (361 mm), en buena parte en forma de nieve. El suelo permanece helado la mayor parte del año (permafrost).",
+      "notaKoppen": "La estación de referencia es Iqaluit, en la isla de Baffin; todo Nunavut tiene clima de tundra (ET).",
+      "localizacion": "Norte del Escudo canadiense, en el territorio de Nunavut, por encima del límite septentrional del bosque.",
+      "preguntas": [
+        {
+          "id": "tundra-arboles",
+          "enunciado": "¿Por qué no hay árboles en este paisaje?",
+          "opciones": [
+            {
+              "t": "Porque el verano es demasiado corto y frío (ningún mes llega a 10 °C) y el suelo está helado en profundidad",
+              "r": "Es la definición de la tundra que da el manual: musgos, líquenes y plantas enanas, con lagos, pantanos y turberas.",
+              "ok": true
+            },
+            {
+              "t": "Porque los bosques fueron talados por los colonos",
+              "r": "Nunca hubo bosque: el límite es climático."
+            },
+            {
+              "t": "Porque llueve demasiado",
+              "r": "Al contrario, la precipitación es escasa."
+            },
+            {
+              "t": "Porque está a mucha altitud",
+              "r": "Es una llanura o meseta baja del Escudo."
+            }
+          ],
+          "explicacion": [
+            "El manual la llama la región de los Barren Grounds o tierras estériles: inviernos largos y rigurosos, con −10 a −15 °C en enero en la costa y mucho menos en el interior."
+          ]
+        },
+        {
+          "id": "tundra-poblamiento",
+          "enunciado": "¿Quiénes habitan este territorio y cómo es su poblamiento?",
+          "opciones": [
+            {
+              "t": "Sobre todo inuit, en pequeños núcleos dispersos: Nunavut tiene unos 42.000 habitantes en dos millones de km² (0,02 hab./km²)",
+              "r": "Nunavut se creó en 1999 como territorio de mayoría inuit.",
+              "ok": true
+            },
+            {
+              "t": "Grandes ciudades industriales",
+              "r": "No hay ninguna ciudad grande; la capital, Iqaluit, tiene unos 7.500 habitantes."
+            },
+            {
+              "t": "Agricultores de trigo",
+              "r": "La agricultura es imposible."
+            },
+            {
+              "t": "No vive nadie",
+              "r": "Viven unas 42.000 personas, la mayoría inuit."
+            }
+          ],
+          "explicacion": [
+            "En la capa de densidad del atlas, Nunavut es la unidad con menos habitantes por km² de toda Norteamérica."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Norte de Canadá, en el territorio de Nunavut (más de 60° N), sobre el Escudo canadiense, al norte del límite del bosque.",
+        "b": "Clima ártico o de tundra (ET): inviernos larguísimos con medias de −25 a −30 °C, verano corto y fresco en el que ningún mes supera los 10 °C, y precipitación escasa (300-400 mm), en buena parte como nieve. Suelo helado permanentemente (permafrost).",
+        "c": "Tundra de musgos, líquenes y arbustos enanos, con lagos, turberas y bloques erráticos de origen glaciar. Poblamiento muy escaso de comunidades inuit; caza, pesca, minería y administración."
+      },
+      "manual": "Apartados 1.1.1 y 1.2.2.2",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climograma de Iqaluit y Utqiagvik"
+        }
+      ]
+    },
+    {
+      "id": "taiga-yukon",
+      "titulo": "Bosque boreal del Yukón",
+      "lugar": "Refugio Nacional de Vida Silvestre del Delta del Yukón (Alaska)",
+      "pais": "Estados Unidos",
+      "lat": 61.9,
+      "lon": -162.5,
+      "tolerancia": 400,
+      "estacion": "fairbanks",
+      "foto": {
+        "archivo": "File:Riparian boreal forest (9527251560).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Riparian_boreal_forest_%289527251560%29.jpg/1920px-Riparian_boreal_forest_%289527251560%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Riparian_boreal_forest_%289527251560%29.jpg",
+        "autor": "Kristine Sowl, U.S. Fish and Wildlife Service",
+        "licencia": "Dominio público",
+        "licencia_url": "",
+        "alt": "Vista aérea de un río con meandros, bosquetes de abetos oscuros y zonas pantanosas con restos de nieve"
+      },
+      "mirar": [
+        "Los bosquetes de coníferas (picea) de color verde oscuro.",
+        "El río con meandros y las zonas encharcadas: el suelo helado no deja infiltrar el agua del deshielo.",
+        "Los restos de nieve a mediados de mayo: la primavera llega muy tarde.",
+        "La ausencia de campos, carreteras y pueblos."
+      ],
+      "koppen": "Dfc",
+      "distractores": [
+        "ET",
+        "Dfa",
+        "Cfb"
+      ],
+      "clima": "Clima subártico (Dfc). En el interior de Alaska, Fairbanks tiene un mes más frío de −22,4 °C y un mes más cálido de 17,2 °C: 39,6 °C de amplitud. Precipitación escasa, 296 mm, con máximo en julio.",
+      "notaKoppen": "Fairbanks, la estación de referencia, está en el interior de Alaska; Köppen la clasifica como Dfb porque cuatro meses rozan los 10 °C. En el delta del Yukón, más cerca del mar de Bering, el verano es más fresco (Dfc).",
+      "localizacion": "Oeste de Alaska, en las llanuras bajas del delta del Yukón, cerca del mar de Bering.",
+      "preguntas": [
+        {
+          "id": "taiga-arboles",
+          "enunciado": "¿Qué árboles forman el bosque boreal de Norteamérica, según el manual?",
+          "opciones": [
+            {
+              "t": "Coníferas (picea, pino, abeto y alerce) acompañadas de abedules, álamos y alisos",
+              "r": "Es la taiga que ocupa la franja entre los 50° y los 65° N, de Alaska a Terranova.",
+              "ok": true
+            },
+            {
+              "t": "Robles, hayas y castaños",
+              "r": "Son árboles del bosque caducifolio del noreste de Estados Unidos."
+            },
+            {
+              "t": "Secuoyas y abetos de Douglas",
+              "r": "Son las coníferas gigantes de la fachada del Pacífico."
+            },
+            {
+              "t": "Manglares",
+              "r": "Son propios del sur de Florida."
+            }
+          ],
+          "explicacion": [
+            "Las coníferas soportan el frío y la sequía fisiológica del invierno: con el suelo helado, las raíces no pueden absorber agua."
+          ]
+        },
+        {
+          "id": "taiga-economia",
+          "enunciado": "¿Qué recursos se explotan en el bosque boreal de Canadá y Alaska?",
+          "opciones": [
+            {
+              "t": "La madera y el papel, la minería, el petróleo (vertiente norte de Alaska, Alberta) y la energía hidroeléctrica",
+              "r": "El manual destaca la industria maderera y del papel y la hidroelectricidad del Escudo.",
+              "ok": true
+            },
+            {
+              "t": "El cultivo de maíz",
+              "r": "El periodo vegetativo es demasiado corto."
+            },
+            {
+              "t": "La industria del automóvil",
+              "r": "Está en los Grandes Lagos y el Sur."
+            },
+            {
+              "t": "El turismo de playa",
+              "r": "No es un recurso de esta zona."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Oeste de Alaska, en el delta del Yukón (62° N), dentro de la gran franja de bosque boreal que cruza el continente de Alaska a Terranova.",
+        "b": "Clima subártico (Dfc): inviernos largos y muy fríos, por debajo de −15 °C, y verano corto y fresco, con uno a tres meses por encima de 10 °C. Precipitación escasa, en torno a 300-500 mm, con máximo en verano.",
+        "c": "Taiga de coníferas (picea, alerce) con abedules y álamos, ríos de meandros, lagos y turberas. Muy poca población: caza, pesca de salmón y subsistencia de los pueblos nativos; en otras zonas, explotación forestal, minería e hidrocarburos."
+      },
+      "manual": "Apartado 1.2.2.2",
+      "enlaces": []
+    },
+    {
+      "id": "pradera-saskatchewan",
+      "titulo": "Las praderas de Saskatchewan",
+      "lugar": "Carretera 16, cerca de North Battleford (Saskatchewan)",
+      "pais": "Canadá",
+      "lat": 52.85,
+      "lon": -108.4,
+      "tolerancia": 400,
+      "estacion": "winnipeg",
+      "foto": {
+        "archivo": "File:Somewhere along Hwy 16 - 40 - 56 - 106 in the Saskatchewan prairies - (28709461132).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Somewhere_along_Hwy_16_-_40_-_56_-_106_in_the_Saskatchewan_prairies_-_%2828709461132%29.jpg/1920px-Somewhere_along_Hwy_16_-_40_-_56_-_106_in_the_Saskatchewan_prairies_-_%2828709461132%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Somewhere_along_Hwy_16_-_40_-_56_-_106_in_the_Saskatchewan_prairies_-_%2828709461132%29.jpg",
+        "autor": "Murray Foubister",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Campo de cereal llano hasta el horizonte, con silos metálicos y un elevador de grano bajo un cielo muy amplio"
+      },
+      "mirar": [
+        "La llanura absolutamente horizontal, sin árboles, hasta el horizonte.",
+        "Los campos de cereal de gran tamaño.",
+        "Los silos metálicos y el elevador de grano, junto a la carretera o el ferrocarril.",
+        "El cielo inmenso, típico de las Grandes Llanuras."
+      ],
+      "koppen": "Dfb",
+      "distractores": [
+        "BSk",
+        "Cfa",
+        "Dfc"
+      ],
+      "clima": "Clima continental seco de las praderas. En Winnipeg, la estación de referencia, el mes más frío baja a −16,3 °C y el más cálido sube a 19,5 °C: una amplitud de 35,8 °C. Llueve poco (519 mm), sobre todo en verano, justo cuando lo necesita el cereal.",
+      "notaKoppen": "Winnipeg, en Manitoba, está a unos 650 km al este. En el oeste de Saskatchewan las lluvias son aún menores y el clima pasa a semiárido de estepa (BSk).",
+      "localizacion": "Centro-oeste de la provincia de Saskatchewan, en las Grandes Llanuras canadienses (Prairies).",
+      "preguntas": [
+        {
+          "id": "pradera-trigo",
+          "enunciado": "¿Qué cinturón agrícola del manual corresponde a este paisaje?",
+          "opciones": [
+            {
+              "t": "El cinturón triguero (Wheat Belt), con trigo de primavera en el norte, que en Canadá ocupa el sur de Manitoba, Saskatchewan y Alberta",
+              "r": "Es el «granero» de Canadá: grandes explotaciones mecanizadas y buena parte de la cosecha se exporta.",
+              "ok": true
+            },
+            {
+              "t": "El cinturón lechero",
+              "r": "Está en Nueva Inglaterra y los Grandes Lagos."
+            },
+            {
+              "t": "El cinturón del algodón",
+              "r": "El algodón necesita calor: está en el sur de Estados Unidos."
+            },
+            {
+              "t": "La agricultura mediterránea de regadío",
+              "r": "Está en California."
+            }
+          ],
+          "explicacion": [
+            "Canadá es el quinto productor mundial de trigo y uno de los mayores exportadores. Al sur, en las Dakotas, Montana y Minnesota, continúa el mismo cinturón."
+          ]
+        },
+        {
+          "id": "pradera-elevador",
+          "enunciado": "¿Para qué sirven los silos y elevadores de grano junto a las vías de comunicación?",
+          "opciones": [
+            {
+              "t": "Para almacenar el cereal y cargarlo en el ferrocarril hacia los puertos de exportación (Vancouver, Thunder Bay)",
+              "r": "Los elevadores de grano marcaban cada pocos kilómetros las líneas de ferrocarril que colonizaron las praderas.",
+              "ok": true
+            },
+            {
+              "t": "Para regar los campos",
+              "r": "No tienen ninguna relación con el riego."
+            },
+            {
+              "t": "Para producir electricidad",
+              "r": "Son almacenes de grano."
+            },
+            {
+              "t": "Para guardar maquinaria industrial",
+              "r": "Guardan cereal."
+            }
+          ],
+          "explicacion": [
+            "Como en Estados Unidos, el ferrocarril y el reparto de la tierra en cuadrículas organizaron la colonización de las praderas a finales del siglo XIX y comienzos del XX."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Llanuras de Saskatchewan (53° N), en las Grandes Llanuras o praderas del centro-oeste de Canadá.",
+        "b": "Clima continental seco: inviernos muy fríos (−15 a −20 °C en enero), veranos templados (unos 18-20 °C), gran amplitud térmica y precipitación escasa, de 350 a 500 mm, concentrada en verano.",
+        "c": "Pradera transformada en grandes campos de cereal (trigo de primavera, cebada, colza) y legumbres, en explotaciones muy mecanizadas. Silos y elevadores de grano junto al ferrocarril, que lleva la cosecha a los puertos de exportación."
+      },
+      "manual": "Apartados 1.2.2.2 y 3.1 (cinturón 7)",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=trigo",
+          "texto": "Producción de trigo: Estados Unidos y Canadá en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "maiz-iowa",
+      "titulo": "El cinturón del maíz",
+      "lugar": "Noroeste de Iowa",
+      "pais": "Estados Unidos",
+      "lat": 43.23,
+      "lon": -96.12,
+      "tolerancia": 300,
+      "estacion": "minneapolis",
+      "foto": {
+        "archivo": "File:Knee High by the 4th of July! NW Iowa 7-2013 (11033879924).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Knee_High_by_the_4th_of_July%21_NW_Iowa_7-2013_%2811033879924%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Knee_High_by_the_4th_of_July%21_NW_Iowa_7-2013_%2811033879924%29.jpg",
+        "autor": "inkknife_2000",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Campo de maíz alto y denso, con las espigas masculinas en lo alto, bajo un cielo nublado de verano"
+      },
+      "mirar": [
+        "El maíz alto y denso, ya con las panículas (espigas masculinas) en lo alto: es finales de julio.",
+        "El monocultivo hasta donde alcanza la vista.",
+        "El color verde intenso: el verano es cálido y húmedo.",
+        "La ausencia de árboles y de casas en el campo."
+      ],
+      "koppen": "Dfa",
+      "distractores": [
+        "Cfa",
+        "BSk",
+        "Dfb"
+      ],
+      "clima": "Clima continental húmedo de verano cálido (Dfa). En Minneapolis, la estación de referencia, el mes más frío baja a −8,8 °C y el más cálido sube a 23,5 °C. Llueven 803 mm, con máximo en junio: lluvia y calor coinciden en la época de crecimiento del maíz.",
+      "notaKoppen": "Minneapolis está a unos 300 km al nordeste; el clima del noroeste de Iowa es muy parecido (Dfa).",
+      "localizacion": "Noroeste de Iowa, en el corazón del Corn Belt, entre el Misisipi y el Misuri.",
+      "preguntas": [
+        {
+          "id": "maiz-destino",
+          "enunciado": "¿A qué se destina principalmente este maíz?",
+          "opciones": [
+            {
+              "t": "A pienso para el ganado porcino y vacuno y a la producción de etanol",
+              "r": "El manual lo llama cinturón de maíz-soja-ganado de engorde y destaca el auge de los biocombustibles.",
+              "ok": true
+            },
+            {
+              "t": "A tortillas para la exportación a México",
+              "r": "Una pequeña parte se exporta, pero no es el destino principal."
+            },
+            {
+              "t": "A la fabricación de papel",
+              "r": "El papel se hace con madera."
+            },
+            {
+              "t": "A la producción de algodón",
+              "r": "Son cultivos distintos."
+            }
+          ],
+          "explicacion": [
+            "Iowa es el primer productor de maíz y de cerdos de Estados Unidos."
+          ]
+        },
+        {
+          "id": "maiz-rendimiento",
+          "enunciado": "¿Por qué este paisaje produce rendimientos tan altos?",
+          "opciones": [
+            {
+              "t": "Por los suelos fértiles de las praderas, el verano cálido y lluvioso y una agricultura muy tecnificada (maíz híbrido, abonos, mecanización)",
+              "r": "El manual cita estos factores para explicar el alto rendimiento de la agricultura norteamericana.",
+              "ok": true
+            },
+            {
+              "t": "Por el regadío con aguas del Colorado",
+              "r": "Aquí el maíz es de secano: llueven unos 700-800 mm."
+            },
+            {
+              "t": "Por el trabajo de muchos jornaleros",
+              "r": "La agricultura es muy mecanizada y emplea a muy poca gente."
+            },
+            {
+              "t": "Por el clima tropical",
+              "r": "Los inviernos son fríos, con medias bajo cero."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Noroeste del estado de Iowa (43° N), en las Llanuras interiores del Medio Oeste, al este del meridiano 98.",
+        "b": "Clima continental húmedo de verano cálido (Dfa): inviernos fríos, con medias bajo cero, y veranos cálidos (unos 23-24 °C en julio). Lluvias de 700-800 mm con máximo en primavera y verano.",
+        "c": "Pradera húmeda convertida en campos de maíz y soja en grandes explotaciones mecanizadas; ganadería de engorde (porcino y vacuno) y producción de etanol."
+      },
+      "manual": "Apartado 3.1 (cinturón 3)",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=maiz",
+          "texto": "Producción de maíz: Estados Unidos, primer productor mundial"
+        }
+      ]
+    },
+    {
+      "id": "pivots-kansas",
+      "titulo": "Regadíos de pívot en las Grandes Llanuras",
+      "lugar": "Oeste de Kansas",
+      "pais": "Estados Unidos",
+      "lat": 37.95,
+      "lon": -100.9,
+      "tolerancia": 300,
+      "estacion": "dodgecity",
+      "foto": {
+        "archivo": "File:Irrigation Circles - Western Kansas (50637863011).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Irrigation_Circles_-_Western_Kansas_%2850637863011%29.jpg/1920px-Irrigation_Circles_-_Western_Kansas_%2850637863011%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Irrigation_Circles_-_Western_Kansas_%2850637863011%29.jpg",
+        "autor": "formulanone",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Vista aérea de campos circulares verdes y pardos dentro de una cuadrícula de caminos rectos"
+      },
+      "mirar": [
+        "Los círculos verdes y pardos: campos regados por pívots, brazos de riego que giran alrededor de un pozo.",
+        "La cuadrícula de caminos rectos de una milla de lado (Rectangular Land Survey).",
+        "Los espacios entre círculos, de secano o pasto.",
+        "La ausencia de ríos visibles: el agua es subterránea."
+      ],
+      "koppen": "BSk",
+      "distractores": [
+        "Dfa",
+        "BWh",
+        "Csa"
+      ],
+      "clima": "Clima semiárido de estepa (BSk), en el límite de la aridez. La estación de Dodge City tiene un mes más frío de 0,6 °C y un mes más cálido de 26,7 °C, y solo 559 mm de lluvia, con máximo en junio: no basta para el maíz sin riego.",
+      "notaKoppen": "Dodge City queda justo por encima del umbral de aridez y Köppen la clasifica como Cfa; unos kilómetros al oeste, donde se tomó la foto, el clima ya es BSk.",
+      "localizacion": "Oeste de Kansas, en las Grandes Llanuras, al oeste del meridiano 98.",
+      "preguntas": [
+        {
+          "id": "pivots-agua",
+          "enunciado": "¿De dónde sale el agua que riega estos círculos?",
+          "opciones": [
+            {
+              "t": "Del acuífero de Ogallala, una gran reserva de agua subterránea bajo las Grandes Llanuras, que se está agotando",
+              "r": "El riego por bombeo ha transformado el cinturón triguero, como señala el manual.",
+              "ok": true
+            },
+            {
+              "t": "De los Grandes Lagos, mediante canales",
+              "r": "Los Grandes Lagos están a más de 1.000 km."
+            },
+            {
+              "t": "De la lluvia, que es muy abundante",
+              "r": "Llueven poco más de 500 mm."
+            },
+            {
+              "t": "Del deshielo de los glaciares de Alaska",
+              "r": "No hay ninguna conexión."
+            }
+          ],
+          "explicacion": [
+            "En partes de Kansas y Texas el nivel del acuífero ha bajado decenas de metros: es uno de los grandes problemas ambientales de la agricultura norteamericana."
+          ]
+        },
+        {
+          "id": "pivots-cuadricula",
+          "enunciado": "¿Qué explica la cuadrícula perfecta de caminos que enmarca los círculos?",
+          "opciones": [
+            {
+              "t": "El sistema de división de la tierra en townships y secciones de una milla (Rectangular Land Survey), aplicado en la colonización del Oeste",
+              "r": "Es el paisaje de campos cuadrados que describe el manual entre los Apalaches y las Rocosas (figura 3.6).",
+              "ok": true
+            },
+            {
+              "t": "Las parcelas de las misiones españolas",
+              "r": "Las misiones estaban en California y el Suroeste, con otra organización."
+            },
+            {
+              "t": "La concentración parcelaria del siglo XXI",
+              "r": "La cuadrícula se trazó en el siglo XIX."
+            },
+            {
+              "t": "Los cursos de los ríos",
+              "r": "Las líneas son rectas y siguen los puntos cardinales."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Oeste de Kansas (38° N), en las Grandes Llanuras, al oeste del meridiano 98, frontera de la aridez.",
+        "b": "Clima semiárido de estepa (BSk): inviernos fríos, en torno a 0 °C, veranos calurosos (26-27 °C) y unos 500 mm de lluvia, con máximo en primavera y verano y fuerte irregularidad interanual.",
+        "c": "Estepa de hierbas cortas transformada en trigo de invierno de secano y en regadíos de maíz, alfalfa y sorgo con pívots que bombean el acuífero de Ogallala; cebaderos de ganado. Cuadrícula de caminos del Rectangular Land Survey."
+      },
+      "manual": "Apartados 2 (figura 3.6) y 3.1 (cinturones 7 y 8)",
+      "enlaces": [
+        {
+          "pagina": "atlas.html",
+          "texto": "Atlas: cinturones agrícolas y meridiano 98"
+        }
+      ]
+    },
+    {
+      "id": "rancho-wyoming",
+      "titulo": "Ganadería en el Oeste",
+      "lugar": "Valle alto del río Green, cerca de Pinedale (Wyoming)",
+      "pais": "Estados Unidos",
+      "lat": 42.87,
+      "lon": -109.86,
+      "tolerancia": 350,
+      "estacion": "cheyenne",
+      "foto": {
+        "archivo": "File:Cattle Drive near Pinedale, WY (14963962303).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Cattle_Drive_near_Pinedale%2C_WY_%2814963962303%29.jpg/1920px-Cattle_Drive_near_Pinedale%2C_WY_%2814963962303%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cattle_Drive_near_Pinedale%2C_WY_%2814963962303%29.jpg",
+        "autor": "USFWS Mountain-Prairie",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Vaqueros a caballo conducen ganado vacuno negro entre matorral de artemisa, con montañas nevadas al fondo"
+      },
+      "mirar": [
+        "Los vaqueros a caballo conduciendo el ganado vacuno.",
+        "El matorral bajo de artemisa (sagebrush), propio de los climas secos y fríos.",
+        "La cordillera al fondo (Wind River Range, en las Rocosas).",
+        "La inmensidad del espacio, sin cultivos ni casas."
+      ],
+      "koppen": "Dfb",
+      "distractores": [
+        "BSk",
+        "Csb",
+        "ET"
+      ],
+      "clima": "Clima frío y seco de las cuencas altas de las Rocosas. A más de 2.000 m, los inviernos son largos y fríos y el verano corto. La estación de referencia, Cheyenne, en el piedemonte, tiene un mes más frío de −1,8 °C, un mes más cálido de 21,2 °C y solo 392 mm, con máximo en mayo.",
+      "notaKoppen": "El mapa de Köppen da Dfb en este valle, a unos 2.200 m: el frío pesa más que la aridez. Cheyenne, más baja y algo más cálida, es estepa (BSk).",
+      "localizacion": "Oeste de Wyoming, en la cuenca alta del río Green, al pie de las Montañas Rocosas.",
+      "preguntas": [
+        {
+          "id": "rancho-ganaderia",
+          "enunciado": "¿Qué cinturón del manual corresponde a este paisaje?",
+          "opciones": [
+            {
+              "t": "La región ganadera de pastos y regadíos: ganadería extensiva en ranchos, con trashumancia hacia los pastos de altura",
+              "r": "El manual la sitúa entre el piedemonte de las Rocosas y la cordillera del Pacífico, con menos de 450 mm de lluvia.",
+              "ok": true
+            },
+            {
+              "t": "El cinturón del maíz",
+              "r": "El maíz necesita más calor y lluvia."
+            },
+            {
+              "t": "El cinturón lechero",
+              "r": "El ganado de la foto es de carne, en régimen extensivo."
+            },
+            {
+              "t": "La agricultura mediterránea",
+              "r": "Está en California."
+            }
+          ],
+          "explicacion": [
+            "Gran parte de estos pastos son tierras federales que se arriendan a los ganaderos."
+          ]
+        },
+        {
+          "id": "rancho-relieve",
+          "enunciado": "¿Qué unidad de relieve se ve al fondo?",
+          "opciones": [
+            {
+              "t": "Las Montañas Rocosas, montañas jóvenes de más de 4.000 m que forman una barrera entre las llanuras y el Oeste",
+              "r": "La Wind River Range alcanza 4.207 m en el Gannett Peak.",
+              "ok": true
+            },
+            {
+              "t": "Los Apalaches",
+              "r": "Están en el este del continente."
+            },
+            {
+              "t": "El Escudo canadiense",
+              "r": "Está en el norte y el este de Canadá."
+            },
+            {
+              "t": "La cordillera costera del Pacífico",
+              "r": "Está mucho más al oeste."
+            }
+          ],
+          "explicacion": []
+        }
+      ],
+      "modelo": {
+        "a": "Oeste de Wyoming (43° N), en una cuenca alta de las Montañas Rocosas, a más de 2.000 m.",
+        "b": "Clima continental frío y seco, de montaña: inviernos largos y fríos, veranos cortos y frescos y precipitación escasa (300-400 mm).",
+        "c": "Estepa de artemisa con pastos; ganadería extensiva de vacuno en grandes ranchos, con trashumancia estival a los pastos de montaña. Población muy escasa; también extracción de gas."
+      },
+      "manual": "Apartados 1.1.4 y 3.1 (cinturón 8)",
+      "enlaces": []
+    },
+    {
+      "id": "desierto-sonora",
+      "titulo": "El desierto de Sonora",
+      "lugar": "Montes McDowell, Scottsdale (Arizona)",
+      "pais": "Estados Unidos",
+      "lat": 33.66,
+      "lon": -111.8,
+      "tolerancia": 250,
+      "estacion": "phoenix",
+      "foto": {
+        "archivo": "File:Carnegiea Sonoran Desert 05.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Carnegiea_Sonoran_Desert_05.jpg/1920px-Carnegiea_Sonoran_Desert_05.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Carnegiea_Sonoran_Desert_05.jpg",
+        "autor": "Nicholas Hartmann",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Cactus saguaro en primer plano entre arbustos verdes y matorral, con colinas rocosas al fondo"
+      },
+      "mirar": [
+        "El cactus saguaro, columnar, que almacena agua en su tronco.",
+        "Los arbustos espinosos y el suelo desnudo entre ellos.",
+        "Las colinas rocosas sin suelo ni bosque.",
+        "El verde de los arbustos tras las lluvias de invierno (la foto es de marzo)."
+      ],
+      "koppen": "BWh",
+      "distractores": [
+        "BSk",
+        "Csa",
+        "Aw"
+      ],
+      "clima": "Clima desértico cálido (BWh). En Phoenix el mes más frío tiene 13,2 °C y el más cálido 35,3 °C, uno de los veranos más calurosos de Norteamérica. Solo caen 183 mm, repartidos entre las lluvias de invierno y las tormentas del monzón de verano.",
+      "localizacion": "Centro-sur de Arizona, junto al área metropolitana de Phoenix, en el desierto de Sonora.",
+      "preguntas": [
+        {
+          "id": "sonora-xerofila",
+          "enunciado": "¿Cómo se adapta la vegetación a este clima?",
+          "opciones": [
+            {
+              "t": "Es xerófila: cactus que almacenan agua, hojas reducidas o espinas y plantas muy separadas para no competir por el agua",
+              "r": "El manual describe el clima desértico del sur de California, Arizona, Nevada y Nuevo México con vegetación xerófila.",
+              "ok": true
+            },
+            {
+              "t": "Con hojas grandes para aprovechar la luz",
+              "r": "Las hojas grandes pierden mucha agua."
+            },
+            {
+              "t": "Perdiendo las hojas en invierno por el frío",
+              "r": "El invierno es suave."
+            },
+            {
+              "t": "Con raíces adaptadas al suelo helado",
+              "r": "No hay suelo helado."
+            }
+          ],
+          "explicacion": []
+        },
+        {
+          "id": "sonora-phoenix",
+          "enunciado": "Phoenix ha pasado de 3,3 a 5,2 millones de habitantes entre 2000 y 2025. ¿Qué plantea ese crecimiento en un desierto?",
+          "opciones": [
+            {
+              "t": "Un grave problema de agua: depende del río Colorado y de acuíferos sobreexplotados, en plena sequía prolongada",
+              "r": "Desde 2021 los estados de la cuenca del Colorado sufren recortes de agua.",
+              "ok": true
+            },
+            {
+              "t": "Ninguno: el desierto tiene agua de sobra",
+              "r": "Solo llueven unos 180 mm al año."
+            },
+            {
+              "t": "La falta de suelo para construir",
+              "r": "Hay muchísimo suelo: la ciudad se extiende en baja densidad."
+            },
+            {
+              "t": "El frío del invierno",
+              "r": "El invierno es muy suave: atrae a jubilados."
+            }
+          ],
+          "explicacion": [
+            "Phoenix es un ejemplo del crecimiento de las metrópolis del Sun Belt: clima soleado, vivienda más barata que en California y aire acondicionado."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Desierto de Sonora, en el centro-sur de Arizona (33,5° N), junto a Phoenix, al abrigo de las cordilleras del Pacífico.",
+        "b": "Clima desértico cálido (BWh): inviernos suaves (unos 13 °C en enero), veranos extremadamente calurosos (35 °C de media en julio) y menos de 200 mm de lluvia, con dos máximos (invierno y tormentas monzónicas de verano).",
+        "c": "Vegetación xerófila con cactus saguaro y arbustos espinosos. Crecimiento urbano muy rápido de Phoenix y regadíos que dependen del agua del río Colorado."
+      },
+      "manual": "Apartado 1.2.2.1",
+      "enlaces": [
+        {
+          "pagina": "ciudades.html",
+          "ancla": "mapa",
+          "texto": "Ciudades: el crecimiento de Phoenix y del Sun Belt"
+        }
+      ]
+    },
+    {
+      "id": "valle-central",
+      "titulo": "El Valle Central de California",
+      "lugar": "Oeste del valle de San Joaquín, junto a la autopista I-5 (California)",
+      "pais": "Estados Unidos",
+      "lat": 36.6,
+      "lon": -120.4,
+      "tolerancia": 300,
+      "estacion": "sacramento",
+      "foto": {
+        "archivo": "File:California aqueduct.triddle.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/California_aqueduct.triddle.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:California_aqueduct.triddle.jpg",
+        "autor": "Triddle (Wikipedia en inglés)",
+        "licencia": "Dominio público",
+        "licencia_url": "",
+        "alt": "Un gran canal de hormigón atraviesa una llanura con frutales en filas y una línea eléctrica"
+      },
+      "mirar": [
+        "El canal del Acueducto de California, revestido de hormigón.",
+        "Los frutales plantados en filas regulares: almendros, pistachos o cítricos.",
+        "La llanura totalmente plana del valle.",
+        "Las colinas secas que se adivinan al fondo."
+      ],
+      "koppen": "BSk",
+      "distractores": [
+        "Csa",
+        "BWh",
+        "Cfa"
+      ],
+      "clima": "El valle de San Joaquín es seco: en su lado oeste el clima es ya semiárido (BSk). La estación de referencia, Sacramento, en el norte del valle, tiene clima mediterráneo (Csa): 8,5 °C en el mes más frío, 24,4 °C en el más cálido y 461 mm, casi todos de noviembre a marzo. El verano es caluroso y totalmente seco.",
+      "notaKoppen": "Sacramento (Csa) está a unos 250 km al norte, donde llueve algo más. Sin el agua del acueducto, este paisaje sería una estepa seca.",
+      "localizacion": "Lado occidental del valle de San Joaquín, la mitad sur del Gran Valle de California, entre la cordillera costera y Sierra Nevada.",
+      "preguntas": [
+        {
+          "id": "valle-agua",
+          "enunciado": "¿De dónde procede el agua que transporta el canal?",
+          "opciones": [
+            {
+              "t": "Del norte de California y de Sierra Nevada: el Acueducto lleva agua de la cuenca del Sacramento hacia el sur seco del valle y hacia Los Ángeles",
+              "r": "Es una de las mayores obras hidráulicas del mundo, inaugurada en los años setenta.",
+              "ok": true
+            },
+            {
+              "t": "Del océano Pacífico, desalada",
+              "r": "La desalinización es muy minoritaria."
+            },
+            {
+              "t": "Del río Misisipi",
+              "r": "Está al otro lado del continente."
+            },
+            {
+              "t": "De la lluvia local, que es abundante",
+              "r": "La lluvia es escasa y no cae en verano."
+            }
+          ],
+          "explicacion": [
+            "Las sequías de la última década han obligado a recortar el agua y a bombear acuíferos, lo que hunde el terreno en partes del valle."
+          ]
+        },
+        {
+          "id": "valle-cultivos",
+          "enunciado": "¿Qué tipo de agricultura muestra la fotografía?",
+          "opciones": [
+            {
+              "t": "Agricultura mediterránea intensiva de regadío: frutales, frutos secos, cítricos, viñedo y hortalizas",
+              "r": "Es el cinturón 9 del manual, el de mayor valor por hectárea del país.",
+              "ok": true
+            },
+            {
+              "t": "Trigo de secano",
+              "r": "Sin riego no se podría cultivar en verano."
+            },
+            {
+              "t": "Algodón de plantación con esclavos",
+              "r": "Es la agricultura del antiguo Sur, en el siglo XIX."
+            },
+            {
+              "t": "Arroz de inundación tropical",
+              "r": "El clima no es tropical."
+            }
+          ],
+          "explicacion": [
+            "California produce cerca del 80 % de las almendras del mundo y la mayor parte de las frutas y hortalizas de Estados Unidos."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Valle de San Joaquín (36-37° N), parte sur del Gran Valle de California, entre la cordillera costera y Sierra Nevada.",
+        "b": "Clima mediterráneo de verano caluroso (Csa) que pasa a semiárido (BSk) hacia el sur y el oeste del valle: inviernos suaves (8-10 °C), veranos de más de 25 °C y lluvias escasas (150-450 mm) concentradas en invierno.",
+        "c": "Agricultura intensiva de regadío (almendros, pistachos, cítricos, viñedo, hortalizas, algodón) gracias a grandes trasvases como el Acueducto de California; explotaciones agroindustriales con mano de obra inmigrante."
+      },
+      "manual": "Apartados 1.2.2.1 y 3.1 (cinturón 9)",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climogramas de Sacramento y San Francisco"
+        }
+      ]
+    },
+    {
+      "id": "hoh-olympic",
+      "titulo": "El bosque lluvioso templado del Pacífico",
+      "lugar": "Bosque del Hoh, Parque Nacional Olympic (Washington)",
+      "pais": "Estados Unidos",
+      "lat": 47.86,
+      "lon": -123.93,
+      "tolerancia": 250,
+      "estacion": "seattle",
+      "foto": {
+        "archivo": "File:Bigleaf maples and ferns in the Hoh Rain Forest, Olympic National Park (August 2018).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Bigleaf_maples_and_ferns_in_the_Hoh_Rain_Forest%2C_Olympic_National_Park_%28August_2018%29.jpg/1920px-Bigleaf_maples_and_ferns_in_the_Hoh_Rain_Forest%2C_Olympic_National_Park_%28August_2018%29.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Bigleaf_maples_and_ferns_in_the_Hoh_Rain_Forest%2C_Olympic_National_Park_%28August_2018%29.jpg",
+        "autor": "Ben1152000",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Arces cubiertos de musgo colgante sobre una alfombra de helechos en un bosque muy húmedo"
+      },
+      "mirar": [
+        "Los musgos que cubren por completo troncos y ramas.",
+        "La alfombra densa de helechos en el suelo.",
+        "La luz verde y difusa bajo un dosel cerrado.",
+        "Los grandes árboles: arces de hoja grande junto a coníferas gigantes."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "Csb",
+        "Dfc",
+        "Af"
+      ],
+      "clima": "Clima oceánico de fachada occidental. En la vertiente occidental de los montes Olympic llueven más de 3.000 mm al año, de los máximos de Estados Unidos. Seattle, al abrigo de las montañas, recibe mucho menos: 999 mm, con un mes más frío de 5,6 °C, un mes más cálido de 19,7 °C y máximo en noviembre.",
+      "notaKoppen": "El mapa de Köppen da Cfb en el valle del Hoh. Seattle tiene un verano relativamente seco y Köppen la clasifica como Csb.",
+      "localizacion": "Península Olympic, en el noroeste del estado de Washington, frente al océano Pacífico.",
+      "preguntas": [
+        {
+          "id": "hoh-lluvia",
+          "enunciado": "¿Por qué llueve tanto en este bosque?",
+          "opciones": [
+            {
+              "t": "Porque las borrascas del Pacífico chocan con los montes Olympic y descargan en su vertiente occidental (lluvias orográficas)",
+              "r": "El manual explica que el relieve impide que los vientos húmedos penetren en el interior y que al norte de los 40° se alcanzan los 2.000 mm.",
+              "ok": true
+            },
+            {
+              "t": "Porque está junto al golfo de México",
+              "r": "Está en la costa del Pacífico."
+            },
+            {
+              "t": "Por las tormentas tropicales del verano",
+              "r": "Llueve sobre todo en otoño e invierno; el verano es más seco."
+            },
+            {
+              "t": "Porque es un clima ecuatorial",
+              "r": "Es un clima templado oceánico."
+            }
+          ],
+          "explicacion": [
+            "Al este de las montañas, en la cuenca de Puget, llueve mucho menos: es la sombra pluviométrica."
+          ]
+        },
+        {
+          "id": "hoh-vegetacion",
+          "enunciado": "¿Qué formación vegetal cita el manual para esta fachada del Pacífico?",
+          "opciones": [
+            {
+              "t": "El bosque templado oceánico de coníferas gigantes: abeto de Douglas, Picea sitchensis, secuoya y Tsuga heterophylla, con abundante sotobosque",
+              "r": "Son algunos de los árboles más altos del mundo.",
+              "ok": true
+            },
+            {
+              "t": "El chaparral mediterráneo",
+              "r": "Es propio de California, más al sur."
+            },
+            {
+              "t": "La taiga de alerces",
+              "r": "Es la vegetación del subártico."
+            },
+            {
+              "t": "El manglar",
+              "r": "Es propio de las costas tropicales de Florida."
+            }
+          ],
+          "explicacion": [
+            "La explotación forestal de estos bosques sostiene una gran industria de la madera y el papel en Washington, Oregón y la Columbia Británica."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Península Olympic, en el noroeste del estado de Washington (48° N), en la fachada occidental del continente.",
+        "b": "Clima oceánico de fachada occidental (Cfb): inviernos suaves (unos 5 °C), veranos frescos (unos 16-20 °C), poca amplitud térmica y precipitaciones muy abundantes, de 2.000 a más de 3.000 mm, con máximo en otoño e invierno.",
+        "c": "Bosque lluvioso templado de coníferas gigantes (picea de Sitka, tsuga, abeto de Douglas) y arces, cubiertos de musgo, con helechos. Espacio natural protegido; en el entorno, explotación forestal."
+      },
+      "manual": "Apartado 1.2.2.1",
+      "enlaces": [
+        {
+          "pagina": "climas.html",
+          "ancla": "explorar",
+          "texto": "Climogramas de Seattle y Vancouver"
+        }
+      ]
+    },
+    {
+      "id": "algodon-delta",
+      "titulo": "Algodón en el delta del Misisipi",
+      "lugar": "Condado de Coahoma (Misisipi)",
+      "pais": "Estados Unidos",
+      "lat": 34.25,
+      "lon": -90.6,
+      "tolerancia": 300,
+      "estacion": "nuevaorleans",
+      "foto": {
+        "archivo": "File:Cotton Field P6250063.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Cotton_Field_P6250063.jpg/1920px-Cotton_Field_P6250063.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Cotton_Field_P6250063.jpg",
+        "autor": "Chris Light",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Campo llano con plantas jóvenes de algodón en hileras y una línea de árboles al fondo"
+      },
+      "mirar": [
+        "Las plantas jóvenes de algodón en hileras (la foto es de finales de junio).",
+        "La llanura aluvial totalmente plana del Misisipi.",
+        "La línea de árboles al fondo, restos del bosque de ribera.",
+        "El gran tamaño del campo, sin cercas."
+      ],
+      "koppen": "Cfa",
+      "distractores": [
+        "Dfa",
+        "Aw",
+        "BSk"
+      ],
+      "clima": "Clima subtropical húmedo (Cfa). La estación de referencia, Nueva Orleans, en la desembocadura del Misisipi, tiene 12,4 °C en el mes más frío y 28,9 °C en el más cálido, con 1.609 mm muy repartidos. En el norte del delta, donde se tomó la foto, el invierno es algo más frío y llueven unos 1.300 mm.",
+      "localizacion": "Llanura aluvial del Misisipi en el noroeste del estado de Misisipi (el Delta), al sur de Memphis.",
+      "preguntas": [
+        {
+          "id": "algodon-cinturon",
+          "enunciado": "El manual dice que el «antiguo cinturón del algodón» es el que menos se ajusta a su nombre. ¿Por qué?",
+          "opciones": [
+            {
+              "t": "Porque el algodón ha retrocedido mucho desde su máximo de 1926-1930 y hoy predominan la soja, el arroz, la madera, la ganadería y las granjas avícolas",
+              "r": "Hoy el primer estado algodonero es Texas, con regadío en las Grandes Llanuras.",
+              "ok": true
+            },
+            {
+              "t": "Porque nunca se cultivó algodón en el Sur",
+              "r": "Fue la base de la economía de plantación del Viejo Sur."
+            },
+            {
+              "t": "Porque el clima ya no permite cultivarlo",
+              "r": "El clima sigue siendo apto; el cambio es económico."
+            },
+            {
+              "t": "Porque se ha urbanizado por completo",
+              "r": "Es todavía una región muy rural."
+            }
+          ],
+          "explicacion": [
+            "Estados Unidos es el tercer productor mundial de algodón (13 %) y uno de los primeros exportadores."
+          ]
+        },
+        {
+          "id": "algodon-historia",
+          "enunciado": "¿Qué movimiento de población del manual tiene su origen en regiones como esta?",
+          "opciones": [
+            {
+              "t": "La salida de población negra de los condados rurales del Sur hacia las grandes ciudades del norte, desde los años veinte",
+              "r": "La mecanización del algodón y la segregación empujaron la Gran Migración hacia Chicago, Detroit o Nueva York.",
+              "ok": true
+            },
+            {
+              "t": "La llegada de jubilados del norte",
+              "r": "Se dirige sobre todo a Florida y Arizona."
+            },
+            {
+              "t": "La colonización española",
+              "r": "La presencia española en el valle del Misisipi fue escasa."
+            },
+            {
+              "t": "La inmigración asiática reciente",
+              "r": "Se concentra en las grandes metrópolis."
+            }
+          ],
+          "explicacion": [
+            "El Delta del Misisipi es la cuna del blues y una de las zonas más pobres de Estados Unidos."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Llanura aluvial del Misisipi (el Delta), en el noroeste del estado de Misisipi (34° N), dentro de la llanura del golfo de México.",
+        "b": "Clima subtropical húmedo (Cfa): inviernos suaves (5-8 °C en enero), veranos calurosos y húmedos (27-28 °C) y lluvias abundantes, de 1.300 mm, repartidas todo el año, por el aire tropical marítimo del Golfo.",
+        "c": "Llanura de cultivos extensivos y mecanizados (algodón, soja, arroz, maíz) en grandes explotaciones, herederas de las plantaciones. Restos de bosque de ribera; población rural en declive y con altos niveles de pobreza."
+      },
+      "manual": "Apartados 2, 3.1 (cinturón 5) y 5.2",
+      "enlaces": [
+        {
+          "pagina": "recursos.html",
+          "ancla": "produccion=algodon",
+          "texto": "Producción de algodón en el mundo"
+        }
+      ]
+    },
+    {
+      "id": "everglades",
+      "titulo": "Manglares de los Everglades",
+      "lugar": "Parque Nacional de los Everglades (Florida)",
+      "pais": "Estados Unidos",
+      "lat": 25.4,
+      "lon": -80.65,
+      "tolerancia": 200,
+      "estacion": "miami",
+      "foto": {
+        "archivo": "File:Everglades 01.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Everglades_01.jpg/1920px-Everglades_01.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Everglades_01.jpg",
+        "autor": "AndrewKPepper",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Manglar con raíces aéreas que se hunden en agua oscura bajo un dosel de hojas verdes"
+      },
+      "mirar": [
+        "Las raíces aéreas o zancos de los mangles, que sostienen el árbol sobre el agua.",
+        "El agua oscura y quieta: un humedal costero.",
+        "El dosel verde y denso todo el año.",
+        "La ausencia de relieve: estamos a muy pocos metros sobre el nivel del mar."
+      ],
+      "koppen": "Aw",
+      "distractores": [
+        "Cfa",
+        "Am",
+        "BWh"
+      ],
+      "clima": "Clima tropical. En Miami ningún mes baja de 20 °C (20,3 °C en el mes más frío, 29,0 °C en el más cálido) y caen 1.712 mm, sobre todo de mayo a octubre, la estación de lluvias y de huracanes. El invierno es la estación seca.",
+      "notaKoppen": "El mapa de Köppen da Aw (sabana, con estación seca) en los Everglades; Miami, algo más lluviosa, sale Am.",
+      "localizacion": "Extremo sur de la península de Florida, entre Miami y el golfo de México.",
+      "preguntas": [
+        {
+          "id": "everglades-clima",
+          "enunciado": "¿Qué clima del manual corresponde a este paisaje?",
+          "opciones": [
+            {
+              "t": "El clima tropical del extremo sur de Florida, con inviernos suaves, veranos calurosos y húmedos y manglar",
+              "r": "Es el único clima tropical de Estados Unidos continental.",
+              "ok": true
+            },
+            {
+              "t": "El subtropical húmedo de tipo chino",
+              "r": "Domina en el resto del sureste, con inviernos más frescos."
+            },
+            {
+              "t": "El mediterráneo",
+              "r": "Aquí la estación lluviosa es el verano."
+            },
+            {
+              "t": "El oceánico",
+              "r": "Las temperaturas son mucho más altas."
+            }
+          ],
+          "explicacion": []
+        },
+        {
+          "id": "everglades-amenazas",
+          "enunciado": "¿Qué amenaza principal sufre este humedal?",
+          "opciones": [
+            {
+              "t": "La desviación de su agua dulce para la agricultura y el crecimiento urbano del sur de Florida, y la subida del nivel del mar",
+              "r": "Desde 2000 un gran plan federal intenta restaurar el flujo natural del agua.",
+              "ok": true
+            },
+            {
+              "t": "El frío del invierno",
+              "r": "El invierno es suave."
+            },
+            {
+              "t": "La minería del carbón",
+              "r": "No hay carbón en Florida."
+            },
+            {
+              "t": "La tala para leña",
+              "r": "No es la amenaza principal."
+            }
+          ],
+          "explicacion": [
+            "El área metropolitana de Miami ha pasado de 5 a 6,4 millones de habitantes entre 2000 y 2025."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Extremo sur de la península de Florida (25° N), en el Parque Nacional de los Everglades, junto al golfo de México.",
+        "b": "Clima tropical (Aw-Am): ningún mes por debajo de 20 °C, verano muy caluroso y húmedo y lluvias de unos 1.500-1.700 mm concentradas de mayo a octubre; huracanes.",
+        "c": "Humedal de pradera de juncos (río de hierba) y manglares en la costa; espacio protegido amenazado por los drenajes, la agricultura (caña de azúcar) y el crecimiento urbano."
+      },
+      "manual": "Apartados 1.2.2.2 y 3.1 (cinturón 6)",
+      "enlaces": []
+    },
+    {
+      "id": "blue-ridge",
+      "titulo": "Los Apalaches en otoño",
+      "lugar": "Blue Ridge Parkway, al sur de Asheville (Carolina del Norte)",
+      "pais": "Estados Unidos",
+      "lat": 35.45,
+      "lon": -82.6,
+      "tolerancia": 250,
+      "estacion": "asheville",
+      "foto": {
+        "archivo": "File:Autumn along Blue Ridge Parkway.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Autumn_along_Blue_Ridge_Parkway.jpg/1920px-Autumn_along_Blue_Ridge_Parkway.jpg",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Autumn_along_Blue_Ridge_Parkway.jpg",
+        "autor": "Frankaustx",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Sucesión de sierras redondeadas cubiertas de bosque con colores otoñales, en tonos azulados hacia el horizonte"
+      },
+      "mirar": [
+        "Las sierras de cumbres redondeadas, alineadas en paralelo.",
+        "El bosque caducifolio con colores de otoño (rojos, naranjas, amarillos).",
+        "El tono azulado de las sierras lejanas, que da nombre a la Blue Ridge.",
+        "La ausencia de picos agudos o glaciares."
+      ],
+      "koppen": "Cfb",
+      "distractores": [
+        "Cfa",
+        "Dfb",
+        "Csb"
+      ],
+      "clima": "Clima subtropical húmedo modificado por la altitud. En Asheville, a 645 m, el mes más frío tiene 3,7 °C y el más cálido 23,9 °C, más fresco que en Atlanta. Llueven 1.260 mm repartidos durante todo el año; en las cumbres, por encima de 1.500 m, todavía más.",
+      "notaKoppen": "El mapa de Köppen da Cfb en estas sierras por la altitud; Asheville, en el valle, es Cfa.",
+      "localizacion": "Apalaches del sur, en el oeste de Carolina del Norte, en la Blue Ridge (Montañas Azules).",
+      "preguntas": [
+        {
+          "id": "apalaches-formas",
+          "enunciado": "¿Por qué las montañas tienen formas tan suaves y redondeadas?",
+          "opciones": [
+            {
+              "t": "Porque son montañas paleozoicas muy antiguas, rebajadas por cientos de millones de años de erosión",
+              "r": "El manual describe los Apalaches como el único conjunto montañoso paleozoico de Norteamérica, de formas redondeadas y altitudes moderadas.",
+              "ok": true
+            },
+            {
+              "t": "Porque son volcanes apagados",
+              "r": "Son pliegues de rocas cristalinas y sedimentarias, no volcanes."
+            },
+            {
+              "t": "Porque se formaron en el Cuaternario",
+              "r": "Son mucho más antiguas que las Rocosas."
+            },
+            {
+              "t": "Porque las cubre un glaciar",
+              "r": "No hay glaciares en los Apalaches del sur."
+            }
+          ],
+          "explicacion": [
+            "Aquí está la cumbre más alta del este de Norteamérica, el monte Mitchell (2.037 m)."
+          ]
+        },
+        {
+          "id": "apalaches-bosque",
+          "enunciado": "¿Qué formación vegetal muestran los colores del otoño?",
+          "opciones": [
+            {
+              "t": "El bosque caducifolio de frondosas (roble, arce, castaño, nogal, haya) con coníferas",
+              "r": "El manual cita el bosque caducifolio del área medioatlántica y centro-oriental.",
+              "ok": true
+            },
+            {
+              "t": "La taiga",
+              "r": "La taiga es un bosque de coníferas de hoja perenne en su mayoría."
+            },
+            {
+              "t": "El bosque tropical",
+              "r": "Los árboles pierden la hoja en invierno."
+            },
+            {
+              "t": "La pradera",
+              "r": "Es un paisaje forestal."
+            }
+          ],
+          "explicacion": [
+            "El castaño americano dominaba estos bosques hasta que una enfermedad lo hizo casi desaparecer en la primera mitad del siglo XX."
+          ]
+        }
+      ],
+      "modelo": {
+        "a": "Apalaches del sur (35,5° N), en la Blue Ridge, al oeste de Carolina del Norte, cerca de Asheville.",
+        "b": "Clima subtropical húmedo modificado por la altitud (Cfa en los valles, Cfb en las sierras): inviernos frescos (3-4 °C en enero), veranos templados (unos 23 °C) y lluvias abundantes, 1.200-1.500 mm, repartidas todo el año.",
+        "c": "Bosque caducifolio mixto de robles, arces y pinos que cubre sierras paralelas de formas redondeadas. Espacios protegidos (Great Smoky Mountains, Blue Ridge Parkway) y turismo; antigua minería del carbón en los Apalaches centrales."
+      },
+      "manual": "Apartados 1.1.2 y 1.2.2.2",
+      "enlaces": []
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+ "titulo": "Producciones y recursos de Norteamérica",
+ "preguntas": [
+  {
+   "id": "maiz-primero",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "maiz"
+   },
+   "enunciado": "Estados Unidos produce el 31 % del maíz del mundo (2024). ¿A qué se destina sobre todo, según el manual?",
+   "opciones": [
+    {
+     "t": "A la alimentación del ganado vacuno y porcino y, cada vez más, a la fabricación de etanol (biocombustible)",
+     "r": "El manual llama al Corn Belt «cinturón de maíz-soja-ganado de engorde» y destaca el auge del etanol.",
+     "ok": true
+    },
+    {
+     "t": "Al consumo humano directo, como en México",
+     "r": "Solo algunas variedades se destinan al consumo humano."
+    },
+    {
+     "t": "A la exportación a Europa en grano para pan",
+     "r": "El trigo, no el maíz, es el cereal panificable."
+    },
+    {
+     "t": "A la producción de papel",
+     "r": "El papel procede de la madera del Escudo y del Sur."
+    }
+   ],
+   "explicacion": [
+    "El maíz híbrido, los abonos y la mecanización explican rendimientos de más de 11 t/ha en el Corn Belt.",
+    "Iowa, Illinois, Nebraska, Minnesota e Indiana concentran la mayor parte de la cosecha."
+   ],
+   "manual": "Apartado 3.1 (cinturón 3)"
+  },
+  {
+   "id": "trigo-puesto",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "trigo"
+   },
+   "enunciado": "El manual sitúa a Estados Unidos como tercer productor mundial de trigo, tras China e India. ¿Qué dicen los datos de 2024?",
+   "opciones": [
+    {
+     "t": "Ha bajado al cuarto puesto: Rusia lo ha superado; Canadá es quinto",
+     "r": "China 17,5 %, India 14,2 %, Rusia 10,3 %, Estados Unidos 6,7 % y Canadá 4,5 % de la cosecha mundial.",
+     "ok": true
+    },
+    {
+     "t": "Ha subido al primer puesto",
+     "r": "China e India producen más del doble."
+    },
+    {
+     "t": "Sigue tercero, con Canadá cuarto",
+     "r": "Rusia ocupa el tercer puesto desde mediados de la década de 2010."
+    },
+    {
+     "t": "Ya no cultiva trigo",
+     "r": "Sigue cosechando más de 50 millones de toneladas."
+    }
+   ],
+   "explicacion": [
+    "El trigo del Wheat Belt (trigo de invierno en Kansas y Oklahoma, de primavera en las Dakotas, Montana y las praderas canadienses) se cultiva en grandes explotaciones y una parte importante se exporta.",
+    "El manual ya advertía que el cinturón triguero se ha fragmentado y que su superficie retrocede."
+   ],
+   "manual": "Apartado 3.1 (cinturón 7)"
+  },
+  {
+   "id": "soja-brasil",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "soja"
+   },
+   "enunciado": "Recorred los años de la soja. Estados Unidos era el primer productor mundial con mucha diferencia. ¿Qué ha cambiado?",
+   "opciones": [
+    {
+     "t": "Brasil lo ha superado: en 2024 produce el 36 % frente al 30 % de Estados Unidos",
+     "r": "La expansión de la soja en el Cerrado brasileño ha desplazado el liderazgo hacia Sudamérica.",
+     "ok": true
+    },
+    {
+     "t": "China se ha convertido en el primer productor",
+     "r": "China es el primer importador mundial de soja, no el primer productor."
+    },
+    {
+     "t": "Canadá se ha convertido en el primer productor",
+     "r": "Canadá produce poca soja."
+    },
+    {
+     "t": "Nada: Estados Unidos sigue produciendo más de la mitad",
+     "r": "Hoy produce menos de un tercio."
+    }
+   ],
+   "explicacion": [
+    "El manual decía que la superficie de soja se estaba reduciendo en Estados Unidos; hoy sigue siendo el segundo productor y uno de los grandes exportadores, con China como principal cliente.",
+    "La soja se usa sobre todo para piensos (harina) y aceite."
+   ],
+   "manual": "Apartado 3.1 (cinturón 3)"
+  },
+  {
+   "id": "rendimientos",
+   "vista": {
+    "pestana": "agrario",
+    "indicador": "rendimiento_cereales"
+   },
+   "enunciado": "Estados Unidos obtiene unos 8.400 kg de cereal por hectárea y Canadá unos 4.000. ¿Qué explica la diferencia?",
+   "opciones": [
+    {
+     "t": "El maíz de regadío y de secano húmedo del Corn Belt frente al trigo y la cebada de secano de las praderas canadienses, más frías y secas",
+     "r": "El tipo de cereal y el clima pesan más que la tecnología, muy parecida en los dos países.",
+     "ok": true
+    },
+    {
+     "t": "Que en Canadá la agricultura no está mecanizada",
+     "r": "Canadá tiene una agricultura igual de mecanizada, con grandes explotaciones."
+    },
+    {
+     "t": "Que Canadá no usa abonos",
+     "r": "No es así: la diferencia es climática y de cultivos."
+    },
+    {
+     "t": "Que en Canadá hay más minifundio",
+     "r": "Las explotaciones de las praderas son muy grandes."
+    }
+   ],
+   "explicacion": [
+    "El maíz rinde mucho más por hectárea que el trigo. Las praderas canadienses tienen un periodo vegetativo corto y lluvias escasas.",
+    "El manual atribuye los altos rendimientos a las semillas mejoradas (maíz híbrido), los abonos, la conservación del suelo y del agua, la mecanización y el regadío."
+   ],
+   "manual": "Apartado 3"
+  },
+  {
+   "id": "empleo-agrario",
+   "vista": {
+    "pestana": "agrario",
+    "indicador": "empleo_agrario"
+   },
+   "enunciado": "La agricultura ocupa a un 1,5 % de los trabajadores en Estados Unidos y a un 1,1 % en Canadá. ¿Cómo es posible que sean grandes potencias agrarias?",
+   "opciones": [
+    {
+     "t": "Por una agricultura muy capitalizada y mecanizada, con explotaciones grandes y mucha productividad por trabajador",
+     "r": "Pocas personas producen mucho: es la estructura dualista del manual, con un pequeño número de grandes explotaciones que controla la mayor parte de la producción.",
+     "ok": true
+    },
+    {
+     "t": "Porque la mayor parte del trabajo agrícola no se contabiliza",
+     "r": "Las cifras incluyen el empleo agrario asalariado y por cuenta propia."
+    },
+    {
+     "t": "Porque importan casi todos los alimentos",
+     "r": "Son exportadores netos de cereales y oleaginosas."
+    },
+    {
+     "t": "Porque la agricultura ocupa muy poca superficie",
+     "r": "Ocupa una superficie enorme; lo pequeño es el empleo."
+    }
+   ],
+   "explicacion": [
+    "El tamaño medio de las explotaciones de Estados Unidos ha pasado de 175 ha (manual) a 187 ha (censo agrario de 2022), y las de más de 400 ha reúnen casi tres cuartas partes de la tierra.",
+    "Comparad con México, donde la agricultura ocupa todavía a más de una décima parte de los trabajadores."
+   ],
+   "manual": "Apartados 3 y 3.2"
+  },
+  {
+   "id": "petroleo-gas",
+   "vista": {
+    "pestana": "energia",
+    "paisA": "USA",
+    "paisB": "CAN"
+   },
+   "enunciado": "Observad la producción de petróleo y gas de Estados Unidos desde 2008. ¿Qué la ha disparado hasta convertirlo en el primer productor mundial de ambos?",
+   "opciones": [
+    {
+     "t": "La fractura hidráulica (fracking) y la perforación horizontal en esquistos: cuenca pérmica, Bakken, Marcellus",
+     "r": "Es la revolución del petróleo y el gas de esquisto, posterior a la edición del manual en buena parte.",
+     "ok": true
+    },
+    {
+     "t": "Los grandes yacimientos marinos del Atlántico norte",
+     "r": "La producción se concentra en Texas, Nuevo México, Dakota del Norte, Pensilvania y el golfo de México."
+    },
+    {
+     "t": "El descubrimiento de petróleo en Florida",
+     "r": "Florida apenas produce hidrocarburos."
+    },
+    {
+     "t": "La importación de crudo de Oriente Próximo",
+     "r": "Importar no aumenta la producción; de hecho, las importaciones netas han caído."
+    }
+   ],
+   "explicacion": [
+    "En 2024 Estados Unidos produjo el 19 % del petróleo y el 25 % del gas natural del mundo. Hoy produce tanto petróleo como consume y exporta gas natural licuado.",
+    "Canadá, con las arenas bituminosas de Alberta, es el cuarto productor mundial de petróleo y el principal proveedor de crudo de Estados Unidos."
+   ],
+   "manual": "Apartado 4.1.1"
+  },
+  {
+   "id": "carbon-declive",
+   "vista": {
+    "pestana": "energia",
+    "paisA": "USA",
+    "paisB": "CAN"
+   },
+   "enunciado": "El consumo de carbón de Estados Unidos ha caído a un tercio desde su máximo de 2005. ¿Qué lo ha sustituido sobre todo en la producción de electricidad?",
+   "opciones": [
+    {
+     "t": "El gas natural barato del fracking y, en segundo lugar, la eólica y la solar",
+     "r": "El gas es hoy la primera fuente de electricidad del país.",
+     "ok": true
+    },
+    {
+     "t": "La energía nuclear, que se ha duplicado",
+     "r": "El número de reactores ha bajado: de 104 en el manual a 94."
+    },
+    {
+     "t": "La hidroelectricidad",
+     "r": "La producción hidroeléctrica no ha crecido."
+    },
+    {
+     "t": "El petróleo",
+     "r": "El petróleo apenas se usa para producir electricidad."
+    }
+   ],
+   "explicacion": [
+    "El manual describe un país con un tercio de las reservas mundiales de carbón; hoy su producción ha caído y es el quinto o sexto productor del mundo.",
+    "Las cuencas de los Apalaches y de Illinois han perdido peso frente al carbón a cielo abierto de la cuenca del Powder River (Wyoming)."
+   ],
+   "manual": "Apartado 4.1.1"
+  },
+  {
+   "id": "hidraulica",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "hidraulica"
+   },
+   "enunciado": "El manual dice que la hidroelectricidad de Norteamérica es la primera del mundo. ¿Qué muestran los datos de 2025?",
+   "opciones": [
+    {
+     "t": "China produce el 31 % de la hidroelectricidad mundial; Canadá es tercera y Estados Unidos cuarta",
+     "r": "China supera a Canadá y Estados Unidos juntos con mucha diferencia.",
+     "ok": true
+    },
+    {
+     "t": "Estados Unidos sigue siendo el primer productor",
+     "r": "Es cuarto, por detrás de China, Brasil y Canadá."
+    },
+    {
+     "t": "Canadá es la primera productora",
+     "r": "Canadá es tercera."
+    },
+    {
+     "t": "La hidroelectricidad ha desaparecido en Norteamérica",
+     "r": "Sigue siendo la base de la electricidad en Quebec, la Columbia Británica o Manitoba."
+    }
+   ],
+   "explicacion": [
+    "Grandes obras como la presa de las Tres Gargantas han dado a China el primer puesto.",
+    "Para Canadá la hidroelectricidad sigue siendo esencial: aporta más de la mitad de su electricidad (James Bay, Columbia, Churchill)."
+   ],
+   "manual": "Apartado 4.1.1"
+  },
+  {
+   "id": "uranio",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "uranio"
+   },
+   "enunciado": "El manual presenta a Canadá como el primer productor mundial de uranio. ¿Qué dicen los datos de 2024?",
+   "opciones": [
+    {
+     "t": "Canadá es segunda (24 %), detrás de Kazajistán (39 %)",
+     "r": "Kazajistán la superó en 2009 gracias a la lixiviación in situ.",
+     "ok": true
+    },
+    {
+     "t": "Canadá sigue siendo la primera",
+     "r": "Kazajistán produce más que Canadá desde 2009."
+    },
+    {
+     "t": "Estados Unidos es el primer productor",
+     "r": "Su producción de uranio es hoy muy pequeña."
+    },
+    {
+     "t": "Australia es la primera",
+     "r": "Australia es cuarta."
+    }
+   ],
+   "explicacion": [
+    "El uranio canadiense sale de la cuenca de Athabasca (norte de Saskatchewan), con los yacimientos de mayor ley del mundo.",
+    "El dato del manual ya estaba desfasado cuando se publicó."
+   ],
+   "manual": "Apartado 4.1.1"
+  },
+  {
+   "id": "nuclear",
+   "vista": {
+    "pestana": "produccion",
+    "producto": "nuclear"
+   },
+   "enunciado": "Estados Unidos produce el 28 % de la electricidad nuclear del mundo. ¿Cómo ha evolucionado su parque desde la cifra del manual (104)?",
+   "opciones": [
+    {
+     "t": "Se ha reducido a 94 reactores, aunque siga siendo el primer productor mundial de electricidad nuclear",
+     "r": "Han cerrado más reactores de los que se han abierto (solo Vogtle 3 y 4, en Georgia, en 2023 y 2024).",
+     "ok": true
+    },
+    {
+     "t": "Ha crecido hasta más de 200 reactores",
+     "r": "Apenas se han construido reactores nuevos desde los años noventa."
+    },
+    {
+     "t": "Ha cerrado todas las centrales",
+     "r": "Siguen funcionando 94 reactores."
+    },
+    {
+     "t": "Ha sido superado por Francia en producción",
+     "r": "Francia produce la mitad que Estados Unidos, aunque la nuclear pesa mucho más en su electricidad."
+    }
+   ],
+   "explicacion": [
+    "China es ya el segundo productor y es el país que más reactores construye.",
+    "El manual habla de 104 «centrales»: en realidad eran reactores, agrupados en unas 60 centrales."
+   ],
+   "manual": "Apartado 4.1.1"
+  }
+ ]
+}
