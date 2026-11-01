@@ -94,3 +94,13 @@ python3 herramientas/poblacion_wpp.py carpeta_wpp ne_50m_admin_0_countries.geojs
 ```
 
 Genera `datos/poblacion/<ID>.json` (pirámides quinquenales cada cinco años y series anuales de 1950 a 2100), `datos/poblacion/indice.json` y `datos/indicadores/wpp.json`.
+
+## Ciudades (Naciones Unidas, WUP 2025)
+
+La ONU publica las ciudades solo en Excel. `wup2025/extraer.js` se pega en la consola del navegador con una página de <https://population.un.org/wup/> abierta: lee los archivos sin librerías y devuelve cuatro extractos de texto, que se guardan en `herramientas/wup2025/`. Las series de los agregados regionales (Europa, Europa oriental, Asia central, mundo…) de `urbano_nacional.txt` proceden del mismo archivo, de las filas sin código ISO. Después:
+
+```
+python3 herramientas/ciudades_wup.py
+```
+
+Escribe `datos/ciudades/ciudades.json`, `urbanizacion.json` y `tamano.json` usando la población de `datos/poblacion/`. El guion traduce los nombres de las ciudades más citadas y da nombre a los núcleos que la ONU deja sin nombre o separa de su ciudad (por ejemplo, las dos orillas de Krasnoyarsk). Para una región nueva, añadid sus países a la lista `PAISES` de `extraer.js`.

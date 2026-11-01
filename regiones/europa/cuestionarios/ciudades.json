@@ -1,0 +1,347 @@
+{
+  "titulo": "Preguntas sobre las ciudades de Europa",
+  "preguntas": [
+    {
+      "id": "parisino-renano",
+      "vista": {
+        "pestana": "jerarquia",
+        "pais": "FRA",
+        "comparar": "DEU",
+        "anio": 2025
+      },
+      "enunciado": "Comparad Francia y Alemania en la jerarquía urbana. París tiene casi ocho veces la población de Lyon; Berlín apenas un 30 % más que la segunda ciudad alemana. ¿Qué modelos de red urbana representan?",
+      "opciones": [
+        {
+          "t": "Francia, el modelo parisino (una metrópoli que polariza el territorio); Alemania, el renano (una red densa y equilibrada)",
+          "r": "Es la distinción del apartado 4.2: macrocefalia frente a policentrismo.",
+          "ok": true
+        },
+        {
+          "t": "Los dos son ejemplos del modelo renano",
+          "r": "En Francia una sola ciudad domina toda la red: es el caso típico de macrocefalia."
+        },
+        {
+          "t": "Francia tiene una red bicéfala, como España",
+          "r": "Una red bicéfala tiene dos ciudades de tamaño parecido; en Francia la segunda es ocho veces menor."
+        },
+        {
+          "t": "Alemania tiene una red macrocéfala porque Berlín es la capital",
+          "r": "Ser capital no basta: Berlín no domina la red alemana, que reparte las funciones entre varias ciudades."
+        }
+      ],
+      "explicacion": [
+        "El peso histórico del Estado centralizado explica la primacía de París (y de Londres); la fragmentación política de Alemania hasta 1871 y el federalismo, la red policéntrica.",
+        "En el gráfico, los puntos franceses caen muy por debajo de la línea de la regla rango-tamaño a partir de la segunda ciudad; los alemanes se mantienen por encima."
+      ],
+      "manual": "Apartado 4.2"
+    },
+    {
+      "id": "espana-italia",
+      "vista": {
+        "pestana": "jerarquia",
+        "pais": "ESP",
+        "comparar": "ITA",
+        "anio": 2025
+      },
+      "enunciado": "El manual cita España (Madrid-Barcelona) e Italia (Roma-Milán) como redes bicéfalas. ¿Qué muestran hoy los datos?",
+      "opciones": [
+        {
+          "t": "España sigue siendo bicéfala; en Italia, Nápoles, Milán y Roma tienen un tamaño parecido y la red es más bien tricéfala",
+          "r": "Con la ciudad entendida como centro urbano continuo, Nápoles (2,8 millones) supera incluso a Milán y a Roma.",
+          "ok": true
+        },
+        {
+          "t": "Las dos se han vuelto macrocéfalas",
+          "r": "Ni Madrid ni ninguna ciudad italiana multiplica por más de 1,5 a la segunda."
+        },
+        {
+          "t": "Barcelona ha superado ya a Madrid",
+          "r": "Madrid tiene unos 5,6 millones y Barcelona unos 4,0 en 2025."
+        },
+        {
+          "t": "Roma domina claramente la red italiana",
+          "r": "Roma es la tercera ciudad italiana con esta definición; Italia es un ejemplo de red policéntrica."
+        }
+      ],
+      "explicacion": [
+        "La definición importa: con áreas metropolitanas Milán es la mayor de Italia; con la ciudad continua, Nápoles, cuya conurbación es muy densa.",
+        "Las dos redes comparten un rasgo: ninguna ciudad concentra la mayor parte de la población urbana."
+      ],
+      "manual": "Apartado 4.2"
+    },
+    {
+      "id": "megalopolis",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "trazados": [
+          "Megalópolis europea",
+          "Diagonal Londres-Milán"
+        ]
+      },
+      "enunciado": "Activad la megalópolis europea y la diagonal Londres-Milán. ¿Qué tienen en común las ciudades que quedan dentro?",
+      "opciones": [
+        {
+          "t": "Forman la mayor concentración urbana de Europa, heredera de la Revolución Industrial y de los grandes ejes comerciales",
+          "r": "Liverpool, Londres, el Randstad, Flandes, el Ruhr y el Rin componen la «megalópolis» del apartado 4.1.",
+          "ok": true
+        },
+        {
+          "t": "Son todas capitales de Estado",
+          "r": "La mayoría no lo son: Essen, Rotterdam, Amberes, Colonia o Mánchester son ciudades industriales y portuarias."
+        },
+        {
+          "t": "Son las ciudades que más crecen de Europa",
+          "r": "Varias, como las del Ruhr, pierden o mantienen población; las que más crecen están en el norte y en España."
+        },
+        {
+          "t": "Están todas en la región mediterránea",
+          "r": "Es el gran espacio urbano del noroeste; el mediterráneo es otro de los tres espacios que distingue el manual."
+        }
+      ],
+      "explicacion": [
+        "El manual distingue tres grandes espacios urbanos: la megalópolis del noroeste, las capitales nacionales y el arco mediterráneo.",
+        "La diagonal Londres-Milán refleja el desplazamiento histórico del centro económico de Venecia a Amberes, Ámsterdam y Londres."
+      ],
+      "manual": "Apartado 4.1"
+    },
+    {
+      "id": "crecen-menguan",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "color": "2000"
+      },
+      "enunciado": "Con el color de la variación 2000-2025, ¿qué ciudades europeas han crecido más y cuáles han perdido población?",
+      "opciones": [
+        {
+          "t": "Crecen las capitales y grandes ciudades del norte y del oeste (Estocolmo, Oslo, Madrid, Londres); pierden las del este y las industriales (Riga, Lodz, Katowice)",
+          "r": "Estocolmo crece un 51 % y Madrid un 42 %; Riga pierde un 20 % y Lodz un 19 %.",
+          "ok": true
+        },
+        {
+          "t": "Crecen todas por igual",
+          "r": "El mapa muestra contrastes muy fuertes entre el oeste y el este."
+        },
+        {
+          "t": "Crecen sobre todo las ciudades del este, por la llegada de fondos europeos",
+          "r": "Las ciudades del este pierden población por la emigración y la baja natalidad, salvo algunas capitales."
+        },
+        {
+          "t": "Pierden población las capitales y crecen las ciudades pequeñas",
+          "r": "Las capitales del oeste son de las que más crecen."
+        }
+      ],
+      "explicacion": [
+        "La terciarización concentra el empleo cualificado en las grandes metrópolis; la desindustrialización y la emigración vacían las ciudades industriales del este.",
+        "Cambiad a la variación 1975-2000 para ver la crisis anterior de las ciudades industriales del oeste: Liverpool, Glasgow, Bilbao o Turín."
+      ],
+      "manual": "Apartado 4.2"
+    },
+    {
+      "id": "industriales-1975",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2000,
+        "color": "1975"
+      },
+      "enunciado": "Con la variación 1975-2000, Liverpool pierde un 20 % de su población, y Bilbao, Glasgow y Turín más del 10 %. ¿Por qué?",
+      "opciones": [
+        {
+          "t": "La crisis de la industria pesada, los puertos y la minería a partir de los años setenta",
+          "r": "Son las ciudades de la primera industrialización, basadas en la siderurgia, los astilleros, el textil o el automóvil.",
+          "ok": true
+        },
+        {
+          "t": "Una epidemia que afectó a esas ciudades",
+          "r": "No hubo ninguna epidemia: la causa es económica."
+        },
+        {
+          "t": "Las guerras de los Balcanes",
+          "r": "Ninguna de esas ciudades está en los Balcanes."
+        },
+        {
+          "t": "Que se convirtieron en capitales y perdieron su industria",
+          "r": "Ninguna se convirtió en capital de Estado."
+        }
+      ],
+      "explicacion": [
+        "El manual habla de la desindustrialización de los centros urbanos desde finales de los años sesenta y de la renovación urbana posterior.",
+        "Muchas de esas ciudades han vuelto a crecer después, con los servicios y la renovación de sus antiguas zonas industriales."
+      ],
+      "manual": "Apartados 4.1 y 4.2"
+    },
+    {
+      "id": "ruhr",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "ciudad": "DEU|Essen (cuenca del Ruhr)"
+      },
+      "enunciado": "En el mapa, el círculo de Essen representa 2,7 millones de habitantes. ¿Por qué tanto, si el municipio de Essen tiene unos 580.000?",
+      "opciones": [
+        {
+          "t": "Porque la ONU delimita la ciudad como un espacio urbano continuo, y la conurbación del Ruhr (Essen, Duisburgo, Bochum, Gelsenkirchen…) forma uno solo",
+          "r": "Es el efecto de la definición: se mide la mancha urbana continua, no el municipio.",
+          "ok": true
+        },
+        {
+          "t": "Por un error de los datos",
+          "r": "No es un error: es la consecuencia de definir la ciudad por la continuidad del espacio construido."
+        },
+        {
+          "t": "Porque Essen es la capital de Alemania",
+          "r": "La capital es Berlín."
+        },
+        {
+          "t": "Porque Essen absorbió a Colonia y Düsseldorf",
+          "r": "Colonia y Düsseldorf aparecen como ciudades separadas."
+        }
+      ],
+      "explicacion": [
+        "La cuenca del Ruhr es el ejemplo clásico de conurbación nacida del carbón y la siderurgia.",
+        "Por la misma razón, Katowice representa a toda la conurbación de la Alta Silesia polaca."
+      ],
+      "manual": "Apartados 4.1 y 4.2"
+    },
+    {
+      "id": "este-urbanizacion",
+      "vista": {
+        "pestana": "urbanizacion",
+        "series": [
+          "WEU",
+          "EEU",
+          "ROU",
+          "POL",
+          "WLD"
+        ]
+      },
+      "enunciado": "En la urbanización, Europa oriental alcanzó a la occidental en los años ochenta y luego se estancó; en Rumanía y Polonia la población urbana ha bajado desde 1990. ¿Qué lo explica?",
+      "opciones": [
+        {
+          "t": "El fin del modelo soviético: la industria urbana se hundió, muchos emigraron y parte de la población volvió a vivir en el campo o en la periferia",
+          "r": "La transición a la economía de mercado frenó el éxodo rural y provocó una fuerte emigración hacia el oeste.",
+          "ok": true
+        },
+        {
+          "t": "Que esos países han dejado de construir viviendas",
+          "r": "No es la razón: la población urbana baja aunque se sigan construyendo viviendas."
+        },
+        {
+          "t": "Un cambio de capital en esos países",
+          "r": "Ni Rumanía ni Polonia han cambiado de capital."
+        },
+        {
+          "t": "Que la agricultura se ha mecanizado mucho",
+          "r": "La mecanización expulsa población del campo; tendría el efecto contrario."
+        }
+      ],
+      "explicacion": [
+        "El manual señala que en Europa centro-oriental el éxodo rural fue más tardío y que los regímenes comunistas controlaron el crecimiento de las grandes ciudades.",
+        "Las definiciones nacionales de lo urbano también influyen: en Rumanía o Polonia muchas periferias siguen siendo municipios rurales."
+      ],
+      "manual": "Apartado 4.1"
+    },
+    {
+      "id": "europa-eeuu",
+      "vista": {
+        "pestana": "urbanizacion",
+        "series": [
+          "UE27",
+          "USA",
+          "JPN",
+          "WLD"
+        ],
+        "anio": 2025
+      },
+      "enunciado": "Según el manual, el 40 % de los europeos vive en aglomeraciones de más de 200.000 habitantes, frente al 65 % de los estadounidenses. En el gráfico de tamaños, con una misma definición para todos, la UE-27 tiene un 26 % y Estados Unidos un 29 %. ¿Por qué ha cambiado tanto?",
+      "opciones": [
+        {
+          "t": "Porque la ONU mide ahora solo el centro urbano denso y continuo, y deja fuera las grandes periferias de baja densidad de las ciudades estadounidenses",
+          "r": "Las áreas metropolitanas de Estados Unidos incluyen enormes suburbios poco densos, que la nueva definición no cuenta como ciudad.",
+          "ok": true
+        },
+        {
+          "t": "Porque los estadounidenses se han ido a vivir al campo",
+          "r": "Estados Unidos sigue teniendo más del 80 % de población urbana con su definición nacional."
+        },
+        {
+          "t": "Porque Europa ha construido muchas ciudades nuevas",
+          "r": "Europa es un continente de ciudades antiguas; el cambio se debe a la manera de medir."
+        },
+        {
+          "t": "Porque el manual se equivoca",
+          "r": "El manual usaba las aglomeraciones definidas por cada país; los dos datos son correctos con su definición."
+        }
+      ],
+      "explicacion": [
+        "La conclusión del manual se mantiene: Europa es un continente de ciudades pequeñas y medianas, con muchas menos ciudades millonarias que su población haría esperar.",
+        "Comparad la barra oscura (ciudades de un millón o más): 14 % en la UE frente a 21 % en Estados Unidos."
+      ],
+      "manual": "Apartado 4.1"
+    },
+    {
+      "id": "ranking-mundial",
+      "vista": {
+        "pestana": "manual"
+      },
+      "enunciado": "Londres (10,4 millones) y París (9,4) son hoy las ciudades 33.ª y 36.ª del mundo. ¿Por qué las grandes ciudades europeas no están entre las primeras?",
+      "opciones": [
+        {
+          "t": "Porque la población de Europa apenas crece, mientras que las ciudades de Asia y África reciben el crecimiento demográfico y el éxodo rural de países muy poblados",
+          "r": "Yakarta, Daca, Delhi o Shanghái crecen con el campo de países de cientos de millones de habitantes.",
+          "ok": true
+        },
+        {
+          "t": "Porque Europa limita por ley el tamaño de sus ciudades",
+          "r": "No existe ninguna ley de ese tipo."
+        },
+        {
+          "t": "Porque Londres y París pierden población",
+          "r": "Las dos crecen; lo que ocurre es que las ciudades de Asia crecen mucho más deprisa."
+        },
+        {
+          "t": "Porque Europa está menos urbanizada que Asia",
+          "r": "Es al revés: Europa tiene un 75 % de población urbana y Asia mucha menos."
+        }
+      ],
+      "explicacion": [
+        "En 1975, Londres y París estaban entre las quince mayores ciudades del mundo. El manual ya advertía que distaban de ocupar los primeros puestos.",
+        "Es la diferencia entre una urbanización antigua y madura y otra reciente y explosiva."
+      ],
+      "manual": "Apartado 4.1"
+    },
+    {
+      "id": "proyeccion-sur",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2050
+      },
+      "enunciado": "Pasad al mapa de 2050 (proyección). ¿Qué ocurrirá con Nápoles, Génova o Palermo según la ONU?",
+      "opciones": [
+        {
+          "t": "Seguirán perdiendo población, por la baja natalidad, el envejecimiento y la emigración del sur de Italia",
+          "r": "Nápoles pasaría de 2,8 a 2,4 millones; Génova y Palermo, también a menos.",
+          "ok": true
+        },
+        {
+          "t": "Crecerán gracias al turismo",
+          "r": "La proyección no prevé ese crecimiento."
+        },
+        {
+          "t": "Se convertirán en las mayores ciudades de Europa",
+          "r": "Londres, París y Madrid seguirán siendo las mayores."
+        },
+        {
+          "t": "No hay proyección para esas ciudades",
+          "r": "Hay proyección para todas las ciudades hasta 2050."
+        }
+      ],
+      "explicacion": [
+        "Las proyecciones son escenarios, no certezas: dependen sobre todo de la natalidad y de las migraciones.",
+        "Comparad con Madrid, Barcelona o Estocolmo, que seguirán creciendo."
+      ],
+      "manual": "Apartado 4.2"
+    }
+  ]
+}

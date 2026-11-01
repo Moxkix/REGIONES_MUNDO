@@ -1,0 +1,352 @@
+{
+  "titulo": "Preguntas sobre las ciudades del espacio postsoviético",
+  "preguntas": [
+    {
+      "id": "moscu-primacia",
+      "vista": {
+        "pestana": "jerarquia",
+        "pais": "RUS",
+        "comparar": "",
+        "anio": 2025
+      },
+      "enunciado": "En la jerarquía urbana de Rusia, Moscú triplica a San Petersburgo y reúne el 10 % de la población del país. ¿Qué explica esa primacía?",
+      "opciones": [
+        {
+          "t": "La concentración del poder político, administrativo y económico en Moscú desde 1918, y su papel de centro de la red radial de transportes",
+          "r": "El manual la presenta como el símbolo de la URSS y hoy de Rusia, que lo dirige todo desde allí.",
+          "ok": true
+        },
+        {
+          "t": "Que Moscú está en el centro geográfico de Rusia",
+          "r": "Moscú está en el extremo occidental del país."
+        },
+        {
+          "t": "Que el clima de Moscú es el más suave de Rusia",
+          "r": "Moscú tiene cinco meses bajo cero; la costa del mar Negro es mucho más suave."
+        },
+        {
+          "t": "Que San Petersburgo ha perdido población",
+          "r": "San Petersburgo crece; lo que ocurre es que Moscú crece aún más."
+        }
+      ],
+      "explicacion": [
+        "El índice de primacía de Rusia ronda 3: macrocefalia. San Petersburgo, antigua capital imperial, sigue muy por encima de la tercera ciudad.",
+        "Comparad con Kazajistán: Almaty, Shymkent y Astaná se reparten el primer nivel."
+      ],
+      "manual": "Apartado 2.2"
+    },
+    {
+      "id": "asia-central-crece",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "color": "2000"
+      },
+      "enunciado": "Con el color de la variación 2000-2025, ¿qué contraste aparece en el espacio postsoviético?",
+      "opciones": [
+        {
+          "t": "Las ciudades de Asia central y de Kazajistán crecen mucho (Shymkent, Astaná, Dusambé, Asjabad doblan o triplican su población), mientras que muchas de Rusia y Ucrania pierden",
+          "r": "Es el reflejo urbano del contraste demográfico entre el sur musulmán, aún joven, y los países eslavos envejecidos.",
+          "ok": true
+        },
+        {
+          "t": "Todas las ciudades pierden población",
+          "r": "Las ciudades de Asia central crecen con fuerza."
+        },
+        {
+          "t": "Crecen sobre todo las ciudades de Siberia",
+          "r": "Las ciudades siberianas, como Komsomolsk o Novokuznetsk, pierden población."
+        },
+        {
+          "t": "Crecen solo las capitales bálticas",
+          "r": "Riga y Vilna pierden población."
+        }
+      ],
+      "explicacion": [
+        "Astaná es capital desde 1997; Shymkent se ha convertido en ciudad millonaria.",
+        "En Ucrania, Donetsk, Krivói Rog o Járkov pierden en torno a un 15-25 % por la crisis industrial, la baja natalidad, la emigración y la guerra."
+      ],
+      "manual": "Apartados 2.2 y 7.3"
+    },
+    {
+      "id": "astana",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "ciudad": "KAZ|Astaná"
+      },
+      "enunciado": "Astaná (antes Akmola) tenía 276.000 habitantes en 1991; hoy tiene 1,6 millones según el censo kazajo. ¿Por qué ha crecido tanto?",
+      "opciones": [
+        {
+          "t": "Porque en 1997 se trasladó allí la capital de Kazajistán desde Almaty, con grandes inversiones públicas",
+          "r": "Es un caso de ciudad impulsada por la función política, como las capitales de las repúblicas en la época soviética.",
+          "ok": true
+        },
+        {
+          "t": "Por el descubrimiento de petróleo en la ciudad",
+          "r": "El petróleo kazajo está en el Caspio (Atyrau, Aktau, Tengiz), muy lejos de Astaná."
+        },
+        {
+          "t": "Por su clima templado",
+          "r": "Astaná tiene inviernos de −14 °C de media en enero: es una de las capitales más frías del mundo."
+        },
+        {
+          "t": "Porque está junto al mar de Aral",
+          "r": "Astaná está en la estepa del norte, a más de mil kilómetros del Aral."
+        }
+      ],
+      "explicacion": [
+        "El manual ya recogía el salto de 276.000 a 855.000 habitantes entre 1991 y 2014.",
+        "Astaná está en el centro de la región de las tierras vírgenes colonizadas en los años cincuenta."
+      ],
+      "manual": "Apartados 2.2 y 7.3.2"
+    },
+    {
+      "id": "ciudades-hongo",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "color": "2000",
+        "trazados": [
+          "Transiberiano"
+        ],
+        "ciudad": "RUS|Komsomolsk del Amur"
+      },
+      "enunciado": "Activad el Transiberiano. Komsomolsk del Amur, Bratsk, Angarsk o Novokuznetsk, «ciudades-hongo» de la colonización soviética, han perdido población desde 1990. ¿Por qué?",
+      "opciones": [
+        {
+          "t": "Nacieron de decisiones del plan (minería, metalurgia, hidroelectricidad) en regiones de clima duro; sin los incentivos soviéticos, la gente se ha ido hacia el oeste y el sur",
+          "r": "La población del Extremo Oriente y de Siberia oriental lleva décadas disminuyendo.",
+          "ok": true
+        },
+        {
+          "t": "Porque el Transiberiano dejó de funcionar",
+          "r": "El Transiberiano sigue siendo el gran eje de transporte de Siberia."
+        },
+        {
+          "t": "Porque se convirtieron en capitales regionales",
+          "r": "Ser capital regional suele atraer población, no expulsarla."
+        },
+        {
+          "t": "Porque el clima se ha vuelto más frío",
+          "r": "El clima no se ha enfriado; los inviernos son incluso algo más suaves."
+        }
+      ],
+      "explicacion": [
+        "En la época soviética, el crecimiento urbano estaba dirigido por la creación de empresas industriales; entre 1926 y 1966 se crearon más de 800 ciudades.",
+        "Comparad con las ciudades del sur de Rusia (Krasnodar) o del Cáucaso norte (Majachkalá), que crecen."
+      ],
+      "manual": "Apartado 2.2"
+    },
+    {
+      "id": "volga",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "trazados": [
+          "El Volga"
+        ]
+      },
+      "enunciado": "Activad el Volga. ¿Qué tienen en común Nizhni Nóvgorod, Kazán, Samara, Sarátov o Volgogrado?",
+      "opciones": [
+        {
+          "t": "Forman el «rosario de ciudades del Volga»: grandes centros industriales que crecieron en la época soviética junto al río, vía de transporte y fuente de energía",
+          "r": "El manual las cita entre las grandes ciudades que el régimen soviético impulsó en la parte europea.",
+          "ok": true
+        },
+        {
+          "t": "Son puertos del mar Báltico",
+          "r": "El Volga desemboca en el Caspio, en Astracán."
+        },
+        {
+          "t": "Son ciudades nuevas fundadas después de 1991",
+          "r": "Son ciudades antiguas que crecieron mucho en el siglo XX."
+        },
+        {
+          "t": "Son las capitales de los Estados de Asia central",
+          "r": "Todas están en Rusia."
+        }
+      ],
+      "explicacion": [
+        "Las presas del Volga producen electricidad, y el río enlaza por canales con el Báltico, el mar Blanco y el Don.",
+        "Varias de ellas (Kazán, Samara, Nizhni Nóvgorod, Volgogrado) son ciudades millonarias según las cifras oficiales."
+      ],
+      "manual": "Apartado 2.2"
+    },
+    {
+      "id": "uzbekistan-kazajistan",
+      "vista": {
+        "pestana": "jerarquia",
+        "pais": "UZB",
+        "comparar": "KAZ",
+        "anio": 2025
+      },
+      "enunciado": "Comparad Uzbekistán y Kazajistán. ¿En qué se diferencian sus redes urbanas?",
+      "opciones": [
+        {
+          "t": "En Uzbekistán, Taskent multiplica por cuatro a la segunda ciudad (macrocefalia); en Kazajistán, Almaty, Shymkent y Astaná tienen un tamaño parecido",
+          "r": "La capital uzbeka concentra las funciones; Kazajistán reparte el primer nivel entre la antigua capital, la nueva y el gran centro del sur.",
+          "ok": true
+        },
+        {
+          "t": "Las dos tienen una sola ciudad de más de 100.000 habitantes",
+          "r": "Las dos tienen decenas de ciudades de más de 100.000 habitantes."
+        },
+        {
+          "t": "Kazajistán es macrocéfalo porque su capital es Astaná",
+          "r": "Astaná no es la mayor ciudad de Kazajistán; lo es Almaty."
+        },
+        {
+          "t": "Las dos siguen exactamente la regla rango-tamaño",
+          "r": "Ninguna la sigue con exactitud; Uzbekistán se aleja mucho."
+        }
+      ],
+      "explicacion": [
+        "En el valle de Fergana, Uzbekistán tiene además una densa red de ciudades medianas (Namangán, Andiyán, Ferganá, Kokand) que crecen deprisa.",
+        "La regla rango-tamaño es una referencia, no una ley: sirve para describir cuánto se aleja cada país."
+      ],
+      "manual": "Apartados 2.2 y 7.3"
+    },
+    {
+      "id": "urbanizacion-urss",
+      "vista": {
+        "pestana": "urbanizacion",
+        "series": [
+          "URSS15",
+          "RUS",
+          "UKR",
+          "KAZ",
+          "UZB",
+          "TJK"
+        ]
+      },
+      "enunciado": "El manual dice que la población urbana superó a la rural en 1962 y llegó al 65 % en 2015. ¿Qué muestran hoy los datos?",
+      "opciones": [
+        {
+          "t": "Se confirma: la antigua URSS cruza el 50 % a comienzos de los sesenta y ronda el 66 % desde 1990, casi sin cambios",
+          "r": "La urbanización se estancó con la crisis de los noventa.",
+          "ok": true
+        },
+        {
+          "t": "La URSS nunca llegó al 50 % de población urbana",
+          "r": "Supera el 50 % a comienzos de los años sesenta."
+        },
+        {
+          "t": "Hoy el 90 % de la población es urbana",
+          "r": "Es un 66 %, todavía bajo para un espacio industrializado."
+        },
+        {
+          "t": "La urbanización se ha duplicado desde 2015",
+          "r": "Apenas ha cambiado desde 2015."
+        }
+      ],
+      "explicacion": [
+        "Detrás del promedio hay contrastes: Rusia y Bielorrusia superan el 75 %, mientras que Tayikistán (26 %) y Kirguistán (35 %) son de los países menos urbanizados de su entorno.",
+        "En 1939 la población urbana era solo un tercio: el manual subraya que la urbanización soviética fue tardía pero muy rápida."
+      ],
+      "manual": "Apartado 2.2"
+    },
+    {
+      "id": "tayikistan-rural",
+      "vista": {
+        "pestana": "urbanizacion",
+        "series": [
+          "TJK",
+          "KGZ",
+          "UZB",
+          "CAS",
+          "WLD"
+        ]
+      },
+      "enunciado": "En Tayikistán la población urbana ha bajado del 37 % en 1970 al 26 % actual. ¿Cómo es posible, si Dusambé ha doblado su población desde 2000?",
+      "opciones": [
+        {
+          "t": "Porque la población rural crece aún más deprisa, por su alta natalidad, y porque muchos jóvenes emigran a Rusia en lugar de a las ciudades del país",
+          "r": "El porcentaje urbano puede bajar aunque las ciudades crezcan, si el campo crece más.",
+          "ok": true
+        },
+        {
+          "t": "Porque Dusambé ha dejado de ser la capital",
+          "r": "Dusambé sigue siendo la capital."
+        },
+        {
+          "t": "Porque las ciudades de Tayikistán se han vaciado",
+          "r": "Dusambé, Juyand o Bojtar crecen con fuerza."
+        },
+        {
+          "t": "Porque el país ha perdido territorio",
+          "r": "Tayikistán no ha cambiado de fronteras."
+        }
+      ],
+      "explicacion": [
+        "Las remesas de los emigrantes tayikos en Rusia son una parte muy importante de la economía del país.",
+        "La definición nacional de lo urbano también influye: muchos núcleos grandes siguen clasificados como rurales."
+      ],
+      "manual": "Apartados 2.2 y 7.3.1"
+    },
+    {
+      "id": "moscu-definiciones",
+      "vista": {
+        "pestana": "manual"
+      },
+      "enunciado": "Moscú tiene 13,3 millones de habitantes según Rosstat y 14,5 millones según la ONU. ¿Por qué no coinciden?",
+      "opciones": [
+        {
+          "t": "Porque miden cosas distintas: Rosstat cuenta el municipio de Moscú y la ONU la ciudad continua, que incluye las periferias construidas de la región de Moscú",
+          "r": "Es el mismo problema que el manual resuelve hablando de «aglomeración» y «área metropolitana» (15 millones).",
+          "ok": true
+        },
+        {
+          "t": "Porque una de las dos fuentes se equivoca",
+          "r": "Las dos son correctas con su definición."
+        },
+        {
+          "t": "Porque la ONU cuenta a los turistas",
+          "r": "Las estadísticas de población cuentan residentes, no turistas."
+        },
+        {
+          "t": "Porque Rosstat no cuenta a los niños",
+          "r": "Rosstat cuenta a toda la población residente."
+        }
+      ],
+      "explicacion": [
+        "Antes de comparar ciudades hay que comprobar qué definición usa cada fuente.",
+        "Por la misma razón, en el cuadro 2.3 San Petersburgo y Novokuznetsk salen más pequeñas con la definición de la ONU: sus municipios incluyen zonas que no forman parte del espacio construido continuo."
+      ],
+      "manual": "Apartado 2.2 y cuadro 2.3"
+    },
+    {
+      "id": "kiev-guerra",
+      "vista": {
+        "pestana": "mapa",
+        "anio": 2025,
+        "ciudad": "UKR|Kiev"
+      },
+      "enunciado": "El manual llama a Kiev «tercera aglomeración urbana del espacio ex soviético». Según la ONU, hoy es la cuarta. ¿Qué ciudad la ha superado?",
+      "opciones": [
+        {
+          "t": "Taskent, que crece con la población de Uzbekistán mientras Kiev pierde habitantes",
+          "r": "Taskent ronda los 3,9 millones y Kiev los 2,6, según la ONU.",
+          "ok": true
+        },
+        {
+          "t": "Minsk",
+          "r": "Minsk tiene unos 2 millones de habitantes."
+        },
+        {
+          "t": "Almaty",
+          "r": "Almaty crece mucho, pero tiene unos 2,4 millones."
+        },
+        {
+          "t": "Novosibirsk",
+          "r": "Novosibirsk tiene unos 1,3 millones según la ONU."
+        }
+      ],
+      "explicacion": [
+        "El manual explicaba cómo Kiev perdió población tras la independencia y volvió a crecer hasta 2014 con la llegada de gente del este del país.",
+        "Desde 2022, la guerra ha provocado la salida de millones de ucranianos al extranjero; la última cifra oficial de Kiev (2,95 millones) es de enero de 2022."
+      ],
+      "manual": "Apartado 7.1"
+    }
+  ]
+}

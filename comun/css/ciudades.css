@@ -1,0 +1,90 @@
+/* Motor «Ciudades y redes urbanas» */
+.controles-ciudades { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; font-family: var(--sans); margin-bottom: 1rem; }
+.controles-ciudades .modo-corto { min-width: 0; }
+.controles-ciudades .modo-corto label { padding: .35rem .7rem; font-size: .84rem; white-space: nowrap; }
+.trazados { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .86rem; }
+.trazados label { display: inline-flex; align-items: center; gap: .3rem; cursor: pointer; }
+
+.rejilla-ciudades { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); gap: 1.5rem 2rem; }
+@media (max-width: 960px) { .rejilla-ciudades { grid-template-columns: 1fr; } }
+.marco-mapa { position: relative; margin: 0; }
+#mapa-ciudades { width: 100%; height: auto; display: block; border: 1px solid var(--linea); background: var(--mar); touch-action: none; }
+
+svg .circ { stroke: rgba(29, 42, 48, .55); stroke-width: .6; fill-opacity: .85; cursor: pointer; vector-effect: non-scaling-stroke; }
+svg .circ.capital { stroke: var(--tinta); stroke-width: 1.4; }
+svg .circ.elegida { stroke: var(--magenta); stroke-width: 2.4; }
+svg .rot-ciudad { font-family: var(--sans); fill: var(--tinta); paint-order: stroke; stroke: rgba(248, 248, 244, .92);
+  stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+svg .rot-ciudad.capital { font-weight: 600; }
+svg .trazado { fill: none; stroke: var(--magenta); stroke-width: 2; stroke-dasharray: 6 4; vector-effect: non-scaling-stroke; pointer-events: none; }
+svg .trazado.area { fill: rgba(163, 36, 92, .07); }
+svg .rot-trazado { font-family: var(--sans); font-style: italic; fill: var(--magenta); paint-order: stroke; stroke: var(--tierra); stroke-width: 3px; pointer-events: none; }
+
+.panel-ciudad { font-family: var(--sans); }
+#ranking-ciudades { width: 100%; height: auto; display: block; }
+svg .barra-c { fill: #8fa9b2; cursor: pointer; }
+svg .barra-c.capital { fill: var(--tinta-2); }
+svg .barra-c.elegida { fill: var(--magenta); }
+.ficha-ciudad { border-top: 1px solid var(--linea); margin-top: .8rem; padding-top: .7rem; }
+.ficha-ciudad h3 { margin: 0 0 .1rem; font-size: 1.15rem; }
+.ficha-ciudad .pais { font-size: .82rem; color: var(--tinta-2); margin: 0 0 .5rem; }
+.ficha-ciudad svg { width: 100%; height: auto; display: block; }
+.ficha-ciudad .vacio { font-size: .86rem; color: var(--tinta-2); }
+svg .serie-c { fill: none; stroke: var(--magenta); stroke-width: 2.2; }
+svg .serie-c.proy { stroke-dasharray: 4 3; }
+svg .punto-c { fill: var(--magenta); }
+svg .zona-proy { fill: rgba(119, 134, 139, .12); }
+svg .rot-proy { font-family: var(--sans); font-size: 10px; fill: var(--tinta-3); }
+
+/* Jerarquía urbana */
+#rango { width: 100%; height: auto; display: block; }
+svg .pt-a { fill: var(--magenta); fill-opacity: .8; stroke: var(--tierra); stroke-width: .8; }
+svg .pt-b { fill: #2f6c8f; fill-opacity: .8; stroke: var(--tierra); stroke-width: .8; }
+svg .zipf { fill: none; stroke-width: 1.4; stroke-dasharray: 5 4; }
+svg .zipf.a { stroke: var(--magenta); }
+svg .zipf.b { stroke: #2f6c8f; }
+.tarjeta-red { border-left: 3px solid var(--magenta); padding: .1rem 0 .1rem .8rem; margin: 0 0 1.2rem; font-family: var(--sans); }
+.tarjeta-red.b { border-left-color: #2f6c8f; }
+.tarjeta-red h3 { margin: 0 0 .3rem; }
+.tarjeta-red .tipo { font-family: var(--serif); font-size: 1rem; margin: .3rem 0 .4rem; }
+.tarjeta-red ol { margin: .2rem 0 0; padding-left: 1.3rem; font-size: .86rem; columns: 2; column-gap: 1.5rem; }
+.tarjeta-red ol li { break-inside: avoid; }
+.tarjeta-red .indicadores { margin: .3rem 0 .4rem; }
+.explica-red { max-width: 90ch; margin-top: .5rem; }
+.explica-red h3 { font-size: 1.05rem; }
+
+/* Urbanización */
+#urbanizacion, #tamano { width: 100%; height: auto; display: block; }
+.lista-series { border: 1px solid var(--linea); border-radius: var(--radio); padding: .5rem .8rem .7rem; margin: 0 0 1rem; font-family: var(--sans); font-size: .86rem;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: .15rem .8rem; }
+.lista-series legend { font-weight: 600; font-size: .82rem; color: var(--tinta-2); padding: 0 .3rem; }
+.lista-series .grupo { grid-column: 1 / -1; font-size: .76rem; color: var(--tinta-3); margin-top: .35rem; }
+.lista-series label { display: inline-flex; align-items: center; gap: .35rem; cursor: pointer; }
+.lista-series i { display: inline-block; width: .8rem; height: .8rem; border-radius: 2px; }
+.titulo-bloque { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--linea); }
+svg .seg-1m { fill: var(--magenta); }
+svg .seg-200 { fill: #c97b9c; }
+svg .seg-50 { fill: #e8c3d2; }
+svg .etq-seg { font-family: var(--sans); font-size: 10.5px; fill: var(--papel); pointer-events: none; }
+svg .etq-seg.osc { fill: var(--tinta); }
+svg .fila-tam.region text.rot { font-weight: 600; }
+
+/* El manual y los datos */
+.tabla-ciudades { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: .86rem; margin: .6rem 0 .4rem; }
+.tabla-ciudades th, .tabla-ciudades td { padding: .35rem .5rem; border-bottom: 1px solid var(--linea); text-align: right; white-space: nowrap; }
+.tabla-ciudades th:first-child, .tabla-ciudades td:first-child { text-align: left; }
+.tabla-ciudades thead th { font-size: .76rem; color: var(--tinta-2); font-weight: 600; vertical-align: bottom; }
+.tabla-ciudades .hoy { background: var(--magenta-claro); font-weight: 600; }
+.tabla-ciudades .wup { color: var(--tinta-2); }
+.tabla-ciudades td small { display: block; font-size: .72rem; color: var(--tinta-3); font-weight: 400; }
+#manual-ciudades h2 { margin-top: 1.5rem; }
+#manual-ciudades h2:first-child { margin-top: 0; }
+#manual-ciudades { max-width: 1040px; }
+#manual-ciudades .afirmacion { max-width: 760px; }
+.tabla-ciudades td small { white-space: normal; max-width: 13rem; margin-left: auto; }
+.contenido-ancho { margin: 0 auto; }
+@media (max-width: 560px) {
+  #mapa-anios button, #je-anios button, #tam-anios button { padding: .3rem .38rem; font-size: .76rem; }
+  .controles-ciudades .modo-corto label { padding: .35rem .45rem; font-size: .78rem; }
+  .tarjeta-red ol { columns: 1; }
+}

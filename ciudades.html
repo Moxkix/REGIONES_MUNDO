@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciudades y redes urbanas</title>
+  <link rel="icon" href="comun/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="comun/css/base.css">
+  <link rel="stylesheet" href="comun/css/mapa.css">
+  <link rel="stylesheet" href="comun/css/climas.css">
+  <link rel="stylesheet" href="comun/css/recursos.css">
+  <link rel="stylesheet" href="comun/css/poblacion.css">
+  <link rel="stylesheet" href="comun/css/ciudades.css">
+</head>
+<body>
+  <header class="barra" id="barra"></header>
+  <main id="ciudades">
+    <div class="pestanas-pagina" role="tablist" aria-label="Secciones">
+      <button type="button" role="tab" aria-selected="true" aria-controls="s-mapa" id="t-mapa">Mapa urbano</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-jerarquia" id="t-jerarquia">Jerarquía urbana</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-urbanizacion" id="t-urbanizacion">Urbanización</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-manual" id="t-manual">El manual y los datos</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="s-preguntas" id="t-preguntas">Preguntas</button>
+    </div>
+
+    <section id="s-mapa" role="tabpanel" aria-labelledby="t-mapa" class="seccion">
+      <div class="controles-ciudades">
+        <div class="anios" id="mapa-anios" role="group" aria-label="Año"></div>
+        <fieldset class="modo modo-corto" id="mapa-color"><legend class="oculto">Color de los círculos</legend>
+          <label><input type="radio" name="color-c" value="2000" checked>Variación 2000-2025</label>
+          <label><input type="radio" name="color-c" value="1975">Variación 1975-2000</label>
+        </fieldset>
+        <div id="mapa-trazados" class="trazados"></div>
+      </div>
+      <div class="rejilla-ciudades">
+        <figure class="marco-mapa">
+          <svg id="mapa-ciudades" role="img" aria-label="Mapa de las ciudades de la región, con círculos proporcionales a su población"></svg>
+          <div class="mapa-controles">
+            <button type="button" id="mapa-mas" aria-label="Acercar">+</button>
+            <button type="button" id="mapa-menos" aria-label="Alejar">−</button>
+            <button type="button" id="mapa-inicio" aria-label="Volver a la vista inicial">⤢</button>
+          </div>
+        </figure>
+        <div class="panel-ciudad">
+          <figure class="fig-ranking">
+            <figcaption id="tit-ranking"></figcaption>
+            <svg id="ranking-ciudades" role="img" aria-label="Las mayores ciudades de la región"></svg>
+          </figure>
+          <div id="ficha-ciudad" class="ficha-ciudad" aria-live="polite"></div>
+        </div>
+      </div>
+      <div class="leyenda-linea" id="leyenda-mapa-ciudades"></div>
+      <p class="nota" id="fuente-mapa"></p>
+    </section>
+
+    <section id="s-jerarquia" role="tabpanel" aria-labelledby="t-jerarquia" class="seccion" hidden>
+      <div class="controles-energia">
+        <label for="je-a">País</label><select id="je-a"></select>
+        <label for="je-b">Comparar con</label><select id="je-b"></select>
+        <div class="anios" id="je-anios" role="group" aria-label="Año"></div>
+      </div>
+      <div class="rejilla-energia">
+        <figure>
+          <figcaption>Regla rango-tamaño: población de cada ciudad según su puesto (escalas logarítmicas)</figcaption>
+          <svg id="rango" role="img" aria-label="Gráfico rango-tamaño"></svg>
+          <div class="leyenda-linea" id="leyenda-rango"></div>
+        </figure>
+        <div id="je-indicadores"></div>
+      </div>
+      <div class="explica-red">
+        <h3>Cómo leer el gráfico</h3>
+        <p>Si las ciudades siguieran la <b>regla rango-tamaño</b>, la segunda tendría la mitad de habitantes que la primera, la tercera un tercio, y así sucesivamente: los puntos caerían sobre la línea discontinua. Cuando la primera ciudad queda muy por encima del resto hay <b>macrocefalia</b> (el modelo parisino del manual). Cuando varias ciudades grandes tienen un tamaño parecido, la red es <b>bicéfala</b> o <b>policéntrica</b> (el modelo renano).</p>
+        <p class="nota">El <b>índice de primacía</b> divide la población de la primera ciudad entre la de la segunda (2 si se cumple la regla). El <b>índice de las cuatro ciudades</b> la divide entre la suma de la segunda, la tercera y la cuarta (en torno a 0,5 si se cumple la regla). Solo se cuentan ciudades de 100.000 habitantes o más.</p>
+      </div>
+      <p class="nota" id="fuente-jerarquia"></p>
+    </section>
+
+    <section id="s-urbanizacion" role="tabpanel" aria-labelledby="t-urbanizacion" class="seccion" hidden>
+      <div class="rejilla-energia">
+        <figure>
+          <figcaption>Población urbana (% del total, definiciones nacionales)</figcaption>
+          <svg id="urbanizacion" role="img" aria-label="Evolución del porcentaje de población urbana"></svg>
+          <div class="leyenda-linea" id="leyenda-urbanizacion"></div>
+        </figure>
+        <div>
+          <fieldset class="lista-series" id="series-urb"><legend>Series</legend></fieldset>
+          <p class="nota" id="nota-urbanizacion"></p>
+        </div>
+      </div>
+      <h3 class="titulo-bloque">¿Ciudades grandes o pequeñas?</h3>
+      <div class="controles-energia">
+        <div class="anios" id="tam-anios" role="group" aria-label="Año"></div>
+      </div>
+      <figure>
+        <figcaption>Población que vive en ciudades de cada tamaño (% de la población total)</figcaption>
+        <svg id="tamano" role="img" aria-label="Población en ciudades según su tamaño"></svg>
+        <div class="leyenda-linea" id="leyenda-tamano"></div>
+      </figure>
+      <p class="nota" id="nota-tamano"></p>
+    </section>
+
+    <section id="s-manual" role="tabpanel" aria-labelledby="t-manual" class="seccion" hidden>
+      <div id="manual-ciudades" class="contenido-ancho"></div>
+    </section>
+
+    <section id="s-preguntas" role="tabpanel" aria-labelledby="t-preguntas" class="seccion" hidden>
+      <div class="contenido-estrecho">
+        <p class="guia">Cada pregunta abre la vista que necesitáis. Volved a esta pestaña para seguir.</p>
+        <div id="cuestionario"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie" id="pie"></footer>
+  <script src="comun/vendor/d3.min.js"></script>
+  <script src="comun/vendor/topojson-client.min.js"></script>
+  <script src="comun/js/nucleo.js"></script>
+  <script src="comun/js/pie.js"></script>
+  <script src="comun/js/mapa.js"></script>
+  <script src="comun/js/cuestionario.js"></script>
+  <script src="comun/js/ciudades.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "afirmaciones": [
+    {
+      "texto": "Con una tasa de urbanización del 73 % en el año 2015, Europa es una de las regiones más urbanizadas del planeta",
+      "apartado": "4.1",
+      "hoy": "Hoy (2025): 75 % en Europa y en la UE-27, con las definiciones nacionales de lo urbano. La media mundial es del 58 %.",
+      "nota": "La ONU revisó al alza la serie: para 2015 da ahora un 74 % para Europa."
+    },
+    {
+      "texto": "Las aglomeraciones de más de 200.000 habitantes concentran el 40 % de la población total, frente, por ejemplo, al 65 % en el caso de Estados Unidos",
+      "apartado": "4.1",
+      "hoy": "Hoy (2025), con una misma definición de ciudad para todos los países: 26 % en la UE-27 y 29 % en Estados Unidos.",
+      "nota": "El manual compara aglomeraciones definidas por cada país. La ONU mide ahora la ciudad como un centro urbano continuo y denso: así se quedan fuera las grandes periferias de baja densidad de las ciudades estadounidenses, y la diferencia casi desaparece. La conclusión del manual se mantiene: Europa es un continente de ciudades pequeñas y medianas."
+    },
+    {
+      "texto": "París y Londres, las mayores ciudades europeas, distan mucho de ocupar los primeros puestos en el ranking mundial",
+      "apartado": "4.1",
+      "hoy": "Hoy (2025): Londres (10,4 millones) es la 33.ª ciudad del mundo y París (9,4 millones), la 36.ª. Encabezan la lista Yakarta (41,9), Daca (36,6) y Tokio (33,4).",
+      "nota": "Estambul (15,0) y Moscú (14,5), en los puestos 18.º y 19.º, son mayores que Londres y París."
+    },
+    {
+      "texto": "Tan sólo un 25 % de la población centro-oriental vive en ciudades mayores de 100.000 habitantes",
+      "apartado": "4.1",
+      "hoy": "Hoy (2025): 22 % en Polonia, Chequia, Eslovaquia, Hungría, Rumanía y Bulgaria.",
+      "nota": "Ciudades según el grado de urbanización. La herencia del control del crecimiento urbano en los regímenes comunistas y del éxodo rural tardío sigue visible."
+    },
+    {
+      "texto": "El modelo parisino, en el que una gran metrópoli polariza un extenso espacio regional poco urbanizado",
+      "apartado": "4.2",
+      "hoy": "Hoy (2025): París multiplica por 7,8 la población de Lyon, la segunda ciudad francesa; Londres multiplica por 4 la de Birmingham.",
+      "nota": "Es el índice de primacía. Comparadlo en la pestaña de jerarquía urbana."
+    },
+    {
+      "texto": "El modelo renano: el ejemplo más claro es el de Alemania, que cuenta con ocho ciudades con una población superior a los dos millones de habitantes",
+      "apartado": "4.2",
+      "hoy": "Hoy (2025): con la ciudad entendida como centro urbano continuo, solo Berlín (3,6 millones) y la conurbación del Ruhr (2,7) pasan de dos millones; Múnich y Hamburgo rondan 1,8. Pero la red sigue siendo policéntrica: Berlín apenas supera en un 30 % a la segunda.",
+      "nota": "El manual cuenta regiones metropolitanas (Rin-Ruhr, Rin-Meno, Stuttgart, etc.), que reúnen varias ciudades."
+    },
+    {
+      "texto": "Redes urbanas claramente bicéfalas, como es el caso de España (Madrid-Barcelona) o Italia (Roma-Milán)",
+      "apartado": "4.2",
+      "hoy": "Hoy (2025): España sigue siendo bicéfala (Madrid 5,6 millones; Barcelona 4,0). En Italia, Nápoles (2,8), Milán (2,6) y Roma (2,4) tienen un tamaño parecido: la red es más bien tricéfala.",
+      "nota": "Ciudades según el grado de urbanización; con las áreas metropolitanas, Milán es la mayor."
+    }
+  ]
+}

@@ -833,5 +833,161 @@
   },
   "paisajes": {
     "archivo": "datos/paisajes.json"
+  },
+  "ciudades": {
+    "cuestionario": "cuestionarios/ciudades.json",
+    "datos": "datos/ciudades.json",
+    "porDefecto": "RUS",
+    "comparar": "UKR",
+    "etiquetas": 800,
+    "trazados": [
+      {
+        "nombre": "Transiberiano",
+        "tipo": "linea",
+        "coords": [
+          [
+            37.6,
+            55.8
+          ],
+          [
+            44.0,
+            56.3
+          ],
+          [
+            56.2,
+            58.0
+          ],
+          [
+            60.6,
+            56.8
+          ],
+          [
+            65.5,
+            57.2
+          ],
+          [
+            73.4,
+            55.0
+          ],
+          [
+            82.9,
+            55.0
+          ],
+          [
+            92.9,
+            56.0
+          ],
+          [
+            104.3,
+            52.3
+          ],
+          [
+            107.6,
+            51.8
+          ],
+          [
+            113.5,
+            52.0
+          ],
+          [
+            127.5,
+            50.3
+          ],
+          [
+            135.1,
+            48.5
+          ],
+          [
+            131.9,
+            43.1
+          ]
+        ],
+        "rotulo": [
+          96,
+          57.2
+        ],
+        "nota": "Eje de las ciudades nacidas con la colonización de Siberia."
+      },
+      {
+        "nombre": "El Volga",
+        "tipo": "linea",
+        "coords": [
+          [
+            35.9,
+            56.85
+          ],
+          [
+            39.87,
+            57.63
+          ],
+          [
+            43.92,
+            56.3
+          ],
+          [
+            49.12,
+            55.8
+          ],
+          [
+            48.4,
+            54.3
+          ],
+          [
+            50.1,
+            53.2
+          ],
+          [
+            46.0,
+            51.5
+          ],
+          [
+            44.5,
+            48.7
+          ],
+          [
+            48.0,
+            46.35
+          ]
+        ],
+        "rotulo": [
+          50.6,
+          55.3
+        ],
+        "nota": "El «rosario de ciudades del Volga» (apartado 2.2)."
+      }
+    ],
+    "urbanizacion": {
+      "agregados": [
+        "URSS15",
+        "CAS",
+        "EEU",
+        "EUR",
+        "WLD"
+      ],
+      "porDefecto": [
+        "URSS15",
+        "RUS",
+        "UKR",
+        "KAZ",
+        "UZB",
+        "TJK"
+      ],
+      "comparadores": [
+        "USA",
+        "CHN",
+        "TUR",
+        "DEU",
+        "FRA"
+      ]
+    },
+    "tamano": {
+      "comparadores": [
+        "UE27",
+        "USA",
+        "CHN",
+        "JPN",
+        "WLD"
+      ]
+    }
   }
 }

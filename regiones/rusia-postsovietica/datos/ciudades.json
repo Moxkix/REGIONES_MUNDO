@@ -1,0 +1,191 @@
+{
+  "afirmaciones": [
+    {
+      "texto": "En 1939 la población urbana solo representaba el 33 %. Solo en 1962 la población urbana logró sobrepasar a la rural, para llegar en 2015 al 65 %",
+      "apartado": "2.2",
+      "hoy": "Hoy (2025): 66 % en el conjunto de la antigua URSS, casi lo mismo que en 2015. Según la ONU, la población urbana superó el 50 % a comienzos de los años sesenta.",
+      "nota": "Las diferencias internas son enormes: Bielorrusia (80 %) y Rusia (75 %) frente a Kirguistán (35 %) y Tayikistán (26 %), donde la población rural crece más deprisa que la urbana."
+    },
+    {
+      "texto": "En 1970 eran 33 [ciudades de más de medio millón de habitantes] y en 2015 llegaron a 59, de las cuales 24 son millonarias",
+      "apartado": "2.2",
+      "hoy": "Hoy: solo Rusia tiene 16 ciudades millonarias y 20 más entre medio millón y un millón (Rosstat, 1 de enero de 2025).",
+      "nota": "Con la ciudad entendida como centro urbano continuo, la ONU cuenta en 2025 48 ciudades de medio millón o más en la antigua URSS, 19 de ellas millonarias. Las cifras oficiales son mayores porque los municipios rusos incluyen mucho territorio periurbano y rural."
+    },
+    {
+      "texto": "La red urbana está dominada por dos grandes metrópolis: Moscú, con 12,1 millones de habitantes (15 millones en su área metropolitana), y San Petersburgo, con 5,1 millones",
+      "apartado": "2.2",
+      "hoy": "Hoy (1 de enero de 2025): Moscú, 13,3 millones; San Petersburgo, 5,7 millones (Rosstat).",
+      "nota": "La ONU estima 14,5 millones para la ciudad continua de Moscú y 4,7 para la de San Petersburgo."
+    },
+    {
+      "texto": "De 2 mill. de habitantes en 1926, la aglomeración [de Moscú] pasó a 6 mill. en 1959 y a más de 12 mill. en 2015 (8,4 % de la población de Rusia)",
+      "apartado": "2.2",
+      "hoy": "Hoy (2025): la ciudad de Moscú reúne el 9,1 % de la población de Rusia (13,3 de 146 millones, Rosstat); la ciudad continua que delimita la ONU, el 10 %.",
+      "nota": "El peso de Moscú sigue creciendo mientras la población de Rusia disminuye."
+    },
+    {
+      "texto": "[Kiev,] tercera aglomeración urbana del espacio ex soviético",
+      "apartado": "7.1",
+      "hoy": "Hoy (2025): con la definición de la ONU, Kiev (2,6 millones) es la cuarta, por detrás de Moscú, San Petersburgo y Taskent (3,9).",
+      "nota": "Taskent crece con la población de Uzbekistán; Kiev ha perdido habitantes por la guerra. La última cifra oficial de Kiev (2,95 millones) es de enero de 2022."
+    },
+    {
+      "texto": "Ciudades-hongos, nacidas de la expansión hacia el este y la colonización de Siberia y el Extremo Oriente: Magnitogorsk, Novo-Kuznezt, Bratsk, Angarsk, Komsomolsk",
+      "apartado": "2.2",
+      "hoy": "Hoy (2025): todas han perdido población desde 1990. Komsomolsk del Amur, de 270.000 a 196.000 habitantes; Novokuznetsk, de 444.000 a 299.000; Angarsk, de 218.000 a 167.000.",
+      "nota": "Ciudades según el grado de urbanización. Es el retroceso de las ciudades industriales de Siberia y el Extremo Oriente tras el fin de la planificación soviética."
+    }
+  ],
+  "cuadro": {
+    "titulo": "Cuadro 2.3. Evolución de la población de algunas ciudades (miles de habitantes)",
+    "columnas": [
+      "1926",
+      "1939",
+      "1976",
+      "1991",
+      "2002",
+      "2009",
+      "2014"
+    ],
+    "filas": [
+      {
+        "nombre": "Moscú",
+        "manual": [
+          2070,
+          4130,
+          7560,
+          8769,
+          10126,
+          10495,
+          12104
+        ],
+        "hoy": {
+          "valor": 13274,
+          "fecha": "1-1-2025, Rosstat"
+        },
+        "wup": "RUS|Moscú"
+      },
+      {
+        "nombre": "San Petersburgo",
+        "manual": [
+          1730,
+          3400,
+          4370,
+          4456,
+          4116,
+          4524,
+          5132
+        ],
+        "hoy": {
+          "valor": 5653,
+          "fecha": "1-1-2025, Rosstat"
+        },
+        "wup": "RUS|San Petersburgo"
+      },
+      {
+        "nombre": "Kiev",
+        "manual": [
+          510,
+          850,
+          2010,
+          2635,
+          2630,
+          2304,
+          2889
+        ],
+        "hoy": {
+          "valor": 2952,
+          "fecha": "1-1-2022, Ukrstat"
+        },
+        "wup": "UKR|Kiev"
+      },
+      {
+        "nombre": "Almaty",
+        "manual": [
+          45,
+          null,
+          623,
+          1156,
+          1130,
+          1351,
+          1552
+        ],
+        "hoy": {
+          "valor": 2348,
+          "fecha": "1-1-2026, Oficina Nacional de Estadística"
+        },
+        "wup": "KAZ|Almaty"
+      },
+      {
+        "nombre": "Astaná",
+        "manual": [
+          null,
+          null,
+          null,
+          276,
+          320,
+          399,
+          855
+        ],
+        "hoy": {
+          "valor": 1639,
+          "fecha": "1-1-2026, Oficina Nacional de Estadística"
+        },
+        "wup": "KAZ|Astaná"
+      },
+      {
+        "nombre": "Novosibirsk",
+        "manual": [
+          120,
+          400,
+          1200,
+          1436,
+          1425,
+          1381,
+          1548
+        ],
+        "hoy": {
+          "valor": 1637,
+          "fecha": "1-1-2025, Rosstat"
+        },
+        "wup": "RUS|Novosibirsk"
+      },
+      {
+        "nombre": "Novokuznetsk",
+        "manual": [
+          4,
+          166,
+          530,
+          601,
+          550,
+          560,
+          550
+        ],
+        "hoy": {
+          "valor": 529,
+          "fecha": "1-1-2025, Rosstat"
+        },
+        "wup": "RUS|Novokuznetsk"
+      },
+      {
+        "nombre": "Angarsk",
+        "manual": [
+          null,
+          null,
+          204,
+          268,
+          247,
+          242,
+          230
+        ],
+        "hoy": {
+          "valor": 217,
+          "fecha": "1-1-2025, Rosstat"
+        },
+        "wup": "RUS|Angarsk"
+      }
+    ],
+    "nota": "Las columnas del manual proceden de anuarios estadísticos (2009 y 2014, población calculada); Almaty 1976 es de 1966. «Hoy» es la última estimación oficial de cada país, recogida por City Population (citypopulation.de); la de Kiev es anterior a la guerra. La última columna es la ciudad continua que delimita la ONU, que puede incluir o excluir periferias: por eso Moscú y Almaty salen mayores y San Petersburgo o Novokuznetsk, menores."
+  }
+}

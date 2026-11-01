@@ -13,6 +13,7 @@
         "climas",
         "recursos",
         "poblacion",
+        "ciudades",
         "paisajes"
       ],
       "color": "#3d6fa8",
@@ -73,6 +74,7 @@
         "climas",
         "recursos",
         "poblacion",
+        "ciudades",
         "paisajes"
       ],
       "color": "#8a5fb0",
